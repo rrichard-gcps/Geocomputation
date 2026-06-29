@@ -1,0 +1,39 @@
+Package: rcds
+Title: Richard Cartographic Design System
+Version: 0.1.0
+Authors@R:
+    person("Roland", "Richard", email = "roland.a.richard@gmail.com",
+           role = c("aut", "cre"))
+Description: An opinionated cartographic design system for R. Codifies a
+    consistent visual identity (dark-canvas thematic maps with a heavy
+    display title face, a clean body face, a standardized signature caption,
+    and patchwork main + locator + credits composition) into reusable themes,
+    palette families, layout helpers, export presets, and a map-quality
+    scoring rubric. Built on ggplot2, sf, ggspatial, ggtext, showtext,
+    colorspace, and patchwork.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends:
+    R (>= 4.1.0)
+Imports:
+    ggplot2 (>= 3.4.0),
+    grid,
+    rlang,
+    scales,
+    grDevices,
+    stats
+Suggests:
+    sf,
+    ggspatial,
+    ggtext,
+    showtext,
+    sysfonts,
+    colorspace,
+    patchwork,
+    ggrepel,
+    biscale,
+    knitr
+VignetteBuilder: knitr
