@@ -1,0 +1,12 @@
+{
+    "type": [
+        0,
+        1,
+        2
+    ],
+    "data": [
+        "R>",
+        "install.packages(\"tigris\")",
+        "Error in install.packages : Updating loaded packages\n\nRestarting R session...\n\n"
+    ]
+}

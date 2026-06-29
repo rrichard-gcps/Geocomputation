@@ -1,0 +1,1 @@
+@install.packages(c("raster", "sf", "tmap", "ggplot2", "dplyr", "rvest", "httr", "reticulate"))

@@ -1,0 +1,50 @@
+---
+title: "Day 1: Points"
+---
+
+
+```{r}     
+
+# Day 1: Points - Map of All US Schools by Level (Elementary, Middle, High)
+# Using R and the EDSurvey package to create a map of all US schools, categorized by level.
+
+# Load required libraries
+library(EdSurvey)
+library(tidyverse)
+library(sf)
+library(tmap)
+
+# Load or acquire school location data (replace this with your actual data source)
+# Example: Assuming we are using CCD (Common Core of Data) data available in EDSurvey
+ccd_data <- readNAEP(system.file("extdata/data/ccd_sch_1718.sav", package = "EdSurvey"))
+
+# Data preparation
+# Filter for required columns and clean data for mapping
+schools_df <- ccd_data %>%
+  select(schoolID, schoolName, latitude, longitude, schoolLevel) %>%
+  filter(!is.na(latitude) & !is.na(longitude)) %>%
+  mutate(level_category = case_when(
+    grepl("Elementary", schoolLevel, ignore.case = TRUE) ~ "Elementary",
+    grepl("Middle", schoolLevel, ignore.case = TRUE) ~ "Middle",
+    grepl("High", schoolLevel, ignore.case = TRUE) ~ "High",
+    TRUE ~ "Other"
+  ))
+
+# Convert to spatial object
+schools_sf <- st_as_sf(schools_df, coords = c("longitude", "latitude"), crs = 4326)
+
+# Create the map using tmap
+tm <- tm_shape(schools_sf) +
+  tm_dots(col = "level_category",
+          palette = c("#1f78b4", "#33a02c", "#e31a1c"),
+          size = 0.05,
+          title = "School Level") +
+  tm_layout(title = "Map of All US Schools by Level",
+            legend.outside = TRUE)
+
+# Save the map to file or display it
+tmap_save(tm, "day1_school_map.png")
+print(tm)
+
+
+```

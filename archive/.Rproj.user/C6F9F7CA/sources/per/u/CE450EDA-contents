@@ -1,0 +1,134 @@
+# Load required libraries
+library(tidycensus)
+library(tigris)
+library(ggplot2)
+library(dplyr)
+library(sf)
+library(showtext)
+library(ggspatial)
+library(rosm)
+# library(cowplot)  # Commented out in favor of patchwork
+library(ggtext)
+
+# Set up census API key
+# census_api_key("YOUR_CENSUS_API_KEY", install = TRUE)  # Commented out
+
+# Add new fonts that signify cold or steel, suitable for Windows
+# Add new fonts using showtext
+font_add_google("Roboto", "roboto")
+font_add_google("Lato", "lato")
+showtext_auto()  # Enable font rendering
+
+# Set the appropriate CRS for Alaska (Albers Equal Area projection for Alaska)
+alaska_crs <- 3338
+
+# Get Alaska's school districts using the tigris package
+alaska_school_districts <- school_districts(state = "AK", class = "sf")
+
+# Filter for North Slope Borough School District
+north_slope <- alaska_school_districts %>%
+  filter(NAME == "North Slope Borough School District")
+
+# Transform projection to Albers Equal Area for Alaska to correct projection issues
+alaska_school_districts <- st_transform(alaska_school_districts, crs = alaska_crs)
+north_slope <- st_transform(north_slope, crs = alaska_crs)
+
+# Define Arctic Circle latitude (in degrees)
+arctic_circle_lat <- 66.5622
+
+# Create a column to identify areas north and south of the Arctic Circle
+alaska_school_districts <- alaska_school_districts %>%
+  mutate(region = ifelse(st_coordinates(st_centroid(geometry))[,2] > arctic_circle_lat, "North", "South"))
+
+# Create a data frame with school information
+schools <- data.frame(
+  name = c("Alak School", "Barrow High School", "Eben Hopson Middle School", "Fred Ipalook Elementary",
+           "Harold Kaveolook School", "Kali School", "Kiita Learning Community", "Meade River School",
+           "Nuiqsut Trapper School", "Nunamiut School", "Tikigaq School"),
+  address = c("1001 W 2nd Ave", "1965 Takpuk St", "6501 North Star St", "5241 Karluk St",
+              "1000 1st St", "1000 Qasigialik St", "7300 Dewline Rd", "1000 Uqpiq St",
+              "2230 2nd Ave", "114 Lakeview Dr", "1000 Tikigaq St"),
+  city = c("Wainwright", "Utqiaġvik", "Utqiaġvik", "Utqiaġvik",
+           "Kaktovik", "Point Lay", "Utqiaġvik", "Atqasuk",
+           "Nuiqsut", "Anaktuvuk", "Point Hope"),
+  latitude = c(70.6369, 71.2906, 71.2906, 71.2906,
+               70.1322, 69.7372, 71.2906, 70.4692,
+               70.2175, 68.1433, 68.3475),
+  longitude = c(-160.0383, -156.7886, -156.7886, -156.7886,
+                -143.6100, -163.0056, -156.7886, -157.3958,
+                -151.0056, -151.7350, -166.8083)
+)
+
+# Convert to an sf object
+schools_sf <- st_as_sf(schools, coords = c("longitude", "latitude"), crs = 4326)
+
+# Transform to match the map's CRS
+schools_sf <- st_transform(schools_sf, crs = alaska_crs)
+
+# Create an arctic circle line as an arc to match lat/lon lines
+arctic_circle_arc <- st_transform(
+  st_sfc(st_linestring(cbind(seq(-180, -130, length.out = 100), rep(arctic_circle_lat, 100))), crs = 4326),
+  crs = alaska_crs
+)
+
+# Create a styled text box with updated facts about the district using the NCES data
+# Reference: https://nces.ed.gov/ccd/schoolmap/#type=districts&districtId=0200610
+district_facts <- ggplot() +
+  theme_void() +
+  geom_richtext(
+    aes(x = -2, y = 2, label = glue::glue(
+      "<b>North Slope Borough School District</b><br><br>",
+      "- Enrollment: Approximately 2,044 students<br>",
+      "- Land Area: 88,000 square miles<br>",
+      "- Households: 2,168<br>",
+      "- Median Household Income: $83,472<br>",
+      "- Broadband Access: 64.4% of households<br>",
+      "- Predominantly American Indian/Alaska Native (50%)"
+    )),
+    fill = "#d0e6f2", label.color = NA, color = "#003366", size = 4.5, label.padding = unit(0.3, "lines"), hjust = 0, vjust = 1
+  )
+
+
+# Plot the main map using ggplot2 with corrected projection and properly clipped baselayer
+gg_main <- ggplot() +
+  geom_sf(data = alaska_school_districts %>% filter(region == "North"), fill = "#f0f0f0", color = "grey90", size = 0.2) +  # Areas north of the Arctic Circle shaded in light grey
+  geom_sf(data = alaska_school_districts %>% filter(region == "South"), fill = "#d0e6f2", color = "grey90", size = 0.2) +  # Areas south of the Arctic Circle in grey-blue
+  geom_sf(data = north_slope, fill = "#A0D6E8", color = "black", size = 0.5) +  # North Slope Borough in arctic blue
+  geom_sf(data = schools_sf, aes(size = 2), color = "#003366") +  # Plot schools as darker blue points to fit the "North...beyond the wall" theme
+  geom_sf(data = arctic_circle_arc, color = "#003366", size = 1.2, linetype = "dotted") +
+  annotate("text", x = 0, y = 66.5622, label = "Arctic Circle", color = "#003366", size = 4, fontface = "bold", angle = 0) +  # Highlight the Arctic Circle as a dotted arc in dark blue
+  coord_sf(crs = alaska_crs, xlim = c(-2500000, 2500000), ylim = c(500000, 2500000), expand = FALSE) +  # Set map limits to the boundary of Alaska
+  theme_bw() +
+  labs(title = "North Slope Borough School District in Alaska",
+       subtitle = "Largest School District in the United States by Land Area",
+       caption = "Data Source: Tigris & tidycensus, NCES",
+       x = "Longitude",
+       y = "Latitude") +  # Label x and y axes
+  theme(
+    plot.title = element_text(size = 26, face = "bold", family = "roboto", color = "#003366"),
+    plot.subtitle = element_text(size = 20, family = "lato", color = "#003366", face = "bold"),
+    plot.caption = element_text(size = 12, family = "lato", color = "#666666"),
+    axis.text = element_text(size = 14, family = "roboto", color = "#003366"),
+    axis.title.x = element_text(size = 14, family = "lato", color = "#003366"),
+    axis.title.y = element_text(size = 14, family = "lato", angle = 90, color = "#003366"),  # Rotate y-axis label vertically
+    panel.grid.major = element_line(color = "grey80", linetype = "dotted")
+  )
+
+# Combine the map and text box using patchwork
+library(patchwork)
+
+final_plot <- gg_main +
+  inset_element(district_facts, left = 0.02, bottom = 0.75, right = 0.6, top = 0.98)
+
+# Print the final combined plot
+print(final_plot)
+
+# Save the final combined map as an image file to avoid reaching elapsed time limit during rendering
+ggsave("north_slope_map_with_facts.png", plot = final_plot, width = 10, height = 12, dpi = 300)
+
+# Save spatial features as GeoPackage files for use in ArcGIS Pro
+st_write(alaska_school_districts, "alaska_school_districts.gpkg", delete_layer = TRUE)
+st_write(north_slope, "north_slope.gpkg", delete_layer = TRUE)
+st_write(schools_sf, "schools_sf.gpkg", delete_layer = TRUE)
+
+

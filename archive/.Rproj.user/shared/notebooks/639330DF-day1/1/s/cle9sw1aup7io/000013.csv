@@ -1,0 +1,7 @@
+"0","# Load or acquire school location data (replace this with your actual data source)
+# Example: Assuming we are using CCD (Common Core of Data) data available in EDSurvey
+ccd_data <- readNAEP(system.file(""extdata/data/ccd_sch_1718.sav"", package = ""EdSurvey""))
+"
+"2","Error in validate_NAEPFilePaths(path, frPath, xmlPath) : 
+  The specified “path” is invalid or cannot be found: “”.
+"

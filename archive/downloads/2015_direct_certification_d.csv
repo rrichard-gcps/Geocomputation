@@ -1,0 +1,199 @@
+FISCAL_YEAR,SYSTEM_ID,SYSTEM_NAME,direct_cert_perc
+2015,601,Appling County,39
+2015,602,Atkinson County,43
+2015,603,Bacon County,35
+2015,604,Baker County,56
+2015,605,Baldwin County,47
+2015,606,Banks County,31
+2015,607,Barrow County,27
+2015,608,Bartow County,30
+2015,609,Ben Hill County,49
+2015,610,Berrien County,40
+2015,611,Bibb County,53
+2015,612,Bleckley County,33
+2015,613,Brantley County,38
+2015,614,Brooks County,50
+2015,615,Bryan County,15
+2015,616,Bulloch County,34
+2015,617,Burke County,55
+2015,618,Butts County,41
+2015,619,Calhoun County,66
+2015,620,Camden County,24
+2015,621,Candler County,41
+2015,622,Carroll County,36
+2015,623,Catoosa County,23
+2015,624,Charlton County,35
+2015,625,Chatham County,37
+2015,626,Chattahoochee County,27
+2015,627,Chattooga County,44
+2015,628,Cherokee County,13
+2015,629,Clarke County,46
+2015,630,Clay County,82
+2015,631,Clayton County,45
+2015,632,Clinch County,46
+2015,633,Cobb County,19
+2015,634,Coffee County,41
+2015,635,Colquitt County,46
+2015,636,Columbia County,14
+2015,637,Cook County,41
+2015,638,Coweta County,23
+2015,639,Crawford County,40
+2015,640,Crisp County,52
+2015,641,Dade County,29
+2015,642,Dawson County,22
+2015,643,Decatur County,49
+2015,644,DeKalb County,39
+2015,645,Dodge County,42
+2015,646,Dooly County,65
+2015,647,Dougherty County,59
+2015,648,Douglas County,29
+2015,649,Early County,55
+2015,650,Echols County,40
+2015,651,Effingham County,19
+2015,652,Elbert County,40
+2015,653,Emanuel County,50
+2015,654,Evans County,48
+2015,655,Fannin County,32
+2015,656,Fayette County,12
+2015,657,Floyd County,32
+2015,658,Forsyth County,7
+2015,659,Franklin County,33
+2015,660,Fulton County,24
+2015,661,Gilmer County,33
+2015,662,Glascock County,30
+2015,663,Glynn County,36
+2015,664,Gordon County,34
+2015,665,Grady County,43
+2015,666,Greene County,47
+2015,667,Gwinnett County,21
+2015,668,Habersham County,28
+2015,669,Hall County,24
+2015,670,Hancock County,72
+2015,671,Haralson County,42
+2015,672,Harris County,17
+2015,673,Hart County,33
+2015,674,Heard County,39
+2015,675,Henry County,25
+2015,676,Houston County,29
+2015,677,Irwin County,44
+2015,678,Jackson County,27
+2015,679,Jasper County,43
+2015,680,Jeff Davis County,42
+2015,681,Jefferson County,54
+2015,682,Jenkins County,51
+2015,683,Johnson County,49
+2015,684,Jones County,27
+2015,685,Lamar County,36
+2015,686,Lanier County,44
+2015,687,Laurens County,37
+2015,688,Lee County,25
+2015,689,Liberty County,30
+2015,690,Lincoln County,37
+2015,691,Long County,34
+2015,692,Lowndes County,26
+2015,693,Lumpkin County,26
+2015,694,Macon County,58
+2015,695,Madison County,34
+2015,696,Marion County,42
+2015,697,McDuffie County,45
+2015,698,McIntosh County,42
+2015,699,Meriwether County,46
+2015,700,Miller County,44
+2015,701,Mitchell County,52
+2015,702,Monroe County,29
+2015,703,Montgomery County,39
+2015,704,Morgan County,30
+2015,705,Murray County,34
+2015,706,Muscogee County,41
+2015,707,Newton County,39
+2015,708,Oconee County,10
+2015,709,Oglethorpe County,30
+2015,710,Paulding County,19
+2015,711,Peach County,40
+2015,712,Pickens County,27
+2015,713,Pierce County,32
+2015,714,Pike County,22
+2015,715,Polk County,45
+2015,716,Pulaski County,47
+2015,717,Putnam County,45
+2015,718,Quitman County,54
+2015,719,Rabun County,30
+2015,720,Randolph County,63
+2015,721,Richmond County,49
+2015,722,Rockdale County,36
+2015,723,Schley County,27
+2015,724,Screven County,45
+2015,725,Seminole County,49
+2015,726,Spalding County,47
+2015,727,Stephens County,34
+2015,728,Stewart County,65
+2015,729,Sumter County,61
+2015,730,Talbot County,54
+2015,731,Taliaferro County,59
+2015,732,Tattnall County,41
+2015,733,Taylor County,41
+2015,734,Telfair County,48
+2015,735,Terrell County,68
+2015,736,Thomas County,40
+2015,737,Tift County,43
+2015,738,Toombs County,50
+2015,739,Towns County,26
+2015,740,Treutlen County,48
+2015,741,Troup County,35
+2015,742,Turner County,54
+2015,743,Twiggs County,51
+2015,744,Union County,28
+2015,745,Thomaston-Upson County,43
+2015,746,Walker County,32
+2015,747,Walton County,28
+2015,748,Ware County,44
+2015,749,Warren County,61
+2015,750,Washington County,44
+2015,751,Wayne County,37
+2015,752,Webster County,37
+2015,753,Wheeler County,46
+2015,754,White County,30
+2015,755,Whitfield County,26
+2015,756,Wilcox County,48
+2015,757,Wilkes County,48
+2015,758,Wilkinson County,54
+2015,759,Worth County,44
+2015,761,Atlanta Public Schools,51
+2015,763,Bremen City,14
+2015,764,Buford City,18
+2015,765,Calhoun City,28
+2015,766,Carrollton City,31
+2015,767,Cartersville City,30
+2015,769,Chickamauga City,10
+2015,771,Commerce City,29
+2015,772,Dalton City,29
+2015,773,Decatur City,12
+2015,774,Dublin City,66
+2015,776,Gainesville City,36
+2015,779,Jefferson City,14
+2015,781,Marietta City,34
+2015,784,Pelham City,55
+2015,785,Rome City,44
+2015,786,Social Circle City,30
+2015,789,Thomasville City,40
+2015,791,Trion City,18
+2015,792,Valdosta City,53
+2015,793,Vidalia City,39
+2015,7820108,State Charter Schools- Mountain Education Charter High School,35
+2015,7820110,State Charter Schools- Odyssey School,16
+2015,7820119,State Charter Schools- Provost Academy Georgia,36
+2015,7820120,State Charter Schools- Georgia Cyber Academy,31
+2015,7820121,State Charter Schools- Utopian Academy for the Arts Charter School,46
+2015,7820212,State Charter Schools- Cherokee Charter Academy,7
+2015,7820412,State Charter Schools- Georgia Connections Academy,26
+2015,7820512,State Charter Schools- Ivy Preparatory Young Men's Leadership Academy School,40
+2015,7820612,State Charter Schools- Ivy Prep Academy at Kirkwood for Girls School,40
+2015,7830103,Commission Charter Schools- CCAT School,19
+2015,7830110,Commission Charter Schools- Ivy Preparatory Academy School,21
+2015,7830210,Commission Charter Schools- Pataula Charter Academy,26
+2015,7830310,Commission Charter Schools- Fulton Leadership Academy,31
+2015,7830410,Commission Charter Schools- Atlanta Heights Charter School,63
+2015,7830610,Commission Charter Schools- Coweta Charter Academy,8
+2015,7991893,State Schools- Atlanta Area School for the Deaf,37
+2015,7991894,State Schools- Georgia Academy for the Blind,37
+2015,7991895,State Schools- Georgia School for the Deaf,33

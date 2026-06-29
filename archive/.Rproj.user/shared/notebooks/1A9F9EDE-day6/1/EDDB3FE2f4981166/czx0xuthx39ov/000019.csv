@@ -1,0 +1,58 @@
+"0","# Load School Data
+source(""nces_data_io.R"")
+"
+"2","Warning: [38;5;255mOne or more parsing issues, call `problems()` on your data frame for details, e.g.:
+  dat <- vroom(...)
+  problems(dat)[39m"
+"2","[1mRows: [22m[34m102268[39m [1mColumns: [22m[34m65[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (60): SCHOOL_YEAR, FIPST, STATENAME, ST, SCH_NAME, LEA_NAME, STATE_AGENCY_NO, UNION, ST_LEAID, LEAID, ST_SCHID, NCESSCH, SCHID, MSTREET1, ...
+[32mdbl[39m  (3): SY_STATUS, UPDATED_STATUS, SCH_TYPE
+[33mlgl[39m  (2): MSTREET3, LSTREET3"
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"2","Warning: [38;5;255mOne or more parsing issues, call `problems()` on your data frame for details, e.g.:
+  dat <- vroom(...)
+  problems(dat)[39m"
+"2","[1mRows: [22m[34m102218[39m [1mColumns: [22m[34m65[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (60): SCHOOL_YEAR, FIPST, STATENAME, ST, SCH_NAME, LEA_NAME, STATE_AGENCY_NO, UNION, ST_LEAID, LEAID, ST_SCHID, NCESSCH, SCHID, MSTREET1, ...
+[32mdbl[39m  (3): SY_STATUS, UPDATED_STATUS, SCH_TYPE
+[33mlgl[39m  (2): MSTREET3, LSTREET3"
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"2","[1mRows: [22m[34m474255[39m [1mColumns: [22m[34m17[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (16): SCHOOL_YEAR, FIPST, STATENAME, ST, SCH_NAME, STATE_AGENCY_NO, UNION, ST_LEAID, LEAID, ST_SCHID, NCESSCH, SCHID, DATA_GROUP, LUNCH_PR...
+[32mdbl[39m  (1): STUDENT_COUNT"
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"2","[1mRows: [22m[34m11260844[39m [1mColumns: [22m[34m18[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (17): SCHOOL_YEAR, FIPST, STATENAME, ST, SCH_NAME, STATE_AGENCY_NO, UNION, ST_LEAID, LEAID, ST_SCHID, NCESSCH, SCHID, GRADE, RACE_ETHNICIT...
+[32mdbl[39m  (1): STUDENT_COUNT"
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"2","[1mRows: [22m[34m100571[39m [1mColumns: [22m[34m15[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (14): SCHOOL_YEAR, FIPST, STATENAME, ST, SCH_NAME, STATE_AGENCY_NO, UNION, ST_LEAID, LEAID, ST_SCHID, NCESSCH, SCHID, TOTAL_INDICATOR, DMS...
+[32mdbl[39m  (1): TEACHERS"
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"2","[1mRows: [22m[34m100571[39m [1mColumns: [22m[34m17[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (17): SCHOOL_YEAR, FIPST, STATENAME, ST, SCH_NAME, STATE_AGENCY_NO, UNION, ST_LEAID, LEAID, ST_SCHID, NCESSCH, SCHID, SHARED_TIME, NSLP_ST..."
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."

@@ -1,0 +1,7 @@
+[1,"==> quarto preview day6.qmd --to html --no-watch-inputs --no-browse\n\n"]
+[1,"\r\nHello Roland, welcome to R version 4.4.1 (2024-06-14 ucrt) Race for Your Life\r\n"]
+[1,"\r\n\r\nprocessing file: day6.qmd\r\n\r  |                                                          \r  |                                                    |   0%\r  |                                                          \r  |.......                                             |  14%                  \r  |                                                          \r  |...............                                     |  29% [unnamed-chunk-1]"]
+[1,"\r  |                                                          \r  |......................                              |  43%                  \r  |                                                          \r  |..............................                      |  57% [unnamed-chunk-2]"]
+[1,"Error in rename(., elevation = file1b8453a95ce1) : \r\n  Can't rename columns that don't exist.\r\n✖ Column `file1b8453a95ce1` doesn't exist.\r\nCalls: .main ... withRestartList -> withOneRestart -> docall -> do.call -> fun\r\n\r\r\n\n\nQuitting from lines 25-53 [unnamed-chunk-2] (day6.qmd)\r\n                                                                                                            \r\nExecution halted\r\n"]
+[1,"\r\nHello Roland, welcome to R version 4.4.1 (2024-06-14 ucrt) Race for Your Life\r\n"]
+[1,"Goodbye at Wed Nov  6 10:51:09 2024\r\n\r\n"]

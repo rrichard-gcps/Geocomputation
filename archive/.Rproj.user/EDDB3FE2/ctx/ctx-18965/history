@@ -1,0 +1,512 @@
+paletteer_d("beyonce::X72")
+paletteer_d("palettetown::charmander")
+source("~/.active-rstudio-document", echo=TRUE)
+paletteer_d("palettetown::charmander")
+paletteer_d("palettetown::bulbasaur")
+paletteer_d("palettetown::machamp")
+paletteer_d("palettetown::zigzagoon")
+paletteer_d("palettetown::sunflora")
+################################################################################
+## Project:
+## Purpose:
+## Created:
+## Updated:
+## Creator:
+################################################################################
+library(sf)
+library(ggplot2)
+library(patchwork)
+library(ggtext)        # To allow for rich text formatting in ggplot
+library(grid)               # For adding labels and decorative elements
+library(showtext)      # To use Google Fonts and other fonts in ggplot
+library(paletteer)     # For the color palette
+library(dplyr)         # For data manipulation
+# Add custom fonts
+font_add_google("Uncial Antiqua", "uncial")   # Example: Add a cartography-themed font
+font_add_google("Cormorant SC", "cormorant")  # Another elegant font for cartography
+showtext_auto()
+# Load your spatial data
+us_data <- us_states
+# Assign colors by more granular regions (custom grouping)
+region_mapping <- data.frame(
+state = c("Maine", "New Hampshire", "Vermont", "Massachusetts", "Rhode Island", "Connecticut",
+"New York", "New Jersey", "Pennsylvania", "Delaware", "Maryland", "West Virginia",
+"Virginia", "Kentucky", "North Carolina", "South Carolina", "Tennessee", "Georgia",
+"Florida", "Alabama", "Mississippi", "Arkansas", "Louisiana", "Texas", "Oklahoma",
+"Missouri", "Kansas", "Nebraska", "South Dakota", "North Dakota", "Minnesota",
+"Iowa", "Wisconsin", "Illinois", "Indiana", "Michigan", "Ohio", "Washington",
+"Oregon", "Idaho", "Montana", "Wyoming", "Nevada", "Utah", "Colorado", "New Mexico",
+"Arizona", "California", "Hawaii", "Alaska"),
+region = c("New England", "New England", "New England", "New England", "New England", "New England",
+"Mid-Atlantic", "Mid-Atlantic", "Mid-Atlantic", "Mid-Atlantic", "Mid-Atlantic", "Appalachia",
+"South Atlantic", "Appalachia", "South Atlantic", "South Atlantic", "Appalachia", "South Atlantic",
+"South Atlantic", "Deep South", "Deep South", "Deep South", "Deep South", "Southwest", "Southwest",
+"Midwest", "Midwest", "Midwest", "Great Plains", "Great Plains", "Midwest",
+"Midwest", "Midwest", "Midwest", "Midwest", "Midwest", "Midwest", "Pacific Northwest",
+"Pacific Northwest", "Mountain West", "Mountain West", "Mountain West", "Mountain West", "Mountain West", "Mountain West",
+"Mountain West", "Pacific", "Pacific", "Pacific", "Pacific")
+)
+# Join region mapping to spatial data
+us_data <- us_data %>%
+left_join(region_mapping, by = c("NAME" = "state")) %>%
+mutate(color_group = factor(region))
+# Assign colors by region
+region_colors <- paletteer_d("palettetown::sunflora", n = length(unique(us_data$region)))  # Use distinct colors for regions
+# List of CRS codes for different projections
+crs_list <- c('EPSG:5070', 'EPSG:4326', 'EPSG:3857', 'ESRI:54009', 'ESRI:54030', 'ESRI:54024', 'ESRI:54052', 'EPSG:32633', 'EPSG:3031', 'ESRI:54008', 'ESRI:54012')
+# Create an empty plot list
+plot_list <- list()
+# Generate plots for each projection and add to the list
+for (i in seq_along(crs_list)) {
+crs_code <- crs_list[i]
+projected_data <- st_transform(us_data, crs = as.character(crs_code))
+plot_list[[i]] <- ggplot() +
+geom_sf(data = projected_data, aes(fill = color_group), color = "white", size = 0.2) +
+scale_fill_manual(values = region_colors) +  # Using a palette with enough colors for regions
+ggtitle(paste(switch(crs_code,
+'EPSG:5070' = 'Albers Equal Area Conic',
+'EPSG:4326' = 'WGS84',
+'EPSG:3857' = 'Pseudo-Mercator',
+'ESRI:54009' = 'Mollweide',
+'ESRI:54030' = 'Robinson',
+'ESRI:54024' = 'Bonne',
+'ESRI:54052' = "Goode's Homolosine",
+'EPSG:32633' = 'Transverse Mercator',
+'EPSG:3031' = 'Stereographic',
+'ESRI:54008' = 'Sinusoidal',
+'ESRI:54012' = 'Eckert IV'))) +
+theme_minimal() +
+theme(
+plot.title = element_text(size = 64, face = "bold", family = "uncial", color = "#D1E8E2"),
+plot.background = element_rect(fill = "#2C3E50", color = NA),
+panel.background = element_rect(fill = "#2C3E50"),
+legend.position = "none",
+axis.text = element_blank(),
+axis.ticks = element_blank(),
+axis.title = element_blank()
+)
+}
+# Combine all plots using patchwork
+combined_plot <- wrap_plots(plot_list) +
+plot_layout(ncol = 3) +
+plot_annotation(
+title = "Different Projections of the Continental US",
+subtitle = "#30DayMapChallenge - Day 26: Projections",
+theme = theme(
+plot.title = element_text(
+size = 72,
+face = "bold",
+family = "cormorant",
+color = "#EAECEE"),
+plot.subtitle = element_text(
+size = 68,
+family = "cormorant",
+color = "#D6DBDF"      ),
+plot.background = element_rect(fill = "#2C3E50", color = NA)
+)
+# Print the combined plot
+print(combined_plot)
+# To save the glossy and beautiful map for printing
+ggsave("day26_projections.png", combined_plot, width = 20, height = 15, dpi = 300) # High resolution for print quality
+paletteer_d("khroma::nightfall")
+paletteer_d("khroma::land")
+source("~/.active-rstudio-document", echo=TRUE)
+paletteer_d("khroma::land")
+# Assign colors by region
+region_colors <- paletteer_d(rev("khroma::land"), n = length(unique(us_data$region)))  # Use distinct colors for regions
+# List of CRS codes for different projections
+crs_list <- c('EPSG:5070', 'EPSG:4326', 'EPSG:3857', 'ESRI:54009', 'ESRI:54030', 'ESRI:54024', 'ESRI:54052', 'EPSG:32633', 'EPSG:3031', 'ESRI:54008', 'ESRI:54012')
+# Create an empty plot list
+plot_list <- list()
+# Generate plots for each projection and add to the list
+for (i in seq_along(crs_list)) {
+crs_code <- crs_list[i]
+projected_data <- st_transform(us_data, crs = as.character(crs_code))
+plot_list[[i]] <- ggplot() +
+geom_sf(data = projected_data, aes(fill = color_group), color = "white", size = 0.2) +
+scale_fill_manual(values = region_colors) +  # Using a palette with enough colors for regions
+ggtitle(paste(switch(crs_code,
+'EPSG:5070' = 'Albers Equal Area Conic',
+'EPSG:4326' = 'WGS84',
+'EPSG:3857' = 'Pseudo-Mercator',
+'ESRI:54009' = 'Mollweide',
+'ESRI:54030' = 'Robinson',
+'ESRI:54024' = 'Bonne',
+'ESRI:54052' = "Goode's Homolosine",
+'EPSG:32633' = 'Transverse Mercator',
+'EPSG:3031' = 'Stereographic',
+'ESRI:54008' = 'Sinusoidal',
+'ESRI:54012' = 'Eckert IV'))) +
+theme_minimal() +
+theme(
+plot.title = element_text(size = 64, face = "bold", family = "uncial", color = "#D1E8E2"),
+plot.background = element_rect(fill = "#2C3E50", color = NA),
+panel.background = element_rect(fill = "#2C3E50"),
+legend.position = "none",
+axis.text = element_blank(),
+axis.ticks = element_blank(),
+axis.title = element_blank()
+)
+}
+# Combine all plots using patchwork
+combined_plot <- wrap_plots(plot_list) +
+plot_layout(ncol = 3) +
+plot_annotation(
+title = "Different Projections of the Continental US",
+subtitle = "#30DayMapChallenge - Day 26: Projections",
+theme = theme(
+plot.title = element_text(
+size = 72,
+face = "bold",
+family = "cormorant",
+color = "#EAECEE"),
+plot.subtitle = element_text(
+size = 68,
+family = "cormorant",
+color = "#D6DBDF"      ),
+plot.background = element_rect(fill = "#2C3E50", color = NA)
+)
+# Print the combined plot
+print(combined_plot)
+# To save the glossy and beautiful map for printing
+ggsave("day26_projections.png", combined_plot, width = 20, height = 15, dpi = 300) # High resolution for print quality
+paletteer_d("khroma::land")
+paletteer_d("khroma::smoothrainbow")
+paletteer_d("dichromat::Categorical_12")
+paletteer_d("ggsci::planetexpress_futurama
+")
+paletteer_d("ggsci::planetexpress_futurama")
+source("~/.active-rstudio-document", echo=TRUE)
+gc()
+source("C:/Users/e201401047/OneDrive - Gwinnett County Public Schools/1_Projects/30DayMapChallenge2024/day26_projections.R", echo=TRUE)
+# Load libraries
+library(mapdeck)
+# Install packages if not already installed
+install.packages("mapdeck")
+install.packages("sf")
+# Install packages if not already installed
+install.packages("mapdeck")
+install.packages("sf")
+# Load libraries
+library(mapdeck)
+library(sf)
+# Set Mapbox API key
+set_token("pk.eyJ1IjoicGxhY2VlMjIiLCJhIjoiY2tndGZtNDZxMGwydzM0cW9jY2F2OG56YiJ9.tiuhj2cjdcPMDMcJr-c9rQ")
+# Define ISC location as bounding box coordinates (latitude, longitude)
+bbox <- c(
+xmin = -84.0800, # Western longitude
+ymin = 34.0200,  # Southern latitude
+xmax = -84.0780, # Eastern longitude
+ymax = 34.0215   # Northern latitude
+)
+# Create an sf polygon for the bounding box
+isc_bbox <- st_as_sfc(st_bbox(bbox, crs = st_crs(4326)))
+# Create a mapdeck map
+mapdeck(style = mapdeck_style("satellite")) %>%
+add_polygon(
+data = isc_bbox,
+fill_opacity = 0.5,
+stroke_color = "red",
+layer_id = "isc_boundary"
+)
+# Create a mapdeck map
+mapdeck(style = mapdeck_style("satellite")) %>%
+add_polygon(
+data = isc_bbox,
+fill_opacity = 0.5,
+stroke_color = "red",
+layer_id = "isc_boundary"
+)
+# Define ISC location as a point
+isc_point <- st_as_sf(
+data.frame(
+lon = -84.0790,
+lat = 34.0207
+),
+coords = c("lon", "lat"),
+crs = 4326
+)
+# Add point marker to the map
+mapdeck(style = mapdeck_style("streets")) %>%
+add_polygon(
+data = isc_bbox,
+fill_opacity = 0.5,
+stroke_color = "red",
+layer_id = "isc_boundary"
+) %>%
+add_scatterplot(
+data = isc_point,
+radius = 20,
+fill_color = "blue",
+layer_id = "isc_point"
+)
+mapdeck(
+location = c(-84.0790, 34.0207), # Center on ISC
+zoom = 18,                       # Zoom for micromap
+style = mapdeck_style("satellite")
+) %>%
+add_polygon(
+data = isc_bbox,
+fill_opacity = 0.3,
+stroke_color = "red",
+layer_id = "isc_boundary"
+) %>%
+add_scatterplot(
+data = isc_point,
+radius = 50,
+fill_color = "yellow",
+layer_id = "isc_point"
+)
+mapdeck(style = mapdeck_style("satellite"))
+mapdeck(style = mapdeck_style("satellite")) %>%
+add_polygon(
+data = isc_bbox,
+fill_opacity = 0.5,
+stroke_color = "red",
+layer_id = "isc_boundary"
+)
+View(isc_bbox)
+# Create ISC bounding box
+bbox <- c(xmin = -84.0800, ymin = 34.0200, xmax = -84.0780, ymax = 34.0215)
+isc_bbox <- st_as_sfc(st_bbox(bbox, crs = st_crs(4326)))
+# Check if bbox is valid
+if (!is.null(isc_bbox) && length(isc_bbox) > 0) {
+mapdeck(style = mapdeck_style("satellite")) %>%
+add_polygon(
+data = isc_bbox,
+fill_opacity = 0.5,
+stroke_color = "red",
+layer_id = "isc_boundary"
+)
+} else {
+stop("ISC bounding box is invalid or empty")
+}
+library(sf)
+# Manually create a bounding box (example)
+bbox <- c(xmin = -84.0800, ymin = 34.0200, xmax = -84.0780, ymax = 34.0215)
+isc_bbox <- st_as_sfc(st_bbox(bbox, crs = st_crs(4326)))
+# Test its validity
+print(isc_bbox)
+if (!is.null(data) && nrow(data) > 0) {
+mapdeck() %>%
+add_polygon(data = data, layer_id = "polygon")
+} else {
+stop("Data is invalid or empty")
+}
+mapdeck(
+location = c(-84.0790, 34.0207), # Center on ISC
+zoom = 18,                       # Zoom for micromap
+style = mapdeck_style("satellite")
+) %>%
+add_polygon(
+data = isc_bbox,
+fill_opacity = 0.3,
+stroke_color = "red",
+layer_id = "isc_boundary"
+) %>%
+add_scatterplot(
+data = isc_point,
+radius = 50,
+fill_color = "yellow",
+layer_id = "isc_point"
+)
+mapdeck(
+location = c(-84.0790, 34.0207), # Center on ISC
+zoom = 18,                       # Zoom for micromap
+style = mapdeck_style("satellite")
+)
+# Manually create a bounding box (example)
+bbox <- c(xmin = -84.062855, ymin = 34.011795, xmax = -84.051161, ymax = 34.018234)
+isc_bbox <- st_as_sfc(st_bbox(bbox, crs = st_crs(4326)))
+# Test its validity
+print(isc_bbox)
+library(sf)
+# Manually create a bounding box (example)
+bbox <- c(xmin = -84.062855, ymin = 34.011795, xmax = -84.051161, ymax = 34.018234)
+isc_bbox <- st_as_sfc(st_bbox(bbox, crs = st_crs(4326)))
+# Test its validity
+print(isc_bbox)
+if (!is.null(data) && nrow(data) > 0) {
+mapdeck() %>%
+add_polygon(data = data, layer_id = "polygon")
+} else {
+stop("Data is invalid or empty")
+}
+mapdeck(
+location = c(-84.057008, 34.015015), # Center on ISC
+zoom = 18,                       # Zoom for micromap
+style = mapdeck_style("satellite")
+)
+# Set Mapbox API key
+MAPBOX_TOKEN <- set_token("pk.eyJ1IjoicGxhY2VlMjIiLCJhIjoiY2tndGZtNDZxMGwydzM0cW9jY2F2OG56YiJ9.tiuhj2cjdcPMDMcJr-c9rQ")
+isc_coords <- c(lon = -84.0435, lat = 34.0159)  # Replace with actual values if needed
+mapdeck(token = MAPBOX_TOKEN,
+style = 'mapbox://styles/mapbox/streets-v11') %>%
+add_scatterplot(
+data = data.frame(
+lon = isc_coords["lon"],
+lat = isc_coords["lat"]
+),
+lon = "lon",
+lat = "lat",
+radius = 50,  # Radius of the point (in meters)
+fill_colour = "red",
+tooltip = "J. Alvin Wilbanks ISC",
+layer_id = "isc_point"
+)
+mapdeck(token = MAPBOX_TOKEN,
+style = 'mapbox://styles/mapbox/streets-v11') %>%
+set_view(
+location = isc_coords,
+zoom = 17  # Higher zoom levels provide more detailed views (e.g., 17 or 18)
+) %>%
+add_scatterplot(
+data = data.frame(
+lon = isc_coords["lon"],
+lat = isc_coords["lat"]
+),
+lon = "lon",
+lat = "lat",
+radius = 50,
+fill_colour = "red",
+tooltip = "J. Alvin Wilbanks ISC",
+layer_id = "isc_point"
+)
+source("~/.active-rstudio-document", echo=TRUE)
+library(mapdeck)
+# Define your Mapbox token
+MAPBOX_TOKEN <- set_token("pk.eyJ1IjoicGxhY2VlMjIiLCJhIjoiY2tndGZtNDZxMGwydzM0cW9jY2F2OG56YiJ9.tiuhj2cjdcPMDMcJr-c9rQ")
+# Define the coordinates for J. Alvin Wilbanks Instructional Support Center
+isc_coords <- c(lon = -84.0435, lat = 34.0159)  # Replace with actual values if needed
+# Create a micromap with mapdeck
+mapdeck(token = MAPBOX_TOKEN,
+style = 'mapbox://styles/mapbox/streets-v11',
+location = isc_coords,
+zoom = 17  # Set the zoom level here for detailed view
+) %>%
+add_scatterplot(
+data = data.frame(
+lon = isc_coords["lon"],
+lat = isc_coords["lat"]
+),
+lon = "lon",
+lat = "lat",
+radius = 50,  # Radius of the point (in meters)
+fill_colour = "red",
+tooltip = "J. Alvin Wilbanks ISC",
+layer_id = "isc_point"
+)
+# Create a micromap with mapdeck
+mapdeck(token = MAPBOX_TOKEN,
+style = 'mapbox://styles/mapbox/streets-v11',
+location = isc_coords,
+zoom = 17  # Set the zoom level here for detailed view
+) %>%
+add_scatterplot(
+data = data.frame(
+lon = isc_coords["lon"],
+lat = isc_coords["lat"]
+),
+lon = "lon",
+lat = "lat",
+radius = 50,  # Radius of the point (in meters)
+fill_colour = "red",
+tooltip = "J. Alvin Wilbanks ISC",
+layer_id = "isc_point"
+)
+mapdeck(token = MAPBOX_TOKEN,
+style = 'mapbox://styles/mapbox/streets-v11')
+# Create a micromap with mapdeck
+mapdeck(token = MAPBOX_TOKEN,
+style = 'mapbox://styles/mapbox/streets-v11',
+location = isc_coords,
+zoom = 17  # Set the zoom level here for detailed view
+)
+library(htmlwidgets)
+mapdeck(token = MAPBOX_TOKEN, style = 'mapbox://styles/mapbox/streets-v11') %>%
+add_scatterplot(
+data = capitals,  # A sample dataset included with mapdeck
+lat = "lat",
+lon = "lon",
+radius = 1000,
+fill_colour = "country",
+tooltip = "capital",
+layer_id = "scatter_layer"
+)
+# Micromap of Gwinnett County Public Schools' J. Alvin Wilbanks ISC using Leaflet in R
+# You can use the `leaflet` package in R to create an interactive map without needing Mapbox. Below is a code example that generates a micromap of the J. Alvin Wilbanks Instructional Support Center using Leaflet and OpenStreetMap as the tile provider.
+# Load required packages
+library(leaflet)
+# Coordinates for J. Alvin Wilbanks ISC
+latitude <- 34.0246
+longitude <- -84.0648
+# Create a leaflet map
+leaflet() %>%
+addTiles() %>%  # Add default OpenStreetMap tiles
+setView(lng = longitude, lat = latitude, zoom = 16) %>%  # Set view to ISC location
+addMarkers(lng = longitude, lat = latitude,
+popup = "J. Alvin Wilbanks Instructional Support Center<br>437 Old Peachtree Road, NW<br>Suwanee, Georgia 30024-2978")
+# Create a leaflet map
+leaflet() %>%
+addTiles() %>%  # Add default OpenStreetMap tiles
+setView(lng = longitude, lat = latitude, zoom = 17) %>%  # Set view to ISC location
+addMarkers(lng = longitude, lat = latitude,
+popup = "J. Alvin Wilbanks Instructional Support Center<br>437 Old Peachtree Road, NW<br>Suwanee, Georgia 30024-2978")
+source("~/.active-rstudio-document", echo=TRUE)
+# Create a leaflet map
+leaflet() %>%
+addProviderTiles(providers$Esri.WorldImagery) %>%  # Add satellite imagery from Esri
+setView(lng = longitude, lat = latitude, zoom = 18) %>%  # Set view to ISC location
+addMarkers(lng = longitude, lat = latitude,
+popup = "<b>J. Alvin Wilbanks Instructional Support Center</b><br>437 Old Peachtree Road, NW<br>Suwanee, Georgia 30024-2978") %>%
+addMiniMap(toggleDisplay = TRUE) %>%  # Add a mini-map for better context
+addScaleBar(position = "bottomleft") %>%  # Add a scale bar
+addMeasure(primaryLengthUnit = "meters", primaryAreaUnit = "sqmeters")  # Add a measurement tool
+# Load required packages
+library(leaflet)
+library(mapview)
+# Coordinates for J. Alvin Wilbanks ISC
+latitude <- 34.0159032
+longitude <- -84.0557096
+# Create a leaflet map with additional features
+map <- leaflet() %>%
+addProviderTiles(providers$Esri.WorldImagery) %>%  # Add satellite imagery from Esri
+setView(lng = longitude, lat = latitude, zoom = 18) %>%  # Set view to ISC location
+addMarkers(lng = longitude, lat = latitude,
+popup = "<b>J. Alvin Wilbanks Instructional Support Center</b><br>437 Old Peachtree Road, NW<br>Suwanee, Georgia 30024-2978") %>%
+addMiniMap(toggleDisplay = TRUE) %>%  # Add a mini-map for better context
+addScaleBar(position = "bottomleft") %>%  # Add a scale bar
+addMeasure(primaryLengthUnit = "meters", primaryAreaUnit = "sqmeters") %>%  # Add a measurement tool
+addCircleMarkers(lng = longitude, lat = latitude, radius = 10, color = "#ff7800", fillOpacity = 0.5, stroke = TRUE)  # Add circle marker for emphasis
+# Save map as static image
+mapview::mapshot(map, file = "J_Alvin_Wilbanks_ISC_Map.png")
+webshot::install_phantomjs()
+source("~/.active-rstudio-document", echo=TRUE)
+# Load libraries
+library(mapgl)
+install.packages('mapgl')
+# Load libraries
+library(mapgl)
+# Set MapLibre style and token
+maplibre_style <- "https://demotiles.maplibre.org/style.json"
+mapbox_token <- "pk.eyJ1IjoicGxhY2VlMjIiLCJhIjoiY2xmbGh3eDE3MDIwazNxcm9yZXFiMXd0dCJ9.WWI29IcWbDcNuvg6pD468A"
+set_mapbox_token(mapbox_token)
+# Load libraries
+library(mapgl)
+library(mapdeck)
+# Set MapLibre style and token
+maplibre_style <- "https://demotiles.maplibre.org/style.json"
+mapbox_token <- "pk.eyJ1IjoicGxhY2VlMjIiLCJhIjoiY2xmbGh3eDE3MDIwazNxcm9yZXFiMXd0dCJ9.WWI29IcWbDcNuvg6pD468A"
+set_mapbox_token(mapbox_token)
+mapboxgl(
+center = c(-97.6, 25.4)
+) |>
+fly_to(
+center = c(-96.810481, 32.790869),
+zoom = 18.4,
+pitch = 75,
+bearing = 136.8
+)
+usethis::edit_r_environ()
+# Load required packages
+library(leaflet)

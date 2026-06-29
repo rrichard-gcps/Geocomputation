@@ -1,0 +1,17 @@
+import duckdb
+
+# Connect to DuckDB, can be in-memory or a file-based database
+con = duckdb.connect('overture_data.db')
+
+# Load Parquet data into DuckDB
+con.execute("""
+    COPY (
+    SELECT *
+    FROM read_parquet("s3://overturemaps-us-west-2/release/2024-11-13.0/theme=*/type=*/*", union_by_name = True)
+    WHERE
+        bbox.xmin >= -105.30
+        AND bbox.ymin >= 39.98
+        AND bbox.xmax <= -105.24
+        AND bbox.ymax <= 40.07
+) TO 'boulder_co_overture.parquet';
+""")

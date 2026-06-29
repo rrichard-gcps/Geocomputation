@@ -1,0 +1,72 @@
+---
+title: "Untitled"
+---
+
+### Updated Elevation and School Locations Map Project
+
+Here is the updated version of your project using ggplot2 for visualization. The previous steps for obtaining the elevation and school layers are now assumed complete, focusing only on rendering the layers using ggplot2.
+
+#### Required Libraries
+
+```{r}
+library(sf)
+library(ggplot2)
+library(raster)
+library(httr)
+library(rvest)
+library(dplyr)
+library(reticulate)
+library(elevatr)
+```
+
+#### Load Elevation Data and School Data
+
+```{r}
+# Load Elevation Data
+georgia_bbox <- data.frame(x = c(-85.6052, -80.8397), y = c(30.3567, 35.0008))  # Rough bounding box for Georgia
+
+# Assume elevation_data is already retrieved using get_elev_raster or from a local DEM file
+elevation_data <- get_elev_raster(locations = georgia_bbox, prj = "EPSG:4326", z = 5)  # z specifies zoom level; adjust accordingly
+
+# Convert raster to data frame for ggplot
+elevation_df <- as.data.frame(elevation_data, xy = TRUE)
+
+# Remove NA values
+elevation_df <- na.omit(elevation_df)
+
+# Rename columns
+elevation_df <- elevation_df %>% rename(elevation = file1b8453a95ce1)
+
+# Load School Data
+source("nces_data_io.R")
+
+lvl <- c(`Elementary` = "Elementary", `Middle` = "Middle", `High` = "High")
+
+ga_schools <- ga_schools |> mutate(LEVEL = recode_factor(LEVEL, !!!lvl))
+
+ga_schools <- ga_schools |> arrange(LEVEL)
+
+# Convert school data to sf object
+school_data <- ga_schools %>% filter(!is.na(LAT) & !is.na(LON))  # Adjust column names as needed
+
+schools_sf <- st_as_sf(school_data, coords = c("LON", "LAT"), crs = 4326)
+```
+
+#### Plotting the Elevation and School Data with ggplot2
+
+```{r}
+# Plot elevation using ggplot
+p <- ggplot() +
+  geom_raster(data = elevation_df, aes(x = x, y = y, fill = elevation)) +
+  scale_fill_viridis_c() +
+  theme_minimal() +
+  labs(title = "Elevation Map of Georgia",
+       x = "Longitude", y = "Latitude", fill = "Elevation (m)")
+
+# Overlay school points
+p +
+  geom_point(data = schools_sf, aes(x = st_coordinates(schools_sf)[, 1], y = st_coordinates(schools_sf)[, 2], color = LEVEL), size = 2, alpha = 0.8) +
+  scale_color_manual(values = .tm10equal) +
+  labs(color = "School Level") +
+  theme(legend.position = "bottom")
+```

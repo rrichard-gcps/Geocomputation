@@ -1,0 +1,512 @@
+hjust = 1,  # Align text to the right
+vjust = 0   # Align text to the bottom
+)
+# Render the plot
+final_plot
+# Save the combined plot
+ggsave(final_plot,
+filename = "day4_hexagons.png",
+type = "cairo",
+scale = 1.4,  # Increased scaling factor for better readability
+width = 24,   # Increased width to make the map more prominent
+height = 18,  # Increased height to provide better balance
+units = "in",
+dpi = 150)    # High DPI for better quality
+# Main Map Plot
+day4_map <- ggplot() +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "Rural")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "Town")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "Suburban")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "City")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_outline, color = "#E0E0E0", fill = NA, lwd = 1) +
+scale_fill_manual(
+values = color_values,
+guide = guide_legend(
+title = "Locale Description:",
+direction = "horizontal",
+title.position = "top",
+label.position = "bottom",
+nrow = 1,
+title.theme = element_text(face = "bold", color = "#FFFFFF")
+)
+) +
+labs(
+title = 'US Schools by Locale, School Year 2020-21',
+subtitle = "Using National Center for Education Statistics (NCES) Locale Boundaries\n"
+) +
+theme_void(base_family = "lobster") +
+theme(
+plot.background = element_rect(fill = "#2D2D2D", color = NA),
+legend.position = "top",
+legend.direction = "horizontal",
+legend.title = element_text(size = 36, family = "lobster", face = "bold", colour = "#FFFFFF"),
+legend.text = element_text(size = 32, family = "lobster", colour = "#FFFFFF"),
+legend.spacing.x = unit(0.5, 'cm'),
+legend.box = "horizontal",
+plot.title = element_text(
+family = "lobster",
+size = 96,
+face = "bold",
+color = "#FFFFFF",
+hjust = 0.5
+),
+plot.subtitle = element_text(
+family = "lobster",
+size = 80,
+color = "#CFCFCF",
+face = "plain",
+hjust = 0.5
+),
+plot.margin = margin(5,5,5,5, "cm")  # Reduced margin to maximize map size
+)
+# Create the final plot and add annotation with cowplot
+final_plot <- ggdraw(day4_map) +
+draw_label(
+label = "#30DayMapChallenge 2024 | Day 4: Hexagons\nTool: R | Created By: Roland Richard\nData Sources: NCES, EDGE, U.S. Census Bureau 2021",
+x = 0.95,  # Position towards the right edge
+y = 0.25,  # Position towards the bottom edge
+fontfamily = "lobster",
+size = 36,  # Well-sized for readability
+color = "#CFCFCF",
+hjust = 1,  # Align text to the right
+vjust = 0   # Align text to the bottom
+)
+# Render the plot
+final_plot
+# Save the combined plot
+ggsave(final_plot,
+filename = "day4_hexagons.png",
+type = "cairo",
+scale = 1.4,  # Increased scaling factor for better readability
+width = 24,   # Increased width to make the map more prominent
+height = 18,  # Increased height to provide better balance
+units = "in",
+dpi = 150)    # High DPI for better quality
+color_values
+# Main Map Plot
+day4_map <- ggplot() +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "Rural")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "Town")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "Suburban")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "City")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_outline, color = "#E0E0E0", fill = NA, lwd = 1) +
+scale_fill_manual(
+values = color_values,
+breaks = color_values,
+guide = guide_legend(
+title = "Locale Description:",
+direction = "horizontal",
+title.position = "top",
+label.position = "bottom",
+nrow = 1,
+title.theme = element_text(face = "bold", color = "#FFFFFF")
+)
+) +
+labs(
+title = 'US Schools by Locale, School Year 2020-21',
+subtitle = "Using National Center for Education Statistics (NCES) Locale Boundaries\n"
+) +
+theme_void(base_family = "lobster") +
+theme(
+plot.background = element_rect(fill = "#2D2D2D", color = NA),
+legend.position = "top",
+legend.direction = "horizontal",
+legend.title = element_text(size = 36, family = "lobster", face = "bold", colour = "#FFFFFF"),
+legend.text = element_text(size = 32, family = "lobster", colour = "#FFFFFF"),
+legend.spacing.x = unit(0.5, 'cm'),
+legend.box = "horizontal",
+plot.title = element_text(
+family = "lobster",
+size = 96,
+face = "bold",
+color = "#FFFFFF",
+hjust = 0.5
+),
+plot.subtitle = element_text(
+family = "lobster",
+size = 80,
+color = "#CFCFCF",
+face = "plain",
+hjust = 0.5
+),
+plot.margin = margin(5,5,5,5, "cm")  # Reduced margin to maximize map size
+)
+# Create the final plot and add annotation with cowplot
+final_plot <- ggdraw(day4_map) +
+draw_label(
+label = "#30DayMapChallenge 2024 | Day 4: Hexagons\nTool: R | Created By: Roland Richard\nData Sources: NCES, EDGE, U.S. Census Bureau 2021",
+x = 0.95,  # Position towards the right edge
+y = 0.25,  # Position towards the bottom edge
+fontfamily = "lobster",
+size = 36,  # Well-sized for readability
+color = "#CFCFCF",
+hjust = 1,  # Align text to the right
+vjust = 0   # Align text to the bottom
+)
+# Render the plot
+final_plot
+# Main Map Plot
+day4_map <- ggplot() +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "Rural")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "Town")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "Suburban")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "City")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_outline, color = "#E0E0E0", fill = NA, lwd = 1) +
+scale_fill_manual(
+values = color_values,
+breaks = color_values,
+guide = guide_legend(
+title = "Locale Description:",
+direction = "horizontal",
+title.position = "top",
+label.position = "bottom",
+nrow = 2,
+title.theme = element_text(face = "bold", color = "#FFFFFF")
+)
+) +
+labs(
+title = 'US Schools by Locale, School Year 2020-21',
+subtitle = "Using National Center for Education Statistics (NCES) Locale Boundaries\n"
+) +
+theme_void(base_family = "lobster") +
+theme(
+plot.background = element_rect(fill = "#2D2D2D", color = NA),
+legend.position = "top",
+legend.direction = "horizontal",
+legend.title = element_text(size = 36, family = "lobster", face = "bold", colour = "#FFFFFF"),
+legend.text = element_text(size = 32, family = "lobster", colour = "#FFFFFF"),
+legend.spacing.x = unit(0.5, 'cm'),
+legend.box = "horizontal",
+plot.title = element_text(
+family = "lobster",
+size = 96,
+face = "bold",
+color = "#FFFFFF",
+hjust = 0.5
+),
+plot.subtitle = element_text(
+family = "lobster",
+size = 80,
+color = "#CFCFCF",
+face = "plain",
+hjust = 0.5
+),
+plot.margin = margin(5,5,5,5, "cm")  # Reduced margin to maximize map size
+)
+# Create the final plot and add annotation with cowplot
+final_plot <- ggdraw(day4_map) +
+draw_label(
+label = "#30DayMapChallenge 2024 | Day 4: Hexagons\nTool: R | Created By: Roland Richard\nData Sources: NCES, EDGE, U.S. Census Bureau 2021",
+x = 0.95,  # Position towards the right edge
+y = 0.25,  # Position towards the bottom edge
+fontfamily = "lobster",
+size = 36,  # Well-sized for readability
+color = "#CFCFCF",
+hjust = 1,  # Align text to the right
+vjust = 0   # Align text to the bottom
+)
+# Render the plot
+final_plot
+# Save the combined plot
+ggsave(final_plot,
+filename = "day4_hexagons.png",
+type = "cairo",
+scale = 1.4,  # Increased scaling factor for better readability
+width = 24,   # Increased width to make the map more prominent
+height = 18,  # Increased height to provide better balance
+units = "in",
+dpi = 150)    # High DPI for better quality
+# Main Map Plot
+day4_map <- ggplot() +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "Rural")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "Town")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "Suburban")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "City")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_outline, color = "#E0E0E0", fill = NA, lwd = 1) +
+scale_fill_manual(
+values = color_values,
+breaks = breaks = list(
+# Main Map Plot
+day4_map <- ggplot() +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "Rural")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "Town")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "Suburban")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "City")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_outline, color = "#E0E0E0", fill = NA, lwd = 1) +
+scale_fill_manual(
+values = color_values,
+breaks = list(
+"City-Large",
+"City-Midsize",
+"City-Small",
+"Suburban-Large",
+"Suburban-Midsize",
+"Suburban-Small",
+"Town-Fringe",
+"Town-Distant",
+"Town-Remote",
+"Rural-Fringe",
+"Rural-Distant",
+"Rural-Remote"
+),
+guide = guide_legend(
+title = "Locale Description:",
+direction = "horizontal",
+title.position = "top",
+label.position = "bottom",
+nrow = 2,
+title.theme = element_text(face = "bold", color = "#FFFFFF")
+)
+) +
+labs(
+title = 'US Schools by Locale, School Year 2020-21',
+subtitle = "Using National Center for Education Statistics (NCES) Locale Boundaries\n"
+) +
+theme_void(base_family = "lobster") +
+theme(
+plot.background = element_rect(fill = "#2D2D2D", color = NA),
+legend.position = "top",
+legend.direction = "horizontal",
+legend.title = element_text(size = 36, family = "lobster", face = "bold", colour = "#FFFFFF"),
+legend.text = element_text(size = 32, family = "lobster", colour = "#FFFFFF"),
+legend.spacing.x = unit(0.5, 'cm'),
+legend.box = "horizontal",
+plot.title = element_text(
+family = "lobster",
+size = 96,
+face = "bold",
+color = "#FFFFFF",
+hjust = 0.5
+),
+plot.subtitle = element_text(
+family = "lobster",
+size = 80,
+color = "#CFCFCF",
+face = "plain",
+hjust = 0.5
+),
+plot.margin = margin(5,5,5,5, "cm")  # Reduced margin to maximize map size
+)
+# Create the final plot and add annotation with cowplot
+final_plot <- ggdraw(day4_map) +
+draw_label(
+label = "#30DayMapChallenge 2024 | Day 4: Hexagons\nTool: R | Created By: Roland Richard\nData Sources: NCES, EDGE, U.S. Census Bureau 2021",
+x = 0.95,  # Position towards the right edge
+y = 0.25,  # Position towards the bottom edge
+fontfamily = "lobster",
+size = 36,  # Well-sized for readability
+color = "#CFCFCF",
+hjust = 1,  # Align text to the right
+vjust = 0   # Align text to the bottom
+)
+# Render the plot
+final_plot
+# Save the combined plot
+ggsave(final_plot,
+filename = "day4_hexagons.png",
+type = "cairo",
+scale = 1.4,  # Increased scaling factor for better readability
+width = 24,   # Increased width to make the map more prominent
+height = 18,  # Increased height to provide better balance
+units = "in",
+dpi = 150)    # High DPI for better quality
+# Main Map Plot
+day4_map <- ggplot() +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "Rural")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "Town")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "Suburban")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "City")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_outline, color = "#E0E0E0", fill = NA, lwd = 1) +
+scale_fill_manual(
+values = color_values,
+breaks = factor(
+"City-Large",
+"City-Midsize",
+"City-Small",
+"Suburban-Large",
+"Suburban-Midsize",
+"Suburban-Small",
+"Town-Fringe",
+"Town-Distant",
+"Town-Remote",
+"Rural-Fringe",
+"Rural-Distant",
+"Rural-Remote"
+),
+guide = guide_legend(
+title = "Locale Description:",
+direction = "horizontal",
+title.position = "top",
+label.position = "bottom",
+nrow = 2,
+title.theme = element_text(face = "bold", color = "#FFFFFF")
+)
+) +
+labs(
+title = 'US Schools by Locale, School Year 2020-21',
+subtitle = "Using National Center for Education Statistics (NCES) Locale Boundaries\n"
+) +
+theme_void(base_family = "lobster") +
+theme(
+plot.background = element_rect(fill = "#2D2D2D", color = NA),
+legend.position = "top",
+legend.direction = "horizontal",
+legend.title = element_text(size = 36, family = "lobster", face = "bold", colour = "#FFFFFF"),
+legend.text = element_text(size = 32, family = "lobster", colour = "#FFFFFF"),
+legend.spacing.x = unit(0.5, 'cm'),
+legend.box = "horizontal",
+plot.title = element_text(
+family = "lobster",
+size = 96,
+face = "bold",
+color = "#FFFFFF",
+hjust = 0.5
+),
+plot.subtitle = element_text(
+family = "lobster",
+size = 80,
+color = "#CFCFCF",
+face = "plain",
+hjust = 0.5
+),
+plot.margin = margin(5,5,5,5, "cm")  # Reduced margin to maximize map size
+)
+fct_inorder("City-Large",
+"City-Midsize",
+"City-Small",
+"Suburban-Large",
+"Suburban-Midsize",
+"Suburban-Small",
+"Town-Fringe",
+"Town-Distant",
+"Town-Remote",
+"Rural-Fringe",
+"Rural-Distant",
+"Rural-Remote")
+c("City-Large",
+"City-Midsize",
+"City-Small",
+"Suburban-Large",
+"Suburban-Midsize",
+"Suburban-Small",
+"Town-Fringe",
+"Town-Distant",
+"Town-Remote",
+"Rural-Fringe",
+"Rural-Distant",
+"Rural-Remote")
+# Main Map Plot
+day4_map <- ggplot() +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "Rural")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "Town")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "Suburban")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_hex_locale %>% filter(str_detect(locale_desc, "City")), mapping = aes(fill = locale_desc), size = 0.005) +
+geom_sf(data = us_outline, color = "#E0E0E0", fill = NA, lwd = 1) +
+scale_fill_manual(
+values = color_values,
+breaks =
+c(
+"City-Large",
+"Town-Fringe",
+"City-Midsize",
+"Town-Distant",
+"City-Small",
+"Town-Remote",
+"Suburban-Large",
+"Rural-Fringe",
+"Suburban-Midsize",
+"Rural-Distant",
+"Suburban-Small",
+"Rural-Remote"
+),
+guide = guide_legend(
+title = "Locale Description:",
+direction = "horizontal",
+title.position = "top",
+label.position = "bottom",
+nrow = 2,
+title.theme = element_text(face = "bold", color = "#FFFFFF")
+)
+) +
+labs(
+title = 'US Schools by Locale, School Year 2020-21',
+subtitle = "Using National Center for Education Statistics (NCES) Locale Boundaries\n"
+) +
+theme_void(base_family = "lobster") +
+theme(
+plot.background = element_rect(fill = "#2D2D2D", color = NA),
+legend.position = "top",
+legend.direction = "horizontal",
+legend.title = element_text(size = 36, family = "lobster", face = "bold", colour = "#FFFFFF"),
+legend.text = element_text(size = 32, family = "lobster", colour = "#FFFFFF"),
+legend.spacing.x = unit(0.5, 'cm'),
+legend.box = "horizontal",
+plot.title = element_text(
+family = "lobster",
+size = 96,
+face = "bold",
+color = "#FFFFFF",
+hjust = 0.5
+),
+plot.subtitle = element_text(
+family = "lobster",
+size = 80,
+color = "#CFCFCF",
+face = "plain",
+hjust = 0.5
+),
+plot.margin = margin(5,5,5,5, "cm")  # Reduced margin to maximize map size
+)
+# Create the final plot and add annotation with cowplot
+final_plot <- ggdraw(day4_map) +
+draw_label(
+label = "#30DayMapChallenge 2024 | Day 4: Hexagons\nTool: R | Created By: Roland Richard\nData Sources: NCES, EDGE, U.S. Census Bureau 2021",
+x = 0.95,  # Position towards the right edge
+y = 0.25,  # Position towards the bottom edge
+fontfamily = "lobster",
+size = 36,  # Well-sized for readability
+color = "#CFCFCF",
+hjust = 1,  # Align text to the right
+vjust = 0   # Align text to the bottom
+)
+# Render the plot
+final_plot
+# Save the combined plot
+ggsave(final_plot,
+filename = "day4_hexagons.png",
+type = "cairo",
+scale = 1.4,  # Increased scaling factor for better readability
+width = 24,   # Increased width to make the map more prominent
+height = 18,  # Increased height to provide better balance
+units = "in",
+dpi = 150)    # High DPI for better quality
+# Load the necessary libraries
+library(sf)              # For working with spatial vector data
+library(raster)          # For raster data
+library(dplyr)           # For data manipulation
+library(httr)            # For making requests to web resources
+library(rvest)           # For web scraping
+library(ggplot2)         # For visualizations
+library(leaflet)         # For interactive mapping
+library(tidyr)           # For tidying data
+# Step 1: Scrape the GHSA Website for Playoff Information and School Locations
+# Set the URL for GHSA playoff data
+url <- "https://www.ghsa.net/football-playoffs"
+# Scrape the webpage for relevant tables and extract data
+page <- read_html(url)
+source("~/.active-rstudio-document", echo=TRUE)
+# Load the necessary libraries
+library(sf)              # For working with spatial vector data
+library(raster)          # For raster data
+library(dplyr)           # For data manipulation
+library(httr)            # For making requests to web resources
+library(rvest)           # For web scraping
+library(ggplot2)         # For visualizations
+library(leaflet)         # For interactive mapping
+library(tidyr)           # For tidying data
+# Step 1: Scrape the GHSA Website for Playoff Information and School Locations
+# Set the URL for GHSA playoff data
+url <- "https://www.ghsa.net/football-playoffs"
+# Scrape the webpage for relevant tables and extract data
+page <- read_html(url)
+install.packages(c("raster", "sf", "tmap", "ggplot2", "dplyr", "rvest", "httr", "reticulate"))

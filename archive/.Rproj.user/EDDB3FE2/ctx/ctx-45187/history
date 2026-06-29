@@ -1,0 +1,512 @@
+bbox_polygon_list
+bbox_polygon_list[[1]]
+bbox_polygon_list[1]
+View(bbox_polygon)
+bbox_polygon_list[[1]][[1]]
+bbox_polygon_list[[1]][1]
+bbox_polygon_list[[1]][[1]]
+# Get elevation data for Sudan and South Sudan
+elevation <- get_elev_raster(locations = bbox_polygon_list[[1]][[1]], z = 10, clip = "bbox")  # Increase z value for higher resolution
+# Get elevation data for Sudan and South Sudan
+elevation <- get_elev_raster(locations = bbox_polygon_list[[1]], z = 10, clip = "bbox")  # Increase z value for higher resolution
+# Get elevation data for Sudan and South Sudan
+elevation <- get_elev_raster(locations = bbox_polygon_list[[1]][[1]], z = 10, clip = "bbox")  # Increase z value for higher resolution
+# Required libraries
+library(sf)          # for handling spatial data
+library(raster)      # for handling raster data
+library(ggplot2)     # for creating plots
+library(elevatr)     # for downloading elevation data
+library(dplyr)       # for data wrangling
+library(scales)      # for better color scaling
+# Load the educational facilities data
+sudan_pts <- st_read("day8_hdx/hotosm_sdn_education_facilities_points_shp.shp")
+south_sudan_pts <- st_read("day8_hdx/hotosm_ssd_education_facilities_points_shp.shp")
+# Combine the two datasets
+education_facility_pts <- bind_rows(list(sudan_pts, south_sudan_pts))
+# Convert the bounding box to a spatial object for elevation retrieval
+bbox <- st_bbox(education_facility_pts)
+# Create the coordinates for the bounding box polygon
+coords <- matrix(c(bbox["xmin"], bbox["ymin"],
+bbox["xmax"], bbox["ymin"],
+bbox["xmax"], bbox["ymax"],
+bbox["xmin"], bbox["ymax"],
+bbox["xmin"], bbox["ymin"]),
+ncol = 2, byrow = TRUE)
+# Create the polygon and ensure the CRS is applied
+bbox_polygon <- st_polygon(list(coords)) %>%
+st_sfc(crs = st_crs(education_facility_pts))  # Ensure CRS is set correctly
+# Check the CRS to make sure it is correctly assigned
+print(st_crs(bbox_polygon))
+# Get elevation data for Sudan and South Sudan
+# This will now use the corrected bbox_polygon object with a valid CRS
+elevation <- get_elev_raster(locations = bbox_polygon, z = 10, clip = "bbox")
+# Check the CRS to make sure it is correctly assigned
+print(st_crs(bbox_polygon))
+# Check the CRS to make sure it is correctly assigned
+print(st_crs(bbox_polygon[[1]][[1]]))
+# Required libraries
+library(sf)          # for handling spatial data
+library(raster)      # for handling raster data
+library(ggplot2)     # for creating plots
+library(elevatr)     # for downloading elevation data
+library(dplyr)       # for data wrangling
+library(scales)      # for better color scaling
+# Load the educational facilities data
+sudan_pts <- st_read("day8_hdx/hotosm_sdn_education_facilities_points_shp.shp")
+south_sudan_pts <- st_read("day8_hdx/hotosm_ssd_education_facilities_points_shp.shp")
+# Combine the two datasets
+education_facility_pts <- bind_rows(list(sudan_pts, south_sudan_pts))
+# Convert the bounding box to a spatial object for elevation retrieval
+bbox <- st_bbox(education_facility_pts)
+# Create the coordinates for the bounding box polygon
+coords <- matrix(c(bbox["xmin"], bbox["ymin"],
+bbox["xmax"], bbox["ymin"],
+bbox["xmax"], bbox["ymax"],
+bbox["xmin"], bbox["ymax"],
+bbox["xmin"], bbox["ymin"]),
+ncol = 2, byrow = TRUE)
+# Create the polygon and ensure the CRS is applied
+bbox_polygon <- st_polygon(list(coords)) %>%
+st_sfc(crs = st_crs(education_facility_pts))  # Ensure CRS is set correctly
+# Check the CRS to make sure it is correctly assigned
+print(st_crs(bbox_polygon))
+# Get elevation data for Sudan and South Sudan
+# This will now use the corrected bbox_polygon object with a valid CRS
+elevation <- get_elev_raster(locations = bbox_polygon, z = 10, clip = "bbox")
+library(raster)
+library(sf)
+library(rayshader)
+install.packages('rayshader')
+source("~/.active-rstudio-document", echo=TRUE)
+# R code to create an educational facilities map for Sudan and South Sudan
+library(sf)          # for handling spatial data
+library(ggplot2)     # for creating plots
+library(dplyr)       # for data wrangling
+# Unzip the downloaded shapefiles
+# unzip("education_facilities_1.zip", exdir = "day8_hdx")
+# unzip("education_facilities_2.zip", exdir = "day8_hdx")
+# unzip("education_facility_poly_1.zip", exdir = "day8_hdx")
+# unzip("education_facility_poly_2.zip", exdir = "day8_hdx")
+# Load the educational facilities data
+sudan_pts <- st_read("day8_hdx/hotosm_sdn_education_facilities_points_shp.shp")
+south_sudan_pts <- st_read("day8_hdx/hotosm_ssd_education_facilities_points_shp.shp")
+sudan_ply <- st_read("day8_hdx/hotosm_sdn_education_facilities_polygons_shp.shp")
+south_sudan_ply <- st_read("day8_hdx/hotosm_ssd_education_facilities_polygons_shp.shp")
+# Combine the two datasets
+education_facility_pts <- bind_rows(list(sudan_pts, south_sudan_pts))
+education_facility_ply <- bind_rows(list(sudan_ply, south_sudan_ply))
+# Plot the map with educational facilities
+plot_data <- ggplot() +
+geom_sf(data = education_facility_pts, color = "red", size = 0.7, alpha = 0.7) +
+labs(title = "Educational Facilities in Sudan and South Sudan",
+caption = "Data: HDX") +
+theme_minimal() +
+theme(
+plot.title = element_text(size = 20, face = "bold")
+)
+# Print the map
+print(plot_data)
+# URLs for downloading data
+haiti_education_indicators_url <- "https://data.humdata.org/dataset/unesco-data-for-haiti/resource/51c17162-3920-4d89-be9f-bbaf34ba42bc"
+haiti_school_age_population_url <- "https://data.humdata.org/dataset/51c17162-3920-4d89-be9f-bbaf34ba42bc/resource/download/haiti_school_age_population_2020.tif"
+# Load necessary libraries
+library(raster)     # To work with raster data (such as GeoTIFF files)
+library(sf)         # For handling spatial vector data
+library(ggplot2)    # For visualization
+library(tmap)       # For thematic mapping
+# Step 1: Download the data files
+download.file(haiti_school_age_population_url, destfile = "haiti_school_age_population_2020.tif", mode = "wb")
+remotes::install_github('r-tmap/tmap')
+# URLs for downloading data
+haiti_population_data_url <- "https://data.humdata.org/dataset/cod-ps-hti/resource/download/haiti_population_statistics.csv"
+haiti_boundaries_url <- "https://data.humdata.org/dataset/cod-ab-hti/resource/download/haiti_boundaries.geojson"
+# Load necessary libraries
+library(raster)     # To work with raster data (such as GeoTIFF files)
+library(sf)         # For handling spatial vector data
+library(ggplot2)    # For visualization
+library(tmap)       # For thematic mapping
+library(dplyr)      # For data manipulation
+# Step 1: Download the data files
+download.file(haiti_population_data_url, destfile = "haiti_population_statistics.csv", mode = "wb")
+download.file(haiti_boundaries_url, destfile = "haiti_boundaries.geojson", mode = "wb")
+# URLs for downloading data
+haiti_population_data_url <- "https://data.humdata.org/dataset/95ba5281-fd76-4d3a-ae29-247e1ff26447/resource/fc2ae030-c37e-4070-9f81-0f5f1c3d446c/download/hti_admpop_adm2_2024.csv"
+# Step 1: Download the data files
+download.file(haiti_population_data_url, destfile = "haiti_population_statistics.csv", mode = "wb")
+haiti_boundaries_url <- "https://data.humdata.org/dataset/777e8b06-337f-4295-80bc-ca1515244215/resource/9b57a285-e12f-4d1a-b167-676d96a2b4af/download/hti_adm_cnigs_20181129.zip"
+download.file(haiti_boundaries_url, destfile = "haiti_boundaries.geojson", mode = "wb")
+download.file(haiti_boundaries_url, destfile = "haiti_boundaries", mode = "wb")
+# Unzip the downloaded shapefiles
+unzip("hti_adm_cnigs_20181129.zip", exdir = "day8_hdx")
+haiti_boundaries_url <- "https://data.humdata.org/dataset/777e8b06-337f-4295-80bc-ca1515244215/resource/9b57a285-e12f-4d1a-b167-676d96a2b4af/download/hti_adm_cnigs_20181129.zip"
+# Unzip the downloaded shapefiles
+unzip("hti_adm_cnigs_20181129.zip", exdir = "day8_hdx")
+# Step 2: Load the CSV and GeoJSON data
+haiti_population_data <- read.csv("day8_hdx/hti_admpop_adm2_2024.csv")
+haiti_boundaries <- st_read("day8_hdx/hti_admbndl_admALL_cnigs_itos_20181129.shp")
+plot(haiti_boundaries)
+View(haiti_boundaries)
+library(rio)
+haiti_gazetter <- import("day8_hdx/hti_admgz.xlsx")
+View(haiti_gazetter)
+haiti_gazetter <- import_list("day8_hdx/hti_admgz.xlsx",rbind = T)
+View(haiti_gazetter)
+################################################################################
+## Project: day8_hdx
+## Purpose:
+## Created:
+## Updated:
+## Creator:
+################################################################################
+# Load necessary libraries
+library(raster)     # To work with raster data (such as GeoTIFF files)
+library(sf)         # For handling spatial vector data
+library(ggplot2)    # For visualization
+library(tmap)       # For thematic mapping
+library(dplyr)      # For data manipulation
+library(rio)
+# Step 2: Load the CSV and GeoJSON data
+haiti_population_data <- read.csv("day8_hdx/hti_admpop_adm2_2024.csv")
+haiti_boundaries <- st_read("day8_hdx/hti_admbndl_admALL_cnigs_itos_20181129.shp")
+haiti_gazetter <- import_list("day8_hdx/hti_admgz.xlsx",rbind = T)
+View(haiti_population_data)
+glimpse(haiti_population_data)
+################################################################################
+## Project: day8_hdx
+## Purpose:
+## Created:
+## Updated:
+## Creator:
+################################################################################
+# Load necessary libraries
+library(raster)     # To work with raster data (such as GeoTIFF files)
+library(sf)         # For handling spatial vector data
+library(ggplot2)    # For visualization
+library(tmap)       # For thematic mapping
+library(dplyr)      # For data manipulation
+library(rio)        # For importing Excel files
+library(patchwork)  # For arranging multiple plots
+# Step 2: Load the CSV, GeoJSON, and Gazetteer data
+haiti_population_data <- read.csv("day8_hdx/hti_admpop_adm2_2024.csv")
+haiti_boundaries <- st_read("day8_hdx/hti_admbndl_admALL_cnigs_itos_20181129.shp")
+haiti_gazetter <- import_list("day8_hdx/hti_admgz.xlsx", setclass = "data.frame")
+# Extract each sheet from gazetteer as a separate data frame
+gazetteer_data_frames <- lapply(names(haiti_gazetter), function(sheet) {
+assign(sheet, haiti_gazetter[[sheet]], envir = .GlobalEnv)
+})
+# Step 3: Filter for Population Data by Gender
+haiti_total_population <- haiti_population_data %>%
+select(ADM2_PCODE, ADM2_EN, T_TL, F_TL, M_TL) %>%
+rename(total_population = T_TL, female_population = F_TL, male_population = M_TL)
+View(haiti_total_population)
+################################################################################
+## Project: day8_hdx
+## Purpose:
+## Created:
+## Updated:
+## Creator:
+################################################################################
+# Load necessary libraries
+library(raster)     # To work with raster data (such as GeoTIFF files)
+library(sf)         # For handling spatial vector data
+library(ggplot2)    # For visualization
+library(tmap)       # For thematic mapping
+library(dplyr)      # For data manipulation
+library(rio)        # For importing Excel files
+library(patchwork)  # For arranging multiple plots
+# Step 2: Load the CSV, GeoJSON, and Gazetteer data
+haiti_population_data <- read.csv("day8_hdx/hti_admpop_adm2_2024.csv")
+haiti_boundaries <- st_read("day8_hdx/hti_admbndl_admALL_cnigs_itos_20181129.shp")
+haiti_gazetter <- import_list("day8_hdx/hti_admgz.xlsx", setclass = "data.frame")
+# Extract each sheet from gazetteer as a separate data frame
+gazetteer_data_frames <- lapply(names(haiti_gazetter), function(sheet) {
+assign(sheet, haiti_gazetter[[sheet]], envir = .GlobalEnv)
+})
+# Step 3: Filter for Population Data by Gender (Ages 5-19)
+haiti_total_population <- haiti_population_data %>%
+select(ADM2_PCODE, ADM2_EN, F_05_09, F_10_14, F_15_19, M_05_09, M_10_14, M_15_19) %>%
+mutate(
+female_population = F_05_09 + F_10_14 + F_15_19,
+male_population = M_05_09 + M_10_14 + M_15_19,
+total_population = female_population + male_population
+) %>%
+select(ADM2_PCODE, ADM2_EN, total_population, female_population, male_population)
+# Step 4: Load the boundaries for visualization
+haiti_communes <- haiti_boundaries %>% filter(admin_level == 3)     # Communal Sections (most granular)
+################################################################################
+## Project: day8_hdx
+## Purpose:
+## Created:
+## Updated:
+## Creator:
+################################################################################
+# Load necessary libraries
+library(raster)     # To work with raster data (such as GeoTIFF files)
+library(sf)         # For handling spatial vector data
+library(ggplot2)    # For visualization
+library(tmap)       # For thematic mapping
+library(dplyr)      # For data manipulation
+library(rio)        # For importing Excel files
+library(patchwork)  # For arranging multiple plots
+# Step 2: Load the CSV, GeoJSON, and Gazetteer data
+haiti_population_data <- read.csv("day8_hdx/hti_admpop_adm2_2024.csv")
+haiti_boundaries <- st_read("day8_hdx/hti_admbndl_admALL_cnigs_itos_20181129.shp")
+haiti_gazetter <- import_list("day8_hdx/hti_admgz.xlsx", setclass = "data.frame")
+# Extract each sheet from gazetteer as a separate data frame
+gazetteer_data_frames <- lapply(names(haiti_gazetter), function(sheet) {
+assign(sheet, haiti_gazetter[[sheet]], envir = .GlobalEnv)
+})
+# Step 3: Filter for Population Data by Gender (Ages 5-19)
+haiti_total_population <- haiti_population_data %>%
+select(ADM2_PCODE, ADM2_EN, F_05_09, F_10_14, F_15_19, M_05_09, M_10_14, M_15_19) %>%
+mutate(
+female_population = F_05_09 + F_10_14 + F_15_19,
+male_population = M_05_09 + M_10_14 + M_15_19,
+total_population = female_population + male_population
+) %>%
+select(ADM2_PCODE, ADM2_EN, total_population, female_population, male_population)
+# Step 4: Load the boundaries for visualization
+haiti_communes <- haiti_boundaries %>% filter(admin_level == 3)     # Communal Sections (most granular)
+################################################################################
+## Project: day8_hdx
+## Purpose:
+## Created:
+## Updated:
+## Creator:
+################################################################################
+# Load necessary libraries
+library(raster)     # To work with raster data (such as GeoTIFF files)
+library(sf)         # For handling spatial vector data
+library(ggplot2)    # For visualization
+library(tmap)       # For thematic mapping
+library(dplyr)      # For data manipulation
+library(rio)        # For importing Excel files
+library(patchwork)  # For arranging multiple plots
+# Step 2: Load the CSV, GeoJSON, and Gazetteer data
+haiti_population_data <- read.csv("day8_hdx/hti_admpop_adm2_2024.csv")
+haiti_boundaries <- st_read("day8_hdx/hti_admbndl_admALL_cnigs_itos_20181129.shp")
+haiti_gazetter <- import_list("day8_hdx/hti_admgz.xlsx", setclass = "data.frame")
+# Extract each sheet from gazetteer as a separate data frame
+gazetteer_data_frames <- lapply(names(haiti_gazetter), function(sheet) {
+assign(sheet, haiti_gazetter[[sheet]], envir = .GlobalEnv)
+})
+# Step 3: Filter for Population Data by Gender (Ages 5-19)
+haiti_total_population <- haiti_population_data %>%
+select(ADM2_PCODE, ADM2_EN, F_05_09, F_10_14, F_15_19, M_05_09, M_10_14, M_15_19) %>%
+mutate(
+female_population = F_05_09 + F_10_14 + F_15_19,
+male_population = M_05_09 + M_10_14 + M_15_19,
+total_population = female_population + male_population
+) %>%
+select(ADM2_PCODE, ADM2_EN, total_population, female_population, male_population)
+haiti_boundaries
+################################################################################
+## Project: day8_hdx
+## Purpose:
+## Created:
+## Updated:
+## Creator:
+################################################################################
+# Load necessary libraries
+library(raster)     # To work with raster data (such as GeoTIFF files)
+library(sf)         # For handling spatial vector data
+library(ggplot2)    # For visualization
+library(tmap)       # For thematic mapping
+library(dplyr)      # For data manipulation
+library(rio)        # For importing Excel files
+library(patchwork)  # For arranging multiple plots
+library(janitor)    # For cleaning column names
+# Step 2: Load the CSV, GeoJSON, and Gazetteer data
+haiti_population_data <- read.csv("day8_hdx/hti_admpop_adm2_2024.csv") %>%
+clean_names()  # Clean column names to avoid confusion
+haiti_boundaries <- st_read("day8_hdx/hti_admbndl_admALL_cnigs_itos_20181129.shp") %>%
+clean_names()  # Clean column names to avoid confusion
+haiti_gazetter <- import_list("day8_hdx/hti_admgz.xlsx", setclass = "data.frame")
+# Extract each sheet from gazetteer as a separate data frame
+gazetteer_data_frames <- lapply(names(haiti_gazetter), function(sheet) {
+assign(sheet, haiti_gazetter[[sheet]], envir = .GlobalEnv)
+})
+# Step 3: Filter for Population Data by Gender (Ages 5-19)
+haiti_total_population <- haiti_population_data %>%
+select(adm2_pcode, adm2_en, f_05_09, f_10_14, f_15_19, m_05_09, m_10_14, m_15_19) %>%
+mutate(
+female_population = f_05_09 + f_10_14 + f_15_19,
+male_population = m_05_09 + m_10_14 + m_15_19,
+total_population = female_population + male_population
+) %>%
+select(adm2_pcode, adm2_en, total_population, female_population, male_population)
+# Step 4: Load the boundaries for visualization
+haiti_communes <- haiti_boundaries %>% filter(adm_level == 3)     # Communal Sections (most granular)
+# Step 5: Join Population Data with Spatial Data
+haiti_communes <- left_join(haiti_communes, haiti_total_population, by = c("adm2_pcode" = "adm2_pcode"))
+################################################################################
+## Project: day8_hdx
+## Purpose:
+## Created:
+## Updated:
+## Creator:
+################################################################################
+# Load necessary libraries
+library(raster)     # To work with raster data (such as GeoTIFF files)
+library(sf)         # For handling spatial vector data
+library(ggplot2)    # For visualization
+library(tmap)       # For thematic mapping
+library(dplyr)      # For data manipulation
+library(rio)        # For importing Excel files
+library(patchwork)  # For arranging multiple plots
+library(janitor)    # For cleaning column names
+# Step 2: Load the CSV, GeoJSON, and Gazetteer data
+haiti_population_data <- read.csv("day8_hdx/hti_admpop_adm2_2024.csv") %>%
+clean_names()  # Clean column names to avoid confusion
+haiti_boundaries <- st_read("day8_hdx/hti_admbndl_admALL_cnigs_itos_20181129.shp") %>%
+clean_names()  # Clean column names to avoid confusion
+haiti_gazetter <- import_list("day8_hdx/hti_admgz.xlsx", setclass = "data.frame")
+# Extract each sheet from gazetteer as a separate data frame
+gazetteer_data_frames <- lapply(names(haiti_gazetter), function(sheet) {
+assign(sheet, haiti_gazetter[[sheet]], envir = .GlobalEnv)
+})
+# Step 3: Filter for Population Data by Gender (Ages 5-19)
+haiti_total_population <- haiti_population_data %>%
+select(adm2_pcode, adm2_en, f_05_09, f_10_14, f_15_19, m_05_09, m_10_14, m_15_19) %>%
+mutate(
+female_population = f_05_09 + f_10_14 + f_15_19,
+male_population = m_05_09 + m_10_14 + m_15_19,
+total_population = female_population + male_population
+) %>%
+select(adm2_pcode, adm2_en, total_population, female_population, male_population)
+# Step 4: Load the boundaries for visualization
+haiti_communes <- haiti_boundaries %>% filter(adm_level == 3)     # Communal Sections (most granular)
+# Step 5: Join Population Data with Spatial Data
+haiti_communes <- left_join(haiti_communes, haiti_total_population, by = c("adm2_pcode" = "adm2_pcode"))
+################################################################################
+## Project: day8_hdx
+## Purpose:
+## Created:
+## Updated:
+## Creator:
+################################################################################
+# Load necessary libraries
+library(raster)     # To work with raster data (such as GeoTIFF files)
+library(sf)         # For handling spatial vector data
+library(ggplot2)    # For visualization
+library(tmap)       # For thematic mapping
+library(dplyr)      # For data manipulation
+library(rio)        # For importing Excel files
+library(patchwork)  # For arranging multiple plots
+library(janitor)    # For cleaning column names
+# Step 2: Load the CSV, GeoJSON, and Gazetteer data
+haiti_population_data <- read.csv("day8_hdx/hti_admpop_adm2_2024.csv") %>%
+clean_names()  # Clean column names to avoid confusion
+haiti_boundaries <- st_read("day8_hdx/hti_admbndl_admALL_cnigs_itos_20181129.shp") %>%
+clean_names()  # Clean column names to avoid confusion
+haiti_gazetter <- import_list("day8_hdx/hti_admgz.xlsx", setclass = "data.frame")
+# Extract each sheet from gazetteer as a separate data frame
+gazetteer_data_frames <- lapply(names(haiti_gazetter), function(sheet) {
+assign(sheet, haiti_gazetter[[sheet]], envir = .GlobalEnv)
+})
+# Step 3: Filter for Population Data by Gender (Ages 5-19)
+haiti_total_population <- haiti_population_data %>%
+select(adm2_pcode, adm2_en, f_05_09, f_10_14, f_15_19, m_05_09, m_10_14, m_15_19) %>%
+mutate(
+female_population = f_05_09 + f_10_14 + f_15_19,
+male_population = m_05_09 + m_10_14 + m_15_19,
+total_population = female_population + male_population
+) %>%
+select(adm2_pcode, adm2_en, total_population, female_population, male_population)
+# Step 4: Load the boundaries for visualization
+haiti_communes <- haiti_boundaries %>% filter(adm_level == 3)     # Communal Sections (most granular)
+# Step 4: Load the boundaries for visualization
+haiti_communes <- haiti_boundaries %>% filter(adm_level == 3)     # Communal Sections (most granular)
+# Step 5: Join Population Data with Spatial Data
+haiti_communes <- left_join(haiti_communes, haiti_total_population, by = c("adm2_pcode" = "adm2_pcode"))
+haiti_total_population
+haiti_communes
+# Step 2: Load the CSV, GeoJSON, and Gazetteer data
+haiti_population_data <- read.csv("day8_hdx/hti_admpop_adm2_2024.csv") %>%
+clean_names()  # Clean column names to avoid confusion
+haiti_boundaries <- st_read("day8_hdx/hti_admbndl_admALL_cnigs_itos_20181129.shp") %>%
+clean_names()  # Clean column names to avoid confusion
+haiti_gazetter <- import_list("day8_hdx/hti_admgz.xlsx", setclass = "data.frame") %>%
+lapply(clean_names)  # Clean column names for each sheet in the gazetteer
+# Assume there is a gazetteer sheet linking `adm2_pcode` to `adm_level`
+link_table <- haiti_gazetter[["link_sheet"]]  # Replace "link_sheet" with the actual name of the sheet
+link_table <- link_table %>%
+select(adm2_pcode, adm_level, commune_name)  # Select relevant columns
+# Assume there is a gazetteer sheet linking `adm2_pcode` to `adm_level`
+link_table <- haiti_gazetter[["link_sheet"]]  # Replace "link_sheet" with the actual name of the sheet
+link_table <- link_table %>%
+select(adm2_pcode, adm_level, commune_name)  # Select relevant columns
+link_table
+View(haiti_gazetter)
+################################################################################
+## Project: day8_hdx
+## Purpose:
+## Created:
+## Updated:
+## Creator:
+################################################################################
+# Load necessary libraries
+library(raster)     # To work with raster data (such as GeoTIFF files)
+library(sf)         # For handling spatial vector data
+library(ggplot2)    # For visualization
+library(tmap)       # For thematic mapping
+library(dplyr)      # For data manipulation
+library(rio)        # For importing Excel files
+library(patchwork)  # For arranging multiple plots
+library(janitor)    # For cleaning column names
+# Step 2: Load the CSV, GeoJSON, and Gazetteer data
+haiti_population_data <- read.csv("day8_hdx/hti_admpop_adm2_2024.csv") %>%
+clean_names()  # Clean column names to avoid confusion
+haiti_boundaries <- st_read("day8_hdx/hti_admbndl_admALL_cnigs_itos_20181129.shp") %>%
+clean_names()  # Clean column names to avoid confusion
+haiti_gazetter <- import_list("day8_hdx/hti_admgz.xlsx", setclass = "data.frame") %>%
+lapply(clean_names)  # Clean column names for each sheet in the gazetteer
+# Step 3: Explore Gazetteer Data to Find a Linking Column
+# Print the names of all gazetteer sheets to understand what data is available
+print(names(haiti_gazetter))
+link_table <- haiti_gazetter[["admin_mapping"]] %>%  # Replace 'admin_mapping' with the actual name
+select(adm2_pcode, adm_level, commune_name)
+View(haiti_gazetter)
+haiti_gazetter[["hti_admgz_adm1"]]
+haiti_gazetter[["hti_admgz_adm3"]]
+################################################################################
+## Project: day8_hdx
+## Purpose:
+## Created:
+## Updated:
+## Creator:
+################################################################################
+# Load necessary libraries
+library(raster)     # To work with raster data (such as GeoTIFF files)
+library(sf)         # For handling spatial vector data
+library(ggplot2)    # For visualization
+library(tmap)       # For thematic mapping
+library(dplyr)      # For data manipulation
+library(rio)        # For importing Excel files
+library(patchwork)  # For arranging multiple plots
+library(janitor)    # For cleaning column names
+# Step 2: Load the CSV, GeoJSON, and Gazetteer data
+haiti_population_data <- read.csv("day8_hdx/hti_admpop_adm2_2024.csv") %>%
+clean_names()  # Clean column names to avoid confusion
+haiti_boundaries <- st_read("day8_hdx/hti_admbndl_admALL_cnigs_itos_20181129.shp") %>%
+clean_names()  # Clean column names to avoid confusion
+haiti_gazetter <- import_list("day8_hdx/hti_admgz.xlsx", setclass = "data.frame")
+# Extract each sheet from gazetteer as a separate data frame
+gazetteer_data_frames <- lapply(names(haiti_gazetter), function(sheet) {
+assign(sheet, haiti_gazetter[[sheet]], envir = .GlobalEnv)
+})
+View(gazetteer_data_frames)
+gazetteer_data_frames[[4]][["ADM3_EN"]]
+gazetteer_data_frames[[3]]
+View(haiti_boundaries)
+View(hti_admgz_adm3)
+View(haiti_population_data)
+View(haiti_total_population)
+haiti_boundaries
+plot(haiti_boundaries)
+haiti_communes
+# Step 4: Load the boundaries for visualization
+haiti_communes <- hti_admgz_adm2
+# Step 5: Join Population Data with Spatial Data
+haiti_communes <- left_join(haiti_communes, haiti_total_population, by = c("adm2_pcode" = "adm2_pcode"))
+haiti_communes
