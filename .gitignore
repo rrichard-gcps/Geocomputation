@@ -1,0 +1,79 @@
+# ===========================================================================
+# Large data files (exceed GitHub size limits - removed from history)
+# ===========================================================================
+# NCES / CCD data
+archive/data/ccd_sch_052_2223_l_1a_083023.csv
+archive/data/ccd_sch_033_2223_l_1a_083023.csv
+archive/data/us_sch.dbf
+archive/data/temp.zip
+archive/data/EDGE_Locale21_US.zip
+archive/data/EDGE_Locale21_US/
+archive/data/EDGE_GEOCODE_PUBLICSCH_2223/
+
+# Georgia enrollment data
+archive/downloads/georgia_enrollment_data_by_grade_level_combined.csv
+
+# Shapefiles / GeoJSON (large)
+archive/us_block_groups_with_team_colors.dbf
+archive/us_block_groups_with_team_colors.shp
+archive/us_block_groups_with_team_colors.shx
+archive/us_school_districts.geojson
+
+# GCPS large renders
+archive/GCPS High School Clusters SY 2025.svg
+archive/GCPS High School Clusters SY 2025.pdf
+archive/gcps_typography.png
+
+# Large CSV
+archive/day25_data.csv
+
+# ===========================================================================
+# R / RStudio
+# ===========================================================================
+.Rproj.user/
+**/.Rproj.user/
+*.Rdata
+*.RData
+.RData
+.Rhistory
+
+# ===========================================================================
+# Python
+# ===========================================================================
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# ===========================================================================
+# Caches (map tiles, temp files)
+# ===========================================================================
+archive/rosm.cache/
+archive/temp_files/
+*.cache/
+
+# ===========================================================================
+# SAS data files (often large)
+# ===========================================================================
+*.sas7bdat
+
+# ===========================================================================
+# OS / Editor
+# ===========================================================================
+.Thumbs.db
+.DS_Store
+*.swp
+*.swo
+*~
+
+# ===========================================================================
+# Quarto
+# ===========================================================================
+/.quarto/
+_archive/.quarto/
+
+# ===========================================================================
+# Analysis artifacts
+# ===========================================================================
+analyze-blobs.ps1
+blobs.txt
