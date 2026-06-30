@@ -3,6 +3,8 @@
 #' @keywords internal
 #' @importFrom rlang %||% .data
 #' @importFrom utils packageVersion
+#' @importFrom grDevices colorRampPalette
+#' @importFrom stats setNames
 "_PACKAGE"
 
 # `%||%` is imported from rlang (see NAMESPACE) and used throughout.

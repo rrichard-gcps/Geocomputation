@@ -423,15 +423,15 @@ maps so quality is measured, not asserted.
 |-----------|-------:|---------------------------|
 | Layout | 15 | margins, alignment, panel proportions, white space |
 | Visual hierarchy | 15 | message lands first; clear primary/secondary order |
-| Typography | 10 | one voice, scale-based sizes, no clashes |
 | Colour | 15 | perceptual, right scale type, on-brand, not over-saturated |
+| Typography | 10 | one voice, scale-based sizes, no clashes |
 | Accessibility | 10 | colourblind-safe, greyscale-survivable, contrast |
-| Legends | 10 | ordered, titled, right sizing, integrated |
 | Labelling | 10 | placement, density, collision handling, halos |
 | Balance & composition | 10 | framing, focal point, inset/credit integration |
+| Legends | 5 | ordered, titled, right sizing, integrated |
 | Storytelling | 5 | a clear, argued point |
-| Technical execution | 10 | projection, geometry, resolution, export hygiene |
-| **Total** | **100** | |
+| Technical execution | 5 | projection, geometry, resolution, export hygiene |
+| **Total** | **100** | three pillars (15) · four craft dimensions (10) · three supporting (5) |
 
 Grades: A+ ≥97 · A ≥93 · A- ≥90 · B+ ≥87 · B ≥83 · B- ≥80 · C+ ≥77 · C ≥73 ·
 C- ≥70 · D range 60–69 · F <60.
