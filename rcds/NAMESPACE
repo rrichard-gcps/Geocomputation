@@ -46,6 +46,10 @@ export(rcds_score_template)
 export(rcds_lint)
 export(rcds_lint_dir)
 
+# Accessibility proofing
+export(rcds_cvd_check)
+export(rcds_greyscale_check)
+
 importFrom(grDevices, colorRampPalette)
 importFrom(stats, setNames)
 importFrom(rlang, "%||%")

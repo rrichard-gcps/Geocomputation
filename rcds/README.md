@@ -59,6 +59,7 @@ rcds_export(fig, "day16.png", preset = "poster_land", canvas = "dark")
 | Compose & export | `rcds_compose()`, `rcds_export()`, `rcds_export_presets()` |
 | Quality | `rcds_score()`, `rcds_grade()`, `rcds_score_template()` |
 | Linting | `rcds_lint()`, `rcds_lint_dir()` |
+| Accessibility | `rcds_cvd_check()`, `rcds_greyscale_check()` |
 
 ## Linting & tests
 
@@ -71,6 +72,9 @@ signature, type scale, lint).
 ```r
 rcds_lint("archive/day25_heat.R")   # findings as a tidy data.frame
 rcds_lint_dir("archive")            # scan a whole folder
+
+rcds_cvd_check("qual_brand")        # colourblind simulation + confusable-pair flags
+rcds_greyscale_check("seq_blue")    # survives black-and-white printing?
 ```
 
 ## Templates
