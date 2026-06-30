@@ -58,6 +58,20 @@ rcds_export(fig, "day16.png", preset = "poster_land", canvas = "dark")
 | Components | `rcds_signature()`, `rcds_credits()`, `rcds_scalebar()`, `rcds_north_arrow()`, `rcds_locator()`, `rcds_annotation_box()` |
 | Compose & export | `rcds_compose()`, `rcds_export()`, `rcds_export_presets()` |
 | Quality | `rcds_score()`, `rcds_grade()`, `rcds_score_template()` |
+| Linting | `rcds_lint()`, `rcds_lint_dir()` |
+
+## Linting & tests
+
+`rcds_lint()` enforces the design system's anti-patterns (RCDS.md §8) on any
+script — deprecated `size=`, rainbow-on-ordered-data, hardcoded font paths,
+inline keys, signature drift, copy-pasted themes, magic sizes, non-hygienic
+exports. `tests/testthat/` covers the pure-R surface (tokens, palettes, scoring,
+signature, type scale, lint).
+
+```r
+rcds_lint("archive/day25_heat.R")   # findings as a tidy data.frame
+rcds_lint_dir("archive")            # scan a whole folder
+```
 
 ## Templates
 

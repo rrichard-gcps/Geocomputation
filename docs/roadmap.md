@@ -14,12 +14,17 @@ reusable.
 ## Prioritized roadmap
 
 ### Now (v0.1 → v0.2) — adopt & prove
-1. **Refactor 3 flagship maps through `rcds`** (Days 16, 22, 30) as the reference
-   "v2" set and a regression baseline. *Highest signal: proves the system end to end.*
-2. **Re-score** the refactored maps with `rcds_score()`; confirm the +pts the
-   matrix predicts. Commit scores to `archive-review.md`.
-3. **Vignette:** `vignettes/getting-started.Rmd` walking the 60-second tour.
-4. **`R CMD check`** clean: roxygenize, fill `man/`, fix any namespace gaps.
+1. ~~**Refactor 3 flagship maps through `rcds`**~~ ✅ Done — Days 16, 7, 30 →
+   `archive/*_rcds.R`, see `CHANGELOG-v2.md`.
+2. **Re-score** the refactored maps with `rcds_score()` once R is available;
+   replace the projected numbers in `archive-review.md` with actuals.
+3. ~~**`rcds_lint()`** anti-pattern enforcement~~ ✅ Done (pulled forward from
+   v0.3 — highest leverage for "prevent in future work"). Rules A1–A8 + tests.
+4. ~~**Unit tests** for the pure-R surface~~ ✅ Done — `tests/testthat/` covers
+   tokens, palettes, scoring, signature, type scale, and lint.
+5. **Vignette:** `vignettes/getting-started.Rmd` walking the 60-second tour.
+6. **`R CMD check`** clean: roxygenize tags → regenerate `man/`/`NAMESPACE`,
+   add `@importFrom rlang .data`, confirm green.
 
 ### Next (v0.2 → v0.3) — broaden coverage
 5. **Templates** for the missing types: dot density, hexbin, raster + hillshade,

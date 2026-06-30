@@ -343,7 +343,14 @@ use, when not, and the `rcds` call.
 
 ## 8. Anti-patterns
 
-Recurring mistakes in the archive, why they hurt, and the fix.
+Recurring mistakes in the archive, why they hurt, and the fix. Most are now
+**enforced mechanically** by `rcds_lint()` (rule codes `A1`–`A8` below) — run it
+on any script before export, or over the whole archive with `rcds_lint_dir()`.
+
+```r
+rcds_lint("archive/day25_heat.R")     # one script
+rcds_lint_dir("archive")              # the whole folder
+```
 
 ### A1 — Rainbow scale on ordered data
 - **Where:** Day 25 (Spectral/BluetoDarkOrange on enrollment), Day 2 (Spectral

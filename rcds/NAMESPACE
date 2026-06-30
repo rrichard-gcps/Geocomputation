@@ -42,6 +42,10 @@ export(rcds_score)
 export(rcds_grade)
 export(rcds_score_template)
 
+# Linting
+export(rcds_lint)
+export(rcds_lint_dir)
+
 importFrom(grDevices, colorRampPalette)
 importFrom(stats, setNames)
 importFrom(rlang, "%||%")
