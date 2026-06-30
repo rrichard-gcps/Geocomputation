@@ -60,6 +60,7 @@ rcds_export(fig, "day16.png", preset = "poster_land", canvas = "dark")
 | Quality | `rcds_score()`, `rcds_grade()`, `rcds_score_template()` |
 | Linting | `rcds_lint()`, `rcds_lint_dir()` |
 | Accessibility | `rcds_cvd_check()`, `rcds_greyscale_check()` |
+| Interactive | `rcds_leaflet()`, `rcds_pal_leaflet()`, `rcds_leaflet_choropleth()`, `rcds_interactive_css()`, `rcds_maplibre_style()`, `rcds_save_widget()` |
 
 ## Linting & tests
 
@@ -76,6 +77,23 @@ rcds_lint_dir("archive")            # scan a whole folder
 rcds_cvd_check("qual_brand")        # colourblind simulation + confusable-pair flags
 rcds_greyscale_check("seq_blue")    # survives black-and-white printing?
 ```
+
+## Interactive maps (one identity, two renderers)
+
+Static and interactive maps share `rcds_tokens()`, so they look like the same
+system. Leaflet starts on a matching basemap with token-driven CSS:
+
+```r
+rcds_fonts("default")
+rcds_leaflet(canvas = "dark") |>
+  rcds_leaflet_choropleth(districts, value = "enrollment",
+                          palette = "seq_blue", legend_title = "Enrollment") |>
+  rcds_save_widget("enrollment.html")
+```
+
+`rcds_interactive_css()` emits a `:root { --rcds-* }` block — the seam where an
+imported design system (e.g. a Claude Design project) drops in. See
+`inst/interactive/README.md` and `docs/claude-design-integration.md`.
 
 ## Templates
 

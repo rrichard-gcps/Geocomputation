@@ -50,6 +50,15 @@ export(rcds_lint_dir)
 export(rcds_cvd_check)
 export(rcds_greyscale_check)
 
+# Interactive maps
+export(rcds_basemaps)
+export(rcds_interactive_css)
+export(rcds_leaflet)
+export(rcds_pal_leaflet)
+export(rcds_leaflet_choropleth)
+export(rcds_maplibre_style)
+export(rcds_save_widget)
+
 importFrom(grDevices, colorRampPalette)
 importFrom(stats, setNames)
 importFrom(rlang, "%||%")

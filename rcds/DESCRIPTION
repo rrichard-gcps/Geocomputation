@@ -35,6 +35,10 @@ Suggests:
     ggrepel,
     biscale,
     scales,
+    leaflet,
+    htmltools,
+    htmlwidgets,
+    mapgl,
     knitr,
     rmarkdown,
     testthat (>= 3.0.0)
