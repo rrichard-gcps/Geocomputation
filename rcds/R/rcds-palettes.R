@@ -64,6 +64,11 @@ rcds_pal <- function(name, n = NULL, reverse = FALSE, type = "auto") {
   if (!name %in% names(defs)) {
     stop(sprintf("Unknown palette '%s'. See rcds_palettes().", name), call. = FALSE)
   }
+  # Bivariate families are a named "x-y" lookup grid, not a ramp: the names ARE
+  # the payload, so return them intact (n/type/reverse don't apply).
+  if (grepl("^biv_", name)) {
+    return(defs[[name]])
+  }
   cols <- unname(defs[[name]])
   is_qual <- grepl("^qual_", name)
   if (is.null(n)) n <- length(cols)

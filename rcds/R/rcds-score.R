@@ -5,12 +5,12 @@
 #' map by rating each criterion 0-1 (fraction of points earned); the function
 #' applies the weights and returns the total, letter grade, and a tidy breakdown.
 #'
-#' Weights (out of 100):
+#' Weights (sum to exactly 100):
 #' \tabular{lr}{
-#'   Layout \tab 15 \cr Visual hierarchy \tab 15 \cr Typography \tab 10 \cr
-#'   Colour \tab 15 \cr Accessibility \tab 10 \cr Legends \tab 10 \cr
-#'   Labelling \tab 10 \cr Balance & composition \tab 10 \cr
-#'   Storytelling \tab 5 \cr Technical execution \tab 10 \cr
+#'   Layout \tab 15 \cr Visual hierarchy \tab 15 \cr Colour \tab 15 \cr
+#'   Typography \tab 10 \cr Accessibility \tab 10 \cr Labelling \tab 10 \cr
+#'   Balance & composition \tab 10 \cr Legends \tab 5 \cr
+#'   Storytelling \tab 5 \cr Technical execution \tab 5 \cr
 #' }
 #'
 #' @param ... Named criterion ratings in `[0, 1]`. Valid names are returned by
@@ -91,8 +91,13 @@ rcds_score_template <- function() {
 }
 
 #' @keywords internal
+#' Weights sum to exactly 100: three pillars at 15 (Layout, Visual hierarchy,
+#' Colour), four craft/growth dimensions at 10 (Typography, Accessibility,
+#' Labelling, Balance), three supporting dimensions at 5 (Legends, Storytelling,
+#' Technical). (The brief's listed weights summed to 110; this is the corrected,
+#' normalised allocation.)
 .rcds_score_weights <- function() {
   c(layout = 15, hierarchy = 15, typography = 10, colour = 15,
-    accessibility = 10, legends = 10, labelling = 10, balance = 10,
-    storytelling = 5, technical = 10)
+    accessibility = 10, legends = 5, labelling = 10, balance = 10,
+    storytelling = 5, technical = 5)
 }

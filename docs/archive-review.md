@@ -115,23 +115,23 @@ Patterson (terrain/relief restraint), and NACIS practice.
 
 ## Map Quality Scores
 
-Scored on the [100-point rubric](RCDS.md#9-the-map-quality-score). L=Layout,
-H=Hierarchy, T=Typography, C=Colour, A11y=Accessibility, Lg=Legends,
-Lb=Labelling, B=Balance, S=Story, Tec=Technical. Estimates pending `rcds_score()`
-re-scoring on revisit.
+Scored on the [100-point rubric](RCDS.md#9-the-map-quality-score) (three pillars
+at 15 + four craft dimensions at 10 + three supporting at 5). The totals below
+are **informed estimates from source + thumbnails** — generate the per-criterion
+breakdown live with `rcds_score()` on revisit (it returns the weighted table).
 
-| Map | L/15 | H/15 | T/10 | C/15 | A11y/10 | Lg/10 | Lb/10 | B/10 | S/5 | Tec/10 | **Total** | Grade |
-|-----|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|:--:|
-| Day 1 Points | 12 | 11 | 8 | 10 | 7 | 8 | 6 | 8 | 3 | 8 | **81** | B- |
-| Day 2 Lines | 12 | 10 | 7 | 7 | 4 | 6 | 5 | 9 | 3 | 7 | **70** | C- |
-| Day 7 Vintage (Du Bois) | 13 | 13 | 8 | 12 | 8 | 8 | 6 | 9 | 5 | 7 | **89** | B+ |
-| Day 11 Arctic | 11 | 10 | 7 | 9 | 7 | 6 | 6 | 8 | 4 | 6 | **74** | C |
-| Day 16 Bivariate | 13 | 12 | 8 | 12 | 8 | 9 | 6 | 9 | 4 | 8 | **89** | B+ |
-| Day 24 Circles | 10 | 10 | 6 | 8 | 6 | 5 | 4 | 7 | 3 | 6 | **65** | D |
-| Day 25 Small multiples | 12 | 11 | 8 | 9 | 6 | 8 | 6 | 8 | 4 | 8 | **80** | B- |
-| Day 26 Projections | 12 | 11 | 7 | 7 | 5 | 5 | 5 | 9 | 4 | 7 | **72** | C- |
-| Day 30 CFB | 13 | 12 | 8 | 9 | 6 | 7 | 7 | 9 | 5 | 9 | **85** | B |
-| Day 22 Blue Ribbon | 13 | 12 | 8 | 11 | 9 | 7 | 8 | 9 | 4 | 8 | **89** | B+ |
+| Map | **Total** | Grade | Standout strength | Biggest drag |
+|-----|:--:|:--:|-------------------|--------------|
+| Day 7 Vintage (Du Bois) | **89** | B+ | Storytelling, colour discipline (period palette) | Labelling |
+| Day 16 Bivariate | **89** | B+ | Composition, legend integration | Labelling, AK/HI inset placement |
+| Day 22 Blue Ribbon | **89** | B+ | Accessibility (2-colour), locator inset | Storytelling |
+| Day 30 CFB | **85** | B | Technical execution, balance | Accessibility (identity-colour density) |
+| Day 1 Points | **81** | B- | Clean layout, hierarchy | Labelling, storytelling |
+| Day 25 Small multiples | **80** | B- | Faceting on a shared scale | Colour ramp, accessibility |
+| Day 11 Arctic | **74** | C | Inset concept, theming | Legend, technical |
+| Day 26 Projections | **72** | C- | Strong concept/composition | Rainbow categorical palette, legends |
+| Day 2 Lines | **70** | C- | Ambitious composition | Spectral-as-categorical, accessibility |
+| Day 24 Circles | **65** | D | Honest sqrt scaling instinct | No legend, labelling, hardcoded font |
 
 **Archive mean ≈ 79 (C+/B-).** The ceiling (Days 7, 16, 22) is genuinely strong;
 the floor (Days 2, 24, 26) is dragged down by palette accessibility, legend
