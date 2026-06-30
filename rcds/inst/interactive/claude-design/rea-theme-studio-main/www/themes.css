@@ -1,0 +1,104 @@
+/* ============================================================================
+   themes.css — GCPS Studio UI themes (selectable)
+   ----------------------------------------------------------------------------
+   Each theme overrides ONLY the chrome tokens, scoped to the studio root via
+   .gcps-studio[data-theme="…"]. The --gcps-* DATA palettes are never touched,
+   so swatches/ramps look identical across themes — only the shell changes.
+
+   LOAD ORDER: explorer.css → app.css → themes.css (this file last).
+   DEFAULT: editorial (matches current explorer.css; selecting it is a no-op).
+   Token names match explorer.css exactly, so existing app.css inherits them.
+   Adds one new token, --font-display, for heading type (see heading rule below).
+   ========================================================================== */
+
+/* ---- Editorial (current · warm, hairline) -------------------------------- */
+.gcps-studio[data-theme="editorial"]{
+  --canvas:#F7F6F3; --surface:#FFFFFF; --sunken:#F1EFEA; --border:#E4E1D9; --border-strong:#CFCBC0;
+  --text:#1F2120; --text-2:#5C5A54; --text-3:#8A8780;
+  --accent:#660000; --accent-hover:#540000; --accent-tint:#F4EAEA;
+  --font-sans:'Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,sans-serif;
+  --font-display:'Segoe UI',system-ui,sans-serif;
+  --r-sm:6px; --r-md:10px; --r-lg:14px;
+  --sh-1:0 1px 2px rgba(31,33,32,.05),0 1px 1px rgba(31,33,32,.03);
+  --sh-2:0 2px 8px rgba(31,33,32,.06),0 1px 2px rgba(31,33,32,.04);
+  --sh-3:0 8px 28px rgba(31,33,32,.10);
+}
+
+/* ---- Clarity (crisp white, cool grey · Datawrapper-clean) ----------------- */
+.gcps-studio[data-theme="clarity"]{
+  --canvas:#FFFFFF; --surface:#FFFFFF; --sunken:#F5F7FA; --border:#E4E7EB; --border-strong:#CBD2D9;
+  --text:#1F2933; --text-2:#52606D; --text-3:#9AA5B1;
+  --accent:#660000; --accent-hover:#540000; --accent-tint:#F4EAEA;
+  --font-sans:system-ui,'Segoe UI',sans-serif; --font-display:system-ui,'Segoe UI',sans-serif;
+  --r-sm:5px; --r-md:8px; --r-lg:10px;
+  --sh-1:0 1px 2px rgba(15,23,42,.04);
+  --sh-2:0 2px 6px rgba(15,23,42,.06);
+  --sh-3:0 6px 20px rgba(15,23,42,.10);
+}
+
+/* ---- Studio Dark (presentation / screen) --------------------------------- */
+.gcps-studio[data-theme="dark"]{
+  --canvas:#14161A; --surface:#1C1F26; --sunken:#23272F; --border:#2C313C; --border-strong:#3A4150;
+  --text:#F2F4F7; --text-2:#AEB6C2; --text-3:#7E8794;
+  --accent:#E98A7D; --accent-hover:#F2A99E; --accent-tint:#2A1F1F;   /* lightened maroon for dark legibility */
+  --font-sans:system-ui,'Segoe UI',sans-serif; --font-display:system-ui,'Segoe UI',sans-serif;
+  --r-sm:7px; --r-md:12px; --r-lg:16px;
+  --sh-1:0 1px 2px rgba(0,0,0,.35);
+  --sh-2:0 4px 14px rgba(0,0,0,.40);
+  --sh-3:0 10px 30px rgba(0,0,0,.45);
+}
+
+/* ---- Soft (rounded, friendly · product) ---------------------------------- */
+.gcps-studio[data-theme="soft"]{
+  --canvas:#F5F6FB; --surface:#FFFFFF; --sunken:#EEF0F7; --border:#E6E8F0; --border-strong:#D2D6E4;
+  --text:#24262B; --text-2:#5B6070; --text-3:#9CA3B4;
+  --accent:#660000; --accent-hover:#540000; --accent-tint:#F3E9F0;
+  --font-sans:system-ui,'Segoe UI',sans-serif; --font-display:system-ui,'Segoe UI',sans-serif;
+  --r-sm:10px; --r-md:16px; --r-lg:22px;
+  --sh-1:0 2px 8px rgba(40,44,80,.07);
+  --sh-2:0 6px 24px rgba(40,44,80,.10);
+  --sh-3:0 14px 40px rgba(40,44,80,.14);
+}
+
+/* ---- Bold (big type, high contrast · data journalism) -------------------- */
+.gcps-studio[data-theme="bold"]{
+  --canvas:#FFFFFF; --surface:#FFFFFF; --sunken:#F2F2F2; --border:#111111; --border-strong:#111111;
+  --text:#0A0A0A; --text-2:#3A3A3A; --text-3:#6E6E6E;
+  --accent:#660000; --accent-hover:#540000; --accent-tint:#F4EAEA;
+  --font-sans:system-ui,'Segoe UI',sans-serif; --font-display:system-ui,'Segoe UI',sans-serif;
+  --r-sm:3px; --r-md:3px; --r-lg:3px;
+  --sh-1:none; --sh-2:none; --sh-3:none;
+}
+
+/* ---- Civic (serif headings, official · public report) -------------------- */
+.gcps-studio[data-theme="civic"]{
+  --canvas:#F4F6F9; --surface:#FFFFFF; --sunken:#EAEEF3; --border:#D7DEE7; --border-strong:#BCC7D4;
+  --text:#15233B; --text-2:#3F4F66; --text-3:#7B8799;
+  --accent:#660000; --accent-hover:#540000; --accent-tint:#EDE3E3;
+  --font-sans:system-ui,'Segoe UI',sans-serif; --font-display:Georgia,'Times New Roman',serif;
+  --r-sm:5px; --r-md:6px; --r-lg:8px;
+  --sh-1:0 1px 3px rgba(21,35,59,.06);
+  --sh-2:0 2px 6px rgba(21,35,59,.08);
+  --sh-3:0 8px 22px rgba(21,35,59,.12);
+}
+
+/* ---- Cross-theme structural hooks ---------------------------------------
+   Headings pick up --font-display (Cline: map these selectors to the studio's
+   actual heading/title classes — featured palette title, section headings,
+   display/h1). Falls back to --font-sans when a theme doesn't set it. */
+.gcps-studio { font-family: var(--font-sans); }
+.gcps-studio h1, .gcps-studio h2, .gcps-studio h3,
+.gcps-studio .section-h, .gcps-studio .gcps-featured-title, .gcps-studio .disp-title {
+  font-family: var(--font-display, var(--font-sans));
+}
+/* Bold theme: heavier display + 2px rules to match the gallery */
+.gcps-studio[data-theme="bold"] h1,
+.gcps-studio[data-theme="bold"] .gcps-featured-title { font-weight: 800; letter-spacing: -.03em; }
+.gcps-studio[data-theme="bold"] .gcps-featured,
+.gcps-studio[data-theme="bold"] .gcard,
+.gcps-studio[data-theme="bold"] .code-card,
+.gcps-studio[data-theme="bold"] .gcps-kpi-card { border-width: 2px; }
+
+/* NOTE for dark theme: any swatch/card hairline hard-coded as rgba(31,33,32,…)
+   in app.css will vanish on the dark canvas. Cline: replace those literals with
+   var(--border) so borders adapt. Data-swatch fills (--gcps-*) stay as-is. */

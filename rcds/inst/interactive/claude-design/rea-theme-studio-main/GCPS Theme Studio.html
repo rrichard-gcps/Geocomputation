@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>GCPS Theme Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Lexend:wght@300;400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --serif:'Spectral',Georgia,serif;
+  --sans:'Source Sans 3',system-ui,-apple-system,sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,Consolas,monospace;
+  --canvas:#F7F6F3; --surface:#FFFFFF; --sunken:#F1EFEA; --border:#E4E1D9; --border-strong:#CFCBC0;
+  --text:#1F2120; --text-2:#5C5A54; --text-3:#8A8780;
+  --accent:#660000; --accent-hover:#540000; --accent-tint:#F4EAEA; --accent-line:#E0CACA;
+  --pass:#1A7F37; --warn:#9A6700; --fail:#B42318;
+  --s1:4px;--s2:8px;--s3:12px;--s4:16px;--s5:24px;--s6:32px;--s7:48px;--s8:64px;
+  --r-sm:6px;--r-md:10px;--r-lg:14px;
+  --sh-1:0 1px 2px rgba(31,33,32,.04),0 1px 1px rgba(31,33,32,.03);
+  --sh-2:0 2px 8px rgba(31,33,32,.06),0 1px 2px rgba(31,33,32,.04);
+  --sh-3:0 8px 28px rgba(31,33,32,.10);
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:var(--sans);background:var(--canvas);color:var(--text);font-size:14.5px;line-height:1.5;-webkit-font-smoothing:antialiased;}
+.mono{font-family:var(--mono);}
+
+/* topbar */
+.topbar{position:sticky;top:0;z-index:30;display:flex;align-items:center;gap:var(--s3);height:56px;padding:0 var(--s6);background:var(--surface);border-bottom:1px solid var(--border);}
+.brand{display:flex;align-items:center;gap:var(--s3);}
+.logo{width:26px;height:26px;border-radius:6px;background:var(--accent);}
+.brand .nm{font-size:15px;font-weight:600;letter-spacing:-.01em;}
+.brand .nm span{color:var(--text-3);font-weight:400;}
+.topbar .grow{flex:1;}
+.pill{font-family:var(--mono);font-size:11px;color:var(--text-2);border:1px solid var(--border);border-radius:999px;padding:4px 11px;background:var(--canvas);}
+.pill b{color:var(--pass);font-weight:500;}
+
+.wrap{max-width:1140px;margin:0 auto;padding:var(--s6) var(--s6) var(--s8);}
+header.hd{margin-bottom:var(--s5);}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:var(--s3);display:flex;gap:var(--s2);align-items:center;}
+.kicker .idx{color:var(--text-3);}
+h1{font-family:var(--serif);font-size:40px;line-height:1.05;font-weight:600;letter-spacing:-.022em;margin-bottom:var(--s3);}
+.sub{font-size:16px;line-height:1.55;color:var(--text-2);max-width:72ch;text-wrap:pretty;}
+
+/* tab nav */
+.tabs{display:flex;gap:var(--s5);border-bottom:1px solid var(--border);margin:var(--s6) 0 var(--s5);flex-wrap:wrap;}
+.tab{font-size:14px;font-weight:500;color:var(--text-3);padding:0 0 var(--s3);position:relative;background:none;border:0;cursor:pointer;font-family:var(--sans);white-space:nowrap;}
+.tab:hover{color:var(--text-2);}
+.tab[aria-selected="true"]{color:var(--text);}
+.tab[aria-selected="true"]::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--accent);}
+.panel-tab{display:none;}
+.panel-tab.active{display:block;}
+
+/* shared controls */
+.panel{background:var(--surface);border:1px solid var(--border);border-radius:var(--r-lg);box-shadow:var(--sh-1);padding:var(--s5);margin-bottom:var(--s5);}
+.panel-label{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-3);margin-bottom:var(--s3);}
+.row{display:flex;gap:var(--s4);flex-wrap:wrap;align-items:center;}
+.seg{display:inline-flex;gap:2px;background:var(--sunken);border:1px solid var(--border);border-radius:var(--r-sm);padding:3px;flex-wrap:wrap;}
+.seg button{font-family:var(--sans);font-size:12.5px;font-weight:500;color:var(--text-2);padding:6px 12px;border:0;background:transparent;border-radius:4px;cursor:pointer;white-space:nowrap;}
+.seg button:hover{color:var(--text);}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--accent);box-shadow:var(--sh-1);}
+.chip-row{display:flex;gap:var(--s2);flex-wrap:wrap;}
+.chip{display:flex;align-items:center;gap:var(--s2);padding:7px 12px 7px 7px;border:1px solid var(--border);border-radius:999px;background:var(--surface);cursor:pointer;font-size:13px;font-weight:500;color:var(--text-2);}
+.chip:hover{border-color:var(--border-strong);color:var(--text);}
+.chip .dot{width:20px;height:20px;border-radius:50%;border:1px solid rgba(31,33,32,.12);flex:none;}
+.chip[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent);color:var(--accent);}
+.chip .nm{text-transform:capitalize;}
+.toggle{display:inline-flex;align-items:center;gap:var(--s2);font-size:12.5px;color:var(--text-2);cursor:pointer;user-select:none;}
+.toggle input{appearance:none;width:34px;height:20px;border-radius:999px;background:var(--border-strong);position:relative;cursor:pointer;transition:background .15s;flex:none;}
+.toggle input::after{content:"";position:absolute;top:2px;left:2px;width:16px;height:16px;border-radius:50%;background:#fff;transition:transform .15s;box-shadow:var(--sh-1);}
+.toggle input:checked{background:var(--accent);}
+.toggle input:checked::after{transform:translateX(14px);}
+.lbl{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-3);}
+.stepper{display:inline-flex;align-items:center;border:1px solid var(--border-strong);border-radius:var(--r-sm);background:var(--surface);overflow:hidden;}
+.stepper button{font-size:16px;font-weight:600;color:var(--text-2);width:32px;height:32px;border:0;background:transparent;cursor:pointer;}
+.stepper button:hover:not(:disabled){background:var(--sunken);color:var(--accent);}
+.stepper button:disabled{opacity:.3;cursor:not-allowed;}
+.stepper .val{min-width:56px;text-align:center;font-family:var(--mono);font-size:13px;border-left:1px solid var(--border);border-right:1px solid var(--border);line-height:32px;}
+.subctrls{display:none;gap:var(--s4);margin-top:var(--s4);flex-wrap:wrap;align-items:center;}
+.subctrls.show{display:flex;}
+select{font-family:var(--sans);font-size:14px;padding:9px 12px;border:1px solid var(--border-strong);border-radius:var(--r-sm);background:var(--surface);color:var(--text);}
+input[type=range]{accent-color:var(--accent);}
+.school-resolved{font-size:13px;color:var(--text-2);display:inline-flex;align-items:center;gap:var(--s2);}
+.school-resolved .dot{width:16px;height:16px;border-radius:50%;}
+.school-resolved b{color:var(--text);}
+
+/* palette display */
+.disp-title{font-family:var(--serif);font-size:24px;font-weight:600;letter-spacing:-.01em;}
+.disp-purpose{font-size:13.5px;color:var(--text-2);margin-top:4px;max-width:74ch;}
+.disp-meta{font-size:11.5px;color:var(--text-3);margin-top:var(--s2);font-family:var(--mono);}
+.ramp{display:grid;gap:var(--s2);grid-auto-flow:column;grid-auto-columns:1fr;margin-top:var(--s4);}
+.ramp.gridwrap{grid-auto-flow:row;grid-template-columns:repeat(var(--cols,7),1fr);}
+.trend-row{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s3);margin-top:var(--s4);}
+.sw{border:1px solid rgba(31,33,32,.08);border-radius:var(--r-sm);overflow:hidden;cursor:pointer;background:var(--surface);transition:transform .1s,box-shadow .14s;position:relative;}
+.sw:hover{transform:translateY(-2px);box-shadow:var(--sh-2);}
+.sw .swatch{height:70px;display:flex;align-items:flex-start;justify-content:flex-end;padding:6px;}
+.sw .cp{font-size:10px;font-weight:600;font-family:var(--mono);background:rgba(255,255,255,.92);color:var(--text);padding:2px 6px;border-radius:4px;opacity:0;transition:opacity .12s;}
+.sw:hover .cp{opacity:1;}
+.sw .lbl{padding:7px 8px 8px;}
+.sw .num{font-size:11.5px;font-weight:600;font-family:var(--mono);}
+.sw .sem{font-size:11px;color:var(--text-2);margin-top:1px;line-height:1.25;}
+.sw .hex{font-size:10px;color:var(--text-3);font-family:var(--mono);text-transform:uppercase;margin-top:2px;}
+body:not(.semantic) .sw .sem{display:none;}
+
+/* typography specimen */
+.spec-scope{margin-top:var(--s4);}
+.type-row{display:grid;grid-template-columns:150px 1fr;gap:var(--s5);padding:var(--s4) 0;border-bottom:1px solid var(--border);align-items:baseline;}
+.type-row:last-child{border-bottom:0;}
+.type-row .meta{font-family:var(--mono);font-size:11px;color:var(--text-3);line-height:1.7;}
+.type-row .meta b{color:var(--text-2);font-weight:500;display:block;}
+.specimen{color:var(--text);}
+.fontcard{display:flex;flex-direction:column;gap:4px;padding:var(--s4);border:1px solid var(--border);border-radius:var(--r-md);background:var(--surface);cursor:pointer;text-align:left;}
+.fontcard:hover{border-color:var(--border-strong);}
+.fontcard[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent);}
+.fontcard .fn{font-size:20px;font-weight:600;}
+.fontcard .fu{font-size:12px;color:var(--text-2);line-height:1.4;}
+.fontgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:var(--s3);}
+
+/* surfaces */
+.surf-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:var(--s3);}
+.surf-card{border:1px solid var(--border);border-radius:var(--r-md);overflow:hidden;cursor:pointer;background:var(--surface);}
+.surf-card[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent);}
+.surf-prev{height:64px;display:flex;}
+.surf-prev span{flex:1;}
+.surf-meta{padding:10px var(--s3);}
+.surf-meta .sn{font-size:13.5px;font-weight:600;}
+.surf-meta .snote{font-size:11.5px;color:var(--text-2);margin-top:2px;line-height:1.4;}
+.token-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:var(--s3);margin-top:var(--s4);}
+.token{border:1px solid var(--border);border-radius:var(--r-md);overflow:hidden;}
+.token .chip{height:46px;border-bottom:1px solid var(--border);}
+.token .tb{padding:8px 10px;}
+.token .role{font-size:12px;font-weight:600;}
+.token .hx{font-family:var(--mono);font-size:10px;color:var(--text-3);}
+
+/* spacing scale */
+.space-scale{display:flex;flex-direction:column;gap:var(--s3);}
+.space-row{display:grid;grid-template-columns:48px 56px 1fr;gap:var(--s4);align-items:center;}
+.space-row .name{font-family:var(--mono);font-size:11px;color:var(--accent);}
+.space-row .val{font-family:var(--mono);font-size:11px;color:var(--text-3);}
+.space-row .bar{height:14px;background:var(--accent-tint);border-left:2px solid var(--accent);border-radius:0 3px 3px 0;}
+
+/* theme preview (scoped) */
+.tp{border:1px solid var(--pv-border);border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--sh-3);background:var(--pv-canvas);color:var(--pv-text);font-family:var(--pv-font);}
+.tp-bar{height:48px;background:var(--pv-surface);border-bottom:1px solid var(--pv-border);display:flex;align-items:center;gap:var(--s3);padding:0 var(--s4);}
+.tp-bar .mk{width:22px;height:22px;border-radius:5px;background:var(--pv-accent);}
+.tp-bar .tt{font-weight:600;font-size:15px;}
+.tp-bar .tt span{color:var(--pv-text3);font-weight:400;}
+.tp-body{padding:var(--s5);}
+.tp-orient{font-size:12px;color:var(--pv-text3);margin-bottom:var(--s4);}
+.tp-kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--s3);margin-bottom:var(--s4);}
+.tp-kpi{background:var(--pv-surface);border:1px solid var(--pv-border);border-left:3px solid var(--pv-rampmid);border-radius:var(--r-sm);padding:var(--s3);}
+.tp-kpi .k{font-size:10px;color:var(--pv-text3);text-transform:uppercase;letter-spacing:.08em;}
+.tp-kpi .v{font-size:23px;font-weight:600;letter-spacing:-.01em;margin-top:2px;}
+.tp-kpi .d{font-size:10px;color:var(--pass);margin-top:2px;}
+.tp-row{display:grid;grid-template-columns:1.6fr 1fr;gap:var(--s3);}
+.tp-card{background:var(--pv-surface);border:1px solid var(--pv-border);border-radius:var(--r-sm);padding:var(--s4);}
+.tp-card .ch{font-size:13px;font-weight:600;margin-bottom:var(--s3);}
+.tp-bars{display:flex;align-items:flex-end;gap:8px;height:120px;}
+.tp-bars .b{flex:1;border-radius:3px 3px 0 0;}
+.tp-legend{display:flex;flex-direction:column;gap:var(--s2);}
+.tp-lg{display:flex;align-items:center;gap:var(--s2);font-size:12px;color:var(--pv-text2);}
+.tp-lg .dot{width:10px;height:10px;border-radius:3px;}
+.tp-btn{margin-top:var(--s4);display:inline-block;background:var(--pv-accent);color:#fff;font-size:12.5px;font-weight:500;padding:8px 14px;border-radius:var(--r-sm);}
+
+/* accessibility */
+.a11y-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:var(--s3);}
+.a11y{border:1px solid var(--border);border-radius:var(--r-md);overflow:hidden;background:var(--surface);}
+.a11y .demo{height:56px;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:600;}
+.a11y .ab{padding:8px 10px;display:flex;justify-content:space-between;align-items:center;gap:var(--s2);}
+.a11y .ab .meta{display:flex;flex-direction:column;gap:3px;min-width:0;}
+.a11y .pair{font-size:11.5px;color:var(--text-2);line-height:1.3;}
+.a11y .badge{font-family:var(--mono);font-size:10px;font-weight:600;padding:2px 7px;border-radius:999px;}
+.badge.AAA{color:var(--pass);background:#EAF5EE;}
+.badge.AA{color:var(--pass);background:#EAF5EE;}
+.badge.AA-lg{color:var(--warn);background:#FBF3E2;}
+.badge.fail{color:var(--fail);background:#FBEDED;}
+.a11y .ratio{font-family:var(--mono);font-size:11px;color:var(--text-3);line-height:1.2;}
+
+/* export */
+.export-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r-md);overflow:hidden;box-shadow:var(--sh-1);}
+.export-head{display:flex;align-items:center;gap:var(--s3);padding:10px var(--s4);background:var(--sunken);border-bottom:1px solid var(--border);flex-wrap:wrap;}
+.export-head .file{font-family:var(--mono);font-size:12.5px;color:var(--text-2);font-weight:500;}
+.export-head .copy-btn{margin-left:auto;font-size:12px;font-weight:500;color:#fff;background:var(--accent);border:0;border-radius:var(--r-sm);padding:7px 13px;cursor:pointer;}
+.export-head .copy-btn:hover{background:var(--accent-hover);}
+pre.code{margin:0;padding:var(--s4) var(--s5);overflow:auto;font-family:var(--mono);font-size:12px;line-height:1.7;white-space:pre;max-height:440px;}
+
+.note{margin-top:var(--s5);padding:var(--s4) var(--s5);background:var(--accent-tint);border:1px solid var(--accent-line);border-radius:var(--r-md);font-size:13px;color:var(--text-2);line-height:1.55;}
+.note b{color:var(--accent);}
+#toast{position:fixed;left:50%;bottom:var(--s6);transform:translate(-50%,14px);background:var(--text);color:var(--canvas);font-size:12.5px;font-weight:500;padding:10px 18px;border-radius:999px;box-shadow:var(--sh-3);opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;z-index:50;}
+#toast.show{opacity:1;transform:translate(-50%,0);}
+@media(max-width:680px){.ramp{grid-auto-flow:row;grid-template-columns:repeat(4,1fr);}.tp-kpis{grid-template-columns:repeat(2,1fr);}.tp-row{grid-template-columns:1fr;}.type-row{grid-template-columns:1fr;}}
+</style>
+</head>
+<body class="semantic">
+
+<div class="topbar">
+  <div class="brand"><div class="logo"></div><div class="nm">GCPS <span>Theme Studio</span></div></div>
+  <div class="grow"></div>
+  <div class="pill" id="a11yPill">WCAG · <b>live</b></div>
+  <div class="pill" id="themePill">Maroon · Source Sans 3 · 15px</div>
+</div>
+
+<div class="wrap">
+  <header class="hd">
+    <div class="kicker"><span class="idx">THEME STUDIO</span><span>· palette · type · surfaces · preview · a11y · export</span></div>
+    <h1>Build a complete GCPS theme</h1>
+    <p class="sub">Start from a <b>source</b> color, then layer <b>typography</b>, <b>surfaces</b>, and <b>spacing</b> into one theme. Every tab feeds a single theme object — preview it on a live dashboard, check contrast, and export it for <b>Power BI</b> and <b>R</b> in one pass.</p>
+  </header>
+
+  <div class="tabs" id="tabs" role="tablist">
+    <button class="tab" role="tab" data-tab="palette" aria-selected="true">Palette</button>
+    <button class="tab" role="tab" data-tab="type" aria-selected="false">Typography</button>
+    <button class="tab" role="tab" data-tab="surfaces" aria-selected="false">Surfaces</button>
+    <button class="tab" role="tab" data-tab="preview" aria-selected="false">Theme Preview</button>
+    <button class="tab" role="tab" data-tab="a11y" aria-selected="false">Accessibility</button>
+    <button class="tab" role="tab" data-tab="export" aria-selected="false">Export</button>
+  </div>
+
+  <!-- ============ PALETTE ============ -->
+  <section class="panel-tab active" id="tab-palette">
+    <div class="panel">
+      <div class="panel-label">1 · Source</div>
+      <div class="seg" id="srcSeg" role="group" style="margin-bottom:var(--s4)">
+        <button data-m="bases" aria-pressed="true">GCPS Bases</button>
+        <button data-m="clusters">Clusters</button>
+        <button data-m="schools">Schools</button>
+      </div>
+      <div id="srcBody"></div>
+    </div>
+    <div class="panel">
+      <div class="row">
+        <div class="seg" id="typeSeg" role="group"></div>
+        <label class="toggle" style="margin-left:auto"><input type="checkbox" id="semToggle" checked /> Semantic labels</label>
+      </div>
+      <div class="subctrls" id="catCtrls"><span class="lbl">Set</span><div class="seg" id="catSetSeg"></div></div>
+      <div class="subctrls" id="perfCtrls">
+        <span class="lbl">Levels</span>
+        <div class="seg" id="perfLevels"><button data-n="4" aria-pressed="true">4 · Milestones</button><button data-n="5">5</button><button data-n="6">6 · ACCESS</button></div>
+        <span class="lbl" style="margin-left:var(--s3)">Scale</span>
+        <div class="seg" id="perfVariant"><button data-v="semantic" aria-pressed="true">Semantic</button><button data-v="base">Source-tinted</button></div>
+      </div>
+      <div class="subctrls" id="countCtrls"><span class="lbl">Colors</span><div class="row" id="countWidget"></div></div>
+      <div style="margin-top:var(--s5)">
+        <div class="disp-title" id="dTitle">Sequential</div>
+        <div class="disp-purpose" id="dPurpose"></div>
+        <div class="disp-meta" id="dMeta"></div>
+        <div id="dRamp"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TYPOGRAPHY ============ -->
+  <section class="panel-tab" id="tab-type">
+    <div class="panel">
+      <div class="panel-label">Typeface</div>
+      <p class="disp-purpose" style="margin-bottom:var(--s4)">One sans (or serif) across the theme. Choices are tuned for K-12 dashboards exported to Power BI and R — the live specimen below reflows as you pick.</p>
+      <div class="fontgrid" id="fontGrid"></div>
+    </div>
+    <div class="panel">
+      <div class="panel-label">Scale</div>
+      <div class="row" style="gap:var(--s6)">
+        <div>
+          <div class="lbl" style="margin-bottom:6px">Base size · <span id="baseVal" class="mono" style="color:var(--text)">15px</span></div>
+          <input type="range" id="baseSize" min="13" max="18" step="0.5" value="15" style="width:200px">
+        </div>
+        <div>
+          <div class="lbl" style="margin-bottom:6px">Scale ratio</div>
+          <div class="seg" id="ratioSeg"></div>
+        </div>
+        <div>
+          <div class="lbl" style="margin-bottom:6px">Heading weight</div>
+          <div class="seg" id="weightSeg"><button data-w="500" aria-pressed="false">Medium</button><button data-w="600" aria-pressed="true">Semibold</button><button data-w="700" aria-pressed="false">Bold</button></div>
+        </div>
+      </div>
+      <div class="spec-scope" id="specimen"></div>
+    </div>
+  </section>
+
+  <!-- ============ SURFACES ============ -->
+  <section class="panel-tab" id="tab-surfaces">
+    <div class="panel">
+      <div class="panel-label">Surface set</div>
+      <p class="disp-purpose" style="margin-bottom:var(--s4)">The chrome behind the data: canvas, cards, borders, and text. Neutral leads; the data palette and accent do the talking. Warm Paper is today's GCPS direction — the others are 2026-ready alternatives.</p>
+      <div class="surf-grid" id="surfGrid"></div>
+      <div class="token-grid" id="tokenGrid"></div>
+    </div>
+    <div class="panel">
+      <div class="panel-label">Accent</div>
+      <p class="disp-purpose" style="margin-bottom:var(--s4)">A single accent for primary buttons, active states, and KPI emphasis — kept to ≤10% of any screen. District Maroon is the default; any analytics base also works.</p>
+      <div class="chip-row" id="accentRow"></div>
+    </div>
+    <div class="panel">
+      <div class="panel-label">Spacing &amp; radius</div>
+      <p class="disp-purpose" style="margin-bottom:var(--s4)">A 4px rhythm and three radii ship with every theme — consistent spacing is most of what reads as “intentional.”</p>
+      <div class="space-scale" id="spaceScale"></div>
+    </div>
+  </section>
+
+  <!-- ============ THEME PREVIEW ============ -->
+  <section class="panel-tab" id="tab-preview">
+    <p class="disp-purpose" style="margin-bottom:var(--s4)">The whole theme doing its job — surfaces, typography, accent, and the selected source's sequential ramp on a synthetic K-12 dashboard. This is where the accent recedes and the data palette leads.</p>
+    <div class="tp" id="tpScope"></div>
+  </section>
+
+  <!-- ============ ACCESSIBILITY ============ -->
+  <section class="panel-tab" id="tab-a11y">
+    <div class="panel">
+      <div class="panel-label">Text &amp; accent on surfaces</div>
+      <div class="a11y-grid" id="a11yChrome"></div>
+    </div>
+    <div class="panel">
+      <div class="panel-label">Palette on white · current palette</div>
+      <div class="a11y-grid" id="a11yPalette"></div>
+    </div>
+  </section>
+
+  <!-- ============ EXPORT ============ -->
+  <section class="panel-tab" id="tab-export">
+    <div class="row" style="margin-bottom:var(--s4)">
+      <span class="lbl">Format</span>
+      <div class="seg" id="expSeg"><button data-f="r" aria-pressed="true">R / ggplot2</button><button data-f="json">Power BI JSON</button><button data-f="css">CSS variables</button></div>
+    </div>
+    <div class="export-card">
+      <div class="export-head"><span class="file" id="expFile">gcps_theme.R</span><button class="copy-btn" id="expCopy">Copy</button></div>
+      <pre class="code" id="expCode"></pre>
+    </div>
+    <div class="note"><b>One theme, both tools.</b> The export carries the full theme — surfaces, typography, accent, and the current data palette — not just hex codes. Power BI JSON sets data colors, background, foreground, accent, and font; R emits a <span class="mono">theme_gcps()</span> for ggplot2 plus the palette scales; CSS gives the token set for Quarto/HTML.</div>
+  </section>
+</div>
+<div id="toast"></div>
+
+<script src="palette-data.js"></script>
+<script src="theme-studio.js"></script>
+<script src="theme-studio-app.js"></script>
+</body>
+</html>

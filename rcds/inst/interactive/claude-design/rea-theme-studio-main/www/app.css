@@ -1,0 +1,494 @@
+/* ============================================================================
+   app.css — GCPS Theme Studio component styles (Shiny app)
+   ----------------------------------------------------------------------------
+   Reads exclusively from explorer.css custom properties. No hard-coded hex.
+   All rules scoped under .gcps-studio to prevent Bootstrap/yeti bleed.
+   Exception: #gcps-toast lives outside .gcps-studio in the page tagList.
+   ========================================================================== */
+
+/* ══════════════════════════════════════════════════════════════════════════════
+   TOAST — lives outside .gcps-studio, styled by id
+   ══════════════════════════════════════════════════════════════════════════════ */
+#gcps-toast {
+  position: fixed;
+  left: 50%;
+  bottom: var(--s6);
+  transform: translate(-50%, 12px);
+  background: var(--text);
+  color: var(--canvas);
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-family: var(--font-sans);
+  font-size: var(--fs-caption);
+  font-weight: 500;
+  box-shadow: var(--sh-3);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s ease, transform .2s ease;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+  white-space: nowrap;
+}
+#gcps-toast::before {
+  content: '';
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--pass);
+  flex-shrink: 0;
+}
+#gcps-toast.show {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+/* ══════════════════════════════════════════════════════════════════════════════
+   GCPS STUDIO — scoped component styles
+   ══════════════════════════════════════════════════════════════════════════════ */
+
+/* ── Studio wrapper ─────────────────────────────────────────────────────── */
+.gcps-studio {
+  font-family: var(--font-sans);
+  color: var(--text);
+}
+
+/* ── Featured palette ───────────────────────────────────────────────────── */
+.gcps-featured {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  padding: var(--s5);
+  box-shadow: var(--sh-1);
+}
+.gcps-featured-title {
+  font-size: var(--fs-h2);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0 0 var(--s1);
+}
+.gcps-featured-desc {
+  font-size: var(--fs-caption);
+  color: var(--text-2);
+  margin: 0 0 var(--s4);
+}
+.gcps-featured-ramp {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: var(--s2);
+  margin-bottom: var(--s4);
+}
+
+/* ── Individual stop ────────────────────────────────────────────────────── */
+.gcps-stop {
+  border-radius: var(--r-sm);
+  overflow: hidden;
+  border: 1px solid rgba(31,33,32,0.06);
+  cursor: pointer;
+  position: relative;
+  transition: transform .1s ease, box-shadow .15s ease;
+}
+.gcps-stop:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--sh-2);
+}
+.gcps-stop-swatch {
+  height: 56px;
+  position: relative;
+}
+.gcps-stop-swatch .btn-copy-stop {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255,255,255,0.92);
+  border: none;
+  border-radius: var(--r-sm);
+  padding: 3px 10px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity .15s ease;
+  pointer-events: none;
+  box-shadow: var(--sh-1);
+}
+.gcps-stop-swatch:hover .btn-copy-stop {
+  opacity: 1;
+  pointer-events: auto;
+}
+.gcps-stop-label,
+.gcps-stop-hex {
+  background: var(--surface);
+  padding: 4px 8px;
+  font-size: var(--fs-micro);
+}
+.gcps-stop-label {
+  font-weight: 600;
+  color: var(--text);
+  padding-bottom: 2px;
+}
+.gcps-stop-hex {
+  font-family: var(--font-mono);
+  color: var(--text-3);
+  text-transform: uppercase;
+  padding-top: 2px;
+}
+
+/* ── Copy all button ────────────────────────────────────────────────────── */
+.gcps-copy-all {
+  margin-top: var(--s2);
+}
+
+/* ── Gallery grid ────────────────────────────────────────────────────────── */
+.gcps-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: var(--s3);
+}
+
+/* ── Gallery card ────────────────────────────────────────────────────────── */
+.gcard {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: var(--sh-1);
+  transition: box-shadow .15s ease, transform .1s ease, border-color .15s ease;
+}
+.gcard:hover {
+  box-shadow: var(--sh-3);
+  transform: translateY(-2px);
+  border-color: var(--border-strong);
+}
+
+/* ── Selected card — maroon ring + tag ───────────────────────────────────── */
+.gcard-selected {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent), var(--sh-2);
+}
+.gcard-selected:hover {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent), var(--sh-3);
+}
+
+/* ── Card strip (mini ramp) ─────────────────────────────────────────────── */
+.gcard-strip {
+  display: flex;
+  height: 28px;
+}
+.gcard-strip-swatch {
+  flex: 1;
+}
+
+/* ── Card body ──────────────────────────────────────────────────────────── */
+.gcard-body {
+  padding: var(--s3);
+}
+.gcard-name {
+  display: block;
+  font-size: var(--fs-caption);
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 2px;
+}
+.gcard-count {
+  display: block;
+  font-size: var(--fs-micro);
+  color: var(--text-3);
+}
+.gcard-tag {
+  display: inline-block;
+  margin-top: var(--s1);
+  font-size: var(--fs-micro);
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-tint);
+  padding: 2px 8px;
+  border-radius: 999px;
+  line-height: var(--lh-micro);
+}
+
+/* ── Theme Preview — KPI cards ──────────────────────────────────────────── */
+.gcps-preview-kpis {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: var(--s4);
+  margin-bottom: var(--s6);
+}
+.gcps-kpi-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  overflow: hidden;
+  box-shadow: var(--sh-1);
+  display: flex;
+}
+.gcps-kpi-stripe {
+  width: 5px;
+  flex-shrink: 0;
+  /* background set inline to ramp[3] (mid stop) */
+}
+.gcps-kpi-body {
+  padding: var(--s4);
+  flex: 1;
+}
+.gcps-kpi-label {
+  font-size: var(--fs-micro);
+  font-weight: 500;
+  color: var(--text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: var(--s1);
+}
+.gcps-kpi-value {
+  font-size: var(--fs-h2);
+  font-weight: 600;
+  color: var(--text);
+  line-height: var(--lh-h2);
+}
+.gcps-kpi-delta {
+  font-size: var(--fs-micro);
+  font-weight: 500;
+  margin-top: var(--s1);
+}
+
+/* ── Theme Preview — Trend bars ─────────────────────────────────────────── */
+.gcps-preview-trend {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  padding: var(--s5);
+  box-shadow: var(--sh-1);
+}
+.gcps-preview-trend h6 {
+  font-size: var(--fs-caption);
+  font-weight: 600;
+  color: var(--text);
+  margin: 0 0 var(--s4);
+}
+.gcps-trend-bars {
+  display: flex;
+  align-items: flex-end;
+  height: 180px;
+  gap: var(--s3);
+}
+.gcps-trend-bar-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+.gcps-trend-bar {
+  width: 100%;
+  border-radius: var(--r-sm) var(--r-sm) 0 0;
+  min-height: 4px;
+  transition: height .3s ease;
+  /* height + background set inline */
+}
+.gcps-trend-label,
+.gcps-trend-val {
+  font-size: var(--fs-micro);
+  color: var(--text-3);
+  margin-top: var(--s1);
+}
+.gcps-trend-val {
+  font-weight: 600;
+  color: var(--text);
+}
+
+/* ── Trend legend ───────────────────────────────────────────────────────── */
+.gcps-trend-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s3);
+  margin-top: var(--s4);
+  padding-top: var(--s3);
+  border-top: 1px solid var(--border);
+}
+.gcps-legend-item {
+  display: flex;
+  align-items: center;
+  gap: var(--s1);
+  font-size: var(--fs-micro);
+  color: var(--text-3);
+}
+.gcps-legend-swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  flex-shrink: 0;
+  /* background set inline */
+}
+
+/* ── Accessibility grid ─────────────────────────────────────────────────── */
+.gcps-a11y-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: var(--s3);
+}
+.gcps-a11y-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  overflow: hidden;
+  box-shadow: var(--sh-1);
+}
+.gcps-a11y-swatch {
+  height: 56px;
+  /* background set inline */
+}
+.gcps-a11y-info {
+  padding: var(--s3);
+}
+.gcps-a11y-info strong {
+  display: block;
+  font-size: var(--fs-caption);
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: var(--s1);
+}
+.gcps-a11y-ratio {
+  font-family: var(--font-mono);
+  font-size: var(--fs-caption);
+  color: var(--text-2);
+  margin-bottom: var(--s1);
+}
+
+/* ── A11y badges ────────────────────────────────────────────────────────── */
+.gcps-a11y-badge {
+  display: inline-block;
+  font-size: var(--fs-micro);
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 999px;
+  letter-spacing: 0.04em;
+}
+.gcps-badge-pass {
+  background: #e6f4ea;
+  color: var(--pass);
+}
+.gcps-badge-warn {
+  background: #fef7e0;
+  color: var(--warn);
+}
+.gcps-badge-fail {
+  background: #fce8e6;
+  color: var(--fail);
+}
+
+/* ── Export: Snippet cards ─────────────────────────────────────────────── */
+.gcps-studio .gcps-snippets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1rem;
+}
+.gcps-studio .gcps-snippet-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+}
+.gcps-studio .gcps-snippet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background: #f8f9fa;
+  border-bottom: 1px solid var(--border);
+}
+.gcps-studio .gcps-snippet-card .gcps-code-block {
+  margin: 0;
+}
+.gcps-studio .gcps-snippet-card pre {
+  margin: 0;
+  padding: 12px;
+  font-size: 12px;
+  white-space: pre-wrap;
+  background: #1e1e1e;
+  color: #d4d4d4;
+  max-height: 200px;
+  overflow: auto;
+}
+
+/* ── Navigation Kit: icon grid ─────────────────────────────────────────── */
+.gcps-studio .gcps-nav-icons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  gap: 8px;
+  margin-bottom: 1rem;
+}
+.gcps-studio .gcps-nav-icon-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 4px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #fff;
+  font-size: 20px;
+  color: var(--text);
+}
+.gcps-studio .gcps-nav-icon-name {
+  font-size: 9px;
+  color: #6B6560;
+  font-family: monospace;
+  word-break: break-all;
+  text-align: center;
+}
+
+/* ── Navigation Kit: pattern cards + platform switcher ─────────────────── */
+.gcps-studio .gcps-nav-pattern {
+  margin-bottom: 1.5rem;
+}
+.gcps-studio .gcps-platform-tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+.gcps-studio .gcps-platform-btn {
+  padding: 4px 12px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text);
+  transition: background 0.15s, border-color 0.15s;
+}
+.gcps-studio .gcps-platform-btn:hover {
+  background: #f0f0f0;
+}
+.gcps-studio .gcps-platform-btn.active {
+  background: var(--maroon);
+  color: #fff;
+  border-color: var(--maroon);
+}
+.gcps-studio .gcps-nav-code {
+  margin: 0;
+}
+.gcps-studio .gcps-nav-code pre {
+  margin: 0;
+  padding: 12px;
+  font-size: 12px;
+  white-space: pre-wrap;
+  background: #1e1e1e;
+  color: #d4d4d4;
+  border-radius: 6px;
+  max-height: 180px;
+  overflow: auto;
+}
+
+/* ── Scoped font swap: theme preview only ──────────────────────────────── */
+.gcps-studio .gcps-preview-kpis,
+.gcps-studio .gcps-preview-trend {
+  font-family: inherit; /* scoped — does NOT reflow the rail */
+}
