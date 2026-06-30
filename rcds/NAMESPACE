@@ -1,0 +1,51 @@
+# Generated manually for rcds 0.1.0 (run devtools::document() to regenerate
+# from roxygen tags once roxygen2 is available).
+
+# Tokens & utilities
+export(rcds_tokens)
+export(rcds_color)
+export("%out%")
+
+# Fonts & typography
+export(rcds_fonts)
+export(rcds_font)
+export(rcds_type_scale)
+
+# Palettes
+export(rcds_pal)
+export(rcds_palettes)
+export(scale_fill_rcds_c)
+export(scale_fill_rcds_d)
+export(scale_color_rcds_c)
+export(scale_color_rcds_d)
+export(rcds_show_palettes)
+
+# Themes
+export(theme_rcds)
+export(theme_rcds_map)
+
+# Components
+export(rcds_signature)
+export(rcds_credits)
+export(rcds_scalebar)
+export(rcds_north_arrow)
+export(rcds_locator)
+export(rcds_annotation_box)
+
+# Composition & export
+export(rcds_compose)
+export(rcds_export)
+export(rcds_export_presets)
+
+# Scoring
+export(rcds_score)
+export(rcds_grade)
+export(rcds_score_template)
+
+# Linting
+export(rcds_lint)
+export(rcds_lint_dir)
+
+importFrom(grDevices, colorRampPalette)
+importFrom(stats, setNames)
+importFrom(rlang, "%||%")
