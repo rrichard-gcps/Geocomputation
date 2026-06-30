@@ -34,7 +34,7 @@ const state = {
 /* ---------- palette helpers ---------- */
 const TYPES=[["tints","Tints & Shades"],["sequential","Sequential"],["diverging","Diverging"],["categorical","Categorical"],["performance","Performance"],["continuous","Continuous"],["trend","Trend"]];
 const PURPOSE={sequential:"Single-hue ramp, light → dark. Ordered data, KPI emphasis, table heat.",tints:"11-step tint/shade scale (50–950) for fine UI theming and surface layering.",diverging:"Two-ended scale through a neutral center — above/below target, gap-to-goal, change.",categorical:"Distinct hues for unrelated groups. Three curated, source-independent sets.",performance:"Ordinal proficiency scale. Semantic = fixed good→needs-support; Source-tinted = monochrome intensity.",continuous:"Fine gradient for heatmaps and continuous fills (low → high).",trend:"Fixed semantic indicators — positive, negative, neutral."};
-const DIVERGE_PAIR_={maroon:"teal",teal:"maroon",blue:"orange",orange:"blue",green:"violet",violet:"green",neutral:"maroon",gold:"teal"};
+const DIVERGE_PAIR_={maroon:"teal",teal:"maroon",blue:"orange",orange:"blue",green:"violet",violet:"green",neutral:"maroon",gold:"teal",plum:"green",slate:"orange",emerald:"maroon"};
 const COUNT={sequential:{min:3,max:9},continuous:{min:3,max:11},categorical:{min:3,max:10},diverging:{set:[5,7,9,11]}};
 
 function sourceColor(){if(state.mode==="bases")return GCPS_BASE[state.baseKey];if(state.mode==="clusters")return CLUSTERS[state.cluster];return CLUSTERS[SCHOOL_CLUSTER[state.school]];}

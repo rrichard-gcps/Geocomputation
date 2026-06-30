@@ -10,6 +10,16 @@ archive/data/EDGE_Locale21_US.zip
 archive/data/EDGE_Locale21_US/
 archive/data/EDGE_GEOCODE_PUBLICSCH_2223/
 
+# Active data/ copies (same large NCES / CCD / EDGE datasets)
+data/ccd_sch_052_2223_l_1a_083023.csv
+data/ccd_sch_033_2223_l_1a_083023.csv
+data/us_sch.dbf
+data/temp.zip
+data/EDGE_Locale21_US.zip
+data/EDGE_Locale21_US/
+data/edge_locale21_nces_all_us.shp
+data/EDGE_GEOCODE_PUBLICSCH_2223/
+
 # Georgia enrollment data
 archive/downloads/georgia_enrollment_data_by_grade_level_combined.csv
 

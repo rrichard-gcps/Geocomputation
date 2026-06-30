@@ -3,21 +3,23 @@
 // Repurposed from tableau_palettes.xml, cluster_colors_and_logos.csv, DimSchool.csv
 // ============================================================================
 
-// 8 REA analytics bases (from app.R gcps_base)
+// 11 REA analytics bases (from app.R gcps_base)
 const GCPS_BASE = {
   maroon:"#660000", blue:"#2F5FB3", teal:"#007C91", green:"#5E8C31",
   violet:"#6A4CC3", orange:"#D96A1D", neutral:"#7A828C",
-  gold:"#C49A22"
+  gold:"#C49A22", plum:"#7B2D8B", slate:"#4A6D8C", emerald:"#1A7D5A"
 };
-const BASE_ORDER = ["maroon","blue","teal","green","violet","orange","neutral","gold"];
+const BASE_ORDER = ["maroon","blue","teal","green","violet","orange","neutral","gold","plum","slate","emerald"];
 const BASE_DESC = {
   maroon:"District signature", blue:"Cool neutral category", teal:"Density & intensity",
   green:"Growth, positive", violet:"Distinct categorical", orange:"Attention, secondary",
-  neutral:"Structure & gridlines", gold:"Warm highlight, recognition"
+  neutral:"Structure & gridlines", gold:"Warm highlight, recognition",
+  plum:"Deep contrast, workforce & literacy", slate:"Steel-blue, operations & infrastructure",
+  emerald:"Deep green, sustainability & wellness"
 };
-// diverging partner for the 8 bases (mirrors gcps_diverging)
+// diverging partner for the 11 bases (mirrors gcps_diverging)
 const DIVERGE_PAIR = { maroon:"teal", teal:"maroon", blue:"orange", orange:"blue", green:"violet", violet:"green", neutral:"maroon",
-  gold:"teal" };
+  gold:"teal", plum:"green", slate:"orange", emerald:"maroon" };
 
 // Curated GCPS qualitative palette (gcps_viz_palette_test)
 const GCPS_QUALITATIVE = ["#374E8E","#4FBBAE","#DF7C18","#AC004F","#1B87AA","#E3B13E","#CE4631","#8D7A81","#7E7E8F"];
