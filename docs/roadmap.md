@@ -22,9 +22,12 @@ reusable.
    v0.3 — highest leverage for "prevent in future work"). Rules A1–A8 + tests.
 4. ~~**Unit tests** for the pure-R surface~~ ✅ Done — `tests/testthat/` covers
    tokens, palettes, scoring, signature, type scale, and lint.
-5. **Vignette:** `vignettes/getting-started.Rmd` walking the 60-second tour.
-6. **`R CMD check`** clean: roxygenize tags → regenerate `man/`/`NAMESPACE`,
-   add `@importFrom rlang .data`, confirm green.
+5. ~~**Vignette:** `vignettes/getting-started.Rmd`~~ ✅ Done — runnable tour
+   (pure-R chunks evaluate; map chunks shown as copy-in code).
+6. **`R CMD check`** clean (remaining): `@importFrom rlang .data` and
+   `importFrom(utils, packageVersion)` are in place; still to do on a machine
+   with R — run `roxygen2::roxygenise()` to generate `man/`, then `R CMD check`
+   and resolve any residual NOTEs.
 
 ### Next (v0.2 → v0.3) — broaden coverage
 5. **Templates** for the missing types: dot density, hexbin, raster + hillshade,

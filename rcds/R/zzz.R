@@ -1,10 +1,11 @@
 # Package-level imports and startup.
 
 #' @keywords internal
+#' @importFrom rlang %||% .data
+#' @importFrom utils packageVersion
 "_PACKAGE"
 
-# rlang's null-coalescing operator, used throughout.
-`%||%` <- rlang::`%||%`
+# `%||%` is imported from rlang (see NAMESPACE) and used throughout.
 
 .onAttach <- function(libname, pkgname) {
   packageStartupMessage(
