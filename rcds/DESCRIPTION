@@ -24,7 +24,8 @@ Imports:
     rlang,
     scales,
     grDevices,
-    stats
+    stats,
+    utils
 Suggests:
     sf,
     ggspatial,
@@ -36,6 +37,7 @@ Suggests:
     ggrepel,
     biscale,
     knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 VignetteBuilder: knitr
 Config/testthat/edition: 3

@@ -1,0 +1,171 @@
+---
+title: "Getting started with rcds"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Getting started with rcds}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+library(rcds)
+```
+
+`rcds` is the **Richard Cartographic Design System** — an opinionated toolkit
+that turns a recurring map style into a reusable, consistent, accessible system.
+This vignette is the working tour: the parts that need no spatial data run live;
+the map-building parts are shown as code you copy into a real script.
+
+The full written standard lives in `docs/RCDS.md`; this is the hands-on path.
+
+## 1. The shape of a map
+
+Every published RCDS map follows the same five-step skeleton:
+
+```r
+library(rcds)
+library(ggplot2)
+
+rcds_fonts("editorial")                 # 1. pick ONE font voice
+
+main <- ggplot(my_sf) +                 # 2. build the map
+  geom_sf(aes(fill = value), colour = NA) +
+  scale_fill_rcds_c("seq_blue") +       # 3. an accessible palette
+  labs(
+    title    = "US School District Enrollment",
+    subtitle = "ACS 5-Year Estimates",
+    caption  = rcds_signature(          # 4. the standardized signature
+      challenge = "#30DayMapChallenge 2024 Day 16: Choropleth",
+      sources   = c("U.S. Census Bureau", "NCES"))
+  ) +
+  theme_rcds_map(canvas = "dark")
+
+rcds_export(main, "day16.png",          # 5. export with a preset
+            preset = "poster_land", canvas = "dark")
+```
+
+That's the whole loop. The rest of this vignette unpacks each piece.
+
+## 2. Fonts: one voice per map
+
+The archive swapped fonts every day, which diluted the identity. `rcds` keeps the
+expressiveness but assigns fonts to **roles** (`display` / `body` / `caption`) and
+ships five sanctioned **voices**. Pick one per map; never mix.
+
+```r
+rcds_fonts("default")    # Oswald / Roboto Condensed / Roboto  (everyday)
+rcds_fonts("editorial")  # Anton / Roboto Condensed / Roboto   (bold posters)
+rcds_fonts("vintage")    # Bebas Neue / Roboto Condensed / Roboto
+rcds_fonts("fantasy")    # Cinzel / Cormorant SC / Roboto
+rcds_fonts("techno")     # Orbitron / Smooch Sans / Roboto      (sports, data-art)
+```
+
+Refer to a font by role, never by Google name — that indirection is what lets you
+restyle a whole map by changing the voice:
+
+```{r font, eval = FALSE}
+ggplot2::element_text(family = rcds_font("display"))
+```
+
+Sizes come from one ratio-based scale, so you never hand-tune `size = 54` again:
+
+```{r typescale}
+round(rcds_type_scale(base = 14), 1)
+```
+
+## 3. Colour: accessible families, not rainbows
+
+The biggest upgrade over the archive. Pick a **family** by data type:
+
+```{r palettes}
+rcds_palettes()
+```
+
+```{r pal-examples}
+rcds_pal("seq_blue", 5)        # sequential: low -> high
+rcds_pal("div_balance", 7)     # diverging: meaningful midpoint
+rcds_pal("qual_brand", 4)      # qualitative: unordered categories
+```
+
+Qualitative families refuse to over-extend — categories are capped so you don't
+end up with eight indistinguishable hues:
+
+```{r pal-cap, error = TRUE}
+rcds_pal("qual_brand", 99)
+```
+
+Drop them into ggplot with the scale constructors:
+
+```r
++ scale_fill_rcds_c("seq_amber")          # continuous
++ scale_fill_rcds_d("qual_soft")          # discrete
++ scale_color_rcds_c("div_temp", reverse = TRUE)
+```
+
+Preview every family on the dark canvas with `rcds_show_palettes()`.
+
+## 4. Theme, signature, and composition
+
+`theme_rcds_map()` replaces the copy-pasted theme blocks. Canvases are named:
+`"dark"`, `"deep"`, `"slate"`, `"graphite"`, `"light"`, `"vintage"`.
+
+The signature is the brand wordmark — always built the same way:
+
+```{r signature}
+cat(rcds_signature(
+  challenge = "#30DayMapChallenge 2024 Day 1: Points",
+  sources   = c("NCES", "U.S. Census Bureau"),
+  handle    = "@rorich"))
+```
+
+Assemble a main map, a locator inset, and a credits strip with one call:
+
+```{r compose, eval = FALSE}
+loc <- rcds_locator(context = us_states, highlight = georgia)
+cr  <- rcds_credits("#30DayMapChallenge 2024 Day 16: Choropleth",
+                    sources = "U.S. Census Bureau", align = "right")
+
+fig <- rcds_compose(main, locator = loc, credits = cr, layout = "poster")
+rcds_export(fig, "day16.png", preset = "poster_land", canvas = "dark")
+```
+
+## 5. Score it
+
+Rate a finished map on the ten weighted criteria (0–1 each) to get a 100-point
+score, a letter grade, and a breakdown — old and new maps on the same yardstick:
+
+```{r score}
+res <- rcds_score(
+  layout = 0.85, hierarchy = 0.8, typography = 0.9, colour = 0.7,
+  accessibility = 0.6, legends = 0.8, labelling = 0.6, balance = 0.85,
+  storytelling = 0.7, technical = 0.9, map = "draft")
+res$score
+res$grade
+```
+
+`rcds_score_template()` lists every criterion, weight, and what it asks for.
+
+## 6. Lint before you export
+
+`rcds_lint()` enforces the design system's anti-patterns mechanically, so the old
+habits don't creep back:
+
+```{r lint}
+bad <- '
+ggplot(d) + geom_sf(aes(fill = v), size = 0.2) +
+  scale_fill_distiller(palette = "Spectral")
+ggsave("m.png", width = 10, height = 8)
+'
+rcds_lint(bad)[, c("rule", "severity", "line", "fix")]
+```
+
+Scan a whole folder with `rcds_lint_dir("archive")`.
+
+## Where to go next
+
+- `docs/RCDS.md` — the full standard (principles, brand guide, pattern library).
+- `inst/templates/` — runnable skeletons for choropleth, points, proportional
+  symbols, bivariate, and small-multiple maps.
+- `docs/innovation-log.md` — techniques to grow into (hillshade, uncertainty,
+  animation, CVD proofing).

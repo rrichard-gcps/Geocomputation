@@ -216,6 +216,17 @@ Design constraints every family meets:
 
 ggplot scales: `scale_fill_rcds_c/d()`, `scale_color_rcds_c/d()`.
 
+**Proof it, don't promise it.** Accessibility is a check, not a claim:
+
+```r
+rcds_cvd_check("qual_brand")        # simulate deutan/protan/tritan; flag confusable pairs
+rcds_greyscale_check("seq_blue")    # luminance ordering for black-and-white print
+```
+
+`rcds_cvd_check()` flags any category pair whose simulated CIE Lab distance drops
+below ~15 deltaE; `rcds_greyscale_check()` verifies sequential ramps stay monotone
+and well-separated in luminance. Run them on a custom palette before you ship it.
+
 Rules:
 
 - Never encode an ordered variable with a qualitative palette (the Spectral-on-

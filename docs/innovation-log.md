@@ -10,12 +10,15 @@ Priority key: **High** = adopt in the next few maps · **Med** = within the year
 
 ---
 
-### 1. Colourblind & greyscale proofing in the loop — **High**, low effort
+### 1. Colourblind & greyscale proofing in the loop — ✅ **Done** (v0.1)
 - **Why:** turns accessibility from a hope into a check; defends the new palettes.
 - **Excels:** any published map, especially choropleths.
-- **R:** `colorspace::deutan()/protan()/desaturate()`; render a CVD-simulated and a
-  greyscale copy before export. Wrap as `rcds_cvd_check()` (roadmap item 8).
-- **Effort:** ~1 hr to wire up. **Now.**
+- **Shipped:** `rcds_cvd_check()` (simulates deutan/protan/tritan via `colorspace`,
+  flags pairs below ~15 deltaE) and `rcds_greyscale_check()` (luminance ordering /
+  separation, base `grDevices` only). Both accept a palette name or a hex vector
+  and return swatch-row plots or a tidy report.
+- **Next:** extend to whole-plot proofing (render → simulate the raster) and add
+  an optional gate in `rcds_export()` that warns if the active palette fails.
 
 ### 2. Halo'd repel labels as default — **High**, low effort
 - **Why:** the archive's labels collide and lack contrast on dark fills.
