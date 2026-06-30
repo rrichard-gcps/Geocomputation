@@ -9,6 +9,7 @@ the [`rcds`](../rcds) R package.
 | [archive-review.md](archive-review.md) | Archive catalog, professional critique, per-map Quality Scores, improvement matrix | 1, 2, 3, 8 |
 | [roadmap.md](roadmap.md) | Prioritized improvement plan + continuous-improvement protocol + evolution tracking | 7, 8 |
 | [innovation-log.md](innovation-log.md) | Living list of advanced techniques to grow into | 7, 8 |
+| [claude-design-integration.md](claude-design-integration.md) | Plan + seams for folding Claude Design projects into rcds (static + interactive) | — |
 
 ## Start here
 

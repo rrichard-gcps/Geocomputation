@@ -1,0 +1,3 @@
+# Landing zone for an imported Claude Design project.
+# Send the project here via Claude Design "Send to Claude Code Web", then it gets
+# wired into rcds tokens/CSS per docs/claude-design-integration.md.
