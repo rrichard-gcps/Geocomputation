@@ -182,3 +182,46 @@ Added to `gcps_base`, `gcps_ramps`, `gcps_diverging` in `app.R` and `FAMILY_NAME
  app.R                         | 440 +++++++++++++++++++++++++++++++++++++++++-
  www/_theme_studio_markup.html |  10 +-
  3 files changed, 452 insertions(+), 10 deletions(-)
+
+---
+
+## Follow-up — Part B JS parity gap closed (Claude Code, design-handoff session)
+
+Re-auditing the 2026-06-25 session against the live app found Part B was only
+half-done: `gold`/`plum`/`slate`/`emerald` were added to `gcps_base` /
+`gcps_ramps` / `gcps_diverging` in `app.R` (the R/export side), but the
+client-side palette engine the Theme Studio tab actually renders from
+(`www/palette-data.js`, `www/theme-studio-app.js`) still only had `gold` —
+`plum`/`slate`/`emerald` were missing from `GCPS_BASE`, `BASE_ORDER`,
+`BASE_DESC`, and the diverging-pair maps. Selecting those three bases in the
+live Palette tab would have looked them up as `undefined`.
+
+Fixed additively, no other files touched:
+- `www/palette-data.js` — added `plum`/`slate`/`emerald` to `GCPS_BASE`,
+  `BASE_ORDER`, `BASE_DESC`, `DIVERGE_PAIR`, using the exact hex values
+  already shipped in `app.R`'s `gcps_base` (not the earlier prompt draft
+  values) and the diverging pairs already implied by `gcps_diverging`
+  (`gold↔teal`, `plum↔green`, `slate↔orange`, `emerald↔maroon`).
+- `www/theme-studio-app.js` — same three keys added to the local
+  `DIVERGE_PAIR_` used by `divergeOther()`.
+- Mirrored both edits into `palette-library/palette-data.js` and
+  `palette-library/theme-studio-app.js` (unused by `app.R`, kept as the
+  vendored reference copies these were duplicated from).
+- `sequential`/`tints`/`continuous` ramps are computed live from the base hex
+  via OKLCH math in `theme-studio.js`, so they needed no changes — only the
+  static lookup tables above were out of sync.
+
+`GCPS_BASE`/`BASE_ORDER`/`BASE_DESC`/`DIVERGE_PAIR` now all list the same 11
+bases as `gcps_base` in `app.R`, verified via a Node `vm` sandbox (no R
+runtime available in this environment) since `theme-studio-app.js` has no
+syntax errors and every `DIVERGE_PAIR` value resolves to a real `GCPS_BASE`
+key. Part A (Quarto/flexdashboard exports) and Part C (accent panel on the
+Palette tab) were re-verified against the live `app.R` / `_theme_studio_markup.html`
+and are confirmed already correct — no changes needed there.
+
+### git diff --stat
+ www/palette-data.js                    | 14 +++++++++-----
+ www/theme-studio-app.js                |  2 +-
+ palette-library/palette-data.js        | 14 +++++++++-----
+ palette-library/theme-studio-app.js    |  2 +-
+ 4 files changed, 18 insertions(+), 14 deletions(-)
