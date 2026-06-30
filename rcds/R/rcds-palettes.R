@@ -23,7 +23,7 @@
 #' @keywords internal
 .rcds_palette_defs <- function() {
   acc <- rcds_tokens()$accent
-  list(
+  base <- list(
     ## Sequential (light -> saturated accent) ---------------------------
     seq_blue  = c("#EAF2FB", "#B9D4F0", "#7FB1E0", "#4C8FCD", "#1E6FB8", "#0F4C84"),
     seq_amber = c("#FCEFDD", "#F8D5A6", "#F2B36A", "#E8852B", "#C56717", "#8F470C"),
@@ -42,6 +42,10 @@
       "1-3" = "#C25B5B", "2-3" = "#92516F", "3-3" = "#3F3F66"
     )
   )
+  # Merge the imported GCPS brand palettes (see R/rcds-gcps.R) so the whole
+  # palette surface -- rcds_pal(), scales, cvd checks, the leaflet bridge --
+  # works with them uniformly.
+  c(base, .rcds_gcps_palette_defs())
 }
 
 #' Build an RCDS palette
@@ -91,11 +95,16 @@ rcds_pal <- function(name, n = NULL, reverse = FALSE, type = "auto") {
 #' @return A named list grouping palette names by family.
 #' @export
 rcds_palettes <- function() {
+  fams <- names(gcps_tokens()$ramps)
   list(
     sequential  = c("seq_blue", "seq_amber", "seq_teal"),
     diverging   = c("div_balance", "div_temp"),
     qualitative = c("qual_brand", "qual_soft"),
-    bivariate   = c("biv_dkblue")
+    bivariate   = c("biv_dkblue"),
+    ## Imported GCPS brand system (see R/rcds-gcps.R)
+    gcps_sequential = paste0("gcps_", fams),
+    gcps_diverging  = paste0("gcps_", setdiff(fams, "neutral"), "_div"),
+    gcps_qualitative = "qual_gcps"
   )
 }
 

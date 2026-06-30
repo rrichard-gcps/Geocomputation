@@ -50,6 +50,11 @@ export(rcds_lint_dir)
 export(rcds_cvd_check)
 export(rcds_greyscale_check)
 
+# GCPS brand pack (imported design system)
+export(gcps_tokens)
+export(theme_gcps_map)
+export(gcps_interactive_css)
+
 # Interactive maps
 export(rcds_basemaps)
 export(rcds_interactive_css)

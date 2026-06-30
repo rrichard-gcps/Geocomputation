@@ -61,6 +61,7 @@ rcds_export(fig, "day16.png", preset = "poster_land", canvas = "dark")
 | Linting | `rcds_lint()`, `rcds_lint_dir()` |
 | Accessibility | `rcds_cvd_check()`, `rcds_greyscale_check()` |
 | Interactive | `rcds_leaflet()`, `rcds_pal_leaflet()`, `rcds_leaflet_choropleth()`, `rcds_interactive_css()`, `rcds_maplibre_style()`, `rcds_save_widget()` |
+| GCPS brand pack | `gcps_tokens()`, `theme_gcps_map()`, `gcps_interactive_css()`, palettes `gcps_*` / `qual_gcps`, voices `gcps_paper/civic/bold` |
 
 ## Linting & tests
 

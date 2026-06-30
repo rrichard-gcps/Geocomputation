@@ -23,7 +23,8 @@
 #' lets you restyle every map by changing one argument.
 #'
 #' @param voice One of `"default"`, `"editorial"`, `"vintage"`, `"fantasy"`,
-#'   `"techno"`.
+#'   `"techno"`, or the imported GCPS map voices `"gcps_paper"`, `"gcps_civic"`,
+#'   `"gcps_bold"`.
 #' @param quiet Suppress the "fonts registered" message.
 #' @return Invisibly, the named character vector of role -> family mappings.
 #' @examples
@@ -33,7 +34,8 @@
 #' }
 #' @export
 rcds_fonts <- function(voice = c("default", "editorial", "vintage",
-                                 "fantasy", "techno"),
+                                 "fantasy", "techno",
+                                 "gcps_paper", "gcps_civic", "gcps_bold"),
                        quiet = FALSE) {
   voice <- match.arg(voice)
 
@@ -42,7 +44,11 @@ rcds_fonts <- function(voice = c("default", "editorial", "vintage",
     editorial = c(display = "Anton",    body = "Roboto Condensed", caption = "Roboto"),
     vintage   = c(display = "Bebas Neue", body = "Roboto Condensed", caption = "Roboto"),
     fantasy   = c(display = "Cinzel",   body = "Cormorant SC",     caption = "Roboto"),
-    techno    = c(display = "Orbitron", body = "Smooch Sans",      caption = "Roboto")
+    techno    = c(display = "Orbitron", body = "Smooch Sans",      caption = "Roboto"),
+    ## Imported GCPS map-theme voices (see R/rcds-gcps.R). All Google fonts.
+    gcps_paper = c(display = "Spectral", body = "IBM Plex Sans", caption = "IBM Plex Mono"),
+    gcps_civic = c(display = "Archivo",  body = "Archivo",       caption = "IBM Plex Mono"),
+    gcps_bold  = c(display = "Archivo",  body = "IBM Plex Sans", caption = "IBM Plex Mono")
   )
   roles <- voices[[voice]]
 
