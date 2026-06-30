@@ -1,0 +1,124 @@
+/* ============================================================================
+   explorer.css — GCPS Theme Explorer · TOKEN SOURCE OF TRUTH
+   ----------------------------------------------------------------------------
+   Every color, type step, spacing unit, radius and shadow in the tool is
+   declared here as a CSS custom property. app.R, app.css and all JS read
+   from these variables — no hex values are duplicated downstream.
+
+   Deployment note: the type stack is the system sans/mono families so the site
+   needs no web-font download on Posit Connect (Connect's network may block
+   external hosts). The finalized design's editorial scale, spacing, color and
+   layout are preserved; only the font binary is sourced from the OS.
+   ========================================================================== */
+
+:root {
+  /* ── Type stack (system, no CDN) ────────────────────────────────────── */
+  --font-sans: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Code', 'Source Code Pro', Consolas, 'Courier New', monospace;
+
+  /* ── Neutral surfaces (warm) ────────────────────────────────────────── */
+  --canvas:        #F7F6F3;
+  --surface:       #FFFFFF;
+  --sunken:        #F1EFEA;
+  --border:        #E4E1D9;
+  --border-strong: #CFCBC0;
+
+  /* ── Text ───────────────────────────────────────────────────────────── */
+  --text:   #1F2120;
+  --text-2: #5C5A54;
+  --text-3: #8A8780;
+
+  /* ── Maroon accent (restrained) ─────────────────────────────────────── */
+  --accent:       #660000;
+  --accent-hover: #540000;
+  --accent-tint:  #F4EAEA;
+  --accent-line:  #E0CACA;
+
+  /* ── Functional ─────────────────────────────────────────────────────── */
+  --pass: #1A7F37;
+  --warn: #9A6700;
+  --fail: #B42318;
+
+  /* ── Type scale ─────────────────────────────────────────────────────── */
+  --fs-display: 40px;   --lh-display: 44px;
+  --fs-h1:      30px;   --lh-h1:      36px;
+  --fs-h2:      22px;   --lh-h2:      28px;
+  --fs-h3:      17px;   --lh-h3:      24px;
+  --fs-body-lg: 16px;   --lh-body-lg: 26px;
+  --fs-body:    14.5px; --lh-body:    22px;
+  --fs-caption: 12.5px; --lh-caption: 18px;
+  --fs-micro:   11px;   --lh-micro:   16px;
+
+  /* ── Spacing (4px base) ─────────────────────────────────────────────── */
+  --s1: 4px;  --s2: 8px;  --s3: 12px; --s4: 16px;
+  --s5: 24px; --s6: 32px; --s7: 48px; --s8: 64px;
+
+  /* ── Radii ──────────────────────────────────────────────────────────── */
+  --r-sm: 6px; --r-md: 10px; --r-lg: 14px;
+
+  /* ── Shadow ─────────────────────────────────────────────────────────── */
+  --sh-1: 0 1px 2px rgba(31,33,32,0.04), 0 1px 2px rgba(31,33,32,0.03);
+  --sh-2: 0 2px 8px rgba(31,33,32,0.06), 0 1px 2px rgba(31,33,32,0.04);
+  --sh-3: 0 8px 28px rgba(31,33,32,0.10);
+
+  /* ══════════════════════════════════════════════════════════════════════
+     GCPS DATA PALETTES — authoritative ramps (mirrors gcps_ramps in app.R)
+     5 sequential stops per family, light → dark, labelled 100/300/500/700/900.
+     ════════════════════════════════════════════════════════════════════ */
+
+  /* Maroon — district signature */
+  --gcps-maroon-base: #660000;
+  --gcps-maroon-100: #DDC7C7;
+  --gcps-maroon-300: #BA8C8C;
+  --gcps-maroon-500: #944C4C;
+  --gcps-maroon-700: #660000;
+  --gcps-maroon-900: #540000;
+
+  /* Blue */
+  --gcps-blue-base: #2F5FB3;
+  --gcps-blue-100: #D1DCEE;
+  --gcps-blue-300: #A1B7DD;
+  --gcps-blue-500: #6D8FCA;
+  --gcps-blue-700: #2F5FB3;
+  --gcps-blue-900: #274E93;
+
+  /* Teal */
+  --gcps-teal-base: #007C91;
+  --gcps-teal-100: #C7E2E7;
+  --gcps-teal-300: #8CC4CE;
+  --gcps-teal-500: #4CA3B2;
+  --gcps-teal-700: #007C91;
+  --gcps-teal-900: #006677;
+
+  /* Green */
+  --gcps-green-base: #5E8C31;
+  --gcps-green-100: #DCE6D2;
+  --gcps-green-300: #B7CBA2;
+  --gcps-green-500: #8EAE6F;
+  --gcps-green-700: #5E8C31;
+  --gcps-green-900: #4D7328;
+
+  /* Violet */
+  --gcps-violet-base: #6A4CC3;
+  --gcps-violet-100: #DED8F2;
+  --gcps-violet-300: #BCAEE4;
+  --gcps-violet-500: #9782D5;
+  --gcps-violet-700: #6A4CC3;
+  --gcps-violet-900: #573EA0;
+
+  /* Orange */
+  --gcps-orange-base: #D96A1D;
+  --gcps-orange-100: #F7DECD;
+  --gcps-orange-300: #EEBC99;
+  --gcps-orange-500: #E49761;
+  --gcps-orange-700: #D96A1D;
+  --gcps-orange-900: #B25718;
+
+  /* Neutral */
+  --gcps-neutral-base: #7A828C;
+  --gcps-neutral-100: #F4F5F7;
+  --gcps-neutral-300: #E3E6EA;
+  --gcps-neutral-500: #B6BCC4;
+  --gcps-neutral-700: #7A828C;
+  --gcps-neutral-900: #4B525A;
+}

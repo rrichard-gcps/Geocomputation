@@ -1,0 +1,501 @@
+---
+title: "GCPS Color Style Guide"
+subtitle: "Base palette, scales, and data visualization use cases"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    theme: cosmo
+    code-fold: false
+    self-contained: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+# Core palette --------------------------------------------------------------
+
+gcps_base <- c(
+  maroon = "#660000",
+  blue   = "#2F5FB3",
+  teal   = "#007C91",
+  green  = "#5E8C31",
+  violet = "#6A4CC3",
+  orange = "#D96A1D",
+  light  = "#E3E6EA",
+  dark   = "#4B525A"
+)
+
+gcps_boe5 <- c(
+  area1 = "#2F5FB3",
+  area2 = "#007C91",
+  area3 = "#5E8C31",
+  area4 = "#6A4CC3",
+  area5 = "#D96A1D"
+)
+
+gcps_ramps <- list(
+  maroon = c("#DDC7C7", "#BA8C8C", "#944C4C", "#660000", "#540000"),
+  blue   = c("#D1DCEE", "#A1B7DD", "#6D8FCA", "#2F5FB3", "#274E93"),
+  teal   = c("#C7E2E7", "#8CC4CE", "#4CA3B2", "#007C91", "#006677"),
+  green  = c("#DCE6D2", "#B7CBA2", "#8EAE6F", "#5E8C31", "#4D7328"),
+  violet = c("#DED8F2", "#BCAEE4", "#9782D5", "#6A4CC3", "#573EA0"),
+  orange = c("#F7DECD", "#EEBC99", "#E49761", "#D96A1D", "#B25718"),
+  neutral = c("#F4F5F7", "#E3E6EA", "#B6BCC4", "#7A828C", "#4B525A")
+)
+
+gcps_diverging <- list(
+  maroon_teal = c("#7A2E2E", "#C9A6A6", "#F3F4F6", "#9DCFD7", "#007C91"),
+  blue_orange = c("#4268B8", "#B7C8EA", "#F3F4F6", "#F3C9A8", "#D96A1D")
+)
+
+gcps_pairs <- list(
+  brand_vs_alt = c("#660000", "#007C91"),
+  blue_orange  = c("#2F5FB3", "#D96A1D"),
+  teal_orange  = c("#007C91", "#D96A1D"),
+  violet_green = c("#6A4CC3", "#5E8C31"),
+  maroon_blue  = c("#660000", "#2F5FB3")
+)
+
+# Helpers ------------------------------------------------------------------
+
+text_color <- function(hex) {
+  rgb <- grDevices::col2rgb(hex)
+  luminance <- (0.299 * rgb[1, ] + 0.587 * rgb[2, ] + 0.114 * rgb[3, ]) / 255
+  ifelse(luminance > 0.62, "#1F2328", "#FFFFFF")
+}
+
+swatch_row <- function(cols, labels = names(cols), height = 82) {
+  if (is.null(labels)) labels <- rep("", length(cols))
+  pieces <- mapply(
+    FUN = function(col, lab) {
+      fg <- text_color(col)
+      sprintf(
+        paste0(
+          "<div style='flex:1; min-width:110px; background:%s; color:%s; border-radius:10px; ",
+          "padding:12px; height:%spx; display:flex; flex-direction:column; justify-content:space-between; ",
+          "box-shadow: inset 0 0 0 1px rgba(0,0,0,.08);'>",
+          "<div style='font-weight:700; font-size:0.95rem;'>%s</div>",
+          "<div style='font-family:monospace; font-size:0.9rem;'>%s</div>",
+          "</div>"
+        ),
+        col, fg, height, lab, col
+      )
+    },
+    cols,
+    labels,
+    SIMPLIFY = FALSE,
+    USE.NAMES = FALSE
+  )
+
+  cat(
+    "<div style='display:flex; gap:12px; flex-wrap:wrap; margin:0.5rem 0 1.2rem 0;'>",
+    paste(pieces, collapse = ""),
+    "</div>"
+  )
+}
+
+rule_card <- function(title, use_when, typical, rule) {
+  cat(sprintf(
+    paste0(
+      "<div style='border:1px solid #D9DDE3; border-radius:12px; padding:16px; margin:0.8rem 0 1rem 0; background:#FFFFFF;'>",
+      "<div style='font-size:1.05rem; font-weight:700; margin-bottom:8px;'>%s</div>",
+      "<p><strong>Use when:</strong> %s</p>",
+      "<p><strong>Typical charts:</strong> %s</p>",
+      "<p style='margin-bottom:0;'><strong>Rule:</strong> %s</p>",
+      "</div>"
+    ),
+    title, use_when, typical, rule
+  ))
+}
+
+mini_bar <- function(cols, heights = NULL) {
+  if (is.null(heights)) heights <- c(52, 68, 84, 102, 118)[seq_along(cols)]
+  pieces <- mapply(
+    FUN = function(col, h) sprintf(
+      "<div style='width:42px; height:%spx; background:%s; border-radius:6px 6px 0 0;'></div>",
+      h, col
+    ),
+    cols,
+    heights,
+    SIMPLIFY = FALSE,
+    USE.NAMES = FALSE
+  )
+  cat(
+    "<div style='display:flex; gap:8px; align-items:flex-end; padding:10px 0 2px 0;'>",
+    paste(pieces, collapse = ""),
+    "</div>"
+  )
+}
+
+mini_diverging <- function(cols) {
+  pieces <- vapply(
+    cols,
+    function(col) sprintf(
+      "<div style='flex:1; height:28px; background:%s;'></div>",
+      col
+    ),
+    character(1)
+  )
+  cat(
+    "<div style='display:flex; overflow:hidden; border-radius:8px; border:1px solid #D9DDE3; margin:0.3rem 0 0.8rem 0;'>",
+    paste(pieces, collapse = ""),
+    "</div>"
+  )
+}
+```
+
+<style>
+.callout-note {
+  border-left-color: #660000;
+}
+.table-smaller table {
+  font-size: 0.95rem;
+}
+</style>
+
+## Purpose
+
+This page defines a practical color system for GCPS analytics products. It is designed for:
+
+- dashboard use on computer screens
+- presentation use on projection screens
+- public-facing summary pages
+- consistent color decisions across Quarto, Shiny, Power BI, and static reports
+
+The goal is not just to list hex codes. The goal is to specify **when to use which kind of scale**.
+
+## Design logic
+
+The system is organized into four parts:
+
+1. **Brand anchor** for district identity
+2. **Qualitative hues** for unordered categories such as Board Areas
+3. **Sequential ramps** for ordered numeric values
+4. **Diverging scales** for charts with a meaningful midpoint such as zero, district average, or target
+
+::: {.callout-note}
+## Operating rule
+GCPS maroon should usually signal district identity, district totals, or a focal highlight. It should not behave like just another category unless that is intentional.
+:::
+
+## Base palette
+
+### Brand + Board Areas + neutrals
+
+```{r}
+swatch_row(
+  gcps_base,
+  labels = c(
+    "GCPS Maroon", "Blue", "Teal", "Green",
+    "Violet", "Orange", "Light Neutral", "Dark Neutral"
+  )
+)
+```
+
+```{r}
+gcps_base
+```
+
+### Board Area palette
+
+```{r}
+swatch_row(
+  gcps_boe5,
+  labels = c("Area 1", "Area 2", "Area 3", "Area 4", "Area 5")
+)
+```
+
+```{r}
+gcps_boe5
+```
+
+## Use cases
+
+### 1. Brand / district identity
+
+```{r}
+rule_card(
+  "Brand / district identity",
+  "the chart needs to show GCPS overall, district totals, or the official district value",
+  "KPI cards, district average reference lines, featured bars, district summary marks",
+  "Use maroon as the anchor. Keep it scarce enough that it still signals importance."
+)
+```
+
+```{r}
+swatch_row(c("#660000"), labels = "GCPS")
+```
+
+### 2. Unordered category comparison
+
+```{r}
+rule_card(
+  "Unordered category comparison",
+  "the categories are different but not ranked, such as Board Areas or program types",
+  "grouped bars, dot plots, multi-series lines, legends with category labels",
+  "Use the qualitative palette. Do not imply order with unrelated categories."
+)
+mini_bar(gcps_boe5, heights = c(78, 96, 64, 88, 72))
+swatch_row(gcps_boe5, labels = c("Blue", "Teal", "Green", "Violet", "Orange"), height = 72)
+```
+
+### 3. Ordered low-to-high values
+
+```{r}
+rule_card(
+  "Ordered low-to-high values",
+  "the data move in one direction from low to high, such as rate, count, or share",
+  "heatmaps, choropleths, shaded tables, ranked bars with intensity",
+  "Use a single-hue sequential ramp. Darker should mean more."
+)
+mini_bar(gcps_ramps$blue)
+swatch_row(gcps_ramps$blue, labels = paste("Step", 1:5), height = 70)
+```
+
+### 4. Below / at / above a meaningful midpoint
+
+```{r}
+rule_card(
+  "Centered around a meaningful midpoint",
+  "the midpoint represents zero change, district average, target, or another meaningful reference value",
+  "difference heatmaps, centered bar charts, performance vs target maps",
+  "Use a diverging scale only when the midpoint actually matters."
+)
+mini_diverging(gcps_diverging$maroon_teal)
+swatch_row(gcps_diverging$maroon_teal, labels = c("Low", "Below", "Center", "Above", "High"), height = 64)
+```
+
+### 5. Highlight one thing against many others
+
+```{r}
+rule_card(
+  "Highlight one value against many others",
+  "one district, one school, or one selected entity needs to stand out from a background set",
+  "ranked bars, lollipops, strip plots, comparison tables",
+  "Use one focal color and keep all others neutral."
+)
+mini_bar(c("#B6BCC4", "#B6BCC4", "#660000", "#B6BCC4", "#B6BCC4"), heights = c(62, 78, 104, 85, 70))
+swatch_row(c(focal = "#660000", others = "#B6BCC4"), labels = c("Focal", "Muted peers"), height = 72)
+```
+
+### 6. Within-one-group composition
+
+```{r}
+rule_card(
+  "Within-one-group composition",
+  "the categories are parts of the same parent concept, such as sub-statuses within one population",
+  "stacked bars, waffles, treemaps, segmented cards",
+  "Use a monochrome family so the viewer reads the pieces as related."
+)
+mini_bar(gcps_ramps$teal, heights = c(28, 46, 66, 88, 112))
+swatch_row(gcps_ramps$teal, labels = paste("Step", 1:5), height = 70)
+```
+
+### 7. Ordered status or severity
+
+```{r}
+rule_card(
+  "Ordered status or severity",
+  "the categories have a natural progression such as low, medium, high or approaching, meeting, exceeding",
+  "summary matrices, scorecards, simple heat tables",
+  "Use a light-to-dark ordered family rather than unrelated hues."
+)
+swatch_row(c(low = "#DCE6D2", medium = "#8EAE6F", high = "#5E8C31"), labels = c("Low", "Medium", "High"), height = 72)
+```
+
+### 8. Current year versus prior year
+
+```{r}
+rule_card(
+  "Two-time-point comparison",
+  "the story is current versus prior year or before versus after",
+  "paired bars, slope charts, dumbbells, two-line trends",
+  "Make the current value darker and more saturated than the prior value."
+)
+swatch_row(c(current = "#660000", prior = "#B6BCC4"), labels = c("Current", "Prior"), height = 72)
+```
+
+### 9. Actual, target, and benchmark
+
+```{r}
+rule_card(
+  "Actual, target, and benchmark",
+  "one measured value needs to be shown against a target or reference",
+  "bullet charts, annotated KPI cards, line charts with reference bands",
+  "Keep the actual saturated, keep the target neutral, and keep the benchmark band subtle."
+)
+swatch_row(c(actual = "#007C91", target = "#4B525A", band = "#E3E6EA"), labels = c("Actual", "Target", "Benchmark band"), height = 72)
+```
+
+### 10. Heatmap or matrix values
+
+```{r}
+rule_card(
+  "Heatmap / matrix values",
+  "a table or grid is encoding a single numeric variable",
+  "school-by-year matrices, subgroup-by-metric tables, month-by-rate grids",
+  "Use a sequential ramp and keep the legend obvious."
+)
+swatch_row(c("#F4F8F9", "#C7E2E7", "#8CC4CE", "#4CA3B2", "#007C91"), labels = paste("Bin", 1:5), height = 68)
+```
+
+### 11. Geographic choropleth
+
+```{r}
+rule_card(
+  "Map fills",
+  "a geographic unit is colored by a single numeric variable or by deviation from a benchmark",
+  "choropleths and zone maps",
+  "Use sequential for one-way magnitude and diverging for deviation from a meaningful center."
+)
+swatch_row(c("#F7DECD", "#EEBC99", "#E49761", "#D96A1D", "#B25718"), labels = paste("Seq", 1:5), height = 68)
+mini_diverging(c("#7A2E2E", "#D7B4B4", "#F3F4F6", "#A8D2DA", "#007C91"))
+```
+
+### 12. Background, scaffolding, and UI support
+
+```{r}
+rule_card(
+  "Neutrals for interface and scaffolding",
+  "the purpose is support, not emphasis",
+  "background panels, striping, borders, gridlines, labels, muted bars",
+  "Most of the interface should be neutral so the data colors can do the work."
+)
+swatch_row(c(light = "#E3E6EA", mid = "#B6BCC4", dark = "#4B525A"), labels = c("Light", "Mid", "Dark"), height = 72)
+```
+
+## Sequential ramps
+
+### Maroon
+```{r}
+swatch_row(gcps_ramps$maroon, labels = paste("Step", 1:5), height = 72)
+```
+
+### Blue
+```{r}
+swatch_row(gcps_ramps$blue, labels = paste("Step", 1:5), height = 72)
+```
+
+### Teal
+```{r}
+swatch_row(gcps_ramps$teal, labels = paste("Step", 1:5), height = 72)
+```
+
+### Green
+```{r}
+swatch_row(gcps_ramps$green, labels = paste("Step", 1:5), height = 72)
+```
+
+### Violet
+```{r}
+swatch_row(gcps_ramps$violet, labels = paste("Step", 1:5), height = 72)
+```
+
+### Orange
+```{r}
+swatch_row(gcps_ramps$orange, labels = paste("Step", 1:5), height = 72)
+```
+
+### Neutral
+```{r}
+swatch_row(gcps_ramps$neutral, labels = paste("Step", 1:5), height = 72)
+```
+
+## Diverging scales
+
+### Maroon to teal
+```{r}
+swatch_row(gcps_diverging$maroon_teal, labels = c("Low", "Below", "Center", "Above", "High"), height = 72)
+```
+
+### Blue to orange
+```{r}
+swatch_row(gcps_diverging$blue_orange, labels = c("Low", "Below", "Center", "Above", "High"), height = 72)
+```
+
+## Recommended pairs
+
+```{r}
+for (nm in names(gcps_pairs)) {
+  cat(sprintf("<h3>%s</h3>", gsub("_", " ", nm)))
+  swatch_row(gcps_pairs[[nm]], labels = c("A", "B"), height = 68)
+}
+```
+
+## Do / don't rules
+
+::: {.callout-note}
+## Do
+
+- Use **maroon** for GCPS identity, district totals, and focal highlights.
+- Use **five qualitative hues** for Board Areas and other unordered categories.
+- Use **one hue** for ordered numeric scales.
+- Use **diverging color** only when the center has meaning.
+- Use **neutrals** heavily in the interface so comparisons stay clear.
+:::
+
+::: {.callout-note}
+## Don't
+
+- Do not use five unrelated Board Area colors for a continuous choropleth.
+- Do not use maroon as one of many equal colors unless that is intentional.
+- Do not mix too many dark colors in one chart for projection-heavy use.
+- Do not use diverging colors just because they look interesting.
+- Do not let background elements compete with the data marks.
+:::
+
+## Implementation objects
+
+```{r}
+gcps_colors <- list(
+  brand = list(
+    gcps = "#660000"
+  ),
+  qualitative = list(
+    boe5 = gcps_boe5
+  ),
+  sequential = gcps_ramps,
+  diverging = gcps_diverging,
+  neutral = list(
+    light = "#E3E6EA",
+    mid   = "#B6BCC4",
+    dark  = "#4B525A"
+  )
+)
+
+gcps_colors
+```
+
+## ggplot2 helpers
+
+```{r}
+scale_color_gcps_qual <- function(...) {
+  ggplot2::scale_color_manual(values = gcps_boe5, ...)
+}
+
+scale_fill_gcps_qual <- function(...) {
+  ggplot2::scale_fill_manual(values = gcps_boe5, ...)
+}
+
+scale_fill_gcps_ramp <- function(
+  palette = c("maroon", "blue", "teal", "green", "violet", "orange", "neutral"),
+  ...
+) {
+  palette <- match.arg(palette)
+  ggplot2::scale_fill_manual(values = gcps_ramps[[palette]], ...)
+}
+
+scale_color_gcps_ramp <- function(
+  palette = c("maroon", "blue", "teal", "green", "violet", "orange", "neutral"),
+  ...
+) {
+  palette <- match.arg(palette)
+  ggplot2::scale_color_manual(values = gcps_ramps[[palette]], ...)
+}
+```

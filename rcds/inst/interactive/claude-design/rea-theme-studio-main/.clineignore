@@ -1,0 +1,80 @@
+# ============================================================
+# Cline ignore file for R / Shiny / Quarto / Posit projects
+# Goal: reduce context size and avoid generated/data artifacts
+# ============================================================
+
+# R project/session artifacts
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# R package/environment artifacts
+renv/library/
+renv/staging/
+packrat/
+*.Rcheck/
+
+# Python/Node artifacts
+.venv/
+venv/
+__pycache__/
+node_modules/
+
+# Quarto build outputs
+_site/
+_freeze/
+.quarto/
+*.html
+*.pdf
+*.docx
+*.pptx
+
+# Posit Connect / deployment artifacts
+rsconnect/
+_app_archive/
+manifest.json
+
+# Data files - usually too large for agent context
+data/
+raw_data/
+output/
+outputs/
+exports/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.rds
+*.RDS
+*.RData
+*.parquet
+*.feather
+*.arrow
+*.duckdb
+*.sqlite
+*.db
+
+# Images and binary assets
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+*.ico
+
+# Logs/cache
+logs/
+*.log
+.cache/
+tmp/
+temp/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.crt

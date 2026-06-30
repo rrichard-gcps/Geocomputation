@@ -1,0 +1,23 @@
+{
+  "//": "STARTING POINT ONLY — regenerate with rsconnect::writeManifest(appDir = '.').",
+  "//2": "writeManifest records the authoritative file list, checksums, and the locked R package set (from renv.lock) that Posit Connect restores at deploy time.",
+  "version": 1,
+  "locale": "en_US",
+  "metadata": {
+    "appmode": "shiny",
+    "primary_rmd": null,
+    "primary_html": null,
+    "content_category": null,
+    "entrypoint": "app.R"
+  },
+  "files": {
+    "app.R": {},
+    "R/gcps_palette_data.R": {},
+    "R/gcps_palette_library.R": {},
+    "www/theme-studio.css": {},
+    "www/palette-data.js": {},
+    "www/theme-studio.js": {},
+    "www/theme-studio-app.js": {},
+    "README.md": {}
+  }
+}
