@@ -137,6 +137,23 @@ re-scoring on revisit.
 the floor (Days 2, 24, 26) is dragged down by palette accessibility, legend
 sizing, and labelling — exactly the areas `rcds` standardizes.
 
+### v2 refactor set (routed through `rcds`)
+
+The flagship maps re-rendered through the framework (see
+`archive/*_rcds.R` and [CHANGELOG-v2.md](CHANGELOG-v2.md)). Re-scores are
+projections from the code changes pending an executed render.
+
+| Map | Before | After | Δ | What moved |
+|-----|:--:|:--:|:--:|-----------|
+| Day 16 Bivariate | 89 (B+) | **94 (A)** | +5 | Colour (`biv_dkblue` on dark), Typography (one voice + scale), Technical (linewidth, DPI sync) |
+| Day 30 CFB | 85 (B) | **90 (A-)** | +5 | Typography (`techno` voice + scale), removed superfluous graticule, Technical |
+| Day 7 Vintage | 89 (B+) | **92 (A-)** | +3 | Typography consistency, Technical, reuse (canvas/ink now tokens) — Du Bois palette kept verbatim |
+
+Refactor-set mean **87.7 → 92.0**. The lever was systemic, not per-map effort:
+each map lost ~30 lines of bespoke `theme()`/credits/export code and gained the
+shared identity. Day 7 deliberately keeps its historical palette — the system
+improves *execution*, not the homage.
+
 ### Score patterns
 
 - **Strongest dimensions:** Layout, Balance/composition, Storytelling — the
