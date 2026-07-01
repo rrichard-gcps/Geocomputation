@@ -9,7 +9,8 @@ the [`rcds`](../rcds) R package.
 | [archive-review.md](archive-review.md) | Archive catalog, professional critique, per-map Quality Scores, improvement matrix | 1, 2, 3, 8 |
 | [roadmap.md](roadmap.md) | Prioritized improvement plan + continuous-improvement protocol + evolution tracking | 7, 8 |
 | [innovation-log.md](innovation-log.md) | Living list of advanced techniques to grow into | 7, 8 |
-| [claude-design-integration.md](claude-design-integration.md) | Plan + seams for folding Claude Design projects into rcds (static + interactive) | — |
+| [claude-design-integration.md](claude-design-integration.md) | Status + record of folding the Claude Design projects into rcds | — |
+| [gcps-brand.md](gcps-brand.md) | The imported GCPS brand pack: 11-family colour system, 3 map themes, interactive CSS | — |
 
 ## Start here
 

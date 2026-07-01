@@ -7,20 +7,27 @@ coherent system rather than a pile of pasted styles.
 - Project A: `https://claude.ai/design/p/e0a6dfcb-10b9-4c65-9a1b-0d53d0af5a5c`
 - Project B: `https://claude.ai/design/p/019ddf13-d6f0-7c0c-a6e8-e0cd87a48e8c`
 
-## Status: blocked on import (content not yet available)
+## Status: IMPORTED & INTEGRATED ✅
 
-The design content could not be read from the current environment:
+The two projects were pushed into the repo (under
+`rcds/inst/interactive/claude-design/`) and turned out to be the **GCPS / REA
+Theme Studio** (an 11-family colour system + 6 dashboard shells) and a
+**map-design** project (three cartographic poster themes). Both are now integrated
+into `rcds` — see [gcps-brand.md](gcps-brand.md) for the full API.
 
-- The design MCP (`DesignSync`) needs interactive `/design-login`, unavailable in
-  a web session.
-- The `claude.ai/design/...` URLs are authenticated, so they can't be fetched.
-- Nothing was seeded into the workspace.
+What was integrated:
 
-**To unblock (chosen path): Send to Claude Code Web.** Open each project in Claude
-Design and use *Send to Claude Code Web*; it seeds the project files into the
-workspace. Drop them under `rcds/inst/interactive/claude-design/`. Then the wiring
-below executes against the real tokens. (Alternatives: paste/export the tokens, or
-authorize via `/design-login` in an interactive Claude Code terminal.)
+- **Colour** → 11 GCPS families (base + sequential ramp + diverging ramp)
+  registered into `rcds_pal()` as `gcps_*` / `gcps_*_div` / `qual_gcps`
+  (`R/rcds-gcps.R`, merged via `.rcds_palette_defs()`).
+- **Type** → three map voices added to `rcds_fonts()` (`gcps_paper`,
+  `gcps_civic`, `gcps_bold`; Spectral / Archivo / IBM Plex faces).
+- **Map themes** → `theme_gcps_map("paper"|"civic"|"bold")` (static) and
+  `gcps_interactive_css()` (interactive), both reading `gcps_tokens()`.
+- **All tokens** → exposed via `gcps_tokens()` (families, neutrals, signature,
+  3 map themes, 6 UI shells).
+
+Tests: `tests/testthat/test-gcps.R`.
 
 ## What was built ahead of the import (the seams)
 
