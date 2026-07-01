@@ -1,16 +1,16 @@
 # =============================================================================
 # rcds-gcps.R -- GCPS brand pack, integrated from the imported Claude Design
-# "GCPS / REA Theme Studio" and "map-design" projects
-# (rcds/inst/interactive/claude-design/). Brings the official Gwinnett County
-# Public Schools colour system, the three cartographic poster themes, and the
-# Segoe-UI/Spectral/Archivo typography into the rcds system so static and
-# interactive maps can carry the institutional identity.
+# "GCPS / REA Theme Studio" and "map-design" projects (kept in the repo under
+# top-level design-source/, NOT bundled in the package). Brings the official
+# Gwinnett County Public Schools colour system, the three cartographic poster
+# themes, and the Segoe-UI/Spectral/Archivo typography into the rcds system so
+# static and interactive maps can carry the institutional identity.
 #
-# Source of truth for the values below:
-#   .../rea-theme-studio-main/app.R          (gcps_base, gcps_ramps, gcps_diverging)
-#   .../rea-theme-studio-main/R/gcps_palettes.R (family labels, 5 stops)
-#   .../rea-theme-studio-main/www/themes.css (the 6 UI shells)
-#   .../map-design/src/themes.js             (the 3 map poster themes A/B/C)
+# Source of truth for the values below (design-source/ in the repo):
+#   design-source/rea-theme-studio-main/app.R          (gcps_base/ramps/diverging)
+#   design-source/rea-theme-studio-main/R/gcps_palettes.R (family labels, 5 stops)
+#   design-source/rea-theme-studio-main/www/themes.css (the 6 UI shells)
+#   design-source/map-design/src/themes.js             (the 3 map poster themes)
 # =============================================================================
 
 #' GCPS brand tokens

@@ -5,7 +5,7 @@ Design **GCPS / REA Theme Studio** and **map-design** projects — integrated in
 `rcds` so the map tool can produce institution-branded maps, static and
 interactive, from one system.
 
-Source files live under `rcds/inst/interactive/claude-design/`; the integrated R
+Source files live under the repo's top-level `design-source/`; the integrated R
 API lives in `rcds/R/rcds-gcps.R`. Single source of truth: `gcps_tokens()`.
 
 ## The colour system
