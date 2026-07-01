@@ -41,6 +41,9 @@ gcps_bs_theme <- function(theme = c("editorial", "clarity", "dark", "soft",
     base_font = base_font, heading_font = heading_font,
     ...)
 
+  # bs_add_variables() adds these as Sass !default variables (its default
+  # behaviour), so the theme's own values still win. Only real Bootstrap 5
+  # variables are set here.
   bslib::bs_add_variables(
     th,
     "body-bg" = ut$canvas,
@@ -50,9 +53,7 @@ gcps_bs_theme <- function(theme = c("editorial", "clarity", "dark", "soft",
     "border-color" = ut$border,
     "border-radius" = paste0(ut$radius[2], "px"),
     "border-radius-sm" = paste0(ut$radius[1], "px"),
-    "border-radius-lg" = paste0(ut$radius[3], "px"),
-    "secondary-color" = ut$text_2,
-    .defaults = TRUE)
+    "border-radius-lg" = paste0(ut$radius[3], "px"))
 }
 
 #' List the GCPS dashboard shells
