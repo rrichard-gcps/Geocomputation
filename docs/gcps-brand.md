@@ -83,19 +83,39 @@ The matching font voices are also available globally: `rcds_fonts("gcps_paper")`
 + corner radii — for Shiny/dashboard chrome around maps. Not yet wired to a
 ggplot theme (maps use the three poster themes); kept as tokens for dashboard use.
 
-## Default vs. opt-in (open decision)
+## GCPS is the default brand
 
-The GCPS pack is integrated **non-destructively** — it sits alongside the
-archive-derived dark identity, selected explicitly via `theme_gcps_map()` /
-`gcps_*` palettes. Recommended split:
+As of the brand system (`R/rcds-brand.R`), **GCPS is the out-of-the-box default**.
+The convenience entry points resolve to the GCPS identity automatically:
 
-- **GCPS pack** → official / institutional deliverables (district reports, board
-  presentations, public dashboards).
-- **Archive identity** (`theme_rcds`, `seq_*`/`qual_*`) → personal, social, and
-  challenge maps.
+```r
+library(rcds)                 # loads with brand = "gcps"
+rcds_brand()                  # "gcps"
 
-If you want GCPS to be the *global default*, that's a one-line change (make
-`theme_gcps_map("civic")` the house theme); say the word and I'll flip it.
+ggplot(districts) +
+  geom_sf(aes(fill = enrollment)) +
+  scale_fill_map_c() +        # -> gcps_teal (brand default sequential)
+  theme_map()                 # -> theme_gcps_map("civic")
+
+rcds_fonts()                  # no voice -> gcps_civic
+```
+
+Switch the entire tool back to the dark, archive-derived identity with one call:
+
+```r
+rcds_brand("archive")         # theme_map() -> theme_rcds_map("dark"),
+                              # scale_fill_map_c() -> seq_blue, rcds_fonts() -> default
+```
+
+Explicit calls are never overridden by the brand: `theme_rcds_map("dark")`,
+`scale_fill_rcds_c("seq_blue")`, `theme_gcps_map("bold")`, and
+`rcds_fonts("techno")` all still do exactly what they say. The brand only decides
+what the *unqualified* `theme_map()` / `scale_*_map_*()` / `rcds_fonts(NULL)`
+produce.
+
+Recommended usage: keep the GCPS default for institutional work; drop to explicit
+`theme_rcds_map()` / `seq_*` palettes (or `rcds_brand("archive")` for a whole
+session) for personal, social, and challenge maps.
 
 ## Accessibility note
 

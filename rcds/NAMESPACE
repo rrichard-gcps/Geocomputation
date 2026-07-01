@@ -50,6 +50,16 @@ export(rcds_lint_dir)
 export(rcds_cvd_check)
 export(rcds_greyscale_check)
 
+# Brand defaults
+export(rcds_brand)
+export(rcds_default_voice)
+export(rcds_default_palette)
+export(theme_map)
+export(scale_fill_map_c)
+export(scale_color_map_c)
+export(scale_fill_map_d)
+export(scale_color_map_d)
+
 # GCPS brand pack (imported design system)
 export(gcps_tokens)
 export(theme_gcps_map)

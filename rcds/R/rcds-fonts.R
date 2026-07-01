@@ -24,7 +24,8 @@
 #'
 #' @param voice One of `"default"`, `"editorial"`, `"vintage"`, `"fantasy"`,
 #'   `"techno"`, or the imported GCPS map voices `"gcps_paper"`, `"gcps_civic"`,
-#'   `"gcps_bold"`.
+#'   `"gcps_bold"`. `NULL` (the default) resolves to the active brand's voice
+#'   (see [rcds_brand()]) -- GCPS out of the box.
 #' @param quiet Suppress the "fonts registered" message.
 #' @return Invisibly, the named character vector of role -> family mappings.
 #' @examples
@@ -33,11 +34,12 @@
 #' ggplot2::element_text(family = rcds_font("display"))
 #' }
 #' @export
-rcds_fonts <- function(voice = c("default", "editorial", "vintage",
-                                 "fantasy", "techno",
-                                 "gcps_paper", "gcps_civic", "gcps_bold"),
-                       quiet = FALSE) {
-  voice <- match.arg(voice)
+rcds_fonts <- function(voice = NULL, quiet = FALSE) {
+  choices <- c("default", "editorial", "vintage", "fantasy", "techno",
+               "gcps_paper", "gcps_civic", "gcps_bold")
+  # No voice given -> use the active brand's default (GCPS out of the box).
+  if (is.null(voice)) voice <- rcds_default_voice()
+  voice <- match.arg(voice, choices)
 
   voices <- list(
     default   = c(display = "Oswald",   body = "Roboto Condensed", caption = "Roboto"),
