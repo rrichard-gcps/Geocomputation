@@ -1,0 +1,10 @@
+# renv library (restored from renv.lock; do not commit)
+renv/library/
+renv/local/
+renv/cellar/
+renv/staging/
+renv/python/
+renv/sandbox/
+.Rproj.user/
+rsconnect/
+*.Rproj

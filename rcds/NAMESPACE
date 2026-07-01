@@ -64,6 +64,8 @@ export(scale_color_map_d)
 export(gcps_tokens)
 export(theme_gcps_map)
 export(gcps_interactive_css)
+export(gcps_bs_theme)
+export(gcps_ui_themes)
 
 # Interactive maps
 export(rcds_basemaps)

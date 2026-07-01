@@ -38,6 +38,8 @@ Suggests:
     htmltools,
     htmlwidgets,
     mapgl,
+    bslib,
+    shiny,
     knitr,
     rmarkdown,
     testthat (>= 3.0.0)
