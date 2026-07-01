@@ -11,6 +11,7 @@ the [`rcds`](../rcds) R package.
 | [innovation-log.md](innovation-log.md) | Living list of advanced techniques to grow into | 7, 8 |
 | [claude-design-integration.md](claude-design-integration.md) | Status + record of folding the Claude Design projects into rcds | — |
 | [gcps-brand.md](gcps-brand.md) | The imported GCPS brand pack: 11-family colour system, 3 map themes, interactive CSS | — |
+| [deploy-connect-cloud.md](deploy-connect-cloud.md) | Publishing the map tool / dashboard to Posit Connect Cloud from GitHub | — |
 
 ## Start here
 

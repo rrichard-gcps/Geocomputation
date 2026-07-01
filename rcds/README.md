@@ -63,6 +63,15 @@ rcds_export(fig, "day16.png", preset = "poster_land", canvas = "dark")
 | Interactive | `rcds_leaflet()`, `rcds_pal_leaflet()`, `rcds_leaflet_choropleth()`, `rcds_interactive_css()`, `rcds_maplibre_style()`, `rcds_save_widget()` |
 | GCPS brand pack | `gcps_tokens()`, `theme_gcps_map()`, `gcps_interactive_css()`, palettes `gcps_*` / `qual_gcps`, voices `gcps_paper/civic/bold` |
 | Brand default | `rcds_brand()` (**default `"gcps"`**), `theme_map()`, `scale_fill_map_c/d()`, `rcds_default_palette()` |
+| Dashboard | `gcps_bs_theme()` (6 UI shells → bslib), `gcps_ui_themes()` |
+
+## Demo & deploy
+
+- **Runnable dashboard** (Shiny + Leaflet + ggplot, GCPS identity end to end):
+  `apps/gcps-dashboard/app.R` — `shiny::runApp("apps/gcps-dashboard")`.
+- **No-Shiny demo** (static PNG + interactive HTML): `inst/examples/gcps_demo.R`.
+- **Publish to Posit Connect Cloud** from GitHub: `apps/gcps-dashboard/README.md`
+  and `docs/deploy-connect-cloud.md`.
 
 ## Linting & tests
 
