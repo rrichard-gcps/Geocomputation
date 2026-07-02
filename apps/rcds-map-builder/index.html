@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RCDS Map Builder — build a well-put-together map</title>
+<meta name="description" content="Choose a dataset, pick a field, and let RCDS classify, style, and score your map — from first draft to exported figure.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">
+      <span class="brand-mark"></span>
+      <span class="brand-name">RCDS <span>Map Builder</span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#product">Product</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#mqs">Map Quality Score</a></li>
+      <li><a href="#how-it-works">How it works</a></li>
+      <li><a href="#themes">Themes</a></li>
+      <li><a href="#docs">Docs</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="btn btn-ghost btn-sm" href="#docs">Read the docs</a>
+      <a class="btn btn-primary btn-sm" href="#demo">Try it in the browser</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="kicker">RCDS · Map Builder</span>
+      <h1>Build a well-put-together map, without fighting the defaults.</h1>
+      <p class="lead">Choose a dataset, pick a field, and let quantile, equal-width, or natural breaks find the classification. Every map is styled through the RCDS system and checked before you export it — not just styled, scored.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="#demo">Try it in the browser</a>
+        <a class="btn btn-ghost" href="#gallery">See example maps</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><div class="num mono">40+</div><div class="label">demographic &amp; outcome fields</div></div>
+        <div class="hero-stat"><div class="num mono">3</div><div class="label">classification methods</div></div>
+        <div class="hero-stat"><div class="num mono">5</div><div class="label">export destinations</div></div>
+      </div>
+    </div>
+    <figure class="hero-figure">
+      <div class="img-frame">
+        <img src="assets/metro-atlanta-districts.png" alt="Map of metro Atlanta highlighting Gwinnett County, Atlanta, and Henry County public school districts on a light civic canvas, with a Georgia counties locator inset.">
+      </div>
+      <figcaption class="signature">
+        <span><b>Challenge</b> — where do three districts meet?</span>
+        <span><b>Tool</b> — RCDS Map Builder</span>
+        <span><b>Created by</b> — REA</span>
+        <span><b>Sources</b> — Gwinnett, Atlanta Public &amp; Henry County Schools boundaries</span>
+      </figcaption>
+    </figure>
+  </div>
+</header>
+
+<section id="product">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">What it does</span>
+      <h2>From raw boundaries to a finished figure</h2>
+      <p>Map Builder takes the fields you already have — attendance zones, tracts, districts — and carries them through classification, styling, and a quality check in one pass.</p>
+    </div>
+    <div class="grid-4">
+      <div class="card">
+        <div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M3 7l6-3 6 3 6-3v13l-6 3-6-3-6 3z"/><path d="M9 4v13M15 7v13"/></svg></div>
+        <h3>Any dataset, any field</h3>
+        <p>Load attendance zones, census tracts, or your own shapefile, then choropleth any of the 40+ demographic and outcome fields — labeled in plain language, not column codes.</p>
+      </div>
+      <div class="card">
+        <div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M4 19V10M12 19V5M20 19v-7"/></svg></div>
+        <h3>Classification that fits</h3>
+        <p>Quantile, equal-width, or natural breaks, from three to seven classes, sequential or diverging — recalculated live as you adjust.</p>
+      </div>
+      <div class="card">
+        <div class="feature-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg></div>
+        <h3>Map Quality Score</h3>
+        <p>Every map is checked, not just styled: palette contrast, class separation, label legibility, and source citation, scored out of 100.</p>
+      </div>
+      <div class="card">
+        <div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M12 3v13M7 12l5 5 5-5"/><path d="M4 20h16"/></svg></div>
+        <h3>Export anywhere</h3>
+        <p>One theme, five destinations: Power BI, R/ggplot2, Quarto Dashboard, raw CSS tokens, or a print-ready static figure.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Example maps</span>
+      <h2>A gallery of maps built with RCDS</h2>
+      <p>A sample of the maps researchers, analysts, and journalists have built. Screenshots stand in below until you upload your own.</p>
+    </div>
+    <div class="gallery-strip" id="gallery-strip"></div>
+  </div>
+</section>
+
+<section id="mqs">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Quality, checked</span>
+      <h2>Proof it, don't promise it.</h2>
+      <p>Every map gets a Map Quality Score before you export it. It reads live off the demo below — change the classification or palette and watch it move.</p>
+    </div>
+    <div class="mqs-panel" id="mqs-panel">
+      <div class="mqs-score">
+        <div class="num mono" id="mqs-num">—</div>
+        <div class="of">out of 100</div>
+        <div class="band" id="mqs-band">—</div>
+      </div>
+      <div class="mqs-meters" id="mqs-meters"></div>
+      <div class="mqs-note">Scored against the dataset, field, and classification currently selected in <a href="#demo">Try it in the browser</a> below — a check against the data, not a claim about it.</div>
+    </div>
+  </div>
+</section>
+
+<section id="how-it-works" class="section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">How it works</span>
+      <h2>Three lines, not three days</h2>
+      <p>Map Builder is a UI over the same <code class="mono">rcds</code> R package that already powers GCPS's dashboards — the browser tool and the package produce the same figure.</p>
+    </div>
+    <div class="how-grid">
+      <div class="how-steps">
+        <div class="how-step">
+          <div class="n mono">1</div>
+          <div><h4>Load &amp; transform</h4><p>Pick a geometry level — attendance zones, metro tracts, district outlines — and Map Builder reprojects it for you.</p></div>
+        </div>
+        <div class="how-step">
+          <div class="n mono">2</div>
+          <div><h4>Classify &amp; style</h4><p>Choose a field, a classification method, and a palette. Breaks recompute from the live data, not a fixed scale.</p></div>
+        </div>
+        <div class="how-step">
+          <div class="n mono">3</div>
+          <div><h4>Check &amp; export</h4><p>Review the Map Quality Score, then export to R, Power BI, Quarto, or a static figure — same theme, five destinations.</p></div>
+        </div>
+      </div>
+      <div class="code-panel">
+        <div class="code-tabs">
+          <button class="code-tab active" data-code="static">ggplot2 · static</button>
+          <button class="code-tab" data-code="interactive">leaflet · interactive</button>
+        </div>
+        <div class="code-body">
+          <pre id="code-static"><span class="tok-kw">library</span>(rcds)
+
+zones <- load_zone_data(<span class="tok-str">"gcps_es_absms"</span>) |>
+  sf::<span class="tok-fn">st_transform</span>(<span class="tok-num">4326</span>)
+
+breaks <- classInt::<span class="tok-fn">classIntervals</span>(
+  zones$frpl, n = <span class="tok-num">5</span>, style = <span class="tok-str">"quantile"</span>
+)
+
+<span class="tok-fn">ggplot</span>(zones) +
+  <span class="tok-fn">geom_sf</span>(<span class="tok-fn">aes</span>(fill = frpl)) +
+  <span class="tok-fn">scale_fill_rcds_c</span>(<span class="tok-str">"gcps_teal"</span>, breaks = breaks) +
+  <span class="tok-fn">theme_gcps_map</span>(<span class="tok-str">"civic"</span>) +
+  <span class="tok-fn">rcds_signature</span>(
+    <span class="tok-str">"GCPS Map Builder"</span>,
+    tool = <span class="tok-str">"rcds + ggplot2"</span>,
+    sources = <span class="tok-str">"GCPS attendance zones, 2025–26"</span>
+  )</pre>
+          <pre id="code-interactive" style="display:none"><span class="tok-com"># same data, the leaflet bridge</span>
+<span class="tok-fn">rcds_leaflet_choropleth</span>(
+  map, zones,
+  value        = <span class="tok-str">"frpl"</span>,
+  breaks       = breaks,
+  palette      = <span class="tok-str">"gcps_teal"</span>,
+  legend_title = <span class="tok-str">"Free/reduced-price meals"</span>
+) |>
+  <span class="tok-fn">gcps_interactive_css</span>(<span class="tok-str">"civic"</span>)</pre>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="themes">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Palette &amp; theme</span>
+      <h2>One palette, two layers</h2>
+      <p>Product chrome stays quiet — steel blue, cool neutrals, an amber accent kept to ≤10% of any screen — so the map itself carries the color.</p>
+    </div>
+    <div class="swatch-grid">
+      <div class="swatch-card">
+        <h4>Sequential</h4><p class="hint">One variable, low → high</p>
+        <div class="palette-row" id="pal-seq"></div>
+      </div>
+      <div class="swatch-card">
+        <h4>Diverging</h4><p class="hint">A meaningful midpoint — change, z-scores</p>
+        <div class="palette-row" id="pal-div"></div>
+      </div>
+      <div class="swatch-card">
+        <h4>Product chrome</h4><p class="hint">Primary, data, and insight — 70 / 20 / 10</p>
+        <div class="palette-row" id="pal-chrome"></div>
+      </div>
+    </div>
+
+    <h3 style="font-size:var(--rcds-text-xl); margin-bottom:var(--rcds-space-4);">Cartographic canvases</h3>
+    <div class="canvas-grid">
+      <div class="canvas-card">
+        <div class="canvas-swatch" style="background:#EEF1F5;"><span class="tag">Default</span></div>
+        <div class="canvas-body"><h4>Civic — light</h4><p>The app's default canvas. Cool neutral, high contrast, built for dashboards and the web.</p></div>
+      </div>
+      <div class="canvas-card">
+        <div class="canvas-swatch" style="background:#14161B;"><span class="tag" style="background:rgba(255,255,255,.1); color:#fff; border-color:#3A3A3A;">Export</span></div>
+        <div class="canvas-body"><h4>Bold — dark</h4><p>A dramatic dark canvas for posters and social. Available as an export theme.</p></div>
+      </div>
+      <div class="canvas-card">
+        <div class="canvas-swatch" style="background:#EFE9DC;"><span class="tag">Export</span></div>
+        <div class="canvas-body"><h4>Paper — editorial</h4><p>The warm, vintage "financial-times" canvas. An export option for print and report figures — not the app's base design.</p></div>
+      </div>
+    </div>
+    <p class="export-note">The paper canvas is intentionally not the default here: it's one of five export destinations, chosen per figure — not the basis for the product itself.</p>
+  </div>
+</section>
+
+<section id="demo" class="section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Try it</span>
+      <h2>Try the tool in the browser</h2>
+      <p>This is sample data standing in for your own upload, generated to show a plausible spatial pattern — but every control below is real and recomputes live.</p>
+    </div>
+
+    <div class="demo-shell">
+      <div class="demo-sidebar">
+        <div class="field-group">
+          <label class="field-label" for="ctl-dataset">Dataset / geometry level</label>
+          <select id="ctl-dataset"></select>
+          <div class="field-hint" id="dataset-hint"></div>
+        </div>
+        <div class="field-group">
+          <label class="field-label" for="ctl-field">Field to map</label>
+          <select id="ctl-field"></select>
+        </div>
+        <div class="field-group">
+          <label class="field-label" for="ctl-classification">Classification</label>
+          <select id="ctl-classification">
+            <option value="quantile">Quantile</option>
+            <option value="equal">Equal width</option>
+            <option value="jenks">Natural breaks (Jenks)</option>
+          </select>
+        </div>
+        <div class="field-group">
+          <div class="n-classes-row">
+            <label class="field-label" for="ctl-nclasses" style="margin-bottom:0;">Number of classes</label>
+            <span class="n-classes-val mono" id="nclasses-val">5</span>
+          </div>
+          <input type="range" id="ctl-nclasses" min="3" max="7" step="1" value="5">
+        </div>
+        <div class="field-group">
+          <label class="field-label">Palette direction</label>
+          <div class="radio-row">
+            <label><input type="radio" name="direction" value="sequential" checked> Sequential</label>
+            <label><input type="radio" name="direction" value="diverging"> Diverging</label>
+          </div>
+        </div>
+        <div class="field-group">
+          <label class="check-row"><input type="checkbox" id="ctl-reverse"> Reverse palette</label>
+        </div>
+        <div class="field-group">
+          <label class="field-label" for="ctl-title">Map title</label>
+          <input type="text" id="ctl-title">
+        </div>
+        <div class="field-group">
+          <label class="field-label" for="ctl-legend">Legend title</label>
+          <input type="text" id="ctl-legend">
+        </div>
+      </div>
+
+      <div class="demo-main">
+        <div class="demo-tabs">
+          <button class="demo-tab active" data-view="interactive">Interactive</button>
+          <button class="demo-tab" data-view="static">Static</button>
+          <button class="demo-tab" data-view="distribution">Distribution</button>
+        </div>
+        <div class="demo-stage">
+          <div class="demo-view active" id="view-interactive">
+            <svg id="svg-interactive" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid meet"></svg>
+            <div class="zoom-controls">
+              <button id="zoom-in" aria-label="Zoom in">+</button>
+              <button id="zoom-out" aria-label="Zoom out">−</button>
+            </div>
+            <div class="demo-legend" id="legend-interactive"></div>
+            <div class="map-tooltip" id="map-tooltip"></div>
+          </div>
+          <div class="demo-view" id="view-static">
+            <svg id="svg-static" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid meet"></svg>
+            <div class="demo-map-title"><h4 id="static-title"></h4></div>
+            <div class="demo-legend" id="legend-static"></div>
+            <div class="demo-caption" id="static-caption"></div>
+          </div>
+          <div class="demo-view" id="view-distribution">
+            <div class="dist-view">
+              <div class="dist-bars" id="dist-bars"></div>
+              <div class="dist-breaks" id="dist-breaks"></div>
+            </div>
+          </div>
+          <div class="reference-note" id="reference-note" style="display:none;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="docs">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Documentation</span>
+      <h2>Go deeper when you're ready</h2>
+      <p>Reference material for the field dictionary, the theme system, and the underlying R package.</p>
+    </div>
+    <div class="grid-3">
+      <div class="card docs-card">
+        <span class="pill">Coming soon</span>
+        <h3>Getting started</h3>
+        <p>Connect a dataset, pick a first field, and export your first figure in under five minutes.</p>
+      </div>
+      <div class="card docs-card">
+        <span class="pill">Coming soon</span>
+        <h3>Field &amp; theme reference</h3>
+        <p>Every demographic and outcome field, its human-readable label, and the palettes and canvases available for export.</p>
+      </div>
+      <div class="card docs-card">
+        <span class="pill">Coming soon</span>
+        <h3>The rcds R package</h3>
+        <p>Map Builder is a browser UI over <code class="mono">rcds</code> — use the package directly for scripted, reproducible pipelines.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="brand-name">RCDS <span>Map Builder</span></span>
+        <p>Quiet confidence through exceptional information design. Map Builder is the browser tool for the Richard Cartographic Design System.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h5>Product</h5>
+          <ul>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#mqs">Map Quality Score</a></li>
+            <li><a href="#themes">Palette &amp; theme</a></li>
+            <li><a href="#demo">Try it in the browser</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Resources</h5>
+          <ul>
+            <li><a href="#how-it-works">How it works</a></li>
+            <li><a href="#docs">Documentation</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>Created by GCPS Research, Evaluation &amp; Analytics (REA)</span>
+      <span class="mono">© 2026 · Richard Cartographic Design System</span>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
