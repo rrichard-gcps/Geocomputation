@@ -50,9 +50,6 @@ const FIELDS = [
   { id: "sat_comp", label: "SAT composite score", unit: "score", min: 900, max: 1260, levels: ["hs"] },
 ];
 
-const LABELS = {};
-FIELDS.forEach((f) => { LABELS[f.id] = f; });
-
 function fieldsForDataset(dsId) {
   return FIELDS.filter((f) => f.levels.includes(dsId));
 }
@@ -71,16 +68,109 @@ function formatValue(field, v) {
     case "sqmi": return Math.round(v).toLocaleString() + "/mi²";
     case "score": return String(Math.round(v));
     case "per1000": return v.toFixed(1);
+    case "pct01": return (v * 100).toFixed(1) + "%";   // stored as a 0-1 proportion
+    case "num": return Math.abs(v) >= 1000 ? Math.round(v).toLocaleString() : v.toFixed(1);
     default: return Math.abs(v) >= 1000 ? Math.round(v).toLocaleString() : v.toFixed(2);
   }
 }
 
-function inferUnit(id, vals) {
-  if (LABELS[id]) return LABELS[id].unit;
-  if (!vals.length) return "num";
-  const mx = Math.max(...vals), mn = Math.min(...vals);
-  if (mx <= 1.5 && mn >= -1.5) return "idx";     // z-scores / proportions
-  return "num";
+/* Field dictionary for real repo columns: id -> [friendly label, kind].
+ * kind drives units: rate (auto %/proportion/count by range), usd, count,
+ * sqmi, index, num, auto. Lookup is case-insensitive. */
+const FIELD_DICT = {
+  frpl: ["Free/reduced-price meals", "rate"], free: ["Free-meal eligible", "rate"],
+  reduced: ["Reduced-price eligible", "rate"], fsl: ["Free/reduced (FSL)", "rate"],
+  ell: ["English learners", "rate"], lep: ["Limited English proficiency", "rate"],
+  lep_hh: ["Households, limited English", "rate"], sped: ["Students with disabilities", "rate"],
+  swd: ["Students with disabilities", "rate"], gifted: ["Gifted & talented", "rate"],
+  attrate: ["Attendance rate", "rate"], dropout: ["Dropout rate", "rate"],
+  acgr: ["4-year graduation rate", "rate"], mobile: ["Student mobility", "rate"],
+  mobility: ["Student mobility", "rate"], poverty: ["Poverty rate", "rate"],
+  pov_u18: ["Child poverty (under 18)", "rate"], unemp: ["Unemployment rate", "rate"],
+  snap: ["SNAP participation", "rate"], noins: ["Uninsured", "rate"],
+  no_internet: ["Households without internet", "rate"], crowded: ["Crowded housing", "rate"],
+  vacant: ["Vacant housing", "rate"], pct_renter: ["Renter-occupied", "rate"],
+  exp_homes: ["Expensive homes", "rate"], working_class: ["Working-class households", "rate"],
+  low_ed: ["Low educational attainment", "rate"], high_ed: ["High educational attainment", "rate"],
+  gt30com: ["Commute over 30 min", "rate"], riskrate: ["Risk rate", "rate"],
+  hhm: ["Household mobility", "rate"], sphh: ["Single-parent households", "rate"],
+  fhh_child: ["Female-headed w/ children", "rate"], resp_rate: ["ACS response rate", "rate"],
+  title_i: ["Title I share", "rate"], pct_apib: ["AP/IB participation", "rate"],
+  pct_exam: ["Exam participation", "rate"], pct_3plus: ["AP score 3+", "rate"],
+  birth_rate: ["Birth rate", "num"], gini: ["Income inequality (Gini)", "index"],
+  segregation: ["Segregation index", "index"], nbh_diversity: ["Neighborhood diversity", "index"],
+  sch_diversity: ["School diversity", "index"], lshan: ["Local Shannon diversity", "index"],
+  nshan: ["Neighborhood Shannon diversity", "index"], lsimp: ["Local Simpson diversity", "index"],
+  mhhinc: ["Median household income", "usd"], mfinc: ["Median family income", "usd"],
+  ave_sale17: ["Avg home sale, 2017", "usd"],
+  totpop: ["Total population", "count"], population: ["Total population", "count"],
+  pop2010: ["Population, 2010", "count"], k12_enr_n: ["K-12 enrollment", "count"],
+  students: ["Students", "count"], n_stu_19: ["Students, 2019", "count"],
+  teachers: ["Teachers", "count"], households: ["Households", "count"],
+  families: ["Families", "count"], hse_units: ["Housing units", "count"],
+  pop_dens: ["Population density", "sqmi"], pop_sqmi: ["Population density", "sqmi"],
+  pop10_sqmi: ["Population density, 2010", "sqmi"],
+  stu_tch_ratio: ["Student-teacher ratio", "num"], tsr: ["Student-teacher ratio", "num"],
+  staff_score: ["Staff score", "num"], ccrpi: ["CCRPI score", "num"],
+  star_rtg: ["Star rating", "num"], climate: ["School climate", "num"],
+  overall: ["Overall rating", "num"], med_age: ["Median age", "num"],
+  ave_hh_sz: ["Avg household size", "num"], stu_tch: ["Student-teacher ratio", "num"],
+  sat_comp: ["SAT composite", "num"], sat_total: ["SAT total", "num"],
+  sat_math: ["SAT math", "num"], sat_erw: ["SAT reading/writing", "num"],
+  psat_math: ["PSAT math", "num"], psat_rw: ["PSAT reading/writing", "num"],
+  white: ["White", "rate"], black: ["Black", "rate"], hisp: ["Hispanic", "rate"],
+  hispanic: ["Hispanic", "rate"], asian: ["Asian", "rate"], native: ["Native American", "rate"],
+  multi: ["Two or more races", "rate"], other: ["Other race", "rate"],
+};
+
+const PREFERRED = ["frpl", "ell", "poverty", "pov_u18", "mhhinc", "unemp", "gini",
+  "totpop", "population", "pop_dens", "sped", "gifted", "attrate", "acgr", "dropout",
+  "no_internet", "mobile", "ccrpi", "star_rtg", "sat_comp", "birth_rate", "segregation"];
+
+// non-metric flag / key columns to hide from the field picker
+const FLAG_LIKE = /^(es|ms|hs|level|cluster|grade|parent|locale|locale_code|sys_id|sch_id|zone_area|title_i_sch|k12_tot|n_free|n_reduced|resp_rate)$/i;
+function isExcludedField(k) { return ID_LIKE.test(k) || FLAG_LIKE.test(k); }
+
+function gradeLabel(id) {
+  let m = /^grd_?(\d+)_(ma|la)(?:_pd)?$/i.exec(id);
+  if (m) return `Grade ${m[1]} ${m[2].toLowerCase() === "ma" ? "math" : "ELA"} proficiency`;
+  m = /^grd_?(\d+)_reading$/i.exec(id);
+  if (m) return `Grade ${m[1]} reading`;
+  return null;
+}
+function resolveUnit(kind, min, max) {
+  switch (kind) {
+    case "usd": return "usd";
+    case "count": return "count";
+    case "sqmi": return "sqmi";
+    case "index": return "idx";
+    case "num": return "num";
+    case "rate":
+      if (max <= 1.5) return "pct01";      // stored 0-1
+      if (max <= 100) return "pct";        // stored 0-100
+      return "count";                       // large -> actually a count (e.g. counties)
+    default:
+      if (max <= 1.5 && min >= -1.5) return "idx";
+      if (max > 5000) return "count";
+      return "num";
+  }
+}
+function describeField(id, vals) {
+  const min = Math.min(...vals), max = Math.max(...vals);
+  const entry = FIELD_DICT[id.toLowerCase()];
+  const gl = gradeLabel(id);
+  let label, kind;
+  if (entry) { label = entry[0]; kind = entry[1]; }
+  else if (gl) { label = gl; kind = "rate"; }
+  else { label = prettify(id); kind = "auto"; }
+  return { id, label, unit: resolveUnit(kind, min, max), known: !!(entry || gl) };
+}
+function fieldSort(a, b) {
+  const pa = PREFERRED.indexOf(a.id.toLowerCase()), pb = PREFERRED.indexOf(b.id.toLowerCase());
+  const ra = pa < 0 ? 999 : pa, rb = pb < 0 ? 999 : pb;
+  if (ra !== rb) return ra - rb;
+  if (a.known !== b.known) return a.known ? -1 : 1;
+  return a.label.localeCompare(b.label);
 }
 
 /* ---------------------------------------------------------------------- *
@@ -154,16 +244,15 @@ function prepareReal(fc) {
     if (typeof v === "number" && isFinite(v)) counts[k] = (counts[k] || 0) + 1;
   }));
   const minPresent = Math.max(3, feats.length * 0.5);
-  const fieldIds = Object.keys(counts).filter((k) => counts[k] >= minPresent && !ID_LIKE.test(k))
+  const fieldIds = Object.keys(counts).filter((k) => counts[k] >= minPresent && !isExcludedField(k))
     .filter((k) => { // drop constant columns
       const vals = props.map((p) => p[k]).filter((v) => typeof v === "number" && isFinite(v));
-      return Math.max(...vals) !== Math.min(...vals);
+      return vals.length && Math.max(...vals) !== Math.min(...vals);
     });
-  const fields = fieldIds.map((k) => ({
-    id: k,
-    label: LABELS[k] ? LABELS[k].label : prettify(k),
-    unit: inferUnit(k, props.map((p) => p[k]).filter((v) => typeof v === "number" && isFinite(v))),
-  }));
+  const fields = fieldIds.map((k) => {
+    const vals = props.map((p) => p[k]).filter((v) => typeof v === "number" && isFinite(v));
+    return describeField(k, vals);
+  }).sort(fieldSort);
   const nameKey = findNameKey(props);
   const names = nameKey ? props.map((p) => (p[nameKey] != null ? String(p[nameKey]) : null)) : null;
 
