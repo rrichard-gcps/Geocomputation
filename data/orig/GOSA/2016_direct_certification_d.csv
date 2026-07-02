@@ -1,0 +1,204 @@
+FISCAL_YEAR,SYSTEM_ID,SYSTEM_NAME,direct_cert_perc
+2016,601,Appling County,41
+2016,602,Atkinson County,43
+2016,603,Bacon County,39
+2016,604,Baker County,66
+2016,605,Baldwin County,51
+2016,606,Banks County,31
+2016,607,Barrow County,27
+2016,608,Bartow County,30
+2016,609,Ben Hill County,49
+2016,610,Berrien County,40
+2016,611,Bibb County,55
+2016,612,Bleckley County,36
+2016,613,Brantley County,38
+2016,614,Brooks County,54
+2016,615,Bryan County,15
+2016,616,Bulloch County,37
+2016,617,Burke County,54
+2016,618,Butts County,42
+2016,619,Calhoun County,70
+2016,620,Camden County,26
+2016,621,Candler County,44
+2016,622,Carroll County,36
+2016,623,Catoosa County,26
+2016,624,Charlton County,38
+2016,625,Chatham County,39
+2016,626,Chattahoochee County,31
+2016,627,Chattooga County,46
+2016,628,Cherokee County,13
+2016,629,Clarke County,46
+2016,630,Clay County,82
+2016,631,Clayton County,49
+2016,632,Clinch County,47
+2016,633,Cobb County,20
+2016,634,Coffee County,44
+2016,635,Colquitt County,49
+2016,636,Columbia County,14
+2016,637,Cook County,45
+2016,638,Coweta County,23
+2016,639,Crawford County,39
+2016,640,Crisp County,53
+2016,641,Dade County,26
+2016,642,Dawson County,23
+2016,643,Decatur County,48
+2016,644,DeKalb County,41
+2016,645,Dodge County,42
+2016,646,Dooly County,64
+2016,647,Dougherty County,64
+2016,648,Douglas County,32
+2016,649,Early County,57
+2016,650,Echols County,48
+2016,651,Effingham County,19
+2016,652,Elbert County,41
+2016,653,Emanuel County,52
+2016,654,Evans County,53
+2016,655,Fannin County,33
+2016,656,Fayette County,13
+2016,657,Floyd County,33
+2016,658,Forsyth County,6
+2016,659,Franklin County,36
+2016,660,Fulton County,25
+2016,661,Gilmer County,35
+2016,662,Glascock County,30
+2016,663,Glynn County,38
+2016,664,Gordon County,32
+2016,665,Grady County,47
+2016,666,Greene County,42
+2016,667,Gwinnett County,21
+2016,668,Habersham County,30
+2016,669,Hall County,26
+2016,670,Hancock County,62
+2016,671,Haralson County,42
+2016,672,Harris County,18
+2016,673,Hart County,35
+2016,674,Heard County,43
+2016,675,Henry County,26
+2016,676,Houston County,30
+2016,677,Irwin County,48
+2016,678,Jackson County,26
+2016,679,Jasper County,42
+2016,680,Jeff Davis County,42
+2016,681,Jefferson County,54
+2016,682,Jenkins County,55
+2016,683,Johnson County,52
+2016,684,Jones County,28
+2016,685,Lamar County,39
+2016,686,Lanier County,44
+2016,687,Laurens County,38
+2016,688,Lee County,25
+2016,689,Liberty County,33
+2016,690,Lincoln County,40
+2016,691,Long County,36
+2016,692,Lowndes County,28
+2016,693,Lumpkin County,27
+2016,694,Macon County,63
+2016,695,Madison County,34
+2016,696,Marion County,47
+2016,697,McDuffie County,47
+2016,698,McIntosh County,41
+2016,699,Meriwether County,48
+2016,700,Miller County,48
+2016,701,Mitchell County,54
+2016,702,Monroe County,38
+2016,703,Montgomery County,49
+2016,704,Morgan County,30
+2016,705,Murray County,34
+2016,706,Muscogee County,43
+2016,707,Newton County,40
+2016,708,Oconee County,10
+2016,709,Oglethorpe County,30
+2016,710,Paulding County,20
+2016,711,Peach County,46
+2016,712,Pickens County,26
+2016,713,Pierce County,32
+2016,714,Pike County,21
+2016,715,Polk County,45
+2016,716,Pulaski County,48
+2016,717,Putnam County,49
+2016,718,Quitman County,55
+2016,719,Rabun County,32
+2016,720,Randolph County,67
+2016,721,Richmond County,51
+2016,722,Rockdale County,39
+2016,723,Schley County,27
+2016,724,Screven County,44
+2016,725,Seminole County,52
+2016,726,Spalding County,49
+2016,727,Stephens County,40
+2016,728,Stewart County,65
+2016,729,Sumter County,61
+2016,730,Talbot County,57
+2016,731,Taliaferro County,53
+2016,732,Tattnall County,46
+2016,733,Taylor County,41
+2016,734,Telfair County,49
+2016,735,Terrell County,73
+2016,736,Thomas County,42
+2016,737,Tift County,45
+2016,738,Toombs County,54
+2016,739,Towns County,26
+2016,740,Treutlen County,52
+2016,741,Troup County,37
+2016,742,Turner County,54
+2016,743,Twiggs County,53
+2016,744,Union County,27
+2016,745,Thomaston-Upson County,45
+2016,746,Walker County,34
+2016,747,Walton County,28
+2016,748,Ware County,45
+2016,749,Warren County,66
+2016,750,Washington County,49
+2016,751,Wayne County,41
+2016,752,Webster County,45
+2016,753,Wheeler County,48
+2016,754,White County,31
+2016,755,Whitfield County,27
+2016,756,Wilcox County,50
+2016,757,Wilkes County,49
+2016,758,Wilkinson County,53
+2016,759,Worth County,46
+2016,761,Atlanta Public Schools,54
+2016,763,Bremen City,14
+2016,764,Buford City,19
+2016,765,Calhoun City,29
+2016,766,Carrollton City,34
+2016,767,Cartersville City,30
+2016,769,Chickamauga City,10
+2016,771,Commerce City,30
+2016,772,Dalton City,31
+2016,773,Decatur City,11
+2016,774,Dublin City,69
+2016,776,Gainesville City,38
+2016,779,Jefferson City,14
+2016,781,Marietta City,35
+2016,784,Pelham City,54
+2016,785,Rome City,46
+2016,786,Social Circle City,30
+2016,789,Thomasville City,39
+2016,791,Trion City,20
+2016,792,Valdosta City,58
+2016,793,Vidalia City,38
+2016,7820108,State Charter Schools- Mountain Education Charter High School,29
+2016,7820110,State Charter Schools- Odyssey School,19
+2016,7820119,State Charter Schools- Graduation Achievement Center Charter High School,35
+2016,7820120,State Charter Schools- Georgia Cyber Academy,35
+2016,7820121,State Charter Schools- Utopian Academy for the Arts Charter School,43
+2016,7820212,State Charter Schools- Cherokee Charter Academy,11
+2016,7820412,State Charter Schools- Georgia Connections Academy,25
+2016,7820512,"State Charter Schools- Ivy Preparatory Young Men's Leadership Academy, Inc.",40
+2016,7820612,"State Charter Schools- Ivy Preparatory Academy, Inc",42
+2016,7820613,State Charter Schools- Foothills Charter High School (Madison Campus),36
+2016,7820614,State Charter Schools- International Charter School of Atlanta,5
+2016,7820615,State Charter Schools- Scintilla Charter Academy,34
+2016,7820616,State Charter Schools- Georgia School for Innovation and the Classics,24
+2016,7820617,State Charter Schools- Dubois Integrity Academy I,53
+2016,7830103,Commission Charter Schools- CCAT School,20
+2016,7830110,"Commission Charter Schools- Ivy Preparatory Academy At Gwinnett, Inc.",21
+2016,7830210,Commission Charter Schools- Pataula Charter Academy,30
+2016,7830310,Commission Charter Schools- Fulton Leadership Academy,34
+2016,7830410,Commission Charter Schools- Atlanta Heights Charter School,69
+2016,7830610,Commission Charter Schools- Coweta Charter Academy,10
+2016,7991893,State Schools- Atlanta Area School for the Deaf,37
+2016,7991894,State Schools- Georgia Academy for the Blind,32
+2016,7991895,State Schools- Georgia School for the Deaf,33

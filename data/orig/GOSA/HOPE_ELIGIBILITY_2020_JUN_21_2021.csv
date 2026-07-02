@@ -1,0 +1,655 @@
+"LONG_SCHOOL_YEAR","SCHOOL_DISTRCT_CD","SCHOOL_DSTRCT_NM","INSTN_NUMBER","INSTN_NAME","NUMBER_OF_GRADUATES","HOPE_ELIGIBLE","HOPE_ELIGIBLE_PCT"
+"2019-20","601","Appling County","0103","Appling County High School",204,95,46.57
+"2019-20","601","Appling County","ALL","All Schools",204,95,46.57
+"2019-20","602","Atkinson County","0103","Atkinson County High School",117,51,43.59
+"2019-20","602","Atkinson County","ALL","All Schools",117,51,43.59
+"2019-20","603","Bacon County","0302","Bacon County High School",117,61,52.14
+"2019-20","603","Bacon County","ALL","All Schools",117,61,52.14
+"2019-20","604","Baker County","0105","Baker County K12 School",11,,
+"2019-20","604","Baker County","ALL","All Schools",11,,
+"2019-20","605","Baldwin County","0189","Baldwin High School",236,66,27.97
+"2019-20","605","Baldwin County","ALL","All Schools",236,66,27.97
+"2019-20","606","Banks County","0199","Banks County High School",204,102,50
+"2019-20","606","Banks County","ALL","All Schools",204,102,50
+"2019-20","607","Barrow County","0101","Apalachee High School",407,184,45.21
+"2019-20","607","Barrow County","3052","Winder-Barrow High School",393,190,48.35
+"2019-20","607","Barrow County","ALL","All Schools",800,374,46.75
+"2019-20","608","Bartow County","0105","Adairsville High School",208,113,54.33
+"2019-20","608","Bartow County","0114","Cass High School",306,152,49.67
+"2019-20","608","Bartow County","0198","Woodland High School",303,137,45.21
+"2019-20","608","Bartow County","ALL","All Schools",817,402,49.2
+"2019-20","609","Ben Hill County","0291","Fitzgerald High School",176,87,49.43
+"2019-20","609","Ben Hill County","ALL","All Schools",176,87,49.43
+"2019-20","610","Berrien County","0101","Berrien High School",175,84,48
+"2019-20","610","Berrien County","0106","Berrien Academy Performance Learning Center",,,
+"2019-20","610","Berrien County","ALL","All Schools",184,85,46.2
+"2019-20","611","Bibb County","0105","Howard High School",263,82,31.18
+"2019-20","611","Bibb County","0186","Central High School",218,74,33.94
+"2019-20","611","Bibb County","0198","Westside High School",201,39,19.4
+"2019-20","611","Bibb County","0204","Rutland High School",179,61,34.08
+"2019-20","611","Bibb County","0286","Northeast High School",157,28,17.83
+"2019-20","611","Bibb County","0386","Southwest High School",158,28,17.72
+"2019-20","611","Bibb County","ALL","All Schools",1176,312,26.53
+"2019-20","612","Bleckley County","0105","Bleckley County High School",163,82,50.31
+"2019-20","612","Bleckley County","0115","Bleckley County Success Academy",20,,
+"2019-20","612","Bleckley County","ALL","All Schools",183,82,44.81
+"2019-20","613","Brantley County","1050","Brantley County High School",240,125,52.08
+"2019-20","613","Brantley County","ALL","All Schools",240,125,52.08
+"2019-20","614","Brooks County","0110","Brooks County High School",103,40,38.83
+"2019-20","614","Brooks County","0394","Delta Innovative School",22,,
+"2019-20","614","Brooks County","ALL","All Schools",125,40,32
+"2019-20","615","Bryan County","0182","Richmond Hill High School",532,259,48.68
+"2019-20","615","Bryan County","0502","Bryan County High School",131,53,40.46
+"2019-20","615","Bryan County","ALL","All Schools",663,312,47.06
+"2019-20","616","Bulloch County","0203","Southeast Bulloch High School",224,105,46.88
+"2019-20","616","Bulloch County","2054","Statesboro High School",342,130,38.01
+"2019-20","616","Bulloch County","4052","Portal Middle/High School",53,30,56.6
+"2019-20","616","Bulloch County","ALL","All Schools",619,265,42.81
+"2019-20","617","Burke County","0288","Burke County High School",258,52,20.16
+"2019-20","617","Burke County","ALL","All Schools",258,52,20.16
+"2019-20","618","Butts County","0190","Jackson High School",208,103,49.52
+"2019-20","618","Butts County","ALL","All Schools",208,103,49.52
+"2019-20","619","Calhoun County","0113","Calhoun County High School",53,15,28.3
+"2019-20","619","Calhoun County","ALL","All Schools",53,15,28.3
+"2019-20","620","Camden County","0295","Camden County High School",567,276,48.68
+"2019-20","620","Camden County","ALL","All Schools",567,276,48.68
+"2019-20","621","Candler County","0101","Metter High School",114,55,48.25
+"2019-20","621","Candler County","0303","Metter Career Academy",14,1,7.14
+"2019-20","621","Candler County","ALL","All Schools",128,56,43.75
+"2019-20","622","Carroll County","0112","KidsPeace",,,
+"2019-20","622","Carroll County","0189","Temple High School",155,84,54.19
+"2019-20","622","Carroll County","0212","Mt. Zion High School",89,46,51.69
+"2019-20","622","Carroll County","2052","Central High School",286,173,60.49
+"2019-20","622","Carroll County","3050","Bowdon High School",89,60,67.42
+"2019-20","622","Carroll County","5054","Villa Rica High School",342,182,53.22
+"2019-20","622","Carroll County","ALL","All Schools",962,545,56.65
+"2019-20","623","Catoosa County","0109","Heritage High School",306,153,50
+"2019-20","623","Catoosa County","1052","Lakeview-Fort Oglethorpe High School",202,81,40.1
+"2019-20","623","Catoosa County","4052","Ringgold High School",268,149,55.6
+"2019-20","623","Catoosa County","ALL","All Schools",776,383,49.36
+"2019-20","624","Charlton County","0287","Charlton County High School",89,37,41.57
+"2019-20","624","Charlton County","ALL","All Schools",89,37,41.57
+"2019-20","625","Savannah-Chatham County","0101","Johnson High School",144,25,17.36
+"2019-20","625","Savannah-Chatham County","0115","Woodville-Tompkins Technical and Career High School",155,84,54.19
+"2019-20","625","Savannah-Chatham County","0117","New Hampstead High School",321,94,29.28
+"2019-20","625","Savannah-Chatham County","0210","The School of Liberal Studies at Savannah High",114,18,15.79
+"2019-20","625","Savannah-Chatham County","0411","Islands High School",245,110,44.9
+"2019-20","625","Savannah-Chatham County","0499","Savannah Arts Academy",225,166,73.78
+"2019-20","625","Savannah-Chatham County","0513","Savannah Early College High School",48,35,72.92
+"2019-20","625","Savannah-Chatham County","0516","Savannah Classical Academy Charter High School",,,
+"2019-20","625","Savannah-Chatham County","2052","Beach High School",189,38,20.11
+"2019-20","625","Savannah-Chatham County","3056","Groves High School",149,25,16.78
+"2019-20","625","Savannah-Chatham County","5060","Jenkins High School",233,60,25.75
+"2019-20","625","Savannah-Chatham County","5070","Windsor Forest High School",203,50,24.63
+"2019-20","625","Savannah-Chatham County","ALL","All Schools",2035,709,34.84
+"2019-20","626","Chattahoochee County","0206","Chattahoochee County High School",102,41,40.2
+"2019-20","626","Chattahoochee County","ALL","All Schools",102,41,40.2
+"2019-20","627","Chattooga County","1050","Chattooga High School",175,78,44.57
+"2019-20","627","Chattooga County","ALL","All Schools",175,78,44.57
+"2019-20","628","Cherokee County","0106","Creekview High School",479,363,75.78
+"2019-20","628","Cherokee County","0115","River Ridge High School",420,223,53.1
+"2019-20","628","Cherokee County","0176","Etowah High School",551,330,59.89
+"2019-20","628","Cherokee County","0191","Sequoyah High School",436,245,56.19
+"2019-20","628","Cherokee County","0197","Woodstock High School",534,304,56.93
+"2019-20","628","Cherokee County","5050","Cherokee High School",564,296,52.48
+"2019-20","628","Cherokee County","ALL","All Schools",2984,1761,59.01
+"2019-20","629","Clarke County","0102","Cedar Shoals High School",237,89,37.55
+"2019-20","629","Clarke County","0104","Classic City High School",25,,
+"2019-20","629","Clarke County","5556","Clarke Central High School",322,123,38.2
+"2019-20","629","Clarke County","ALL","All Schools",584,212,36.3
+"2019-20","631","Clayton County","0104","Mundy's Mill High School",273,79,28.94
+"2019-20","631","Clayton County","0114","Elite Scholars Academy School",64,50,78.13
+"2019-20","631","Clayton County","0115","Charles R. Drew High School",242,83,34.3
+"2019-20","631","Clayton County","0190","Lovejoy High School",345,122,35.36
+"2019-20","631","Clayton County","0215","Martha Ellen Stilwell School for the Performing Arts",135,95,70.37
+"2019-20","631","Clayton County","0290","Mount Zion High School",214,68,31.78
+"2019-20","631","Clayton County","0377","Riverdale High School",218,58,26.61
+"2019-20","631","Clayton County","0378","Perry Career Academy - Eula Wilburn Ponds Perry Center for Learning",445,6,1.35
+"2019-20","631","Clayton County","1054","Forest Park High School",309,131,42.39
+"2019-20","631","Clayton County","1056","Jonesboro High School",230,52,22.61
+"2019-20","631","Clayton County","2052","North Clayton High School",185,54,29.19
+"2019-20","631","Clayton County","4058","Morrow High School",316,116,36.71
+"2019-20","631","Clayton County","ALL","All Schools",2976,914,30.71
+"2019-20","632","Clinch County","1050","Clinch County High School",97,45,46.39
+"2019-20","632","Clinch County","ALL","All Schools",97,45,46.39
+"2019-20","633","Cobb County","0101","Kennesaw Mountain High School",451,275,60.98
+"2019-20","633","Cobb County","0103","Kell High School",378,196,51.85
+"2019-20","633","Cobb County","0175","Walton High School",590,446,75.59
+"2019-20","633","Cobb County","0188","Pope High School",488,337,69.06
+"2019-20","633","Cobb County","0192","Harrison High School",574,350,60.98
+"2019-20","633","Cobb County","0209","Allatoona High School",358,213,59.5
+"2019-20","633","Cobb County","0373","Sprayberry High School",396,181,45.71
+"2019-20","633","Cobb County","0381","Lassiter High School",521,371,71.21
+"2019-20","633","Cobb County","0707","Hillgrove High School",598,366,61.2
+"2019-20","633","Cobb County","0808","Cobb Horizon High School",169,10,5.92
+"2019-20","633","Cobb County","1054","Campbell High School",644,380,59.01
+"2019-20","633","Cobb County","1064","McEachern High School",581,216,37.18
+"2019-20","633","Cobb County","1069","Wheeler High School",460,249,54.13
+"2019-20","633","Cobb County","2056","North Cobb High School",698,395,56.59
+"2019-20","633","Cobb County","2066","Osborne High School",426,124,29.11
+"2019-20","633","Cobb County","3056","South Cobb High School",441,158,35.83
+"2019-20","633","Cobb County","4066","Pebblebrook High School",571,193,33.8
+"2019-20","633","Cobb County","ALL","All Schools",8344,4460,53.45
+"2019-20","634","Coffee County","0114","Wiregrass Regional College and Career Academy",52,9,17.31
+"2019-20","634","Coffee County","0195","Coffee County High School",376,175,46.54
+"2019-20","634","Coffee County","ALL","All Schools",428,184,42.99
+"2019-20","635","Colquitt County","1554","Colquitt County High School",522,201,38.51
+"2019-20","635","Colquitt County","ALL","All Schools",522,201,38.51
+"2019-20","636","Columbia County","0112","Grovetown High School",410,144,35.12
+"2019-20","636","Columbia County","0183","Harlem High School",244,115,47.13
+"2019-20","636","Columbia County","0189","Lakeside High School",398,254,63.82
+"2019-20","636","Columbia County","0197","Greenbrier High School",375,223,59.47
+"2019-20","636","Columbia County","4050","Evans High School",422,161,38.15
+"2019-20","636","Columbia County","ALL","All Schools",1849,897,48.51
+"2019-20","637","Cook County","0111","Cook High School",202,86,42.57
+"2019-20","637","Cook County","ALL","All Schools",202,86,42.57
+"2019-20","638","Coweta County","0196","Northgate High School",416,243,58.41
+"2019-20","638","Coweta County","0389","East Coweta High School",725,364,50.21
+"2019-20","638","Coweta County","5054","Newnan High School",463,209,45.14
+"2019-20","638","Coweta County","ALL","All Schools",1604,816,50.87
+"2019-20","639","Crawford County","0193","Crawford County High School",97,43,44.33
+"2019-20","639","Crawford County","ALL","All Schools",97,43,44.33
+"2019-20","640","Crisp County","0196","Crisp County High School",266,99,37.22
+"2019-20","640","Crisp County","ALL","All Schools",266,99,37.22
+"2019-20","641","Dade County","0195","Dade County High School",147,75,51.02
+"2019-20","641","Dade County","ALL","All Schools",147,75,51.02
+"2019-20","642","Dawson County","0198","Dawson County High School",263,144,54.75
+"2019-20","642","Dawson County","ALL","All Schools",263,144,54.75
+"2019-20","643","Decatur County","0116","New Beginning Learning Center",47,2,4.26
+"2019-20","643","Decatur County","3050","Bainbridge High School",298,135,45.3
+"2019-20","643","Decatur County","ALL","All Schools",345,137,39.71
+"2019-20","644","DeKalb County","0103","Martin Luther King, Jr. High School",303,78,25.74
+"2019-20","644","DeKalb County","0105","Miller Grove High School",208,50,24.04
+"2019-20","644","DeKalb County","0172","Cedar Grove High School",229,45,19.65
+"2019-20","644","DeKalb County","0176","Redan High School",193,54,27.98
+"2019-20","644","DeKalb County","0202","Lithonia High School",273,53,19.41
+"2019-20","644","DeKalb County","0276","Stone Mountain High School",209,69,33.01
+"2019-20","644","DeKalb County","0315","Tapestry Public Charter School",26,12,46.15
+"2019-20","644","DeKalb County","0407","Dekalb Early College Academy",63,52,82.54
+"2019-20","644","DeKalb County","0410","DeKalb School of the Arts",76,61,80.26
+"2019-20","644","DeKalb County","0497","Stephenson High School",308,91,29.55
+"2019-20","644","DeKalb County","0610","Arabia Mountain High School - Academy of Engineering, Medicine and Environm",298,180,60.4
+"2019-20","644","DeKalb County","0810","Elizabeth Andrews High School",171,5,2.92
+"2019-20","644","DeKalb County","1070","Tucker High School",321,157,48.91
+"2019-20","644","DeKalb County","2054","Columbia High School",202,57,28.22
+"2019-20","644","DeKalb County","2055","Druid Hills High School",285,146,51.23
+"2019-20","644","DeKalb County","3060","Lakeside High School",450,290,64.44
+"2019-20","644","DeKalb County","3070","McNair High School",101,23,22.77
+"2019-20","644","DeKalb County","4053","Clarkston High School",236,102,43.22
+"2019-20","644","DeKalb County","4054","Cross Keys High School",248,95,38.31
+"2019-20","644","DeKalb County","4069","Towers High School",131,38,29.01
+"2019-20","644","DeKalb County","5052","Chamblee Charter High School",353,229,64.87
+"2019-20","644","DeKalb County","5055","Dunwoody High School",459,319,69.5
+"2019-20","644","DeKalb County","5067","Southwest DeKalb High School",255,78,30.59
+"2019-20","644","DeKalb County","ALL","All Schools",5398,2284,42.31
+"2019-20","645","Dodge County","0103","Dodge County High School",196,91,46.43
+"2019-20","645","Dodge County","0292","DAC (Dodge County Achievement Center)",,,
+"2019-20","645","Dodge County","ALL","All Schools",204,91,44.61
+"2019-20","646","Dooly County","0182","Dooly County High School",74,21,28.38
+"2019-20","646","Dooly County","0205","Dooly County Prep Academy",,,
+"2019-20","646","Dooly County","ALL","All Schools",75,21,28
+"2019-20","647","Dougherty County","1058","Monroe High School",229,56,24.45
+"2019-20","647","Dougherty County","2052","Dougherty Comprehensive High School",232,59,25.43
+"2019-20","647","Dougherty County","4062","Westover High School",306,112,36.6
+"2019-20","647","Dougherty County","ALL","All Schools",767,227,29.6
+"2019-20","648","Douglas County","0100","Chapel Hill High School",343,168,48.98
+"2019-20","648","Douglas County","0175","Lithia Springs Comprehensive High School",403,136,33.75
+"2019-20","648","Douglas County","0187","Alexander High School",432,228,52.78
+"2019-20","648","Douglas County","0212","New Manchester High School",372,115,30.91
+"2019-20","648","Douglas County","4050","Douglas County High School",489,226,46.22
+"2019-20","648","Douglas County","ALL","All Schools",2039,873,42.82
+"2019-20","649","Early County","2050","Early County High School",160,78,48.75
+"2019-20","649","Early County","ALL","All Schools",160,78,48.75
+"2019-20","650","Echols County","1050","Echols County High School",43,15,34.88
+"2019-20","650","Echols County","ALL","All Schools",43,15,34.88
+"2019-20","651","Effingham County","0197","South Effingham High School",359,185,51.53
+"2019-20","651","Effingham County","0390","Effingham County High School",397,169,42.57
+"2019-20","651","Effingham County","ALL","All Schools",756,354,46.83
+"2019-20","652","Elbert County","0176","Elbert County High School",152,67,44.08
+"2019-20","652","Elbert County","ALL","All Schools",152,67,44.08
+"2019-20","653","Emanuel County","0189","Swainsboro High School",160,69,43.13
+"2019-20","653","Emanuel County","2050","Emanuel County Institute",73,41,56.16
+"2019-20","653","Emanuel County","ALL","All Schools",233,110,47.21
+"2019-20","654","Evans County","0197","Second Chance",,,
+"2019-20","654","Evans County","2050","Claxton High School",108,48,44.44
+"2019-20","654","Evans County","ALL","All Schools",109,48,44.04
+"2019-20","655","Fannin County","0176","Fannin County High School",217,116,53.46
+"2019-20","655","Fannin County","ALL","All Schools",217,116,53.46
+"2019-20","656","Fayette County","0105","Whitewater High School",362,229,63.26
+"2019-20","656","Fayette County","0182","McIntosh High School",380,276,72.63
+"2019-20","656","Fayette County","0192","Sandy Creek High School",220,104,47.27
+"2019-20","656","Fayette County","0198","Starrs Mill High School",348,266,76.44
+"2019-20","656","Fayette County","0398","Fayette County High School",285,123,43.16
+"2019-20","656","Fayette County","ALL","All Schools",1595,998,62.57
+"2019-20","657","Floyd County","0107","Pepperell High School",183,81,44.26
+"2019-20","657","Floyd County","0111","Model High",157,94,59.87
+"2019-20","657","Floyd County","0401","Armuchee High School",126,71,56.35
+"2019-20","657","Floyd County","5050","Coosa High School",145,61,42.07
+"2019-20","657","Floyd County","ALL","All Schools",611,307,50.25
+"2019-20","658","Forsyth County","0107","West Forsyth High School",622,405,65.11
+"2019-20","658","Forsyth County","0190","South Forsyth High School",543,408,75.14
+"2019-20","658","Forsyth County","0195","North Forsyth High School",605,315,52.07
+"2019-20","658","Forsyth County","0214","Lambert High School",721,599,83.08
+"2019-20","658","Forsyth County","0702","Denmark High School",369,243,65.85
+"2019-20","658","Forsyth County","5050","Forsyth Central High School",657,388,59.06
+"2019-20","658","Forsyth County","ALL","All Schools",3517,2358,67.05
+"2019-20","659","Franklin County","3050","Franklin County High School",248,138,55.65
+"2019-20","659","Franklin County","ALL","All Schools",248,138,55.65
+"2019-20","660","Fulton County","0106","Milton High School",564,400,70.92
+"2019-20","660","Fulton County","0118","Hapeville Charter Career Academy",127,44,34.65
+"2019-20","660","Fulton County","0119","Cambridge High School",493,352,71.4
+"2019-20","660","Fulton County","0176","Banneker High School",259,54,20.85
+"2019-20","660","Fulton County","0191","Roswell High School",503,315,62.62
+"2019-20","660","Fulton County","0198","Centennial High School",435,224,51.49
+"2019-20","660","Fulton County","0203","Northview High School",419,329,78.52
+"2019-20","660","Fulton County","0205","Alpharetta High School",553,376,67.99
+"2019-20","660","Fulton County","0291","Creekside High School",349,59,16.91
+"2019-20","660","Fulton County","0383","McClarin High School",69,1,1.45
+"2019-20","660","Fulton County","0386","Independence High School",79,8,10.13
+"2019-20","660","Fulton County","0392","Chattahoochee High School",406,287,70.69
+"2019-20","660","Fulton County","0691","Tri-Cities High School",294,78,26.53
+"2019-20","660","Fulton County","0910","Johns Creek High School",502,362,72.11
+"2019-20","660","Fulton County","1110","Langston Hughes High School",382,104,27.23
+"2019-20","660","Fulton County","1320","Skyview High School",31,,
+"2019-20","660","Fulton County","3066","Riverwood International Charter School",399,221,55.39
+"2019-20","660","Fulton County","4062","North Springs High School",331,183,55.29
+"2019-20","660","Fulton County","5069","Westlake High School",445,164,36.85
+"2019-20","660","Fulton County","ALL","All Schools",6640,3561,53.63
+"2019-20","661","Gilmer County","0196","Gilmer High School",263,138,52.47
+"2019-20","661","Gilmer County","ALL","All Schools",263,138,52.47
+"2019-20","662","Glascock County","0196","Glascock County Middle/High School",35,14,40
+"2019-20","662","Glascock County","ALL","All Schools",35,14,40
+"2019-20","663","Glynn County","3552","Brunswick High School",360,160,44.44
+"2019-20","663","Glynn County","4752","Glynn Academy",421,251,59.62
+"2019-20","663","Glynn County","ALL","All Schools",781,411,52.62
+"2019-20","664","Gordon County","0106","Sonoraville High School",270,162,60
+"2019-20","664","Gordon County","0286","Gordon Central High School",193,120,62.18
+"2019-20","664","Gordon County","ALL","All Schools",463,282,60.91
+"2019-20","665","Grady County","1050","Cairo High School",251,109,43.43
+"2019-20","665","Grady County","ALL","All Schools",251,109,43.43
+"2019-20","666","Greene County","0401","Greene County High School",83,38,45.78
+"2019-20","666","Greene County","0402","Lake Oconee Charter High School",58,49,84.48
+"2019-20","666","Greene County","ALL","All Schools",141,87,61.7
+"2019-20","667","Gwinnett County","0101","Grayson High School",654,390,59.63
+"2019-20","667","Gwinnett County","0103","Norcross High School",651,275,42.24
+"2019-20","667","Gwinnett County","0105","Mill Creek High School",844,532,63.03
+"2019-20","667","Gwinnett County","0176","Parkview High School",661,411,62.18
+"2019-20","667","Gwinnett County","0182","Brookwood High School",813,515,63.35
+"2019-20","667","Gwinnett County","0185","Shiloh High School",409,149,36.43
+"2019-20","667","Gwinnett County","0187","Meadowcreek High School",500,155,31
+"2019-20","667","Gwinnett County","0189","Phoenix High School",251,13,5.18
+"2019-20","667","Gwinnett County","0195","Collins Hill High School",650,373,57.38
+"2019-20","667","Gwinnett County","0708","Oakland Meadow School",,,
+"2019-20","667","Gwinnett County","0805","Peachtree Ridge High School",793,468,59.02
+"2019-20","667","Gwinnett County","1018","Lanier High School",409,241,58.92
+"2019-20","667","Gwinnett County","1019","Gwinnett School of Mathematics, Science and Technology",223,164,73.54
+"2019-20","667","Gwinnett County","1050","Berkmar High School",543,231,42.54
+"2019-20","667","Gwinnett County","1214","Gwinnett Online Campus",143,40,27.97
+"2019-20","667","Gwinnett County","1410","Mountain View High School",584,300,51.37
+"2019-20","667","Gwinnett County","1710","Archer High School",609,396,65.02
+"2019-20","667","Gwinnett County","1814","Discovery High School",550,206,37.45
+"2019-20","667","Gwinnett County","1818","Paul Duke STEM High School",107,41,38.32
+"2019-20","667","Gwinnett County","1819","McClure Health Science High School",49,25,51.02
+"2019-20","667","Gwinnett County","2558","South Gwinnett High School",487,175,35.93
+"2019-20","667","Gwinnett County","3750","Central Gwinnett High School",359,101,28.13
+"2019-20","667","Gwinnett County","4052","Dacula High School",444,208,46.85
+"2019-20","667","Gwinnett County","4556","North Gwinnett High School",732,572,78.14
+"2019-20","667","Gwinnett County","5550","Duluth High School",553,266,48.1
+"2019-20","667","Gwinnett County","ALL","All Schools",12023,6247,51.96
+"2019-20","668","Habersham County","0114","Habersham Success Academy",,,
+"2019-20","668","Habersham County","2052","Habersham Central High School",423,209,49.41
+"2019-20","668","Habersham County","ALL","All Schools",432,209,48.38
+"2019-20","669","Hall County","0102","Chestatee High School",285,140,49.12
+"2019-20","669","Hall County","0105","Lanier College and Career Academy",90,4,4.44
+"2019-20","669","Hall County","0189","West Hall High School",259,102,39.38
+"2019-20","669","Hall County","0202","Flowery Branch High",337,201,59.64
+"2019-20","669","Hall County","0391","Cherokee Bluff High School",150,81,54
+"2019-20","669","Hall County","0392","The Foundry",,,
+"2019-20","669","Hall County","1552","East Hall High School",244,92,37.7
+"2019-20","669","Hall County","1556","North Hall High School",280,158,56.43
+"2019-20","669","Hall County","4752","Johnson High School",316,131,41.46
+"2019-20","669","Hall County","ALL","All Schools",1966,909,46.24
+"2019-20","670","Hancock County","0288","Hancock Central High School",54,30,55.56
+"2019-20","670","Hancock County","ALL","All Schools",54,30,55.56
+"2019-20","671","Haralson County","0198","Haralson County Rebel Academy",,,
+"2019-20","671","Haralson County","3050","Haralson County High School",209,100,47.85
+"2019-20","671","Haralson County","ALL","All Schools",213,100,46.95
+"2019-20","672","Harris County","0299","Harris County High School",383,220,57.44
+"2019-20","672","Harris County","ALL","All Schools",383,220,57.44
+"2019-20","673","Hart County","3050","Hart County High School",217,112,51.61
+"2019-20","673","Hart County","ALL","All Schools",217,112,51.61
+"2019-20","674","Heard County","0110","Heard County High School",138,68,49.28
+"2019-20","674","Heard County","ALL","All Schools",138,68,49.28
+"2019-20","675","Henry County","0101","Union Grove High",372,196,52.69
+"2019-20","675","Henry County","0104","Luella High School",284,106,37.32
+"2019-20","675","Henry County","0105","Dutchtown High",431,152,35.27
+"2019-20","675","Henry County","0214","Locust Grove High",332,130,39.16
+"2019-20","675","Henry County","0295","Stockbridge High School",298,97,32.55
+"2019-20","675","Henry County","0307","Ola High School",405,150,37.04
+"2019-20","675","Henry County","0315","Hampton High School",273,115,42.12
+"2019-20","675","Henry County","0391","Eagle's Landing High School",338,68,20.12
+"2019-20","675","Henry County","0408","Woodland High School",351,116,33.05
+"2019-20","675","Henry County","0804","EXCEL Academy",,,
+"2019-20","675","Henry County","3050","McDonough High School",245,76,31.02
+"2019-20","675","Henry County","ALL","All Schools",3336,1206,36.15
+"2019-20","676","Houston County","0111","Veterans High School",409,222,54.28
+"2019-20","676","Houston County","0116","Houston County WIN Academy",51,,
+"2019-20","676","Houston County","0192","Houston County High School",461,314,68.11
+"2019-20","676","Houston County","1054","Perry High School",299,171,57.19
+"2019-20","676","Houston County","2052","Northside High School",423,140,33.1
+"2019-20","676","Houston County","4056","Warner Robins High School",321,110,34.27
+"2019-20","676","Houston County","ALL","All Schools",1964,957,48.73
+"2019-20","677","Irwin County","2050","Irwin County High School",116,48,41.38
+"2019-20","677","Irwin County","ALL","All Schools",116,48,41.38
+"2019-20","678","Jackson County","0107","East Jackson Comprehensive High School",213,100,46.95
+"2019-20","678","Jackson County","0191","Jackson County Comprehensive High School",252,114,45.24
+"2019-20","678","Jackson County","ALL","All Schools",465,214,46.02
+"2019-20","679","Jasper County","0108","Jasper County High School",152,46,30.26
+"2019-20","679","Jasper County","ALL","All Schools",152,46,30.26
+"2019-20","680","Jeff Davis County","0199","Jeff Davis High School",187,112,59.89
+"2019-20","680","Jeff Davis County","ALL","All Schools",187,112,59.89
+"2019-20","681","Jefferson County","0196","Jefferson County High School",180,68,37.78
+"2019-20","681","Jefferson County","ALL","All Schools",180,68,37.78
+"2019-20","682","Jenkins County","0201","Jenkins County High School",58,28,48.28
+"2019-20","682","Jenkins County","ALL","All Schools",58,28,48.28
+"2019-20","683","Johnson County","0201","Johnson County High School",85,35,41.18
+"2019-20","683","Johnson County","ALL","All Schools",85,35,41.18
+"2019-20","684","Jones County","0192","Jones County High School",343,156,45.48
+"2019-20","684","Jones County","ALL","All Schools",343,156,45.48
+"2019-20","685","Lamar County","0175","Lamar County High School",164,78,47.56
+"2019-20","685","Lamar County","ALL","All Schools",164,78,47.56
+"2019-20","686","Lanier County","0201","Lanier County High School",98,29,29.59
+"2019-20","686","Lanier County","ALL","All Schools",98,29,29.59
+"2019-20","687","Laurens County","0110","West Laurens High School",279,129,46.24
+"2019-20","687","Laurens County","0197","East Laurens High School",134,62,46.27
+"2019-20","687","Laurens County","ALL","All Schools",413,191,46.25
+"2019-20","688","Lee County","0193","Lee County High School",461,193,41.87
+"2019-20","688","Lee County","ALL","All Schools",461,193,41.87
+"2019-20","689","Liberty County","0105","Bradwell Institute",354,100,28.25
+"2019-20","689","Liberty County","0192","Liberty County High School",241,88,36.51
+"2019-20","689","Liberty County","ALL","All Schools",595,188,31.6
+"2019-20","690","Lincoln County","0110","Lincoln County High School",87,37,42.53
+"2019-20","690","Lincoln County","ALL","All Schools",87,37,42.53
+"2019-20","691","Long County","0205","Long County High School",218,108,49.54
+"2019-20","691","Long County","ALL","All Schools",218,108,49.54
+"2019-20","692","Lowndes County","5050","Lowndes High School",629,339,53.9
+"2019-20","692","Lowndes County","ALL","All Schools",629,339,53.9
+"2019-20","693","Lumpkin County","0101","Lumpkin County High School",243,112,46.09
+"2019-20","693","Lumpkin County","ALL","All Schools",243,112,46.09
+"2019-20","694","Macon County","2060","Macon County High School",87,17,19.54
+"2019-20","694","Macon County","ALL","All Schools",87,17,19.54
+"2019-20","695","Madison County","5050","Madison County High School",297,105,35.35
+"2019-20","695","Madison County","ALL","All Schools",297,105,35.35
+"2019-20","696","Marion County","0275","Marion County Middle/High School",110,58,52.73
+"2019-20","696","Marion County","ALL","All Schools",110,58,52.73
+"2019-20","697","McDuffie County","0192","Thomson High School",226,102,45.13
+"2019-20","697","McDuffie County","ALL","All Schools",226,102,45.13
+"2019-20","698","McIntosh County","0104","McIntosh Academy",88,30,34.09
+"2019-20","698","McIntosh County","ALL","All Schools",88,30,34.09
+"2019-20","699","Meriwether County","0300","Greenville High School",66,16,24.24
+"2019-20","699","Meriwether County","4050","Manchester High School",90,29,32.22
+"2019-20","699","Meriwether County","ALL","All Schools",156,45,28.85
+"2019-20","700","Miller County","0210","Miller County High School",57,30,52.63
+"2019-20","700","Miller County","ALL","All Schools",57,30,52.63
+"2019-20","701","Mitchell County","0282","Mitchell County High School",70,22,31.43
+"2019-20","701","Mitchell County","ALL","All Schools",70,22,31.43
+"2019-20","702","Monroe County","0184","Mary Persons High School",278,135,48.56
+"2019-20","702","Monroe County","ALL","All Schools",278,135,48.56
+"2019-20","703","Montgomery County","0201","Montgomery County High School",50,20,40
+"2019-20","703","Montgomery County","ALL","All Schools",50,20,40
+"2019-20","704","Morgan County","1050","Morgan County High School",208,105,50.48
+"2019-20","704","Morgan County","ALL","All Schools",208,105,50.48
+"2019-20","705","Murray County","0108","Pleasant Valley Innovative School",19,1,5.26
+"2019-20","705","Murray County","0112","North Murray High School",214,134,62.62
+"2019-20","705","Murray County","0190","Murray County High School",191,101,52.88
+"2019-20","705","Murray County","ALL","All Schools",424,236,55.66
+"2019-20","706","Muscogee County","0203","Northside High School",349,197,56.45
+"2019-20","706","Muscogee County","0278","Shaw High School",264,93,35.23
+"2019-20","706","Muscogee County","0378","Spencer High School",174,21,12.07
+"2019-20","706","Muscogee County","0502","Rainey McCullers School of the Arts",14,11,78.57
+"2019-20","706","Muscogee County","1064","Kendrick High School",166,19,11.45
+"2019-20","706","Muscogee County","2062","Hardaway High School",265,71,26.79
+"2019-20","706","Muscogee County","3054","Columbus High School",280,269,96.07
+"2019-20","706","Muscogee County","5052","Carver High School",204,36,17.65
+"2019-20","706","Muscogee County","5062","Jordan Vocational High School",189,42,22.22
+"2019-20","706","Muscogee County","ALL","All Schools",1905,759,39.84
+"2019-20","707","Newton County","0173","Newton High School",593,239,40.3
+"2019-20","707","Newton County","0206","Alcovy High School",426,155,36.38
+"2019-20","707","Newton County","0295","Eastside High School",351,159,45.3
+"2019-20","707","Newton County","ALL","All Schools",1370,553,40.36
+"2019-20","708","Oconee County","0105","North Oconee High School",332,262,78.92
+"2019-20","708","Oconee County","0293","Oconee County High School",271,194,71.59
+"2019-20","708","Oconee County","ALL","All Schools",603,456,75.62
+"2019-20","709","Oglethorpe County","2050","Oglethorpe County High School",137,72,52.55
+"2019-20","709","Oglethorpe County","ALL","All Schools",137,72,52.55
+"2019-20","710","Paulding County","0101","Hiram High School",345,119,34.49
+"2019-20","710","Paulding County","0106","South Paulding High School",387,158,40.83
+"2019-20","710","Paulding County","0109","North Paulding High School",599,336,56.09
+"2019-20","710","Paulding County","0292","East Paulding High School",376,137,36.44
+"2019-20","710","Paulding County","2552","Paulding County High School",407,182,44.72
+"2019-20","710","Paulding County","ALL","All Schools",2114,932,44.09
+"2019-20","711","Peach County","2052","Peach County High School",225,98,43.56
+"2019-20","711","Peach County","ALL","All Schools",225,98,43.56
+"2019-20","712","Pickens County","0198","Pickens County High School",301,154,51.16
+"2019-20","712","Pickens County","ALL","All Schools",301,154,51.16
+"2019-20","713","Pierce County","0182","Pierce County High School",247,141,57.09
+"2019-20","713","Pierce County","ALL","All Schools",247,141,57.09
+"2019-20","714","Pike County","0194","Pike County High School",227,135,59.47
+"2019-20","714","Pike County","0296","Zebulon High School",31,4,12.9
+"2019-20","714","Pike County","ALL","All Schools",258,139,53.88
+"2019-20","715","Polk County","0102","Rockmart High School",222,118,53.15
+"2019-20","715","Polk County","5050","Cedartown High School",295,160,54.24
+"2019-20","715","Polk County","ALL","All Schools",517,278,53.77
+"2019-20","716","Pulaski County","2050","Hawkinsville High School",92,37,40.22
+"2019-20","716","Pulaski County","ALL","All Schools",92,37,40.22
+"2019-20","717","Putnam County","0114","Putnam County High School",168,68,40.48
+"2019-20","717","Putnam County","ALL","All Schools",168,68,40.48
+"2019-20","718","Quitman County","0110","Quitman County High School",19,7,36.84
+"2019-20","718","Quitman County","ALL","All Schools",19,7,36.84
+"2019-20","719","Rabun County","0177","Rabun County High School",141,75,53.19
+"2019-20","719","Rabun County","ALL","All Schools",141,75,53.19
+"2019-20","720","Randolph County","0201","Randolph Clay High School",55,8,14.55
+"2019-20","720","Randolph County","ALL","All Schools",55,8,14.55
+"2019-20","721","Richmond County","0100","Cross Creek High School",225,51,22.67
+"2019-20","721","Richmond County","0213","Richmond County Technical Career Magnet School",74,32,43.24
+"2019-20","721","Richmond County","0392","Performance Learning Center",63,,
+"2019-20","721","Richmond County","0395","Innovation Academy for Boys",,,
+"2019-20","721","Richmond County","0396","Innovation Academy for Girls",,,
+"2019-20","721","Richmond County","1052","Butler High School",134,24,17.91
+"2019-20","721","Richmond County","2056","Hephzibah High School",218,65,29.82
+"2019-20","721","Richmond County","2574","Westside High School",188,48,25.53
+"2019-20","721","Richmond County","3054","Glenn Hills High School",129,8,6.2
+"2019-20","721","Richmond County","3556","Johnson Magnet",94,52,55.32
+"2019-20","721","Richmond County","3756","Josey High School",124,22,17.74
+"2019-20","721","Richmond County","4060","Academy of Richmond County High School",263,90,34.22
+"2019-20","721","Richmond County","4562","Davidson Magnet School",98,78,79.59
+"2019-20","721","Richmond County","5566","Laney High School",101,18,17.82
+"2019-20","721","Richmond County","ALL","All Schools",1717,488,28.42
+"2019-20","722","Rockdale County","0176","Heritage High School",379,154,40.63
+"2019-20","722","Rockdale County","0192","Salem High School",252,59,23.41
+"2019-20","722","Rockdale County","3052","Rockdale County High School",512,209,40.82
+"2019-20","722","Rockdale County","ALL","All Schools",1143,422,36.92
+"2019-20","723","Schley County","0101","Schley Middle High School",83,45,54.22
+"2019-20","723","Schley County","ALL","All Schools",83,45,54.22
+"2019-20","724","Screven County","4052","Screven County High School",125,53,42.4
+"2019-20","724","Screven County","ALL","All Schools",125,53,42.4
+"2019-20","725","Seminole County","0196","Seminole County Middle/High School",95,44,46.32
+"2019-20","725","Seminole County","ALL","All Schools",95,44,46.32
+"2019-20","726","Griffin-Spalding County","0101","Spalding High School",306,155,50.65
+"2019-20","726","Griffin-Spalding County","0187","Griffin High School",297,95,31.99
+"2019-20","726","Griffin-Spalding County","0208","AZ Kelsey Academy",28,,
+"2019-20","726","Griffin-Spalding County","ALL","All Schools",631,250,39.62
+"2019-20","727","Stephens County","5050","Stephens County High School",235,116,49.36
+"2019-20","727","Stephens County","ALL","All Schools",235,116,49.36
+"2019-20","728","Stewart County","0201","Stewart County High School",25,10,40
+"2019-20","728","Stewart County","ALL","All Schools",25,10,40
+"2019-20","729","Sumter County","0105","Americus Sumter High School (Old Americus-Sumter HS S)",242,72,29.75
+"2019-20","729","Sumter County","0396","Furlow Charter School",29,20,68.97
+"2019-20","729","Sumter County","ALL","All Schools",271,92,33.95
+"2019-20","730","Talbot County","0190","Central Elementary/High School",28,12,42.86
+"2019-20","730","Talbot County","ALL","All Schools",28,12,42.86
+"2019-20","731","Taliaferro County","0102","Taliaferro County School",11,7,63.64
+"2019-20","731","Taliaferro County","ALL","All Schools",11,7,63.64
+"2019-20","732","Tattnall County","0194","Tattnall County High School",200,106,53
+"2019-20","732","Tattnall County","ALL","All Schools",200,106,53
+"2019-20","733","Taylor County","0201","Taylor County High School",98,54,55.1
+"2019-20","733","Taylor County","ALL","All Schools",98,54,55.1
+"2019-20","734","Telfair County","0201","Telfair County High School",116,70,60.34
+"2019-20","734","Telfair County","0202","Telfair Alternative Preparation School",,,
+"2019-20","734","Telfair County","ALL","All Schools",119,70,58.82
+"2019-20","735","Terrell County","0105","Terrell High School",88,18,20.45
+"2019-20","735","Terrell County","ALL","All Schools",88,18,20.45
+"2019-20","736","Thomas County","0100","Bishop Hall Charter School",63,10,15.87
+"2019-20","736","Thomas County","0191","Thomas County Central High School",285,118,41.4
+"2019-20","736","Thomas County","ALL","All Schools",348,128,36.78
+"2019-20","737","Tift County","0199","Tift County High School",520,209,40.19
+"2019-20","737","Tift County","ALL","All Schools",520,209,40.19
+"2019-20","738","Toombs County","0192","Toombs County High School",174,77,44.25
+"2019-20","738","Toombs County","ALL","All Schools",174,77,44.25
+"2019-20","739","Towns County","0204","Towns County High School",58,38,65.52
+"2019-20","739","Towns County","ALL","All Schools",58,38,65.52
+"2019-20","740","Treutlen County","0213","Treutlen Middle/High School",52,16,30.77
+"2019-20","740","Treutlen County","ALL","All Schools",52,16,30.77
+"2019-20","741","Troup County","0201","Callaway High School",186,71,38.17
+"2019-20","741","Troup County","0387","Troup County High School",282,134,47.52
+"2019-20","741","Troup County","1052","LaGrange High School",244,106,43.44
+"2019-20","741","Troup County","ALL","All Schools",712,311,43.68
+"2019-20","742","Turner County","3050","Turner County High School",84,36,42.86
+"2019-20","742","Turner County","ALL","All Schools",84,36,42.86
+"2019-20","743","Twiggs County","0201","Twiggs County High School",63,29,46.03
+"2019-20","743","Twiggs County","ALL","All Schools",63,29,46.03
+"2019-20","744","Union County","0101","Union County High School",191,136,71.2
+"2019-20","744","Union County","3050","Woody Gap High/Elementary School",,,
+"2019-20","744","Union County","ALL","All Schools",197,138,70.05
+"2019-20","745","Thomaston-Upson County","0195","Upson-Lee High School",303,146,48.18
+"2019-20","745","Thomaston-Upson County","ALL","All Schools",303,146,48.18
+"2019-20","746","Walker County","0190","Ridgeland High School",269,99,36.8
+"2019-20","746","Walker County","0198","LaFayette High School",236,100,42.37
+"2019-20","746","Walker County","ALL","All Schools",505,199,39.41
+"2019-20","747","Walton County","0111","Walnut Grove High School",281,150,53.38
+"2019-20","747","Walton County","0199","Loganville High School",359,190,52.92
+"2019-20","747","Walton County","0205","Monroe Area High School",254,113,44.49
+"2019-20","747","Walton County","ALL","All Schools",894,453,50.67
+"2019-20","748","Ware County","0195","Ware County High School",314,148,47.13
+"2019-20","748","Ware County","ALL","All Schools",314,148,47.13
+"2019-20","749","Warren County","0205","Warren County High School",40,24,60
+"2019-20","749","Warren County","ALL","All Schools",40,24,60
+"2019-20","750","Washington County","1052","Washington County High School",196,98,50
+"2019-20","750","Washington County","ALL","All Schools",196,98,50
+"2019-20","751","Wayne County","0101","Wayne County High School",329,127,38.6
+"2019-20","751","Wayne County","ALL","All Schools",329,127,38.6
+"2019-20","752","Webster County","0108","Webster County High School",21,12,57.14
+"2019-20","752","Webster County","ALL","All Schools",21,12,57.14
+"2019-20","753","Wheeler County","3052","Wheeler County High School",70,43,61.43
+"2019-20","753","Wheeler County","ALL","All Schools",70,43,61.43
+"2019-20","754","White County","0105","White County High School",244,130,53.28
+"2019-20","754","White County","ALL","All Schools",244,130,53.28
+"2019-20","755","Whitfield County","0112","Coahulla Creek High School",222,104,46.85
+"2019-20","755","Whitfield County","0175","Northwest Whitfield County High School",302,176,58.28
+"2019-20","755","Whitfield County","0212","Phoenix High School",76,,
+"2019-20","755","Whitfield County","0275","Southeast Whitfield County High School",277,133,48.01
+"2019-20","755","Whitfield County","ALL","All Schools",877,413,47.09
+"2019-20","756","Wilcox County","0201","Wilcox County High School",83,22,26.51
+"2019-20","756","Wilcox County","ALL","All Schools",83,22,26.51
+"2019-20","757","Wilkes County","0110","Washington-Wilkes Comprehensive High School",81,29,35.8
+"2019-20","757","Wilkes County","ALL","All Schools",81,29,35.8
+"2019-20","758","Wilkinson County","3050","Wilkinson County High School",96,31,32.29
+"2019-20","758","Wilkinson County","ALL","All Schools",96,31,32.29
+"2019-20","759","Worth County","0176","Worth County High School",182,86,47.25
+"2019-20","759","Worth County","0197","Worth County Achievement Center",12,1,8.33
+"2019-20","759","Worth County","ALL","All Schools",194,87,44.85
+"2019-20","761","Atlanta Public Schools","0106","Early College High School at Carver",75,38,50.67
+"2019-20","761","Atlanta Public Schools","0182","Mays High School",274,82,29.93
+"2019-20","761","Atlanta Public Schools","0186","Maynard H. Jackson, Jr. High School",278,118,42.45
+"2019-20","761","Atlanta Public Schools","0192","North Atlanta High School",493,278,56.39
+"2019-20","761","Atlanta Public Schools","0212","KIPP Atlanta Collegiate Academy",148,49,33.11
+"2019-20","761","Atlanta Public Schools","0315","Booker T. Washington High School",137,44,32.12
+"2019-20","761","Atlanta Public Schools","0403","APS-Forrest Hills Academy",,,
+"2019-20","761","Atlanta Public Schools","0415","Atlanta Classical Academy",46,28,60.87
+"2019-20","761","Atlanta Public Schools","0515","Charles Drew Charter School JA/SA",107,45,42.06
+"2019-20","761","Atlanta Public Schools","1409","Therrell High School",190,43,22.63
+"2019-20","761","Atlanta Public Schools","1410","Corretta Scott King Womens' Leadership Academy",31,9,29.03
+"2019-20","761","Atlanta Public Schools","1411","B.E.S.T Academy",41,4,9.76
+"2019-20","761","Atlanta Public Schools","1412","South Atlanta High School",164,33,20.12
+"2019-20","761","Atlanta Public Schools","1413","Carver High School",74,17,22.97
+"2019-20","761","Atlanta Public Schools","2664","Crim High School",37,1,2.7
+"2019-20","761","Atlanta Public Schools","4058","Douglass High School",180,47,26.11
+"2019-20","761","Atlanta Public Schools","4560","Grady High School",301,200,66.45
+"2019-20","761","Atlanta Public Schools","ALL","All Schools",2577,1036,40.2
+"2019-20","763","Bremen City","0201","Bremen High School",169,122,72.19
+"2019-20","763","Bremen City","ALL","All Schools",169,122,72.19
+"2019-20","764","Buford City","0191","Buford High School",319,217,68.03
+"2019-20","764","Buford City","ALL","All Schools",319,217,68.03
+"2019-20","765","Calhoun City","3050","Calhoun High School",267,140,52.43
+"2019-20","765","Calhoun City","ALL","All Schools",267,140,52.43
+"2019-20","766","Carrollton City","1050","Carrollton High School",384,236,61.46
+"2019-20","766","Carrollton City","ALL","All Schools",384,236,61.46
+"2019-20","767","Cartersville City","2050","Cartersville High School",324,186,57.41
+"2019-20","767","Cartersville City","ALL","All Schools",324,186,57.41
+"2019-20","769","Chickamauga City","0211","Gordon Lee High School",101,77,76.24
+"2019-20","769","Chickamauga City","ALL","All Schools",101,77,76.24
+"2019-20","771","Commerce City","0112","Commerce High School",88,56,63.64
+"2019-20","771","Commerce City","ALL","All Schools",88,56,63.64
+"2019-20","772","Dalton Public Schools","0110","Morris Innovative High School",60,7,11.67
+"2019-20","772","Dalton Public Schools","4050","Dalton High School",467,214,45.82
+"2019-20","772","Dalton Public Schools","ALL","All Schools",527,221,41.94
+"2019-20","773","Decatur City","3050","Decatur High School",304,235,77.3
+"2019-20","773","Decatur City","ALL","All Schools",304,235,77.3
+"2019-20","774","Dublin City","0211","Dublin High School",117,37,31.62
+"2019-20","774","Dublin City","0412","Moore Street Facility",24,,
+"2019-20","774","Dublin City","ALL","All Schools",141,37,26.24
+"2019-20","776","Gainesville City","3050","Gainesville High School",465,199,42.8
+"2019-20","776","Gainesville City","ALL","All Schools",465,199,42.8
+"2019-20","779","Jefferson City","0174","Jefferson High School",288,170,59.03
+"2019-20","779","Jefferson City","ALL","All Schools",288,170,59.03
+"2019-20","781","Marietta City","0101","Marietta High School",542,218,40.22
+"2019-20","781","Marietta City","0207","George W. Hartmann Center",,,
+"2019-20","781","Marietta City","ALL","All Schools",544,218,40.07
+"2019-20","7820108","State Charter Schools- Mountain Education Center School","0108","Mountain Education Charter High School",253,46,18.18
+"2019-20","7820108","State Charter Schools- Mountain Education Center School","ALL","All Schools",253,46,18.18
+"2019-20","7820120","State Charter Schools- Georgia Cyber Academy","0120","Georgia Cyber Academy",676,292,43.2
+"2019-20","7820120","State Charter Schools- Georgia Cyber Academy","ALL","All Schools",676,292,43.2
+"2019-20","7820412","State Charter Schools- Georgia Connections Academy","0412","Georgia Connections Academy",344,151,43.9
+"2019-20","7820412","State Charter Schools- Georgia Connections Academy","ALL","All Schools",344,151,43.9
+"2019-20","7820613","State Charter Schools- Foothills Charter High School (Madison Campus)","0613","Foothills Charter High School (Central Office - Athens)",248,33,13.31
+"2019-20","7820613","State Charter Schools- Foothills Charter High School (Madison Campus)","ALL","All Schools",248,33,13.31
+"2019-20","7820618","State Charter Schools- Coastal Plains Charter High School - Candler Campus","0618","Coastal Plains Charter High School - Candler Campus",95,10,10.53
+"2019-20","7820618","State Charter Schools- Coastal Plains Charter High School - Candler Campus","ALL","All Schools",95,10,10.53
+"2019-20","7830103","Commission Charter Schools- CCAT School","0103","Statesboro STEAM Academy",22,18,81.82
+"2019-20","7830103","Commission Charter Schools- CCAT School","ALL","All Schools",22,18,81.82
+"2019-20","7830210","Commission Charter Schools- Pataula Charter Academy","0210","Pataula Charter Academy",33,18,54.55
+"2019-20","7830210","Commission Charter Schools- Pataula Charter Academy","ALL","All Schools",33,18,54.55
+"2019-20","7830310","Commission Charter Schools- Fulton Leadership Academy","0310","Fulton Leadership Academy",15,4,26.67
+"2019-20","7830310","Commission Charter Schools- Fulton Leadership Academy","ALL","All Schools",15,4,26.67
+"2019-20","7830623","State Charter Schools II- Academy For Classical Education","0623","Academy For Classical Education",78,60,76.92
+"2019-20","7830623","State Charter Schools II- Academy For Classical Education","ALL","All Schools",78,60,76.92
+"2019-20","7830630","State Charter Schools II- Baconton Community Charter School","0630","Baconton Community Charter School",50,34,68
+"2019-20","7830630","State Charter Schools II- Baconton Community Charter School","ALL","All Schools",50,34,68
+"2019-20","784","Pelham City","0111","Pelham High School",104,36,34.62
+"2019-20","784","Pelham City","ALL","All Schools",104,36,34.62
+"2019-20","785","Rome City","0193","Rome High School",418,177,42.34
+"2019-20","785","Rome City","ALL","All Schools",418,177,42.34
+"2019-20","786","Social Circle City","0300","Social Circle High School",101,34,33.66
+"2019-20","786","Social Circle City","ALL","All Schools",101,34,33.66
+"2019-20","789","Thomasville City","4052","Thomasville High School",145,69,47.59
+"2019-20","789","Thomasville City","ALL","All Schools",145,69,47.59
+"2019-20","791","Trion City","0301","Trion High School",113,80,70.8
+"2019-20","791","Trion City","ALL","All Schools",113,80,70.8
+"2019-20","792","Valdosta City","0273","Valdosta High School",429,184,42.89
+"2019-20","792","Valdosta City","ALL","All Schools",429,184,42.89
+"2019-20","793","Vidalia City","0273","Vidalia Comprehensive High School",167,83,49.7
+"2019-20","793","Vidalia City","ALL","All Schools",167,83,49.7
+"2019-20","799","State Schools","1893","Atlanta Area School for the Deaf",16,1,6.25
+"2019-20","799","State Schools","1895","Georgia School for the Deaf",,,
+"2019-20","799","State Schools","ALL","All Schools",19,1,5.26
+"2019-20","7991894","State Schools- Georgia Academy for the Blind","1894","Georgia Academy for the Blind",13,3,23.08
+"2019-20","7991894","State Schools- Georgia Academy for the Blind","ALL","All Schools",13,3,23.08
+"2019-20","891","Department of Juvenile Justice","0104","Atlanta Youth Detention Center",,,
+"2019-20","891","Department of Juvenile Justice","0298","Augusta Youth Development Campus",,,
+"2019-20","891","Department of Juvenile Justice","0405","Muscogee Youth Development Center",,,
+"2019-20","891","Department of Juvenile Justice","0598","Macon Youth Development Campus",,,
+"2019-20","891","Department of Juvenile Justice","0898","Eastman Youth Development Campus",11,,
+"2019-20","891","Department of Juvenile Justice","4199","Millegeville ITU",,,
+"2019-20","891","Department of Juvenile Justice","5001","Sumter Youth Development Campus",,,
+"2019-20","891","Department of Juvenile Justice","ALL","All Schools",27,,
+"2019-20","ALL","All Systems","ALL","All Schools",113226,53451,47.21

@@ -1,0 +1,649 @@
+LONG_SCHOOL_YEAR,SCHOOL_DISTRCT_CD,SCHOOL_DSTRCT_NM,INSTN_NUMBER,INSTN_NAME,NUMBER_OF_GRADUATES,HOPE_ELIGIBLE,HOPE_ELIGIBLE_PCT
+2018-19,601,Appling County,103,Appling County High School,222,94,42.34
+2018-19,601,Appling County,ALL,All Schools,222,94,42.34
+2018-19,602,Atkinson County,103,Atkinson County High School,106,51,48.11
+2018-19,602,Atkinson County,ALL,All Schools,106,51,48.11
+2018-19,603,Bacon County,302,Bacon County High School,148,58,39.19
+2018-19,603,Bacon County,ALL,All Schools,148,58,39.19
+2018-19,604,Baker County,105,Baker County K12 School,22,TFS,36.36
+2018-19,604,Baker County,ALL,All Schools,22,TFS,36.36
+2018-19,605,Baldwin County,189,Baldwin High School,270,89,32.96
+2018-19,605,Baldwin County,ALL,All Schools,270,89,32.96
+2018-19,606,Banks County,199,Banks County High School,172,86,50
+2018-19,606,Banks County,ALL,All Schools,172,86,50
+2018-19,607,Barrow County,101,Apalachee High School,410,167,40.73
+2018-19,607,Barrow County,3052,Winder-Barrow High School,408,165,40.44
+2018-19,607,Barrow County,ALL,All Schools,818,332,40.59
+2018-19,608,Bartow County,105,Adairsville High School,204,103,50.49
+2018-19,608,Bartow County,114,Cass High School,356,201,56.46
+2018-19,608,Bartow County,198,Woodland High School,331,153,46.22
+2018-19,608,Bartow County,ALL,All Schools,891,457,51.29
+2018-19,609,Ben Hill County,291,Fitzgerald High School,200,82,41
+2018-19,609,Ben Hill County,ALL,All Schools,200,82,41
+2018-19,610,Berrien County,101,Berrien High School,174,76,43.68
+2018-19,610,Berrien County,106,Berrien Academy Performance Learning Center,22,TFS,13.64
+2018-19,610,Berrien County,ALL,All Schools,196,79,40.31
+2018-19,611,Bibb County,105,Howard High School,256,65,25.39
+2018-19,611,Bibb County,117,Academy For Classical Education,64,45,70.31
+2018-19,611,Bibb County,186,Central High School,220,70,31.82
+2018-19,611,Bibb County,198,Westside High School,229,50,21.83
+2018-19,611,Bibb County,204,Rutland High School,234,79,33.76
+2018-19,611,Bibb County,286,Northeast High School,163,51,31.29
+2018-19,611,Bibb County,386,Southwest High School,178,29,16.29
+2018-19,611,Bibb County,ALL,All Schools,1344,389,28.94
+2018-19,612,Bleckley County,105,Bleckley County High School,154,82,53.25
+2018-19,612,Bleckley County,115,Bleckley County Success Academy,24,,
+2018-19,612,Bleckley County,ALL,All Schools,178,82,46.07
+2018-19,613,Brantley County,1050,Brantley County High School,210,98,46.67
+2018-19,613,Brantley County,ALL,All Schools,210,98,46.67
+2018-19,614,Brooks County,110,Brooks County High School,112,35,31.25
+2018-19,614,Brooks County,394,Delta Innovative School,31,TFS,6.45
+2018-19,614,Brooks County,ALL,All Schools,143,37,25.87
+2018-19,615,Bryan County,182,Richmond Hill High School,516,244,47.29
+2018-19,615,Bryan County,502,Bryan County High School,140,46,32.86
+2018-19,615,Bryan County,ALL,All Schools,656,290,44.21
+2018-19,616,Bulloch County,203,Southeast Bulloch High School,234,99,42.31
+2018-19,616,Bulloch County,2054,Statesboro High School,343,162,47.23
+2018-19,616,Bulloch County,4052,Portal Middle/High School,56,27,48.21
+2018-19,616,Bulloch County,ALL,All Schools,633,288,45.5
+2018-19,617,Burke County,288,Burke County High School,258,76,29.46
+2018-19,617,Burke County,ALL,All Schools,258,76,29.46
+2018-19,618,Butts County,190,Jackson High School,213,81,38.03
+2018-19,618,Butts County,ALL,All Schools,213,81,38.03
+2018-19,619,Calhoun County,113,Calhoun County High School,45,10,22.22
+2018-19,619,Calhoun County,ALL,All Schools,45,10,22.22
+2018-19,620,Camden County,295,Camden County High School,556,254,45.68
+2018-19,620,Camden County,ALL,All Schools,556,254,45.68
+2018-19,621,Candler County,101,Metter High School,117,56,47.86
+2018-19,621,Candler County,ALL,All Schools,117,56,47.86
+2018-19,622,Carroll County,189,Temple High School,145,70,48.28
+2018-19,622,Carroll County,212,Mt. Zion High School,104,60,57.69
+2018-19,622,Carroll County,2052,Central High School,278,146,52.52
+2018-19,622,Carroll County,3050,Bowdon High School,79,35,44.3
+2018-19,622,Carroll County,5054,Villa Rica High School,375,173,46.13
+2018-19,622,Carroll County,ALL,All Schools,981,484,49.34
+2018-19,623,Catoosa County,109,Heritage High School,279,130,46.59
+2018-19,623,Catoosa County,1052,Lakeview-Fort Oglethorpe High School,213,70,32.86
+2018-19,623,Catoosa County,4052,Ringgold High School,230,139,60.43
+2018-19,623,Catoosa County,ALL,All Schools,722,339,46.95
+2018-19,624,Charlton County,287,Charlton County High School,111,44,39.64
+2018-19,624,Charlton County,ALL,All Schools,111,44,39.64
+2018-19,625,Savannah-Chatham County,101,Johnson High School,173,33,19.08
+2018-19,625,Savannah-Chatham County,115,Woodville-Tompkins Technical and Career High School,148,80,54.05
+2018-19,625,Savannah-Chatham County,117,New Hampstead High School,321,109,33.96
+2018-19,625,Savannah-Chatham County,210,The School of Liberal Studies at Savannah High,96,14,14.58
+2018-19,625,Savannah-Chatham County,411,Islands High School,236,104,44.07
+2018-19,625,Savannah-Chatham County,499,Savannah Arts Academy,220,170,77.27
+2018-19,625,Savannah-Chatham County,513,Savannah Early College High School,55,41,74.55
+2018-19,625,Savannah-Chatham County,2052,Beach High School,188,40,21.28
+2018-19,625,Savannah-Chatham County,3056,Groves High School,165,16,9.7
+2018-19,625,Savannah-Chatham County,5060,Jenkins High School,190,56,29.47
+2018-19,625,Savannah-Chatham County,5070,Windsor Forest High School,251,62,24.7
+2018-19,625,Savannah-Chatham County,ALL,All Schools,2043,725,35.49
+2018-19,626,Chattahoochee County,206,Chattahoochee County High School,95,38,40
+2018-19,626,Chattahoochee County,ALL,All Schools,95,38,40
+2018-19,627,Chattooga County,111,Chattooga Academy,46,,
+2018-19,627,Chattooga County,1050,Chattooga High School,151,56,37.09
+2018-19,627,Chattooga County,ALL,All Schools,197,56,28.43
+2018-19,628,Cherokee County,106,Creekview High School,461,313,67.9
+2018-19,628,Cherokee County,115,River Ridge High School,375,229,61.07
+2018-19,628,Cherokee County,176,Etowah High School,547,295,53.93
+2018-19,628,Cherokee County,191,Sequoyah High School,430,208,48.37
+2018-19,628,Cherokee County,197,Woodstock High School,543,292,53.78
+2018-19,628,Cherokee County,5050,Cherokee High School,605,316,52.23
+2018-19,628,Cherokee County,ALL,All Schools,2961,1653,55.83
+2018-19,629,Clarke County,102,Cedar Shoals High School,242,89,36.78
+2018-19,629,Clarke County,104,Classic City High School,35,,
+2018-19,629,Clarke County,5556,Clarke Central High School,341,121,35.48
+2018-19,629,Clarke County,ALL,All Schools,618,210,33.98
+2018-19,631,Clayton County,104,Mundy's Mill High School,345,111,32.17
+2018-19,631,Clayton County,114,Elite Scholars Academy School,69,45,65.22
+2018-19,631,Clayton County,115,Charles R. Drew High School,234,71,30.34
+2018-19,631,Clayton County,190,Lovejoy High School,327,85,25.99
+2018-19,631,Clayton County,215,Martha Ellen Stilwell School for the Performing Arts,172,107,62.21
+2018-19,631,Clayton County,290,Mount Zion High School,211,54,25.59
+2018-19,631,Clayton County,377,Riverdale High School,229,68,29.69
+2018-19,631,Clayton County,378,Perry Career Academy - Eula Wilburn Ponds Perry Center for Learning,326,TFS,0.92
+2018-19,631,Clayton County,1054,Forest Park High School,342,98,28.65
+2018-19,631,Clayton County,1056,Jonesboro High School,230,69,30
+2018-19,631,Clayton County,2052,North Clayton High School,169,65,38.46
+2018-19,631,Clayton County,4058,Morrow High School,294,106,36.05
+2018-19,631,Clayton County,ALL,All Schools,2948,882,29.92
+2018-19,632,Clinch County,1050,Clinch County High School,87,40,45.98
+2018-19,632,Clinch County,ALL,All Schools,87,40,45.98
+2018-19,633,Cobb County,101,Kennesaw Mountain High School,495,318,64.24
+2018-19,633,Cobb County,103,Kell High School,336,176,52.38
+2018-19,633,Cobb County,175,Walton High School,647,477,73.72
+2018-19,633,Cobb County,188,Pope High School,480,328,68.33
+2018-19,633,Cobb County,192,Harrison High School,488,291,59.63
+2018-19,633,Cobb County,209,Allatoona High School,391,235,60.1
+2018-19,633,Cobb County,373,Sprayberry High School,397,198,49.87
+2018-19,633,Cobb County,381,Lassiter High School,526,363,69.01
+2018-19,633,Cobb County,707,Hillgrove High School,620,375,60.48
+2018-19,633,Cobb County,808,Cobb Horizon High School,131,TFS,6.11
+2018-19,633,Cobb County,1054,Campbell High School,613,322,52.53
+2018-19,633,Cobb County,1064,McEachern High School,555,196,35.32
+2018-19,633,Cobb County,1069,Wheeler High School,504,259,51.39
+2018-19,633,Cobb County,2056,North Cobb High School,635,334,52.6
+2018-19,633,Cobb County,2066,Osborne High School,420,123,29.29
+2018-19,633,Cobb County,3056,South Cobb High School,390,138,35.38
+2018-19,633,Cobb County,4066,Pebblebrook High School,494,136,27.53
+2018-19,633,Cobb County,ALL,All Schools,8122,4277,52.66
+2018-19,634,Coffee County,114,Wiregrass Regional College and Career Academy,45,TFS,15.56
+2018-19,634,Coffee County,195,Coffee County High School,408,149,36.52
+2018-19,634,Coffee County,ALL,All Schools,453,156,34.44
+2018-19,635,Colquitt County,112,Colquitt County Achievement Center,17,,
+2018-19,635,Colquitt County,1554,Colquitt County High School,577,196,33.97
+2018-19,635,Colquitt County,ALL,All Schools,594,196,33
+2018-19,636,Columbia County,112,Grovetown High School,419,171,40.81
+2018-19,636,Columbia County,183,Harlem High School,200,102,51
+2018-19,636,Columbia County,189,Lakeside High School,418,261,62.44
+2018-19,636,Columbia County,197,Greenbrier High School,449,245,54.57
+2018-19,636,Columbia County,4050,Evans High School,391,160,40.92
+2018-19,636,Columbia County,ALL,All Schools,1877,939,50.03
+2018-19,637,Cook County,111,Cook High School,183,60,32.79
+2018-19,637,Cook County,ALL,All Schools,183,60,32.79
+2018-19,638,Coweta County,196,Northgate High School,409,227,55.5
+2018-19,638,Coweta County,389,East Coweta High School,672,305,45.39
+2018-19,638,Coweta County,5054,Newnan High School,543,246,45.3
+2018-19,638,Coweta County,ALL,All Schools,1624,778,47.91
+2018-19,639,Crawford County,193,Crawford County High School,90,37,41.11
+2018-19,639,Crawford County,ALL,All Schools,90,37,41.11
+2018-19,640,Crisp County,196,Crisp County High School,234,88,37.61
+2018-19,640,Crisp County,ALL,All Schools,234,88,37.61
+2018-19,641,Dade County,195,Dade County High School,119,52,43.7
+2018-19,641,Dade County,ALL,All Schools,119,52,43.7
+2018-19,642,Dawson County,198,Dawson County High School,255,140,54.9
+2018-19,642,Dawson County,ALL,All Schools,255,140,54.9
+2018-19,643,Decatur County,116,New Beginning Learning Center,40,,
+2018-19,643,Decatur County,3050,Bainbridge High School,342,117,34.21
+2018-19,643,Decatur County,ALL,All Schools,382,117,30.63
+2018-19,644,DeKalb County,103,"Martin Luther King, Jr. High School",337,93,27.6
+2018-19,644,DeKalb County,105,Miller Grove High School,245,58,23.67
+2018-19,644,DeKalb County,172,Cedar Grove High School,229,51,22.27
+2018-19,644,DeKalb County,176,Redan High School,185,54,29.19
+2018-19,644,DeKalb County,202,Lithonia High School,286,58,20.28
+2018-19,644,DeKalb County,276,Stone Mountain High School,178,38,21.35
+2018-19,644,DeKalb County,315,Tapestry Public Charter School,14,TFS,42.86
+2018-19,644,DeKalb County,407,Dekalb Early College Academy,72,67,93.06
+2018-19,644,DeKalb County,410,DeKalb School of the Arts,80,57,71.25
+2018-19,644,DeKalb County,497,Stephenson High School,282,80,28.37
+2018-19,644,DeKalb County,500,DeKalb Alternative School,,,
+2018-19,644,DeKalb County,610,"Arabia Mountain High School - Academy of Engineering, Medicine and Environm",318,182,57.23
+2018-19,644,DeKalb County,810,Elizabeth Andrews High School,149,TFS,4.03
+2018-19,644,DeKalb County,1070,Tucker High School,344,169,49.13
+2018-19,644,DeKalb County,2054,Columbia High School,194,37,19.07
+2018-19,644,DeKalb County,2055,Druid Hills High School,295,138,46.78
+2018-19,644,DeKalb County,3060,Lakeside High School,449,278,61.92
+2018-19,644,DeKalb County,3070,McNair High School,114,23,20.18
+2018-19,644,DeKalb County,4053,Clarkston High School,275,78,28.36
+2018-19,644,DeKalb County,4054,Cross Keys High School,273,83,30.4
+2018-19,644,DeKalb County,4069,Towers High School,157,40,25.48
+2018-19,644,DeKalb County,5052,Chamblee Charter High School,319,178,55.8
+2018-19,644,DeKalb County,5055,Dunwoody High School,412,262,63.59
+2018-19,644,DeKalb County,5067,Southwest DeKalb High School,261,79,30.27
+2018-19,644,DeKalb County,ALL,All Schools,5469,2115,38.67
+2018-19,645,Dodge County,103,Dodge County High School,186,79,42.47
+2018-19,645,Dodge County,292,DAC (Dodge County Achievement Center),13,,
+2018-19,645,Dodge County,ALL,All Schools,199,79,39.7
+2018-19,646,Dooly County,182,Dooly County High School,77,19,24.68
+2018-19,646,Dooly County,205,Dooly County Prep Academy,,,
+2018-19,646,Dooly County,ALL,All Schools,85,19,22.35
+2018-19,647,Dougherty County,1058,Monroe High School,222,35,15.77
+2018-19,647,Dougherty County,2052,Dougherty Comprehensive High School,238,51,21.43
+2018-19,647,Dougherty County,4062,Westover High School,335,114,34.03
+2018-19,647,Dougherty County,ALL,All Schools,795,200,25.16
+2018-19,648,Douglas County,100,Chapel Hill High School,363,167,46.01
+2018-19,648,Douglas County,175,Lithia Springs Comprehensive High School,349,129,36.96
+2018-19,648,Douglas County,187,Alexander High School,395,168,42.53
+2018-19,648,Douglas County,212,New Manchester High School,399,134,33.58
+2018-19,648,Douglas County,507,Youth Villages at Inner Harbour,,,
+2018-19,648,Douglas County,4050,Douglas County High School,427,182,42.62
+2018-19,648,Douglas County,ALL,All Schools,1934,780,40.33
+2018-19,649,Early County,2050,Early County High School,124,64,51.61
+2018-19,649,Early County,ALL,All Schools,124,64,51.61
+2018-19,650,Echols County,1050,Echols County High School,64,25,39.06
+2018-19,650,Echols County,ALL,All Schools,64,25,39.06
+2018-19,651,Effingham County,197,South Effingham High School,398,180,45.23
+2018-19,651,Effingham County,390,Effingham County High School,415,170,40.96
+2018-19,651,Effingham County,ALL,All Schools,813,350,43.05
+2018-19,652,Elbert County,176,Elbert County High School,170,88,51.76
+2018-19,652,Elbert County,ALL,All Schools,170,88,51.76
+2018-19,653,Emanuel County,189,Swainsboro High School,130,49,37.69
+2018-19,653,Emanuel County,2050,Emanuel County Institute,86,51,59.3
+2018-19,653,Emanuel County,ALL,All Schools,216,100,46.3
+2018-19,654,Evans County,197,Second Chance,,,
+2018-19,654,Evans County,2050,Claxton High School,96,36,37.5
+2018-19,654,Evans County,ALL,All Schools,97,36,37.11
+2018-19,655,Fannin County,176,Fannin County High School,188,109,57.98
+2018-19,655,Fannin County,ALL,All Schools,188,109,57.98
+2018-19,656,Fayette County,105,Whitewater High School,335,217,64.78
+2018-19,656,Fayette County,182,McIntosh High School,401,288,71.82
+2018-19,656,Fayette County,192,Sandy Creek High School,274,126,45.99
+2018-19,656,Fayette County,198,Starrs Mill High School,335,263,78.51
+2018-19,656,Fayette County,398,Fayette County High School,351,141,40.17
+2018-19,656,Fayette County,ALL,All Schools,1696,1035,61.03
+2018-19,657,Floyd County,107,Pepperell High School,187,76,40.64
+2018-19,657,Floyd County,111,Model High,124,71,57.26
+2018-19,657,Floyd County,401,Armuchee High School,113,52,46.02
+2018-19,657,Floyd County,5050,Coosa High School,179,91,50.84
+2018-19,657,Floyd County,ALL,All Schools,603,290,48.09
+2018-19,658,Forsyth County,107,West Forsyth High School,596,367,61.58
+2018-19,658,Forsyth County,190,South Forsyth High School,847,588,69.42
+2018-19,658,Forsyth County,195,North Forsyth High School,556,299,53.78
+2018-19,658,Forsyth County,214,Lambert High School,792,644,81.31
+2018-19,658,Forsyth County,219,Forsyth Virtual Academy,18,TFS,44.44
+2018-19,658,Forsyth County,702,Denmark High School,,,
+2018-19,658,Forsyth County,5050,Forsyth Central High School,597,342,57.29
+2018-19,658,Forsyth County,ALL,All Schools,3407,2248,65.98
+2018-19,659,Franklin County,3050,Franklin County High School,237,113,47.68
+2018-19,659,Franklin County,ALL,All Schools,237,113,47.68
+2018-19,660,Fulton County,106,Milton High School,588,398,67.69
+2018-19,660,Fulton County,118,Hapeville Charter Career Academy,130,33,25.38
+2018-19,660,Fulton County,119,Cambridge High School,483,306,63.35
+2018-19,660,Fulton County,176,Banneker High School,324,73,22.53
+2018-19,660,Fulton County,191,Roswell High School,480,301,62.71
+2018-19,660,Fulton County,198,Centennial High School,423,216,51.06
+2018-19,660,Fulton County,203,Northview High School,461,334,72.45
+2018-19,660,Fulton County,205,Alpharetta High School,509,330,64.83
+2018-19,660,Fulton County,291,Creekside High School,352,51,14.49
+2018-19,660,Fulton County,383,McClarin High School,106,,
+2018-19,660,Fulton County,386,Independence High School,181,TFS,3.31
+2018-19,660,Fulton County,392,Chattahoochee High School,509,353,69.35
+2018-19,660,Fulton County,691,Tri-Cities High School,322,59,18.32
+2018-19,660,Fulton County,910,Johns Creek High School,517,359,69.44
+2018-19,660,Fulton County,1110,Langston Hughes High School,445,108,24.27
+2018-19,660,Fulton County,1320,Skyview High School,36,,
+2018-19,660,Fulton County,3066,Riverwood International Charter School,339,178,52.51
+2018-19,660,Fulton County,4062,North Springs High School,332,143,43.07
+2018-19,660,Fulton County,5069,Westlake High School,496,162,32.66
+2018-19,660,Fulton County,ALL,All Schools,7033,3410,48.49
+2018-19,661,Gilmer County,196,Gilmer High School,288,144,50
+2018-19,661,Gilmer County,ALL,All Schools,288,144,50
+2018-19,662,Glascock County,196,Glascock County Consolidated School,33,18,54.55
+2018-19,662,Glascock County,ALL,All Schools,33,18,54.55
+2018-19,663,Glynn County,107,"Morningstar Treatment Services, Inc. Youth Estate",,,
+2018-19,663,Glynn County,3552,Brunswick High School,365,160,43.84
+2018-19,663,Glynn County,4752,Glynn Academy,398,229,57.54
+2018-19,663,Glynn County,ALL,All Schools,766,389,50.78
+2018-19,664,Gordon County,106,Sonoraville High School,244,137,56.15
+2018-19,664,Gordon County,286,Gordon Central High School,221,117,52.94
+2018-19,664,Gordon County,ALL,All Schools,465,254,54.62
+2018-19,665,Grady County,1050,Cairo High School,277,116,41.88
+2018-19,665,Grady County,ALL,All Schools,277,116,41.88
+2018-19,666,Greene County,109,LAKE OCONEE CHARTER,43,31,72.09
+2018-19,666,Greene County,401,Greene County High School,80,29,36.25
+2018-19,666,Greene County,ALL,All Schools,123,60,48.78
+2018-19,667,Gwinnett County,101,Grayson High School,624,320,51.28
+2018-19,667,Gwinnett County,103,Norcross High School,711,295,41.49
+2018-19,667,Gwinnett County,105,Mill Creek High School,795,522,65.66
+2018-19,667,Gwinnett County,176,Parkview High School,619,350,56.54
+2018-19,667,Gwinnett County,182,Brookwood High School,855,478,55.91
+2018-19,667,Gwinnett County,185,Shiloh High School,399,123,30.83
+2018-19,667,Gwinnett County,187,Meadowcreek High School,669,186,27.8
+2018-19,667,Gwinnett County,189,Phoenix High School,176,10,5.68
+2018-19,667,Gwinnett County,195,Collins Hill High School,623,338,54.25
+2018-19,667,Gwinnett County,708,Oakland Meadow School,,,
+2018-19,667,Gwinnett County,805,Peachtree Ridge High School,755,391,51.79
+2018-19,667,Gwinnett County,1018,Lanier High School,414,227,54.83
+2018-19,667,Gwinnett County,1019,"Gwinnett School of Mathematics, Science and Technology",180,142,78.89
+2018-19,667,Gwinnett County,1050,Berkmar High School,484,179,36.98
+2018-19,667,Gwinnett County,1214,Gwinnett Online Campus,36,TFS,16.67
+2018-19,667,Gwinnett County,1410,Mountain View High School,527,246,46.68
+2018-19,667,Gwinnett County,1710,Archer High School,603,353,58.54
+2018-19,667,Gwinnett County,1814,Discovery High School,532,172,32.33
+2018-19,667,Gwinnett County,2558,South Gwinnett High School,505,168,33.27
+2018-19,667,Gwinnett County,3750,Central Gwinnett High School,365,111,30.41
+2018-19,667,Gwinnett County,4052,Dacula High School,439,202,46.01
+2018-19,667,Gwinnett County,4556,North Gwinnett High School,723,514,71.09
+2018-19,667,Gwinnett County,5550,Duluth High School,561,254,45.28
+2018-19,667,Gwinnett County,ALL,All Schools,11601,5587,48.16
+2018-19,668,Habersham County,114,Habersham Success Academy,57,TFS,10.53
+2018-19,668,Habersham County,2052,Habersham Central High School,379,178,46.97
+2018-19,668,Habersham County,ALL,All Schools,436,184,42.2
+2018-19,669,Hall County,102,Chestatee High School,294,129,43.88
+2018-19,669,Hall County,105,Lanier Career Academy,102,TFS,3.92
+2018-19,669,Hall County,189,West Hall High School,218,94,43.12
+2018-19,669,Hall County,202,Flowery Branch High,307,178,57.98
+2018-19,669,Hall County,391,Cherokee Bluff High School,57,19,33.33
+2018-19,669,Hall County,392,Alternative Learning Center,,,
+2018-19,669,Hall County,1552,East Hall High School,250,79,31.6
+2018-19,669,Hall County,1556,North Hall High School,235,125,53.19
+2018-19,669,Hall County,4752,Johnson High School,354,165,46.61
+2018-19,669,Hall County,ALL,All Schools,1820,794,43.63
+2018-19,670,Hancock County,288,Hancock Central High School,66,18,27.27
+2018-19,670,Hancock County,ALL,All Schools,66,18,27.27
+2018-19,671,Haralson County,3050,Haralson County High School,204,88,43.14
+2018-19,671,Haralson County,ALL,All Schools,204,88,43.14
+2018-19,672,Harris County,299,Harris County High School,384,206,53.65
+2018-19,672,Harris County,ALL,All Schools,384,206,53.65
+2018-19,673,Hart County,3050,Hart County High School,224,114,50.89
+2018-19,673,Hart County,ALL,All Schools,224,114,50.89
+2018-19,674,Heard County,110,Heard County High School,149,66,44.3
+2018-19,674,Heard County,ALL,All Schools,149,66,44.3
+2018-19,675,Henry County,101,Union Grove High,346,171,49.42
+2018-19,675,Henry County,104,Luella High School,259,84,32.43
+2018-19,675,Henry County,105,Dutchtown High,360,115,31.94
+2018-19,675,Henry County,214,Locust Grove High,348,130,37.36
+2018-19,675,Henry County,295,Stockbridge High School,341,84,24.63
+2018-19,675,Henry County,307,Ola High School,363,137,37.74
+2018-19,675,Henry County,315,Hampton High School,269,90,33.46
+2018-19,675,Henry County,391,Eagle's Landing High School,291,63,21.65
+2018-19,675,Henry County,408,Woodland High School,335,112,33.43
+2018-19,675,Henry County,804,EXCEL Academy,33,TFS,3.03
+2018-19,675,Henry County,3050,Henry County High School,258,86,33.33
+2018-19,675,Henry County,ALL,All Schools,3203,1073,33.5
+2018-19,676,Houston County,111,Veterans High School,354,189,53.39
+2018-19,676,Houston County,116,Houston County Crossroads Center,16,TFS,6.25
+2018-19,676,Houston County,192,Houston County High School,430,272,63.26
+2018-19,676,Houston County,1054,Perry High School,306,152,49.67
+2018-19,676,Houston County,2052,Northside High School,409,129,31.54
+2018-19,676,Houston County,4056,Warner Robins High School,357,131,36.69
+2018-19,676,Houston County,ALL,All Schools,1872,874,46.69
+2018-19,677,Irwin County,2050,Irwin County High School,99,41,41.41
+2018-19,677,Irwin County,ALL,All Schools,99,41,41.41
+2018-19,678,Jackson County,107,East Jackson Comprehensive High School,195,68,34.87
+2018-19,678,Jackson County,191,Jackson County High School,243,120,49.38
+2018-19,678,Jackson County,ALL,All Schools,438,188,42.92
+2018-19,679,Jasper County,108,Jasper County High School,163,62,38.04
+2018-19,679,Jasper County,ALL,All Schools,163,62,38.04
+2018-19,680,Jeff Davis County,199,Jeff Davis High School,208,103,49.52
+2018-19,680,Jeff Davis County,ALL,All Schools,208,103,49.52
+2018-19,681,Jefferson County,196,Jefferson County High School,173,60,34.68
+2018-19,681,Jefferson County,ALL,All Schools,173,60,34.68
+2018-19,682,Jenkins County,201,Jenkins County High School,61,21,34.43
+2018-19,682,Jenkins County,ALL,All Schools,61,21,34.43
+2018-19,683,Johnson County,201,Johnson County High School,80,33,41.25
+2018-19,683,Johnson County,ALL,All Schools,80,33,41.25
+2018-19,684,Jones County,192,Jones County High School,336,141,41.96
+2018-19,684,Jones County,ALL,All Schools,336,141,41.96
+2018-19,685,Lamar County,175,Lamar County High School,168,58,34.52
+2018-19,685,Lamar County,ALL,All Schools,168,58,34.52
+2018-19,686,Lanier County,201,Lanier County High School,89,31,34.83
+2018-19,686,Lanier County,ALL,All Schools,89,31,34.83
+2018-19,687,Laurens County,110,West Laurens High School,275,132,48
+2018-19,687,Laurens County,197,East Laurens High School,127,50,39.37
+2018-19,687,Laurens County,ALL,All Schools,402,182,45.27
+2018-19,688,Lee County,193,Lee County High School,426,190,44.6
+2018-19,688,Lee County,ALL,All Schools,426,190,44.6
+2018-19,689,Liberty County,105,Bradwell Institute,349,78,22.35
+2018-19,689,Liberty County,192,Liberty County High School,241,90,37.34
+2018-19,689,Liberty County,ALL,All Schools,590,168,28.47
+2018-19,690,Lincoln County,110,Lincoln County High School,94,40,42.55
+2018-19,690,Lincoln County,ALL,All Schools,94,40,42.55
+2018-19,691,Long County,205,Long County High School,191,73,38.22
+2018-19,691,Long County,ALL,All Schools,191,73,38.22
+2018-19,692,Lowndes County,5050,Lowndes High School,627,340,54.23
+2018-19,692,Lowndes County,ALL,All Schools,627,340,54.23
+2018-19,693,Lumpkin County,101,Lumpkin County High School,266,120,45.11
+2018-19,693,Lumpkin County,ALL,All Schools,266,120,45.11
+2018-19,694,Macon County,2060,Macon County High School,105,28,26.67
+2018-19,694,Macon County,ALL,All Schools,105,28,26.67
+2018-19,695,Madison County,5050,Madison County High School,326,138,42.33
+2018-19,695,Madison County,ALL,All Schools,326,138,42.33
+2018-19,696,Marion County,275,Marion County Middle/High School,102,57,55.88
+2018-19,696,Marion County,ALL,All Schools,102,57,55.88
+2018-19,697,McDuffie County,192,Thomson High School,250,96,38.4
+2018-19,697,McDuffie County,ALL,All Schools,250,96,38.4
+2018-19,698,McIntosh County,104,McIntosh Academy,76,29,38.16
+2018-19,698,McIntosh County,ALL,All Schools,76,29,38.16
+2018-19,699,Meriwether County,300,Greenville High School,52,10,19.23
+2018-19,699,Meriwether County,4050,Manchester High School,76,32,42.11
+2018-19,699,Meriwether County,ALL,All Schools,128,42,32.81
+2018-19,700,Miller County,210,Miller County High School,63,30,47.62
+2018-19,700,Miller County,ALL,All Schools,63,30,47.62
+2018-19,701,Mitchell County,105,Baconton Community Charter School,35,26,74.29
+2018-19,701,Mitchell County,282,Mitchell County High School,81,28,34.57
+2018-19,701,Mitchell County,ALL,All Schools,116,54,46.55
+2018-19,702,Monroe County,184,Mary Persons High School,269,129,47.96
+2018-19,702,Monroe County,ALL,All Schools,269,129,47.96
+2018-19,703,Montgomery County,201,Montgomery County High School,72,31,43.06
+2018-19,703,Montgomery County,ALL,All Schools,72,31,43.06
+2018-19,704,Morgan County,1050,Morgan County High School,200,103,51.5
+2018-19,704,Morgan County,ALL,All Schools,200,103,51.5
+2018-19,705,Murray County,108,Pleasant Valley Innovative School,28,TFS,3.57
+2018-19,705,Murray County,112,North Murray High School,180,107,59.44
+2018-19,705,Murray County,190,Murray County High School,210,91,43.33
+2018-19,705,Murray County,ALL,All Schools,418,199,47.61
+2018-19,706,Muscogee County,112,Early College Academy of Columbus at Waverly Terrace,35,TFS,17.14
+2018-19,706,Muscogee County,203,Northside High School,340,180,52.94
+2018-19,706,Muscogee County,278,Shaw High School,244,95,38.93
+2018-19,706,Muscogee County,378,Spencer High School,163,18,11.04
+2018-19,706,Muscogee County,1064,Kendrick High School,183,28,15.3
+2018-19,706,Muscogee County,2062,Hardaway High School,267,86,32.21
+2018-19,706,Muscogee County,3054,Columbus High School,307,277,90.23
+2018-19,706,Muscogee County,5052,Carver High School,238,44,18.49
+2018-19,706,Muscogee County,5062,Jordan Vocational High School,134,19,14.18
+2018-19,706,Muscogee County,ALL,All Schools,1911,753,39.4
+2018-19,707,Newton County,173,Newton High School,587,200,34.07
+2018-19,707,Newton County,206,Alcovy High School,440,150,34.09
+2018-19,707,Newton County,295,Eastside High School,297,147,49.49
+2018-19,707,Newton County,ALL,All Schools,1324,497,37.54
+2018-19,708,Oconee County,105,North Oconee High School,297,221,74.41
+2018-19,708,Oconee County,293,Oconee County High School,296,216,72.97
+2018-19,708,Oconee County,ALL,All Schools,593,437,73.69
+2018-19,709,Oglethorpe County,2050,Oglethorpe County High School,127,56,44.09
+2018-19,709,Oglethorpe County,ALL,All Schools,127,56,44.09
+2018-19,710,Paulding County,101,Hiram High School,344,102,29.65
+2018-19,710,Paulding County,106,South Paulding High School,425,151,35.53
+2018-19,710,Paulding County,109,North Paulding High School,557,325,58.35
+2018-19,710,Paulding County,292,East Paulding High School,411,164,39.9
+2018-19,710,Paulding County,2552,Paulding County High School,396,172,43.43
+2018-19,710,Paulding County,ALL,All Schools,2133,914,42.85
+2018-19,711,Peach County,2052,Peach County High School,218,105,48.17
+2018-19,711,Peach County,ALL,All Schools,218,105,48.17
+2018-19,712,Pickens County,198,Pickens County High School,281,138,49.11
+2018-19,712,Pickens County,ALL,All Schools,281,138,49.11
+2018-19,713,Pierce County,182,Pierce County High School,239,117,48.95
+2018-19,713,Pierce County,ALL,All Schools,239,117,48.95
+2018-19,714,Pike County,194,Pike County High School,267,130,48.69
+2018-19,714,Pike County,296,Zebulon High School,20,,
+2018-19,714,Pike County,ALL,All Schools,287,130,45.3
+2018-19,715,Polk County,102,Rockmart High School,190,77,40.53
+2018-19,715,Polk County,5050,Cedartown High School,252,132,52.38
+2018-19,715,Polk County,ALL,All Schools,442,209,47.29
+2018-19,716,Pulaski County,2050,Hawkinsville High School,87,21,24.14
+2018-19,716,Pulaski County,ALL,All Schools,87,21,24.14
+2018-19,717,Putnam County,114,Putnam County High School,159,40,25.16
+2018-19,717,Putnam County,ALL,All Schools,159,40,25.16
+2018-19,718,Quitman County,110,Quitman County High School,22,TFS,22.73
+2018-19,718,Quitman County,ALL,All Schools,22,TFS,22.73
+2018-19,719,Rabun County,177,Rabun County High School,137,67,48.91
+2018-19,719,Rabun County,ALL,All Schools,137,67,48.91
+2018-19,720,Randolph County,201,Randolph Clay High School,52,,
+2018-19,720,Randolph County,ALL,All Schools,52,,
+2018-19,721,Richmond County,100,Cross Creek High School,229,48,20.96
+2018-19,721,Richmond County,213,Richmond County Technical Career Magnet School,73,23,31.51
+2018-19,721,Richmond County,391,Alternative Education Center at Lamar,15,,
+2018-19,721,Richmond County,392,Performance Learning Center,45,,
+2018-19,721,Richmond County,1052,Butler High School,161,27,16.77
+2018-19,721,Richmond County,2056,Hephzibah High School,199,52,26.13
+2018-19,721,Richmond County,2574,Westside High School,164,27,16.46
+2018-19,721,Richmond County,3054,Glenn Hills High School,116,11,9.48
+2018-19,721,Richmond County,3556,Johnson Magnet,66,38,57.58
+2018-19,721,Richmond County,3756,Josey High School,96,14,14.58
+2018-19,721,Richmond County,4060,Academy of Richmond County High School,246,72,29.27
+2018-19,721,Richmond County,4562,Davidson Magnet School,108,91,84.26
+2018-19,721,Richmond County,5566,Laney High School,105,19,18.1
+2018-19,721,Richmond County,ALL,All Schools,1623,422,26
+2018-19,722,Rockdale County,176,Heritage High School,441,168,38.1
+2018-19,722,Rockdale County,192,Salem High School,286,64,22.38
+2018-19,722,Rockdale County,3052,Rockdale County High School,496,195,39.31
+2018-19,722,Rockdale County,ALL,All Schools,1223,427,34.91
+2018-19,723,Schley County,101,Schley Middle High School,84,59,70.24
+2018-19,723,Schley County,ALL,All Schools,84,59,70.24
+2018-19,724,Screven County,4052,Screven County High School,132,50,37.88
+2018-19,724,Screven County,ALL,All Schools,132,50,37.88
+2018-19,725,Seminole County,196,Seminole County Middle/High School,95,54,56.84
+2018-19,725,Seminole County,ALL,All Schools,95,54,56.84
+2018-19,726,Griffin-Spalding County,101,Spalding High School,335,146,43.58
+2018-19,726,Griffin-Spalding County,187,Griffin High School,282,91,32.27
+2018-19,726,Griffin-Spalding County,208,AZ Kelsey Academy,20,,
+2018-19,726,Griffin-Spalding County,ALL,All Schools,637,237,37.21
+2018-19,727,Stephens County,5050,Stephens County High School,245,119,48.57
+2018-19,727,Stephens County,ALL,All Schools,245,119,48.57
+2018-19,728,Stewart County,201,Stewart County High School,32,TFS,12.5
+2018-19,728,Stewart County,ALL,All Schools,32,TFS,12.5
+2018-19,729,Sumter County,105,Americus Sumter High School (Old Americus-Sumter HS S),236,70,29.66
+2018-19,729,Sumter County,ALL,All Schools,236,70,29.66
+2018-19,730,Talbot County,190,Central Elementary/High School,29,TFS,24.14
+2018-19,730,Talbot County,ALL,All Schools,29,TFS,24.14
+2018-19,731,Taliaferro County,102,Taliaferro County School,,,
+2018-19,731,Taliaferro County,ALL,All Schools,,,
+2018-19,732,Tattnall County,194,Tattnall County High School,191,99,51.83
+2018-19,732,Tattnall County,ALL,All Schools,191,99,51.83
+2018-19,733,Taylor County,201,Taylor County High School,83,47,56.63
+2018-19,733,Taylor County,ALL,All Schools,83,47,56.63
+2018-19,734,Telfair County,201,Telfair County High School,96,47,48.96
+2018-19,734,Telfair County,202,Telfair Alternative Preparation School (TAPS),,,
+2018-19,734,Telfair County,ALL,All Schools,98,47,47.96
+2018-19,735,Terrell County,105,Terrell High School,78,27,34.62
+2018-19,735,Terrell County,ALL,All Schools,78,27,34.62
+2018-19,736,Thomas County,100,Bishop Hall Charter School,71,10,14.08
+2018-19,736,Thomas County,191,Thomas County Central High School,268,85,31.72
+2018-19,736,Thomas County,ALL,All Schools,339,95,28.02
+2018-19,737,Tift County,199,Tift County High School,452,171,37.83
+2018-19,737,Tift County,ALL,All Schools,452,171,37.83
+2018-19,738,Toombs County,192,Toombs County High School,172,77,44.77
+2018-19,738,Toombs County,ALL,All Schools,172,77,44.77
+2018-19,739,Towns County,204,Towns County High School,84,45,53.57
+2018-19,739,Towns County,ALL,All Schools,84,45,53.57
+2018-19,740,Treutlen County,213,Treutlen Middle/High School,67,22,32.84
+2018-19,740,Treutlen County,ALL,All Schools,67,22,32.84
+2018-19,741,Troup County,201,Callaway High School,189,61,32.28
+2018-19,741,Troup County,387,Troup County High School,311,141,45.34
+2018-19,741,Troup County,1052,LaGrange High School,266,110,41.35
+2018-19,741,Troup County,ALL,All Schools,766,312,40.73
+2018-19,742,Turner County,3050,Turner County High School,84,31,36.9
+2018-19,742,Turner County,ALL,All Schools,84,31,36.9
+2018-19,743,Twiggs County,201,Twiggs County High School,53,16,30.19
+2018-19,743,Twiggs County,ALL,All Schools,53,16,30.19
+2018-19,744,Union County,101,Union County High School,209,128,61.24
+2018-19,744,Union County,3050,Woody Gap High/Elementary School,,,
+2018-19,744,Union County,ALL,All Schools,213,130,61.03
+2018-19,745,Thomaston-Upson County,195,Upson-Lee High School,295,127,43.05
+2018-19,745,Thomaston-Upson County,ALL,All Schools,295,127,43.05
+2018-19,746,Walker County,190,Ridgeland High School,311,135,43.41
+2018-19,746,Walker County,198,LaFayette High School,253,125,49.41
+2018-19,746,Walker County,ALL,All Schools,564,260,46.1
+2018-19,747,Walton County,111,Walnut Grove High School,295,158,53.56
+2018-19,747,Walton County,199,Loganville High School,361,191,52.91
+2018-19,747,Walton County,205,Monroe Area High School,216,86,39.81
+2018-19,747,Walton County,ALL,All Schools,872,435,49.89
+2018-19,748,Ware County,195,Ware County High School,317,148,46.69
+2018-19,748,Ware County,ALL,All Schools,317,148,46.69
+2018-19,749,Warren County,205,Warren County High School,30,10,33.33
+2018-19,749,Warren County,ALL,All Schools,30,10,33.33
+2018-19,750,Washington County,1052,Washington County High School,209,100,47.85
+2018-19,750,Washington County,ALL,All Schools,209,100,47.85
+2018-19,751,Wayne County,101,Wayne County High School,313,139,44.41
+2018-19,751,Wayne County,ALL,All Schools,313,139,44.41
+2018-19,752,Webster County,108,Webster County High School,22,TFS,36.36
+2018-19,752,Webster County,ALL,All Schools,22,TFS,36.36
+2018-19,753,Wheeler County,3052,Wheeler County High School,68,35,51.47
+2018-19,753,Wheeler County,ALL,All Schools,68,35,51.47
+2018-19,754,White County,105,White County High School,229,120,52.4
+2018-19,754,White County,ALL,All Schools,229,120,52.4
+2018-19,755,Whitfield County,112,Coahulla Creek High School,195,87,44.62
+2018-19,755,Whitfield County,175,Northwest Whitfield County High School,289,166,57.44
+2018-19,755,Whitfield County,212,Phoenix High School,94,TFS,2.13
+2018-19,755,Whitfield County,275,Southeast Whitfield County High School,314,151,48.09
+2018-19,755,Whitfield County,ALL,All Schools,892,406,45.52
+2018-19,756,Wilcox County,201,Wilcox County High School,55,14,25.45
+2018-19,756,Wilcox County,ALL,All Schools,55,14,25.45
+2018-19,757,Wilkes County,110,Washington-Wilkes Comprehensive High School,90,31,34.44
+2018-19,757,Wilkes County,ALL,All Schools,90,31,34.44
+2018-19,758,Wilkinson County,3050,Wilkinson County High School,100,29,29
+2018-19,758,Wilkinson County,ALL,All Schools,100,29,29
+2018-19,759,Worth County,176,Worth County High School,180,58,32.22
+2018-19,759,Worth County,197,Worth County Achievement Center,,,
+2018-19,759,Worth County,ALL,All Schools,183,58,31.69
+2018-19,761,Atlanta Public Schools,106,Early College High School at Carver,90,39,43.33
+2018-19,761,Atlanta Public Schools,182,Mays High School,285,77,27.02
+2018-19,761,Atlanta Public Schools,186,"Maynard H. Jackson, Jr. High School",261,79,30.27
+2018-19,761,Atlanta Public Schools,192,North Atlanta High School,433,218,50.35
+2018-19,761,Atlanta Public Schools,212,KIPP Atlanta Collegiate,141,53,37.59
+2018-19,761,Atlanta Public Schools,315,Booker T. Washington High School,132,47,35.61
+2018-19,761,Atlanta Public Schools,403,APS-Forrest Hills Academy,,,
+2018-19,761,Atlanta Public Schools,415,Atlanta Classical Academy,33,29,87.88
+2018-19,761,Atlanta Public Schools,515,Charles Drew Charter School JA/SA,83,41,49.4
+2018-19,761,Atlanta Public Schools,1409,Therrell High School,167,38,22.75
+2018-19,761,Atlanta Public Schools,1410,Corretta Scott King Womens' Leadership Academy,51,11,21.57
+2018-19,761,Atlanta Public Schools,1411,B.E.S.T Academy,44,TFS,20.45
+2018-19,761,Atlanta Public Schools,1412,South Atlanta High School,168,37,22.02
+2018-19,761,Atlanta Public Schools,1413,Carver High School,101,17,16.83
+2018-19,761,Atlanta Public Schools,2664,Crim High School,36,,
+2018-19,761,Atlanta Public Schools,4058,Douglass High School,158,26,16.46
+2018-19,761,Atlanta Public Schools,4560,Grady High School,305,181,59.34
+2018-19,761,Atlanta Public Schools,ALL,All Schools,2489,902,36.24
+2018-19,763,Bremen City,201,Bremen High School,193,128,66.32
+2018-19,763,Bremen City,ALL,All Schools,193,128,66.32
+2018-19,764,Buford City,191,Buford High School,328,190,57.93
+2018-19,764,Buford City,ALL,All Schools,328,190,57.93
+2018-19,765,Calhoun City,3050,Calhoun High School,252,155,61.51
+2018-19,765,Calhoun City,ALL,All Schools,252,155,61.51
+2018-19,766,Carrollton City,1050,Carrollton High School,388,211,54.38
+2018-19,766,Carrollton City,ALL,All Schools,388,211,54.38
+2018-19,767,Cartersville City,2050,Cartersville High School,282,162,57.45
+2018-19,767,Cartersville City,ALL,All Schools,282,162,57.45
+2018-19,769,Chickamauga City,211,Gordon Lee High School,104,76,73.08
+2018-19,769,Chickamauga City,ALL,All Schools,104,76,73.08
+2018-19,771,Commerce City,112,Commerce High School,117,65,55.56
+2018-19,771,Commerce City,ALL,All Schools,117,65,55.56
+2018-19,772,Dalton Public Schools,110,Morris Innovative High School,104,28,26.92
+2018-19,772,Dalton Public Schools,4050,Dalton High School,459,217,47.28
+2018-19,772,Dalton Public Schools,ALL,All Schools,563,245,43.52
+2018-19,773,Decatur City,3050,Decatur High School,314,206,65.61
+2018-19,773,Decatur City,ALL,All Schools,314,206,65.61
+2018-19,774,Dublin City,211,Dublin High School,125,33,26.4
+2018-19,774,Dublin City,412,Moore Street Facility,43,,
+2018-19,774,Dublin City,ALL,All Schools,168,33,19.64
+2018-19,776,Gainesville City,3050,Gainesville High School,454,176,38.77
+2018-19,776,Gainesville City,ALL,All Schools,454,176,38.77
+2018-19,779,Jefferson City,174,Jefferson High School,236,135,57.2
+2018-19,779,Jefferson City,ALL,All Schools,236,135,57.2
+2018-19,781,Marietta City,101,Marietta High School,530,172,32.45
+2018-19,781,Marietta City,ALL,All Schools,530,172,32.45
+2018-19,7820108,State Charter Schools- Mountain Education Center School,108,Mountain Education Center School,336,62,18.45
+2018-19,7820108,State Charter Schools- Mountain Education Center School,ALL,All Schools,336,62,18.45
+2018-19,7820120,State Charter Schools- Georgia Cyber Academy,120,Georgia Cyber Academy,803,311,38.73
+2018-19,7820120,State Charter Schools- Georgia Cyber Academy,ALL,All Schools,803,311,38.73
+2018-19,7820412,State Charter Schools- Georgia Connections Academy,412,Georgia Connections Academy,335,113,33.73
+2018-19,7820412,State Charter Schools- Georgia Connections Academy,ALL,All Schools,335,113,33.73
+2018-19,7820613,State Charter Schools- Foothills Charter High School (Madison Campus),613,Foothills Charter High School (Madison Campus),347,36,10.37
+2018-19,7820613,State Charter Schools- Foothills Charter High School (Madison Campus),ALL,All Schools,347,36,10.37
+2018-19,7820618,State Charter Schools- Coastal Plains Charter High School - Candler Campus,618,Coastal Plains Charter High School - Candler Campus,113,16,14.16
+2018-19,7820618,State Charter Schools- Coastal Plains Charter High School - Candler Campus,ALL,All Schools,113,16,14.16
+2018-19,7830103,Commission Charter Schools- CCAT School,103,CCAT School,18,11,61.11
+2018-19,7830103,Commission Charter Schools- CCAT School,ALL,All Schools,18,11,61.11
+2018-19,7830210,Commission Charter Schools- Pataula Charter Academy,210,Pataula Charter Academy,41,20,48.78
+2018-19,7830210,Commission Charter Schools- Pataula Charter Academy,ALL,All Schools,41,20,48.78
+2018-19,7830310,Commission Charter Schools- Fulton Leadership Academy,310,Fulton Leadership Academy,19,TFS,36.84
+2018-19,7830310,Commission Charter Schools- Fulton Leadership Academy,ALL,All Schools,19,TFS,36.84
+2018-19,784,Pelham City,111,Pelham High School,79,28,35.44
+2018-19,784,Pelham City,ALL,All Schools,79,28,35.44
+2018-19,785,Rome City,193,Rome High School,460,212,46.09
+2018-19,785,Rome City,ALL,All Schools,460,212,46.09
+2018-19,786,Social Circle City,300,Social Circle High School,109,54,49.54
+2018-19,786,Social Circle City,ALL,All Schools,109,54,49.54
+2018-19,789,Thomasville City,4052,Thomasville High School,173,72,41.62
+2018-19,789,Thomasville City,ALL,All Schools,173,72,41.62
+2018-19,791,Trion City,301,Trion High School,104,77,74.04
+2018-19,791,Trion City,ALL,All Schools,104,77,74.04
+2018-19,792,Valdosta City,273,Valdosta High School,452,174,38.5
+2018-19,792,Valdosta City,ALL,All Schools,452,174,38.5
+2018-19,793,Vidalia City,273,Vidalia Comprehensive High School,159,59,37.11
+2018-19,793,Vidalia City,ALL,All Schools,159,59,37.11
+2018-19,799,State Schools,1894,Georgia Academy for the Blind,10,,
+2018-19,799,State Schools,ALL,All Schools,10,,
+2018-19,7991893,State Schools- Atlanta Area School for the Deaf,1893,Atlanta Area School for the Deaf,16,,
+2018-19,7991893,State Schools- Atlanta Area School for the Deaf,ALL,All Schools,16,,
+2018-19,7991895,State Schools- Georgia School for the Deaf,1895,Georgia School for the Deaf,,,
+2018-19,7991895,State Schools- Georgia School for the Deaf,ALL,All Schools,,,
+2018-19,891,Department of Juvenile Justice,104,Atlanta Youth Detention Center,,,
+2018-19,891,Department of Juvenile Justice,298,Augusta Youth Development Campus,,,
+2018-19,891,Department of Juvenile Justice,405,Muscogee Youth Development Center,,,
+2018-19,891,Department of Juvenile Justice,598,Macon Youth Development Campus,,,
+2018-19,891,Department of Juvenile Justice,898,Eastman Youth Development Campus,14,,
+2018-19,891,Department of Juvenile Justice,ALL,All Schools,22,,
+2018-19,ALL,All Systems,ALL,All Schools,112964,50228,44.46

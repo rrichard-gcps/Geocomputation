@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		GOSA Report Card
+	</title>
+</head>
+
+<style>
+body {
+	margin:40px;
+	background-color:#ffffff;
+	}
+h1	 {
+	border-bottom:1px solid;
+	border-color:#336999
+	}
+table {
+	margin:0px auto;
+	}
+th, td {
+  border-bottom:2px solid #ddd;
+  padding-left:12px;
+	}
+input {
+	float:right;
+	width:25%;
+	margin-right:10%;
+	}
+</style>
+
+<body>
+
+<h1 style="text-align:center;
+	font-size:42pt;
+	font-weight:bold;
+	border-style:solid;
+	border-bottom-color:#336999;
+	padding-left:24px;
+	padding-right:12px;
+	padding-bottom:2px;
+	padding-top:2px;
+	border-width:2px 2px 10px 2px;">
+		Downloadable Files Directory
+		
+		<a href='https://gosa.georgia.gov/'><img src='https://download.gosa.ga.gov/Images/GOSA_Horizontal_transparent_resize.png' width='180px' height='65px' align='left'></a>
+</h1>
+
+<p style='padding-left:12pt;'>
+The Report Card and other GOSA <a href='https://gosa.georgia.gov/data-dashboards'>data dashboards</a> allow education stakeholders to examine education statistics for individual schools and districts. In some cases, stakeholders may require school- and district-level data for all schools. To meet this need, this page provides downloadable spreadsheets with district- and/or school-level data for all schools across Georgia for the years which are available. Click on the file name in the table below for a full description of business rules for each file.
+</p>
+
+<br>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+<input type="text"
+	id="myInput"
+	onkeyup="myFunction()"
+	placeholder="Search by file name..">
+
+<table id="myTable";
+	width="90%";>
+	<tr class="header">
+    <th style="width:20%;"><h2>Name</h2></th>
+    <th style="width:80%;"><h2>Description</h2></th>
+  </tr>
+	<tr>
+	<td>
+		<a href='https://download.gosa.ga.gov/Help%20Files/ACT_(Highest).html'><h3>ACT Scores</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+	Provides ACT testing counts and average composite and subtest scores from the most recent test administration at school, system, state, and national levels.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2004/Exports/act.csv'>2004</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2005/Exports/ACT.csv'>2005</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2006/Exports/ACT.xls'>2006</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2007/Exports/ACT.xls'>2007</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2008/Exports/ACT.xls'>2008</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2009/Exports/ACT.xls'>2009</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2010/Exports/ACT.xls'>2010</a>&nbsp;&nbsp;|&nbsp;
+			<br>
+			<a href='https://download.gosa.ga.gov/2011/ACT_HIGHEST_2011_FEB_24_2020.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2012/ACT_HIGHEST_2012_FEB_24_2020.csv'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2013/ACT_HIGHEST_2013_FEB_24_2020.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2014/ACT_HIGHEST_2014_FEB_24_2020.csv'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2015/ACT_HIGHEST_2015_FEB_24_2020.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2016/ACT_HIGHEST_2016_FEB_24_2020.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2017/ACT_HIGHEST_2017_FEB_24_2020.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/ACT_HIGHEST_2018_FEB_24_2020.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/ACT_HIGHEST_2019_FEB_24_2020.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/ACT_HIGHEST_2020_JUN_21_2021.csv'>2020</a>
+		</p>
+	</td>
+	</tr>
+  <tr>
+	<td>
+		<a href='https://download.gosa.ga.gov/Help%20Files/AP_Exams.html'><h3>Advanced Placement (AP) Scores</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides number of students tested, number of AP tests administered, and number of AP tests that scored 3 or higher on the exam by total and disaggregated by subject.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2004/Exports/ap.csv'>2004</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2005/Exports/AP.csv'>2005</a>&nbsp;&nbsp;|&nbsp;
+			<a href=https://download.gosa.ga.gov/2006/Exports/AP.xls'>2006</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2007/Exports/AP.xls'>2007</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2008/Exports/AP.xls'>2008</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2009/Exports/AP.xls'>2009</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2010/Exports/AP.xls'>2010</a>&nbsp;&nbsp;|&nbsp;
+			<br>
+			<a href='https://download.gosa.ga.gov/2011/AP_2011_FEB_24_2020.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2012/AP_2012_FEB_24_2020.csv'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2013/AP_2013_FEB_24_2020.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2014/AP_2014_FEB_24_2020.csv'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2015/AP_2015_FEB_24_2020.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2016/AP_2016_FEB_24_2020.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2017/AP_2017_FEB_24_2020.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/AP_2018_FEB_24_2020.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/AP_2019_FEB_24_2020.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/AP_2020_JUN_21_2021.csv'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/AP_2021_Dec062021.csv'>2021</a>
+		</p>
+	</td>
+	</tr>
+<tr>
+	<td>
+		<a href="https://download.gosa.ga.gov/Help%20Files/Attendance.html"><h3>Attendance</h3>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Attendance data collected from the Student Record showing percentage of students absent 0 to 5 days, 6-15 days, and more than 15 days. Provides data for all students and disaggregated by student subgroups.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2004/Exports/Attendance.csv'>2004</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2005/Exports/Attendance.csv'>2005</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2006/Exports/Attendance.csv'>2006</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2007/Exports/Attendance.xls'>2007</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2008/Exports/Attendance.xls'>2008</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2009/Exports/Attendance.xls'>2009</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2010/Exports/Attendance.xls'>2010</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2011/Attendance_2011_MAR_23_2020.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<br>
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Attendance_2012.xlsx'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Attendance_2013.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Attendance_2014_Jan_15th_2015.csv'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Attendance_2015_DEC_1st_2016.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Attendance_2016_Feb_2_2017.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Attendance_2017_DEC_1st_2017.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/Attendance_2018_DEC_10th_2018.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/Attendance_2019_Dec2nd_2019.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/Attendance_2020_Dec112020.csv'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/Attendance_2021_Dec062021.csv'>2021</a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<a href="https://download.gosa.ga.gov/Help%20Files/Certified_Personnel.html"><h3>Certified Personnel</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Certified personnel data reported by local school systems on the Certified/Classified Personnel Information (CPI) Report. Provides data for all school systems and schools.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2011/Certified_Personnel_Data_2011_Mar_23_2020.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Certified_Personnel_Data_2012_Jan_15th_2015.csv'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Certified_Personnel_Data_2013_Jan_15th_2015.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='http://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Certified_Personnel_Data_2014_Jan_15th_2015.csv'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Certified_Personnel_Data_2015_DEC_1st_2016.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Certified_Personnel_Data_2016_DEC_1st_2016.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Certified_Personnel_Data_2017_MAR_23rd_2018.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/Certified_Personnel_Data_2018_DEC_10th_2018.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/Certified_Personnel_Data_2019_Dec2nd_2019.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/Certified_Personnel_Data_2020_Dec112020.csv'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/Certified_Personnel_Data_2021_Dec062021.csv'>2021</a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td><a href="https://download.gosa.ga.gov/Help%20Files/CRCT.html"><h3>Criterion-Referenced Competency Tests (CRCT) (Retired)</h3></td></a>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides number of students tested as well as totals and percentages of performance levels disaggregated by subject.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2004/Exports/CRCT.zip'>2004</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2005/Exports/CRCT.zip'>2005</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2006/Exports/CRCT.zip'>2006</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2007/Exports/CRCT.zip'>2007</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2008/Exports/CRCT.zip'>2008</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2009/Exports/CRCT.zip'>2009</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2010/Exports/CRCT.zip'>2010</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2011/CRCT_2011_FEB_24_2020.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2012/CRCT_2012_FEB_24_2020.csv'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2013/CRCT_2013_FEB_24_2020.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2014/CRCT_2014_FEB_24_2020.csv'>2014</a>
+		</p>
+	</td>
+  </tr>		
+  <tr>
+	<td>
+		<a href="https://download.gosa.ga.gov/Help%20Files/CRCT.html"><h3>Criterion-Referenced Competency Tests (CRCT) (Retired) (by grade)</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides number of students tested as well as totals and percentages of performance levels disaggregated by subject and grade level.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2004/Exports/CRCT.zip'>2004</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2005/Exports/CRCT.zip'>2005</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2006/Exports/CRCT.zip'>2006</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2007/Exports/CRCT.zip'>2007</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2008/Exports/CRCT.zip'>2008</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2009/Exports/CRCT.zip'>2009</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2010/Exports/CRCT.zip'>2010</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2011/CRCT_2011_By_Grad_FEB_24_2020.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2012/CRCT_2012_By_Grad_FEB_24_2020.csv'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2013/CRCT_2013_By_Grad_FEB_24_2020.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2014/CRCT_2014_By_Grad_FEB_24_2020.csv'>2014</a>
+		</p>
+	</td>
+	</tr>
+<tr>
+	<td>
+		<h3>Data Dashboards</h3>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides data files used in the development of GOSA dashboards.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2020/SchoolGrades2020.zip'>Georgia School Grades Reports</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/DisciplineDASH/DISCIPLINE_Data.zip'>K12 Student Discipline</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/ghle/ghle.zip'>Georgia Higher Learning & Earnings</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/hsgrad/HSG_Outcome_Data_Files.zip'>High School Graduate Outcomes</a>&nbsp;&nbsp;|&nbsp;
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<a href="https://gosa.georgia.gov/changes-freereduced-priced-lunch-measure-student-poverty"><h3>Direct Certification (District)</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides the percentage of students who are directly certified (receive SNAP or TANF, homeless, unaccompanied youth, foster or migrant) at the district level.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2014/2014_direct_certification_d.csv'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2015/2015_direct_certification_d.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2016/2016_direct_certification_d.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2017/2017_direct_certification_d.xls'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/2018_direct_certification_d.xls'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/2019_direct_certification_d.xls'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/2020_direct_certification_d.xls'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/2021_directly_certified_district.xls'>2021</a>
+		</p>
+	</td>
+  </tr>
+  <tr>
+	<td><a href="https://gosa.georgia.gov/changes-freereduced-priced-lunch-measure-student-poverty"><h3>Direct Certification (School)</h3></td></a>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides the percentage of students who are directly certified (receive SNAP or TANF, homeless, unaccompanied youth, foster or migrant) at the school level.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2014/2014_direct_certification_s.csv'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2015/2015_direct_certification_s.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2016/2016_direct_certification_s.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2017/2017_direct_certification_s.xls'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/2018_direct_certification_s.xls'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/2019_direct_certification_s.xls'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/2020_direct_certification_s.xls'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/2021_directly_certified_school.xls'>2021</a>
+		</p>
+	</td>
+  </tr>
+    <tr>
+	<td><a href="https://download.gosa.ga.gov/Help%20Files/Graduation___Dropout_Rate.html">
+		<h3>Dropout Rate 7-12</h3>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides student dropout percentages for grades 7-12. Provides data for all students and disaggregated by student subgroups.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/7-12%20Dropout%20Rate-2011_Jan_15th_2015.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/7-12%20Dropout%20Rate-2012_DEC_1st_2016.csv'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/7-12%20Dropout%20Rate-2013_Jan_15th_2015.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/7-12%20Dropout%20Rate-2014_Jan_15th_2015.csv'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/7-12%20Dropout%20Rate-2015_DEC_1st_2016.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/7-12%20Dropout%20Rate_2016_Feb_2_2017.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/7-12%20Dropout%20Rate-2017_DEC_1st_2017.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/7-12%20Dropout%20Rate-2018_DEC_10th_2018.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/7-12%20Dropout%20Rate_2019_Dec2nd_2019.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/7-12%20Dropout%20Rate_2020_Dec112020.csv'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/7-12%20Dropout%20Rate_2021_Dec062021.csv'>2021</a>
+		</p>
+	</td>
+	</tr>
+<tr>
+	<td><a href="https://download.gosa.ga.gov/Help%20Files/Graduation___Dropout_Rate.html">
+		<h3>Dropout Rate 9-12</h3>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides student dropout percentages for grades 9-12. Provides data for all students and disaggregated by student subgroups.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/9-12%20Dropout%20Rate-2011_Jan_15th_2015.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<a href='http://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/9-12%20Dropout%20Rate-2012_DEC_1st_2016.csv'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/9-12%20Dropout%20Rate-2013_Jan_15th_2015.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/9-12%20Dropout%20Rate-2014_Jan_15th_2015.csv'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/9-12%20Dropout%20Rate-2015_DEC_1st_2016.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/9-12%20Dropout%20Rate_2016_Feb_2_2017.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/9-12%20Dropout%20Rate-2017_DEC_1st_2017.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/9-12%20Dropout%20Rate-2018_DEC_10th_2018.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/9-12%20Dropout%20Rate_2019_Dec2nd_2019.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/9-12%20Dropout%20Rate_2020_Dec112020.csv'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/9-12%20Dropout%20Rate_2021_Dec062021.csv'>2021</a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td><a href='https://download.gosa.ga.gov/Help%20Files/Educator_Qualifications.html'>
+		<h3>Educator Qualifications (Inexperienced Teachers/Leaders)</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides number of students tested as well as totals and percentages of performance levels disaggregated by subject.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2018/Educators_Inexperienced_2018_JAN_24th_2019.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/Educators_Inexperienced_2019_Dec2nd_2019.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/Educators_Inexperienced_2020_Dec112020.csv'>2020</a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td><a href='https://download.gosa.ga.gov/Help%20Files/Educator_Qualifications.html'>
+		<h3>Educator Qualifications (Emergency and Provisional Credentials)</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides number of students tested as well as totals and percentages of performance levels disaggregated by subject.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2018/Educators_EMERGENCY_WAIVERS_2018_JAN_24th_2019.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/Educators_EMERGENCY_WAIVERS_2019_Dec2nd_2019.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/Educators_EMERGENCY_WAIVERS_2020_Dec112020.csv'>2020</a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<h3>English Learners (EL) Exit Rate District Level</h3>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Counts and percentages of students exiting English Learner status.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2019/EL_EXIT_RATE_DISTRICT_LEVEL_2019.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/EL_EXIT_RATE_DISTRICT_LEVEL_2020.csv'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/EL_EXIT_RATE_DISTRICT_LEVEL_2021_Dec102021.csv'>2021</a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<h3>English Learners (EL) Exit Rate State Level</h3>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Counts and percentages of students exiting English Learner status.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2019/EL_EXIT_RATE_STATE_LEVEL_2019.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/EL_EXIT_RATE_STATE_LEVEL_2020.csv'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/EL_EXIT_RATE_STATE_LEVEL_2021_Dec102021.csv'>2021</a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td><a href='https://download.gosa.ga.gov/Help%20Files/Educator_Qualifications.html'>
+		<h3>Educator Qualifications (Out-of-Field Teachers)</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides number of students tested as well as totals and percentages of performance levels disaggregated by subject.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2018/Educators_OUT_OF_FIELD_2018_JAN_24th_2019.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/Educators_OUT_OF_FIELD_2019_Dec2nd_2019.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/Educators_OUT_OF_FIELD_2020_Dec112020.csv'>2020</a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td><a href='https://download.gosa.ga.gov/Help%20Files/EGWA.html'>
+		<h3>Eighth Grade Writing Assessment (EGWA)</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides number of students tested as well as totals and percentages of performance levels disaggregated by subject.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2004/Exports/mgwa.csv'>2004</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2005/Exports/MGWA.csv'>2005</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2006/Exports/MGWA.csv'>2006</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2007/Exports/MGWA.xls'>2007</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2008/Exports/MGWA.xls'>2008</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2009/Exports/WR8.xls'>2009</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2010/Exports/MGWA.xls'>2010</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2011/EGWA_2011_FEB_24_2020.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2012/EGWA_2012_FEB_24_2020.csv'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2013/EGWA_2013_FEB_24_2020.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2014/EGWA_2014_FEB_24_2020.csv'>2014</a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td><a href='https://download.gosa.ga.gov/Help%20Files/EOCT.html'><h3>End-of-Course Testing (EOCT) (Retired)</h3></a></td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides number of students tested as well as totals and percentages of performance levels disaggregated by subject.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2004/Exports/eoct.zip'>2004</a>&nbsp;&nbsp;|&nbsp;
+			<a href=''>2005</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2006/Exports/EOCT2006.zip'>2006</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2007/Exports/EOCT2007.zip'>2007</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2008/Exports/EOCT2008.zip'>2008</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2009/Exports/EOCT2009.zip'>2009</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2010/Exports/EOCT2010.zip'>2010</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2011/EOCT_2011_FEB_24_2020.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2012/EOCT_2012_FEB_24_2020.csv'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2013/EOCT_2013_FEB_24_2020.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2014/EOCT_2014_FEB_24_2020.csv'>2014</a>
+		</p>
+	</td>
+  </tr>
+    <tr>
+	<td>
+		<a href='https://download.gosa.ga.gov/Help%20Files/EOCT.html'><h3>End-of-Course Testing (EOCT) (Retired) (by grade)</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides number of students tested as well as totals and percentages of performance levels disaggregated by subject and grade level.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2004/Exports/eoct.zip'>2004</a>&nbsp;&nbsp;|&nbsp;
+			<a href=''>2005</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2006/Exports/EOCT2006.zip'>2006</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2007/Exports/EOCT2007.zip'>2007</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2008/Exports/EOCT2008.zip'>2008</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2009/Exports/EOCT2009.zip'>2009</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2010/Exports/EOCT2010.zip'>2010</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2011/EOCT_2011_By_Grad_FEB_24_2020.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2012/EOCT_2012_By_Grad_FEB_24_2020.csv'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2013/EOCT_2013_By_Grad_FEB_24_2020.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2014/EOCT_2014_By_Grad_FEB_24_2020.csv'>2014</a>
+	</td>
+	</tr>
+<tr>
+	<td>
+		<a href='https://download.gosa.ga.gov/Help%20Files/Enrollment_-_Grade.html'><h3>Enrollment by Grade Level</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides full-time-equivalency (FTE) enrollment counts for school systems and schools disaggregated by grade.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2011/Enrollment_By_Grade_Level_2011_MAR_23_2020.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Enrollment_By_Grade_Level_2012.csv'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Enrollment_By_Grade_2013.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='http://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Enrollment_By_Grade_Level_2014_Jan_15th_2015.csv'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Enrollment_By_Grade_Level_2015_DEC_1st_2016.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Enrollment_By_Grade_Level_2016_DEC_1st_2016.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Enrollment_By_Grade_Level_2017_DEC_1st_2017.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/Enrollment_By_Grade_Level_2018_DEC_10th_2018.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/Enrollment_By_Grade_Level_2019_Dec2nd_2019.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/Enrollment_By_Grade_Level_2020_Dec112020.csv'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/Enrollment_By_Grade_Level_2021_Dec062021.csv'>2021</a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<a href='https://download.gosa.ga.gov/Help%20Files/Enrollment_-_Subgroups.html'><h3>Enrollment by Subgroup Programs</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides full-time-equivalency (FTE) enrollment counts for school systems and schools disaggregated by student subgroups.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2004/Exports/demo.csv'>2004</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2005/Exports/Demo%20-%20Updated%2001-02-2007.xls'>2005</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2006/Exports/Demographics.csv'>2006</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2007/Exports/Demographics.xls'>2007</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2008/Exports/Demographics.xls'>2008</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2009/Exports/Demographics.xls'>2009</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2010/Exports/Demo.xls'>2010</a>&nbsp;&nbsp;|&nbsp;
+			<br>
+			<a href='https://download.gosa.ga.gov/2011/Enrollment_by_Subgroups_Programs_2011_MAR_23_2020.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Enrollment_by_Subgroups_Programs_2012.xlsx'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Enrollment_by_Subgroups_Programs_2013.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='http://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Enrollment_by_Subgroups_Programs_2014_Jan_15th_2015.csv'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Enrollment_by_Subgroups_Programs_2015_DEC_1st_2016.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Enrollment_by_Subgroups_Programs_2016_DEC_1st_2016.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Enrollment_by_Subgroups_Programs_2017_DEC_1st_2017.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/Enrollment_by_Subgroups_Programs_2018_DEC_10th_2018.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/Enrollment_by_Subgroups_Programs_2019_Dec2nd_2019.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/Enrollment_by_Subgroups_Programs_2020_Dec112020.csv'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/Enrollment_by_Subgroups_Programs_2021_Dec062021.csv'>2021</a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+	<a href='https://gosa.georgia.gov/financial-efficiency-star-rating-0'><h3>Financial Efficiency Star Rating (FESR) (District)</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides district expenditures per student, CCRPI performance scores, and FESR rating at the district level.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/2016%20CCRPI%20FESR%20_%201.18.17.xlsx'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/2017%20CCRPI%20District%20FESR.xlsx'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/FESR_PPE_District_2018.xlsx'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/District%20FESR%20FY19%20GOSA%2020200309.xls'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/2020_District-Level_PPE.xls'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/2021_District-Level_PPE.xls'>2021</a>
+		</p>
+	</td>
+  </tr>
+    <tr>
+	<td>
+		<a href='https://gosa.georgia.gov/financial-efficiency-star-rating-0'><h3>Financial Efficiency Star Rating (FESR) (School)</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides district expenditures per student, CCRPI performance scores, and FESR rating at the school level.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/2017%20CCRPI%20School%20FESR.xlsx'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/FESR_PPE_School_2018.xlsx'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/School_FESR_FY19_GOSA_20210415.xls'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/School_PPE_FY20_GOSA_20210415.xls'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/2021_School-Level_PPE.xls'>2021</a>
+		</p>
+	</td>
+	</tr>
+<tr>
+	<td>
+	<a href='https://download.gosa.ga.gov/Help%20Files/GAA.html'>
+		<h3>Georgia Alternate Assessment (GAA)</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides number of students tested as well as totals and percentages of performance levels disaggregated by subject.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2004/Exports/gaalternateassesment.csv'>2004</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2005/Exports/GAAlternateAssesment.csv'>2005</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2006/Exports/gaalternateassesment.csv'>2006</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2007/Exports/GAA.xls'>2007</a>&nbsp;&nbsp;|&nbsp;
+			<a href=''>2008</a>&nbsp;&nbsp;|&nbsp;
+			<a href=''>2009</a>&nbsp;&nbsp;|&nbsp;
+			<a href=''>2010</a>&nbsp;&nbsp;|&nbsp;
+			<br>
+			<a href='https://download.gosa.ga.gov/2011/GAA_2011_FEB_24_2020.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2012/GAA_2012_FEB_24_2020.csv'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2013/GAA_2013_FEB_24_2020.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2014/GAA_2014_FEB_24_2020.csv'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2015/GAA_2015_FEB_24_2020.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2016/GAA_2016_FEB_24_2020.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2017/GAA_2017_FEB_24_2020.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/GAA_2018_FEB_24_2020.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/GAA2_2019_FEB_24_2020.csv'>2019</a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<h3>Georgia High School Graduation Test (GHSGT) (Retired)</h3>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides number of students tested as well as totals and percentages of performance levels disaggregated by subject.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2004/Exports/ghsgt.csv'>2004</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2005/Exports/GHSGT%20-%20Updated%2001-02-2007.csv'>2005</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2006/Exports/GHSGT.csv'>2006</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2007/Exports/GHSGT.xls'>2007</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2008/Exports/GHSGT.xls'>2008</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2009/Exports/GHSGT.xls'>2009</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2010/Exports/GHSGT.xls'>2010</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/data/2010-11/Copy%20of%20GHSGT.xls'>2011</a>
+	</td>
+</tr>
+<tr>
+	<td>
+		<a href='https://download.gosa.ga.gov/Help%20Files/GHSWT.html'><h3>Georgia High School Writing Test (GHSWT) (Retired)</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides number of students tested as well as totals and percentages of performance levels disaggregated by subject.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2004/Exports/ghswt.csv'>2004</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2005/Exports/GHSWT.csv'>2005</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2006/Exports/GHSWT.csv'>2006</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2007/Exports/GHSWT.xls'>2007</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2008/Exports/GHSWT.xls'>2008</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2009/Exports/GHSWT.xls'>2009</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2010/Exports/GHSWT.xls'>2010</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2011/GHSWT_2011_FEB_24_2020.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2012/GHSWT_2012_FEB_24_2020.csv'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2013/GHSWT_2013_FEB_24_2020.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2014/GHSWT_2014_FEB_24_2020.csv'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/GHSWT_2015_APR132016.csv'>2015</a>
+		</p>
+	</td>
+  </tr>
+  <tr>
+	<td>
+	<a href='https://download.gosa.ga.gov/Help%20Files/Georgia_Milestones.html'>
+		<h3>Georgia Milestones End-of-Course (EOC) Assessment</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides number of students tested as well as totals and percentages of performance levels disaggregated by subject area and student subgroups.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2015/EOC_2015_FEB_24_2020.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2016/EOC_2016_FEB_24_2020.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2017/EOC_2017_FEB_24_2020.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/EOC_2018_FEB_24_2020.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/EOC_2019_JUN_1ST_2020.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/EOC_2021_March_7_2022.csv'>2021</a>
+		</p>
+	</td>
+	</tr>
+<tr>
+	<td>
+		<a href='https://download.gosa.ga.gov/Help%20Files/Georgia_Milestones.html'>
+		<h3>Georgia Milestones End-of-Course (EOC) Assessment (by grade)</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides number of students tested as well as totals and percentages of performance levels disaggregated by subject area, student subgroups, and grade level.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2015/EOC_2015_By_Grad_FEB_24_2020.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2016/EOC_2016_By_Grad_FEB_24_2020.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2017/EOC_2017_By_Grad_FEB_24_2020.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/EOC_2018_By_Grad_FEB_24_2020.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/EOC_2019_By_Grad_FEB_24_2020.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/EOC_2021_by_grade_March_7_2022.csv'>2021</a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<h3>Georgia Milestones End-of-Course (EOC) Lexile Scores</h3>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides the number of students tested and the number of students with a Lexile score on or above the midpoint of the Lexile Range for a given test.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2015/EOC_LEXILE_2015_FEB_24_2020.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2016/EOC_LEXILE_2016_FEB_24_2020.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2017/EOC_LEXILE_2017_FEB_24_2020.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/EOC_LEXILE_2018_FEB_24_2020.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/EOC_LEXILE_2019_FEB_24_2020.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/EOC_LEXILE_2021_MARCH_7_2022.csv'>2021</a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+			<a href='https://download.gosa.ga.gov/Help%20Files/Georgia_Milestones.html'>
+		<h3>Georgia Milestones End-of-Grade (EOG) Assessment</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides number of students tested as well as totals and percentages of performance levels disaggregated by subject area and student subgroups.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2015/EOG_2015_FEB_24_2020.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2016/EOG_2016_FEB_24_2020.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2017/EOG_2017_FEB_24_2020.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/EOG_2018_FEB_24_2020.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/EOG_2019_JUN_1ST_2020.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/EOG_2021_March_7_2022.csv'>2021</a>
+		</p>
+	</td>
+  </tr>
+    <tr>
+	<td>
+		<a href='https://download.gosa.ga.gov/Help%20Files/Georgia_Milestones.html'>
+		<h3>Georgia Milestones End-of-Grade (EOG) Assessment (by grade)</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides number of students tested as well as totals and percentages of performance levels disaggregated by subject area, student subgroups, and grade level.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2015/EOG_2015_By_Grad_FEB_24_2020.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2016/EOG_2016_By_Grad_FEB_24_2020.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2017/EOG_2017_By_Grad_FEB_24_2020.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/EOG_2018_By_Grad_FEB_24_2020.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/EOG_2019_By_Grad_FEB_24_2020.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/EOG_2021_by_grade_March_7_2022.csv'>2021</a>
+		</p>
+	</td>
+	</tr>
+<tr>
+	<td>
+		<h3>Georgia Milestones End-of-Grade (EOG) Lexile Scores</h3>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides the number of students tested and the number of students with a Lexile score on or above the midpoint of the Lexile Range for a given grade.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2015/EOG_LEXILE_2015_FEB_24_2020.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2016/EOG_LEXILE_2016_FEB_24_2020.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2017/EOG_LEXILE_2017_FEB_24_2020.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/EOG_LEXILE_2018_FEB_24_2020.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/EOG_LEXILE_2019_FEB_24_2020.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/EOG_LEXILE_2021_MARCH_7_2022.csv'>2021</a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td><a href="https://download.gosa.ga.gov/Help%20Files/Graduation___Dropout_Rate.html">
+		<h3>Graduation Rate (4-Year Cohort)</h3>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides total number and percentage of high school graduates by school system and school disaggregated by student subgroups.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2004/Exports/Graduation%20Rate.csv'>2004</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2005/Exports/Graduation%20Rate.csv'>2005</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2006/Exports/Graduation%20Rate.csv'>2006</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2007/Exports/Graduation%20Rate.xls'>2007</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2008/Exports/Graduation%20Rate.xls'>2008</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2009/Exports/GradRate.xls'>2009</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2010/Exports/Grad%20Rate.xls'>2010</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2011/Graduation_Rate_2011_MAR_23_2020.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<br>
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Graduation_Rate_2012_4yr.csv'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Graduation_Rate_2013_DEC_1st_2016.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Graduation_Rate_2014_DEC_1st_2016.csv'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Graduation_Rate_2015_DEC_1st_2016.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Graduation_Rate_2016_DEC_1st_2016.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Graduation_Rate_2017_DEC_1st_2017.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/Graduation_Rate_2018_JAN_24th_2019.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/Graduation_Rate_2019_Dec2nd_2019.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/Graduation_Rate_2020_Dec112020.csv'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/Graduation_Rate_2021_Dec062021.csv'>2021</a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td><a href="https://download.gosa.ga.gov/Help%20Files/Graduation___Dropout_Rate.html">
+		<h3>Graduation Rate (5-Year Cohort)</h3>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides total number and percentage of students who graduate high school within five years by school system and school disaggregated by student subgroups.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2018/5-Year_Graduation_Rate_2017_JAN_24th_2019.csv'>2018</a>
+			<a href='https://download.gosa.ga.gov/2019/5-Year_Graduation_Rate_2019_Dec112020.csv'>2019</a>
+			<a href='https://download.gosa.ga.gov/2021/5-Year_Graduation_Rate_2021_Dec062021'>2020</a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td><a href='https://download.gosa.ga.gov/Help%20Files/Retained__HS_Completers.html'</a><h3>High School Completers</h3></td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides total number and percentage of graduates by graduate type at school system and school levels and disaggregated by student subgroups.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2011/HS_Completers_2011_MAR_23_2020.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/HS_Completers_2012_Jan_15th_2015.csv'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/HS_Completers_2013_Jan_15th_2015.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/HS_Completers_2014_Jan_15th_2015.csv'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/HS_Completers_2015_DEC_1st_2016.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/HS_Completers_2016_Feb_2_2017.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/HS_Completers_2017_DEC_1st_2017.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/HS_Completers_2018_DEC_10th_2018.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/HS_Completers_2019_Dec2nd_2019.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/HS_Completers_2020_Dec112020.csv'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/HighSchool_Completers_2021.csv'>2021</a>
+		</p>
+	</td>
+  </tr>
+    <tr>
+	<td><a href='https://download.gosa.ga.gov/Help%20Files/HOPE_Eligibility.html'>
+	<h3>HOPE Eligible Graduates</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides number and percentage of graduates eligible to receive the HOPE Scholarship and number of total high school graduates by school system and school.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2004/Exports/hope.csv'>2004</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2005/Exports/Hope.csv'>2005</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2006/Exports/Hope.xls'>2006</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2007/Exports/Hope.xls'>2007</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2008/Exports/HOPE_Eligibility_2008.xls'>2008</a>&nbsp;&nbsp;|&nbsp;
+			<a href=''>2009</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2010/Exports/Hope.xls'>2010</a>&nbsp;&nbsp;|&nbsp;
+			<br>
+			<a href='https://download.gosa.ga.gov/2011/Hope_Eligible_2011_FEB_24_2020.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2012/Hope_Eligible_2012_FEB_24_2020.csv'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2013/Hope_Eligible_2013_FEB_24_2020.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2014/Hope_Eligible_2014_FEB_24_2020.csv'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2015/Hope_Eligible_2015_FEB_24_2020.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2016/Hope_Eligible_2016_FEB_24_2020.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2017/Hope_Eligible_2017_FEB_24_2020.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/Hope_Eligible_2018_FEB_24_2020.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/Hope_Eligible_2019_FEB_24_2020.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/HOPE_ELIGIBILITY_2020_JUN_21_2021.csv'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/Hope_Eligibility_2021_Dec062021.csv'>2021</a>
+		</p>
+	</td>
+	</tr>
+<tr>
+	<td>
+		<h3>Postsecondary C11 Report</h3>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Number of students enrolled in a postsecondary institution within 16 months of graduation. Enrollment data provided by school system and school and disaggregated by student subgroups.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/PostSecondary_C11_FY2012_HS%20Graduate%202010_Enrolled%20in%20College%20in%2016%20Mos_0.xlsx'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/PostSecondary_C11_FY2013_HS%20Graduates%202011_Enrolled%20in%20College%20in%2016%20Mos.xlsx'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='http://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/C11_FY2014_HS%20Graduates%202012_Enrolled%20in%20College%20in%2016%20Mos_Jan_15_2015.xlsx'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/C11_FY2015_HS%20Graduates%202013_Enrolled%20in%20College%20in%2016%20Mos_Redacted.xlsx'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/C11_FY2016_HS%20Graduates%202014_Enrolled%20in%20College%20in%2016%20Mos_Redacted.xlsx'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/C11_FY2017_HS%20Graduates%202015_Enrolled%20in%20College%20in%2016%20Mos_Redacted.xlsx'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/C11_FY2018_HS%20Graduates%202016_Enrolled%20in%20College%20in%2016%20Mos_Redacted.xlsx'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/C11_FY2019_HS%20Graduates%202017_Enrolled%20in%20College%20in%2016%20Mos_Redacted.xlsx'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/C11_FY2020_HS_Graduates_2018_Enrolled_in_College_in_16_Mos.xlsx'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/C11_FY2021_HS_Graduates_2019_Enrolled_in_College_in_16_Mos.xlsx'>2021</a>
+		</p></p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<h3>Postsecondary C12 Report</h3>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Number of students enrolled in a postsecondary institution within 16 months of graduation and have completed at least one year of credits within the first two years of enrollment. Enrollment data provided by school system and school and disaggregated by student subgroups.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/PostSecondary_C12_FY2012_HS%20Graduates%202008_Enrolled%20in%2016%20Mos_Completed%2024%20credits.xlsx'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/PostSecondary_C12_FY2013_HS%20Graduates%202009_Enrolled%20in%2016%20Mos%20_%20Completed%2024%20Credits.xlsx'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/C12_FY2014_HS%20Graduates%202010_Enrolled%20in%2016%20Mos%20_%20Completed%2024_Jan_15_2015.xlsx'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/C12_FY2015_HS%20Graduates%202011_Enrolled%20in%2016%20Mos%20_%20Completed%2024%20Credits%20Redacted.xlsx'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/C12_FY2016_HS%20Graduates%202012_Enrolled%20in%2016%20Mos%20_%20Completed%2024%20Credits%20-Redacted.xlsx'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/C12_FY2017_HS%20Graduates%202013_Enrolled%20in%2016%20Mos%20_%20Completed%2024%20Credits%20-Redacted.xlsx'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/C12_FY2018_HS%20Graduates%202014_Enrolled%20in%2016%20Mos%20_%20Completed%2024%20Credits%20-Redacted.xlsx'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/C12_FY2019_HS%20Graduates%202015_Enrolled%20in%2016%20Mos%20_%20Completed%2024%20Credits%20-Redacted.xlsx'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/C12_FY2020_HS_Graduates_2016_Enrolled_in_16_Mos_Completed_24_Credits.xlsx'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/C12_FY2021_HS_Graduates_2017_Enrolled_in_16_Mos_Completed_24_Credits.xlsx'>2021</a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<h3>Recently Arrived English Learners</h3>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides counts of recently arrived English Language Learner (ELL) students by school system and school.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2011/ELL_Deferred_2011_MAR_23_2020.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/ELL_New_by_County_2012.csv'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/ELL_New_by_County_2013.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/ELL_Deffered_2014_Jan_15th_2015.csv'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/ELL_Deffered_2015_Mar292016.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/ELL_Deferred_2016_DEC_1st_2017.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/ELL_Deferred_2017_DEC_1st_2017.csv'>2017</a>
+		</p>
+	</td>
+  </tr>
+    <tr>
+	<td>
+		<a href='https://download.gosa.ga.gov/Help%20Files/Retained__HS_Completers.html'><h3>Retained Students</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides number and percentage of retained students at school, system, and state levels disaggregated by student subgroups.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2004/Exports/retained.csv'>2004</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2005/Exports/Retained.csv'>2005</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2006/Exports/Retained.csv'>2006</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2007/Exports/Retained.xls'>2007</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2008/Exports/Retained.xls'>2008</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2009/Exports/Retained.xls'>2009</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2010/Exports/Retained.csv'>2010</a>&nbsp;&nbsp;|&nbsp;
+			<br>
+			<a href='https://download.gosa.ga.gov/2011/Retained_2011_MAR_23_2020.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Retained_2012.xlsx'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Retained_2013.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Retained_2014_Dec_2_2015.csv'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Retained_2015_DEC_1st_2016.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Retained_2016_DEC_1st_2016.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Retained_2017_DEC_1st_2017.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/Retained_2018_DEC_10th_2018.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/Retained_2019_Dec2nd_2019.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/Retained_2020_Dec112020.csv'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/Retained_2021_Dec062021.csv'>2021</a>
+		</p>
+	</td>
+	</tr>
+<tr>
+	<td>
+		<a href='https://download.gosa.ga.gov/Help%20Files/Revenues___Expenditures.htm'><h3>Revenues and Expenditures</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Revenue and expenditure data at state, school system, and school levels. Provides amount total and amount per FTE by category.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2011/Revenues_and_Expenditures_2011_MAR_23_2020.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Revenues_and_Expenditures_2012_Jan_15th_2015.csv'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Revenues_and_Expenditures_2013_Jan_15th_2015.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Revenues_and_Expenditures_2014_Jan_15th_2015.csv'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Revenues_and_Expenditures_2015_Mar292016.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Revenues_and_Expenditures_2016_Feb_2_2017.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Revenues_and_Expenditures_2017_MAR_23rd_2018.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/Revenues_and_Expenditures_2018_DEC_10th_2018.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/Revenues_and_Expenditures_2019_Dec2nd_2019.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/Revenues_and_Expenditures_2020_Dec112020.csv'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/Revenues_and_Expenditures_2021_Dec062021.csv'>2021</a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<h3>Salaries and Benefits</h3>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+	Provides ACT testing counts and average composite and subtest scores from the most recent test administration at school, system, state, and national levels.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2011/Salaries_Benefits_2011_MAR_23_2020.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Salaries_and_Benefits_2012_Jan_15th_2015.csv'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Salaries_and_Benefits_2013_Jan_15th_2015.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='http://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Salaries_and_Benefits_2014_Jan_15th_2015.csv'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Salaries_and_Benefits_2015_Mar292016.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Salaries_and_Benefits_2016_Feb_2_2017.csv'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/Salaries_and_Benefits_2017_MAR_23rd_2018.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/Salaries_Benefits_2018_DEC_10th_2018.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/Salaries_Benefits_2019_Dec2nd_2019.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/Salaries_Benefits_2020_Dec112020.csv'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/Salaries_and_Benefits_2021_Dec062021.csv'>2021</a>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+	<a href='https://download.gosa.ga.gov/Help%20Files/SAT_(Highest).html'><h3>SAT Scores (Highest)</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+	Provides ACT testing counts and average composite and subtest scores from the most recent test administration at school, system, state, and national levels.*
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2004/Exports/SAT.csv'>2004</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2005/Exports/SAT.csv'>2005</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2006/Exports/SAT.csv'>2006</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2007/Exports/SAT.xls'>2007</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2008/Exports/SAT.xls'>2008</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2009/Exports/SAT.xls'>2009</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2010/Exports/SAT.xls'>2010</a>&nbsp;&nbsp;|&nbsp;
+			<br>
+			<a href='https://download.gosa.ga.gov/2011/SAT_HIGHEST_2011_FEB_24_2020.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2012/SAT_HIGHEST_2012_FEB_24_2020.csv'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2013/SAT_HIGHEST_2013_FEB_24_2020.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2014/SAT_HIGHEST_2014_FEB_24_2020.csv'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2015/SAT_HIGHEST_2015_FEB_24_2020.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2016/SAT_HIGHEST_2016_FEB_24_2020.csv'>2016 (Old format)</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2016/SAT_NEW_HIGHEST_2016_MAR_27_2020.csv'>2016 (New format)</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2017/SAT_NEW_HIGHEST_2017_MAR_27_2020.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/SAT_NEW_HIGHEST_2018_MAR_27_2020.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/SAT_NEW_HIGHEST_2019_MAR_27_2020.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/SAT_HIGHEST_2020_JUN_21_2021.csv'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/SAT_HIGHEST_2021_Dec062021.csv'>2021</a>
+		</p>
+	<p>
+		<h5 style="padding-left:12pt;">*Scoring format for the SAT was changed in March 2016. Both new and old scoring formats are available for 2016. SAT performance data post-2016 will be provided using the new scoring format.</h5>
+	</p>
+	</td>
+  </tr>
+  <tr>
+	<td>
+	<a href='https://download.gosa.ga.gov/Help%20Files/SAT_(Recent).html'><h3>SAT Scores (Recent)</h3></a>
+	</td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides SAT testing counts and average composite and subtest scores from the most recent test administration at school, system, state, and national levels.*
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://download.gosa.ga.gov/2004/Exports/SAT.csv'>2004</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2005/Exports/SAT.csv'>2005</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2006/Exports/SAT.csv'>2006</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2007/Exports/SAT.xls'>2007</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2008/Exports/SAT.xls'>2008</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2009/Exports/SAT.xls'>2009</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2010/Exports/SAT.xls'>2010</a>&nbsp;&nbsp;|&nbsp;
+			<br>
+			<a href='https://download.gosa.ga.gov/2011/SAT_RECENT_2011_FEB_24_2020.csv'>2011</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2012/SAT_RECENT_2012_FEB_24_2020.csv'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2013/SAT_RECENT_2013_FEB_24_2020.csv'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2014/SAT_RECENT_2014_FEB_24_2020.csv'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2015/SAT_RECENT_2015_FEB_24_2020.csv'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2016/SAT_RECENT_2016_FEB_24_2020.csv'>2016 (Old format)</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2016/SAT_NEW_RECENT_2016_MAR_27_2020.csv'>2016 (New format)</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2017/SAT_NEW_RECENT_2017_MAR_27_2020.csv'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2018/SAT_NEW_RECENT_2018_MAR_27_2020.csv'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/SAT_NEW_RECENT_2019_MAR_27_2020.csv'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/SAT_RECENT_2020_JUN_21_2021.csv'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/SAT_RECENT_2021_Dec062021.csv'>2021</a>
+		</p>
+	<p>
+		<h5 style="padding-left:12pt;">*Scoring format for the SAT was changed in March 2016. Both new and old scoring formats are available for 2016. SAT performance data post-2016 will be provided using the new scoring format.</h5>
+	</p>
+	</td>
+  </tr>
+  <tr>
+	<td><h3>Student Mobility Rates (District)</h3></td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides the percentage of students who entered or withdrew from a school during the year.
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/2012%20District%20Churn%20for%20Display.xls'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/2013%20District%20Churn%20for%20Display.xls'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/2014%20School%20Churn%20for%20Display.xls'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/2015%20District%20Churn%20for%20Display.xls'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/2016%20District%20Churn%20for%20Display.xls'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/2017%20District%20Churn%20for%20Display.xls'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/2018%20District%20Churn%20for%20Display.xls'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/2019_district_mobility.xls'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/2020_District_Mobility.xls'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/2021_District_Mobility_for_Display.xls'>2021</a>
+
+
+
+		</p>
+	</td>
+  </tr>
+  <tr>
+	<td><h3>Student Mobility Rates (School)</h3></td>
+	<td>
+	<p style="padding-left:12pt;">
+		Provides the percentage of students who entered or withdrew from a school during the year.	
+	</p>
+		<p	style="text-align:center;">
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/2012%20School%20Churn%20for%20Display.xls'>2012</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/2013%20School%20Churn%20for%20Display.xls'>2013</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/2014%20School%20Churn%20for%20Display.xls'>2014</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/2015%20School%20Churn%20for%20Display.xls'>2015</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/2016%20School%20Churn%20for%20Display.xls'>2016</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/2017%20School%20Churn%20for%20Display.xls'>2017</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://gosa.georgia.gov/sites/gosa.georgia.gov/files/related_files/site_page/2018%20School%20Churn%20for%20Display.xls'>2018</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2019/2019_school_mobility.xls'>2019</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2020/2020_School_Mobility.xls'>2020</a>&nbsp;&nbsp;|&nbsp;
+			<a href='https://download.gosa.ga.gov/2021/2021_School_Mobility_for_Display.xls'>2021</a>
+		</p>
+	</td>
+  </tr>
+</table>
+
+</body>
+</html>

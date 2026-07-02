@@ -38,6 +38,20 @@ archive/gcps_typography.png
 archive/day25_data.csv
 
 # ===========================================================================
+# Large data files blocking push (exceed GitHub 100 MB hard limit, or >50 MB warning)
+# ===========================================================================
+# GMAS Milestones source data (>100 MB)
+data/orig/GMAS/667_MILESTONES_EOG_SP22_GWINNETT_COUNTY_DATA_MAIN_20220616.xlsx
+data/orig/GMAS/667_MILESTONES_EOG_SP22_GWINNETT_COUNTY_DATA_MAIN_20220616.txt
+# Census PDB tract-level file (>160 MB)
+data/orig/pdb2021trv4_us.csv
+# GCPS mobility shapefile DBF (>100 MB)
+data/prep/ga_mobility_sy21.dbf
+data/prep/ga_mobility_sy21.shp
+data/prep/ga_mobility_sy21.shx
+data/prep/ga_mobility_sy21.prj
+
+# ===========================================================================
 # R / RStudio
 # ===========================================================================
 .Rproj.user/

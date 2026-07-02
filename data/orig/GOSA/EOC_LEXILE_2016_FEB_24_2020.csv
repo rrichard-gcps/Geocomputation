@@ -1,0 +1,1443 @@
+SCHOOL_YEAR,DETAIL_LEVEL,SCHOOL_DSTRCT_CD,SCHOOL_DSTRCT_NM,INSTN_NUMBER,INSTN_NAME,SUBJECT_CODE,TOTAL_STUDENTS_TESTED,STUDENTS_WITH_LEXILE,LEXILE_ON_OR_ABOVE_MIDPOINT,NO_LEXILE_SCORE,AVG_LEXILE_SCORE
+2016,District Level,601,Appling County,All,All,9th Grade Literature and Composition,276,276,166,TFS,1198.1
+2016,District Level,601,Appling County,All,All,American Literature and Composition,225,225,114,TFS,1282.5
+2016,District Level,602,Atkinson County,All,All,9th Grade Literature and Composition,130,129,70,TFS,1173.4
+2016,District Level,602,Atkinson County,All,All,American Literature and Composition,103,103,49,TFS,1256.7
+2016,District Level,603,Bacon County,All,All,9th Grade Literature and Composition,176,176,82,TFS,1138.7
+2016,District Level,603,Bacon County,All,All,American Literature and Composition,134,134,64,TFS,1265.9
+2016,District Level,604,Baker County,All,All,9th Grade Literature and Composition,28,28,16,TFS,1143.8
+2016,District Level,604,Baker County,All,All,American Literature and Composition,21,21,10,TFS,1263.3
+2016,District Level,605,Baldwin County,All,All,9th Grade Literature and Composition,403,403,203,TFS,1157
+2016,District Level,605,Baldwin County,All,All,American Literature and Composition,322,322,126,TFS,1232.5
+2016,District Level,606,Banks County,All,All,9th Grade Literature and Composition,222,222,151,TFS,1238.3
+2016,District Level,606,Banks County,All,All,American Literature and Composition,230,230,132,TFS,1303.7
+2016,District Level,607,Barrow County,All,All,9th Grade Literature and Composition,1042,1039,644,TFS,1205.3
+2016,District Level,607,Barrow County,All,All,American Literature and Composition,826,825,443,TFS,1308.2
+2016,District Level,608,Bartow County,All,All,9th Grade Literature and Composition,1204,1204,673,TFS,1180.4
+2016,District Level,608,Bartow County,All,All,American Literature and Composition,1004,1004,503,TFS,1277.5
+2016,District Level,609,Ben Hill County,All,All,9th Grade Literature and Composition,244,244,123,TFS,1164.7
+2016,District Level,609,Ben Hill County,All,All,American Literature and Composition,215,215,87,TFS,1202.6
+2016,District Level,610,Berrien County,All,All,9th Grade Literature and Composition,243,243,152,TFS,1216.8
+2016,District Level,610,Berrien County,All,All,American Literature and Composition,239,239,169,TFS,1392.2
+2016,District Level,611,Bibb County,All,All,9th Grade Literature and Composition,1780,1777,815,TFS,1131.4
+2016,District Level,611,Bibb County,All,All,American Literature and Composition,1371,1365,535,TFS,1188.6
+2016,District Level,612,Bleckley County,All,All,9th Grade Literature and Composition,181,180,129,TFS,1275
+2016,District Level,612,Bleckley County,All,All,American Literature and Composition,172,172,107,TFS,1336
+2016,District Level,613,Brantley County,All,All,9th Grade Literature and Composition,238,238,147,TFS,1228.1
+2016,District Level,613,Brantley County,All,All,American Literature and Composition,227,227,124,TFS,1321.1
+2016,District Level,614,Brooks County,All,All,9th Grade Literature and Composition,141,141,90,TFS,1208.7
+2016,District Level,614,Brooks County,All,All,American Literature and Composition,117,117,55,TFS,1255
+2016,District Level,615,Bryan County,All,All,9th Grade Literature and Composition,747,747,519,TFS,1248.9
+2016,District Level,615,Bryan County,All,All,American Literature and Composition,625,624,413,TFS,1387
+2016,District Level,616,Bulloch County,All,All,9th Grade Literature and Composition,755,754,474,TFS,1217
+2016,District Level,616,Bulloch County,All,All,American Literature and Composition,655,655,367,TFS,1311.5
+2016,District Level,617,Burke County,All,All,9th Grade Literature and Composition,324,324,168,TFS,1150.8
+2016,District Level,617,Burke County,All,All,American Literature and Composition,249,249,105,TFS,1241.1
+2016,District Level,618,Butts County,All,All,9th Grade Literature and Composition,284,284,148,TFS,1169.2
+2016,District Level,618,Butts County,All,All,American Literature and Composition,277,277,111,TFS,1209.7
+2016,District Level,619,Calhoun County,All,All,9th Grade Literature and Composition,58,58,26,TFS,1131.2
+2016,District Level,619,Calhoun County,All,All,American Literature and Composition,40,40,19,TFS,1289.8
+2016,District Level,620,Camden County,All,All,9th Grade Literature and Composition,676,676,487,TFS,1273.3
+2016,District Level,620,Camden County,All,All,American Literature and Composition,601,601,409,TFS,1380.4
+2016,District Level,621,Candler County,All,All,9th Grade Literature and Composition,138,138,81,TFS,1206.5
+2016,District Level,621,Candler County,All,All,American Literature and Composition,132,132,71,TFS,1286.7
+2016,District Level,622,Carroll County,All,All,9th Grade Literature and Composition,1164,1164,686,TFS,1200.9
+2016,District Level,622,Carroll County,All,All,American Literature and Composition,968,968,569,TFS,1322.3
+2016,District Level,623,Catoosa County,All,All,9th Grade Literature and Composition,860,860,544,TFS,1213.5
+2016,District Level,623,Catoosa County,All,All,American Literature and Composition,822,822,480,TFS,1311.1
+2016,District Level,624,Charlton County,All,All,9th Grade Literature and Composition,145,145,82,TFS,1174.3
+2016,District Level,624,Charlton County,All,All,American Literature and Composition,113,113,64,TFS,1296.7
+2016,District Level,625,Savannah-Chatham County,All,All,9th Grade Literature and Composition,2758,2742,1578,16,1193.5
+2016,District Level,625,Savannah-Chatham County,All,All,American Literature and Composition,2206,2196,1063,10,1270.8
+2016,District Level,626,Chattahoochee County,All,All,9th Grade Literature and Composition,112,112,54,TFS,1148.8
+2016,District Level,626,Chattahoochee County,All,All,American Literature and Composition,104,104,59,TFS,1279.5
+2016,District Level,627,Chattooga County,All,All,9th Grade Literature and Composition,192,192,109,TFS,1166.5
+2016,District Level,627,Chattooga County,All,All,American Literature and Composition,197,197,74,TFS,1194.8
+2016,District Level,628,Cherokee County,All,All,9th Grade Literature and Composition,3426,3422,2649,TFS,1302.7
+2016,District Level,628,Cherokee County,All,All,American Literature and Composition,3031,3030,2301,TFS,1441.6
+2016,District Level,629,Clarke County,All,All,9th Grade Literature and Composition,885,884,427,TFS,1153
+2016,District Level,629,Clarke County,All,All,American Literature and Composition,674,674,302,TFS,1241.9
+2016,District Level,630,Clay County,All,All,9th Grade Literature and Composition,11,11,TFS,TFS,1110
+2016,District Level,631,Clayton County,All,All,9th Grade Literature and Composition,4242,4241,2169,TFS,1155.3
+2016,District Level,631,Clayton County,All,All,American Literature and Composition,3446,3444,1669,TFS,1256.2
+2016,District Level,632,Clinch County,All,All,9th Grade Literature and Composition,103,103,58,TFS,1177.6
+2016,District Level,632,Clinch County,All,All,American Literature and Composition,75,75,41,TFS,1287.1
+2016,District Level,633,Cobb County,All,All,9th Grade Literature and Composition,9452,9418,6856,34,1287.8
+2016,District Level,633,Cobb County,All,All,American Literature and Composition,8256,8231,5738,26,1408.9
+2016,District Level,634,Coffee County,All,All,9th Grade Literature and Composition,578,578,309,TFS,1179.8
+2016,District Level,634,Coffee County,All,All,American Literature and Composition,468,468,216,TFS,1246.4
+2016,District Level,635,Colquitt County,All,All,9th Grade Literature and Composition,671,671,338,TFS,1164.4
+2016,District Level,635,Colquitt County,All,All,American Literature and Composition,545,545,263,TFS,1259.7
+2016,District Level,636,Columbia County,All,All,9th Grade Literature and Composition,2202,2198,1704,TFS,1303.9
+2016,District Level,636,Columbia County,All,All,American Literature and Composition,1870,1870,1412,TFS,1433.1
+2016,District Level,637,Cook County,All,All,9th Grade Literature and Composition,242,242,130,TFS,1171.2
+2016,District Level,637,Cook County,All,All,American Literature and Composition,246,246,130,TFS,1275.7
+2016,District Level,638,Coweta County,All,All,9th Grade Literature and Composition,1948,1945,1291,TFS,1234.2
+2016,District Level,638,Coweta County,All,All,American Literature and Composition,1620,1617,1078,TFS,1374.1
+2016,District Level,639,Crawford County,All,All,9th Grade Literature and Composition,132,131,56,TFS,1094.5
+2016,District Level,639,Crawford County,All,All,American Literature and Composition,107,107,53,TFS,1256.4
+2016,District Level,640,Crisp County,All,All,9th Grade Literature and Composition,296,296,148,TFS,1159.5
+2016,District Level,640,Crisp County,All,All,American Literature and Composition,281,280,112,TFS,1221.8
+2016,District Level,641,Dade County,All,All,9th Grade Literature and Composition,164,164,87,TFS,1179.4
+2016,District Level,641,Dade County,All,All,American Literature and Composition,165,164,81,TFS,1241.2
+2016,District Level,642,Dawson County,All,All,9th Grade Literature and Composition,278,278,185,TFS,1236
+2016,District Level,642,Dawson County,All,All,American Literature and Composition,244,244,165,TFS,1382.7
+2016,District Level,643,Decatur County,All,All,9th Grade Literature and Composition,462,462,225,TFS,1139.2
+2016,District Level,643,Decatur County,All,All,American Literature and Composition,116,116,59,TFS,1257.9
+2016,District Level,644,DeKalb County,All,All,9th Grade Literature and Composition,8006,7849,4209,157,1173.5
+2016,District Level,644,DeKalb County,All,All,American Literature and Composition,6555,6470,3468,86,1299.9
+2016,District Level,645,Dodge County,All,All,9th Grade Literature and Composition,223,223,128,TFS,1185
+2016,District Level,645,Dodge County,All,All,American Literature and Composition,186,186,97,TFS,1279.2
+2016,District Level,646,Dooly County,All,All,9th Grade Literature and Composition,120,120,35,TFS,1017.3
+2016,District Level,646,Dooly County,All,All,American Literature and Composition,89,89,15,TFS,1039.5
+2016,District Level,647,Dougherty County,All,All,9th Grade Literature and Composition,1178,1178,464,TFS,1102.8
+2016,District Level,647,Dougherty County,All,All,American Literature and Composition,971,971,335,TFS,1173.3
+2016,District Level,648,Douglas County,All,All,9th Grade Literature and Composition,2316,2313,1420,TFS,1209.3
+2016,District Level,648,Douglas County,All,All,American Literature and Composition,2057,2056,1248,TFS,1330.1
+2016,District Level,649,Early County,All,All,9th Grade Literature and Composition,152,152,75,TFS,1165
+2016,District Level,649,Early County,All,All,American Literature and Composition,145,145,54,TFS,1187.1
+2016,District Level,650,Echols County,All,All,9th Grade Literature and Composition,74,74,46,TFS,1209.4
+2016,District Level,650,Echols County,All,All,American Literature and Composition,54,54,28,TFS,1269.1
+2016,District Level,651,Effingham County,All,All,9th Grade Literature and Composition,937,936,718,TFS,1299.2
+2016,District Level,651,Effingham County,All,All,American Literature and Composition,825,823,611,TFS,1417.7
+2016,District Level,652,Elbert County,All,All,9th Grade Literature and Composition,242,242,109,TFS,1134.4
+2016,District Level,652,Elbert County,All,All,American Literature and Composition,198,198,86,TFS,1214.5
+2016,District Level,653,Emanuel County,All,All,9th Grade Literature and Composition,312,312,146,TFS,1134.1
+2016,District Level,653,Emanuel County,All,All,American Literature and Composition,239,239,112,TFS,1265.8
+2016,District Level,654,Evans County,All,All,9th Grade Literature and Composition,119,119,68,TFS,1179.8
+2016,District Level,654,Evans County,All,All,American Literature and Composition,82,82,25,TFS,1169.6
+2016,District Level,655,Fannin County,All,All,9th Grade Literature and Composition,258,258,173,TFS,1250.4
+2016,District Level,655,Fannin County,All,All,American Literature and Composition,274,274,154,TFS,1299.1
+2016,District Level,656,Fayette County,All,All,9th Grade Literature and Composition,1870,1870,1493,TFS,1328.8
+2016,District Level,656,Fayette County,All,All,American Literature and Composition,1708,1708,1333,TFS,1450.2
+2016,District Level,657,Floyd County,All,All,9th Grade Literature and Composition,787,787,495,TFS,1225.7
+2016,District Level,657,Floyd County,All,All,American Literature and Composition,629,629,347,TFS,1301.7
+2016,District Level,658,Forsyth County,All,All,9th Grade Literature and Composition,3586,3581,3100,TFS,1370
+2016,District Level,658,Forsyth County,All,All,American Literature and Composition,3162,3153,2655,TFS,1500.1
+2016,District Level,659,Franklin County,All,All,9th Grade Literature and Composition,264,264,182,TFS,1227.3
+2016,District Level,659,Franklin County,All,All,American Literature and Composition,250,249,128,TFS,1283.5
+2016,District Level,660,Fulton County,All,All,9th Grade Literature and Composition,7920,7906,5484,14,1275.9
+2016,District Level,660,Fulton County,All,All,American Literature and Composition,7215,7210,4916,TFS,1394.1
+2016,District Level,661,Gilmer County,All,All,9th Grade Literature and Composition,397,397,206,TFS,1146.1
+2016,District Level,661,Gilmer County,All,All,American Literature and Composition,285,285,169,TFS,1313.4
+2016,District Level,662,Glascock County,All,All,9th Grade Literature and Composition,49,49,36,TFS,1222.8
+2016,District Level,662,Glascock County,All,All,American Literature and Composition,47,47,27,TFS,1333.3
+2016,District Level,663,Glynn County,All,All,9th Grade Literature and Composition,998,998,675,TFS,1236.2
+2016,District Level,663,Glynn County,All,All,American Literature and Composition,888,888,509,TFS,1319.9
+2016,District Level,664,Gordon County,All,All,9th Grade Literature and Composition,544,544,335,TFS,1205.9
+2016,District Level,664,Gordon County,All,All,American Literature and Composition,445,445,222,TFS,1291.9
+2016,District Level,665,Grady County,All,All,9th Grade Literature and Composition,321,321,164,TFS,1148.9
+2016,District Level,665,Grady County,All,All,American Literature and Composition,259,258,144,TFS,1285.9
+2016,District Level,666,Greene County,All,All,9th Grade Literature and Composition,167,166,81,TFS,1199.9
+2016,District Level,666,Greene County,All,All,American Literature and Composition,127,127,45,TFS,1189.2
+2016,District Level,667,Gwinnett County,All,All,9th Grade Literature and Composition,14762,14623,10577,139,1278.6
+2016,District Level,667,Gwinnett County,All,All,American Literature and Composition,13059,12901,9029,160,1393.2
+2016,District Level,668,Habersham County,All,All,9th Grade Literature and Composition,490,489,315,TFS,1223.7
+2016,District Level,668,Habersham County,All,All,American Literature and Composition,472,471,286,TFS,1354.6
+2016,District Level,669,Hall County,All,All,9th Grade Literature and Composition,2263,2261,1395,TFS,1213.7
+2016,District Level,669,Hall County,All,All,American Literature and Composition,1840,1839,1078,TFS,1323.6
+2016,District Level,670,Hancock County,All,All,9th Grade Literature and Composition,78,78,25,TFS,1052.4
+2016,District Level,670,Hancock County,All,All,American Literature and Composition,82,82,11,TFS,1048.5
+2016,District Level,671,Haralson County,All,All,9th Grade Literature and Composition,295,293,148,TFS,1151.5
+2016,District Level,671,Haralson County,All,All,American Literature and Composition,276,272,154,TFS,1304
+2016,District Level,672,Harris County,All,All,9th Grade Literature and Composition,428,428,305,TFS,1260.1
+2016,District Level,672,Harris County,All,All,American Literature and Composition,418,418,263,TFS,1367.9
+2016,District Level,673,Hart County,All,All,9th Grade Literature and Composition,325,325,211,TFS,1226.9
+2016,District Level,673,Hart County,All,All,American Literature and Composition,221,221,124,TFS,1292.4
+2016,District Level,674,Heard County,All,All,9th Grade Literature and Composition,176,175,124,TFS,1233
+2016,District Level,674,Heard County,All,All,American Literature and Composition,150,150,104,TFS,1369.6
+2016,District Level,675,Henry County,All,All,9th Grade Literature and Composition,3808,3806,2351,TFS,1212
+2016,District Level,675,Henry County,All,All,American Literature and Composition,3510,3508,2038,TFS,1319.5
+2016,District Level,676,Houston County,All,All,9th Grade Literature and Composition,2154,2152,1438,TFS,1259.1
+2016,District Level,676,Houston County,All,All,American Literature and Composition,1929,1928,1259,TFS,1355.9
+2016,District Level,677,Irwin County,All,All,9th Grade Literature and Composition,121,121,63,TFS,1155.9
+2016,District Level,677,Irwin County,All,All,American Literature and Composition,94,94,35,TFS,1227.8
+2016,District Level,678,Jackson County,All,All,9th Grade Literature and Composition,583,583,434,TFS,1268.7
+2016,District Level,678,Jackson County,All,All,American Literature and Composition,474,472,298,TFS,1353.3
+2016,District Level,679,Jasper County,All,All,9th Grade Literature and Composition,202,202,121,TFS,1192.7
+2016,District Level,679,Jasper County,All,All,American Literature and Composition,150,150,64,TFS,1243.2
+2016,District Level,680,Jeff Davis County,All,All,9th Grade Literature and Composition,250,250,151,TFS,1200.6
+2016,District Level,680,Jeff Davis County,All,All,American Literature and Composition,219,219,119,TFS,1289.2
+2016,District Level,681,Jefferson County,All,All,9th Grade Literature and Composition,195,195,83,TFS,1112.8
+2016,District Level,681,Jefferson County,All,All,American Literature and Composition,162,162,62,TFS,1189.7
+2016,District Level,682,Jenkins County,All,All,9th Grade Literature and Composition,82,81,32,TFS,1108.2
+2016,District Level,682,Jenkins County,All,All,American Literature and Composition,103,103,46,TFS,1235.5
+2016,District Level,683,Johnson County,All,All,9th Grade Literature and Composition,95,95,44,TFS,1136.9
+2016,District Level,683,Johnson County,All,All,American Literature and Composition,69,69,32,TFS,1235.7
+2016,District Level,684,Jones County,All,All,9th Grade Literature and Composition,436,436,286,TFS,1237.7
+2016,District Level,684,Jones County,All,All,American Literature and Composition,382,382,259,TFS,1381.9
+2016,District Level,685,Lamar County,All,All,9th Grade Literature and Composition,213,213,118,TFS,1198.5
+2016,District Level,685,Lamar County,All,All,American Literature and Composition,180,180,100,TFS,1290.1
+2016,District Level,686,Lanier County,All,All,9th Grade Literature and Composition,121,121,58,TFS,1135.3
+2016,District Level,686,Lanier County,All,All,American Literature and Composition,81,80,39,TFS,1269
+2016,District Level,687,Laurens County,All,All,9th Grade Literature and Composition,500,498,294,TFS,1198.6
+2016,District Level,687,Laurens County,All,All,American Literature and Composition,409,409,246,TFS,1344
+2016,District Level,688,Lee County,All,All,9th Grade Literature and Composition,496,496,356,TFS,1269.6
+2016,District Level,688,Lee County,All,All,American Literature and Composition,484,484,332,TFS,1379.1
+2016,District Level,689,Liberty County,All,All,9th Grade Literature and Composition,795,795,491,TFS,1205.9
+2016,District Level,689,Liberty County,All,All,American Literature and Composition,700,699,391,TFS,1304.7
+2016,District Level,690,Lincoln County,All,All,9th Grade Literature and Composition,121,121,67,TFS,1167.4
+2016,District Level,690,Lincoln County,All,All,American Literature and Composition,90,90,55,TFS,1332.3
+2016,District Level,691,Long County,All,All,9th Grade Literature and Composition,263,263,147,TFS,1175.9
+2016,District Level,691,Long County,All,All,American Literature and Composition,206,206,107,TFS,1279.4
+2016,District Level,692,Lowndes County,All,All,9th Grade Literature and Composition,856,852,597,TFS,1256.7
+2016,District Level,692,Lowndes County,All,All,American Literature and Composition,753,753,474,TFS,1356.1
+2016,District Level,693,Lumpkin County,All,All,9th Grade Literature and Composition,307,307,216,TFS,1254
+2016,District Level,693,Lumpkin County,All,All,American Literature and Composition,254,254,162,TFS,1350.7
+2016,District Level,694,Macon County,All,All,9th Grade Literature and Composition,117,117,43,TFS,1108.4
+2016,District Level,694,Macon County,All,All,American Literature and Composition,114,114,33,TFS,1117.5
+2016,District Level,695,Madison County,All,All,9th Grade Literature and Composition,372,372,251,TFS,1256.9
+2016,District Level,695,Madison County,All,All,American Literature and Composition,269,269,175,TFS,1353.3
+2016,District Level,696,Marion County,All,All,9th Grade Literature and Composition,130,130,81,TFS,1172.6
+2016,District Level,696,Marion County,All,All,American Literature and Composition,109,109,48,TFS,1250.9
+2016,District Level,697,McDuffie County,All,All,9th Grade Literature and Composition,379,379,192,TFS,1150.7
+2016,District Level,697,McDuffie County,All,All,American Literature and Composition,252,252,120,TFS,1259.9
+2016,District Level,698,McIntosh County,All,All,9th Grade Literature and Composition,123,123,61,TFS,1161.6
+2016,District Level,698,McIntosh County,All,All,American Literature and Composition,95,95,53,TFS,1285.3
+2016,District Level,699,Meriwether County,All,All,9th Grade Literature and Composition,186,186,73,TFS,1112.5
+2016,District Level,699,Meriwether County,All,All,American Literature and Composition,163,163,53,TFS,1154.7
+2016,District Level,700,Miller County,All,All,9th Grade Literature and Composition,82,81,48,TFS,1214.7
+2016,District Level,700,Miller County,All,All,American Literature and Composition,72,72,28,TFS,1232
+2016,District Level,701,Mitchell County,All,All,9th Grade Literature and Composition,147,147,101,TFS,1226.1
+2016,District Level,701,Mitchell County,All,All,American Literature and Composition,112,112,59,TFS,1312.8
+2016,District Level,702,Monroe County,All,All,9th Grade Literature and Composition,298,298,190,TFS,1222.8
+2016,District Level,702,Monroe County,All,All,American Literature and Composition,324,324,187,TFS,1301.1
+2016,District Level,703,Montgomery County,All,All,9th Grade Literature and Composition,104,104,66,TFS,1202.5
+2016,District Level,703,Montgomery County,All,All,American Literature and Composition,118,118,56,TFS,1259.7
+2016,District Level,704,Morgan County,All,All,9th Grade Literature and Composition,234,234,159,TFS,1257.3
+2016,District Level,704,Morgan County,All,All,American Literature and Composition,228,227,135,TFS,1346
+2016,District Level,705,Murray County,All,All,9th Grade Literature and Composition,611,611,356,TFS,1193.2
+2016,District Level,705,Murray County,All,All,American Literature and Composition,518,518,231,TFS,1227.8
+2016,District Level,706,Muscogee County,All,All,9th Grade Literature and Composition,2507,2507,1416,TFS,1190.1
+2016,District Level,706,Muscogee County,All,All,American Literature and Composition,2057,2056,1226,TFS,1326.8
+2016,District Level,707,Newton County,All,All,9th Grade Literature and Composition,1567,1567,1030,TFS,1222.7
+2016,District Level,707,Newton County,All,All,American Literature and Composition,1320,1320,803,TFS,1325.4
+2016,District Level,708,Oconee County,All,All,9th Grade Literature and Composition,625,625,521,TFS,1358
+2016,District Level,708,Oconee County,All,All,American Literature and Composition,585,585,484,TFS,1494.6
+2016,District Level,709,Oglethorpe County,All,All,9th Grade Literature and Composition,172,172,112,TFS,1242.2
+2016,District Level,709,Oglethorpe County,All,All,American Literature and Composition,141,141,71,TFS,1298.3
+2016,District Level,710,Paulding County,All,All,9th Grade Literature and Composition,2510,2509,1589,TFS,1217.3
+2016,District Level,710,Paulding County,All,All,American Literature and Composition,2239,2238,1379,TFS,1342.6
+2016,District Level,711,Peach County,All,All,9th Grade Literature and Composition,254,254,143,TFS,1175.9
+2016,District Level,711,Peach County,All,All,American Literature and Composition,246,246,139,TFS,1299.8
+2016,District Level,712,Pickens County,All,All,9th Grade Literature and Composition,400,400,258,TFS,1237.4
+2016,District Level,712,Pickens County,All,All,American Literature and Composition,316,316,191,TFS,1343.9
+2016,District Level,713,Pierce County,All,All,9th Grade Literature and Composition,273,273,180,TFS,1251.6
+2016,District Level,713,Pierce County,All,All,American Literature and Composition,241,241,143,TFS,1336.3
+2016,District Level,714,Pike County,All,All,9th Grade Literature and Composition,322,322,203,TFS,1220.4
+2016,District Level,714,Pike County,All,All,American Literature and Composition,248,248,151,TFS,1343.1
+2016,District Level,715,Polk County,All,All,9th Grade Literature and Composition,618,618,359,TFS,1187.5
+2016,District Level,715,Polk County,All,All,American Literature and Composition,494,494,270,TFS,1292.7
+2016,District Level,716,Pulaski County,All,All,9th Grade Literature and Composition,119,119,57,TFS,1138.8
+2016,District Level,716,Pulaski County,All,All,American Literature and Composition,84,84,33,TFS,1258.8
+2016,District Level,717,Putnam County,All,All,9th Grade Literature and Composition,199,194,141,TFS,1242.1
+2016,District Level,717,Putnam County,All,All,American Literature and Composition,184,184,117,TFS,1338.2
+2016,District Level,718,Quitman County,All,All,9th Grade Literature and Composition,34,34,TFS,TFS,1062.2
+2016,District Level,718,Quitman County,All,All,American Literature and Composition,15,15,TFS,TFS,1274.3
+2016,District Level,719,Rabun County,All,All,9th Grade Literature and Composition,192,192,109,TFS,1196
+2016,District Level,719,Rabun County,All,All,American Literature and Composition,164,164,97,TFS,1318.9
+2016,District Level,720,Randolph County,All,All,9th Grade Literature and Composition,65,65,21,TFS,1087.5
+2016,District Level,720,Randolph County,All,All,American Literature and Composition,78,78,18,TFS,1098.8
+2016,District Level,721,Richmond County,All,All,9th Grade Literature and Composition,2269,2267,997,TFS,1120.8
+2016,District Level,721,Richmond County,All,All,American Literature and Composition,1893,1893,795,TFS,1213.7
+2016,District Level,722,Rockdale County,All,All,9th Grade Literature and Composition,1431,1431,853,TFS,1201.7
+2016,District Level,722,Rockdale County,All,All,American Literature and Composition,1277,1276,747,TFS,1321.7
+2016,District Level,723,Schley County,All,All,9th Grade Literature and Composition,117,117,78,TFS,1225.4
+2016,District Level,723,Schley County,All,All,American Literature and Composition,85,85,56,TFS,1354.1
+2016,District Level,724,Screven County,All,All,9th Grade Literature and Composition,167,167,86,TFS,1163.3
+2016,District Level,724,Screven County,All,All,American Literature and Composition,123,123,56,TFS,1255.6
+2016,District Level,725,Seminole County,All,All,9th Grade Literature and Composition,129,129,79,TFS,1203.3
+2016,District Level,725,Seminole County,All,All,American Literature and Composition,114,114,78,TFS,1371.4
+2016,District Level,726,Griffin-Spalding County,All,All,9th Grade Literature and Composition,733,731,279,TFS,1092.8
+2016,District Level,726,Griffin-Spalding County,All,All,American Literature and Composition,651,651,286,TFS,1235.9
+2016,District Level,727,Stephens County,All,All,9th Grade Literature and Composition,312,312,204,TFS,1216.8
+2016,District Level,727,Stephens County,All,All,American Literature and Composition,252,252,148,TFS,1325.6
+2016,District Level,728,Stewart County,All,All,9th Grade Literature and Composition,29,29,11,TFS,1095.5
+2016,District Level,728,Stewart County,All,All,American Literature and Composition,32,32,TFS,TFS,1174.4
+2016,District Level,729,Sumter County,All,All,9th Grade Literature and Composition,330,330,114,TFS,1081.9
+2016,District Level,729,Sumter County,All,All,American Literature and Composition,320,320,112,TFS,1192.3
+2016,District Level,730,Talbot County,All,All,9th Grade Literature and Composition,47,47,15,TFS,1085.9
+2016,District Level,730,Talbot County,All,All,American Literature and Composition,34,34,TFS,TFS,1130.1
+2016,District Level,731,Taliaferro County,All,All,9th Grade Literature and Composition,12,12,TFS,TFS,1206.7
+2016,District Level,731,Taliaferro County,All,All,American Literature and Composition,,,,,
+2016,District Level,732,Tattnall County,All,All,9th Grade Literature and Composition,277,277,160,TFS,1190.1
+2016,District Level,732,Tattnall County,All,All,American Literature and Composition,234,234,114,TFS,1252.9
+2016,District Level,733,Taylor County,All,All,9th Grade Literature and Composition,116,116,53,TFS,1137
+2016,District Level,733,Taylor County,All,All,American Literature and Composition,96,96,50,TFS,1246.5
+2016,District Level,734,Telfair County,All,All,9th Grade Literature and Composition,144,144,63,TFS,1136.7
+2016,District Level,734,Telfair County,All,All,American Literature and Composition,113,113,50,TFS,1239.8
+2016,District Level,735,Terrell County,All,All,9th Grade Literature and Composition,104,104,39,TFS,1116.2
+2016,District Level,735,Terrell County,All,All,American Literature and Composition,94,94,24,TFS,1139.8
+2016,District Level,736,Thomas County,All,All,9th Grade Literature and Composition,399,399,207,TFS,1170.2
+2016,District Level,736,Thomas County,All,All,American Literature and Composition,406,406,244,TFS,1318.5
+2016,District Level,737,Tift County,All,All,9th Grade Literature and Composition,566,566,333,TFS,1209.2
+2016,District Level,737,Tift County,All,All,American Literature and Composition,462,462,266,TFS,1324.4
+2016,District Level,738,Toombs County,All,All,9th Grade Literature and Composition,236,236,106,TFS,1143.8
+2016,District Level,738,Toombs County,All,All,American Literature and Composition,175,175,83,TFS,1226.6
+2016,District Level,739,Towns County,All,All,9th Grade Literature and Composition,102,102,81,TFS,1320.2
+2016,District Level,739,Towns County,All,All,American Literature and Composition,86,86,61,TFS,1403.6
+2016,District Level,740,Treutlen County,All,All,9th Grade Literature and Composition,92,92,51,TFS,1174.4
+2016,District Level,740,Treutlen County,All,All,American Literature and Composition,58,58,31,TFS,1257.6
+2016,District Level,741,Troup County,All,All,9th Grade Literature and Composition,1075,1075,595,TFS,1184.1
+2016,District Level,741,Troup County,All,All,American Literature and Composition,838,838,456,TFS,1302.6
+2016,District Level,742,Turner County,All,All,9th Grade Literature and Composition,99,98,41,TFS,1129
+2016,District Level,742,Turner County,All,All,American Literature and Composition,100,100,33,TFS,1170.1
+2016,District Level,743,Twiggs County,All,All,9th Grade Literature and Composition,52,52,22,TFS,1098.6
+2016,District Level,743,Twiggs County,All,All,American Literature and Composition,54,54,19,TFS,1173.1
+2016,District Level,744,Union County,All,All,9th Grade Literature and Composition,172,172,145,TFS,1354.3
+2016,District Level,744,Union County,All,All,American Literature and Composition,234,234,177,TFS,1425.4
+2016,District Level,745,Thomaston-Upson County,All,All,9th Grade Literature and Composition,420,420,264,TFS,1230
+2016,District Level,745,Thomaston-Upson County,All,All,American Literature and Composition,329,329,174,TFS,1272.3
+2016,District Level,746,Walker County,All,All,9th Grade Literature and Composition,725,724,425,TFS,1194.5
+2016,District Level,746,Walker County,All,All,American Literature and Composition,634,634,340,TFS,1293
+2016,District Level,747,Walton County,All,All,9th Grade Literature and Composition,1103,1103,692,TFS,1210.3
+2016,District Level,747,Walton County,All,All,American Literature and Composition,953,953,609,TFS,1355.3
+2016,District Level,748,Ware County,All,All,9th Grade Literature and Composition,435,435,293,TFS,1233.1
+2016,District Level,748,Ware County,All,All,American Literature and Composition,362,362,205,TFS,1305.4
+2016,District Level,749,Warren County,All,All,9th Grade Literature and Composition,39,39,20,TFS,1173.6
+2016,District Level,749,Warren County,All,All,American Literature and Composition,34,34,TFS,TFS,1174.7
+2016,District Level,750,Washington County,All,All,9th Grade Literature and Composition,226,226,118,TFS,1172
+2016,District Level,750,Washington County,All,All,American Literature and Composition,211,210,102,TFS,1252
+2016,District Level,751,Wayne County,All,All,9th Grade Literature and Composition,447,447,250,TFS,1187.8
+2016,District Level,751,Wayne County,All,All,American Literature and Composition,362,362,181,TFS,1283.5
+2016,District Level,752,Webster County,All,All,9th Grade Literature and Composition,38,38,25,TFS,1271.7
+2016,District Level,752,Webster County,All,All,American Literature and Composition,33,33,20,TFS,1287
+2016,District Level,753,Wheeler County,All,All,9th Grade Literature and Composition,74,74,45,TFS,1223.2
+2016,District Level,753,Wheeler County,All,All,American Literature and Composition,70,70,39,TFS,1277.5
+2016,District Level,754,White County,All,All,9th Grade Literature and Composition,282,281,194,TFS,1244.2
+2016,District Level,754,White County,All,All,American Literature and Composition,277,277,180,TFS,1353.2
+2016,District Level,755,Whitfield County,All,All,9th Grade Literature and Composition,1084,1082,625,TFS,1190.8
+2016,District Level,755,Whitfield County,All,All,American Literature and Composition,996,990,506,TFS,1278.2
+2016,District Level,756,Wilcox County,All,All,9th Grade Literature and Composition,45,45,19,TFS,1119.2
+2016,District Level,756,Wilcox County,All,All,American Literature and Composition,64,64,22,TFS,1228.9
+2016,District Level,757,Wilkes County,All,All,9th Grade Literature and Composition,126,126,77,TFS,1182.3
+2016,District Level,757,Wilkes County,All,All,American Literature and Composition,91,91,50,TFS,1338.1
+2016,District Level,758,Wilkinson County,All,All,9th Grade Literature and Composition,115,115,49,TFS,1133.5
+2016,District Level,758,Wilkinson County,All,All,American Literature and Composition,101,101,37,TFS,1218.5
+2016,District Level,759,Worth County,All,All,9th Grade Literature and Composition,257,257,127,TFS,1159.7
+2016,District Level,759,Worth County,All,All,American Literature and Composition,236,236,108,TFS,1229.2
+2016,District Level,761,Atlanta Public Schools,All,All,9th Grade Literature and Composition,3439,3420,1634,19,1142.8
+2016,District Level,761,Atlanta Public Schools,All,All,American Literature and Composition,2753,2744,1338,12,1267
+2016,District Level,763,Bremen City,All,All,9th Grade Literature and Composition,182,182,147,TFS,1322.9
+2016,District Level,763,Bremen City,All,All,American Literature and Composition,149,149,104,TFS,1388
+2016,District Level,764,Buford City,All,All,9th Grade Literature and Composition,358,358,322,TFS,1366.3
+2016,District Level,764,Buford City,All,All,American Literature and Composition,288,288,232,TFS,1491.7
+2016,District Level,765,Calhoun City,All,All,9th Grade Literature and Composition,270,269,188,TFS,1252.3
+2016,District Level,765,Calhoun City,All,All,American Literature and Composition,281,281,178,TFS,1350.1
+2016,District Level,766,Carrollton City,All,All,9th Grade Literature and Composition,414,414,247,TFS,1199.6
+2016,District Level,766,Carrollton City,All,All,American Literature and Composition,335,335,203,TFS,1319.1
+2016,District Level,767,Cartersville City,All,All,9th Grade Literature and Composition,330,330,234,TFS,1256.1
+2016,District Level,767,Cartersville City,All,All,American Literature and Composition,280,280,183,TFS,1358.4
+2016,District Level,769,Chickamauga City,All,All,9th Grade Literature and Composition,130,130,107,TFS,1317.8
+2016,District Level,769,Chickamauga City,All,All,American Literature and Composition,85,85,48,TFS,1316.5
+2016,District Level,771,Commerce City,All,All,9th Grade Literature and Composition,152,152,86,TFS,1190.5
+2016,District Level,771,Commerce City,All,All,American Literature and Composition,90,90,61,TFS,1348.8
+2016,District Level,772,Dalton Public Schools,All,All,9th Grade Literature and Composition,725,725,383,TFS,1175
+2016,District Level,772,Dalton Public Schools,All,All,American Literature and Composition,592,591,293,TFS,1276.6
+2016,District Level,773,Decatur City,All,All,9th Grade Literature and Composition,332,332,291,TFS,1400.1
+2016,District Level,773,Decatur City,All,All,American Literature and Composition,307,307,255,TFS,1491.4
+2016,District Level,774,Dublin City,All,All,9th Grade Literature and Composition,207,207,60,TFS,1081
+2016,District Level,774,Dublin City,All,All,American Literature and Composition,143,143,60,TFS,1212.1
+2016,District Level,776,Gainesville City,All,All,9th Grade Literature and Composition,589,588,225,TFS,1105.7
+2016,District Level,776,Gainesville City,All,All,American Literature and Composition,483,483,249,TFS,1278.6
+2016,District Level,779,Jefferson City,All,All,9th Grade Literature and Composition,273,273,222,TFS,1325.1
+2016,District Level,779,Jefferson City,All,All,American Literature and Composition,226,226,177,TFS,1434.4
+2016,District Level,781,Marietta City,All,All,9th Grade Literature and Composition,641,640,410,TFS,1235.9
+2016,District Level,781,Marietta City,All,All,American Literature and Composition,526,526,364,TFS,1382.5
+2016,District Level,7820108,State Charter Schools- Mountain Education Center School,All,All,9th Grade Literature and Composition,115,112,64,TFS,1175.1
+2016,District Level,7820108,State Charter Schools- Mountain Education Center School,All,All,American Literature and Composition,199,198,92,TFS,1274.7
+2016,District Level,7820119,State Charter Schools- Provost Academy Georgia,All,All,9th Grade Literature and Composition,91,90,33,TFS,1094.6
+2016,District Level,7820119,State Charter Schools- Provost Academy Georgia,All,All,American Literature and Composition,151,151,50,TFS,1179.8
+2016,District Level,7820120,State Charter Schools- Georgia Cyber Academy,All,All,9th Grade Literature and Composition,1320,1320,844,TFS,1217.9
+2016,District Level,7820120,State Charter Schools- Georgia Cyber Academy,All,All,American Literature and Composition,1032,1032,659,TFS,1345.3
+2016,District Level,7820212,State Charter Schools- Cherokee Charter Academy,All,All,9th Grade Literature and Composition,17,17,17,TFS,1402.1
+2016,District Level,7820412,State Charter Schools- Georgia Connections Academy,All,All,9th Grade Literature and Composition,342,342,264,TFS,1299.1
+2016,District Level,7820412,State Charter Schools- Georgia Connections Academy,All,All,American Literature and Composition,368,368,270,TFS,1419.7
+2016,District Level,7820613,State Charter Schools- Foothills Charter High School (Madison Campus),All,All,9th Grade Literature and Composition,53,53,25,TFS,1149.4
+2016,District Level,7820613,State Charter Schools- Foothills Charter High School (Madison Campus),All,All,American Literature and Composition,62,62,23,TFS,1206
+2016,District Level,7830103,Commission Charter Schools- CCAT School,All,All,9th Grade Literature and Composition,19,19,14,TFS,1232.9
+2016,District Level,7830103,Commission Charter Schools- CCAT School,All,All,American Literature and Composition,21,21,12,TFS,1308.3
+2016,District Level,7830210,Commission Charter Schools- Pataula Charter Academy,All,All,9th Grade Literature and Composition,40,39,27,TFS,1225.4
+2016,District Level,7830210,Commission Charter Schools- Pataula Charter Academy,All,All,American Literature and Composition,22,22,12,TFS,1271.4
+2016,District Level,7830310,Commission Charter Schools- Fulton Leadership Academy,All,All,9th Grade Literature and Composition,63,63,29,TFS,1147.5
+2016,District Level,7830310,Commission Charter Schools- Fulton Leadership Academy,All,All,American Literature and Composition,20,20,TFS,TFS,1191.3
+2016,District Level,7830610,Commission Charter Schools- Coweta Charter Academy,All,All,9th Grade Literature and Composition,10,10,TFS,TFS,1372.5
+2016,District Level,784,Pelham City,All,All,9th Grade Literature and Composition,95,95,40,TFS,1160.9
+2016,District Level,784,Pelham City,All,All,American Literature and Composition,115,115,48,TFS,1224.6
+2016,District Level,785,Rome City,All,All,9th Grade Literature and Composition,505,501,332,TFS,1249.1
+2016,District Level,785,Rome City,All,All,American Literature and Composition,416,415,242,TFS,1334.2
+2016,District Level,786,Social Circle City,All,All,9th Grade Literature and Composition,148,148,97,TFS,1233.1
+2016,District Level,786,Social Circle City,All,All,American Literature and Composition,142,142,103,TFS,1416.7
+2016,District Level,789,Thomasville City,All,All,9th Grade Literature and Composition,224,224,110,TFS,1175.6
+2016,District Level,789,Thomasville City,All,All,American Literature and Composition,158,158,79,TFS,1270.2
+2016,District Level,791,Trion City,All,All,9th Grade Literature and Composition,116,116,89,TFS,1309.4
+2016,District Level,791,Trion City,All,All,American Literature and Composition,92,92,76,TFS,1431.4
+2016,District Level,792,Valdosta City,All,All,9th Grade Literature and Composition,595,594,329,TFS,1177.6
+2016,District Level,792,Valdosta City,All,All,American Literature and Composition,428,428,196,TFS,1247
+2016,District Level,793,Vidalia City,All,All,9th Grade Literature and Composition,333,309,202,24,1239.4
+2016,District Level,793,Vidalia City,All,All,American Literature and Composition,280,261,160,19,1321.6
+2016,District Level,7991893,State Schools- Atlanta Area School for the Deaf,All,All,9th Grade Literature and Composition,16,16,TFS,TFS,823.1
+2016,District Level,7991893,State Schools- Atlanta Area School for the Deaf,All,All,American Literature and Composition,12,11,TFS,TFS,753.6
+2016,District Level,7991894,State Schools- Georgia Academy for the Blind,All,All,9th Grade Literature and Composition,,,,,
+2016,District Level,7991894,State Schools- Georgia Academy for the Blind,All,All,American Literature and Composition,,,,,
+2016,District Level,7991895,State Schools- Georgia School for the Deaf,All,All,9th Grade Literature and Composition,16,16,TFS,TFS,869.1
+2016,District Level,7991895,State Schools- Georgia School for the Deaf,All,All,American Literature and Composition,,,,,
+2016,District Level,891,Department of Juvenile Justice,All,All,9th Grade Literature and Composition,110,104,13,TFS,927.2
+2016,District Level,891,Department of Juvenile Justice,All,All,American Literature and Composition,27,27,11,TFS,1177.8
+2016,School Level,601,Appling County,103,Appling County High School,9th Grade Literature and Composition,276,276,166,TFS,1198.1
+2016,School Level,601,Appling County,103,Appling County High School,American Literature and Composition,225,225,114,TFS,1282.5
+2016,School Level,602,Atkinson County,103,Atkinson County High School,9th Grade Literature and Composition,130,129,70,TFS,1173.4
+2016,School Level,602,Atkinson County,103,Atkinson County High School,American Literature and Composition,103,103,49,TFS,1256.7
+2016,School Level,603,Bacon County,202,Bacon County Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,603,Bacon County,302,Bacon County High School,9th Grade Literature and Composition,175,175,81,TFS,1138.5
+2016,School Level,603,Bacon County,302,Bacon County High School,American Literature and Composition,134,134,64,TFS,1265.9
+2016,School Level,604,Baker County,105,Baker County K12 School,9th Grade Literature and Composition,28,28,16,TFS,1143.8
+2016,School Level,604,Baker County,105,Baker County K12 School,American Literature and Composition,21,21,10,TFS,1263.3
+2016,School Level,605,Baldwin County,100,Oak Hill MS,9th Grade Literature and Composition,12,12,TFS,TFS,1138.8
+2016,School Level,605,Baldwin County,189,Baldwin High School,9th Grade Literature and Composition,391,391,198,TFS,1157.5
+2016,School Level,605,Baldwin County,189,Baldwin High School,American Literature and Composition,322,322,126,TFS,1232.5
+2016,School Level,606,Banks County,199,Banks County High School,9th Grade Literature and Composition,222,222,151,TFS,1238.3
+2016,School Level,606,Banks County,199,Banks County High School,American Literature and Composition,230,230,132,TFS,1303.7
+2016,School Level,607,Barrow County,101,Apalachee High School,9th Grade Literature and Composition,499,498,336,TFS,1227.1
+2016,School Level,607,Barrow County,101,Apalachee High School,American Literature and Composition,382,381,221,TFS,1336.4
+2016,School Level,607,Barrow County,3052,Winder-Barrow High School,9th Grade Literature and Composition,543,541,308,TFS,1185.1
+2016,School Level,607,Barrow County,3052,Winder-Barrow High School,American Literature and Composition,444,444,222,TFS,1284
+2016,School Level,608,Bartow County,105,Adairsville High School,9th Grade Literature and Composition,253,253,154,TFS,1217.1
+2016,School Level,608,Bartow County,105,Adairsville High School,American Literature and Composition,221,221,108,TFS,1271
+2016,School Level,608,Bartow County,114,Cass High School,9th Grade Literature and Composition,440,440,234,TFS,1168.6
+2016,School Level,608,Bartow County,114,Cass High School,American Literature and Composition,386,386,168,TFS,1243
+2016,School Level,608,Bartow County,198,Woodland High School,9th Grade Literature and Composition,511,511,286,TFS,1172.4
+2016,School Level,608,Bartow County,198,Woodland High School,American Literature and Composition,397,397,227,TFS,1314.6
+2016,School Level,609,Ben Hill County,291,Fitzgerald High School,9th Grade Literature and Composition,244,244,123,TFS,1164.7
+2016,School Level,609,Ben Hill County,291,Fitzgerald High School,American Literature and Composition,215,215,87,TFS,1202.6
+2016,School Level,610,Berrien County,101,Berrien High School,9th Grade Literature and Composition,224,224,144,TFS,1228.4
+2016,School Level,610,Berrien County,101,Berrien High School,American Literature and Composition,227,227,162,TFS,1399.8
+2016,School Level,610,Berrien County,106,Berrien Academy Performance Learning Center,9th Grade Literature and Composition,19,19,TFS,TFS,1079.2
+2016,School Level,610,Berrien County,106,Berrien Academy Performance Learning Center,American Literature and Composition,12,12,TFS,TFS,1246.7
+2016,School Level,611,Bibb County,105,Howard High School,9th Grade Literature and Composition,350,350,204,TFS,1192.5
+2016,School Level,611,Bibb County,105,Howard High School,American Literature and Composition,301,301,175,TFS,1308.9
+2016,School Level,611,Bibb County,117,Academy For Classical Education,9th Grade Literature and Composition,74,74,68,TFS,1389.9
+2016,School Level,611,Bibb County,186,Central High School,9th Grade Literature and Composition,313,312,145,TFS,1140.8
+2016,School Level,611,Bibb County,186,Central High School,American Literature and Composition,228,225,96,TFS,1218.4
+2016,School Level,611,Bibb County,198,Westside High School,9th Grade Literature and Composition,280,280,91,TFS,1076.9
+2016,School Level,611,Bibb County,198,Westside High School,American Literature and Composition,239,239,60,TFS,1099.5
+2016,School Level,611,Bibb County,204,Rutland High School,9th Grade Literature and Composition,309,309,166,TFS,1158.6
+2016,School Level,611,Bibb County,204,Rutland High School,American Literature and Composition,249,247,122,TFS,1237.6
+2016,School Level,611,Bibb County,286,Northeast High School,9th Grade Literature and Composition,219,218,66,TFS,1029.9
+2016,School Level,611,Bibb County,286,Northeast High School,American Literature and Composition,155,154,32,TFS,1102.4
+2016,School Level,611,Bibb County,386,Southwest High School,9th Grade Literature and Composition,227,227,73,TFS,1070.6
+2016,School Level,611,Bibb County,386,Southwest High School,American Literature and Composition,199,199,50,TFS,1085.7
+2016,School Level,611,Bibb County,407,LakeBridge Behavioral Health System,9th Grade Literature and Composition,,,,,
+2016,School Level,612,Bleckley County,105,Bleckley County High School,9th Grade Literature and Composition,171,171,128,TFS,1292
+2016,School Level,612,Bleckley County,105,Bleckley County High School,American Literature and Composition,155,155,103,TFS,1369.7
+2016,School Level,612,Bleckley County,115,Bleckley County Success Academy,9th Grade Literature and Composition,10,,,TFS,
+2016,School Level,612,Bleckley County,115,Bleckley County Success Academy,American Literature and Composition,17,17,TFS,TFS,1028.5
+2016,School Level,613,Brantley County,1050,Brantley County High School,9th Grade Literature and Composition,238,238,147,TFS,1228.1
+2016,School Level,613,Brantley County,1050,Brantley County High School,American Literature and Composition,227,227,124,TFS,1321.1
+2016,School Level,614,Brooks County,110,Brooks County High School,9th Grade Literature and Composition,141,141,90,TFS,1208.7
+2016,School Level,614,Brooks County,110,Brooks County High School,American Literature and Composition,117,117,55,TFS,1255
+2016,School Level,615,Bryan County,182,Richmond Hill High School,9th Grade Literature and Composition,454,454,311,TFS,1223.1
+2016,School Level,615,Bryan County,182,Richmond Hill High School,American Literature and Composition,471,470,351,TFS,1435.9
+2016,School Level,615,Bryan County,199,Richmond Hill Middle School,9th Grade Literature and Composition,131,131,129,TFS,1483.5
+2016,School Level,615,Bryan County,402,Bryan County Middle School,9th Grade Literature and Composition,25,25,22,TFS,1338.8
+2016,School Level,615,Bryan County,502,Bryan County High School,9th Grade Literature and Composition,137,137,57,TFS,1093.6
+2016,School Level,615,Bryan County,502,Bryan County High School,American Literature and Composition,154,154,62,TFS,1237.6
+2016,School Level,616,Bulloch County,203,Southeast Bulloch High School,9th Grade Literature and Composition,260,260,176,TFS,1233.3
+2016,School Level,616,Bulloch County,203,Southeast Bulloch High School,American Literature and Composition,225,225,123,TFS,1305.2
+2016,School Level,616,Bulloch County,2054,Statesboro High School,9th Grade Literature and Composition,436,435,260,TFS,1208.3
+2016,School Level,616,Bulloch County,2054,Statesboro High School,American Literature and Composition,370,370,213,TFS,1318.7
+2016,School Level,616,Bulloch County,4052,Portal Middle/High School,9th Grade Literature and Composition,59,59,38,TFS,1209.4
+2016,School Level,616,Bulloch County,4052,Portal Middle/High School,American Literature and Composition,60,60,31,TFS,1290.9
+2016,School Level,617,Burke County,188,Burke County Middle School,9th Grade Literature and Composition,36,36,19,TFS,1153.8
+2016,School Level,617,Burke County,288,Burke County High School,9th Grade Literature and Composition,288,288,149,TFS,1150.4
+2016,School Level,617,Burke County,288,Burke County High School,American Literature and Composition,249,249,105,TFS,1241.1
+2016,School Level,618,Butts County,100,Henderson Middle School,9th Grade Literature and Composition,53,53,48,TFS,1387.4
+2016,School Level,618,Butts County,190,Jackson High School,9th Grade Literature and Composition,231,231,100,TFS,1119.1
+2016,School Level,618,Butts County,190,Jackson High School,American Literature and Composition,277,277,111,TFS,1209.7
+2016,School Level,619,Calhoun County,113,Calhoun County High School,9th Grade Literature and Composition,58,58,26,TFS,1131.2
+2016,School Level,619,Calhoun County,113,Calhoun County High School,American Literature and Composition,40,40,19,TFS,1289.8
+2016,School Level,620,Camden County,295,Camden County High School,9th Grade Literature and Composition,676,676,487,TFS,1273.3
+2016,School Level,620,Camden County,295,Camden County High School,American Literature and Composition,601,601,409,TFS,1380.4
+2016,School Level,621,Candler County,101,Metter High School,9th Grade Literature and Composition,138,138,81,TFS,1206.5
+2016,School Level,621,Candler County,101,Metter High School,American Literature and Composition,132,132,71,TFS,1286.7
+2016,School Level,622,Carroll County,112,KidsPeace,9th Grade Literature and Composition,12,12,TFS,TFS,980
+2016,School Level,622,Carroll County,112,KidsPeace,American Literature and Composition,,,,,
+2016,School Level,622,Carroll County,177,Central Middle School,9th Grade Literature and Composition,12,12,12,TFS,1484.2
+2016,School Level,622,Carroll County,189,Temple High School,9th Grade Literature and Composition,175,175,94,TFS,1171.7
+2016,School Level,622,Carroll County,189,Temple High School,American Literature and Composition,156,156,95,TFS,1334.8
+2016,School Level,622,Carroll County,212,Mt. Zion High School,9th Grade Literature and Composition,106,106,66,TFS,1214.2
+2016,School Level,622,Carroll County,212,Mt. Zion High School,American Literature and Composition,94,94,39,TFS,1217.8
+2016,School Level,622,Carroll County,2052,Central High School,9th Grade Literature and Composition,307,307,193,TFS,1227.3
+2016,School Level,622,Carroll County,2052,Central High School,American Literature and Composition,277,277,171,TFS,1329.4
+2016,School Level,622,Carroll County,3050,Bowdon High School,9th Grade Literature and Composition,110,110,59,TFS,1156
+2016,School Level,622,Carroll County,3050,Bowdon High School,American Literature and Composition,103,103,66,TFS,1345.3
+2016,School Level,622,Carroll County,5054,Villa Rica High School,9th Grade Literature and Composition,442,442,260,TFS,1200.5
+2016,School Level,622,Carroll County,5054,Villa Rica High School,American Literature and Composition,336,336,196,TFS,1331.6
+2016,School Level,623,Catoosa County,109,Heritage High School,9th Grade Literature and Composition,315,315,205,TFS,1238.2
+2016,School Level,623,Catoosa County,109,Heritage High School,American Literature and Composition,319,319,205,TFS,1337.8
+2016,School Level,623,Catoosa County,1052,Lakeview-Fort Oglethorpe High School,9th Grade Literature and Composition,265,265,154,TFS,1180.6
+2016,School Level,623,Catoosa County,1052,Lakeview-Fort Oglethorpe High School,American Literature and Composition,242,242,125,TFS,1276.8
+2016,School Level,623,Catoosa County,4052,Ringgold High School,9th Grade Literature and Composition,277,277,182,TFS,1215.4
+2016,School Level,623,Catoosa County,4052,Ringgold High School,American Literature and Composition,261,261,150,TFS,1310.4
+2016,School Level,623,Catoosa County,5052,Ringgold Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,624,Charlton County,287,Charlton County High School,9th Grade Literature and Composition,145,145,82,TFS,1174.3
+2016,School Level,624,Charlton County,287,Charlton County High School,American Literature and Composition,113,113,64,TFS,1296.7
+2016,School Level,625,Savannah-Chatham County,101,Johnson High School,9th Grade Literature and Composition,209,209,106,TFS,1136.9
+2016,School Level,625,Savannah-Chatham County,101,Johnson High School,American Literature and Composition,217,216,82,TFS,1225.6
+2016,School Level,625,Savannah-Chatham County,107,UHS of Savannah Coastal Harbor Treatment Center,9th Grade Literature and Composition,,,,,
+2016,School Level,625,Savannah-Chatham County,115,Woodville-Tompkins Technical and Career High School,9th Grade Literature and Composition,92,92,61,TFS,1237.9
+2016,School Level,625,Savannah-Chatham County,115,Woodville-Tompkins Technical and Career High School,American Literature and Composition,109,109,79,TFS,1370.8
+2016,School Level,625,Savannah-Chatham County,117,New Hampstead High School,9th Grade Literature and Composition,335,335,161,TFS,1142.8
+2016,School Level,625,Savannah-Chatham County,117,New Hampstead High School,American Literature and Composition,398,396,157,TFS,1220
+2016,School Level,625,Savannah-Chatham County,118,Oglethorpe Charter School,9th Grade Literature and Composition,48,48,47,TFS,1464
+2016,School Level,625,Savannah-Chatham County,124,The STEM Academy at Bartlett,9th Grade Literature and Composition,191,191,167,TFS,1339.8
+2016,School Level,625,Savannah-Chatham County,192,Esther F. Garrison School for the Arts,9th Grade Literature and Composition,72,72,69,TFS,1400.6
+2016,School Level,625,Savannah-Chatham County,194,Georgetown School,9th Grade Literature and Composition,,,,,
+2016,School Level,625,Savannah-Chatham County,199,West Chatham Middle School,9th Grade Literature and Composition,49,49,39,TFS,1289.8
+2016,School Level,625,Savannah-Chatham County,201,DeRenne Middle School,9th Grade Literature and Composition,22,22,18,TFS,1256.8
+2016,School Level,625,Savannah-Chatham County,210,The School of Liberal Studies at Savannah High,9th Grade Literature and Composition,149,147,37,TFS,1050.4
+2016,School Level,625,Savannah-Chatham County,210,The School of Liberal Studies at Savannah High,American Literature and Composition,145,143,28,TFS,1089.7
+2016,School Level,625,Savannah-Chatham County,211,Godley Station School,9th Grade Literature and Composition,42,42,41,TFS,1442.6
+2016,School Level,625,Savannah-Chatham County,299,Southwest Middle School,9th Grade Literature and Composition,36,36,32,TFS,1325
+2016,School Level,625,Savannah-Chatham County,301,Myers Middle School,9th Grade Literature and Composition,14,14,10,TFS,1252.5
+2016,School Level,625,Savannah-Chatham County,311,Coastal Middle School,9th Grade Literature and Composition,49,49,47,TFS,1440.4
+2016,School Level,625,Savannah-Chatham County,411,Islands High School,9th Grade Literature and Composition,222,220,156,TFS,1248.5
+2016,School Level,625,Savannah-Chatham County,411,Islands High School,American Literature and Composition,241,239,159,TFS,1377.4
+2016,School Level,625,Savannah-Chatham County,499,Savannah Arts Academy,9th Grade Literature and Composition,113,113,103,TFS,1408
+2016,School Level,625,Savannah-Chatham County,499,Savannah Arts Academy,American Literature and Composition,214,214,203,TFS,1558.9
+2016,School Level,625,Savannah-Chatham County,512,Rice Creek School,9th Grade Literature and Composition,17,17,16,TFS,1320.3
+2016,School Level,625,Savannah-Chatham County,513,Savannah Early College High School,9th Grade Literature and Composition,32,32,26,TFS,1274.4
+2016,School Level,625,Savannah-Chatham County,513,Savannah Early College High School,American Literature and Composition,80,80,63,TFS,1420.9
+2016,School Level,625,Savannah-Chatham County,2052,Beach High School,9th Grade Literature and Composition,261,259,84,TFS,1075.7
+2016,School Level,625,Savannah-Chatham County,2052,Beach High School,American Literature and Composition,208,207,58,TFS,1154.7
+2016,School Level,625,Savannah-Chatham County,2060,Hubert Middle School,9th Grade Literature and Composition,24,24,14,TFS,1193.8
+2016,School Level,625,Savannah-Chatham County,3056,Groves High School,9th Grade Literature and Composition,249,242,77,TFS,1062
+2016,School Level,625,Savannah-Chatham County,3056,Groves High School,American Literature and Composition,129,129,36,TFS,1160.9
+2016,School Level,625,Savannah-Chatham County,4058,Hesse School,9th Grade Literature and Composition,55,55,51,TFS,1340.5
+2016,School Level,625,Savannah-Chatham County,5060,Jenkins High School,9th Grade Literature and Composition,193,193,80,TFS,1108.7
+2016,School Level,625,Savannah-Chatham County,5060,Jenkins High School,American Literature and Composition,223,221,80,TFS,1196.5
+2016,School Level,625,Savannah-Chatham County,5070,Windsor Forest High School,9th Grade Literature and Composition,270,267,127,TFS,1135
+2016,School Level,625,Savannah-Chatham County,5070,Windsor Forest High School,American Literature and Composition,242,242,118,TFS,1271.9
+2016,School Level,626,Chattahoochee County,206,Chattahoochee County High School,9th Grade Literature and Composition,112,112,54,TFS,1148.8
+2016,School Level,626,Chattahoochee County,206,Chattahoochee County High School,American Literature and Composition,104,104,59,TFS,1279.5
+2016,School Level,627,Chattooga County,111,Chattooga Academy,9th Grade Literature and Composition,16,16,TFS,TFS,914.7
+2016,School Level,627,Chattooga County,111,Chattooga Academy,American Literature and Composition,16,16,TFS,TFS,965.3
+2016,School Level,627,Chattooga County,1050,Chattooga High School,9th Grade Literature and Composition,176,176,107,TFS,1189.4
+2016,School Level,627,Chattooga County,1050,Chattooga High School,American Literature and Composition,181,181,73,TFS,1215.1
+2016,School Level,628,Cherokee County,106,Creekview High School,9th Grade Literature and Composition,509,509,417,TFS,1356.3
+2016,School Level,628,Cherokee County,106,Creekview High School,American Literature and Composition,469,469,356,TFS,1449.8
+2016,School Level,628,Cherokee County,115,River Ridge High School,9th Grade Literature and Composition,427,427,333,TFS,1308.3
+2016,School Level,628,Cherokee County,115,River Ridge High School,American Literature and Composition,413,413,333,TFS,1475
+2016,School Level,628,Cherokee County,176,Etowah High School,9th Grade Literature and Composition,608,608,487,TFS,1315.1
+2016,School Level,628,Cherokee County,176,Etowah High School,American Literature and Composition,644,643,487,TFS,1442.5
+2016,School Level,628,Cherokee County,191,Sequoyah High School,9th Grade Literature and Composition,500,500,420,TFS,1342.5
+2016,School Level,628,Cherokee County,191,Sequoyah High School,American Literature and Composition,447,447,345,TFS,1458.6
+2016,School Level,628,Cherokee County,197,Woodstock High School,9th Grade Literature and Composition,598,597,492,TFS,1326.5
+2016,School Level,628,Cherokee County,197,Woodstock High School,American Literature and Composition,511,511,419,TFS,1478.7
+2016,School Level,628,Cherokee County,297,Woodstock Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,628,Cherokee County,305,Creekland Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,628,Cherokee County,5050,Cherokee High School,9th Grade Literature and Composition,782,779,499,TFS,1210.6
+2016,School Level,628,Cherokee County,5050,Cherokee High School,American Literature and Composition,547,547,361,TFS,1360
+2016,School Level,629,Clarke County,102,Cedar Shoals High School,9th Grade Literature and Composition,430,430,198,TFS,1135.4
+2016,School Level,629,Clarke County,102,Cedar Shoals High School,American Literature and Composition,342,342,134,TFS,1203.2
+2016,School Level,629,Clarke County,104,Classic City High School,9th Grade Literature and Composition,21,20,TFS,TFS,1047.8
+2016,School Level,629,Clarke County,104,Classic City High School,American Literature and Composition,42,42,10,TFS,1145.5
+2016,School Level,629,Clarke County,5556,Clarke Central High School,9th Grade Literature and Composition,434,434,224,TFS,1175.3
+2016,School Level,629,Clarke County,5556,Clarke Central High School,American Literature and Composition,290,290,158,TFS,1301.4
+2016,School Level,630,Clay County,104,Clay County Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,630,Clay County,114,Clay County Academies,9th Grade Literature and Composition,,,,,
+2016,School Level,631,Clayton County,104,Mundy's Mill High School,9th Grade Literature and Composition,515,515,242,TFS,1144.8
+2016,School Level,631,Clayton County,104,Mundy's Mill High School,American Literature and Composition,404,404,196,TFS,1246.6
+2016,School Level,631,Clayton County,114,Elite Scholars Academy School,9th Grade Literature and Composition,90,90,84,TFS,1394.7
+2016,School Level,631,Clayton County,114,Elite Scholars Academy School,American Literature and Composition,62,62,60,TFS,1558
+2016,School Level,631,Clayton County,115,Charles R. Drew High School,9th Grade Literature and Composition,435,435,201,TFS,1127.9
+2016,School Level,631,Clayton County,115,Charles R. Drew High School,American Literature and Composition,371,371,176,TFS,1257.8
+2016,School Level,631,Clayton County,190,Lovejoy High School,9th Grade Literature and Composition,545,545,262,TFS,1132.3
+2016,School Level,631,Clayton County,190,Lovejoy High School,American Literature and Composition,464,464,219,TFS,1242.5
+2016,School Level,631,Clayton County,215,Martha Ellen Stilwell School for the Performing Arts,9th Grade Literature and Composition,195,195,181,TFS,1378.9
+2016,School Level,631,Clayton County,215,Martha Ellen Stilwell School for the Performing Arts,American Literature and Composition,109,109,95,TFS,1521.8
+2016,School Level,631,Clayton County,290,Mount Zion High School,9th Grade Literature and Composition,363,362,170,TFS,1124.3
+2016,School Level,631,Clayton County,290,Mount Zion High School,American Literature and Composition,343,342,140,TFS,1193.1
+2016,School Level,631,Clayton County,377,Riverdale High School,9th Grade Literature and Composition,369,369,189,TFS,1153.6
+2016,School Level,631,Clayton County,377,Riverdale High School,American Literature and Composition,313,313,150,TFS,1268.4
+2016,School Level,631,Clayton County,1054,Forest Park High School,9th Grade Literature and Composition,533,533,250,TFS,1139
+2016,School Level,631,Clayton County,1054,Forest Park High School,American Literature and Composition,390,389,184,TFS,1249.8
+2016,School Level,631,Clayton County,1056,Jonesboro High School,9th Grade Literature and Composition,337,337,178,TFS,1162.3
+2016,School Level,631,Clayton County,1056,Jonesboro High School,American Literature and Composition,283,283,144,TFS,1278.2
+2016,School Level,631,Clayton County,2052,North Clayton High School,9th Grade Literature and Composition,268,268,138,TFS,1138.6
+2016,School Level,631,Clayton County,2052,North Clayton High School,American Literature and Composition,213,213,79,TFS,1178.9
+2016,School Level,631,Clayton County,4058,Morrow High School,9th Grade Literature and Composition,592,592,274,TFS,1134
+2016,School Level,631,Clayton County,4058,Morrow High School,American Literature and Composition,494,494,226,TFS,1241.1
+2016,School Level,632,Clinch County,1050,Clinch County High School,9th Grade Literature and Composition,103,103,58,TFS,1177.6
+2016,School Level,632,Clinch County,1050,Clinch County High School,American Literature and Composition,75,75,41,TFS,1287.1
+2016,School Level,633,Cobb County,101,Kennesaw Mountain High School,9th Grade Literature and Composition,577,576,433,TFS,1313.3
+2016,School Level,633,Cobb County,101,Kennesaw Mountain High School,American Literature and Composition,507,507,383,TFS,1441.4
+2016,School Level,633,Cobb County,103,Kell High School,9th Grade Literature and Composition,420,418,319,TFS,1294
+2016,School Level,633,Cobb County,103,Kell High School,American Literature and Composition,358,355,271,TFS,1436.5
+2016,School Level,633,Cobb County,175,Walton High School,9th Grade Literature and Composition,699,699,656,TFS,1458.2
+2016,School Level,633,Cobb County,175,Walton High School,American Literature and Composition,685,685,638,TFS,1591.1
+2016,School Level,633,Cobb County,184,McCleskey Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,633,Cobb County,188,Pope High School,9th Grade Literature and Composition,496,496,455,TFS,1419.1
+2016,School Level,633,Cobb County,188,Pope High School,American Literature and Composition,488,486,431,TFS,1532.6
+2016,School Level,633,Cobb County,192,Harrison High School,9th Grade Literature and Composition,490,490,438,TFS,1388.6
+2016,School Level,633,Cobb County,192,Harrison High School,American Literature and Composition,479,478,378,TFS,1442.2
+2016,School Level,633,Cobb County,209,Allatoona High School,9th Grade Literature and Composition,418,418,348,TFS,1335.5
+2016,School Level,633,Cobb County,209,Allatoona High School,American Literature and Composition,426,426,303,TFS,1407.2
+2016,School Level,633,Cobb County,373,Sprayberry High School,9th Grade Literature and Composition,456,445,322,11,1272.9
+2016,School Level,633,Cobb County,373,Sprayberry High School,American Literature and Composition,423,419,277,TFS,1367.3
+2016,School Level,633,Cobb County,381,Lassiter High School,9th Grade Literature and Composition,561,561,516,TFS,1410.6
+2016,School Level,633,Cobb County,381,Lassiter High School,American Literature and Composition,532,532,484,TFS,1555.5
+2016,School Level,633,Cobb County,607,Lovinggood Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,633,Cobb County,707,Hillgrove High School,9th Grade Literature and Composition,665,664,554,TFS,1323.2
+2016,School Level,633,Cobb County,707,Hillgrove High School,American Literature and Composition,577,575,458,TFS,1448.7
+2016,School Level,633,Cobb County,807,Devereux Ackerman Academy,9th Grade Literature and Composition,27,27,TFS,TFS,955.4
+2016,School Level,633,Cobb County,807,Devereux Ackerman Academy,American Literature and Composition,,,,,
+2016,School Level,633,Cobb County,1054,Campbell High School,9th Grade Literature and Composition,774,774,493,TFS,1232.5
+2016,School Level,633,Cobb County,1054,Campbell High School,American Literature and Composition,651,651,415,TFS,1374.6
+2016,School Level,633,Cobb County,1064,McEachern High School,9th Grade Literature and Composition,635,635,440,TFS,1244.8
+2016,School Level,633,Cobb County,1064,McEachern High School,American Literature and Composition,559,557,328,TFS,1344.8
+2016,School Level,633,Cobb County,1069,Wheeler High School,9th Grade Literature and Composition,619,615,432,TFS,1295.7
+2016,School Level,633,Cobb County,1069,Wheeler High School,American Literature and Composition,516,512,347,TFS,1411.6
+2016,School Level,633,Cobb County,2056,North Cobb High School,9th Grade Literature and Composition,763,762,547,TFS,1258.6
+2016,School Level,633,Cobb County,2056,North Cobb High School,American Literature and Composition,754,754,488,TFS,1374.6
+2016,School Level,633,Cobb County,2066,Osborne High School,9th Grade Literature and Composition,554,553,252,TFS,1137.8
+2016,School Level,633,Cobb County,2066,Osborne High School,American Literature and Composition,369,369,132,TFS,1206.2
+2016,School Level,633,Cobb County,3056,South Cobb High School,9th Grade Literature and Composition,551,546,315,TFS,1183.5
+2016,School Level,633,Cobb County,3056,South Cobb High School,American Literature and Composition,525,520,258,TFS,1274.5
+2016,School Level,633,Cobb County,4066,Pebblebrook High School,9th Grade Literature and Composition,742,734,330,TFS,1121.9
+2016,School Level,633,Cobb County,4066,Pebblebrook High School,American Literature and Composition,404,402,146,TFS,1205
+2016,School Level,633,Cobb County,5058,Floyd Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,634,Coffee County,114,Wiregrass Regional College and Career Academy,9th Grade Literature and Composition,81,81,25,TFS,1103.8
+2016,School Level,634,Coffee County,114,Wiregrass Regional College and Career Academy,American Literature and Composition,56,56,14,TFS,1183.6
+2016,School Level,634,Coffee County,195,Coffee County High School,9th Grade Literature and Composition,45,45,10,TFS,1021.7
+2016,School Level,634,Coffee County,195,Coffee County High School,American Literature and Composition,412,412,202,TFS,1255
+2016,School Level,634,Coffee County,308,George Washington Carver Freshman Campus,9th Grade Literature and Composition,452,452,274,TFS,1209.2
+2016,School Level,635,Colquitt County,112,Colquitt County Achievement Center,9th Grade Literature and Composition,16,16,TFS,TFS,988.1
+2016,School Level,635,Colquitt County,112,Colquitt County Achievement Center,American Literature and Composition,13,13,TFS,TFS,972.3
+2016,School Level,635,Colquitt County,1554,Colquitt County High School,9th Grade Literature and Composition,20,20,TFS,TFS,947.8
+2016,School Level,635,Colquitt County,1554,Colquitt County High School,American Literature and Composition,532,532,262,TFS,1266.8
+2016,School Level,635,Colquitt County,3052,CA Gray Junior High School,9th Grade Literature and Composition,635,635,333,TFS,1175.7
+2016,School Level,636,Columbia County,108,Stallings Island Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,636,Columbia County,112,Grovetown High School,9th Grade Literature and Composition,541,537,393,TFS,1278.6
+2016,School Level,636,Columbia County,112,Grovetown High School,American Literature and Composition,428,428,304,TFS,1389.1
+2016,School Level,636,Columbia County,183,Harlem High School,9th Grade Literature and Composition,200,200,137,TFS,1239
+2016,School Level,636,Columbia County,183,Harlem High School,American Literature and Composition,185,185,126,TFS,1391
+2016,School Level,636,Columbia County,189,Lakeside High School,9th Grade Literature and Composition,540,540,425,TFS,1323.5
+2016,School Level,636,Columbia County,189,Lakeside High School,American Literature and Composition,380,380,298,TFS,1455.1
+2016,School Level,636,Columbia County,197,Greenbrier High School,9th Grade Literature and Composition,455,455,392,TFS,1354.1
+2016,School Level,636,Columbia County,197,Greenbrier High School,American Literature and Composition,407,407,335,TFS,1497.9
+2016,School Level,636,Columbia County,4050,Evans High School,9th Grade Literature and Composition,465,465,356,TFS,1289
+2016,School Level,636,Columbia County,4050,Evans High School,American Literature and Composition,470,470,349,TFS,1415.8
+2016,School Level,637,Cook County,111,Cook High School,9th Grade Literature and Composition,242,242,130,TFS,1171.2
+2016,School Level,637,Cook County,111,Cook High School,American Literature and Composition,246,246,130,TFS,1275.7
+2016,School Level,638,Coweta County,196,Northgate High School,9th Grade Literature and Composition,482,481,358,TFS,1289.1
+2016,School Level,638,Coweta County,196,Northgate High School,American Literature and Composition,425,424,325,TFS,1432.9
+2016,School Level,638,Coweta County,389,East Coweta High School,9th Grade Literature and Composition,802,800,533,TFS,1220.3
+2016,School Level,638,Coweta County,389,East Coweta High School,American Literature and Composition,662,661,427,TFS,1366.3
+2016,School Level,638,Coweta County,5054,Newnan High School,9th Grade Literature and Composition,664,664,400,TFS,1211.2
+2016,School Level,638,Coweta County,5054,Newnan High School,American Literature and Composition,533,532,326,TFS,1336.8
+2016,School Level,639,Crawford County,193,Crawford County High School,9th Grade Literature and Composition,132,131,56,TFS,1094.5
+2016,School Level,639,Crawford County,193,Crawford County High School,American Literature and Composition,107,107,53,TFS,1256.4
+2016,School Level,640,Crisp County,196,Crisp County High School,9th Grade Literature and Composition,296,296,148,TFS,1159.5
+2016,School Level,640,Crisp County,196,Crisp County High School,American Literature and Composition,281,280,112,TFS,1221.8
+2016,School Level,641,Dade County,195,Dade County High School,9th Grade Literature and Composition,164,164,87,TFS,1179.4
+2016,School Level,641,Dade County,195,Dade County High School,American Literature and Composition,165,164,81,TFS,1241.2
+2016,School Level,642,Dawson County,106,Dawson County Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,642,Dawson County,198,Dawson County High School,9th Grade Literature and Composition,277,277,184,TFS,1235.1
+2016,School Level,642,Dawson County,198,Dawson County High School,American Literature and Composition,244,244,165,TFS,1382.7
+2016,School Level,643,Decatur County,116,New Beginning Learning Center,9th Grade Literature and Composition,10,10,TFS,TFS,1011
+2016,School Level,643,Decatur County,116,New Beginning Learning Center,American Literature and Composition,,,,,
+2016,School Level,643,Decatur County,3050,Bainbridge High School,9th Grade Literature and Composition,452,452,224,TFS,1142.1
+2016,School Level,643,Decatur County,3050,Bainbridge High School,American Literature and Composition,109,109,59,TFS,1284.2
+2016,School Level,644,DeKalb County,103,"Martin Luther King, Jr. High School",9th Grade Literature and Composition,436,415,207,21,1155
+2016,School Level,644,DeKalb County,103,"Martin Luther King, Jr. High School",American Literature and Composition,401,382,174,19,1241.6
+2016,School Level,644,DeKalb County,105,Miller Grove High School,9th Grade Literature and Composition,486,470,225,16,1135.9
+2016,School Level,644,DeKalb County,105,Miller Grove High School,American Literature and Composition,339,323,139,16,1237.4
+2016,School Level,644,DeKalb County,112,Destiny Achievers Academy of Excellence,9th Grade Literature and Composition,50,50,12,TFS,1042.5
+2016,School Level,644,DeKalb County,112,Destiny Achievers Academy of Excellence,American Literature and Composition,82,82,11,TFS,1075.8
+2016,School Level,644,DeKalb County,172,Cedar Grove High School,9th Grade Literature and Composition,299,297,125,TFS,1107.1
+2016,School Level,644,DeKalb County,172,Cedar Grove High School,American Literature and Composition,257,255,105,TFS,1227.7
+2016,School Level,644,DeKalb County,176,Redan High School,9th Grade Literature and Composition,293,281,123,12,1116.9
+2016,School Level,644,DeKalb County,176,Redan High School,American Literature and Composition,260,257,135,TFS,1278.3
+2016,School Level,644,DeKalb County,202,Lithonia High School,9th Grade Literature and Composition,435,415,167,20,1107.1
+2016,School Level,644,DeKalb County,202,Lithonia High School,American Literature and Composition,365,353,143,12,1219
+2016,School Level,644,DeKalb County,276,Stone Mountain High School,9th Grade Literature and Composition,304,300,135,TFS,1123.6
+2016,School Level,644,DeKalb County,276,Stone Mountain High School,American Literature and Composition,238,236,106,TFS,1250.2
+2016,School Level,644,DeKalb County,315,Tapestry Public Charter School,9th Grade Literature and Composition,29,29,13,TFS,1147.1
+2016,School Level,644,DeKalb County,407,Dekalb Early College Academy,9th Grade Literature and Composition,103,103,102,TFS,1434.6
+2016,School Level,644,DeKalb County,407,Dekalb Early College Academy,American Literature and Composition,97,97,86,TFS,1516.6
+2016,School Level,644,DeKalb County,410,DeKalb School of the Arts,9th Grade Literature and Composition,88,88,87,TFS,1441.8
+2016,School Level,644,DeKalb County,410,DeKalb School of the Arts,American Literature and Composition,80,80,76,TFS,1592.4
+2016,School Level,644,DeKalb County,497,Stephenson High School,9th Grade Literature and Composition,456,452,247,TFS,1150.6
+2016,School Level,644,DeKalb County,497,Stephenson High School,American Literature and Composition,417,411,211,TFS,1293.8
+2016,School Level,644,DeKalb County,500,DeKalb Alternative School,9th Grade Literature and Composition,110,99,12,11,933.7
+2016,School Level,644,DeKalb County,500,DeKalb Alternative School,American Literature and Composition,35,33,14,TFS,1181.8
+2016,School Level,644,DeKalb County,610,"Arabia Mountain High School - Academy of Engineering, Medicine and Environm",9th Grade Literature and Composition,395,392,312,TFS,1304
+2016,School Level,644,DeKalb County,610,"Arabia Mountain High School - Academy of Engineering, Medicine and Environm",American Literature and Composition,296,296,251,TFS,1485.9
+2016,School Level,644,DeKalb County,707,UHS of Laurel Heights,9th Grade Literature and Composition,,,,,
+2016,School Level,644,DeKalb County,810,Elizabeth Andrews High School,9th Grade Literature and Composition,40,40,13,TFS,1061.8
+2016,School Level,644,DeKalb County,810,Elizabeth Andrews High School,American Literature and Composition,128,127,36,TFS,1160.4
+2016,School Level,644,DeKalb County,1070,Tucker High School,9th Grade Literature and Composition,530,528,312,TFS,1203.8
+2016,School Level,644,DeKalb County,1070,Tucker High School,American Literature and Composition,451,451,264,TFS,1305.4
+2016,School Level,644,DeKalb County,2054,Columbia High School,9th Grade Literature and Composition,373,370,143,TFS,1081.2
+2016,School Level,644,DeKalb County,2054,Columbia High School,American Literature and Composition,227,226,73,TFS,1173.5
+2016,School Level,644,DeKalb County,2055,Druid Hills High School,9th Grade Literature and Composition,396,387,244,TFS,1219.7
+2016,School Level,644,DeKalb County,2055,Druid Hills High School,American Literature and Composition,334,334,198,TFS,1327.2
+2016,School Level,644,DeKalb County,3060,Lakeside High School,9th Grade Literature and Composition,605,593,395,12,1244.1
+2016,School Level,644,DeKalb County,3060,Lakeside High School,American Literature and Composition,517,512,373,TFS,1415.7
+2016,School Level,644,DeKalb County,3070,McNair High School,9th Grade Literature and Composition,243,240,71,TFS,1049
+2016,School Level,644,DeKalb County,3070,McNair High School,American Literature and Composition,190,187,64,TFS,1170.9
+2016,School Level,644,DeKalb County,4053,Clarkston High School,9th Grade Literature and Composition,373,371,160,TFS,1118.3
+2016,School Level,644,DeKalb County,4053,Clarkston High School,American Literature and Composition,325,323,92,TFS,1131.1
+2016,School Level,644,DeKalb County,4054,Cross Keys High School,9th Grade Literature and Composition,512,496,198,16,1104.6
+2016,School Level,644,DeKalb County,4054,Cross Keys High School,American Literature and Composition,275,274,129,TFS,1263.7
+2016,School Level,644,DeKalb County,4069,Towers High School,9th Grade Literature and Composition,264,259,79,TFS,1050
+2016,School Level,644,DeKalb County,4069,Towers High School,American Literature and Composition,217,214,64,TFS,1174.3
+2016,School Level,644,DeKalb County,5052,Chamblee Charter High School,9th Grade Literature and Composition,354,350,263,TFS,1333.7
+2016,School Level,644,DeKalb County,5052,Chamblee Charter High School,American Literature and Composition,344,343,292,TFS,1499
+2016,School Level,644,DeKalb County,5055,Dunwoody High School,9th Grade Literature and Composition,498,496,364,TFS,1293
+2016,School Level,644,DeKalb County,5055,Dunwoody High School,American Literature and Composition,409,407,304,TFS,1460.1
+2016,School Level,644,DeKalb County,5067,Southwest DeKalb High School,9th Grade Literature and Composition,331,326,201,TFS,1196.2
+2016,School Level,644,DeKalb County,5067,Southwest DeKalb High School,American Literature and Composition,271,267,128,TFS,1260.6
+2016,School Level,645,Dodge County,103,Dodge County High School,9th Grade Literature and Composition,223,223,128,TFS,1185
+2016,School Level,645,Dodge County,103,Dodge County High School,American Literature and Composition,179,179,96,TFS,1291.6
+2016,School Level,645,Dodge County,292,DAC (Dodge County Achievement Center),American Literature and Composition,,,,,
+2016,School Level,646,Dooly County,182,Dooly County High School,9th Grade Literature and Composition,120,120,35,TFS,1017.3
+2016,School Level,646,Dooly County,182,Dooly County High School,American Literature and Composition,89,89,15,TFS,1039.5
+2016,School Level,647,Dougherty County,101,Albany Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,647,Dougherty County,103,Robert A. Cross Middle Magnet,9th Grade Literature and Composition,11,11,10,TFS,1379.5
+2016,School Level,647,Dougherty County,106,Radium Springs Middle School,9th Grade Literature and Composition,24,24,18,TFS,1228.1
+2016,School Level,647,Dougherty County,1050,Albany High School,9th Grade Literature and Composition,242,242,96,TFS,1112
+2016,School Level,647,Dougherty County,1050,Albany High School,American Literature and Composition,186,186,82,TFS,1242.2
+2016,School Level,647,Dougherty County,1058,Monroe High School,9th Grade Literature and Composition,263,263,72,TFS,1030
+2016,School Level,647,Dougherty County,1058,Monroe High School,American Literature and Composition,240,240,66,TFS,1122.6
+2016,School Level,647,Dougherty County,2052,Dougherty Comprehensive High School,9th Grade Literature and Composition,269,269,86,TFS,1065.5
+2016,School Level,647,Dougherty County,2052,Dougherty Comprehensive High School,American Literature and Composition,256,256,62,TFS,1111.6
+2016,School Level,647,Dougherty County,4062,Westover High School,9th Grade Literature and Composition,367,367,180,TFS,1158.1
+2016,School Level,647,Dougherty County,4062,Westover High School,American Literature and Composition,289,289,125,TFS,1225.8
+2016,School Level,648,Douglas County,100,Chapel Hill High School,9th Grade Literature and Composition,411,411,292,TFS,1252.9
+2016,School Level,648,Douglas County,100,Chapel Hill High School,American Literature and Composition,357,357,236,TFS,1340.8
+2016,School Level,648,Douglas County,175,Lithia Springs Comprehensive High School,9th Grade Literature and Composition,447,445,249,TFS,1172.7
+2016,School Level,648,Douglas County,175,Lithia Springs Comprehensive High School,American Literature and Composition,361,361,191,TFS,1274.6
+2016,School Level,648,Douglas County,187,Alexander High School,9th Grade Literature and Composition,423,423,278,TFS,1229.8
+2016,School Level,648,Douglas County,187,Alexander High School,American Literature and Composition,395,395,270,TFS,1384.8
+2016,School Level,648,Douglas County,212,New Manchester High School,9th Grade Literature and Composition,473,472,251,TFS,1167.2
+2016,School Level,648,Douglas County,212,New Manchester High School,American Literature and Composition,463,463,241,TFS,1265.4
+2016,School Level,648,Douglas County,507,Youth Villages at Inner Harbour,9th Grade Literature and Composition,23,23,TFS,TFS,1072.2
+2016,School Level,648,Douglas County,507,Youth Villages at Inner Harbour,American Literature and Composition,,,,,
+2016,School Level,648,Douglas County,4050,Douglas County High School,9th Grade Literature and Composition,539,539,342,TFS,1232.7
+2016,School Level,648,Douglas County,4050,Douglas County High School,American Literature and Composition,478,477,309,TFS,1383
+2016,School Level,649,Early County,2050,Early County High School,9th Grade Literature and Composition,152,152,75,TFS,1165
+2016,School Level,649,Early County,2050,Early County High School,American Literature and Composition,145,145,54,TFS,1187.1
+2016,School Level,650,Echols County,1050,Echols County High School,9th Grade Literature and Composition,74,74,46,TFS,1209.4
+2016,School Level,650,Echols County,1050,Echols County High School,American Literature and Composition,54,54,28,TFS,1269.1
+2016,School Level,651,Effingham County,197,South Effingham High School,9th Grade Literature and Composition,437,436,353,TFS,1312.8
+2016,School Level,651,Effingham County,197,South Effingham High School,American Literature and Composition,369,368,275,TFS,1425.7
+2016,School Level,651,Effingham County,390,Effingham County High School,9th Grade Literature and Composition,500,500,365,TFS,1287.4
+2016,School Level,651,Effingham County,390,Effingham County High School,American Literature and Composition,456,455,336,TFS,1411.2
+2016,School Level,652,Elbert County,112,Elberton Education Center,9th Grade Literature and Composition,16,16,TFS,TFS,1000.6
+2016,School Level,652,Elbert County,112,Elberton Education Center,American Literature and Composition,,,,,
+2016,School Level,652,Elbert County,176,Elbert County High School,9th Grade Literature and Composition,226,226,106,TFS,1143.9
+2016,School Level,652,Elbert County,176,Elbert County High School,American Literature and Composition,192,192,86,TFS,1218.5
+2016,School Level,653,Emanuel County,189,Swainsboro High School,9th Grade Literature and Composition,203,203,80,TFS,1098.5
+2016,School Level,653,Emanuel County,189,Swainsboro High School,American Literature and Composition,148,148,68,TFS,1261.5
+2016,School Level,653,Emanuel County,2050,Emanuel County Institute,9th Grade Literature and Composition,109,109,66,TFS,1200.5
+2016,School Level,653,Emanuel County,2050,Emanuel County Institute,American Literature and Composition,91,91,44,TFS,1272.7
+2016,School Level,654,Evans County,2050,Claxton High School,9th Grade Literature and Composition,119,119,68,TFS,1179.8
+2016,School Level,654,Evans County,2050,Claxton High School,American Literature and Composition,82,82,25,TFS,1169.6
+2016,School Level,655,Fannin County,176,Fannin County High School,9th Grade Literature and Composition,258,258,173,TFS,1250.4
+2016,School Level,655,Fannin County,176,Fannin County High School,American Literature and Composition,274,274,154,TFS,1299.1
+2016,School Level,656,Fayette County,105,Whitewater High School,9th Grade Literature and Composition,345,345,282,TFS,1342.2
+2016,School Level,656,Fayette County,105,Whitewater High School,American Literature and Composition,355,355,276,TFS,1431.5
+2016,School Level,656,Fayette County,182,McIntosh High School,9th Grade Literature and Composition,445,445,403,TFS,1406.1
+2016,School Level,656,Fayette County,182,McIntosh High School,American Literature and Composition,407,407,347,TFS,1517.7
+2016,School Level,656,Fayette County,192,Sandy Creek High School,9th Grade Literature and Composition,356,356,248,TFS,1253
+2016,School Level,656,Fayette County,192,Sandy Creek High School,American Literature and Composition,293,293,199,TFS,1386.2
+2016,School Level,656,Fayette County,198,Starrs Mill High School,9th Grade Literature and Composition,349,349,312,TFS,1391.9
+2016,School Level,656,Fayette County,198,Starrs Mill High School,American Literature and Composition,339,339,304,TFS,1529.7
+2016,School Level,656,Fayette County,398,Fayette County High School,9th Grade Literature and Composition,375,375,248,TFS,1237.9
+2016,School Level,656,Fayette County,398,Fayette County High School,American Literature and Composition,314,314,207,TFS,1357.5
+2016,School Level,657,Floyd County,103,Coosa Middle School,9th Grade Literature and Composition,21,21,21,TFS,1374.5
+2016,School Level,657,Floyd County,107,Pepperell High School,9th Grade Literature and Composition,217,217,128,TFS,1197.8
+2016,School Level,657,Floyd County,107,Pepperell High School,American Literature and Composition,203,203,92,TFS,1245.3
+2016,School Level,657,Floyd County,111,Model High,9th Grade Literature and Composition,170,170,87,TFS,1177.5
+2016,School Level,657,Floyd County,111,Model High,American Literature and Composition,152,152,101,TFS,1379.5
+2016,School Level,657,Floyd County,203,Model Middle School,9th Grade Literature and Composition,25,25,24,TFS,1450.6
+2016,School Level,657,Floyd County,273,Pepperell Middle School,9th Grade Literature and Composition,24,24,24,TFS,1510.2
+2016,School Level,657,Floyd County,303,Armuchee Middle School,9th Grade Literature and Composition,12,12,12,TFS,1487.1
+2016,School Level,657,Floyd County,401,Armuchee High School,9th Grade Literature and Composition,121,121,88,TFS,1257.7
+2016,School Level,657,Floyd County,401,Armuchee High School,American Literature and Composition,115,115,85,TFS,1395.3
+2016,School Level,657,Floyd County,5050,Coosa High School,9th Grade Literature and Composition,197,197,111,TFS,1183.4
+2016,School Level,657,Floyd County,5050,Coosa High School,American Literature and Composition,159,159,69,TFS,1231.3
+2016,School Level,658,Forsyth County,107,West Forsyth High School,9th Grade Literature and Composition,637,636,547,TFS,1371
+2016,School Level,658,Forsyth County,107,West Forsyth High School,American Literature and Composition,586,585,493,TFS,1492.4
+2016,School Level,658,Forsyth County,190,South Forsyth High School,9th Grade Literature and Composition,857,857,769,TFS,1391.2
+2016,School Level,658,Forsyth County,190,South Forsyth High School,American Literature and Composition,735,735,650,TFS,1533.6
+2016,School Level,658,Forsyth County,195,North Forsyth High School,9th Grade Literature and Composition,614,613,489,TFS,1312.6
+2016,School Level,658,Forsyth County,195,North Forsyth High School,American Literature and Composition,613,611,482,TFS,1451
+2016,School Level,658,Forsyth County,214,Lambert High School,9th Grade Literature and Composition,836,835,785,TFS,1420.9
+2016,School Level,658,Forsyth County,214,Lambert High School,American Literature and Composition,711,708,651,TFS,1562.9
+2016,School Level,658,Forsyth County,219,Forsyth Virtual Academy,9th Grade Literature and Composition,12,12,11,TFS,1314.6
+2016,School Level,658,Forsyth County,219,Forsyth Virtual Academy,American Literature and Composition,22,22,15,TFS,1438.6
+2016,School Level,658,Forsyth County,5050,Forsyth Central High School,9th Grade Literature and Composition,630,628,499,TFS,1329.5
+2016,School Level,658,Forsyth County,5050,Forsyth Central High School,American Literature and Composition,495,492,364,TFS,1432.3
+2016,School Level,659,Franklin County,3050,Franklin County High School,9th Grade Literature and Composition,264,264,182,TFS,1227.3
+2016,School Level,659,Franklin County,3050,Franklin County High School,American Literature and Composition,250,249,128,TFS,1283.5
+2016,School Level,660,Fulton County,105,Hopewell Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,660,Fulton County,106,Milton High School,9th Grade Literature and Composition,583,582,506,TFS,1394.1
+2016,School Level,660,Fulton County,106,Milton High School,American Literature and Composition,534,534,444,TFS,1484.8
+2016,School Level,660,Fulton County,107,Renaissance Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,660,Fulton County,118,Hapeville Charter Career Academy,9th Grade Literature and Composition,169,169,46,TFS,1035.3
+2016,School Level,660,Fulton County,118,Hapeville Charter Career Academy,American Literature and Composition,171,171,53,TFS,1130.3
+2016,School Level,660,Fulton County,119,Cambridge High School,9th Grade Literature and Composition,492,491,449,TFS,1396.9
+2016,School Level,660,Fulton County,119,Cambridge High School,American Literature and Composition,504,504,435,TFS,1509.7
+2016,School Level,660,Fulton County,176,Banneker High School,9th Grade Literature and Composition,445,445,156,TFS,1053.3
+2016,School Level,660,Fulton County,176,Banneker High School,American Literature and Composition,305,305,87,TFS,1115.3
+2016,School Level,660,Fulton County,184,Crabapple Middle School,9th Grade Literature and Composition,12,12,12,TFS,1491.7
+2016,School Level,660,Fulton County,186,Camp Creek Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,660,Fulton County,189,McNair Middle School,9th Grade Literature and Composition,13,13,10,TFS,1301.9
+2016,School Level,660,Fulton County,191,Roswell High School,9th Grade Literature and Composition,565,563,465,TFS,1351.9
+2016,School Level,660,Fulton County,191,Roswell High School,American Literature and Composition,519,519,396,TFS,1451.8
+2016,School Level,660,Fulton County,198,Centennial High School,9th Grade Literature and Composition,470,469,348,TFS,1297.8
+2016,School Level,660,Fulton County,198,Centennial High School,American Literature and Composition,495,494,349,TFS,1400.4
+2016,School Level,660,Fulton County,203,Northview High School,9th Grade Literature and Composition,464,464,428,TFS,1440.5
+2016,School Level,660,Fulton County,203,Northview High School,American Literature and Composition,432,432,388,TFS,1575.9
+2016,School Level,660,Fulton County,204,KIPP South Fulton Academy School,9th Grade Literature and Composition,27,27,27,TFS,1492.6
+2016,School Level,660,Fulton County,205,Alpharetta High School,9th Grade Literature and Composition,506,506,442,TFS,1402.8
+2016,School Level,660,Fulton County,205,Alpharetta High School,American Literature and Composition,481,481,407,TFS,1524.1
+2016,School Level,660,Fulton County,284,Holcomb Bridge Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,660,Fulton County,289,Woodland Middle School,9th Grade Literature and Composition,44,44,23,TFS,1206.1
+2016,School Level,660,Fulton County,291,Creekside High School,9th Grade Literature and Composition,502,502,220,TFS,1112.9
+2016,School Level,660,Fulton County,291,Creekside High School,American Literature and Composition,388,388,195,TFS,1238.1
+2016,School Level,660,Fulton County,302,Elkins Pointe Middle School,9th Grade Literature and Composition,18,18,12,TFS,1221.7
+2016,School Level,660,Fulton County,305,Autrey Mill Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,660,Fulton County,307,Georgia Baptist Children's Home and Family Ministries,9th Grade Literature and Composition,,,,,
+2016,School Level,660,Fulton County,383,McClarin High School,9th Grade Literature and Composition,57,54,13,TFS,1044.2
+2016,School Level,660,Fulton County,383,McClarin High School,American Literature and Composition,131,127,18,TFS,1049.5
+2016,School Level,660,Fulton County,386,Independence High School,9th Grade Literature and Composition,18,18,12,TFS,1159.2
+2016,School Level,660,Fulton County,386,Independence High School,American Literature and Composition,88,88,38,TFS,1244.8
+2016,School Level,660,Fulton County,391,Bear Creek Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,660,Fulton County,392,Chattahoochee High School,9th Grade Literature and Composition,539,539,487,TFS,1415.8
+2016,School Level,660,Fulton County,392,Chattahoochee High School,American Literature and Composition,481,481,433,TFS,1552.4
+2016,School Level,660,Fulton County,505,Sandtown Middle School,9th Grade Literature and Composition,40,40,39,TFS,1382.8
+2016,School Level,660,Fulton County,603,Sandy Springs Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,660,Fulton County,605,Hapeville Charter Middle School,9th Grade Literature and Composition,52,52,43,TFS,1281.2
+2016,School Level,660,Fulton County,691,Tri-Cities High School,9th Grade Literature and Composition,445,445,153,TFS,1085.1
+2016,School Level,660,Fulton County,691,Tri-Cities High School,American Literature and Composition,372,372,165,TFS,1240.2
+2016,School Level,660,Fulton County,910,Johns Creek High School,9th Grade Literature and Composition,535,534,472,TFS,1386.7
+2016,School Level,660,Fulton County,910,Johns Creek High School,American Literature and Composition,491,491,423,TFS,1538.8
+2016,School Level,660,Fulton County,1110,Langston Hughes High School,9th Grade Literature and Composition,532,532,210,TFS,1105.6
+2016,School Level,660,Fulton County,1110,Langston Hughes High School,American Literature and Composition,500,500,215,TFS,1210.4
+2016,School Level,660,Fulton County,3066,Riverwood International Charter School,9th Grade Literature and Composition,412,411,281,TFS,1264.7
+2016,School Level,660,Fulton County,3066,Riverwood International Charter School,American Literature and Composition,348,348,254,TFS,1412.3
+2016,School Level,660,Fulton County,4062,North Springs High School,9th Grade Literature and Composition,418,415,302,TFS,1278.6
+2016,School Level,660,Fulton County,4062,North Springs High School,American Literature and Composition,399,399,282,TFS,1401.3
+2016,School Level,660,Fulton County,5069,Westlake High School,9th Grade Literature and Composition,529,528,300,TFS,1177.9
+2016,School Level,660,Fulton County,5069,Westlake High School,American Literature and Composition,576,576,334,TFS,1323.6
+2016,School Level,661,Gilmer County,196,Gilmer High School,9th Grade Literature and Composition,397,397,206,TFS,1146.1
+2016,School Level,661,Gilmer County,196,Gilmer High School,American Literature and Composition,285,285,169,TFS,1313.4
+2016,School Level,662,Glascock County,196,Glascock County Consolidated School,9th Grade Literature and Composition,49,49,36,TFS,1222.8
+2016,School Level,662,Glascock County,196,Glascock County Consolidated School,American Literature and Composition,47,47,27,TFS,1333.3
+2016,School Level,663,Glynn County,107,"Morningstar Treatment Services, Inc. Youth Estate",9th Grade Literature and Composition,10,10,TFS,TFS,823
+2016,School Level,663,Glynn County,3552,Brunswick High School,9th Grade Literature and Composition,515,515,329,TFS,1211.3
+2016,School Level,663,Glynn County,3552,Brunswick High School,American Literature and Composition,432,432,227,TFS,1292.4
+2016,School Level,663,Glynn County,4752,Glynn Academy,9th Grade Literature and Composition,473,473,345,TFS,1272.1
+2016,School Level,663,Glynn County,4752,Glynn Academy,American Literature and Composition,456,456,282,TFS,1346
+2016,School Level,664,Gordon County,106,Sonoraville High School,9th Grade Literature and Composition,291,291,176,TFS,1214.2
+2016,School Level,664,Gordon County,106,Sonoraville High School,American Literature and Composition,237,237,124,TFS,1305.1
+2016,School Level,664,Gordon County,286,Gordon Central High School,9th Grade Literature and Composition,253,253,159,TFS,1196.4
+2016,School Level,664,Gordon County,286,Gordon Central High School,American Literature and Composition,208,208,98,TFS,1276.8
+2016,School Level,665,Grady County,174,Washington Middle School,9th Grade Literature and Composition,34,34,31,TFS,1363.8
+2016,School Level,665,Grady County,1050,Cairo High School,9th Grade Literature and Composition,287,287,133,TFS,1123.5
+2016,School Level,665,Grady County,1050,Cairo High School,American Literature and Composition,259,258,144,TFS,1285.9
+2016,School Level,666,Greene County,109,LAKE OCONEE CHARTER,9th Grade Literature and Composition,44,44,39,TFS,1438.2
+2016,School Level,666,Greene County,109,LAKE OCONEE CHARTER,American Literature and Composition,13,13,13,TFS,1606.2
+2016,School Level,666,Greene County,401,Greene County High School,9th Grade Literature and Composition,123,122,42,TFS,1114
+2016,School Level,666,Greene County,401,Greene County High School,American Literature and Composition,114,114,32,TFS,1141.7
+2016,School Level,667,Gwinnett County,101,Grayson High School,9th Grade Literature and Composition,713,712,557,TFS,1310.5
+2016,School Level,667,Gwinnett County,101,Grayson High School,American Literature and Composition,739,736,538,TFS,1411.1
+2016,School Level,667,Gwinnett County,103,Norcross High School,9th Grade Literature and Composition,1031,1029,670,TFS,1231.3
+2016,School Level,667,Gwinnett County,103,Norcross High School,American Literature and Composition,866,863,539,TFS,1335.6
+2016,School Level,667,Gwinnett County,105,Mill Creek High School,9th Grade Literature and Composition,1005,1005,869,TFS,1353.2
+2016,School Level,667,Gwinnett County,105,Mill Creek High School,American Literature and Composition,1024,1018,848,TFS,1487.7
+2016,School Level,667,Gwinnett County,108,Trickum Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,667,Gwinnett County,176,Parkview High School,9th Grade Literature and Composition,755,755,565,TFS,1280.6
+2016,School Level,667,Gwinnett County,176,Parkview High School,American Literature and Composition,715,705,516,10,1423
+2016,School Level,667,Gwinnett County,182,Brookwood High School,9th Grade Literature and Composition,907,907,753,TFS,1352
+2016,School Level,667,Gwinnett County,182,Brookwood High School,American Literature and Composition,833,832,674,TFS,1474.9
+2016,School Level,667,Gwinnett County,185,Shiloh High School,9th Grade Literature and Composition,658,658,387,TFS,1199.7
+2016,School Level,667,Gwinnett County,185,Shiloh High School,American Literature and Composition,583,580,343,TFS,1311.9
+2016,School Level,667,Gwinnett County,187,Meadowcreek High School,9th Grade Literature and Composition,865,853,446,12,1159.1
+2016,School Level,667,Gwinnett County,187,Meadowcreek High School,American Literature and Composition,705,679,351,27,1261.1
+2016,School Level,667,Gwinnett County,189,Phoenix High School,9th Grade Literature and Composition,53,53,31,TFS,1191.1
+2016,School Level,667,Gwinnett County,189,Phoenix High School,American Literature and Composition,109,108,54,TFS,1265.1
+2016,School Level,667,Gwinnett County,195,Collins Hill High School,9th Grade Literature and Composition,766,765,576,TFS,1301.7
+2016,School Level,667,Gwinnett County,195,Collins Hill High School,American Literature and Composition,747,746,565,TFS,1422.1
+2016,School Level,667,Gwinnett County,276,Sweetwater Middle School,9th Grade Literature and Composition,90,90,52,TFS,1203.6
+2016,School Level,667,Gwinnett County,388,Gwinnett InterVention Education (GIVE) Center East,9th Grade Literature and Composition,112,98,30,14,1053
+2016,School Level,667,Gwinnett County,388,Gwinnett InterVention Education (GIVE) Center East,American Literature and Composition,62,58,16,TFS,1139.1
+2016,School Level,667,Gwinnett County,805,Peachtree Ridge High School,9th Grade Literature and Composition,819,819,659,TFS,1316.7
+2016,School Level,667,Gwinnett County,805,Peachtree Ridge High School,American Literature and Composition,793,788,612,TFS,1437.4
+2016,School Level,667,Gwinnett County,1018,Lanier High School,9th Grade Literature and Composition,516,512,398,TFS,1288.3
+2016,School Level,667,Gwinnett County,1018,Lanier High School,American Literature and Composition,389,388,297,TFS,1414.8
+2016,School Level,667,Gwinnett County,1019,"Gwinnett School of Mathematics, Science and Technology",9th Grade Literature and Composition,270,270,267,TFS,1520.3
+2016,School Level,667,Gwinnett County,1019,"Gwinnett School of Mathematics, Science and Technology",American Literature and Composition,205,205,201,TFS,1679.3
+2016,School Level,667,Gwinnett County,1050,Berkmar High School,9th Grade Literature and Composition,699,662,395,37,1202
+2016,School Level,667,Gwinnett County,1050,Berkmar High School,American Literature and Composition,599,569,299,30,1302.2
+2016,School Level,667,Gwinnett County,1056,Lilburn Middle School,9th Grade Literature and Composition,75,75,42,TFS,1189.9
+2016,School Level,667,Gwinnett County,1112,Moore Middle School,9th Grade Literature and Composition,53,53,31,TFS,1178.9
+2016,School Level,667,Gwinnett County,1114,Gwinnett Intervention Education Center (GIVE) West,9th Grade Literature and Composition,71,65,22,TFS,1088.7
+2016,School Level,667,Gwinnett County,1114,Gwinnett Intervention Education Center (GIVE) West,American Literature and Composition,20,19,TFS,TFS,1158.2
+2016,School Level,667,Gwinnett County,1214,Gwinnett Online Campus,9th Grade Literature and Composition,41,40,37,TFS,1405.9
+2016,School Level,667,Gwinnett County,1214,Gwinnett Online Campus,American Literature and Composition,37,37,25,TFS,1419.6
+2016,School Level,667,Gwinnett County,1410,Mountain View High School,9th Grade Literature and Composition,554,553,447,TFS,1333.1
+2016,School Level,667,Gwinnett County,1410,Mountain View High School,American Literature and Composition,498,498,384,TFS,1439.2
+2016,School Level,667,Gwinnett County,1505,Radloff Middle School,9th Grade Literature and Composition,82,82,54,TFS,1227
+2016,School Level,667,Gwinnett County,1510,North Gwinnett Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,667,Gwinnett County,1710,Archer High School,9th Grade Literature and Composition,685,685,521,TFS,1307.9
+2016,School Level,667,Gwinnett County,1710,Archer High School,American Literature and Composition,641,640,471,TFS,1398.7
+2016,School Level,667,Gwinnett County,1814,Discovery High School,9th Grade Literature and Composition,734,686,436,48,1212.7
+2016,School Level,667,Gwinnett County,1814,Discovery High School,American Literature and Composition,493,456,248,38,1283.2
+2016,School Level,667,Gwinnett County,2558,South Gwinnett High School,9th Grade Literature and Composition,665,664,437,TFS,1230.9
+2016,School Level,667,Gwinnett County,2558,South Gwinnett High School,American Literature and Composition,596,586,334,10,1297.3
+2016,School Level,667,Gwinnett County,3750,Central Gwinnett High School,9th Grade Literature and Composition,540,532,323,TFS,1201.5
+2016,School Level,667,Gwinnett County,3750,Central Gwinnett High School,American Literature and Composition,563,555,329,TFS,1327.1
+2016,School Level,667,Gwinnett County,4052,Dacula High School,9th Grade Literature and Composition,565,563,390,TFS,1265.7
+2016,School Level,667,Gwinnett County,4052,Dacula High School,American Literature and Composition,528,526,368,TFS,1376.6
+2016,School Level,667,Gwinnett County,4556,North Gwinnett High School,9th Grade Literature and Composition,743,742,676,TFS,1408.9
+2016,School Level,667,Gwinnett County,4556,North Gwinnett High School,American Literature and Composition,688,688,600,TFS,1518.7
+2016,School Level,667,Gwinnett County,5550,Duluth High School,9th Grade Literature and Composition,693,693,504,TFS,1284.6
+2016,School Level,667,Gwinnett County,5550,Duluth High School,American Literature and Composition,626,621,409,TFS,1372.8
+2016,School Level,668,Habersham County,106,9th Grade Academy,9th Grade Literature and Composition,465,465,305,TFS,1231.3
+2016,School Level,668,Habersham County,114,Habersham Success Academy,9th Grade Literature and Composition,18,17,TFS,TFS,1101.5
+2016,School Level,668,Habersham County,114,Habersham Success Academy,American Literature and Composition,29,28,13,TFS,1271.3
+2016,School Level,668,Habersham County,2052,Habersham Central High School,9th Grade Literature and Composition,,,,,
+2016,School Level,668,Habersham County,2052,Habersham Central High School,American Literature and Composition,443,443,273,TFS,1359.9
+2016,School Level,669,Hall County,100,C. W. Davis Middle School,9th Grade Literature and Composition,72,72,72,TFS,1482.5
+2016,School Level,669,Hall County,102,Chestatee High School,9th Grade Literature and Composition,284,284,129,TFS,1134.4
+2016,School Level,669,Hall County,102,Chestatee High School,American Literature and Composition,288,288,164,TFS,1316.4
+2016,School Level,669,Hall County,105,Lanier Career Academy,9th Grade Literature and Composition,31,31,TFS,TFS,971.8
+2016,School Level,669,Hall County,105,Lanier Career Academy,American Literature and Composition,66,66,12,TFS,1063.9
+2016,School Level,669,Hall County,112,World Language Academy,9th Grade Literature and Composition,52,52,46,TFS,1402.2
+2016,School Level,669,Hall County,189,West Hall High School,9th Grade Literature and Composition,232,232,118,TFS,1141.2
+2016,School Level,669,Hall County,189,West Hall High School,American Literature and Composition,276,276,149,TFS,1299.2
+2016,School Level,669,Hall County,200,Chestatee Middle School,9th Grade Literature and Composition,109,109,95,TFS,1360.6
+2016,School Level,669,Hall County,202,Flowery Branch High,9th Grade Literature and Composition,323,323,203,TFS,1206.8
+2016,School Level,669,Hall County,202,Flowery Branch High,American Literature and Composition,382,382,265,TFS,1376.7
+2016,School Level,669,Hall County,289,East Hall Middle School,9th Grade Literature and Composition,48,48,47,TFS,1403.4
+2016,School Level,669,Hall County,294,West Hall Middle School,9th Grade Literature and Composition,60,60,51,TFS,1355
+2016,School Level,669,Hall County,389,North Hall Middle School,9th Grade Literature and Composition,92,92,89,TFS,1391.3
+2016,School Level,669,Hall County,1552,East Hall High School,9th Grade Literature and Composition,266,265,133,TFS,1137.7
+2016,School Level,669,Hall County,1552,East Hall High School,American Literature and Composition,248,247,132,TFS,1305.2
+2016,School Level,669,Hall County,1556,North Hall High School,9th Grade Literature and Composition,219,218,114,TFS,1170.3
+2016,School Level,669,Hall County,1556,North Hall High School,American Literature and Composition,257,257,169,TFS,1356
+2016,School Level,669,Hall County,4556,South Hall Middle School,9th Grade Literature and Composition,215,215,176,TFS,1329.5
+2016,School Level,669,Hall County,4752,Johnson High School,9th Grade Literature and Composition,260,260,116,TFS,1116.2
+2016,School Level,669,Hall County,4752,Johnson High School,American Literature and Composition,323,323,187,TFS,1329.3
+2016,School Level,670,Hancock County,288,Hancock Central High School,9th Grade Literature and Composition,78,78,25,TFS,1052.4
+2016,School Level,670,Hancock County,288,Hancock Central High School,American Literature and Composition,82,82,11,TFS,1048.5
+2016,School Level,671,Haralson County,3050,Haralson County High School,9th Grade Literature and Composition,295,293,148,TFS,1151.5
+2016,School Level,671,Haralson County,3050,Haralson County High School,American Literature and Composition,276,272,154,TFS,1304
+2016,School Level,672,Harris County,299,Harris County High School,9th Grade Literature and Composition,428,428,305,TFS,1260.1
+2016,School Level,672,Harris County,299,Harris County High School,American Literature and Composition,418,418,263,TFS,1367.9
+2016,School Level,673,Hart County,191,Hart County Middle School,9th Grade Literature and Composition,62,62,56,TFS,1373.7
+2016,School Level,673,Hart County,3050,Hart County High School,9th Grade Literature and Composition,263,263,155,TFS,1192.3
+2016,School Level,673,Hart County,3050,Hart County High School,American Literature and Composition,221,221,124,TFS,1292.4
+2016,School Level,674,Heard County,110,Heard County High School,9th Grade Literature and Composition,176,175,124,TFS,1233
+2016,School Level,674,Heard County,110,Heard County High School,American Literature and Composition,150,150,104,TFS,1369.6
+2016,School Level,675,Henry County,101,Union Grove High,9th Grade Literature and Composition,392,391,298,TFS,1300.8
+2016,School Level,675,Henry County,101,Union Grove High,American Literature and Composition,399,398,297,TFS,1437.5
+2016,School Level,675,Henry County,104,Luella High School,9th Grade Literature and Composition,289,289,178,TFS,1205.2
+2016,School Level,675,Henry County,104,Luella High School,American Literature and Composition,266,266,167,TFS,1328.2
+2016,School Level,675,Henry County,105,Dutchtown High,9th Grade Literature and Composition,359,359,229,TFS,1217.9
+2016,School Level,675,Henry County,105,Dutchtown High,American Literature and Composition,412,412,237,TFS,1311.2
+2016,School Level,675,Henry County,214,Locust Grove High,9th Grade Literature and Composition,383,383,218,TFS,1201.8
+2016,School Level,675,Henry County,214,Locust Grove High,American Literature and Composition,356,356,190,TFS,1293.8
+2016,School Level,675,Henry County,295,Stockbridge High School,9th Grade Literature and Composition,496,496,275,TFS,1176.6
+2016,School Level,675,Henry County,295,Stockbridge High School,American Literature and Composition,415,415,202,TFS,1281.4
+2016,School Level,675,Henry County,307,Ola High School,9th Grade Literature and Composition,445,445,323,TFS,1267.7
+2016,School Level,675,Henry County,307,Ola High School,American Literature and Composition,381,381,278,TFS,1391.8
+2016,School Level,675,Henry County,315,Hampton High School,9th Grade Literature and Composition,334,333,194,TFS,1167
+2016,School Level,675,Henry County,315,Hampton High School,American Literature and Composition,266,266,138,TFS,1284.7
+2016,School Level,675,Henry County,391,Eagle's Landing High School,9th Grade Literature and Composition,391,391,238,TFS,1203.3
+2016,School Level,675,Henry County,391,Eagle's Landing High School,American Literature and Composition,332,332,194,TFS,1323.7
+2016,School Level,675,Henry County,408,Woodland High School,9th Grade Literature and Composition,348,348,234,TFS,1244.3
+2016,School Level,675,Henry County,408,Woodland High School,American Literature and Composition,379,379,228,TFS,1326.9
+2016,School Level,675,Henry County,804,EXCEL Academy,9th Grade Literature and Composition,54,54,11,TFS,981.4
+2016,School Level,675,Henry County,804,EXCEL Academy,American Literature and Composition,62,62,TFS,TFS,1035.6
+2016,School Level,675,Henry County,3050,Henry County High School,9th Grade Literature and Composition,317,317,153,TFS,1153.3
+2016,School Level,675,Henry County,3050,Henry County High School,American Literature and Composition,242,241,98,TFS,1212.1
+2016,School Level,676,Houston County,111,Veterans High School,9th Grade Literature and Composition,382,381,300,TFS,1325.1
+2016,School Level,676,Houston County,111,Veterans High School,American Literature and Composition,342,342,270,TFS,1443
+2016,School Level,676,Houston County,116,Houston County Crossroads Center,9th Grade Literature and Composition,44,44,19,TFS,1101.9
+2016,School Level,676,Houston County,116,Houston County Crossroads Center,American Literature and Composition,27,27,TFS,TFS,1119.8
+2016,School Level,676,Houston County,192,Houston County High School,9th Grade Literature and Composition,475,475,365,TFS,1323.6
+2016,School Level,676,Houston County,192,Houston County High School,American Literature and Composition,423,423,326,TFS,1437.4
+2016,School Level,676,Houston County,1054,Perry High School,9th Grade Literature and Composition,359,359,245,TFS,1244.2
+2016,School Level,676,Houston County,1054,Perry High School,American Literature and Composition,316,316,198,TFS,1327.8
+2016,School Level,676,Houston County,2052,Northside High School,9th Grade Literature and Composition,475,475,277,TFS,1216.5
+2016,School Level,676,Houston County,2052,Northside High School,American Literature and Composition,464,464,261,TFS,1297.3
+2016,School Level,676,Houston County,4056,Warner Robins High School,9th Grade Literature and Composition,419,418,232,TFS,1203.4
+2016,School Level,676,Houston County,4056,Warner Robins High School,American Literature and Composition,357,356,195,TFS,1294.7
+2016,School Level,677,Irwin County,2050,Irwin County High School,9th Grade Literature and Composition,121,121,63,TFS,1155.9
+2016,School Level,677,Irwin County,2050,Irwin County High School,American Literature and Composition,94,94,35,TFS,1227.8
+2016,School Level,678,Jackson County,107,East Jackson Comprehensive High School,9th Grade Literature and Composition,215,215,143,TFS,1210.3
+2016,School Level,678,Jackson County,107,East Jackson Comprehensive High School,American Literature and Composition,206,206,115,TFS,1325.1
+2016,School Level,678,Jackson County,191,Jackson County High School,9th Grade Literature and Composition,229,229,154,TFS,1228.2
+2016,School Level,678,Jackson County,191,Jackson County High School,American Literature and Composition,268,266,183,TFS,1375.1
+2016,School Level,678,Jackson County,197,East Jackson Middle School,9th Grade Literature and Composition,39,39,39,TFS,1450
+2016,School Level,678,Jackson County,297,West Jackson Middle School,9th Grade Literature and Composition,100,100,98,TFS,1416.3
+2016,School Level,679,Jasper County,108,Jasper County High School,9th Grade Literature and Composition,202,202,121,TFS,1192.7
+2016,School Level,679,Jasper County,108,Jasper County High School,American Literature and Composition,150,150,64,TFS,1243.2
+2016,School Level,680,Jeff Davis County,199,Jeff Davis High School,9th Grade Literature and Composition,250,250,151,TFS,1200.6
+2016,School Level,680,Jeff Davis County,199,Jeff Davis High School,American Literature and Composition,219,219,119,TFS,1289.2
+2016,School Level,681,Jefferson County,196,Jefferson County High School,9th Grade Literature and Composition,195,195,83,TFS,1112.8
+2016,School Level,681,Jefferson County,196,Jefferson County High School,American Literature and Composition,162,162,62,TFS,1189.7
+2016,School Level,682,Jenkins County,201,Jenkins County High School,9th Grade Literature and Composition,82,81,32,TFS,1108.2
+2016,School Level,682,Jenkins County,201,Jenkins County High School,American Literature and Composition,103,103,46,TFS,1235.5
+2016,School Level,683,Johnson County,201,Johnson County High School,9th Grade Literature and Composition,95,95,44,TFS,1136.9
+2016,School Level,683,Johnson County,201,Johnson County High School,American Literature and Composition,69,69,32,TFS,1235.7
+2016,School Level,684,Jones County,101,Clifton Ridge Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,684,Jones County,106,Gray Station Middle School,9th Grade Literature and Composition,24,24,22,TFS,1296.3
+2016,School Level,684,Jones County,192,Jones County High School,9th Grade Literature and Composition,406,406,258,TFS,1231
+2016,School Level,684,Jones County,192,Jones County High School,American Literature and Composition,382,382,259,TFS,1381.9
+2016,School Level,685,Lamar County,175,Lamar County High School,9th Grade Literature and Composition,203,203,109,TFS,1188.7
+2016,School Level,685,Lamar County,175,Lamar County High School,American Literature and Composition,180,180,100,TFS,1290.1
+2016,School Level,685,Lamar County,199,Lamar County Middle School,9th Grade Literature and Composition,10,10,TFS,TFS,1398
+2016,School Level,686,Lanier County,201,Lanier County High School,9th Grade Literature and Composition,121,121,58,TFS,1135.3
+2016,School Level,686,Lanier County,201,Lanier County High School,American Literature and Composition,81,80,39,TFS,1269
+2016,School Level,687,Laurens County,110,West Laurens High School,9th Grade Literature and Composition,344,342,220,TFS,1228.9
+2016,School Level,687,Laurens County,110,West Laurens High School,American Literature and Composition,283,283,189,TFS,1381.6
+2016,School Level,687,Laurens County,197,East Laurens High School,9th Grade Literature and Composition,156,156,74,TFS,1132.3
+2016,School Level,687,Laurens County,197,East Laurens High School,American Literature and Composition,126,126,57,TFS,1259.5
+2016,School Level,688,Lee County,101,Lee County Middle School West,9th Grade Literature and Composition,,,,,
+2016,School Level,688,Lee County,114,Lee County Middle School East,9th Grade Literature and Composition,,,,,
+2016,School Level,688,Lee County,193,Lee County High School,9th Grade Literature and Composition,36,36,20,TFS,1199
+2016,School Level,688,Lee County,193,Lee County High School,American Literature and Composition,484,484,332,TFS,1379.1
+2016,School Level,688,Lee County,209,Lee High School 9th Grade Campus,9th Grade Literature and Composition,452,452,333,TFS,1277.9
+2016,School Level,689,Liberty County,105,Bradwell Institute,9th Grade Literature and Composition,473,473,273,TFS,1187.9
+2016,School Level,689,Liberty County,105,Bradwell Institute,American Literature and Composition,430,429,241,TFS,1306.2
+2016,School Level,689,Liberty County,192,Liberty County High School,9th Grade Literature and Composition,322,322,218,TFS,1232.3
+2016,School Level,689,Liberty County,192,Liberty County High School,American Literature and Composition,270,270,150,TFS,1302.4
+2016,School Level,690,Lincoln County,110,Lincoln County High School,9th Grade Literature and Composition,121,121,67,TFS,1167.4
+2016,School Level,690,Lincoln County,110,Lincoln County High School,American Literature and Composition,90,90,55,TFS,1332.3
+2016,School Level,691,Long County,205,Long County High School,9th Grade Literature and Composition,263,263,147,TFS,1175.9
+2016,School Level,691,Long County,205,Long County High School,American Literature and Composition,206,206,107,TFS,1279.4
+2016,School Level,692,Lowndes County,112,Pine Grove Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,692,Lowndes County,1052,Lowndes Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,692,Lowndes County,3050,Hahira Middle School,9th Grade Literature and Composition,16,16,16,TFS,1506.6
+2016,School Level,692,Lowndes County,5050,Lowndes High School,9th Grade Literature and Composition,832,828,573,TFS,1249.6
+2016,School Level,692,Lowndes County,5050,Lowndes High School,American Literature and Composition,753,753,474,TFS,1356.1
+2016,School Level,693,Lumpkin County,101,Lumpkin County High School,9th Grade Literature and Composition,233,233,143,TFS,1183.8
+2016,School Level,693,Lumpkin County,101,Lumpkin County High School,American Literature and Composition,254,254,162,TFS,1350.7
+2016,School Level,693,Lumpkin County,1050,Lumpkin County Middle School,9th Grade Literature and Composition,74,74,73,TFS,1475
+2016,School Level,694,Macon County,2060,Macon County High School,9th Grade Literature and Composition,117,117,43,TFS,1108.4
+2016,School Level,694,Macon County,2060,Macon County High School,American Literature and Composition,114,114,33,TFS,1117.5
+2016,School Level,695,Madison County,5050,Madison County High School,9th Grade Literature and Composition,372,372,251,TFS,1256.9
+2016,School Level,695,Madison County,5050,Madison County High School,American Literature and Composition,269,269,175,TFS,1353.3
+2016,School Level,696,Marion County,275,Marion County Middle/High School,9th Grade Literature and Composition,130,130,81,TFS,1172.6
+2016,School Level,696,Marion County,275,Marion County Middle/High School,American Literature and Composition,109,109,48,TFS,1250.9
+2016,School Level,697,McDuffie County,112,Thomson-McDuffie Middle School,9th Grade Literature and Composition,71,71,59,TFS,1293.9
+2016,School Level,697,McDuffie County,192,Thomson High School,9th Grade Literature and Composition,308,308,133,TFS,1117.7
+2016,School Level,697,McDuffie County,192,Thomson High School,American Literature and Composition,252,252,120,TFS,1259.9
+2016,School Level,698,McIntosh County,104,McIntosh Academy,9th Grade Literature and Composition,123,123,61,TFS,1161.6
+2016,School Level,698,McIntosh County,104,McIntosh Academy,American Literature and Composition,95,95,53,TFS,1285.3
+2016,School Level,699,Meriwether County,207,Good Sheperd Therapeutic Center,9th Grade Literature and Composition,,,,,
+2016,School Level,699,Meriwether County,207,Good Sheperd Therapeutic Center,American Literature and Composition,,,,,
+2016,School Level,699,Meriwether County,300,Greenville High School,9th Grade Literature and Composition,79,79,39,TFS,1139.7
+2016,School Level,699,Meriwether County,300,Greenville High School,American Literature and Composition,69,69,28,TFS,1178.8
+2016,School Level,699,Meriwether County,4050,Manchester High School,9th Grade Literature and Composition,106,106,34,TFS,1095.3
+2016,School Level,699,Meriwether County,4050,Manchester High School,American Literature and Composition,92,92,24,TFS,1137.2
+2016,School Level,700,Miller County,210,Miller County High School,9th Grade Literature and Composition,82,81,48,TFS,1214.7
+2016,School Level,700,Miller County,210,Miller County High School,American Literature and Composition,72,72,28,TFS,1232
+2016,School Level,701,Mitchell County,105,Baconton Community Charter School,9th Grade Literature and Composition,47,47,41,TFS,1297
+2016,School Level,701,Mitchell County,105,Baconton Community Charter School,American Literature and Composition,53,53,37,TFS,1377.9
+2016,School Level,701,Mitchell County,282,Mitchell County High School,9th Grade Literature and Composition,100,100,60,TFS,1192.7
+2016,School Level,701,Mitchell County,282,Mitchell County High School,American Literature and Composition,59,59,22,TFS,1254.3
+2016,School Level,702,Monroe County,184,Mary Persons High School,9th Grade Literature and Composition,298,298,190,TFS,1222.8
+2016,School Level,702,Monroe County,184,Mary Persons High School,American Literature and Composition,324,324,187,TFS,1301.1
+2016,School Level,703,Montgomery County,114,Z - Montgomery Academy,9th Grade Literature and Composition,26,26,21,TFS,1329
+2016,School Level,703,Montgomery County,114,Z - Montgomery Academy,American Literature and Composition,41,41,24,TFS,1352.2
+2016,School Level,703,Montgomery County,201,Montgomery County High School,9th Grade Literature and Composition,78,78,45,TFS,1160.3
+2016,School Level,703,Montgomery County,201,Montgomery County High School,American Literature and Composition,77,77,32,TFS,1210.4
+2016,School Level,704,Morgan County,1050,Morgan County High School,9th Grade Literature and Composition,234,234,159,TFS,1257.3
+2016,School Level,704,Morgan County,1050,Morgan County High School,American Literature and Composition,228,227,135,TFS,1346
+2016,School Level,705,Murray County,108,Pleasant Valley Innovative School,9th Grade Literature and Composition,72,72,21,TFS,1042.3
+2016,School Level,705,Murray County,108,Pleasant Valley Innovative School,American Literature and Composition,85,85,18,TFS,1028.8
+2016,School Level,705,Murray County,112,North Murray High School,9th Grade Literature and Composition,262,262,169,TFS,1221.7
+2016,School Level,705,Murray County,112,North Murray High School,American Literature and Composition,229,229,120,TFS,1282.2
+2016,School Level,705,Murray County,190,Murray County High School,9th Grade Literature and Composition,276,276,165,TFS,1204.1
+2016,School Level,705,Murray County,190,Murray County High School,American Literature and Composition,204,204,93,TFS,1249.7
+2016,School Level,705,Murray County,204,Bagley Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,706,Muscogee County,112,Early College Academy of Columbus at Waverly Terrace,9th Grade Literature and Composition,45,45,37,TFS,1276.6
+2016,School Level,706,Muscogee County,112,Early College Academy of Columbus at Waverly Terrace,American Literature and Composition,40,40,31,TFS,1430.3
+2016,School Level,706,Muscogee County,203,Northside High School,9th Grade Literature and Composition,382,382,286,TFS,1267.8
+2016,School Level,706,Muscogee County,203,Northside High School,American Literature and Composition,294,294,223,TFS,1378.2
+2016,School Level,706,Muscogee County,278,Shaw High School,9th Grade Literature and Composition,326,326,180,TFS,1182.2
+2016,School Level,706,Muscogee County,278,Shaw High School,American Literature and Composition,271,271,167,TFS,1320.8
+2016,School Level,706,Muscogee County,378,Spencer High School,9th Grade Literature and Composition,221,221,79,TFS,1076.9
+2016,School Level,706,Muscogee County,378,Spencer High School,American Literature and Composition,204,204,90,TFS,1224.8
+2016,School Level,706,Muscogee County,1064,Kendrick High School,9th Grade Literature and Composition,274,274,100,TFS,1073.3
+2016,School Level,706,Muscogee County,1064,Kendrick High School,American Literature and Composition,204,204,69,TFS,1180
+2016,School Level,706,Muscogee County,2062,Hardaway High School,9th Grade Literature and Composition,378,378,219,TFS,1192
+2016,School Level,706,Muscogee County,2062,Hardaway High School,American Literature and Composition,310,310,174,TFS,1306.1
+2016,School Level,706,Muscogee County,3054,Columbus High School,9th Grade Literature and Composition,324,324,319,TFS,1446
+2016,School Level,706,Muscogee County,3054,Columbus High School,American Literature and Composition,306,306,302,TFS,1611.3
+2016,School Level,706,Muscogee County,5052,Carver High School,9th Grade Literature and Composition,329,329,110,TFS,1077.6
+2016,School Level,706,Muscogee County,5052,Carver High School,American Literature and Composition,257,257,95,TFS,1196.7
+2016,School Level,706,Muscogee County,5062,Jordan Vocational High School,9th Grade Literature and Composition,228,228,86,TFS,1100
+2016,School Level,706,Muscogee County,5062,Jordan Vocational High School,American Literature and Composition,171,170,75,TFS,1244.3
+2016,School Level,707,Newton County,173,Newton High School,9th Grade Literature and Composition,677,677,428,TFS,1200.3
+2016,School Level,707,Newton County,173,Newton High School,American Literature and Composition,513,513,278,TFS,1293.2
+2016,School Level,707,Newton County,206,Alcovy High School,9th Grade Literature and Composition,534,534,346,TFS,1216.9
+2016,School Level,707,Newton County,206,Alcovy High School,American Literature and Composition,464,464,290,TFS,1335.6
+2016,School Level,707,Newton County,295,Eastside High School,9th Grade Literature and Composition,356,356,256,TFS,1274.3
+2016,School Level,707,Newton County,295,Eastside High School,American Literature and Composition,343,343,235,TFS,1359.9
+2016,School Level,708,Oconee County,105,North Oconee High School,9th Grade Literature and Composition,313,313,263,TFS,1357.4
+2016,School Level,708,Oconee County,105,North Oconee High School,American Literature and Composition,306,306,258,TFS,1497
+2016,School Level,708,Oconee County,293,Oconee County High School,9th Grade Literature and Composition,312,312,258,TFS,1358.6
+2016,School Level,708,Oconee County,293,Oconee County High School,American Literature and Composition,279,279,226,TFS,1491.8
+2016,School Level,709,Oglethorpe County,2050,Oglethorpe County High School,9th Grade Literature and Composition,172,172,112,TFS,1242.2
+2016,School Level,709,Oglethorpe County,2050,Oglethorpe County High School,American Literature and Composition,141,141,71,TFS,1298.3
+2016,School Level,710,Paulding County,101,Hiram High School,9th Grade Literature and Composition,333,333,161,TFS,1145
+2016,School Level,710,Paulding County,101,Hiram High School,American Literature and Composition,399,399,221,TFS,1316.1
+2016,School Level,710,Paulding County,106,South Paulding High School,9th Grade Literature and Composition,399,399,198,TFS,1138.7
+2016,School Level,710,Paulding County,106,South Paulding High School,American Literature and Composition,437,437,259,TFS,1328.8
+2016,School Level,710,Paulding County,108,Sammy McClure Sr. Middle School,9th Grade Literature and Composition,130,130,125,TFS,1425
+2016,School Level,710,Paulding County,109,North Paulding High School,9th Grade Literature and Composition,406,406,256,TFS,1207.5
+2016,School Level,710,Paulding County,109,North Paulding High School,American Literature and Composition,518,518,370,TFS,1400.3
+2016,School Level,710,Paulding County,192,South Paulding Middle School,9th Grade Literature and Composition,33,33,33,TFS,1468.5
+2016,School Level,710,Paulding County,201,Lena Mae Moses Middle School,9th Grade Literature and Composition,47,47,46,TFS,1455
+2016,School Level,710,Paulding County,213,P. B. Ritch Middle School,9th Grade Literature and Composition,54,54,51,TFS,1360.5
+2016,School Level,710,Paulding County,292,East Paulding High School,9th Grade Literature and Composition,365,364,202,TFS,1168.4
+2016,School Level,710,Paulding County,292,East Paulding High School,American Literature and Composition,384,383,245,TFS,1351.2
+2016,School Level,710,Paulding County,297,J. A. Dobbins Middle School,9th Grade Literature and Composition,88,88,80,TFS,1348.9
+2016,School Level,710,Paulding County,394,East Paulding Middle School,9th Grade Literature and Composition,94,94,91,TFS,1367.8
+2016,School Level,710,Paulding County,404,Irma C. Austin Middle School,9th Grade Literature and Composition,65,65,62,TFS,1413.7
+2016,School Level,710,Paulding County,410,Carl Scoggins Sr. Middle school,9th Grade Literature and Composition,44,44,43,TFS,1342.5
+2016,School Level,710,Paulding County,2352,Herschel Jones Middle School,9th Grade Literature and Composition,58,58,53,TFS,1389.4
+2016,School Level,710,Paulding County,2552,Paulding County High School,9th Grade Literature and Composition,394,394,188,TFS,1138.6
+2016,School Level,710,Paulding County,2552,Paulding County High School,American Literature and Composition,501,501,284,TFS,1309.6
+2016,School Level,711,Peach County,2052,Peach County High School,9th Grade Literature and Composition,254,254,143,TFS,1175.9
+2016,School Level,711,Peach County,2052,Peach County High School,American Literature and Composition,246,246,139,TFS,1299.8
+2016,School Level,712,Pickens County,198,Pickens County High School,9th Grade Literature and Composition,400,400,258,TFS,1237.4
+2016,School Level,712,Pickens County,198,Pickens County High School,American Literature and Composition,316,316,191,TFS,1343.9
+2016,School Level,713,Pierce County,182,Pierce County High School,9th Grade Literature and Composition,273,273,180,TFS,1251.6
+2016,School Level,713,Pierce County,182,Pierce County High School,American Literature and Composition,241,241,143,TFS,1336.3
+2016,School Level,714,Pike County,194,Pike County High School,9th Grade Literature and Composition,271,271,155,TFS,1183
+2016,School Level,714,Pike County,194,Pike County High School,American Literature and Composition,248,248,151,TFS,1343.1
+2016,School Level,714,Pike County,195,Pike County Middle School,9th Grade Literature and Composition,51,51,48,TFS,1418.6
+2016,School Level,715,Polk County,102,Rockmart High School,9th Grade Literature and Composition,137,137,55,TFS,1101.8
+2016,School Level,715,Polk County,102,Rockmart High School,American Literature and Composition,197,197,114,TFS,1317
+2016,School Level,715,Polk County,103,Cedartown Middle School,9th Grade Literature and Composition,112,112,96,TFS,1317.5
+2016,School Level,715,Polk County,104,Rockmart Middle School,9th Grade Literature and Composition,86,86,68,TFS,1327
+2016,School Level,715,Polk County,207,Harpst Academy,9th Grade Literature and Composition,16,16,TFS,TFS,1095.6
+2016,School Level,715,Polk County,207,Harpst Academy,American Literature and Composition,,,,,
+2016,School Level,715,Polk County,5050,Cedartown High School,9th Grade Literature and Composition,267,267,135,TFS,1137.6
+2016,School Level,715,Polk County,5050,Cedartown High School,American Literature and Composition,294,294,155,TFS,1277.6
+2016,School Level,716,Pulaski County,2050,Hawkinsville High School,9th Grade Literature and Composition,119,119,57,TFS,1138.8
+2016,School Level,716,Pulaski County,2050,Hawkinsville High School,American Literature and Composition,84,84,33,TFS,1258.8
+2016,School Level,717,Putnam County,111,Putnam County Middle School,9th Grade Literature and Composition,11,11,10,TFS,1430
+2016,School Level,717,Putnam County,114,Putnam County High School,9th Grade Literature and Composition,188,183,131,TFS,1230.8
+2016,School Level,717,Putnam County,114,Putnam County High School,American Literature and Composition,184,184,117,TFS,1338.2
+2016,School Level,718,Quitman County,110,Quitman County High School,9th Grade Literature and Composition,34,34,TFS,TFS,1062.2
+2016,School Level,718,Quitman County,110,Quitman County High School,American Literature and Composition,15,15,TFS,TFS,1274.3
+2016,School Level,719,Rabun County,177,Rabun County High School,9th Grade Literature and Composition,192,192,109,TFS,1196
+2016,School Level,719,Rabun County,177,Rabun County High School,American Literature and Composition,164,164,97,TFS,1318.9
+2016,School Level,720,Randolph County,201,Randolph Clay High School,9th Grade Literature and Composition,65,65,21,TFS,1087.5
+2016,School Level,720,Randolph County,201,Randolph Clay High School,American Literature and Composition,78,78,18,TFS,1098.8
+2016,School Level,721,Richmond County,100,Cross Creek High School,9th Grade Literature and Composition,322,321,149,TFS,1134.8
+2016,School Level,721,Richmond County,100,Cross Creek High School,American Literature and Composition,245,245,99,TFS,1203.6
+2016,School Level,721,Richmond County,107,Lighthouse Care Center of Augusta,9th Grade Literature and Composition,,,,,
+2016,School Level,721,Richmond County,107,Lighthouse Care Center of Augusta,American Literature and Composition,,,,,
+2016,School Level,721,Richmond County,213,Richmond County Technical Career Magnet School,9th Grade Literature and Composition,100,100,80,TFS,1261.6
+2016,School Level,721,Richmond County,213,Richmond County Technical Career Magnet School,American Literature and Composition,82,82,64,TFS,1389
+2016,School Level,721,Richmond County,391,Alternative Education Center at Lamar,9th Grade Literature and Composition,41,41,TFS,TFS,886.2
+2016,School Level,721,Richmond County,391,Alternative Education Center at Lamar,American Literature and Composition,25,25,TFS,TFS,993.2
+2016,School Level,721,Richmond County,392,Performance Learning Center,9th Grade Literature and Composition,18,18,TFS,TFS,1024.7
+2016,School Level,721,Richmond County,392,Performance Learning Center,American Literature and Composition,26,26,TFS,TFS,975
+2016,School Level,721,Richmond County,1052,Butler High School,9th Grade Literature and Composition,221,221,63,TFS,1037.2
+2016,School Level,721,Richmond County,1052,Butler High School,American Literature and Composition,168,168,47,TFS,1128.3
+2016,School Level,721,Richmond County,2056,Hephzibah High School,9th Grade Literature and Composition,283,282,86,TFS,1069.4
+2016,School Level,721,Richmond County,2056,Hephzibah High School,American Literature and Composition,199,199,77,TFS,1217.9
+2016,School Level,721,Richmond County,2574,Westside High School,9th Grade Literature and Composition,203,203,102,TFS,1150
+2016,School Level,721,Richmond County,2574,Westside High School,American Literature and Composition,186,186,107,TFS,1284.9
+2016,School Level,721,Richmond County,3054,Glenn Hills High School,9th Grade Literature and Composition,203,203,41,TFS,1014.3
+2016,School Level,721,Richmond County,3054,Glenn Hills High School,American Literature and Composition,189,189,32,TFS,1040
+2016,School Level,721,Richmond County,3556,Johnson Magnet,9th Grade Literature and Composition,86,86,83,TFS,1396.5
+2016,School Level,721,Richmond County,3556,Johnson Magnet,American Literature and Composition,84,84,81,TFS,1548.4
+2016,School Level,721,Richmond County,3756,Josey High School,9th Grade Literature and Composition,169,169,53,TFS,1066.5
+2016,School Level,721,Richmond County,3756,Josey High School,American Literature and Composition,150,150,33,TFS,1117.7
+2016,School Level,721,Richmond County,4060,Academy of Richmond County High School,9th Grade Literature and Composition,370,370,170,TFS,1117.3
+2016,School Level,721,Richmond County,4060,Academy of Richmond County High School,American Literature and Composition,315,315,117,TFS,1197.5
+2016,School Level,721,Richmond County,4562,Davidson Magnet School,9th Grade Literature and Composition,110,110,109,TFS,1458.5
+2016,School Level,721,Richmond County,4562,Davidson Magnet School,American Literature and Composition,96,96,95,TFS,1623.6
+2016,School Level,721,Richmond County,5566,Laney High School,9th Grade Literature and Composition,137,137,52,TFS,1064.3
+2016,School Level,721,Richmond County,5566,Laney High School,American Literature and Composition,127,127,36,TFS,1097.8
+2016,School Level,722,Rockdale County,176,Heritage High School,9th Grade Literature and Composition,516,516,332,TFS,1218.6
+2016,School Level,722,Rockdale County,176,Heritage High School,American Literature and Composition,445,444,273,TFS,1340.2
+2016,School Level,722,Rockdale County,192,Salem High School,9th Grade Literature and Composition,318,318,151,TFS,1143.1
+2016,School Level,722,Rockdale County,192,Salem High School,American Literature and Composition,354,354,192,TFS,1285.6
+2016,School Level,722,Rockdale County,3052,Rockdale County High School,9th Grade Literature and Composition,597,597,370,TFS,1218.3
+2016,School Level,722,Rockdale County,3052,Rockdale County High School,American Literature and Composition,478,478,282,TFS,1331.2
+2016,School Level,723,Schley County,101,Schley Middle High School,9th Grade Literature and Composition,117,117,78,TFS,1225.4
+2016,School Level,723,Schley County,101,Schley Middle High School,American Literature and Composition,85,85,56,TFS,1354.1
+2016,School Level,724,Screven County,4052,Screven County High School,9th Grade Literature and Composition,167,167,86,TFS,1163.3
+2016,School Level,724,Screven County,4052,Screven County High School,American Literature and Composition,123,123,56,TFS,1255.6
+2016,School Level,725,Seminole County,196,Seminole County Middle/High School,9th Grade Literature and Composition,129,129,79,TFS,1203.3
+2016,School Level,725,Seminole County,196,Seminole County Middle/High School,American Literature and Composition,114,114,78,TFS,1371.4
+2016,School Level,726,Griffin-Spalding County,101,Spalding High School,9th Grade Literature and Composition,339,338,149,TFS,1122.5
+2016,School Level,726,Griffin-Spalding County,101,Spalding High School,American Literature and Composition,291,291,137,TFS,1256.8
+2016,School Level,726,Griffin-Spalding County,187,Griffin High School,9th Grade Literature and Composition,381,380,127,TFS,1066.9
+2016,School Level,726,Griffin-Spalding County,187,Griffin High School,American Literature and Composition,342,342,148,TFS,1230
+2016,School Level,726,Griffin-Spalding County,208,AZ Kelsey Academy,9th Grade Literature and Composition,13,13,TFS,TFS,1078.1
+2016,School Level,726,Griffin-Spalding County,208,AZ Kelsey Academy,American Literature and Composition,18,18,TFS,TFS,1008.6
+2016,School Level,727,Stephens County,5050,Stephens County High School,9th Grade Literature and Composition,312,312,204,TFS,1216.8
+2016,School Level,727,Stephens County,5050,Stephens County High School,American Literature and Composition,252,252,148,TFS,1325.6
+2016,School Level,728,Stewart County,201,Stewart County High School,9th Grade Literature and Composition,29,29,11,TFS,1095.5
+2016,School Level,728,Stewart County,201,Stewart County High School,American Literature and Composition,32,32,TFS,TFS,1174.4
+2016,School Level,729,Sumter County,105,Americus Sumter High School (Old Americus-Sumter HS S),9th Grade Literature and Composition,31,31,11,TFS,1071.8
+2016,School Level,729,Sumter County,105,Americus Sumter High School (Old Americus-Sumter HS S),American Literature and Composition,320,320,112,TFS,1192.3
+2016,School Level,729,Sumter County,205,Americus Sumter 9th Grade Academy,9th Grade Literature and Composition,299,299,103,TFS,1082.9
+2016,School Level,730,Talbot County,190,Central Elementary/High School,9th Grade Literature and Composition,47,47,15,TFS,1085.9
+2016,School Level,730,Talbot County,190,Central Elementary/High School,American Literature and Composition,34,34,TFS,TFS,1130.1
+2016,School Level,731,Taliaferro County,102,Taliaferro County School,9th Grade Literature and Composition,12,12,TFS,TFS,1206.7
+2016,School Level,731,Taliaferro County,102,Taliaferro County School,American Literature and Composition,,,,,
+2016,School Level,732,Tattnall County,194,Tattnall County High School,9th Grade Literature and Composition,277,277,160,TFS,1190.1
+2016,School Level,732,Tattnall County,194,Tattnall County High School,American Literature and Composition,234,234,114,TFS,1252.9
+2016,School Level,733,Taylor County,107,Georgia Center,9th Grade Literature and Composition,18,18,TFS,TFS,929.4
+2016,School Level,733,Taylor County,107,Georgia Center,American Literature and Composition,,,,,
+2016,School Level,733,Taylor County,201,Taylor County High School,9th Grade Literature and Composition,98,98,51,TFS,1175.1
+2016,School Level,733,Taylor County,201,Taylor County High School,American Literature and Composition,87,87,49,TFS,1276
+2016,School Level,734,Telfair County,201,Telfair County High School,9th Grade Literature and Composition,144,144,63,TFS,1136.7
+2016,School Level,734,Telfair County,201,Telfair County High School,American Literature and Composition,113,113,50,TFS,1239.8
+2016,School Level,735,Terrell County,105,Terrell High School,9th Grade Literature and Composition,104,104,39,TFS,1116.2
+2016,School Level,735,Terrell County,105,Terrell High School,American Literature and Composition,94,94,24,TFS,1139.8
+2016,School Level,736,Thomas County,100,Bishop Hall Charter School,9th Grade Literature and Composition,22,22,TFS,TFS,1028
+2016,School Level,736,Thomas County,100,Bishop Hall Charter School,American Literature and Composition,34,34,10,TFS,1156.3
+2016,School Level,736,Thomas County,115,The Renaissance Center for Academic and Career Development,9th Grade Literature and Composition,12,12,TFS,TFS,1094.6
+2016,School Level,736,Thomas County,115,The Renaissance Center for Academic and Career Development,American Literature and Composition,18,18,TFS,TFS,1173.1
+2016,School Level,736,Thomas County,191,Thomas County Central High School,9th Grade Literature and Composition,342,342,174,TFS,1160
+2016,School Level,736,Thomas County,191,Thomas County Central High School,American Literature and Composition,354,354,228,TFS,1341.5
+2016,School Level,736,Thomas County,205,Thomas County Middle School,9th Grade Literature and Composition,23,23,23,TFS,1497.2
+2016,School Level,737,Tift County,199,Tift County High School,9th Grade Literature and Composition,14,14,TFS,TFS,1081.1
+2016,School Level,737,Tift County,199,Tift County High School,American Literature and Composition,462,462,266,TFS,1324.4
+2016,School Level,737,Tift County,3052,"Northeast Campus, Tift County High School",9th Grade Literature and Composition,552,552,329,TFS,1212.4
+2016,School Level,738,Toombs County,192,Toombs County High School,9th Grade Literature and Composition,236,236,106,TFS,1143.8
+2016,School Level,738,Toombs County,192,Toombs County High School,American Literature and Composition,175,175,83,TFS,1226.6
+2016,School Level,739,Towns County,104,Towns County Middle School,9th Grade Literature and Composition,20,20,20,TFS,1521.5
+2016,School Level,739,Towns County,204,Towns County High School,9th Grade Literature and Composition,82,82,61,TFS,1271.1
+2016,School Level,739,Towns County,204,Towns County High School,American Literature and Composition,86,86,61,TFS,1403.6
+2016,School Level,740,Treutlen County,213,Treutlen Middle/High School,9th Grade Literature and Composition,92,92,51,TFS,1174.4
+2016,School Level,740,Treutlen County,213,Treutlen Middle/High School,American Literature and Composition,58,58,31,TFS,1257.6
+2016,School Level,741,Troup County,201,Callaway High School,9th Grade Literature and Composition,256,256,115,TFS,1142.2
+2016,School Level,741,Troup County,201,Callaway High School,American Literature and Composition,205,205,98,TFS,1262.1
+2016,School Level,741,Troup County,204,Callaway Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,741,Troup County,207,Bradfield Center - Ault Academy,9th Grade Literature and Composition,12,12,TFS,TFS,1088.3
+2016,School Level,741,Troup County,207,Bradfield Center - Ault Academy,American Literature and Composition,,,,,
+2016,School Level,741,Troup County,297,Long Cane Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,741,Troup County,387,Troup County High School,9th Grade Literature and Composition,390,390,238,TFS,1213.1
+2016,School Level,741,Troup County,387,Troup County High School,American Literature and Composition,323,323,184,TFS,1316.7
+2016,School Level,741,Troup County,1052,LaGrange High School,9th Grade Literature and Composition,415,415,236,TFS,1183.9
+2016,School Level,741,Troup County,1052,LaGrange High School,American Literature and Composition,309,309,174,TFS,1315.2
+2016,School Level,742,Turner County,1050,Turner County Specialty School,9th Grade Literature and Composition,,,,,
+2016,School Level,742,Turner County,1050,Turner County Specialty School,American Literature and Composition,,,,,
+2016,School Level,742,Turner County,3050,Turner County High School,9th Grade Literature and Composition,90,90,40,TFS,1140.2
+2016,School Level,742,Turner County,3050,Turner County High School,American Literature and Composition,91,91,33,TFS,1200.3
+2016,School Level,743,Twiggs County,201,Twiggs County High School,9th Grade Literature and Composition,52,52,22,TFS,1098.6
+2016,School Level,743,Twiggs County,201,Twiggs County High School,American Literature and Composition,54,54,19,TFS,1173.1
+2016,School Level,744,Union County,101,Union County High School,9th Grade Literature and Composition,139,139,115,TFS,1343.1
+2016,School Level,744,Union County,101,Union County High School,American Literature and Composition,234,234,177,TFS,1425.4
+2016,School Level,744,Union County,108,Union County Middle School,9th Grade Literature and Composition,30,30,29,TFS,1426.2
+2016,School Level,744,Union County,3050,Woody Gap High/Elementary School,9th Grade Literature and Composition,,,,,
+2016,School Level,745,Thomaston-Upson County,195,Upson-Lee High School,9th Grade Literature and Composition,358,358,204,TFS,1201.8
+2016,School Level,745,Thomaston-Upson County,195,Upson-Lee High School,American Literature and Composition,329,329,174,TFS,1272.3
+2016,School Level,745,Thomaston-Upson County,395,Upson-Lee Middle School,9th Grade Literature and Composition,62,62,60,TFS,1392.7
+2016,School Level,746,Walker County,190,Ridgeland High School,9th Grade Literature and Composition,384,384,233,TFS,1196.2
+2016,School Level,746,Walker County,190,Ridgeland High School,American Literature and Composition,333,333,164,TFS,1266.3
+2016,School Level,746,Walker County,198,LaFayette High School,9th Grade Literature and Composition,341,340,192,TFS,1192.5
+2016,School Level,746,Walker County,198,LaFayette High School,American Literature and Composition,301,301,176,TFS,1322.5
+2016,School Level,747,Walton County,111,Walnut Grove High School,9th Grade Literature and Composition,380,380,241,TFS,1217
+2016,School Level,747,Walton County,111,Walnut Grove High School,American Literature and Composition,331,331,220,TFS,1380.5
+2016,School Level,747,Walton County,199,Loganville High School,9th Grade Literature and Composition,401,401,297,TFS,1265.9
+2016,School Level,747,Walton County,199,Loganville High School,American Literature and Composition,377,377,255,TFS,1363.3
+2016,School Level,747,Walton County,205,Monroe Area High School,9th Grade Literature and Composition,322,322,154,TFS,1133.2
+2016,School Level,747,Walton County,205,Monroe Area High School,American Literature and Composition,245,245,134,TFS,1309.1
+2016,School Level,748,Ware County,195,Ware County High School,9th Grade Literature and Composition,404,404,262,TFS,1212
+2016,School Level,748,Ware County,195,Ware County High School,American Literature and Composition,362,362,205,TFS,1305.4
+2016,School Level,748,Ware County,295,Waycross Middle School,9th Grade Literature and Composition,11,11,11,TFS,1494.5
+2016,School Level,748,Ware County,395,Ware County Middle School,9th Grade Literature and Composition,20,20,20,TFS,1516.5
+2016,School Level,749,Warren County,205,Warren County High School,9th Grade Literature and Composition,39,39,20,TFS,1173.6
+2016,School Level,749,Warren County,205,Warren County High School,American Literature and Composition,34,34,TFS,TFS,1174.7
+2016,School Level,750,Washington County,1052,Washington County High School,9th Grade Literature and Composition,226,226,118,TFS,1172
+2016,School Level,750,Washington County,1052,Washington County High School,American Literature and Composition,211,210,102,TFS,1252
+2016,School Level,751,Wayne County,101,Wayne County High School,9th Grade Literature and Composition,436,436,239,TFS,1181
+2016,School Level,751,Wayne County,101,Wayne County High School,American Literature and Composition,362,362,181,TFS,1283.5
+2016,School Level,751,Wayne County,194,Martha Puckett Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,751,Wayne County,294,Arthur Williams Middle School,9th Grade Literature and Composition,,,,,
+2016,School Level,752,Webster County,108,Webster County High School,9th Grade Literature and Composition,38,38,25,TFS,1271.7
+2016,School Level,752,Webster County,108,Webster County High School,American Literature and Composition,33,33,20,TFS,1287
+2016,School Level,753,Wheeler County,3052,Wheeler County High School,9th Grade Literature and Composition,74,74,45,TFS,1223.2
+2016,School Level,753,Wheeler County,3052,Wheeler County High School,American Literature and Composition,70,70,39,TFS,1277.5
+2016,School Level,754,White County,105,White County High School,9th Grade Literature and Composition,12,11,TFS,TFS,1280
+2016,School Level,754,White County,105,White County High School,American Literature and Composition,277,277,180,TFS,1353.2
+2016,School Level,754,White County,174,White County Middle School,9th Grade Literature and Composition,64,64,63,TFS,1413
+2016,School Level,754,White County,204,White County 9th Grade Academy,9th Grade Literature and Composition,206,206,123,TFS,1189.8
+2016,School Level,755,Whitfield County,112,Coahulla Creek High School,9th Grade Literature and Composition,275,275,171,TFS,1212.1
+2016,School Level,755,Whitfield County,112,Coahulla Creek High School,American Literature and Composition,264,264,155,TFS,1319.6
+2016,School Level,755,Whitfield County,175,Northwest Whitfield County High School,9th Grade Literature and Composition,371,371,241,TFS,1224.4
+2016,School Level,755,Whitfield County,175,Northwest Whitfield County High School,American Literature and Composition,321,321,180,TFS,1316.6
+2016,School Level,755,Whitfield County,212,Phoenix High School,9th Grade Literature and Composition,28,26,TFS,TFS,1025
+2016,School Level,755,Whitfield County,212,Phoenix High School,American Literature and Composition,108,102,20,TFS,1077.9
+2016,School Level,755,Whitfield County,275,Southeast Whitfield County High School,9th Grade Literature and Composition,410,410,208,TFS,1156.6
+2016,School Level,755,Whitfield County,275,Southeast Whitfield County High School,American Literature and Composition,303,303,151,TFS,1268.9
+2016,School Level,756,Wilcox County,201,Wilcox County High School,9th Grade Literature and Composition,45,45,19,TFS,1119.2
+2016,School Level,756,Wilcox County,201,Wilcox County High School,American Literature and Composition,64,64,22,TFS,1228.9
+2016,School Level,757,Wilkes County,110,Washington-Wilkes Comprehensive High School,9th Grade Literature and Composition,126,126,77,TFS,1182.3
+2016,School Level,757,Wilkes County,110,Washington-Wilkes Comprehensive High School,American Literature and Composition,91,91,50,TFS,1338.1
+2016,School Level,758,Wilkinson County,3050,Wilkinson County High School,9th Grade Literature and Composition,115,115,49,TFS,1133.5
+2016,School Level,758,Wilkinson County,3050,Wilkinson County High School,American Literature and Composition,101,101,37,TFS,1218.5
+2016,School Level,759,Worth County,176,Worth County High School,9th Grade Literature and Composition,257,257,127,TFS,1159.7
+2016,School Level,759,Worth County,176,Worth County High School,American Literature and Composition,236,236,108,TFS,1229.2
+2016,School Level,761,Atlanta Public Schools,106,Early College High School at Carver,9th Grade Literature and Composition,70,69,54,TFS,1260.7
+2016,School Level,761,Atlanta Public Schools,106,Early College High School at Carver,American Literature and Composition,75,75,54,TFS,1396.3
+2016,School Level,761,Atlanta Public Schools,108,South Atlanta School of Health and Medical Science,9th Grade Literature and Composition,62,62,32,TFS,1127.8
+2016,School Level,761,Atlanta Public Schools,108,South Atlanta School of Health and Medical Science,American Literature and Composition,65,65,19,TFS,1148.6
+2016,School Level,761,Atlanta Public Schools,182,Mays High School,9th Grade Literature and Composition,442,442,134,TFS,1032.4
+2016,School Level,761,Atlanta Public Schools,182,Mays High School,American Literature and Composition,355,352,154,TFS,1234.4
+2016,School Level,761,Atlanta Public Schools,186,"Maynard H. Jackson, Jr. High School",9th Grade Literature and Composition,301,301,172,TFS,1171.3
+2016,School Level,761,Atlanta Public Schools,186,"Maynard H. Jackson, Jr. High School",American Literature and Composition,241,241,114,TFS,1261.5
+2016,School Level,761,Atlanta Public Schools,192,North Atlanta High School,9th Grade Literature and Composition,487,481,351,TFS,1288.2
+2016,School Level,761,Atlanta Public Schools,192,North Atlanta High School,American Literature and Composition,414,414,321,TFS,1447.5
+2016,School Level,761,Atlanta Public Schools,207,Hillside Conant School,9th Grade Literature and Composition,14,14,TFS,TFS,972.1
+2016,School Level,761,Atlanta Public Schools,207,Hillside Conant School,American Literature and Composition,,,,,
+2016,School Level,761,Atlanta Public Schools,208,South Atlanta Law and Social Justice School,9th Grade Literature and Composition,60,59,24,TFS,1081.6
+2016,School Level,761,Atlanta Public Schools,208,South Atlanta Law and Social Justice School,American Literature and Composition,61,61,22,TFS,1196
+2016,School Level,761,Atlanta Public Schools,212,KIPP Atlanta Collegiate,9th Grade Literature and Composition,216,213,117,TFS,1166
+2016,School Level,761,Atlanta Public Schools,212,KIPP Atlanta Collegiate,American Literature and Composition,110,109,57,TFS,1280.4
+2016,School Level,761,Atlanta Public Schools,306,School of Technology at Carver,9th Grade Literature and Composition,82,78,28,TFS,1062.2
+2016,School Level,761,Atlanta Public Schools,306,School of Technology at Carver,American Literature and Composition,122,118,26,TFS,1105.7
+2016,School Level,761,Atlanta Public Schools,315,Booker T. Washington High School,9th Grade Literature and Composition,207,207,69,TFS,1076.7
+2016,School Level,761,Atlanta Public Schools,315,Booker T. Washington High School,American Literature and Composition,149,149,26,TFS,1054
+2016,School Level,761,Atlanta Public Schools,403,APS-Forrest Hills Academy,9th Grade Literature and Composition,53,51,TFS,TFS,822.5
+2016,School Level,761,Atlanta Public Schools,403,APS-Forrest Hills Academy,American Literature and Composition,18,17,TFS,TFS,950.6
+2016,School Level,761,Atlanta Public Schools,406,School of Health Sciences and Research at Carver,9th Grade Literature and Composition,42,42,TFS,TFS,1066.8
+2016,School Level,761,Atlanta Public Schools,406,School of Health Sciences and Research at Carver,American Literature and Composition,77,77,16,TFS,1067
+2016,School Level,761,Atlanta Public Schools,408,South Atlanta School of Computer Animation and Design,9th Grade Literature and Composition,77,77,35,TFS,1106.4
+2016,School Level,761,Atlanta Public Schools,408,South Atlanta School of Computer Animation and Design,American Literature and Composition,75,75,25,TFS,1172.5
+2016,School Level,761,Atlanta Public Schools,415,Atlanta Classical Academy,9th Grade Literature and Composition,51,51,46,TFS,1399.8
+2016,School Level,761,Atlanta Public Schools,506,The School of the Arts at Carver,9th Grade Literature and Composition,118,118,27,TFS,1026.2
+2016,School Level,761,Atlanta Public Schools,506,The School of the Arts at Carver,American Literature and Composition,75,75,17,TFS,1147.3
+2016,School Level,761,Atlanta Public Schools,515,Charles Drew Charter School JA/SA,9th Grade Literature and Composition,119,119,84,TFS,1262.2
+2016,School Level,761,Atlanta Public Schools,515,Charles Drew Charter School JA/SA,American Literature and Composition,83,83,62,TFS,1417.5
+2016,School Level,761,Atlanta Public Schools,1409,Therrell High School,9th Grade Literature and Composition,266,266,91,TFS,1087.2
+2016,School Level,761,Atlanta Public Schools,1409,Therrell High School,American Literature and Composition,207,207,91,TFS,1224.4
+2016,School Level,761,Atlanta Public Schools,1410,Corretta Scott King Womens' Leadership Academy,9th Grade Literature and Composition,95,95,39,TFS,1132.9
+2016,School Level,761,Atlanta Public Schools,1410,Corretta Scott King Womens' Leadership Academy,American Literature and Composition,59,59,28,TFS,1250.6
+2016,School Level,761,Atlanta Public Schools,1411,B.E.S.T Academy,9th Grade Literature and Composition,89,89,28,TFS,1066.5
+2016,School Level,761,Atlanta Public Schools,1411,B.E.S.T Academy,American Literature and Composition,31,31,13,TFS,1258.9
+2016,School Level,761,Atlanta Public Schools,2664,Crim High School,9th Grade Literature and Composition,16,14,TFS,TFS,1023.9
+2016,School Level,761,Atlanta Public Schools,2664,Crim High School,American Literature and Composition,31,31,TFS,TFS,1018.5
+2016,School Level,761,Atlanta Public Schools,4058,Douglass High School,9th Grade Literature and Composition,230,230,51,TFS,999.5
+2016,School Level,761,Atlanta Public Schools,4058,Douglass High School,American Literature and Composition,158,158,44,TFS,1090
+2016,School Level,761,Atlanta Public Schools,4560,Grady High School,9th Grade Literature and Composition,342,342,236,TFS,1288.5
+2016,School Level,761,Atlanta Public Schools,4560,Grady High School,American Literature and Composition,346,346,247,TFS,1441.2
+2016,School Level,763,Bremen City,201,Bremen High School,9th Grade Literature and Composition,182,182,147,TFS,1322.9
+2016,School Level,763,Bremen City,201,Bremen High School,American Literature and Composition,149,149,104,TFS,1388
+2016,School Level,764,Buford City,191,Buford High School,9th Grade Literature and Composition,358,358,322,TFS,1366.3
+2016,School Level,764,Buford City,191,Buford High School,American Literature and Composition,288,288,232,TFS,1491.7
+2016,School Level,765,Calhoun City,205,Calhoun Middle School,9th Grade Literature and Composition,34,34,34,TFS,1470.1
+2016,School Level,765,Calhoun City,3050,Calhoun High School,9th Grade Literature and Composition,236,235,154,TFS,1220.8
+2016,School Level,765,Calhoun City,3050,Calhoun High School,American Literature and Composition,281,281,178,TFS,1350.1
+2016,School Level,766,Carrollton City,1050,Carrollton High School,9th Grade Literature and Composition,412,412,245,TFS,1198.3
+2016,School Level,766,Carrollton City,1050,Carrollton High School,American Literature and Composition,335,335,203,TFS,1319.1
+2016,School Level,766,Carrollton City,1550,Carrollton Jr. High School,9th Grade Literature and Composition,,,,,
+2016,School Level,767,Cartersville City,2050,Cartersville High School,9th Grade Literature and Composition,330,330,234,TFS,1256.1
+2016,School Level,767,Cartersville City,2050,Cartersville High School,American Literature and Composition,280,280,183,TFS,1358.4
+2016,School Level,769,Chickamauga City,111,Gordon Lee Middle School,9th Grade Literature and Composition,45,45,43,TFS,1372.4
+2016,School Level,769,Chickamauga City,211,Gordon Lee High School,9th Grade Literature and Composition,85,85,64,TFS,1288.8
+2016,School Level,769,Chickamauga City,211,Gordon Lee High School,American Literature and Composition,85,85,48,TFS,1316.5
+2016,School Level,771,Commerce City,112,Commerce High School,9th Grade Literature and Composition,152,152,86,TFS,1190.5
+2016,School Level,771,Commerce City,112,Commerce High School,American Literature and Composition,90,90,61,TFS,1348.8
+2016,School Level,772,Dalton Public Schools,110,Morris Innovative High School,9th Grade Literature and Composition,141,141,41,TFS,1050.9
+2016,School Level,772,Dalton Public Schools,110,Morris Innovative High School,American Literature and Composition,123,123,23,TFS,1075.6
+2016,School Level,772,Dalton Public Schools,4050,Dalton High School,9th Grade Literature and Composition,584,584,342,TFS,1204.9
+2016,School Level,772,Dalton Public Schools,4050,Dalton High School,American Literature and Composition,469,468,270,TFS,1329.4
+2016,School Level,773,Decatur City,3050,Decatur High School,9th Grade Literature and Composition,332,332,291,TFS,1400.1
+2016,School Level,773,Decatur City,3050,Decatur High School,American Literature and Composition,307,307,255,TFS,1491.4
+2016,School Level,774,Dublin City,108,Community Hope Center,9th Grade Literature and Composition,,,,,
+2016,School Level,774,Dublin City,108,Community Hope Center,American Literature and Composition,,,,,
+2016,School Level,774,Dublin City,211,Dublin High School,9th Grade Literature and Composition,183,183,58,TFS,1103.9
+2016,School Level,774,Dublin City,211,Dublin High School,American Literature and Composition,126,126,59,TFS,1264.1
+2016,School Level,774,Dublin City,412,Moore Street Facility,9th Grade Literature and Composition,22,22,TFS,TFS,902
+2016,School Level,774,Dublin City,412,Moore Street Facility,American Literature and Composition,16,16,TFS,TFS,798.4
+2016,School Level,776,Gainesville City,110,Gainesville Middle School,9th Grade Literature and Composition,51,51,48,TFS,1412.4
+2016,School Level,776,Gainesville City,210,The Academy at Woods Mill,9th Grade Literature and Composition,,,,,
+2016,School Level,776,Gainesville City,210,The Academy at Woods Mill,American Literature and Composition,26,26,TFS,TFS,1040.8
+2016,School Level,776,Gainesville City,3050,Gainesville High School,9th Grade Literature and Composition,530,529,175,TFS,1077.9
+2016,School Level,776,Gainesville City,3050,Gainesville High School,American Literature and Composition,457,457,247,TFS,1292.1
+2016,School Level,779,Jefferson City,174,Jefferson High School,9th Grade Literature and Composition,273,273,222,TFS,1325.1
+2016,School Level,779,Jefferson City,174,Jefferson High School,American Literature and Composition,226,226,177,TFS,1434.4
+2016,School Level,781,Marietta City,101,Marietta High School,9th Grade Literature and Composition,637,636,408,TFS,1236.8
+2016,School Level,781,Marietta City,101,Marietta High School,American Literature and Composition,523,523,362,TFS,1382.7
+2016,School Level,781,Marietta City,207,George W. Hartmann Center,9th Grade Literature and Composition,,,,,
+2016,School Level,781,Marietta City,207,George W. Hartmann Center,American Literature and Composition,,,,,
+2016,School Level,7820108,State Charter Schools- Mountain Education Center School,108,Mountain Education Center School,9th Grade Literature and Composition,115,112,64,TFS,1175.1
+2016,School Level,7820108,State Charter Schools- Mountain Education Center School,108,Mountain Education Center School,American Literature and Composition,199,198,92,TFS,1274.7
+2016,School Level,7820119,State Charter Schools- Provost Academy Georgia,119,Provost Academy Georgia,9th Grade Literature and Composition,91,90,33,TFS,1094.6
+2016,School Level,7820119,State Charter Schools- Provost Academy Georgia,119,Provost Academy Georgia,American Literature and Composition,151,151,50,TFS,1179.8
+2016,School Level,7820120,State Charter Schools- Georgia Cyber Academy,120,Georgia Cyber Academy,9th Grade Literature and Composition,1320,1320,844,TFS,1217.9
+2016,School Level,7820120,State Charter Schools- Georgia Cyber Academy,120,Georgia Cyber Academy,American Literature and Composition,1032,1032,659,TFS,1345.3
+2016,School Level,7820212,State Charter Schools- Cherokee Charter Academy,212,Cherokee Charter Academy,9th Grade Literature and Composition,17,17,17,TFS,1402.1
+2016,School Level,7820412,State Charter Schools- Georgia Connections Academy,412,Georgia Connections Academy,9th Grade Literature and Composition,342,342,264,TFS,1299.1
+2016,School Level,7820412,State Charter Schools- Georgia Connections Academy,412,Georgia Connections Academy,American Literature and Composition,368,368,270,TFS,1419.7
+2016,School Level,7820613,State Charter Schools- Foothills Charter High School (Madison Campus),613,Foothills Charter High School (Madison Campus),9th Grade Literature and Composition,53,53,25,TFS,1149.4
+2016,School Level,7820613,State Charter Schools- Foothills Charter High School (Madison Campus),613,Foothills Charter High School (Madison Campus),American Literature and Composition,62,62,23,TFS,1206
+2016,School Level,7830103,Commission Charter Schools- CCAT School,103,CCAT School,9th Grade Literature and Composition,19,19,14,TFS,1232.9
+2016,School Level,7830103,Commission Charter Schools- CCAT School,103,CCAT School,American Literature and Composition,21,21,12,TFS,1308.3
+2016,School Level,7830210,Commission Charter Schools- Pataula Charter Academy,210,Pataula Charter Academy,9th Grade Literature and Composition,40,39,27,TFS,1225.4
+2016,School Level,7830210,Commission Charter Schools- Pataula Charter Academy,210,Pataula Charter Academy,American Literature and Composition,22,22,12,TFS,1271.4
+2016,School Level,7830310,Commission Charter Schools- Fulton Leadership Academy,310,Fulton Leadership Academy,9th Grade Literature and Composition,63,63,29,TFS,1147.5
+2016,School Level,7830310,Commission Charter Schools- Fulton Leadership Academy,310,Fulton Leadership Academy,American Literature and Composition,20,20,TFS,TFS,1191.3
+2016,School Level,7830610,Commission Charter Schools- Coweta Charter Academy,610,Coweta Charter Academy,9th Grade Literature and Composition,10,10,TFS,TFS,1372.5
+2016,School Level,784,Pelham City,111,Pelham High School,9th Grade Literature and Composition,95,95,40,TFS,1160.9
+2016,School Level,784,Pelham City,111,Pelham High School,American Literature and Composition,115,115,48,TFS,1224.6
+2016,School Level,785,Rome City,193,Rome High School,9th Grade Literature and Composition,505,501,332,TFS,1249.1
+2016,School Level,785,Rome City,193,Rome High School,American Literature and Composition,416,415,242,TFS,1334.2
+2016,School Level,786,Social Circle City,300,Social Circle High School,9th Grade Literature and Composition,148,148,97,TFS,1233.1
+2016,School Level,786,Social Circle City,300,Social Circle High School,American Literature and Composition,142,142,103,TFS,1416.7
+2016,School Level,789,Thomasville City,4052,Thomasville High School,9th Grade Literature and Composition,224,224,110,TFS,1175.6
+2016,School Level,789,Thomasville City,4052,Thomasville High School,American Literature and Composition,158,158,79,TFS,1270.2
+2016,School Level,791,Trion City,201,Trion Middle School,9th Grade Literature and Composition,28,28,28,TFS,1487
+2016,School Level,791,Trion City,301,Trion High School,9th Grade Literature and Composition,88,88,61,TFS,1253
+2016,School Level,791,Trion City,301,Trion High School,American Literature and Composition,92,92,76,TFS,1431.4
+2016,School Level,792,Valdosta City,103,Valdosta Middle School,9th Grade Literature and Composition,11,11,TFS,TFS,1370.9
+2016,School Level,792,Valdosta City,195,Newbern Middle School,9th Grade Literature and Composition,16,16,12,TFS,1276.6
+2016,School Level,792,Valdosta City,273,Valdosta High School,9th Grade Literature and Composition,568,567,308,TFS,1171.1
+2016,School Level,792,Valdosta City,273,Valdosta High School,American Literature and Composition,428,428,196,TFS,1247
+2016,School Level,793,Vidalia City,173,J. R. Trippe Middle School,9th Grade Literature and Composition,32,32,31,TFS,1414.5
+2016,School Level,793,Vidalia City,273,Vidalia Comprehensive High School,9th Grade Literature and Composition,202,202,115,TFS,1195.7
+2016,School Level,793,Vidalia City,273,Vidalia Comprehensive High School,American Literature and Composition,181,181,104,TFS,1283.7
+2016,School Level,793,Vidalia City,274,Vidalia Academy,9th Grade Literature and Composition,99,75,56,24,1282.4
+2016,School Level,793,Vidalia City,274,Vidalia Academy,American Literature and Composition,99,80,56,19,1407.6
+2016,School Level,7991893,State Schools- Atlanta Area School for the Deaf,1893,Atlanta Area School for the Deaf,9th Grade Literature and Composition,16,16,TFS,TFS,823.1
+2016,School Level,7991893,State Schools- Atlanta Area School for the Deaf,1893,Atlanta Area School for the Deaf,American Literature and Composition,12,11,TFS,TFS,753.6
+2016,School Level,7991894,State Schools- Georgia Academy for the Blind,1894,Georgia Academy for the Blind,9th Grade Literature and Composition,,,,,
+2016,School Level,7991894,State Schools- Georgia Academy for the Blind,1894,Georgia Academy for the Blind,American Literature and Composition,,,,,
+2016,School Level,7991895,State Schools- Georgia School for the Deaf,1895,Georgia School for the Deaf,9th Grade Literature and Composition,16,16,TFS,TFS,869.1
+2016,School Level,7991895,State Schools- Georgia School for the Deaf,1895,Georgia School for the Deaf,American Literature and Composition,,,,,
+2016,School Level,891,Department of Juvenile Justice,104,Atlanta Youth Detention Center,9th Grade Literature and Composition,20,20,TFS,TFS,919.3
+2016,School Level,891,Department of Juvenile Justice,104,Atlanta Youth Detention Center,American Literature and Composition,,,,,
+2016,School Level,891,Department of Juvenile Justice,298,Augusta Youth Development Campus,9th Grade Literature and Composition,22,21,TFS,TFS,965.5
+2016,School Level,891,Department of Juvenile Justice,298,Augusta Youth Development Campus,American Literature and Composition,,,,,
+2016,School Level,891,Department of Juvenile Justice,405,Muscogee Youth Development Center,9th Grade Literature and Composition,15,15,TFS,TFS,988.3
+2016,School Level,891,Department of Juvenile Justice,405,Muscogee Youth Development Center,American Literature and Composition,,,,,
+2016,School Level,891,Department of Juvenile Justice,598,Macon Youth Development Campus,9th Grade Literature and Composition,,,,,
+2016,School Level,891,Department of Juvenile Justice,598,Macon Youth Development Campus,American Literature and Composition,,,,,
+2016,School Level,891,Department of Juvenile Justice,898,Eastman Youth Development Campus,9th Grade Literature and Composition,,,,,
+2016,School Level,891,Department of Juvenile Justice,898,Eastman Youth Development Campus,American Literature and Composition,,,,,
+2016,School Level,891,Department of Juvenile Justice,4199,Millegeville ITU,9th Grade Literature and Composition,,,,,
+2016,School Level,891,Department of Juvenile Justice,5001,Sumter Youth Development Campus,9th Grade Literature and Composition,33,30,TFS,TFS,904.3
+2016,School Level,891,Department of Juvenile Justice,5001,Sumter Youth Development Campus,American Literature and Composition,,,,,
+2016,State Level,All,All,All,All,9th Grade Literature and Composition,140209,139721,88039,488,1225.5
+2016,State Level,All,All,All,All,American Literature and Composition,120168,119799,72417,394,1337.8

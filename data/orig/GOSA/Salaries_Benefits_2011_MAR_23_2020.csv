@@ -1,0 +1,619 @@
+"LONG_SCHOOL_YEAR","SCHOOL_DSTRCT_CD","SCHOOL_DSTRCT_NM","INSTN_NUMBER","INSTN_NAME","CATEGORY","SALARIES","BENEFITS","SALARIES_AND_BENEFITS","% Rev- GF/Title/Lottery","% Rev- Total K-12","% Exp- GF/Title/Lottery","% Exp-Total K-12"
+"2010-11","601","Appling County","ALL","All Column Values","General Administration",195022.05,91043.77,286065.82,0.88,0.76,0.99,0.91
+"2010-11","601","Appling County","ALL","All Column Values","School Administration",725830.34,257596.37,983426.71,3.03,2.6,3.41,3.11
+"2010-11","601","Appling County","ALL","All Column Values","Teachers and Paraprofessionals",12852451.22,4204674.22,17057125.44,52.53,45.08,59.13,54.02
+"2010-11","602","Atkinson County","ALL","All Column Values","General Administration",240439.41,117140.29,357579.7,2.44,2.19,2.56,2.16
+"2010-11","602","Atkinson County","ALL","All Column Values","School Administration",604128.12,218883.51,823011.63,5.61,5.04,5.89,4.98
+"2010-11","602","Atkinson County","ALL","All Column Values","Teachers and Paraprofessionals",5592358.8,2197766.66,7790125.46,53.09,47.7,55.72,47.1
+"2010-11","603","Bacon County","ALL","All Column Values","General Administration",306229.44,81108.27,387337.71,2.38,1.1,2.53,2.29
+"2010-11","603","Bacon County","ALL","All Column Values","School Administration",615897.2,206211.96,822109.16,5.06,2.34,5.38,4.87
+"2010-11","603","Bacon County","ALL","All Column Values","Teachers and Paraprofessionals",6662876.89,2258982.38,8921859.27,54.86,25.41,58.38,52.8
+"2010-11","604","Baker County","ALL","All Column Values","General Administration",170708.32,39883.3,210591.62,4.38,3.97,5.85,5.16
+"2010-11","604","Baker County","ALL","All Column Values","School Administration",167441.17,-46332.52,121108.65,2.52,2.29,3.36,2.97
+"2010-11","604","Baker County","ALL","All Column Values","Teachers and Paraprofessionals",1285655.41,439108.16,1724763.57,35.9,32.54,47.88,42.23
+"2010-11","605","Baldwin County","ALL","All Column Values","General Administration",623437.56,622561.16,1245998.72,2.53,2.04,2.75,1.91
+"2010-11","605","Baldwin County","ALL","All Column Values","School Administration",1259523.17,530592.31,1790115.48,3.63,2.93,3.95,2.74
+"2010-11","605","Baldwin County","ALL","All Column Values","Teachers and Paraprofessionals",19866059.14,7755881.21,27621940.35,56.02,45.17,60.99,42.26
+"2010-11","606","Banks County","ALL","All Column Values","General Administration",415977.7,131502.68,547480.38,2.24,1.43,2.38,1.97
+"2010-11","606","Banks County","ALL","All Column Values","School Administration",675908.24,276307.38,952215.62,3.9,2.49,4.14,3.43
+"2010-11","606","Banks County","ALL","All Column Values","Teachers and Paraprofessionals",9710964.65,3830028.4,13540993.05,55.42,35.39,58.91,48.73
+"2010-11","607","Barrow County","ALL","All Column Values","General Administration",666700.37,725766.11,1392466.48,1.38,1.16,1.41,1.25
+"2010-11","607","Barrow County","ALL","All Column Values","School Administration",2991135.59,1332453.16,4323588.75,4.29,3.59,4.39,3.88
+"2010-11","607","Barrow County","ALL","All Column Values","Teachers and Paraprofessionals",42923014.45,17240706.24,60163720.69,59.69,50,61.07,53.96
+"2010-11","608","Bartow County","ALL","All Column Values","General Administration",963216.3,304646.65,1267862.95,1.04,0.57,1.07,0.81
+"2010-11","608","Bartow County","ALL","All Column Values","School Administration",4202295.04,1833864.47,6036159.51,4.96,2.7,5.1,3.84
+"2010-11","608","Bartow County","ALL","All Column Values","Teachers and Paraprofessionals",48980317.5,20140962.7,69121280.2,56.75,30.93,58.43,43.99
+"2010-11","609","Ben Hill County","ALL","All Column Values","General Administration",295331.37,311541.92,606873.29,2.24,1.96,2.32,1.79
+"2010-11","609","Ben Hill County","ALL","All Column Values","School Administration",962808.06,401690.37,1364498.43,5.04,4.4,5.21,4.02
+"2010-11","609","Ben Hill County","ALL","All Column Values","Teachers and Paraprofessionals",11162855.29,4336859.79,15499715.08,57.27,49.99,59.21,45.62
+"2010-11","610","Berrien County","ALL","All Column Values","General Administration",326244.84,99416.92,425661.76,1.58,1.39,1.68,1.48
+"2010-11","610","Berrien County","ALL","All Column Values","School Administration",753955.22,264576.61,1018531.83,3.79,3.32,4.02,3.54
+"2010-11","610","Berrien County","ALL","All Column Values","Teachers and Paraprofessionals",11143677.56,3675527.39,14819204.95,55.09,48.27,58.49,51.55
+"2010-11","611","Bibb County","ALL","All Column Values","General Administration",1394212,622712.9,2016924.9,0.88,0.65,0.94,0.78
+"2010-11","611","Bibb County","ALL","All Column Values","School Administration",7208461.56,3168773.1,10377234.66,4.53,3.33,4.82,3.99
+"2010-11","611","Bibb County","ALL","All Column Values","Teachers and Paraprofessionals",78261919.21,32398052.37,110659971.58,48.25,35.5,51.36,42.59
+"2010-11","612","Bleckley County","ALL","All Column Values","General Administration",293547.08,104767.96,398315.04,1.88,1.66,2.03,1.38
+"2010-11","612","Bleckley County","ALL","All Column Values","School Administration",712032.21,245420.41,957452.62,4.52,3.99,4.88,3.31
+"2010-11","612","Bleckley County","ALL","All Column Values","Teachers and Paraprofessionals",8105424.89,2854783.38,10960208.27,51.75,45.62,55.82,37.86
+"2010-11","613","Brantley County","ALL","All Column Values","General Administration",351503.94,105763.32,457267.26,1.77,1.56,1.77,1.5
+"2010-11","613","Brantley County","ALL","All Column Values","School Administration",850259.7,310187.32,1160447.02,4.49,3.95,4.49,3.81
+"2010-11","613","Brantley County","ALL","All Column Values","Teachers and Paraprofessionals",12111777.7,4004908.52,16116686.22,62.29,54.83,62.33,52.92
+"2010-11","614","Brooks County","ALL","All Column Values","General Administration",324080.79,138492.94,462573.73,2.34,2.06,2.37,2.05
+"2010-11","614","Brooks County","ALL","All Column Values","School Administration",656496.17,274737.29,931233.46,4.71,4.15,4.78,4.13
+"2010-11","614","Brooks County","ALL","All Column Values","Teachers and Paraprofessionals",7399517.73,2954498.24,10354015.97,52.35,46.11,53.13,45.94
+"2010-11","615","Bryan County","ALL","All Column Values","General Administration",393685.31,75160.33,468845.64,0.82,0.71,0.94,0.65
+"2010-11","615","Bryan County","ALL","All Column Values","School Administration",1663683.62,527894.14,2191577.76,3.84,3.34,4.41,3.02
+"2010-11","615","Bryan County","ALL","All Column Values","Teachers and Paraprofessionals",22674406.93,7682491.29,30356898.22,53.26,46.24,61.05,41.9
+"2010-11","616","Bulloch County","ALL","All Column Values","General Administration",370587.26,112887.75,483475.01,0.6,0.43,0.65,0.44
+"2010-11","616","Bulloch County","ALL","All Column Values","School Administration",2667579.24,922687.06,3590266.3,4.42,3.18,4.81,3.26
+"2010-11","616","Bulloch County","ALL","All Column Values","Teachers and Paraprofessionals",34252517.95,10110483.17,44363001.12,54.62,39.35,59.39,40.27
+"2010-11","617","Burke County","ALL","All Column Values","General Administration",598370.79,238649.18,837019.97,1.83,1.71,1.83,1.69
+"2010-11","617","Burke County","ALL","All Column Values","School Administration",1740606.74,684125.57,2424732.31,5.29,4.94,5.3,4.91
+"2010-11","617","Burke County","ALL","All Column Values","Teachers and Paraprofessionals",17168210.68,6630972.48,23799183.16,51.93,48.51,52,48.17
+"2010-11","618","Butts County","ALL","All Column Values","General Administration",317090.9,220316.28,537407.18,1.76,1.53,1.92,1.56
+"2010-11","618","Butts County","ALL","All Column Values","School Administration",1128024.78,451600.82,1579625.6,5.18,4.48,5.65,4.59
+"2010-11","618","Butts County","ALL","All Column Values","Teachers and Paraprofessionals",10443341.04,4376166.64,14819507.68,48.6,42.06,53.04,43.04
+"2010-11","619","Calhoun County","ALL","All Column Values","General Administration",336033.52,121012.72,457046.24,6.87,6.09,6.62,6.11
+"2010-11","619","Calhoun County","ALL","All Column Values","School Administration",280999.17,129960.25,410959.42,6.17,5.48,5.96,5.49
+"2010-11","619","Calhoun County","ALL","All Column Values","Teachers and Paraprofessionals",2230275.14,858926.17,3089201.31,46.41,41.18,44.78,41.29
+"2010-11","620","Camden County","ALL","All Column Values","General Administration",354552.75,122166.79,476719.54,0.59,0.51,0.64,0.6
+"2010-11","620","Camden County","ALL","All Column Values","School Administration",2894195.01,907820.66,3802015.67,4.69,4.09,5.13,4.81
+"2010-11","620","Camden County","ALL","All Column Values","Teachers and Paraprofessionals",33271303.23,10835538.43,44106841.66,54.42,47.46,59.51,55.81
+"2010-11","621","Candler County","ALL","All Column Values","General Administration",398692.74,166779.53,565472.27,3.35,1.53,3.55,2.98
+"2010-11","621","Candler County","ALL","All Column Values","School Administration",531929.89,209765.22,741695.11,4.39,2.01,4.66,3.91
+"2010-11","621","Candler County","ALL","All Column Values","Teachers and Paraprofessionals",6638088.16,2636210.73,9274298.89,54.93,25.08,58.29,48.93
+"2010-11","622","Carroll County","ALL","All Column Values","General Administration",895214.49,384868.86,1280083.35,1.07,0.56,1.08,0.8
+"2010-11","622","Carroll County","ALL","All Column Values","School Administration",4646280.02,1999193.39,6645473.41,5.54,2.93,5.6,4.15
+"2010-11","622","Carroll County","ALL","All Column Values","Teachers and Paraprofessionals",47302195.44,18795459.8,66097655.24,55.12,29.11,55.67,41.29
+"2010-11","623","Catoosa County","ALL","All Column Values","General Administration",303416.17,172426.81,475842.98,0.51,0.41,0.53,0.44
+"2010-11","623","Catoosa County","ALL","All Column Values","School Administration",3495368.06,1508633.46,5004001.52,5.38,4.35,5.57,4.59
+"2010-11","623","Catoosa County","ALL","All Column Values","Teachers and Paraprofessionals",40444623.63,15683617.19,56128240.82,60.33,48.84,62.43,51.5
+"2010-11","624","Charlton County","ALL","All Column Values","General Administration",199851.64,90690.19,290541.83,1.93,1.65,2.06,1.4
+"2010-11","624","Charlton County","ALL","All Column Values","School Administration",651392.5,261580.3,912972.8,6.08,5.19,6.49,4.41
+"2010-11","624","Charlton County","ALL","All Column Values","Teachers and Paraprofessionals",5253548.61,2224185.57,7477734.18,49.77,42.47,53.13,36.15
+"2010-11","625","Savannah-Chatham County","ALL","All Column Values","General Administration",2424093.02,795741.14,3219834.16,0.96,0.79,0.98,0.81
+"2010-11","625","Savannah-Chatham County","ALL","All Column Values","School Administration",9905334.54,4172562.55,14077897.09,4.21,3.44,4.28,3.52
+"2010-11","625","Savannah-Chatham County","ALL","All Column Values","Teachers and Paraprofessionals",143243679.72,51909101.83,195152781.55,58.4,47.65,59.32,48.84
+"2010-11","626","Chattahoochee County","ALL","All Column Values","General Administration",415098.73,137242.92,552341.65,6,4.95,6.43,5.41
+"2010-11","626","Chattahoochee County","ALL","All Column Values","School Administration",394216.11,121018.62,515234.73,5.6,4.62,6,5.04
+"2010-11","626","Chattahoochee County","ALL","All Column Values","Teachers and Paraprofessionals",3466696.09,1079950.49,4546646.58,49.42,40.78,52.94,44.49
+"2010-11","627","Chattooga County","ALL","All Column Values","General Administration",435575.82,171550.51,607126.33,2.52,2.22,2.6,2.3
+"2010-11","627","Chattooga County","ALL","All Column Values","School Administration",901229.78,341216.08,1242445.86,5.16,4.54,5.32,4.71
+"2010-11","627","Chattooga County","ALL","All Column Values","Teachers and Paraprofessionals",9166801.96,3528871.91,12695673.87,52.76,46.44,54.4,48.12
+"2010-11","628","Cherokee County","ALL","All Column Values","General Administration",1547665.66,663495.38,2211161.04,0.63,0.5,0.69,0.53
+"2010-11","628","Cherokee County","ALL","All Column Values","School Administration",10085661.24,4723290.71,14808951.95,4.19,3.33,4.59,3.58
+"2010-11","628","Cherokee County","ALL","All Column Values","Teachers and Paraprofessionals",138923369.08,51061236.63,189984605.71,53.81,42.77,58.9,45.96
+"2010-11","629","Clarke County","ALL","All Column Values","General Administration",970963.7,362016.26,1332979.96,0.92,0.76,0.95,0.74
+"2010-11","629","Clarke County","ALL","All Column Values","School Administration",4217095.65,1871720.6,6088816.25,4.21,3.47,4.34,3.39
+"2010-11","629","Clarke County","ALL","All Column Values","Teachers and Paraprofessionals",53002544.95,21088802.01,74091346.96,51.2,42.19,52.83,41.29
+"2010-11","630","Clay County","ALL","All Column Values","General Administration",114776.37,47477.51,162253.88,3.91,3.48,4.43,3.86
+"2010-11","630","Clay County","ALL","All Column Values","School Administration",138356.57,45841.91,184198.48,4.43,3.96,5.03,4.38
+"2010-11","630","Clay County","ALL","All Column Values","Teachers and Paraprofessionals",1154929.67,401972.57,1556902.24,37.48,33.44,42.5,37.04
+"2010-11","631","Clayton County","ALL","All Column Values","General Administration",2811067.09,603704.27,3414771.36,0.84,0.7,0.88,0.78
+"2010-11","631","Clayton County","ALL","All Column Values","School Administration",13086314.41,4263971.05,17350285.46,4.29,3.57,4.46,3.98
+"2010-11","631","Clayton County","ALL","All Column Values","Teachers and Paraprofessionals",168702442.72,55524250.59,224226693.31,55.48,46.14,57.61,51.49
+"2010-11","632","Clinch County","ALL","All Column Values","General Administration",267156.94,161864.95,429021.89,3.56,3.18,3.61,2.83
+"2010-11","632","Clinch County","ALL","All Column Values","School Administration",429448.28,177600.62,607048.9,5.04,4.51,5.1,4.01
+"2010-11","632","Clinch County","ALL","All Column Values","Teachers and Paraprofessionals",4370869.86,1778972.26,6149842.12,51.08,45.64,51.69,40.63
+"2010-11","633","Cobb County","ALL","All Column Values","General Administration",4060635.27,1428817.95,5489453.22,0.59,0.5,0.62,0.52
+"2010-11","633","Cobb County","ALL","All Column Values","School Administration",27704419.32,12037573.12,39741992.44,4.27,3.63,4.48,3.75
+"2010-11","633","Cobb County","ALL","All Column Values","Teachers and Paraprofessionals",399080181.92,154656584.55,553736766.47,59.53,50.63,62.48,52.28
+"2010-11","634","Coffee County","ALL","All Column Values","General Administration",595046.44,233101.04,828147.48,1.31,1.13,1.4,1.11
+"2010-11","634","Coffee County","ALL","All Column Values","School Administration",1657926.98,710577.72,2368504.7,3.75,3.24,4.01,3.17
+"2010-11","634","Coffee County","ALL","All Column Values","Teachers and Paraprofessionals",24947539.96,9615420.21,34562960.17,54.7,47.27,58.45,46.3
+"2010-11","635","Colquitt County","ALL","All Column Values","General Administration",480327.13,223388.58,703715.71,0.94,0.82,0.96,0.81
+"2010-11","635","Colquitt County","ALL","All Column Values","School Administration",2321897.12,731803.34,3053700.46,4.09,3.57,4.15,3.51
+"2010-11","635","Colquitt County","ALL","All Column Values","Teachers and Paraprofessionals",32324086.1,10602696.35,42926782.45,57.49,50.13,58.32,49.33
+"2010-11","636","Columbia County","ALL","All Column Values","General Administration",347585.21,311616.02,659201.23,0.36,0.26,0.38,0.31
+"2010-11","636","Columbia County","ALL","All Column Values","School Administration",6286266.08,2531001.4,8817267.48,4.76,3.47,5.05,4.19
+"2010-11","636","Columbia County","ALL","All Column Values","Teachers and Paraprofessionals",77361814.15,30391273,107753087.15,58.23,42.35,61.76,51.18
+"2010-11","637","Cook County","ALL","All Column Values","General Administration",579162.43,216073.17,795235.6,3.01,2.68,3.16,2.72
+"2010-11","637","Cook County","ALL","All Column Values","School Administration",850694.38,327423.15,1178117.53,4.46,3.96,4.68,4.04
+"2010-11","637","Cook County","ALL","All Column Values","Teachers and Paraprofessionals",10687627.22,3902832.96,14590460.18,55.23,49.1,57.99,49.99
+"2010-11","638","Coweta County","ALL","All Column Values","General Administration",1382485.33,517998.74,1900484.07,1.04,0.89,1.11,0.95
+"2010-11","638","Coweta County","ALL","All Column Values","School Administration",7020414.83,2826757.61,9847172.44,5.37,4.59,5.73,4.93
+"2010-11","638","Coweta County","ALL","All Column Values","Teachers and Paraprofessionals",75428473.8,28211641.76,103640115.56,56.53,48.34,60.35,51.9
+"2010-11","639","Crawford County","ALL","All Column Values","General Administration",355930.96,127153.83,483084.79,3.15,2.83,3.29,2.88
+"2010-11","639","Crawford County","ALL","All Column Values","School Administration",591174.38,265325.88,856500.26,5.59,5.02,5.84,5.1
+"2010-11","639","Crawford County","ALL","All Column Values","Teachers and Paraprofessionals",6572711.2,2632575.96,9205287.16,60.07,53.91,62.72,54.86
+"2010-11","640","Crisp County","ALL","All Column Values","General Administration",368913.54,109925.49,478839.03,1.28,1.1,1.3,1.2
+"2010-11","640","Crisp County","ALL","All Column Values","School Administration",1222542.8,513883.03,1736425.83,4.65,3.98,4.73,4.36
+"2010-11","640","Crisp County","ALL","All Column Values","Teachers and Paraprofessionals",15634610.73,5998119.39,21632730.12,57.92,49.53,58.87,54.32
+"2010-11","641","Dade County","ALL","All Column Values","General Administration",193083.49,109377.78,302461.27,1.51,1.29,1.6,1.34
+"2010-11","641","Dade County","ALL","All Column Values","School Administration",665269.05,276249.1,941518.15,4.71,4.01,4.97,4.17
+"2010-11","641","Dade County","ALL","All Column Values","Teachers and Paraprofessionals",7848912.41,3246708.66,11095621.07,55.46,47.25,58.59,49.11
+"2010-11","642","Dawson County","ALL","All Column Values","General Administration",280429.46,106408.65,386838.11,1.1,0.91,1.16,0.78
+"2010-11","642","Dawson County","ALL","All Column Values","School Administration",1345332.39,526620.42,1871952.81,5.32,4.39,5.61,3.77
+"2010-11","642","Dawson County","ALL","All Column Values","Teachers and Paraprofessionals",13427427.37,5682083.39,19109510.76,54.32,44.79,57.29,38.47
+"2010-11","643","Decatur County","ALL","All Column Values","General Administration",478428.93,118153.05,596581.98,1.31,1.11,1.34,1.12
+"2010-11","643","Decatur County","ALL","All Column Values","School Administration",1624971.09,541512.94,2166484.03,4.75,4.04,4.85,4.06
+"2010-11","643","Decatur County","ALL","All Column Values","Teachers and Paraprofessionals",19404601.27,6671430.75,26076032.02,57.15,48.6,58.36,48.92
+"2010-11","644","DeKalb County","ALL","All Column Values","General Administration",5795521.19,2273101.86,8068623.05,0.85,0.73,0.88,0.69
+"2010-11","644","DeKalb County","ALL","All Column Values","School Administration",33912374.81,11895248.26,45807623.07,4.81,4.12,5.02,3.89
+"2010-11","644","DeKalb County","ALL","All Column Values","Teachers and Paraprofessionals",356417183.83,123429807.34,479846991.17,50.39,43.13,52.59,40.78
+"2010-11","645","Dodge County","ALL","All Column Values","General Administration",387728.88,121139.7,508868.58,1.84,1.57,1.98,1.71
+"2010-11","645","Dodge County","ALL","All Column Values","School Administration",686434.74,274904.43,961339.17,3.47,2.96,3.73,3.24
+"2010-11","645","Dodge County","ALL","All Column Values","Teachers and Paraprofessionals",10898990.42,4299842.51,15198832.93,54.92,46.86,59.03,51.18
+"2010-11","646","Dooly County","ALL","All Column Values","General Administration",260272.33,82689.15,342961.48,2.3,1.97,2.43,2.16
+"2010-11","646","Dooly County","ALL","All Column Values","School Administration",593710.25,255639.77,849350.02,5.7,4.88,6.03,5.35
+"2010-11","646","Dooly County","ALL","All Column Values","Teachers and Paraprofessionals",5074700.94,1945247.07,7019948.01,47.1,40.3,49.83,44.18
+"2010-11","647","Dougherty County","ALL","All Column Values","General Administration",1185325.72,430681.02,1616006.74,1.12,0.94,1.19,0.99
+"2010-11","647","Dougherty County","ALL","All Column Values","School Administration",4720096.2,1902883.32,6622979.52,4.58,3.84,4.88,4.08
+"2010-11","647","Dougherty County","ALL","All Column Values","Teachers and Paraprofessionals",51757968.81,21091533.12,72849501.93,50.37,42.23,53.7,44.84
+"2010-11","648","Douglas County","ALL","All Column Values","General Administration",1806531.82,539135.91,2345667.73,1.17,0.88,1.12,0.85
+"2010-11","648","Douglas County","ALL","All Column Values","School Administration",7096011.94,3142981.35,10238993.29,5.1,3.83,4.89,3.7
+"2010-11","648","Douglas County","ALL","All Column Values","Teachers and Paraprofessionals",86713989.08,33828724,120542713.08,60.02,45.06,57.57,43.57
+"2010-11","649","Early County","ALL","All Column Values","General Administration",336130.23,138070.49,474200.72,2.09,1.74,2.19,1.79
+"2010-11","649","Early County","ALL","All Column Values","School Administration",808363.24,307788.62,1116151.86,4.93,4.09,5.16,4.21
+"2010-11","649","Early County","ALL","All Column Values","Teachers and Paraprofessionals",9164303.4,3614216.25,12778519.65,56.43,46.83,59.07,48.17
+"2010-11","650","Echols County","ALL","All Column Values","General Administration",156446.72,73560.09,230006.81,3.27,2.85,3.41,2.85
+"2010-11","650","Echols County","ALL","All Column Values","School Administration",122734.08,53362.08,176096.16,2.51,2.18,2.61,2.18
+"2010-11","650","Echols County","ALL","All Column Values","Teachers and Paraprofessionals",2641497.58,1045851.97,3687349.55,52.48,45.75,54.67,45.65
+"2010-11","651","Effingham County","ALL","All Column Values","General Administration",1016984.23,411114.04,1428098.27,1.55,1.34,1.61,1.45
+"2010-11","651","Effingham County","ALL","All Column Values","School Administration",2851107.89,1190912.45,4042020.34,4.39,3.8,4.57,4.1
+"2010-11","651","Effingham County","ALL","All Column Values","Teachers and Paraprofessionals",41604090.4,14990392.63,56594483.03,61.4,53.21,63.97,57.36
+"2010-11","652","Elbert County","ALL","All Column Values","General Administration",263213,117661.15,380874.15,1.2,1.06,1.19,1.06
+"2010-11","652","Elbert County","ALL","All Column Values","School Administration",963625.97,439781.07,1403407.04,4.42,3.89,4.38,3.89
+"2010-11","652","Elbert County","ALL","All Column Values","Teachers and Paraprofessionals",14092213.89,5482883.33,19575097.22,61.61,54.24,61.12,54.28
+"2010-11","653","Emanuel County","ALL","All Column Values","General Administration",671370.61,192542.62,863913.23,2.29,2.01,2.49,2.18
+"2010-11","653","Emanuel County","ALL","All Column Values","School Administration",1227550.59,508526.04,1736076.63,4.6,4.04,5,4.38
+"2010-11","653","Emanuel County","ALL","All Column Values","Teachers and Paraprofessionals",14512987.19,5748635.82,20261623.01,53.65,47.11,58.4,51.07
+"2010-11","654","Evans County","ALL","All Column Values","General Administration",175433.75,88568.02,264001.77,1.74,1.48,1.88,1.66
+"2010-11","654","Evans County","ALL","All Column Values","School Administration",462011.57,145791.92,607803.49,4,3.41,4.32,3.83
+"2010-11","654","Evans County","ALL","All Column Values","Teachers and Paraprofessionals",6264849.55,1891398.61,8156248.16,53.69,45.79,57.99,51.33
+"2010-11","655","Fannin County","ALL","All Column Values","General Administration",372817.95,165733.61,538551.56,1.67,1.44,1.74,1.43
+"2010-11","655","Fannin County","ALL","All Column Values","School Administration",959578.79,522379.7,1481958.49,4.6,3.97,4.79,3.92
+"2010-11","655","Fannin County","ALL","All Column Values","Teachers and Paraprofessionals",12264275.63,5287127.69,17551403.32,54.5,47.03,56.73,46.48
+"2010-11","656","Fayette County","ALL","All Column Values","General Administration",745580.66,303943.59,1049524.25,0.54,0.46,0.57,0.5
+"2010-11","656","Fayette County","ALL","All Column Values","School Administration",6268298.08,3305896.63,9574194.71,4.94,4.19,5.24,4.55
+"2010-11","656","Fayette County","ALL","All Column Values","Teachers and Paraprofessionals",79570558.48,30757956.16,110328514.64,56.89,48.25,60.43,52.48
+"2010-11","657","Floyd County","ALL","All Column Values","General Administration",709622.39,1001864.75,1711487.14,1.64,1.42,1.74,1.48
+"2010-11","657","Floyd County","ALL","All Column Values","School Administration",4091949.06,1689015.93,5780964.99,5.54,4.8,5.87,5.02
+"2010-11","657","Floyd County","ALL","All Column Values","Teachers and Paraprofessionals",41300426.28,16811988.13,58112414.41,55.68,48.24,58.97,50.42
+"2010-11","658","Forsyth County","ALL","All Column Values","General Administration",1474023.93,464171.28,1938195.21,0.69,0.53,0.72,0.52
+"2010-11","658","Forsyth County","ALL","All Column Values","School Administration",8883760.44,3834746.32,12718506.76,4.51,3.51,4.73,3.42
+"2010-11","658","Forsyth County","ALL","All Column Values","Teachers and Paraprofessionals",124263515.56,47732480.75,171995996.31,60.97,47.4,63.94,46.25
+"2010-11","659","Franklin County","ALL","All Column Values","General Administration",266385.75,142617.67,409003.42,1.28,1.12,1.33,1.14
+"2010-11","659","Franklin County","ALL","All Column Values","School Administration",1144015.8,459994.5,1604010.3,5.03,4.41,5.21,4.49
+"2010-11","659","Franklin County","ALL","All Column Values","Teachers and Paraprofessionals",13593401.98,5058929.03,18652331.01,58.49,51.26,60.6,52.19
+"2010-11","660","Fulton County","ALL","All Column Values","General Administration",3609557.29,5196345.31,8805902.6,0.95,0.79,1.06,0.91
+"2010-11","660","Fulton County","ALL","All Column Values","School Administration",24956144.48,10406161.15,35362305.63,3.8,3.18,4.25,3.65
+"2010-11","660","Fulton County","ALL","All Column Values","Teachers and Paraprofessionals",343490500.24,114850083.7,458340583.94,49.3,41.22,55.04,47.33
+"2010-11","661","Gilmer County","ALL","All Column Values","General Administration",290275.94,142549.17,432825.11,1.04,0.9,1.15,0.91
+"2010-11","661","Gilmer County","ALL","All Column Values","School Administration",1351847.37,617268.06,1969115.43,4.73,4.11,5.24,4.15
+"2010-11","661","Gilmer County","ALL","All Column Values","Teachers and Paraprofessionals",15841303.25,6474140.29,22315443.54,53.64,46.52,59.4,47.02
+"2010-11","662","Glascock County","ALL","All Column Values","General Administration",157555.45,56667.83,214223.28,4.2,3.8,4.17,3.66
+"2010-11","662","Glascock County","ALL","All Column Values","School Administration",159700.64,56076.64,215777.28,4.23,3.83,4.2,3.68
+"2010-11","662","Glascock County","ALL","All Column Values","Teachers and Paraprofessionals",1993342.68,609755.05,2603097.73,51.06,46.17,50.71,44.45
+"2010-11","663","Glynn County","ALL","All Column Values","General Administration",919174.76,442185.18,1361359.94,1.09,0.66,1.19,0.93
+"2010-11","663","Glynn County","ALL","All Column Values","School Administration",3648627.68,1487509.71,5136137.39,4.13,2.49,4.49,3.51
+"2010-11","663","Glynn County","ALL","All Column Values","Teachers and Paraprofessionals",48004450.73,18923384.53,66927835.26,53.83,32.45,58.46,45.68
+"2010-11","664","Gordon County","ALL","All Column Values","General Administration",278924.2,149319.65,428243.85,0.77,0.66,0.8,0.65
+"2010-11","664","Gordon County","ALL","All Column Values","School Administration",1900709.91,784795.31,2685505.22,4.85,4.16,4.99,4.1
+"2010-11","664","Gordon County","ALL","All Column Values","Teachers and Paraprofessionals",22990365.56,8936274.84,31926640.4,57.64,49.45,59.32,48.71
+"2010-11","665","Grady County","ALL","All Column Values","General Administration",213835.75,55965.03,269800.78,0.77,0.67,0.83,0.74
+"2010-11","665","Grady County","ALL","All Column Values","School Administration",1033860.77,356951.44,1390812.21,3.95,3.45,4.28,3.79
+"2010-11","665","Grady County","ALL","All Column Values","Teachers and Paraprofessionals",15162091.1,4907435.63,20069526.73,57.03,49.79,61.8,54.75
+"2010-11","666","Greene County","ALL","All Column Values","General Administration",529311.28,181490.55,710801.83,2.63,2.27,2.81,1.99
+"2010-11","666","Greene County","ALL","All Column Values","School Administration",1030720.61,366804.54,1397525.15,5.18,4.46,5.52,3.91
+"2010-11","666","Greene County","ALL","All Column Values","Teachers and Paraprofessionals",8127116.08,3112798.99,11239915.07,41.66,35.87,44.42,31.46
+"2010-11","667","Gwinnett County","ALL","All Column Values","General Administration",5517622.4,2515005.01,8032627.41,0.6,0.48,0.61,0.46
+"2010-11","667","Gwinnett County","ALL","All Column Values","School Administration",46948949.66,20327305.46,67276255.12,4.99,4.05,5.08,3.87
+"2010-11","667","Gwinnett County","ALL","All Column Values","Teachers and Paraprofessionals",578780971.24,209318693.15,788099664.39,58.41,47.47,59.5,45.31
+"2010-11","668","Habersham County","ALL","All Column Values","General Administration",302439.64,156346.76,458786.4,0.74,0.65,0.74,0.51
+"2010-11","668","Habersham County","ALL","All Column Values","School Administration",2166218.63,921361.43,3087580.06,4.97,4.36,5,3.44
+"2010-11","668","Habersham County","ALL","All Column Values","Teachers and Paraprofessionals",26733316.06,10241879.5,36975195.56,59.46,52.16,59.92,41.25
+"2010-11","669","Hall County","ALL","All Column Values","General Administration",476752.14,715561.5,1192313.64,0.56,0.46,0.58,0.48
+"2010-11","669","Hall County","ALL","All Column Values","School Administration",6894401.02,2821652.48,9716053.5,4.54,3.72,4.72,3.93
+"2010-11","669","Hall County","ALL","All Column Values","Teachers and Paraprofessionals",90791793.49,34130145.39,124921938.88,58.43,47.77,60.67,50.49
+"2010-11","670","Hancock County","ALL","All Column Values","General Administration",279343.71,126182.48,405526.19,3.35,3.03,3.61,3.25
+"2010-11","670","Hancock County","ALL","All Column Values","School Administration",448907.72,129663.09,578570.81,4.78,4.32,5.15,4.64
+"2010-11","670","Hancock County","ALL","All Column Values","Teachers and Paraprofessionals",3995364.39,1295679.75,5291044.14,43.76,39.48,47.1,42.42
+"2010-11","671","Haralson County","ALL","All Column Values","General Administration",313405.33,224374.78,537780.11,1.55,1.39,1.65,1.46
+"2010-11","671","Haralson County","ALL","All Column Values","School Administration",902379.92,393384.4,1295764.32,3.74,3.36,3.97,3.51
+"2010-11","671","Haralson County","ALL","All Column Values","Teachers and Paraprofessionals",13418460.15,5311253.74,18729713.89,54.09,48.56,57.32,50.74
+"2010-11","672","Harris County","ALL","All Column Values","General Administration",355390.34,261620.98,617011.32,1.42,1.26,1.5,1.34
+"2010-11","672","Harris County","ALL","All Column Values","School Administration",1469875.54,569851.24,2039726.78,4.68,4.15,4.94,4.43
+"2010-11","672","Harris County","ALL","All Column Values","Teachers and Paraprofessionals",16063364.61,6021413.63,22084778.24,50.66,44.99,53.52,48
+"2010-11","673","Hart County","ALL","All Column Values","General Administration",358690.88,106164.89,464855.77,1.58,1.36,1.62,1.39
+"2010-11","673","Hart County","ALL","All Column Values","School Administration",1042014.16,460716.83,1502730.99,5.11,4.39,5.24,4.49
+"2010-11","673","Hart County","ALL","All Column Values","Teachers and Paraprofessionals",11986125.93,5136993.22,17123119.15,58.17,50.01,59.69,51.19
+"2010-11","674","Heard County","ALL","All Column Values","General Administration",322324.73,83319.76,405644.49,2.19,1.08,2.35,1.44
+"2010-11","674","Heard County","ALL","All Column Values","School Administration",779860.98,262262.39,1042123.37,5.64,2.77,6.03,3.71
+"2010-11","674","Heard County","ALL","All Column Values","Teachers and Paraprofessionals",7252738.85,2540702.45,9793441.3,52.98,26.04,56.66,34.85
+"2010-11","675","Henry County","ALL","All Column Values","General Administration",1036730.27,426051.93,1462782.2,0.44,0.36,0.48,0.39
+"2010-11","675","Henry County","ALL","All Column Values","School Administration",11254886.92,4458099.01,15712985.93,4.67,3.91,5.17,4.15
+"2010-11","675","Henry County","ALL","All Column Values","Teachers and Paraprofessionals",136258737.42,49588645.9,185847383.32,55.28,46.25,61.21,49.08
+"2010-11","676","Houston County","ALL","All Column Values","General Administration",1116309.93,409035.7,1525345.63,0.65,0.56,0.69,0.61
+"2010-11","676","Houston County","ALL","All Column Values","School Administration",9353686.32,3569097.19,12922783.51,5.47,4.73,5.88,5.14
+"2010-11","676","Houston County","ALL","All Column Values","Teachers and Paraprofessionals",93516134.64,36701686.87,130217821.51,55.1,47.69,59.24,51.84
+"2010-11","677","Irwin County","ALL","All Column Values","General Administration",407769.79,127390.81,535160.6,3.47,3.14,3.53,3.14
+"2010-11","677","Irwin County","ALL","All Column Values","School Administration",598752.44,187228.66,785981.1,5.09,4.62,5.18,4.62
+"2010-11","677","Irwin County","ALL","All Column Values","Teachers and Paraprofessionals",6476140.24,2122772.5,8598912.74,55.68,50.5,56.72,50.52
+"2010-11","678","Jackson County","ALL","All Column Values","General Administration",551842.37,216118.08,767960.45,1.12,0.93,1.23,1.06
+"2010-11","678","Jackson County","ALL","All Column Values","School Administration",2349037.25,933613.89,3282651.14,4.8,3.96,5.27,4.55
+"2010-11","678","Jackson County","ALL","All Column Values","Teachers and Paraprofessionals",25526660.52,10156083.23,35682743.75,52.14,43.02,57.27,49.42
+"2010-11","679","Jasper County","ALL","All Column Values","General Administration",232605.27,79917.5,312522.77,1.69,1.48,1.67,1.4
+"2010-11","679","Jasper County","ALL","All Column Values","School Administration",822237.94,316517.14,1138755.08,6.14,5.38,6.08,5.12
+"2010-11","679","Jasper County","ALL","All Column Values","Teachers and Paraprofessionals",6663778.41,2578642.88,9242421.29,49.85,43.7,49.33,41.54
+"2010-11","680","Jeff Davis County","ALL","All Column Values","General Administration",337614.59,102434.63,440049.22,2.03,1.66,2.1,1.67
+"2010-11","680","Jeff Davis County","ALL","All Column Values","School Administration",636824.19,198512.19,835336.38,3.85,3.16,3.98,3.18
+"2010-11","680","Jeff Davis County","ALL","All Column Values","Teachers and Paraprofessionals",9324581.96,2959417.68,12283999.64,56.56,46.44,58.56,46.73
+"2010-11","681","Jefferson County","ALL","All Column Values","General Administration",273131.15,108139,381270.15,1.53,1.33,1.6,1.39
+"2010-11","681","Jefferson County","ALL","All Column Values","School Administration",1127358.5,359146.26,1486504.76,5.96,5.18,6.22,5.43
+"2010-11","681","Jefferson County","ALL","All Column Values","Teachers and Paraprofessionals",10042339.14,3485676.23,13528015.37,54.25,47.17,56.63,49.42
+"2010-11","682","Jenkins County","ALL","All Column Values","General Administration",198149.53,77453.27,275602.8,2.07,1.83,2.2,1.96
+"2010-11","682","Jenkins County","ALL","All Column Values","School Administration",359593.51,134806.72,494400.23,3.71,3.28,3.94,3.52
+"2010-11","682","Jenkins County","ALL","All Column Values","Teachers and Paraprofessionals",4958709.04,1687752.33,6646461.37,49.83,44.11,53,47.38
+"2010-11","683","Johnson County","ALL","All Column Values","General Administration",238219.12,95864.26,334083.38,3.11,2.74,3.2,2.89
+"2010-11","683","Johnson County","ALL","All Column Values","School Administration",404597.43,171864.49,576461.92,5.37,4.72,5.52,4.99
+"2010-11","683","Johnson County","ALL","All Column Values","Teachers and Paraprofessionals",3938473.14,1572264.2,5510737.34,51.32,45.12,52.8,47.73
+"2010-11","684","Jones County","ALL","All Column Values","General Administration",399715.86,137982.44,537698.3,1.18,1,1.31,1.05
+"2010-11","684","Jones County","ALL","All Column Values","School Administration",1594368.02,573207.5,2167575.52,4.76,4.05,5.27,4.24
+"2010-11","684","Jones County","ALL","All Column Values","Teachers and Paraprofessionals",17564197.6,7080160.42,24644358.02,54.12,46,59.89,48.19
+"2010-11","685","Lamar County","ALL","All Column Values","General Administration",494970.75,168885.47,663856.22,3.06,2.68,3.21,2.71
+"2010-11","685","Lamar County","ALL","All Column Values","School Administration",860134.6,313125.47,1173260.07,5.4,4.74,5.67,4.78
+"2010-11","685","Lamar County","ALL","All Column Values","Teachers and Paraprofessionals",7968326.44,3161552.39,11129878.83,51.25,44.98,53.74,45.36
+"2010-11","686","Lanier County","ALL","All Column Values","General Administration",174543.05,146020.54,320563.59,2.13,1.93,2.45,2.12
+"2010-11","686","Lanier County","ALL","All Column Values","School Administration",421718.14,171513.48,593231.62,3.95,3.58,4.54,3.93
+"2010-11","686","Lanier County","ALL","All Column Values","Teachers and Paraprofessionals",5249155.85,2084009.97,7333165.82,48.79,44.24,56.11,48.59
+"2010-11","687","Laurens County","ALL","All Column Values","General Administration",386734.49,199087.54,585822.03,1.2,1.02,1.28,1.06
+"2010-11","687","Laurens County","ALL","All Column Values","School Administration",1285738.72,587409.33,1873148.05,3.85,3.26,4.1,3.38
+"2010-11","687","Laurens County","ALL","All Column Values","Teachers and Paraprofessionals",19763899.97,8440866.49,28204766.46,57.95,49.09,61.8,50.96
+"2010-11","688","Lee County","ALL","All Column Values","General Administration",374397.88,103719.89,478117.77,1.05,0.92,1.1,0.95
+"2010-11","688","Lee County","ALL","All Column Values","School Administration",1370765.12,580047.7,1950812.82,4.27,3.74,4.47,3.88
+"2010-11","688","Lee County","ALL","All Column Values","Teachers and Paraprofessionals",17999832.97,7255376.74,25255209.71,55.28,48.42,57.93,50.28
+"2010-11","689","Liberty County","ALL","All Column Values","General Administration",864289.69,241150.01,1105439.7,1.21,1.04,1.27,1.14
+"2010-11","689","Liberty County","ALL","All Column Values","School Administration",3183425.16,1322224.51,4505649.67,4.95,4.26,5.16,4.64
+"2010-11","689","Liberty County","ALL","All Column Values","Teachers and Paraprofessionals",34745173.68,13732693.73,48477867.41,53.21,45.82,55.48,49.92
+"2010-11","690","Lincoln County","ALL","All Column Values","General Administration",257224.04,80609.21,337833.25,2.64,2.32,2.75,2.21
+"2010-11","690","Lincoln County","ALL","All Column Values","School Administration",481627.8,179263.41,660891.21,5.16,4.53,5.38,4.32
+"2010-11","690","Lincoln County","ALL","All Column Values","Teachers and Paraprofessionals",4406768.04,1675064.96,6081833,47.48,41.69,49.55,39.77
+"2010-11","691","Long County","ALL","All Column Values","General Administration",214936.74,117469.96,332406.7,1.77,1.25,1.86,1.45
+"2010-11","691","Long County","ALL","All Column Values","School Administration",500664.19,201299.15,701963.34,3.75,2.64,3.93,3.06
+"2010-11","691","Long County","ALL","All Column Values","Teachers and Paraprofessionals",7492211.87,2784404.82,10276616.69,54.84,38.7,57.5,44.78
+"2010-11","692","Lowndes County","ALL","All Column Values","General Administration",504700.05,285875.73,790575.78,0.97,0.8,0.95,0.77
+"2010-11","692","Lowndes County","ALL","All Column Values","School Administration",2573013.35,1060106.92,3633120.27,4.46,3.69,4.38,3.54
+"2010-11","692","Lowndes County","ALL","All Column Values","Teachers and Paraprofessionals",36192634.58,13977618.57,50170253.15,61.61,50.94,60.45,48.86
+"2010-11","693","Lumpkin County","ALL","All Column Values","General Administration",241304.13,94117.33,335421.46,1.01,0.88,1.06,0.93
+"2010-11","693","Lumpkin County","ALL","All Column Values","School Administration",940065.67,474051.73,1414117.4,4.25,3.7,4.47,3.9
+"2010-11","693","Lumpkin County","ALL","All Column Values","Teachers and Paraprofessionals",12816956.73,4949340.69,17766297.42,53.4,46.52,56.2,49.01
+"2010-11","694","Macon County","ALL","All Column Values","General Administration",212842.64,99033.63,311876.27,1.72,1.52,1.76,1.58
+"2010-11","694","Macon County","ALL","All Column Values","School Administration",750700.66,307241.42,1057942.08,5.85,5.16,5.96,5.36
+"2010-11","694","Macon County","ALL","All Column Values","Teachers and Paraprofessionals",6225712.18,2516562.05,8742274.23,48.32,42.66,49.22,44.28
+"2010-11","695","Madison County","ALL","All Column Values","General Administration",406153.59,181868.27,588021.86,1.31,1.18,1.37,1.22
+"2010-11","695","Madison County","ALL","All Column Values","School Administration",1418628.21,594997.61,2013625.82,4.49,4.05,4.69,4.19
+"2010-11","695","Madison County","ALL","All Column Values","Teachers and Paraprofessionals",18154137.33,6989123.78,25143261.11,56.12,50.51,58.58,52.28
+"2010-11","696","Marion County","ALL","All Column Values","General Administration",448685.22,121374.15,570059.37,5,1.7,5.22,2.27
+"2010-11","696","Marion County","ALL","All Column Values","School Administration",523665.66,181808.93,705474.59,6.19,2.1,6.46,2.81
+"2010-11","696","Marion County","ALL","All Column Values","Teachers and Paraprofessionals",4344700.84,1423852.61,5768553.45,50.61,17.16,52.82,22.96
+"2010-11","697","McDuffie County","ALL","All Column Values","General Administration",685881.62,165759.44,851641.06,2.39,2.06,2.56,2.18
+"2010-11","697","McDuffie County","ALL","All Column Values","School Administration",1242019.31,423592.81,1665612.12,4.67,4.02,5,4.27
+"2010-11","697","McDuffie County","ALL","All Column Values","Teachers and Paraprofessionals",15999921.58,4678136.32,20678057.9,57.99,49.92,62.1,53.01
+"2010-11","698","McIntosh County","ALL","All Column Values","General Administration",245671.65,77733.78,323405.43,2.1,1.84,2.24,1.95
+"2010-11","698","McIntosh County","ALL","All Column Values","School Administration",599228.82,212800.53,812029.35,5.27,4.62,5.64,4.9
+"2010-11","698","McIntosh County","ALL","All Column Values","Teachers and Paraprofessionals",5162601.53,1918274.14,7080875.67,45.98,40.33,49.15,42.74
+"2010-11","699","Meriwether County","ALL","All Column Values","General Administration",431220.38,218387.74,649608.12,2.17,1.84,2.22,1.77
+"2010-11","699","Meriwether County","ALL","All Column Values","School Administration",1038425.56,372228.82,1410654.38,4.71,4,4.83,3.84
+"2010-11","699","Meriwether County","ALL","All Column Values","Teachers and Paraprofessionals",12411438.5,3923636.13,16335074.63,54.56,46.37,55.93,44.47
+"2010-11","700","Miller County","ALL","All Column Values","General Administration",134731.38,67118.7,201850.08,2.11,1.85,2.3,2
+"2010-11","700","Miller County","ALL","All Column Values","School Administration",229383.51,97098.96,326482.47,3.41,2.99,3.71,3.23
+"2010-11","700","Miller County","ALL","All Column Values","Teachers and Paraprofessionals",3544030.6,1301185.98,4845216.58,50.61,44.41,55.11,47.89
+"2010-11","701","Mitchell County","ALL","All Column Values","General Administration",215050.61,69312.43,284363.04,1.17,1.02,1.21,1.02
+"2010-11","701","Mitchell County","ALL","All Column Values","School Administration",706222.33,215204.02,921426.35,3.79,3.31,3.91,3.3
+"2010-11","701","Mitchell County","ALL","All Column Values","Teachers and Paraprofessionals",7924871.45,2623729.83,10548601.28,43.37,37.92,44.78,37.82
+"2010-11","702","Monroe County","ALL","All Column Values","General Administration",441584.11,168889.52,610473.63,1.62,1.35,1.72,1.55
+"2010-11","702","Monroe County","ALL","All Column Values","School Administration",1031346.3,468061.13,1499407.43,3.98,3.33,4.22,3.81
+"2010-11","702","Monroe County","ALL","All Column Values","Teachers and Paraprofessionals",13862638.46,5379043.27,19241681.73,51.07,42.7,54.2,48.91
+"2010-11","703","Montgomery County","ALL","All Column Values","General Administration",275545.43,97428.04,372973.47,4,3.53,4.02,3.62
+"2010-11","703","Montgomery County","ALL","All Column Values","School Administration",418852.37,162502.6,581354.97,6.23,5.5,6.26,5.65
+"2010-11","703","Montgomery County","ALL","All Column Values","Teachers and Paraprofessionals",4188465.73,1364762.85,5553228.58,59.53,52.55,59.84,53.93
+"2010-11","704","Morgan County","ALL","All Column Values","General Administration",353967.37,177864.21,531831.58,1.87,1.6,1.85,1.62
+"2010-11","704","Morgan County","ALL","All Column Values","School Administration",897881.48,364337.95,1262219.43,4.44,3.79,4.4,3.85
+"2010-11","704","Morgan County","ALL","All Column Values","Teachers and Paraprofessionals",13529329.86,5330903.16,18860233.02,66.37,56.65,65.73,57.48
+"2010-11","705","Murray County","ALL","All Column Values","General Administration",332825.32,106968.55,439793.87,0.76,0.64,0.79,0.59
+"2010-11","705","Murray County","ALL","All Column Values","School Administration",1704679.25,693124.35,2397803.6,4.15,3.51,4.28,3.22
+"2010-11","705","Murray County","ALL","All Column Values","Teachers and Paraprofessionals",25029942.35,9469651.01,34499593.36,59.75,50.5,61.63,46.28
+"2010-11","706","Muscogee County","ALL","All Column Values","General Administration",2041318.4,761971.58,2803289.98,0.9,0.72,0.97,0.83
+"2010-11","706","Muscogee County","ALL","All Column Values","School Administration",9850643.61,3789465.3,13640108.91,4.38,3.53,4.74,4.02
+"2010-11","706","Muscogee County","ALL","All Column Values","Teachers and Paraprofessionals",115323288.93,45218367.77,160541656.7,51.57,41.51,55.81,47.37
+"2010-11","707","Newton County","ALL","All Column Values","General Administration",779424.58,273554.35,1052978.93,0.68,0.5,0.71,0.54
+"2010-11","707","Newton County","ALL","All Column Values","School Administration",4782871.1,1746425.03,6529296.13,4.21,3.11,4.41,3.38
+"2010-11","707","Newton County","ALL","All Column Values","Teachers and Paraprofessionals",66508897.34,23761689.64,90270586.98,58.25,43.03,60.91,46.67
+"2010-11","708","Oconee County","ALL","All Column Values","General Administration",770472.78,233073.64,1003546.42,1.79,1.54,1.86,1.56
+"2010-11","708","Oconee County","ALL","All Column Values","School Administration",2400798.84,879563.65,3280362.49,5.85,5.05,6.09,5.1
+"2010-11","708","Oconee County","ALL","All Column Values","Teachers and Paraprofessionals",23889583.08,9103911.68,32993494.76,58.87,50.76,61.3,51.31
+"2010-11","709","Oglethorpe County","ALL","All Column Values","General Administration",315767.53,73346.74,389114.27,1.77,1.57,1.87,1.63
+"2010-11","709","Oglethorpe County","ALL","All Column Values","School Administration",786115.35,261712.08,1047827.43,4.77,4.24,5.03,4.4
+"2010-11","709","Oglethorpe County","ALL","All Column Values","Teachers and Paraprofessionals",9092049.73,3028053.73,12120103.46,55.2,49.03,58.23,50.88
+"2010-11","710","Paulding County","ALL","All Column Values","General Administration",1130353.81,459740.39,1590094.2,0.75,0.64,0.79,0.63
+"2010-11","710","Paulding County","ALL","All Column Values","School Administration",7402476.3,3197883.98,10600360.28,5.02,4.25,5.28,4.21
+"2010-11","710","Paulding County","ALL","All Column Values","Teachers and Paraprofessionals",84613697.49,37324386.23,121938083.72,57.73,48.93,60.69,48.47
+"2010-11","711","Peach County","ALL","All Column Values","General Administration",425402.38,146117.87,571520.25,1.57,1.34,1.56,1.35
+"2010-11","711","Peach County","ALL","All Column Values","School Administration",1277351.1,442892.28,1720243.38,4.73,4.04,4.69,4.07
+"2010-11","711","Peach County","ALL","All Column Values","Teachers and Paraprofessionals",13450689.36,4704127.36,18154816.72,49.87,42.67,49.54,42.95
+"2010-11","712","Pickens County","ALL","All Column Values","General Administration",491814.57,187986.29,679800.86,1.52,1.34,1.64,1.42
+"2010-11","712","Pickens County","ALL","All Column Values","School Administration",1386388.4,548067.42,1934455.82,4.33,3.8,4.67,4.05
+"2010-11","712","Pickens County","ALL","All Column Values","Teachers and Paraprofessionals",16127407.27,6878147.4,23005554.67,51.55,45.22,55.5,48.17
+"2010-11","713","Pierce County","ALL","All Column Values","General Administration",258465.54,120308.92,378774.46,1.32,1.17,1.36,1.26
+"2010-11","713","Pierce County","ALL","All Column Values","School Administration",987336.52,409478.15,1396814.67,4.86,4.32,5.02,4.63
+"2010-11","713","Pierce County","ALL","All Column Values","Teachers and Paraprofessionals",11790123.87,4660539.33,16450663.2,57.22,50.88,59.11,54.54
+"2010-11","714","Pike County","ALL","All Column Values","General Administration",380175.07,328892.97,709068.04,3.05,2.67,3.02,2.63
+"2010-11","714","Pike County","ALL","All Column Values","School Administration",580422.74,216618.17,797040.91,3.43,3.01,3.4,2.96
+"2010-11","714","Pike County","ALL","All Column Values","Teachers and Paraprofessionals",11001745.3,3726817.34,14728562.64,63.46,55.56,62.74,54.61
+"2010-11","715","Polk County","ALL","All Column Values","General Administration",274064.51,144032.13,418096.64,0.68,0.61,0.69,0.61
+"2010-11","715","Polk County","ALL","All Column Values","School Administration",1770193.64,584576.94,2354770.58,3.84,3.43,3.89,3.46
+"2010-11","715","Polk County","ALL","All Column Values","Teachers and Paraprofessionals",28006728.8,8615874.02,36622602.82,59.66,53.27,60.56,53.84
+"2010-11","716","Pulaski County","ALL","All Column Values","General Administration",278022.4,100326.83,378349.23,2.67,2.38,2.87,2.39
+"2010-11","716","Pulaski County","ALL","All Column Values","School Administration",479690.53,185000.07,664690.6,4.7,4.19,5.04,4.2
+"2010-11","716","Pulaski County","ALL","All Column Values","Teachers and Paraprofessionals",5259218.83,1741530.15,7000748.98,49.46,44.11,53.05,44.27
+"2010-11","717","Putnam County","ALL","All Column Values","General Administration",361638.38,135160.33,496798.71,1.7,1.39,1.76,1.42
+"2010-11","717","Putnam County","ALL","All Column Values","School Administration",738931.99,264807.28,1003739.27,3.44,2.8,3.57,2.86
+"2010-11","717","Putnam County","ALL","All Column Values","Teachers and Paraprofessionals",11439549.87,3540959.51,14980509.38,51.29,41.86,53.21,42.72
+"2010-11","718","Quitman County","ALL","All Column Values","General Administration",180465.49,91294.38,271759.87,6.34,5.62,6.9,5.81
+"2010-11","718","Quitman County","ALL","All Column Values","School Administration",103305.67,51777.58,155083.25,3.62,3.21,3.93,3.31
+"2010-11","718","Quitman County","ALL","All Column Values","Teachers and Paraprofessionals",1706234.98,473787.96,2180022.94,50.89,45.08,55.31,46.6
+"2010-11","719","Rabun County","ALL","All Column Values","General Administration",364820.51,109447.18,474267.69,1.56,0.92,2.05,1.58
+"2010-11","719","Rabun County","ALL","All Column Values","School Administration",831588.79,317706.18,1149294.97,3.79,2.24,4.97,3.83
+"2010-11","719","Rabun County","ALL","All Column Values","Teachers and Paraprofessionals",9838711.67,3960774.06,13799485.73,45.53,26.86,59.63,45.96
+"2010-11","720","Randolph County","ALL","All Column Values","General Administration",329122.23,98983.97,428106.2,3.84,2.63,3.83,2.98
+"2010-11","720","Randolph County","ALL","All Column Values","School Administration",167735.41,99616,267351.41,2.4,1.64,2.39,1.86
+"2010-11","720","Randolph County","ALL","All Column Values","Teachers and Paraprofessionals",4538373.86,1399789.49,5938163.35,53.21,36.43,53.15,41.37
+"2010-11","721","Richmond County","ALL","All Column Values","General Administration",2594026.25,733367.05,3327393.3,1.18,0.97,1.21,0.91
+"2010-11","721","Richmond County","ALL","All Column Values","School Administration",8557178.86,4151880.87,12709059.73,4.5,3.72,4.62,3.47
+"2010-11","721","Richmond County","ALL","All Column Values","Teachers and Paraprofessionals",102429178.19,42601693.23,145030871.42,51.39,42.45,52.73,39.56
+"2010-11","722","Rockdale County","ALL","All Column Values","General Administration",1038626.86,505656.09,1544282.95,1.06,0.91,1.1,0.99
+"2010-11","722","Rockdale County","ALL","All Column Values","School Administration",5262683.94,1819493.24,7082177.18,4.88,4.19,5.04,4.53
+"2010-11","722","Rockdale County","ALL","All Column Values","Teachers and Paraprofessionals",62766263.41,19541913.5,82308176.91,56.66,48.74,58.54,52.62
+"2010-11","723","Schley County","ALL","All Column Values","General Administration",327096.72,103515.74,430612.46,4.21,3.74,4.68,4.15
+"2010-11","723","Schley County","ALL","All Column Values","School Administration",352098.13,115926.98,468025.11,4.57,4.07,5.08,4.52
+"2010-11","723","Schley County","ALL","All Column Values","Teachers and Paraprofessionals",4517154.85,1463095.77,5980250.62,58.41,52.01,64.97,57.7
+"2010-11","724","Screven County","ALL","All Column Values","General Administration",360997.75,95487.14,456484.89,2.11,1.86,2.35,2.08
+"2010-11","724","Screven County","ALL","All Column Values","School Administration",662454.07,227526.02,889980.09,4.12,3.64,4.58,4.06
+"2010-11","724","Screven County","ALL","All Column Values","Teachers and Paraprofessionals",7579671.91,2656129.64,10235801.55,47.41,41.81,52.72,46.66
+"2010-11","725","Seminole County","ALL","All Column Values","General Administration",178296.32,76261.06,254557.38,1.76,1.52,1.8,1.62
+"2010-11","725","Seminole County","ALL","All Column Values","School Administration",474336.41,184349.68,658686.09,4.55,3.94,4.65,4.2
+"2010-11","725","Seminole County","ALL","All Column Values","Teachers and Paraprofessionals",6036871.88,2282060.28,8318932.16,57.53,49.82,58.73,53.07
+"2010-11","726","Griffin-Spalding County","ALL","All Column Values","General Administration",695307.48,188676.56,883984.04,0.97,0.84,0.98,0.84
+"2010-11","726","Griffin-Spalding County","ALL","All Column Values","School Administration",3936192.89,1573367.33,5509560.22,6.03,5.23,6.13,5.21
+"2010-11","726","Griffin-Spalding County","ALL","All Column Values","Teachers and Paraprofessionals",35680776.86,13631924.96,49312701.82,53.95,46.85,54.89,46.63
+"2010-11","727","Stephens County","ALL","All Column Values","General Administration",691933.88,216776.26,908710.14,2.33,1.73,2.38,1.38
+"2010-11","727","Stephens County","ALL","All Column Values","School Administration",1267659.83,485124.33,1752784.16,4.5,3.35,4.6,2.66
+"2010-11","727","Stephens County","ALL","All Column Values","Teachers and Paraprofessionals",17347347.53,6722125.38,24069472.91,61.82,45.96,63.1,36.55
+"2010-11","728","Stewart County","ALL","All Column Values","General Administration",238887.99,74205.02,313093.01,5.21,4.58,4.93,4.46
+"2010-11","728","Stewart County","ALL","All Column Values","School Administration",303373.9,93851.36,397225.26,6.61,5.81,6.25,5.65
+"2010-11","728","Stewart County","ALL","All Column Values","Teachers and Paraprofessionals",2181952.38,670341.83,2852294.21,47.49,41.69,44.89,40.59
+"2010-11","729","Sumter County","ALL","All Column Values","General Administration",379248.37,148286.8,527535.17,1.19,0.77,1.29,1.09
+"2010-11","729","Sumter County","ALL","All Column Values","School Administration",1637528.65,690400.77,2327929.42,5.23,3.42,5.71,4.82
+"2010-11","729","Sumter County","ALL","All Column Values","Teachers and Paraprofessionals",15429312.44,6045961.36,21475273.8,48.25,31.53,52.71,44.45
+"2010-11","730","Talbot County","ALL","All Column Values","General Administration",320029.43,87301.58,407331.01,5.71,4.99,5.71,5.11
+"2010-11","730","Talbot County","ALL","All Column Values","School Administration",275815.42,189244.03,465059.45,6.51,5.7,6.52,5.83
+"2010-11","730","Talbot County","ALL","All Column Values","Teachers and Paraprofessionals",2523771.79,710631.6,3234403.39,45.31,39.62,45.33,40.56
+"2010-11","731","Taliaferro County","ALL","All Column Values","General Administration",94473.61,41900.27,136373.88,4.56,4.22,5.13,4.68
+"2010-11","731","Taliaferro County","ALL","All Column Values","School Administration",43324.78,23698.27,67023.05,2.24,2.07,2.52,2.3
+"2010-11","731","Taliaferro County","ALL","All Column Values","Teachers and Paraprofessionals",1025768.94,424475.57,1450244.51,48.53,44.86,54.52,49.79
+"2010-11","732","Tattnall County","ALL","All Column Values","General Administration",334237.44,94259.85,428497.29,1.47,1.29,1.63,1.44
+"2010-11","732","Tattnall County","ALL","All Column Values","School Administration",955542.47,329988.42,1285530.89,4.4,3.86,4.89,4.32
+"2010-11","732","Tattnall County","ALL","All Column Values","Teachers and Paraprofessionals",11317442.35,3669239.38,14986681.73,51.28,44.98,56.98,50.4
+"2010-11","733","Taylor County","ALL","All Column Values","General Administration",293619.3,94761.36,388380.66,2.63,2.35,2.71,2.43
+"2010-11","733","Taylor County","ALL","All Column Values","School Administration",461448.27,157007.36,618455.63,4.18,3.75,4.31,3.88
+"2010-11","733","Taylor County","ALL","All Column Values","Teachers and Paraprofessionals",5965870.7,1831160.76,7797031.46,52.75,47.24,54.4,48.86
+"2010-11","734","Telfair County","ALL","All Column Values","General Administration",166290.79,64950.38,231241.17,1.53,1.34,1.57,1.37
+"2010-11","734","Telfair County","ALL","All Column Values","School Administration",462764.11,195935.1,658699.21,4.34,3.81,4.48,3.9
+"2010-11","734","Telfair County","ALL","All Column Values","Teachers and Paraprofessionals",5884836.98,2353392.61,8238229.59,54.33,47.6,56.08,48.74
+"2010-11","735","Terrell County","ALL","All Column Values","General Administration",187802.9,72528.17,260331.07,1.79,1.6,2.07,1.84
+"2010-11","735","Terrell County","ALL","All Column Values","School Administration",495679.98,147135.44,642815.42,4.42,3.96,5.11,4.53
+"2010-11","735","Terrell County","ALL","All Column Values","Teachers and Paraprofessionals",4649747.18,1471995.82,6121743,42.13,37.74,48.65,43.16
+"2010-11","736","Thomas County","ALL","All Column Values","General Administration",220528.88,136722.62,357251.5,0.81,0.68,0.83,0.72
+"2010-11","736","Thomas County","ALL","All Column Values","School Administration",1335682.83,540700.63,1876383.46,4.26,3.57,4.36,3.78
+"2010-11","736","Thomas County","ALL","All Column Values","Teachers and Paraprofessionals",17949571.58,7009910.48,24959482.06,56.68,47.53,58.01,50.33
+"2010-11","737","Tift County","ALL","All Column Values","General Administration",209599.22,119182.33,328781.55,0.51,0.43,0.53,0.46
+"2010-11","737","Tift County","ALL","All Column Values","School Administration",2442658.13,1031281.37,3473939.5,5.38,4.55,5.64,4.83
+"2010-11","737","Tift County","ALL","All Column Values","Teachers and Paraprofessionals",27653806.46,10958811.14,38612617.6,59.82,50.52,62.7,53.67
+"2010-11","738","Toombs County","ALL","All Column Values","General Administration",197237.76,104716.11,301953.87,1.27,1.08,1.3,1.19
+"2010-11","738","Toombs County","ALL","All Column Values","School Administration",635734.05,265246.94,900980.99,3.78,3.22,3.87,3.56
+"2010-11","738","Toombs County","ALL","All Column Values","Teachers and Paraprofessionals",10838564.92,4128337.47,14966902.39,62.72,53.5,64.32,59.11
+"2010-11","739","Towns County","ALL","All Column Values","General Administration",226489.82,103183.76,329673.58,2.8,2.33,2.86,2.56
+"2010-11","739","Towns County","ALL","All Column Values","School Administration",411506.16,159910.5,571416.66,4.85,4.04,4.96,4.43
+"2010-11","739","Towns County","ALL","All Column Values","Teachers and Paraprofessionals",4927200.57,1934348.2,6861548.77,58.21,48.53,59.56,53.2
+"2010-11","740","Treutlen County","ALL","All Column Values","General Administration",286053.83,74312.08,360365.91,4.15,1.72,4.36,2.2
+"2010-11","740","Treutlen County","ALL","All Column Values","School Administration",243879.3,98971.41,342850.71,3.95,1.64,4.15,2.09
+"2010-11","740","Treutlen County","ALL","All Column Values","Teachers and Paraprofessionals",3311512.53,1209760.23,4521272.76,52.03,21.58,54.71,27.57
+"2010-11","741","Troup County","ALL","All Column Values","General Administration",1224271.55,454862.9,1679134.45,1.5,1.31,1.51,1.33
+"2010-11","741","Troup County","ALL","All Column Values","School Administration",3119009.66,1382671.46,4501681.12,4.01,3.51,4.05,3.57
+"2010-11","741","Troup County","ALL","All Column Values","Teachers and Paraprofessionals",45448431.83,16634756.15,62083187.98,55.35,48.42,55.91,49.21
+"2010-11","742","Turner County","ALL","All Column Values","General Administration",356442.06,86123.71,442565.77,2.94,2.64,3.07,2.71
+"2010-11","742","Turner County","ALL","All Column Values","School Administration",591729.84,193524.61,785254.45,5.22,4.68,5.45,4.81
+"2010-11","742","Turner County","ALL","All Column Values","Teachers and Paraprofessionals",6035795.73,1958387.36,7994183.09,53.17,47.61,55.45,48.97
+"2010-11","743","Twiggs County","ALL","All Column Values","General Administration",206919.2,62054.38,268973.58,2.49,2.18,2.36,2.14
+"2010-11","743","Twiggs County","ALL","All Column Values","School Administration",297072.46,135711.33,432783.79,4.01,3.51,3.8,3.45
+"2010-11","743","Twiggs County","ALL","All Column Values","Teachers and Paraprofessionals",3724518.85,1498276.2,5222795.05,48.37,42.35,45.8,41.58
+"2010-11","744","Union County","ALL","All Column Values","General Administration",469809.95,134358.48,604168.43,2.35,1.97,2.46,1.86
+"2010-11","744","Union County","ALL","All Column Values","School Administration",761610.24,243201.38,1004811.62,3.9,3.28,4.09,3.09
+"2010-11","744","Union County","ALL","All Column Values","Teachers and Paraprofessionals",11512028.68,3535466.27,15047494.95,58.42,49.08,61.18,46.22
+"2010-11","745","Thomaston-Upson County","ALL","All Column Values","General Administration",627255.7,243162.11,870417.81,2.39,2.08,2.5,2.17
+"2010-11","745","Thomaston-Upson County","ALL","All Column Values","School Administration",1131639.71,451646.21,1583285.92,4.35,3.77,4.55,3.95
+"2010-11","745","Thomaston-Upson County","ALL","All Column Values","Teachers and Paraprofessionals",14725550.51,6015506.59,20741057.1,57.04,49.45,59.55,51.73
+"2010-11","746","Walker County","ALL","All Column Values","General Administration",235324.54,138859.22,374183.76,0.44,0.39,0.44,0.39
+"2010-11","746","Walker County","ALL","All Column Values","School Administration",3023316.1,1271068.99,4294385.09,5.04,4.52,5.09,4.53
+"2010-11","746","Walker County","ALL","All Column Values","Teachers and Paraprofessionals",36463672.58,14276325.33,50739997.91,59.55,53.38,60.19,53.5
+"2010-11","747","Walton County","ALL","All Column Values","General Administration",980081.83,435586.92,1415668.75,1.29,1.09,1.32,1.11
+"2010-11","747","Walton County","ALL","All Column Values","School Administration",3829059.68,1500676.51,5329736.19,4.84,4.12,4.96,4.2
+"2010-11","747","Walton County","ALL","All Column Values","Teachers and Paraprofessionals",45362853.79,17653957.63,63016811.42,57.27,48.72,58.59,49.63
+"2010-11","748","Ware County","ALL","All Column Values","General Administration",413439.18,152070.91,565510.09,1.08,0.9,1.11,0.91
+"2010-11","748","Ware County","ALL","All Column Values","School Administration",1725379.2,695971.21,2421350.41,4.61,3.87,4.76,3.91
+"2010-11","748","Ware County","ALL","All Column Values","Teachers and Paraprofessionals",21297732.85,8011250.12,29308982.97,55.81,46.9,57.58,47.28
+"2010-11","749","Warren County","ALL","All Column Values","General Administration",262933.86,65867.48,328801.34,4.34,3.61,4.76,4.01
+"2010-11","749","Warren County","ALL","All Column Values","School Administration",319199.32,112316.86,431516.18,5.7,4.74,6.25,5.27
+"2010-11","749","Warren County","ALL","All Column Values","Teachers and Paraprofessionals",2519371.41,891888.18,3411259.59,45.04,37.48,49.38,41.64
+"2010-11","750","Washington County","ALL","All Column Values","General Administration",451059.85,154843.35,605903.2,2.08,1.75,2.15,1.76
+"2010-11","750","Washington County","ALL","All Column Values","School Administration",1211255.88,522248.86,1733504.74,5.96,5,6.16,5.04
+"2010-11","750","Washington County","ALL","All Column Values","Teachers and Paraprofessionals",10464729.63,4215710.02,14680439.65,50.46,42.38,52.21,42.67
+"2010-11","751","Wayne County","ALL","All Column Values","General Administration",315976.14,153039.21,469015.35,1.14,0.82,1.18,0.97
+"2010-11","751","Wayne County","ALL","All Column Values","School Administration",1373573.91,574790.42,1948364.33,4.75,3.39,4.89,4.02
+"2010-11","751","Wayne County","ALL","All Column Values","Teachers and Paraprofessionals",16322745.95,6392581.95,22715327.9,55.33,39.53,56.98,46.86
+"2010-11","752","Webster County","ALL","All Column Values","General Administration",266815.11,61772.43,328587.54,7.45,6.54,7.8,6.94
+"2010-11","752","Webster County","ALL","All Column Values","School Administration",49249.38,37792.78,87042.16,1.97,1.73,2.07,1.84
+"2010-11","752","Webster County","ALL","All Column Values","Teachers and Paraprofessionals",1721591.55,573086.69,2294678.24,52.05,45.7,54.46,48.47
+"2010-11","753","Wheeler County","ALL","All Column Values","General Administration",316916.82,95697.61,412614.43,4.66,3.49,5.13,4.31
+"2010-11","753","Wheeler County","ALL","All Column Values","School Administration",408113.75,147103.41,555217.16,6.28,4.7,6.9,5.8
+"2010-11","753","Wheeler County","ALL","All Column Values","Teachers and Paraprofessionals",3326833.88,994580.65,4321414.53,48.86,36.59,53.7,45.16
+"2010-11","754","White County","ALL","All Column Values","General Administration",288838.68,133205.03,422043.71,1.13,0.92,1.18,0.83
+"2010-11","754","White County","ALL","All Column Values","School Administration",1185165.62,488631.82,1673797.44,4.49,3.64,4.66,3.29
+"2010-11","754","White County","ALL","All Column Values","Teachers and Paraprofessionals",15563931.77,5911013.74,21474945.51,57.62,46.66,59.79,42.22
+"2010-11","755","Whitfield County","ALL","All Column Values","General Administration",494188.74,162552.55,656741.29,0.63,0.53,0.67,0.46
+"2010-11","755","Whitfield County","ALL","All Column Values","School Administration",3641433.3,1481906.76,5123340.06,4.9,4.12,5.2,3.63
+"2010-11","755","Whitfield County","ALL","All Column Values","Teachers and Paraprofessionals",42489120.2,16031646.09,58520766.29,55.97,47.04,59.35,41.41
+"2010-11","756","Wilcox County","ALL","All Column Values","General Administration",202251.18,67786.52,270037.7,2.42,2.23,2.66,2.4
+"2010-11","756","Wilcox County","ALL","All Column Values","School Administration",455470.59,166062.27,621532.86,5.58,5.14,6.12,5.52
+"2010-11","756","Wilcox County","ALL","All Column Values","Teachers and Paraprofessionals",4089453.29,1373259.38,5462712.67,49,45.19,53.81,48.5
+"2010-11","757","Wilkes County","ALL","All Column Values","General Administration",281484.1,80750.99,362235.09,2.1,1.82,2.5,2.1
+"2010-11","757","Wilkes County","ALL","All Column Values","School Administration",517917.09,210835.77,728752.86,4.22,3.65,5.02,4.23
+"2010-11","757","Wilkes County","ALL","All Column Values","Teachers and Paraprofessionals",5607811.16,2251199.14,7859010.3,45.49,39.41,54.14,45.61
+"2010-11","758","Wilkinson County","ALL","All Column Values","General Administration",217427.3,75829.59,293256.89,1.71,0.81,1.78,1.34
+"2010-11","758","Wilkinson County","ALL","All Column Values","School Administration",629619.11,258636.41,888255.52,5.17,2.45,5.38,4.05
+"2010-11","758","Wilkinson County","ALL","All Column Values","Teachers and Paraprofessionals",6492251.51,2311895.2,8804146.71,51.21,24.26,53.32,40.16
+"2010-11","759","Worth County","ALL","All Column Values","General Administration",322861.53,105477.06,428338.59,1.52,1.35,1.66,1.45
+"2010-11","759","Worth County","ALL","All Column Values","School Administration",1014543.29,339207.99,1353751.28,4.8,4.28,5.24,4.59
+"2010-11","759","Worth County","ALL","All Column Values","Teachers and Paraprofessionals",10521017.44,3593041.48,14114058.92,50.03,44.61,54.64,47.86
+"2010-11","761","Atlanta Public Schools","ALL","All Column Values","General Administration",8192458.24,48729393.2,56921851.44,8.55,6.64,8.25,6.38
+"2010-11","761","Atlanta Public Schools","ALL","All Column Values","School Administration",20250373.09,5287099.19,25537472.28,3.84,2.98,3.7,2.86
+"2010-11","761","Atlanta Public Schools","ALL","All Column Values","Teachers and Paraprofessionals",208897887.21,59297503.48,268195390.69,40.28,31.28,38.87,30.07
+"2010-11","763","Bremen City","ALL","All Column Values","General Administration",189315.97,92211.45,281527.42,1.77,1.31,1.83,1.58
+"2010-11","763","Bremen City","ALL","All Column Values","School Administration",574263.76,249417.78,823681.54,5.17,3.83,5.37,4.63
+"2010-11","763","Bremen City","ALL","All Column Values","Teachers and Paraprofessionals",7013002.09,2758895.43,9771897.52,61.34,45.38,63.68,54.98
+"2010-11","764","Buford City","ALL","All Column Values","General Administration",334891.61,264182.44,599074.05,1.84,1.63,1.88,1.8
+"2010-11","764","Buford City","ALL","All Column Values","School Administration",1066506.7,489527.78,1556034.48,4.79,4.23,4.89,4.67
+"2010-11","764","Buford City","ALL","All Column Values","Teachers and Paraprofessionals",14297149.46,4828181.69,19125331.15,58.88,51.94,60.16,57.41
+"2010-11","765","Calhoun City","ALL","All Column Values","General Administration",303542.27,314891.47,618433.74,2.38,1.99,2.62,2.39
+"2010-11","765","Calhoun City","ALL","All Column Values","School Administration",687732.76,263932.42,951665.18,3.66,3.06,4.03,3.68
+"2010-11","765","Calhoun City","ALL","All Column Values","Teachers and Paraprofessionals",10018454.12,3968460.05,13986914.17,53.84,44.95,59.26,54.09
+"2010-11","766","Carrollton City","ALL","All Column Values","General Administration",586908.78,156686.51,743595.29,2.02,1.61,2.13,1.67
+"2010-11","766","Carrollton City","ALL","All Column Values","School Administration",1273963.25,474994.74,1748957.99,4.74,3.79,5.01,3.93
+"2010-11","766","Carrollton City","ALL","All Column Values","Teachers and Paraprofessionals",14332057.25,5185667.83,19517725.08,52.94,42.29,55.87,43.91
+"2010-11","767","Cartersville City","ALL","All Column Values","General Administration",398351.23,246864.82,645216.05,1.73,1.42,1.84,1.65
+"2010-11","767","Cartersville City","ALL","All Column Values","School Administration",982778.92,430760.15,1413539.07,3.79,3.12,4.03,3.6
+"2010-11","767","Cartersville City","ALL","All Column Values","Teachers and Paraprofessionals",14957232.84,5893787.34,20851020.18,55.84,45.95,59.43,53.17
+"2010-11","769","Chickamauga City","ALL","All Column Values","General Administration",330774.36,108222.35,438996.71,4.79,4.19,4.91,4.28
+"2010-11","769","Chickamauga City","ALL","All Column Values","School Administration",415267.81,156967.13,572234.94,6.24,5.46,6.41,5.58
+"2010-11","769","Chickamauga City","ALL","All Column Values","Teachers and Paraprofessionals",3542766.09,1481208.44,5023974.53,54.79,47.95,56.24,49
+"2010-11","771","Commerce City","ALL","All Column Values","General Administration",226863.74,90094.96,316958.7,2.65,2.27,2.59,1.66
+"2010-11","771","Commerce City","ALL","All Column Values","School Administration",634521.21,244987.06,879508.27,7.35,6.31,7.19,4.6
+"2010-11","771","Commerce City","ALL","All Column Values","Teachers and Paraprofessionals",4906215.19,1959568.05,6865783.24,57.38,49.23,56.11,35.91
+"2010-11","772","Dalton Public Schools","ALL","All Column Values","General Administration",532298.77,128905.08,661203.85,1.02,0.88,1.14,0.91
+"2010-11","772","Dalton Public Schools","ALL","All Column Values","School Administration",1849804.68,677802.46,2527607.14,3.9,3.37,4.36,3.49
+"2010-11","772","Dalton Public Schools","ALL","All Column Values","Teachers and Paraprofessionals",23582723.81,9295284.02,32878007.83,50.73,43.86,56.77,45.46
+"2010-11","773","Decatur City","ALL","All Column Values","General Administration",433470.06,168913.23,602383.29,1.48,1.28,1.58,1.14
+"2010-11","773","Decatur City","ALL","All Column Values","School Administration",1534213.87,576928.92,2111142.79,5.17,4.47,5.54,4
+"2010-11","773","Decatur City","ALL","All Column Values","Teachers and Paraprofessionals",13098788.45,5474326.06,18573114.51,45.52,39.32,48.75,35.19
+"2010-11","774","Dublin City","ALL","All Column Values","General Administration",376876.37,113593.84,490470.21,1.9,1.57,1.89,1.31
+"2010-11","774","Dublin City","ALL","All Column Values","School Administration",822850.42,281363.15,1104213.57,4.28,3.53,4.25,2.95
+"2010-11","774","Dublin City","ALL","All Column Values","Teachers and Paraprofessionals",11082344.76,3834815.89,14917160.65,57.84,47.72,57.37,39.8
+"2010-11","776","Gainesville City","ALL","All Column Values","General Administration",309894.65,342310.63,652205.28,1.06,0.93,1.18,1.01
+"2010-11","776","Gainesville City","ALL","All Column Values","School Administration",1703937.1,736366.57,2440303.67,3.96,3.47,4.41,3.78
+"2010-11","776","Gainesville City","ALL","All Column Values","Teachers and Paraprofessionals",22205707.83,8449893.08,30655600.91,49.75,43.53,55.46,47.43
+"2010-11","779","Jefferson City","ALL","All Column Values","General Administration",351477.05,97152.06,448629.11,2.34,1.91,2.45,2.03
+"2010-11","779","Jefferson City","ALL","All Column Values","School Administration",616247.61,207064.95,823312.56,4.3,3.5,4.49,3.72
+"2010-11","779","Jefferson City","ALL","All Column Values","Teachers and Paraprofessionals",8661712.22,2840170.26,11501882.48,60.1,48.94,62.72,51.94
+"2010-11","781","Marietta City","ALL","All Column Values","General Administration",833435.67,475328.81,1308764.48,1.51,1.33,1.58,1.38
+"2010-11","781","Marietta City","ALL","All Column Values","School Administration",2688765,1126080.79,3814845.79,4.41,3.86,4.6,4.03
+"2010-11","781","Marietta City","ALL","All Column Values","Teachers and Paraprofessionals",33325474.76,12845558.08,46171032.84,53.33,46.78,55.71,48.82
+"2010-11","7820108","State Charter Schools- Mountain Education Center School","ALL","All Column Values","General Administration",100278.91,41723.31,142002.22,1.95,1.95,2.02,2.02
+"2010-11","7820108","State Charter Schools- Mountain Education Center School","ALL","All Column Values","School Administration",979373.91,242467.29,1221841.2,16.76,16.76,17.37,17.37
+"2010-11","7820108","State Charter Schools- Mountain Education Center School","ALL","All Column Values","Teachers and Paraprofessionals",2622620.47,242890.76,2865511.23,39.3,39.3,40.73,40.73
+"2010-11","7820110","State Charter Schools- Odyssey School","ALL","All Column Values","General Administration",0,0,0,0,0,0,0
+"2010-11","7820110","State Charter Schools- Odyssey School","ALL","All Column Values","School Administration",60000,18841,78841,0.29,0.29,0.3,0.3
+"2010-11","7820110","State Charter Schools- Odyssey School","ALL","All Column Values","Teachers and Paraprofessionals",6121560,2368579,8490139,31.48,31.48,31.83,31.83
+"2010-11","7820112","State Charter Schools- Scholars Academy Charter School","ALL","All Column Values","General Administration",0,0,0,0,0,0,0
+"2010-11","7820112","State Charter Schools- Scholars Academy Charter School","ALL","All Column Values","School Administration",71103.63,14733.66,85837.29,9.25,9.25,9.07,9.07
+"2010-11","7820112","State Charter Schools- Scholars Academy Charter School","ALL","All Column Values","Teachers and Paraprofessionals",281278.85,46228.95,327507.8,35.31,35.31,34.6,34.6
+"2010-11","7830103","Commission Charter Schools- CCAT School","ALL","All Column Values","General Administration",0,0,0,0,0,0,0
+"2010-11","7830103","Commission Charter Schools- CCAT School","ALL","All Column Values","School Administration",112926.82,29349.4,142276.22,12.35,12.35,10.65,10.65
+"2010-11","7830103","Commission Charter Schools- CCAT School","ALL","All Column Values","Teachers and Paraprofessionals",595736.06,190277.03,786013.09,68.21,68.21,58.82,58.82
+"2010-11","7830110","Commission Charter Schools- Ivy Preparatory Academy School","ALL","All Column Values","General Administration",0,0,0,0,0,0,0
+"2010-11","7830110","Commission Charter Schools- Ivy Preparatory Academy School","ALL","All Column Values","School Administration",255812,0,255812,7.96,7.96,9.31,9.31
+"2010-11","7830110","Commission Charter Schools- Ivy Preparatory Academy School","ALL","All Column Values","Teachers and Paraprofessionals",989880,0,989880,30.79,30.79,36.04,36.04
+"2010-11","7830210","Commission Charter Schools- Pataula Charter Academy","ALL","All Column Values","General Administration",0,0,0,0,0,0,0
+"2010-11","7830210","Commission Charter Schools- Pataula Charter Academy","ALL","All Column Values","School Administration",63773.42,37623.14,101396.56,4.23,4.23,5.22,5.22
+"2010-11","7830210","Commission Charter Schools- Pataula Charter Academy","ALL","All Column Values","Teachers and Paraprofessionals",523739.04,167221.07,690960.11,28.83,28.83,35.57,35.57
+"2010-11","7830310","Commission Charter Schools- Fulton Leadership Academy","ALL","All Column Values","General Administration",0,0,0,0,0,0,0
+"2010-11","7830310","Commission Charter Schools- Fulton Leadership Academy","ALL","All Column Values","School Administration",148954.04,15900.78,164854.82,12.64,12.37,13.2,12.91
+"2010-11","7830310","Commission Charter Schools- Fulton Leadership Academy","ALL","All Column Values","Teachers and Paraprofessionals",273684.31,87236.19,360920.5,27.68,27.09,28.9,28.26
+"2010-11","7830410","Commission Charter Schools- Atlanta Heights Charter School","ALL","All Column Values","General Administration",0,0,0,0,0,0,0
+"2010-11","7830410","Commission Charter Schools- Atlanta Heights Charter School","ALL","All Column Values","School Administration",228230.86,120190.17,348421.03,6.51,6.51,6.55,6.55
+"2010-11","7830410","Commission Charter Schools- Atlanta Heights Charter School","ALL","All Column Values","Teachers and Paraprofessionals",838408.8,385156.58,1223565.38,22.86,22.86,23.01,23.01
+"2010-11","7830510","Commission Charter Schools- Museum School Avondale Estates","ALL","All Column Values","General Administration",0,0,0,0,0,0,0
+"2010-11","7830510","Commission Charter Schools- Museum School Avondale Estates","ALL","All Column Values","School Administration",114959,42652,157611,8.35,8.35,11.79,11.79
+"2010-11","7830510","Commission Charter Schools- Museum School Avondale Estates","ALL","All Column Values","Teachers and Paraprofessionals",426307,62373,488680,25.88,25.88,36.54,36.54
+"2010-11","784","Pelham City","ALL","All Column Values","General Administration",304184,77902.23,382086.23,2.87,2.52,3.31,2.99
+"2010-11","784","Pelham City","ALL","All Column Values","School Administration",431349.99,138061.13,569411.12,4.28,3.75,4.93,4.45
+"2010-11","784","Pelham City","ALL","All Column Values","Teachers and Paraprofessionals",5092562.61,1653251.81,6745814.42,50.74,44.47,58.36,52.71
+"2010-11","785","Rome City","ALL","All Column Values","General Administration",519303.15,168853.15,688156.3,1.38,1.17,1.48,1.25
+"2010-11","785","Rome City","ALL","All Column Values","School Administration",1739280.85,671019.07,2410299.92,4.83,4.1,5.17,4.37
+"2010-11","785","Rome City","ALL","All Column Values","Teachers and Paraprofessionals",20208986.78,8040167.35,28249154.13,56.66,48.07,60.59,51.21
+"2010-11","786","Social Circle City","ALL","All Column Values","General Administration",346184.55,97566.57,443751.12,2.81,2.49,3.09,2.89
+"2010-11","786","Social Circle City","ALL","All Column Values","School Administration",643013.62,171224.92,814238.54,5.16,4.57,5.67,5.3
+"2010-11","786","Social Circle City","ALL","All Column Values","Teachers and Paraprofessionals",6001067.86,1639956.64,7641024.5,48.38,42.87,53.17,49.75
+"2010-11","789","Thomasville City","ALL","All Column Values","General Administration",372398.19,128430.75,500828.94,1.77,1.46,1.93,1.58
+"2010-11","789","Thomasville City","ALL","All Column Values","School Administration",750441.58,309576.12,1060017.7,3.74,3.09,4.09,3.35
+"2010-11","789","Thomasville City","ALL","All Column Values","Teachers and Paraprofessionals",9498956.59,3650421.33,13149377.92,46.44,38.32,50.79,41.54
+"2010-11","791","Trion City","ALL","All Column Values","General Administration",107231.19,59928.4,167159.59,1.65,1.46,1.71,1.5
+"2010-11","791","Trion City","ALL","All Column Values","School Administration",484661.97,196543.59,681205.56,6.71,5.95,6.96,6.12
+"2010-11","791","Trion City","ALL","All Column Values","Teachers and Paraprofessionals",4639310.31,1723180.17,6362490.48,62.64,55.58,64.99,57.18
+"2010-11","792","Valdosta City","ALL","All Column Values","General Administration",882087.52,250182.22,1132269.74,1.66,1.38,1.73,1.45
+"2010-11","792","Valdosta City","ALL","All Column Values","School Administration",2465643.53,990367.36,3456010.89,5.06,4.22,5.27,4.42
+"2010-11","792","Valdosta City","ALL","All Column Values","Teachers and Paraprofessionals",26063007.8,10503796.47,36566804.27,53.56,44.69,55.77,46.77
+"2010-11","793","Vidalia City","ALL","All Column Values","General Administration",286993.2,72242.29,359235.49,2,1.66,2.09,1.94
+"2010-11","793","Vidalia City","ALL","All Column Values","School Administration",641620.11,216722.9,858343.01,4.79,3.97,4.99,4.65
+"2010-11","793","Vidalia City","ALL","All Column Values","Teachers and Paraprofessionals",7480120.96,2594525,10074645.96,56.22,46.54,58.6,54.54
+"2010-11","850","Northwest Georgia RESA","ALL","All Column Values","General Administration",130384.14,38263.24,168647.38,2.35,2.35,2.43,2.43
+"2010-11","850","Northwest Georgia RESA","ALL","All Column Values","School Administration",0,23280.3,23280.3,0.32,0.32,0.34,0.34
+"2010-11","850","Northwest Georgia RESA","ALL","All Column Values","Teachers and Paraprofessionals",2483429.29,844721.12,3328150.41,46.29,46.29,47.99,47.99
+"2010-11","852","North Georgia RESA","ALL","All Column Values","General Administration",268709.43,102260.89,370970.32,9.26,9.26,8.67,8.67
+"2010-11","852","North Georgia RESA","ALL","All Column Values","School Administration",0,37902.84,37902.84,0.95,0.95,0.89,0.89
+"2010-11","852","North Georgia RESA","ALL","All Column Values","Teachers and Paraprofessionals",1555442.72,596140.79,2151583.51,53.69,53.69,50.28,50.28
+"2010-11","854","Pioneer RESA","ALL","All Column Values","General Administration",375146.71,121094.94,496241.65,7.62,7.62,7.41,7.41
+"2010-11","854","Pioneer RESA","ALL","All Column Values","School Administration",0,0,0,0,0,0,0
+"2010-11","854","Pioneer RESA","ALL","All Column Values","Teachers and Paraprofessionals",1438351.05,469343.01,1907694.06,29.28,29.28,28.5,28.5
+"2010-11","856","Metro RESA","ALL","All Column Values","General Administration",321085.94,95569.54,416655.48,4.25,4.25,4.39,4.39
+"2010-11","856","Metro RESA","ALL","All Column Values","School Administration",44799.12,72487.65,117286.77,1.2,1.2,1.24,1.24
+"2010-11","856","Metro RESA","ALL","All Column Values","Teachers and Paraprofessionals",2679971.18,780110.41,3460081.59,35.26,35.26,36.48,36.48
+"2010-11","858","Northeast Georgia RESA","ALL","All Column Values","General Administration",204502.6,60850.79,265353.39,3.08,3.08,3.22,3.22
+"2010-11","858","Northeast Georgia RESA","ALL","All Column Values","School Administration",5000,12023.57,17023.57,0.2,0.2,0.21,0.21
+"2010-11","858","Northeast Georgia RESA","ALL","All Column Values","Teachers and Paraprofessionals",1930113.32,711617.18,2641730.5,30.66,30.66,32.02,32.02
+"2010-11","860","West Georgia RESA","ALL","All Column Values","General Administration",151402.03,72407.71,223809.74,2.98,2.98,2.91,2.91
+"2010-11","860","West Georgia RESA","ALL","All Column Values","School Administration",6244.22,31676.29,37920.51,0.5,0.5,0.49,0.49
+"2010-11","860","West Georgia RESA","ALL","All Column Values","Teachers and Paraprofessionals",2387809.14,817648.37,3205457.51,42.65,42.65,41.62,41.62
+"2010-11","862","Griffin RESA","ALL","All Column Values","General Administration",217944.52,42554.94,260499.46,8.52,8.52,9.27,9.14
+"2010-11","862","Griffin RESA","ALL","All Column Values","School Administration",0,0,0,0,0,0,0
+"2010-11","862","Griffin RESA","ALL","All Column Values","Teachers and Paraprofessionals",66868.44,19608.69,86477.13,2.83,2.83,3.08,3.03
+"2010-11","864","Middle Georgia RESA","ALL","All Column Values","General Administration",167444.47,37750.14,205194.61,8.99,8.99,9.29,9.29
+"2010-11","864","Middle Georgia RESA","ALL","All Column Values","School Administration",0,0,0,0,0,0,0
+"2010-11","864","Middle Georgia RESA","ALL","All Column Values","Teachers and Paraprofessionals",88395.46,26884.68,115280.14,5.05,5.05,5.22,5.22
+"2010-11","866","Oconee RESA","ALL","All Column Values","General Administration",92625,38521.61,131146.61,3.79,3.79,3.62,3.62
+"2010-11","866","Oconee RESA","ALL","All Column Values","School Administration",0,13379.79,13379.79,0.39,0.39,0.37,0.37
+"2010-11","866","Oconee RESA","ALL","All Column Values","Teachers and Paraprofessionals",707129.74,247620.19,954749.93,27.63,27.63,26.38,26.38
+"2010-11","868","Central Savannah River RESA","ALL","All Column Values","General Administration",180023.31,31977.62,212000.93,5.88,5.88,6.03,6.03
+"2010-11","868","Central Savannah River RESA","ALL","All Column Values","School Administration",0,14399.56,14399.56,0.4,0.4,0.41,0.41
+"2010-11","868","Central Savannah River RESA","ALL","All Column Values","Teachers and Paraprofessionals",665128.71,192229.17,857357.88,23.77,23.77,24.37,24.37
+"2010-11","872","Chattahoochee-Flint RESA","ALL","All Column Values","General Administration",159888.96,20443.31,180332.27,6.86,6.86,6.7,6.7
+"2010-11","872","Chattahoochee-Flint RESA","ALL","All Column Values","School Administration",0,0,0,0,0,0,0
+"2010-11","872","Chattahoochee-Flint RESA","ALL","All Column Values","Teachers and Paraprofessionals",254647.38,62351.92,316999.3,12.07,12.07,11.78,11.78
+"2010-11","876","Heart of Georgia RESA","ALL","All Column Values","General Administration",135902.1,88158.6,224060.7,3.05,3.05,3.11,3.11
+"2010-11","876","Heart of Georgia RESA","ALL","All Column Values","School Administration",72005.4,33198.09,105203.49,1.43,1.43,1.46,1.46
+"2010-11","876","Heart of Georgia RESA","ALL","All Column Values","Teachers and Paraprofessionals",996706.4,427723.99,1424430.39,19.4,19.4,19.76,19.76
+"2010-11","880","First District RESA","ALL","All Column Values","General Administration",274403.77,66681.81,341085.58,4.24,4.24,4.15,4.15
+"2010-11","880","First District RESA","ALL","All Column Values","School Administration",0,39580.22,39580.22,0.49,0.49,0.48,0.48
+"2010-11","880","First District RESA","ALL","All Column Values","Teachers and Paraprofessionals",2001941.21,667283.71,2669224.92,33.2,33.2,32.46,32.46
+"2010-11","884","Southwest Georgia RESA","ALL","All Column Values","General Administration",111406.2,34245.84,145652.04,6.56,6.56,6.74,6.74
+"2010-11","884","Southwest Georgia RESA","ALL","All Column Values","School Administration",0,0,0,0,0,0,0
+"2010-11","884","Southwest Georgia RESA","ALL","All Column Values","Teachers and Paraprofessionals",0,0,0,0,0,0,0
+"2010-11","886","Coastal Plains RESA","ALL","All Column Values","General Administration",246645.48,64702.23,311347.71,10.5,10.5,9.64,9.64
+"2010-11","886","Coastal Plains RESA","ALL","All Column Values","School Administration",0,0,0,0,0,0,0
+"2010-11","886","Coastal Plains RESA","ALL","All Column Values","Teachers and Paraprofessionals",0,0,0,0,0,0,0
+"2010-11","888","Okefenokee RESA","ALL","All Column Values","General Administration",90660.24,73992.04,164652.28,5.58,5.58,5.46,5.44
+"2010-11","888","Okefenokee RESA","ALL","All Column Values","School Administration",0,6956.98,6956.98,0.24,0.24,0.23,0.23
+"2010-11","888","Okefenokee RESA","ALL","All Column Values","Teachers and Paraprofessionals",709849.73,256334.01,966183.74,32.73,32.73,32.04,31.91
+"2010-11","ALL","All Column Values","ALL","All Column Values","General Administration",115683717.76,95854412.73,211538130.49,1.41,1.15,1.48,1.2
+"2010-11","ALL","All Column Values","ALL","All Column Values","School Administration",486208337.64,194054009.02,680262346.66,4.54,3.7,4.75,3.86
+"2010-11","ALL","All Column Values","ALL","All Column Values","Teachers and Paraprofessionals",5932372355.19,2185019947.74,8117392302.93,54.21,44.21,56.73,46.1

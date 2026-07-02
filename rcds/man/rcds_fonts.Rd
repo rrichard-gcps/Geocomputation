@@ -4,14 +4,13 @@
 \alias{rcds_fonts}
 \title{Register the RCDS font stack}
 \usage{
-rcds_fonts(
-  voice = c("default", "editorial", "vintage", "fantasy", "techno"),
-  quiet = FALSE
-)
+rcds_fonts(voice = NULL, quiet = FALSE)
 }
 \arguments{
 \item{voice}{One of \code{"default"}, \code{"editorial"}, \code{"vintage"}, \code{"fantasy"},
-\code{"techno"}.}
+\code{"techno"}, or the imported GCPS map voices \code{"gcps_paper"}, \code{"gcps_civic"},
+\code{"gcps_bold"}. \code{NULL} (the default) resolves to the active brand's voice
+(see \code{\link[=rcds_brand]{rcds_brand()}}) -- GCPS out of the box.}
 
 \item{quiet}{Suppress the "fonts registered" message.}
 }

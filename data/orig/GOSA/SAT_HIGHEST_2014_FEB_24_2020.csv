@@ -1,0 +1,1725 @@
+LONG_SCHOOL_YEAR,SCHOOL_DISTRCT_CD,SCHOOL_DSTRCT_NM,INSTN_NUMBER,INSTN_NAME,SUBGRP_DESC,TEST_CMPNT_TYP_CD,NATIONAL_NUM_TESTED_CNT,STATE_NUM_TESTED_CNT,DSTRCT_NUM_TESTED_CNT,INSTN_NUM_TESTED_CNT,STATE_AVG_SCORE_VAL,DSTRCT_AVG_SCORE_VAL,INSTN_AVG_SCORE_VAL
+2013-14,601,Appling County,103,Appling County High School,All Students,Combined,1306039,82852,109,109,1352,1290,1290
+2013-14,601,Appling County,103,Appling County High School,All Students,Mathematics,1306039,83391,110,110,491,449,449
+2013-14,601,Appling County,103,Appling County High School,All Students,Reading,1306039,83310,109,109,493,477,477
+2013-14,601,Appling County,103,Appling County High School,All Students,Writing,1306039,81856,109,109,369,365,365
+2013-14,602,Atkinson County,103,Atkinson County High School,All Students,Combined,1306039,82852,37,37,1352,1294,1294
+2013-14,602,Atkinson County,103,Atkinson County High School,All Students,Mathematics,1306039,83391,37,37,491,431,431
+2013-14,602,Atkinson County,103,Atkinson County High School,All Students,Reading,1306039,83310,37,37,493,449,449
+2013-14,602,Atkinson County,103,Atkinson County High School,All Students,Writing,1306039,81856,37,37,369,415,415
+2013-14,603,Bacon County,302,Bacon County High School,All Students,Combined,1306039,82852,60,60,1352,1204,1204
+2013-14,603,Bacon County,302,Bacon County High School,All Students,Mathematics,1306039,83391,61,61,491,426,426
+2013-14,603,Bacon County,302,Bacon County High School,All Students,Reading,1306039,83310,60,60,493,442,442
+2013-14,603,Bacon County,302,Bacon County High School,All Students,Writing,1306039,81856,58,58,369,336,336
+2013-14,604,Baker County,105,Baker County K12 School,All Students,Combined,1306039,82852,10,10,1352,1246,1246
+2013-14,604,Baker County,105,Baker County K12 School,All Students,Mathematics,1306039,83391,10,10,491,436,436
+2013-14,604,Baker County,105,Baker County K12 School,All Students,Reading,1306039,83310,10,10,493,432,432
+2013-14,604,Baker County,105,Baker County K12 School,All Students,Writing,1306039,81856,11,11,369,378,378
+2013-14,605,Baldwin County,189,Baldwin High School,All Students,Combined,1306039,82852,139,139,1352,1217,1217
+2013-14,605,Baldwin County,189,Baldwin High School,All Students,Mathematics,1306039,83391,140,140,491,430,430
+2013-14,605,Baldwin County,189,Baldwin High School,All Students,Reading,1306039,83310,139,139,493,452,452
+2013-14,605,Baldwin County,189,Baldwin High School,All Students,Writing,1306039,81856,139,139,369,335,335
+2013-14,606,Banks County,199,Banks County High School,All Students,Combined,1306039,82852,100,100,1352,1325,1325
+2013-14,606,Banks County,199,Banks County High School,All Students,Mathematics,1306039,83391,100,100,491,483,483
+2013-14,606,Banks County,199,Banks County High School,All Students,Reading,1306039,83310,100,100,493,490,490
+2013-14,606,Banks County,199,Banks County High School,All Students,Writing,1306039,81856,100,100,369,353,353
+2013-14,607,Barrow County,101,Apalachee High School,All Students,Combined,1306039,82852,484,216,1352,1317,1325
+2013-14,607,Barrow County,101,Apalachee High School,All Students,Mathematics,1306039,83391,484,216,491,460,465
+2013-14,607,Barrow County,101,Apalachee High School,All Students,Reading,1306039,83310,487,218,493,476,478
+2013-14,607,Barrow County,101,Apalachee High School,All Students,Writing,1306039,81856,480,213,369,382,382
+2013-14,607,Barrow County,113,Snodon Preparatory School,All Students,Combined,1306039,82852,484,TFS,1352,1317,
+2013-14,607,Barrow County,113,Snodon Preparatory School,All Students,Mathematics,1306039,83391,484,TFS,491,460,
+2013-14,607,Barrow County,113,Snodon Preparatory School,All Students,Reading,1306039,83310,487,TFS,493,476,
+2013-14,607,Barrow County,113,Snodon Preparatory School,All Students,Writing,1306039,81856,480,TFS,369,382,
+2013-14,607,Barrow County,3052,Winder-Barrow High School,All Students,Combined,1306039,82852,484,264,1352,1317,1312
+2013-14,607,Barrow County,3052,Winder-Barrow High School,All Students,Mathematics,1306039,83391,484,264,491,460,456
+2013-14,607,Barrow County,3052,Winder-Barrow High School,All Students,Reading,1306039,83310,487,265,493,476,474
+2013-14,607,Barrow County,3052,Winder-Barrow High School,All Students,Writing,1306039,81856,480,263,369,382,381
+2013-14,608,Bartow County,105,Adairsville High School,All Students,Combined,1306039,82852,456,134,1352,1377,1416
+2013-14,608,Bartow County,105,Adairsville High School,All Students,Mathematics,1306039,83391,457,134,491,490,495
+2013-14,608,Bartow County,105,Adairsville High School,All Students,Reading,1306039,83310,458,134,493,495,494
+2013-14,608,Bartow County,105,Adairsville High School,All Students,Writing,1306039,81856,453,133,369,392,427
+2013-14,608,Bartow County,114,Cass High School,All Students,Combined,1306039,82852,456,139,1352,1377,1350
+2013-14,608,Bartow County,114,Cass High School,All Students,Mathematics,1306039,83391,457,139,491,490,477
+2013-14,608,Bartow County,114,Cass High School,All Students,Reading,1306039,83310,458,139,493,495,481
+2013-14,608,Bartow County,114,Cass High School,All Students,Writing,1306039,81856,453,138,369,392,392
+2013-14,608,Bartow County,198,Woodland High School,All Students,Combined,1306039,82852,456,184,1352,1377,1368
+2013-14,608,Bartow County,198,Woodland High School,All Students,Mathematics,1306039,83391,457,184,491,490,496
+2013-14,608,Bartow County,198,Woodland High School,All Students,Reading,1306039,83310,458,185,493,495,505
+2013-14,608,Bartow County,198,Woodland High School,All Students,Writing,1306039,81856,453,182,369,392,367
+2013-14,609,Ben Hill County,291,Fitzgerald High School,All Students,Combined,1306039,82852,97,97,1352,1217,1217
+2013-14,609,Ben Hill County,291,Fitzgerald High School,All Students,Mathematics,1306039,83391,98,98,491,436,436
+2013-14,609,Ben Hill County,291,Fitzgerald High School,All Students,Reading,1306039,83310,96,96,493,439,439
+2013-14,609,Ben Hill County,291,Fitzgerald High School,All Students,Writing,1306039,81856,97,97,369,342,342
+2013-14,610,Berrien County,101,Berrien High School,All Students,Combined,1306039,82852,122,120,1352,1179,1175
+2013-14,610,Berrien County,101,Berrien High School,All Students,Mathematics,1306039,83391,122,120,491,428,426
+2013-14,610,Berrien County,101,Berrien High School,All Students,Reading,1306039,83310,123,121,493,428,427
+2013-14,610,Berrien County,101,Berrien High School,All Students,Writing,1306039,81856,122,120,369,324,323
+2013-14,610,Berrien County,106,Berrien Academy Performance Learning Center,All Students,Combined,1306039,82852,122,TFS,1352,1179,
+2013-14,610,Berrien County,106,Berrien Academy Performance Learning Center,All Students,Mathematics,1306039,83391,122,TFS,491,428,
+2013-14,610,Berrien County,106,Berrien Academy Performance Learning Center,All Students,Reading,1306039,83310,123,TFS,493,428,
+2013-14,610,Berrien County,106,Berrien Academy Performance Learning Center,All Students,Writing,1306039,81856,122,TFS,369,324,
+2013-14,611,Bibb County,105,Howard High School,All Students,Combined,1306039,82852,903,194,1352,1175,1303
+2013-14,611,Bibb County,105,Howard High School,All Students,Mathematics,1306039,83391,906,196,491,424,469
+2013-14,611,Bibb County,105,Howard High School,All Students,Reading,1306039,83310,911,194,493,431,481
+2013-14,611,Bibb County,105,Howard High School,All Students,Writing,1306039,81856,891,191,369,321,354
+2013-14,611,Bibb County,186,Central High School,All Students,Combined,1306039,82852,903,199,1352,1175,1176
+2013-14,611,Bibb County,186,Central High School,All Students,Mathematics,1306039,83391,906,202,491,424,426
+2013-14,611,Bibb County,186,Central High School,All Students,Reading,1306039,83310,911,200,493,431,435
+2013-14,611,Bibb County,186,Central High School,All Students,Writing,1306039,81856,891,195,369,321,315
+2013-14,611,Bibb County,198,Westside High School,All Students,Combined,1306039,82852,903,148,1352,1175,1093
+2013-14,611,Bibb County,198,Westside High School,All Students,Mathematics,1306039,83391,906,147,491,424,391
+2013-14,611,Bibb County,198,Westside High School,All Students,Reading,1306039,83310,911,151,493,431,402
+2013-14,611,Bibb County,198,Westside High School,All Students,Writing,1306039,81856,891,147,369,321,299
+2013-14,611,Bibb County,204,Rutland High School,All Students,Combined,1306039,82852,903,181,1352,1175,1229
+2013-14,611,Bibb County,204,Rutland High School,All Students,Mathematics,1306039,83391,906,180,491,424,439
+2013-14,611,Bibb County,204,Rutland High School,All Students,Reading,1306039,83310,911,183,493,431,442
+2013-14,611,Bibb County,204,Rutland High School,All Students,Writing,1306039,81856,891,179,369,321,347
+2013-14,611,Bibb County,286,Northeast High School,All Students,Combined,1306039,82852,903,52,1352,1175,1030
+2013-14,611,Bibb County,286,Northeast High School,All Students,Mathematics,1306039,83391,906,52,491,424,385
+2013-14,611,Bibb County,286,Northeast High School,All Students,Reading,1306039,83310,911,53,493,431,390
+2013-14,611,Bibb County,286,Northeast High School,All Students,Writing,1306039,81856,891,51,369,321,255
+2013-14,611,Bibb County,303,William S. Hutchings Career Center,All Students,Combined,1306039,82852,903,28,1352,1175,1181
+2013-14,611,Bibb County,303,William S. Hutchings Career Center,All Students,Mathematics,1306039,83391,906,28,491,424,418
+2013-14,611,Bibb County,303,William S. Hutchings Career Center,All Students,Reading,1306039,83310,911,29,493,431,426
+2013-14,611,Bibb County,303,William S. Hutchings Career Center,All Students,Writing,1306039,81856,891,28,369,321,337
+2013-14,611,Bibb County,386,Southwest High School,All Students,Combined,1306039,82852,903,101,1352,1175,1027
+2013-14,611,Bibb County,386,Southwest High School,All Students,Mathematics,1306039,83391,906,101,491,424,373
+2013-14,611,Bibb County,386,Southwest High School,All Students,Reading,1306039,83310,911,101,493,431,374
+2013-14,611,Bibb County,386,Southwest High School,All Students,Writing,1306039,81856,891,100,369,321,280
+2013-14,612,Bleckley County,105,Bleckley County High School,All Students,Combined,1306039,82852,112,112,1352,1334,1334
+2013-14,612,Bleckley County,105,Bleckley County High School,All Students,Mathematics,1306039,83391,112,112,491,499,499
+2013-14,612,Bleckley County,105,Bleckley County High School,All Students,Reading,1306039,83310,113,113,493,491,491
+2013-14,612,Bleckley County,105,Bleckley County High School,All Students,Writing,1306039,81856,112,112,369,345,345
+2013-14,613,Brantley County,1050,Brantley County High School,All Students,Combined,1306039,82852,94,94,1352,1297,1297
+2013-14,613,Brantley County,1050,Brantley County High School,All Students,Mathematics,1306039,83391,95,95,491,445,445
+2013-14,613,Brantley County,1050,Brantley County High School,All Students,Reading,1306039,83310,94,94,493,469,469
+2013-14,613,Brantley County,1050,Brantley County High School,All Students,Writing,1306039,81856,94,94,369,383,383
+2013-14,614,Brooks County,110,Brooks County High School,All Students,Combined,1306039,82852,32,32,1352,1205,1205
+2013-14,614,Brooks County,110,Brooks County High School,All Students,Mathematics,1306039,83391,32,32,491,432,432
+2013-14,614,Brooks County,110,Brooks County High School,All Students,Reading,1306039,83310,32,32,493,438,438
+2013-14,614,Brooks County,110,Brooks County High School,All Students,Writing,1306039,81856,32,32,369,335,335
+2013-14,615,Bryan County,182,Richmond Hill High School,All Students,Combined,1306039,82852,495,441,1352,1367,1378
+2013-14,615,Bryan County,182,Richmond Hill High School,All Students,Mathematics,1306039,83391,499,444,491,501,507
+2013-14,615,Bryan County,182,Richmond Hill High School,All Students,Reading,1306039,83310,500,446,493,506,510
+2013-14,615,Bryan County,182,Richmond Hill High School,All Students,Writing,1306039,81856,487,433,369,360,361
+2013-14,615,Bryan County,502,Bryan County High School,All Students,Combined,1306039,82852,495,54,1352,1367,1280
+2013-14,615,Bryan County,502,Bryan County High School,All Students,Mathematics,1306039,83391,499,55,491,501,453
+2013-14,615,Bryan County,502,Bryan County High School,All Students,Reading,1306039,83310,500,54,493,506,472
+2013-14,615,Bryan County,502,Bryan County High School,All Students,Writing,1306039,81856,487,54,369,360,354
+2013-14,616,Bulloch County,203,Southeast Bulloch High School,All Students,Combined,1306039,82852,394,131,1352,1343,1400
+2013-14,616,Bulloch County,203,Southeast Bulloch High School,All Students,Mathematics,1306039,83391,397,131,491,486,490
+2013-14,616,Bulloch County,203,Southeast Bulloch High School,All Students,Reading,1306039,83310,395,131,493,486,492
+2013-14,616,Bulloch County,203,Southeast Bulloch High School,All Students,Writing,1306039,81856,390,130,369,370,418
+2013-14,616,Bulloch County,2054,Statesboro High School,All Students,Combined,1306039,82852,394,229,1352,1343,1328
+2013-14,616,Bulloch County,2054,Statesboro High School,All Students,Mathematics,1306039,83391,397,232,491,486,487
+2013-14,616,Bulloch County,2054,Statesboro High School,All Students,Reading,1306039,83310,395,229,493,486,485
+2013-14,616,Bulloch County,2054,Statesboro High School,All Students,Writing,1306039,81856,390,227,369,370,355
+2013-14,616,Bulloch County,4052,Portal Middle/High School,All Students,Combined,1306039,82852,394,34,1352,1343,1218
+2013-14,616,Bulloch County,4052,Portal Middle/High School,All Students,Mathematics,1306039,83391,397,34,491,486,471
+2013-14,616,Bulloch County,4052,Portal Middle/High School,All Students,Reading,1306039,83310,395,35,493,486,462
+2013-14,616,Bulloch County,4052,Portal Middle/High School,All Students,Writing,1306039,81856,390,33,369,370,285
+2013-14,617,Burke County,288,Burke County High School,All Students,Combined,1306039,82852,147,147,1352,1257,1257
+2013-14,617,Burke County,288,Burke County High School,All Students,Mathematics,1306039,83391,146,146,491,444,444
+2013-14,617,Burke County,288,Burke County High School,All Students,Reading,1306039,83310,150,150,493,449,449
+2013-14,617,Burke County,288,Burke County High School,All Students,Writing,1306039,81856,146,146,369,365,365
+2013-14,618,Butts County,190,Jackson High School,All Students,Combined,1306039,82852,124,124,1352,1246,1246
+2013-14,618,Butts County,190,Jackson High School,All Students,Mathematics,1306039,83391,127,127,491,453,453
+2013-14,618,Butts County,190,Jackson High School,All Students,Reading,1306039,83310,123,123,493,457,457
+2013-14,618,Butts County,190,Jackson High School,All Students,Writing,1306039,81856,123,123,369,336,336
+2013-14,619,Calhoun County,113,Calhoun County High School,All Students,Combined,1306039,82852,20,20,1352,1044,1044
+2013-14,619,Calhoun County,113,Calhoun County High School,All Students,Mathematics,1306039,83391,20,20,491,387,387
+2013-14,619,Calhoun County,113,Calhoun County High School,All Students,Reading,1306039,83310,20,20,493,377,377
+2013-14,619,Calhoun County,113,Calhoun County High School,All Students,Writing,1306039,81856,20,20,369,281,281
+2013-14,620,Camden County,295,Camden County High School,All Students,Combined,1306039,82852,361,361,1352,1378,1378
+2013-14,620,Camden County,295,Camden County High School,All Students,Mathematics,1306039,83391,361,361,491,497,497
+2013-14,620,Camden County,295,Camden County High School,All Students,Reading,1306039,83310,363,363,493,502,502
+2013-14,620,Camden County,295,Camden County High School,All Students,Writing,1306039,81856,358,358,369,379,379
+2013-14,621,Candler County,101,Metter High School,All Students,Combined,1306039,82852,85,85,1352,1274,1274
+2013-14,621,Candler County,101,Metter High School,All Students,Mathematics,1306039,83391,86,86,491,458,458
+2013-14,621,Candler County,101,Metter High School,All Students,Reading,1306039,83310,84,84,493,458,458
+2013-14,621,Candler County,101,Metter High School,All Students,Writing,1306039,81856,85,85,369,358,358
+2013-14,622,Carroll County,189,Temple High School,All Students,Combined,1306039,82852,448,66,1352,1335,1341
+2013-14,622,Carroll County,189,Temple High School,All Students,Mathematics,1306039,83391,449,66,491,463,462
+2013-14,622,Carroll County,189,Temple High School,All Students,Reading,1306039,83310,450,66,493,486,482
+2013-14,622,Carroll County,189,Temple High School,All Students,Writing,1306039,81856,445,66,369,385,396
+2013-14,622,Carroll County,212,Mt. Zion High School,All Students,Combined,1306039,82852,448,43,1352,1335,1388
+2013-14,622,Carroll County,212,Mt. Zion High School,All Students,Mathematics,1306039,83391,449,43,491,463,474
+2013-14,622,Carroll County,212,Mt. Zion High School,All Students,Reading,1306039,83310,450,43,493,486,491
+2013-14,622,Carroll County,212,Mt. Zion High School,All Students,Writing,1306039,81856,445,43,369,385,423
+2013-14,622,Carroll County,2052,Central High School,All Students,Combined,1306039,82852,448,150,1352,1335,1304
+2013-14,622,Carroll County,2052,Central High School,All Students,Mathematics,1306039,83391,449,150,491,463,456
+2013-14,622,Carroll County,2052,Central High School,All Students,Reading,1306039,83310,450,151,493,486,485
+2013-14,622,Carroll County,2052,Central High School,All Students,Writing,1306039,81856,445,149,369,385,363
+2013-14,622,Carroll County,3050,Bowdon High School,All Students,Combined,1306039,82852,448,31,1352,1335,1382
+2013-14,622,Carroll County,3050,Bowdon High School,All Students,Mathematics,1306039,83391,449,32,491,463,466
+2013-14,622,Carroll County,3050,Bowdon High School,All Students,Reading,1306039,83310,450,31,493,486,499
+2013-14,622,Carroll County,3050,Bowdon High School,All Students,Writing,1306039,81856,445,31,369,385,418
+2013-14,622,Carroll County,5054,Villa Rica High School,All Students,Combined,1306039,82852,448,158,1352,1335,1337
+2013-14,622,Carroll County,5054,Villa Rica High School,All Students,Mathematics,1306039,83391,449,158,491,463,467
+2013-14,622,Carroll County,5054,Villa Rica High School,All Students,Reading,1306039,83310,450,159,493,486,484
+2013-14,622,Carroll County,5054,Villa Rica High School,All Students,Writing,1306039,81856,445,156,369,385,386
+2013-14,623,Catoosa County,109,Heritage High School,All Students,Combined,1306039,82852,181,126,1352,1433,1427
+2013-14,623,Catoosa County,109,Heritage High School,All Students,Mathematics,1306039,83391,182,127,491,501,502
+2013-14,623,Catoosa County,109,Heritage High School,All Students,Reading,1306039,83310,182,126,493,513,513
+2013-14,623,Catoosa County,109,Heritage High School,All Students,Writing,1306039,81856,180,125,369,419,411
+2013-14,623,Catoosa County,1052,Lakeview-Fort Oglethorpe High School,All Students,Combined,1306039,82852,181,22,1352,1433,1571
+2013-14,623,Catoosa County,1052,Lakeview-Fort Oglethorpe High School,All Students,Mathematics,1306039,83391,182,22,491,501,522
+2013-14,623,Catoosa County,1052,Lakeview-Fort Oglethorpe High School,All Students,Reading,1306039,83310,182,23,493,513,545
+2013-14,623,Catoosa County,1052,Lakeview-Fort Oglethorpe High School,All Students,Writing,1306039,81856,180,22,369,419,504
+2013-14,623,Catoosa County,4052,Ringgold High School,All Students,Combined,1306039,82852,181,33,1352,1433,1366
+2013-14,623,Catoosa County,4052,Ringgold High School,All Students,Mathematics,1306039,83391,182,33,491,501,484
+2013-14,623,Catoosa County,4052,Ringgold High School,All Students,Reading,1306039,83310,182,33,493,513,488
+2013-14,623,Catoosa County,4052,Ringgold High School,All Students,Writing,1306039,81856,180,33,369,419,394
+2013-14,624,Charlton County,287,Charlton County High School,All Students,Combined,1306039,82852,49,49,1352,1269,1269
+2013-14,624,Charlton County,287,Charlton County High School,All Students,Mathematics,1306039,83391,49,49,491,428,428
+2013-14,624,Charlton County,287,Charlton County High School,All Students,Reading,1306039,83310,50,50,493,456,456
+2013-14,624,Charlton County,287,Charlton County High School,All Students,Writing,1306039,81856,49,49,369,385,385
+2013-14,625,Savannah-Chatham County,101,Johnson High School,All Students,Combined,1306039,82852,1305,139,1352,1289,1161
+2013-14,625,Savannah-Chatham County,101,Johnson High School,All Students,Mathematics,1306039,83391,1311,141,491,463,422
+2013-14,625,Savannah-Chatham County,101,Johnson High School,All Students,Reading,1306039,83310,1312,138,493,480,428
+2013-14,625,Savannah-Chatham County,101,Johnson High School,All Students,Writing,1306039,81856,1292,137,369,346,312
+2013-14,625,Savannah-Chatham County,108,Early College Program,All Students,Combined,1306039,82852,1305,58,1352,1289,1171
+2013-14,625,Savannah-Chatham County,108,Early College Program,All Students,Mathematics,1306039,83391,1311,58,491,463,430
+2013-14,625,Savannah-Chatham County,108,Early College Program,All Students,Reading,1306039,83310,1312,58,493,480,443
+2013-14,625,Savannah-Chatham County,108,Early College Program,All Students,Writing,1306039,81856,1292,58,369,346,298
+2013-14,625,Savannah-Chatham County,115,Woodville-Tompkins Technical and Career High School,All Students,Combined,1306039,82852,1305,38,1352,1289,1211
+2013-14,625,Savannah-Chatham County,115,Woodville-Tompkins Technical and Career High School,All Students,Mathematics,1306039,83391,1311,38,491,463,420
+2013-14,625,Savannah-Chatham County,115,Woodville-Tompkins Technical and Career High School,All Students,Reading,1306039,83310,1312,38,493,480,443
+2013-14,625,Savannah-Chatham County,115,Woodville-Tompkins Technical and Career High School,All Students,Writing,1306039,81856,1292,38,369,346,348
+2013-14,625,Savannah-Chatham County,117,New Hampstead High School,All Students,Combined,1306039,82852,1305,85,1352,1289,1226
+2013-14,625,Savannah-Chatham County,117,New Hampstead High School,All Students,Mathematics,1306039,83391,1311,85,491,463,427
+2013-14,625,Savannah-Chatham County,117,New Hampstead High School,All Students,Reading,1306039,83310,1312,85,493,480,444
+2013-14,625,Savannah-Chatham County,117,New Hampstead High School,All Students,Writing,1306039,81856,1292,84,369,346,355
+2013-14,625,Savannah-Chatham County,210,The School of Liberal Studies at Savannah High,All Students,Combined,1306039,82852,1305,68,1352,1289,1113
+2013-14,625,Savannah-Chatham County,210,The School of Liberal Studies at Savannah High,All Students,Mathematics,1306039,83391,1311,68,491,463,392
+2013-14,625,Savannah-Chatham County,210,The School of Liberal Studies at Savannah High,All Students,Reading,1306039,83310,1312,69,493,480,402
+2013-14,625,Savannah-Chatham County,210,The School of Liberal Studies at Savannah High,All Students,Writing,1306039,81856,1292,68,369,346,319
+2013-14,625,Savannah-Chatham County,411,Islands High School,All Students,Combined,1306039,82852,1305,215,1352,1289,1277
+2013-14,625,Savannah-Chatham County,411,Islands High School,All Students,Mathematics,1306039,83391,1311,215,491,463,465
+2013-14,625,Savannah-Chatham County,411,Islands High School,All Students,Reading,1306039,83310,1312,217,493,480,492
+2013-14,625,Savannah-Chatham County,411,Islands High School,All Students,Writing,1306039,81856,1292,212,369,346,321
+2013-14,625,Savannah-Chatham County,499,Savannah Arts Academy,All Students,Combined,1306039,82852,1305,282,1352,1289,1547
+2013-14,625,Savannah-Chatham County,499,Savannah Arts Academy,All Students,Mathematics,1306039,83391,1311,286,491,463,556
+2013-14,625,Savannah-Chatham County,499,Savannah Arts Academy,All Students,Reading,1306039,83310,1312,283,493,480,574
+2013-14,625,Savannah-Chatham County,499,Savannah Arts Academy,All Students,Writing,1306039,81856,1292,278,369,346,417
+2013-14,625,Savannah-Chatham County,2052,Beach High School,All Students,Combined,1306039,82852,1305,38,1352,1289,1151
+2013-14,625,Savannah-Chatham County,2052,Beach High School,All Students,Mathematics,1306039,83391,1311,38,491,463,408
+2013-14,625,Savannah-Chatham County,2052,Beach High School,All Students,Reading,1306039,83310,1312,39,493,480,400
+2013-14,625,Savannah-Chatham County,2052,Beach High School,All Students,Writing,1306039,81856,1292,38,369,346,344
+2013-14,625,Savannah-Chatham County,3056,Groves High School,All Students,Combined,1306039,82852,1305,34,1352,1289,1072
+2013-14,625,Savannah-Chatham County,3056,Groves High School,All Students,Mathematics,1306039,83391,1311,35,491,463,382
+2013-14,625,Savannah-Chatham County,3056,Groves High School,All Students,Reading,1306039,83310,1312,33,493,480,408
+2013-14,625,Savannah-Chatham County,3056,Groves High School,All Students,Writing,1306039,81856,1292,33,369,346,282
+2013-14,625,Savannah-Chatham County,5060,Jenkins High School,All Students,Combined,1306039,82852,1305,189,1352,1289,1252
+2013-14,625,Savannah-Chatham County,5060,Jenkins High School,All Students,Mathematics,1306039,83391,1311,188,491,463,450
+2013-14,625,Savannah-Chatham County,5060,Jenkins High School,All Students,Reading,1306039,83310,1312,192,493,480,464
+2013-14,625,Savannah-Chatham County,5060,Jenkins High School,All Students,Writing,1306039,81856,1292,188,369,346,337
+2013-14,625,Savannah-Chatham County,5070,Windsor Forest High School,All Students,Combined,1306039,82852,1305,159,1352,1289,1251
+2013-14,625,Savannah-Chatham County,5070,Windsor Forest High School,All Students,Mathematics,1306039,83391,1311,159,491,463,450
+2013-14,625,Savannah-Chatham County,5070,Windsor Forest High School,All Students,Reading,1306039,83310,1312,160,493,480,468
+2013-14,625,Savannah-Chatham County,5070,Windsor Forest High School,All Students,Writing,1306039,81856,1292,158,369,346,332
+2013-14,626,Chattahoochee County,206,Chattahoochee County High School,All Students,Combined,1306039,82852,65,65,1352,1198,1198
+2013-14,626,Chattahoochee County,206,Chattahoochee County High School,All Students,Mathematics,1306039,83391,65,65,491,435,435
+2013-14,626,Chattahoochee County,206,Chattahoochee County High School,All Students,Reading,1306039,83310,66,66,493,447,447
+2013-14,626,Chattahoochee County,206,Chattahoochee County High School,All Students,Writing,1306039,81856,65,65,369,316,316
+2013-14,627,Chattooga County,1050,Chattooga High School,All Students,Combined,1306039,82852,66,66,1352,1195,1195
+2013-14,627,Chattooga County,1050,Chattooga High School,All Students,Mathematics,1306039,83391,67,67,491,429,429
+2013-14,627,Chattooga County,1050,Chattooga High School,All Students,Reading,1306039,83310,66,66,493,439,439
+2013-14,627,Chattooga County,1050,Chattooga High School,All Students,Writing,1306039,81856,66,66,369,327,327
+2013-14,628,Cherokee County,106,Creekview High School,All Students,Combined,1306039,82852,1986,386,1352,1460,1468
+2013-14,628,Cherokee County,106,Creekview High School,All Students,Mathematics,1306039,83391,1999,391,491,535,540
+2013-14,628,Cherokee County,106,Creekview High School,All Students,Reading,1306039,83310,1996,388,493,529,531
+2013-14,628,Cherokee County,106,Creekview High School,All Students,Writing,1306039,81856,1963,379,369,396,397
+2013-14,628,Cherokee County,115,River Ridge High School,All Students,Combined,1306039,82852,1986,301,1352,1460,1412
+2013-14,628,Cherokee County,115,River Ridge High School,All Students,Mathematics,1306039,83391,1999,302,491,535,517
+2013-14,628,Cherokee County,115,River Ridge High School,All Students,Reading,1306039,83310,1996,302,493,529,517
+2013-14,628,Cherokee County,115,River Ridge High School,All Students,Writing,1306039,81856,1963,298,369,396,378
+2013-14,628,Cherokee County,176,Etowah High School,All Students,Combined,1306039,82852,1986,428,1352,1460,1471
+2013-14,628,Cherokee County,176,Etowah High School,All Students,Mathematics,1306039,83391,1999,428,491,535,542
+2013-14,628,Cherokee County,176,Etowah High School,All Students,Reading,1306039,83310,1996,431,493,529,526
+2013-14,628,Cherokee County,176,Etowah High School,All Students,Writing,1306039,81856,1963,424,369,396,404
+2013-14,628,Cherokee County,191,Sequoyah High School,All Students,Combined,1306039,82852,1986,334,1352,1460,1454
+2013-14,628,Cherokee County,191,Sequoyah High School,All Students,Mathematics,1306039,83391,1999,337,491,535,532
+2013-14,628,Cherokee County,191,Sequoyah High School,All Students,Reading,1306039,83310,1996,334,493,529,528
+2013-14,628,Cherokee County,191,Sequoyah High School,All Students,Writing,1306039,81856,1963,330,369,396,395
+2013-14,628,Cherokee County,194,Polaris Evening School,All Students,Combined,1306039,82852,1986,TFS,1352,1460,
+2013-14,628,Cherokee County,194,Polaris Evening School,All Students,Mathematics,1306039,83391,1999,TFS,491,535,
+2013-14,628,Cherokee County,194,Polaris Evening School,All Students,Reading,1306039,83310,1996,TFS,493,529,
+2013-14,628,Cherokee County,194,Polaris Evening School,All Students,Writing,1306039,81856,1963,TFS,369,396,
+2013-14,628,Cherokee County,197,Woodstock High School,All Students,Combined,1306039,82852,1986,307,1352,1460,1484
+2013-14,628,Cherokee County,197,Woodstock High School,All Students,Mathematics,1306039,83391,1999,309,491,535,537
+2013-14,628,Cherokee County,197,Woodstock High School,All Students,Reading,1306039,83310,1996,308,493,529,540
+2013-14,628,Cherokee County,197,Woodstock High School,All Students,Writing,1306039,81856,1963,304,369,396,407
+2013-14,628,Cherokee County,5050,Cherokee High School,All Students,Combined,1306039,82852,1986,227,1352,1460,1470
+2013-14,628,Cherokee County,5050,Cherokee High School,All Students,Mathematics,1306039,83391,1999,228,491,535,541
+2013-14,628,Cherokee County,5050,Cherokee High School,All Students,Reading,1306039,83310,1996,229,493,529,539
+2013-14,628,Cherokee County,5050,Cherokee High School,All Students,Writing,1306039,81856,1963,224,369,396,389
+2013-14,628,Cherokee County,6597,Tippens Educational Center,All Students,Combined,1306039,82852,1986,TFS,1352,1460,
+2013-14,628,Cherokee County,6597,Tippens Educational Center,All Students,Mathematics,1306039,83391,1999,TFS,491,535,
+2013-14,628,Cherokee County,6597,Tippens Educational Center,All Students,Reading,1306039,83310,1996,TFS,493,529,
+2013-14,628,Cherokee County,6597,Tippens Educational Center,All Students,Writing,1306039,81856,1963,TFS,369,396,
+2013-14,629,Clarke County,102,Cedar Shoals High School,All Students,Combined,1306039,82852,499,218,1352,1286,1226
+2013-14,629,Clarke County,102,Cedar Shoals High School,All Students,Mathematics,1306039,83391,503,219,491,467,445
+2013-14,629,Clarke County,102,Cedar Shoals High School,All Students,Reading,1306039,83310,500,218,493,471,451
+2013-14,629,Clarke County,102,Cedar Shoals High School,All Students,Writing,1306039,81856,494,216,369,347,331
+2013-14,629,Clarke County,104,Classic City High School,All Students,Combined,1306039,82852,499,TFS,1352,1286,
+2013-14,629,Clarke County,104,Classic City High School,All Students,Mathematics,1306039,83391,503,TFS,491,467,
+2013-14,629,Clarke County,104,Classic City High School,All Students,Reading,1306039,83310,500,TFS,493,471,
+2013-14,629,Clarke County,104,Classic City High School,All Students,Writing,1306039,81856,494,TFS,369,347,
+2013-14,629,Clarke County,5556,Clarke Central High School,All Students,Combined,1306039,82852,499,279,1352,1286,1333
+2013-14,629,Clarke County,5556,Clarke Central High School,All Students,Mathematics,1306039,83391,503,282,491,467,485
+2013-14,629,Clarke County,5556,Clarke Central High School,All Students,Reading,1306039,83310,500,280,493,471,487
+2013-14,629,Clarke County,5556,Clarke Central High School,All Students,Writing,1306039,81856,494,276,369,347,361
+2013-14,631,Clayton County,104,Mundy's Mill High School,All Students,Combined,1306039,82852,1820,224,1352,1195,1182
+2013-14,631,Clayton County,104,Mundy's Mill High School,All Students,Mathematics,1306039,83391,1822,223,491,432,421
+2013-14,631,Clayton County,104,Mundy's Mill High School,All Students,Reading,1306039,83310,1835,225,493,440,424
+2013-14,631,Clayton County,104,Mundy's Mill High School,All Students,Writing,1306039,81856,1803,224,369,324,337
+2013-14,631,Clayton County,114,Elite Scholars Academy School,All Students,Combined,1306039,82852,1820,62,1352,1195,1320
+2013-14,631,Clayton County,114,Elite Scholars Academy School,All Students,Mathematics,1306039,83391,1822,61,491,432,495
+2013-14,631,Clayton County,114,Elite Scholars Academy School,All Students,Reading,1306039,83310,1835,64,493,440,474
+2013-14,631,Clayton County,114,Elite Scholars Academy School,All Students,Writing,1306039,81856,1803,61,369,324,351
+2013-14,631,Clayton County,115,Charles R. Drew High School,All Students,Combined,1306039,82852,1820,188,1352,1195,1154
+2013-14,631,Clayton County,115,Charles R. Drew High School,All Students,Mathematics,1306039,83391,1822,189,491,432,420
+2013-14,631,Clayton County,115,Charles R. Drew High School,All Students,Reading,1306039,83310,1835,188,493,440,425
+2013-14,631,Clayton County,115,Charles R. Drew High School,All Students,Writing,1306039,81856,1803,186,369,324,309
+2013-14,631,Clayton County,190,Lovejoy High School,All Students,Combined,1306039,82852,1820,319,1352,1195,1222
+2013-14,631,Clayton County,190,Lovejoy High School,All Students,Mathematics,1306039,83391,1822,320,491,432,442
+2013-14,631,Clayton County,190,Lovejoy High School,All Students,Reading,1306039,83310,1835,322,493,440,457
+2013-14,631,Clayton County,190,Lovejoy High School,All Students,Writing,1306039,81856,1803,315,369,324,324
+2013-14,631,Clayton County,215,Martha Ellen Stilwell School for the Performing Arts,All Students,Combined,1306039,82852,1820,23,1352,1195,1095
+2013-14,631,Clayton County,215,Martha Ellen Stilwell School for the Performing Arts,All Students,Mathematics,1306039,83391,1822,23,491,432,453
+2013-14,631,Clayton County,215,Martha Ellen Stilwell School for the Performing Arts,All Students,Reading,1306039,83310,1835,23,493,440,447
+2013-14,631,Clayton County,215,Martha Ellen Stilwell School for the Performing Arts,All Students,Writing,1306039,81856,1803,23,369,324,195
+2013-14,631,Clayton County,290,Mount Zion High School,All Students,Combined,1306039,82852,1820,222,1352,1195,1231
+2013-14,631,Clayton County,290,Mount Zion High School,All Students,Mathematics,1306039,83391,1822,223,491,432,435
+2013-14,631,Clayton County,290,Mount Zion High School,All Students,Reading,1306039,83310,1835,222,493,440,447
+2013-14,631,Clayton County,290,Mount Zion High School,All Students,Writing,1306039,81856,1803,220,369,324,348
+2013-14,631,Clayton County,377,Riverdale High School,All Students,Combined,1306039,82852,1820,123,1352,1195,1183
+2013-14,631,Clayton County,377,Riverdale High School,All Students,Mathematics,1306039,83391,1822,123,491,432,434
+2013-14,631,Clayton County,377,Riverdale High School,All Students,Reading,1306039,83310,1835,123,493,440,438
+2013-14,631,Clayton County,377,Riverdale High School,All Students,Writing,1306039,81856,1803,123,369,324,311
+2013-14,631,Clayton County,1054,Forest Park High School,All Students,Combined,1306039,82852,1820,126,1352,1195,1232
+2013-14,631,Clayton County,1054,Forest Park High School,All Students,Mathematics,1306039,83391,1822,126,491,432,445
+2013-14,631,Clayton County,1054,Forest Park High School,All Students,Reading,1306039,83310,1835,126,493,440,448
+2013-14,631,Clayton County,1054,Forest Park High School,All Students,Writing,1306039,81856,1803,125,369,324,340
+2013-14,631,Clayton County,1056,Jonesboro High School,All Students,Combined,1306039,82852,1820,231,1352,1195,1163
+2013-14,631,Clayton County,1056,Jonesboro High School,All Students,Mathematics,1306039,83391,1822,232,491,432,422
+2013-14,631,Clayton County,1056,Jonesboro High School,All Students,Reading,1306039,83310,1835,233,493,440,433
+2013-14,631,Clayton County,1056,Jonesboro High School,All Students,Writing,1306039,81856,1803,228,369,324,309
+2013-14,631,Clayton County,2052,North Clayton High School,All Students,Combined,1306039,82852,1820,100,1352,1195,1160
+2013-14,631,Clayton County,2052,North Clayton High School,All Students,Mathematics,1306039,83391,1822,99,491,432,411
+2013-14,631,Clayton County,2052,North Clayton High School,All Students,Reading,1306039,83310,1835,103,493,440,429
+2013-14,631,Clayton County,2052,North Clayton High School,All Students,Writing,1306039,81856,1803,98,369,324,320
+2013-14,631,Clayton County,4058,Morrow High School,All Students,Combined,1306039,82852,1820,202,1352,1195,1176
+2013-14,631,Clayton County,4058,Morrow High School,All Students,Mathematics,1306039,83391,1822,202,491,432,424
+2013-14,631,Clayton County,4058,Morrow High School,All Students,Reading,1306039,83310,1835,205,493,440,435
+2013-14,631,Clayton County,4058,Morrow High School,All Students,Writing,1306039,81856,1803,199,369,324,316
+2013-14,631,Clayton County,6506,Clayton County Open Campus/Career Academy,All Students,Combined,1306039,82852,1820,TFS,1352,1195,
+2013-14,631,Clayton County,6506,Clayton County Open Campus/Career Academy,All Students,Mathematics,1306039,83391,1822,TFS,491,432,
+2013-14,631,Clayton County,6506,Clayton County Open Campus/Career Academy,All Students,Reading,1306039,83310,1835,TFS,493,440,
+2013-14,631,Clayton County,6506,Clayton County Open Campus/Career Academy,All Students,Writing,1306039,81856,1803,TFS,369,324,
+2013-14,632,Clinch County,1050,Clinch County High School,All Students,Combined,1306039,82852,49,49,1352,1225,1225
+2013-14,632,Clinch County,1050,Clinch County High School,All Students,Mathematics,1306039,83391,50,50,491,448,448
+2013-14,632,Clinch County,1050,Clinch County High School,All Students,Reading,1306039,83310,49,49,493,454,454
+2013-14,632,Clinch County,1050,Clinch County High School,All Students,Writing,1306039,81856,47,47,369,322,322
+2013-14,633,Cobb County,101,Kennesaw Mountain High School,All Students,Combined,1306039,82852,7964,569,1352,1422,1510
+2013-14,633,Cobb County,101,Kennesaw Mountain High School,All Students,Mathematics,1306039,83391,8037,575,491,516,550
+2013-14,633,Cobb County,101,Kennesaw Mountain High School,All Students,Reading,1306039,83310,8019,576,493,518,550
+2013-14,633,Cobb County,101,Kennesaw Mountain High School,All Students,Writing,1306039,81856,7837,556,369,389,410
+2013-14,633,Cobb County,103,Kell High School,All Students,Combined,1306039,82852,7964,376,1352,1422,1405
+2013-14,633,Cobb County,103,Kell High School,All Students,Mathematics,1306039,83391,8037,378,491,516,513
+2013-14,633,Cobb County,103,Kell High School,All Students,Reading,1306039,83310,8019,380,493,518,506
+2013-14,633,Cobb County,103,Kell High School,All Students,Writing,1306039,81856,7837,370,369,389,386
+2013-14,633,Cobb County,175,Walton High School,All Students,Combined,1306039,82852,7964,876,1352,1422,1607
+2013-14,633,Cobb County,175,Walton High School,All Students,Mathematics,1306039,83391,8037,883,491,516,596
+2013-14,633,Cobb County,175,Walton High School,All Students,Reading,1306039,83310,8019,883,493,518,581
+2013-14,633,Cobb County,175,Walton High School,All Students,Writing,1306039,81856,7837,863,369,389,430
+2013-14,633,Cobb County,188,Pope High School,All Students,Combined,1306039,82852,7964,503,1352,1422,1540
+2013-14,633,Cobb County,188,Pope High School,All Students,Mathematics,1306039,83391,8037,511,491,516,562
+2013-14,633,Cobb County,188,Pope High School,All Students,Reading,1306039,83310,8019,505,493,518,557
+2013-14,633,Cobb County,188,Pope High School,All Students,Writing,1306039,81856,7837,493,369,389,421
+2013-14,633,Cobb County,192,Harrison High School,All Students,Combined,1306039,82852,7964,598,1352,1422,1455
+2013-14,633,Cobb County,192,Harrison High School,All Students,Mathematics,1306039,83391,8037,604,491,516,530
+2013-14,633,Cobb County,192,Harrison High School,All Students,Reading,1306039,83310,8019,603,493,518,527
+2013-14,633,Cobb County,192,Harrison High School,All Students,Writing,1306039,81856,7837,588,369,389,397
+2013-14,633,Cobb County,209,Allatoona High School,All Students,Combined,1306039,82852,7964,442,1352,1422,1404
+2013-14,633,Cobb County,209,Allatoona High School,All Students,Mathematics,1306039,83391,8037,446,491,516,514
+2013-14,633,Cobb County,209,Allatoona High School,All Students,Reading,1306039,83310,8019,443,493,518,512
+2013-14,633,Cobb County,209,Allatoona High School,All Students,Writing,1306039,81856,7837,436,369,389,378
+2013-14,633,Cobb County,373,Sprayberry High School,All Students,Combined,1306039,82852,7964,418,1352,1422,1377
+2013-14,633,Cobb County,373,Sprayberry High School,All Students,Mathematics,1306039,83391,8037,424,491,516,494
+2013-14,633,Cobb County,373,Sprayberry High School,All Students,Reading,1306039,83310,8019,418,493,518,502
+2013-14,633,Cobb County,373,Sprayberry High School,All Students,Writing,1306039,81856,7837,411,369,389,382
+2013-14,633,Cobb County,381,Lassiter High School,All Students,Combined,1306039,82852,7964,708,1352,1422,1537
+2013-14,633,Cobb County,381,Lassiter High School,All Students,Mathematics,1306039,83391,8037,714,491,516,567
+2013-14,633,Cobb County,381,Lassiter High School,All Students,Reading,1306039,83310,8019,714,493,518,554
+2013-14,633,Cobb County,381,Lassiter High School,All Students,Writing,1306039,81856,7837,696,369,389,417
+2013-14,633,Cobb County,707,Hillgrove High School,All Students,Combined,1306039,82852,7964,571,1352,1422,1393
+2013-14,633,Cobb County,707,Hillgrove High School,All Students,Mathematics,1306039,83391,8037,579,491,516,504
+2013-14,633,Cobb County,707,Hillgrove High School,All Students,Reading,1306039,83310,8019,575,493,518,508
+2013-14,633,Cobb County,707,Hillgrove High School,All Students,Writing,1306039,81856,7837,560,369,389,381
+2013-14,633,Cobb County,1054,Campbell High School,All Students,Combined,1306039,82852,7964,473,1352,1422,1316
+2013-14,633,Cobb County,1054,Campbell High School,All Students,Mathematics,1306039,83391,8037,479,491,516,476
+2013-14,633,Cobb County,1054,Campbell High School,All Students,Reading,1306039,83310,8019,472,493,518,485
+2013-14,633,Cobb County,1054,Campbell High School,All Students,Writing,1306039,81856,7837,468,369,389,354
+2013-14,633,Cobb County,1064,McEachern High School,All Students,Combined,1306039,82852,7964,465,1352,1422,1247
+2013-14,633,Cobb County,1064,McEachern High School,All Students,Mathematics,1306039,83391,8037,465,491,516,447
+2013-14,633,Cobb County,1064,McEachern High School,All Students,Reading,1306039,83310,8019,474,493,518,461
+2013-14,633,Cobb County,1064,McEachern High School,All Students,Writing,1306039,81856,7837,456,369,389,339
+2013-14,633,Cobb County,1069,Wheeler High School,All Students,Combined,1306039,82852,7964,421,1352,1422,1515
+2013-14,633,Cobb County,1069,Wheeler High School,All Students,Mathematics,1306039,83391,8037,425,491,516,544
+2013-14,633,Cobb County,1069,Wheeler High School,All Students,Reading,1306039,83310,8019,424,493,518,544
+2013-14,633,Cobb County,1069,Wheeler High School,All Students,Writing,1306039,81856,7837,415,369,389,427
+2013-14,633,Cobb County,2056,North Cobb High School,All Students,Combined,1306039,82852,7964,647,1352,1422,1363
+2013-14,633,Cobb County,2056,North Cobb High School,All Students,Mathematics,1306039,83391,8037,652,491,516,481
+2013-14,633,Cobb County,2056,North Cobb High School,All Students,Reading,1306039,83310,8019,648,493,518,504
+2013-14,633,Cobb County,2056,North Cobb High School,All Students,Writing,1306039,81856,7837,641,369,389,378
+2013-14,633,Cobb County,2066,Osborne High School,All Students,Combined,1306039,82852,7964,199,1352,1422,1173
+2013-14,633,Cobb County,2066,Osborne High School,All Students,Mathematics,1306039,83391,8037,198,491,516,415
+2013-14,633,Cobb County,2066,Osborne High School,All Students,Reading,1306039,83310,8019,201,493,518,434
+2013-14,633,Cobb County,2066,Osborne High School,All Students,Writing,1306039,81856,7837,197,369,389,324
+2013-14,633,Cobb County,3056,South Cobb High School,All Students,Combined,1306039,82852,7964,338,1352,1422,1250
+2013-14,633,Cobb County,3056,South Cobb High School,All Students,Mathematics,1306039,83391,8037,339,491,516,443
+2013-14,633,Cobb County,3056,South Cobb High School,All Students,Reading,1306039,83310,8019,342,493,518,460
+2013-14,633,Cobb County,3056,South Cobb High School,All Students,Writing,1306039,81856,7837,334,369,389,346
+2013-14,633,Cobb County,4066,Pebblebrook High School,All Students,Combined,1306039,82852,7964,360,1352,1422,1196
+2013-14,633,Cobb County,4066,Pebblebrook High School,All Students,Mathematics,1306039,83391,8037,365,491,516,422
+2013-14,633,Cobb County,4066,Pebblebrook High School,All Students,Reading,1306039,83310,8019,361,493,518,441
+2013-14,633,Cobb County,4066,Pebblebrook High School,All Students,Writing,1306039,81856,7837,353,369,389,333
+2013-14,634,Coffee County,195,Coffee County High School,All Students,Combined,1306039,82852,287,287,1352,1258,1258
+2013-14,634,Coffee County,195,Coffee County High School,All Students,Mathematics,1306039,83391,289,289,491,452,452
+2013-14,634,Coffee County,195,Coffee County High School,All Students,Reading,1306039,83310,289,289,493,453,453
+2013-14,634,Coffee County,195,Coffee County High School,All Students,Writing,1306039,81856,283,283,369,353,353
+2013-14,635,Colquitt County,1554,Colquitt County High School,All Students,Combined,1306039,82852,311,311,1352,1264,1264
+2013-14,635,Colquitt County,1554,Colquitt County High School,All Students,Mathematics,1306039,83391,314,314,491,459,459
+2013-14,635,Colquitt County,1554,Colquitt County High School,All Students,Reading,1306039,83310,312,312,493,458,458
+2013-14,635,Colquitt County,1554,Colquitt County High School,All Students,Writing,1306039,81856,307,307,369,348,348
+2013-14,636,Columbia County,112,Grovetown High School,All Students,Combined,1306039,82852,1770,276,1352,1390,1349
+2013-14,636,Columbia County,112,Grovetown High School,All Students,Mathematics,1306039,83391,1783,278,491,510,483
+2013-14,636,Columbia County,112,Grovetown High School,All Students,Reading,1306039,83310,1781,277,493,514,499
+2013-14,636,Columbia County,112,Grovetown High School,All Students,Writing,1306039,81856,1746,273,369,366,367
+2013-14,636,Columbia County,183,Harlem High School,All Students,Combined,1306039,82852,1770,132,1352,1390,1337
+2013-14,636,Columbia County,183,Harlem High School,All Students,Mathematics,1306039,83391,1783,131,491,510,482
+2013-14,636,Columbia County,183,Harlem High School,All Students,Reading,1306039,83310,1781,135,493,514,493
+2013-14,636,Columbia County,183,Harlem High School,All Students,Writing,1306039,81856,1746,129,369,366,362
+2013-14,636,Columbia County,189,Lakeside High School,All Students,Combined,1306039,82852,1770,466,1352,1390,1450
+2013-14,636,Columbia County,189,Lakeside High School,All Students,Mathematics,1306039,83391,1783,470,491,510,533
+2013-14,636,Columbia County,189,Lakeside High School,All Students,Reading,1306039,83310,1781,470,493,514,526
+2013-14,636,Columbia County,189,Lakeside High School,All Students,Writing,1306039,81856,1746,458,369,366,391
+2013-14,636,Columbia County,197,Greenbrier High School,All Students,Combined,1306039,82852,1770,528,1352,1390,1386
+2013-14,636,Columbia County,197,Greenbrier High School,All Students,Mathematics,1306039,83391,1783,533,491,510,522
+2013-14,636,Columbia County,197,Greenbrier High School,All Students,Reading,1306039,83310,1781,530,493,514,526
+2013-14,636,Columbia County,197,Greenbrier High School,All Students,Writing,1306039,81856,1746,522,369,366,338
+2013-14,636,Columbia County,4050,Evans High School,All Students,Combined,1306039,82852,1770,368,1352,1390,1370
+2013-14,636,Columbia County,4050,Evans High School,All Students,Mathematics,1306039,83391,1783,371,491,510,495
+2013-14,636,Columbia County,4050,Evans High School,All Students,Reading,1306039,83310,1781,369,493,514,498
+2013-14,636,Columbia County,4050,Evans High School,All Students,Writing,1306039,81856,1746,364,369,366,377
+2013-14,637,Cook County,111,Cook High School,All Students,Combined,1306039,82852,123,123,1352,1350,1350
+2013-14,637,Cook County,111,Cook High School,All Students,Mathematics,1306039,83391,124,124,491,470,470
+2013-14,637,Cook County,111,Cook High School,All Students,Reading,1306039,83310,124,124,493,482,482
+2013-14,637,Cook County,111,Cook High School,All Students,Writing,1306039,81856,122,122,369,398,398
+2013-14,638,Coweta County,196,Northgate High School,All Students,Combined,1306039,82852,930,348,1352,1414,1435
+2013-14,638,Coweta County,196,Northgate High School,All Students,Mathematics,1306039,83391,928,349,491,503,509
+2013-14,638,Coweta County,196,Northgate High School,All Students,Reading,1306039,83310,939,350,493,517,519
+2013-14,638,Coweta County,196,Northgate High School,All Students,Writing,1306039,81856,923,344,369,394,407
+2013-14,638,Coweta County,389,East Coweta High School,All Students,Combined,1306039,82852,930,350,1352,1414,1396
+2013-14,638,Coweta County,389,East Coweta High School,All Students,Mathematics,1306039,83391,928,348,491,503,501
+2013-14,638,Coweta County,389,East Coweta High School,All Students,Reading,1306039,83310,939,354,493,517,516
+2013-14,638,Coweta County,389,East Coweta High School,All Students,Writing,1306039,81856,923,348,369,394,379
+2013-14,638,Coweta County,5054,Newnan High School,All Students,Combined,1306039,82852,930,232,1352,1414,1411
+2013-14,638,Coweta County,5054,Newnan High School,All Students,Mathematics,1306039,83391,928,231,491,503,497
+2013-14,638,Coweta County,5054,Newnan High School,All Students,Reading,1306039,83310,939,235,493,517,516
+2013-14,638,Coweta County,5054,Newnan High School,All Students,Writing,1306039,81856,923,231,369,394,398
+2013-14,639,Crawford County,193,Crawford County High School,All Students,Combined,1306039,82852,49,49,1352,1270,1270
+2013-14,639,Crawford County,193,Crawford County High School,All Students,Mathematics,1306039,83391,49,49,491,461,461
+2013-14,639,Crawford County,193,Crawford County High School,All Students,Reading,1306039,83310,49,49,493,463,463
+2013-14,639,Crawford County,193,Crawford County High School,All Students,Writing,1306039,81856,49,49,369,346,346
+2013-14,640,Crisp County,196,Crisp County High School,All Students,Combined,1306039,82852,161,161,1352,1240,1240
+2013-14,640,Crisp County,196,Crisp County High School,All Students,Mathematics,1306039,83391,162,162,491,446,446
+2013-14,640,Crisp County,196,Crisp County High School,All Students,Reading,1306039,83310,161,161,493,447,447
+2013-14,640,Crisp County,196,Crisp County High School,All Students,Writing,1306039,81856,160,160,369,348,348
+2013-14,641,Dade County,195,Dade County High School,All Students,Combined,1306039,82852,40,40,1352,1473,1473
+2013-14,641,Dade County,195,Dade County High School,All Students,Mathematics,1306039,83391,41,41,491,500,500
+2013-14,641,Dade County,195,Dade County High School,All Students,Reading,1306039,83310,40,40,493,508,508
+2013-14,641,Dade County,195,Dade County High School,All Students,Writing,1306039,81856,40,40,369,465,465
+2013-14,642,Dawson County,198,Dawson County High School,All Students,Combined,1306039,82852,211,211,1352,1354,1354
+2013-14,642,Dawson County,198,Dawson County High School,All Students,Mathematics,1306039,83391,211,211,491,486,486
+2013-14,642,Dawson County,198,Dawson County High School,All Students,Reading,1306039,83310,212,212,493,504,504
+2013-14,642,Dawson County,198,Dawson County High School,All Students,Writing,1306039,81856,209,209,369,363,363
+2013-14,643,Decatur County,3050,Bainbridge High School,All Students,Combined,1306039,82852,155,155,1352,1273,1273
+2013-14,643,Decatur County,3050,Bainbridge High School,All Students,Mathematics,1306039,83391,155,155,491,430,430
+2013-14,643,Decatur County,3050,Bainbridge High School,All Students,Reading,1306039,83310,155,155,493,461,461
+2013-14,643,Decatur County,3050,Bainbridge High School,All Students,Writing,1306039,81856,154,154,369,382,382
+2013-14,644,DeKalb County,103,"Martin Luther King, Jr. High School",All Students,Combined,1306039,82852,4797,272,1352,1256,1128
+2013-14,644,DeKalb County,103,"Martin Luther King, Jr. High School",All Students,Mathematics,1306039,83391,4827,274,491,456,399
+2013-14,644,DeKalb County,103,"Martin Luther King, Jr. High School",All Students,Reading,1306039,83310,4818,273,493,461,410
+2013-14,644,DeKalb County,103,"Martin Luther King, Jr. High School",All Students,Writing,1306039,81856,4746,270,369,339,319
+2013-14,644,DeKalb County,105,Miller Grove High School,All Students,Combined,1306039,82852,4797,238,1352,1256,1120
+2013-14,644,DeKalb County,105,Miller Grove High School,All Students,Mathematics,1306039,83391,4827,238,491,456,407
+2013-14,644,DeKalb County,105,Miller Grove High School,All Students,Reading,1306039,83310,4818,239,493,461,410
+2013-14,644,DeKalb County,105,Miller Grove High School,All Students,Writing,1306039,81856,4746,238,369,339,303
+2013-14,644,DeKalb County,112,Destiny Achievers Academy of Excellence,All Students,Combined,1306039,82852,4797,TFS,1352,1256,
+2013-14,644,DeKalb County,112,Destiny Achievers Academy of Excellence,All Students,Mathematics,1306039,83391,4827,TFS,491,456,
+2013-14,644,DeKalb County,112,Destiny Achievers Academy of Excellence,All Students,Reading,1306039,83310,4818,TFS,493,461,
+2013-14,644,DeKalb County,112,Destiny Achievers Academy of Excellence,All Students,Writing,1306039,81856,4746,TFS,369,339,
+2013-14,644,DeKalb County,172,Cedar Grove High School,All Students,Combined,1306039,82852,4797,141,1352,1256,1140
+2013-14,644,DeKalb County,172,Cedar Grove High School,All Students,Mathematics,1306039,83391,4827,142,491,456,406
+2013-14,644,DeKalb County,172,Cedar Grove High School,All Students,Reading,1306039,83310,4818,142,493,461,399
+2013-14,644,DeKalb County,172,Cedar Grove High School,All Students,Writing,1306039,81856,4746,140,369,339,335
+2013-14,644,DeKalb County,176,Redan High School,All Students,Combined,1306039,82852,4797,104,1352,1256,1178
+2013-14,644,DeKalb County,176,Redan High School,All Students,Mathematics,1306039,83391,4827,104,491,456,421
+2013-14,644,DeKalb County,176,Redan High School,All Students,Reading,1306039,83310,4818,105,493,461,429
+2013-14,644,DeKalb County,176,Redan High School,All Students,Writing,1306039,81856,4746,104,369,339,328
+2013-14,644,DeKalb County,202,Lithonia High School,All Students,Combined,1306039,82852,4797,197,1352,1256,1150
+2013-14,644,DeKalb County,202,Lithonia High School,All Students,Mathematics,1306039,83391,4827,197,491,456,407
+2013-14,644,DeKalb County,202,Lithonia High School,All Students,Reading,1306039,83310,4818,199,493,461,414
+2013-14,644,DeKalb County,202,Lithonia High School,All Students,Writing,1306039,81856,4746,195,369,339,329
+2013-14,644,DeKalb County,276,Stone Mountain High School,All Students,Combined,1306039,82852,4797,150,1352,1256,1131
+2013-14,644,DeKalb County,276,Stone Mountain High School,All Students,Mathematics,1306039,83391,4827,152,491,456,410
+2013-14,644,DeKalb County,276,Stone Mountain High School,All Students,Reading,1306039,83310,4818,151,493,461,405
+2013-14,644,DeKalb County,276,Stone Mountain High School,All Students,Writing,1306039,81856,4746,148,369,339,316
+2013-14,644,DeKalb County,407,Dekalb Early College Academy,All Students,Combined,1306039,82852,4797,71,1352,1256,1343
+2013-14,644,DeKalb County,407,Dekalb Early College Academy,All Students,Mathematics,1306039,83391,4827,71,491,456,496
+2013-14,644,DeKalb County,407,Dekalb Early College Academy,All Students,Reading,1306039,83310,4818,71,493,461,498
+2013-14,644,DeKalb County,407,Dekalb Early College Academy,All Students,Writing,1306039,81856,4746,71,369,339,348
+2013-14,644,DeKalb County,410,DeKalb School of the Arts,All Students,Combined,1306039,82852,4797,94,1352,1256,1521
+2013-14,644,DeKalb County,410,DeKalb School of the Arts,All Students,Mathematics,1306039,83391,4827,94,491,456,528
+2013-14,644,DeKalb County,410,DeKalb School of the Arts,All Students,Reading,1306039,83310,4818,95,493,461,579
+2013-14,644,DeKalb County,410,DeKalb School of the Arts,All Students,Writing,1306039,81856,4746,94,369,339,414
+2013-14,644,DeKalb County,497,Stephenson High School,All Students,Combined,1306039,82852,4797,350,1352,1256,1182
+2013-14,644,DeKalb County,497,Stephenson High School,All Students,Mathematics,1306039,83391,4827,354,491,456,434
+2013-14,644,DeKalb County,497,Stephenson High School,All Students,Reading,1306039,83310,4818,349,493,461,435
+2013-14,644,DeKalb County,497,Stephenson High School,All Students,Writing,1306039,81856,4746,347,369,339,313
+2013-14,644,DeKalb County,606,Gateway to College Academy,All Students,Combined,1306039,82852,4797,TFS,1352,1256,
+2013-14,644,DeKalb County,606,Gateway to College Academy,All Students,Mathematics,1306039,83391,4827,TFS,491,456,
+2013-14,644,DeKalb County,606,Gateway to College Academy,All Students,Reading,1306039,83310,4818,TFS,493,461,
+2013-14,644,DeKalb County,606,Gateway to College Academy,All Students,Writing,1306039,81856,4746,TFS,369,339,
+2013-14,644,DeKalb County,610,"Arabia Mountain High School - Academy of Engineering, Medicine and Environm",All Students,Combined,1306039,82852,4797,400,1352,1256,1257
+2013-14,644,DeKalb County,610,"Arabia Mountain High School - Academy of Engineering, Medicine and Environm",All Students,Mathematics,1306039,83391,4827,400,491,456,445
+2013-14,644,DeKalb County,610,"Arabia Mountain High School - Academy of Engineering, Medicine and Environm",All Students,Reading,1306039,83310,4818,406,493,461,469
+2013-14,644,DeKalb County,610,"Arabia Mountain High School - Academy of Engineering, Medicine and Environm",All Students,Writing,1306039,81856,4746,395,369,339,343
+2013-14,644,DeKalb County,810,Elizabeth Andrews High School,All Students,Combined,1306039,82852,4797,10,1352,1256,1022
+2013-14,644,DeKalb County,810,Elizabeth Andrews High School,All Students,Mathematics,1306039,83391,4827,10,491,456,346
+2013-14,644,DeKalb County,810,Elizabeth Andrews High School,All Students,Reading,1306039,83310,4818,10,493,461,337
+2013-14,644,DeKalb County,810,Elizabeth Andrews High School,All Students,Writing,1306039,81856,4746,10,369,339,339
+2013-14,644,DeKalb County,1070,Tucker High School,All Students,Combined,1306039,82852,4797,375,1352,1256,1214
+2013-14,644,DeKalb County,1070,Tucker High School,All Students,Mathematics,1306039,83391,4827,378,491,456,455
+2013-14,644,DeKalb County,1070,Tucker High School,All Students,Reading,1306039,83310,4818,378,493,461,447
+2013-14,644,DeKalb County,1070,Tucker High School,All Students,Writing,1306039,81856,4746,369,369,339,312
+2013-14,644,DeKalb County,2054,Columbia High School,All Students,Combined,1306039,82852,4797,196,1352,1256,1131
+2013-14,644,DeKalb County,2054,Columbia High School,All Students,Mathematics,1306039,83391,4827,197,491,456,410
+2013-14,644,DeKalb County,2054,Columbia High School,All Students,Reading,1306039,83310,4818,196,493,461,411
+2013-14,644,DeKalb County,2054,Columbia High School,All Students,Writing,1306039,81856,4746,194,369,339,310
+2013-14,644,DeKalb County,2055,Druid Hills High School,All Students,Combined,1306039,82852,4797,312,1352,1256,1330
+2013-14,644,DeKalb County,2055,Druid Hills High School,All Students,Mathematics,1306039,83391,4827,315,491,456,476
+2013-14,644,DeKalb County,2055,Druid Hills High School,All Students,Reading,1306039,83310,4818,312,493,461,487
+2013-14,644,DeKalb County,2055,Druid Hills High School,All Students,Writing,1306039,81856,4746,308,369,339,368
+2013-14,644,DeKalb County,3060,Lakeside High School,All Students,Combined,1306039,82852,4797,438,1352,1256,1426
+2013-14,644,DeKalb County,3060,Lakeside High School,All Students,Mathematics,1306039,83391,4827,441,491,456,523
+2013-14,644,DeKalb County,3060,Lakeside High School,All Students,Reading,1306039,83310,4818,441,493,461,526
+2013-14,644,DeKalb County,3060,Lakeside High School,All Students,Writing,1306039,81856,4746,431,369,339,376
+2013-14,644,DeKalb County,3070,McNair High School,All Students,Combined,1306039,82852,4797,82,1352,1256,1082
+2013-14,644,DeKalb County,3070,McNair High School,All Students,Mathematics,1306039,83391,4827,82,491,456,388
+2013-14,644,DeKalb County,3070,McNair High School,All Students,Reading,1306039,83310,4818,82,493,461,392
+2013-14,644,DeKalb County,3070,McNair High School,All Students,Writing,1306039,81856,4746,81,369,339,303
+2013-14,644,DeKalb County,4053,Clarkston High School,All Students,Combined,1306039,82852,4797,193,1352,1256,1082
+2013-14,644,DeKalb County,4053,Clarkston High School,All Students,Mathematics,1306039,83391,4827,195,491,456,408
+2013-14,644,DeKalb County,4053,Clarkston High School,All Students,Reading,1306039,83310,4818,193,493,461,398
+2013-14,644,DeKalb County,4053,Clarkston High School,All Students,Writing,1306039,81856,4746,191,369,339,276
+2013-14,644,DeKalb County,4054,Cross Keys High School,All Students,Combined,1306039,82852,4797,100,1352,1256,1178
+2013-14,644,DeKalb County,4054,Cross Keys High School,All Students,Mathematics,1306039,83391,4827,101,491,456,444
+2013-14,644,DeKalb County,4054,Cross Keys High School,All Students,Reading,1306039,83310,4818,101,493,461,443
+2013-14,644,DeKalb County,4054,Cross Keys High School,All Students,Writing,1306039,81856,4746,99,369,339,291
+2013-14,644,DeKalb County,4069,Towers High School,All Students,Combined,1306039,82852,4797,124,1352,1256,1052
+2013-14,644,DeKalb County,4069,Towers High School,All Students,Mathematics,1306039,83391,4827,124,491,456,397
+2013-14,644,DeKalb County,4069,Towers High School,All Students,Reading,1306039,83310,4818,124,493,461,392
+2013-14,644,DeKalb County,4069,Towers High School,All Students,Writing,1306039,81856,4746,123,369,339,263
+2013-14,644,DeKalb County,5052,Chamblee Charter High School,All Students,Combined,1306039,82852,4797,338,1352,1256,1526
+2013-14,644,DeKalb County,5052,Chamblee Charter High School,All Students,Mathematics,1306039,83391,4827,342,491,456,561
+2013-14,644,DeKalb County,5052,Chamblee Charter High School,All Students,Reading,1306039,83310,4818,338,493,461,557
+2013-14,644,DeKalb County,5052,Chamblee Charter High School,All Students,Writing,1306039,81856,4746,335,369,339,408
+2013-14,644,DeKalb County,5055,Dunwoody High School,All Students,Combined,1306039,82852,4797,366,1352,1256,1426
+2013-14,644,DeKalb County,5055,Dunwoody High School,All Students,Mathematics,1306039,83391,4827,372,491,456,513
+2013-14,644,DeKalb County,5055,Dunwoody High School,All Students,Reading,1306039,83310,4818,365,493,461,531
+2013-14,644,DeKalb County,5055,Dunwoody High School,All Students,Writing,1306039,81856,4746,362,369,339,383
+2013-14,644,DeKalb County,5067,Southwest DeKalb High School,All Students,Combined,1306039,82852,4797,235,1352,1256,1259
+2013-14,644,DeKalb County,5067,Southwest DeKalb High School,All Students,Mathematics,1306039,83391,4827,235,491,456,446
+2013-14,644,DeKalb County,5067,Southwest DeKalb High School,All Students,Reading,1306039,83310,4818,239,493,461,463
+2013-14,644,DeKalb County,5067,Southwest DeKalb High School,All Students,Writing,1306039,81856,4746,232,369,339,350
+2013-14,645,Dodge County,103,Dodge County High School,All Students,Combined,1306039,82852,98,98,1352,1291,1291
+2013-14,645,Dodge County,103,Dodge County High School,All Students,Mathematics,1306039,83391,99,99,491,462,462
+2013-14,645,Dodge County,103,Dodge County High School,All Students,Reading,1306039,83310,98,98,493,477,477
+2013-14,645,Dodge County,103,Dodge County High School,All Students,Writing,1306039,81856,98,98,369,353,353
+2013-14,646,Dooly County,182,Dooly County High School,All Students,Combined,1306039,82852,19,19,1352,1143,1143
+2013-14,646,Dooly County,182,Dooly County High School,All Students,Mathematics,1306039,83391,19,19,491,391,391
+2013-14,646,Dooly County,182,Dooly County High School,All Students,Reading,1306039,83310,20,20,493,407,407
+2013-14,646,Dooly County,182,Dooly County High School,All Students,Writing,1306039,81856,19,19,369,346,346
+2013-14,647,Dougherty County,1050,Albany High School,All Students,Combined,1306039,82852,466,93,1352,1215,1194
+2013-14,647,Dougherty County,1050,Albany High School,All Students,Mathematics,1306039,83391,468,93,491,435,427
+2013-14,647,Dougherty County,1050,Albany High School,All Students,Reading,1306039,83310,470,93,493,438,422
+2013-14,647,Dougherty County,1050,Albany High School,All Students,Writing,1306039,81856,460,92,369,342,345
+2013-14,647,Dougherty County,1058,Monroe High School,All Students,Combined,1306039,82852,466,118,1352,1215,1127
+2013-14,647,Dougherty County,1058,Monroe High School,All Students,Mathematics,1306039,83391,468,117,491,435,403
+2013-14,647,Dougherty County,1058,Monroe High School,All Students,Reading,1306039,83310,470,121,493,438,405
+2013-14,647,Dougherty County,1058,Monroe High School,All Students,Writing,1306039,81856,460,116,369,342,318
+2013-14,647,Dougherty County,2052,Dougherty Comprehensive High School,All Students,Combined,1306039,82852,466,56,1352,1215,1143
+2013-14,647,Dougherty County,2052,Dougherty Comprehensive High School,All Students,Mathematics,1306039,83391,468,57,491,435,419
+2013-14,647,Dougherty County,2052,Dougherty Comprehensive High School,All Students,Reading,1306039,83310,470,55,493,438,410
+2013-14,647,Dougherty County,2052,Dougherty Comprehensive High School,All Students,Writing,1306039,81856,460,55,369,342,313
+2013-14,647,Dougherty County,4062,Westover High School,All Students,Combined,1306039,82852,466,200,1352,1215,1297
+2013-14,647,Dougherty County,4062,Westover High School,All Students,Mathematics,1306039,83391,468,201,491,435,463
+2013-14,647,Dougherty County,4062,Westover High School,All Students,Reading,1306039,83310,470,201,493,438,472
+2013-14,647,Dougherty County,4062,Westover High School,All Students,Writing,1306039,81856,460,197,369,342,362
+2013-14,648,Douglas County,100,Chapel Hill High School,All Students,Combined,1306039,82852,1254,221,1352,1272,1250
+2013-14,648,Douglas County,100,Chapel Hill High School,All Students,Mathematics,1306039,83391,1262,222,491,456,453
+2013-14,648,Douglas County,100,Chapel Hill High School,All Students,Reading,1306039,83310,1255,221,493,470,461
+2013-14,648,Douglas County,100,Chapel Hill High School,All Students,Writing,1306039,81856,1244,220,369,346,336
+2013-14,648,Douglas County,175,Lithia Springs Comprehensive High School,All Students,Combined,1306039,82852,1254,122,1352,1272,1251
+2013-14,648,Douglas County,175,Lithia Springs Comprehensive High School,All Students,Mathematics,1306039,83391,1262,122,491,456,434
+2013-14,648,Douglas County,175,Lithia Springs Comprehensive High School,All Students,Reading,1306039,83310,1255,123,493,470,451
+2013-14,648,Douglas County,175,Lithia Springs Comprehensive High School,All Students,Writing,1306039,81856,1244,122,369,346,365
+2013-14,648,Douglas County,187,Alexander High School,All Students,Combined,1306039,82852,1254,206,1352,1272,1328
+2013-14,648,Douglas County,187,Alexander High School,All Students,Mathematics,1306039,83391,1262,207,491,456,468
+2013-14,648,Douglas County,187,Alexander High School,All Students,Reading,1306039,83310,1255,205,493,470,480
+2013-14,648,Douglas County,187,Alexander High School,All Students,Writing,1306039,81856,1244,205,369,346,380
+2013-14,648,Douglas County,212,New Manchester High School,All Students,Combined,1306039,82852,1254,299,1352,1272,1169
+2013-14,648,Douglas County,212,New Manchester High School,All Students,Mathematics,1306039,83391,1262,302,491,456,421
+2013-14,648,Douglas County,212,New Manchester High School,All Students,Reading,1306039,83310,1255,300,493,470,437
+2013-14,648,Douglas County,212,New Manchester High School,All Students,Writing,1306039,81856,1244,296,369,346,311
+2013-14,648,Douglas County,4050,Douglas County High School,All Students,Combined,1306039,82852,1254,405,1352,1272,1338
+2013-14,648,Douglas County,4050,Douglas County High School,All Students,Mathematics,1306039,83391,1262,409,491,456,483
+2013-14,648,Douglas County,4050,Douglas County High School,All Students,Reading,1306039,83310,1255,406,493,470,501
+2013-14,648,Douglas County,4050,Douglas County High School,All Students,Writing,1306039,81856,1244,401,369,346,354
+2013-14,649,Early County,2050,Early County High School,All Students,Combined,1306039,82852,112,112,1352,1210,1210
+2013-14,649,Early County,2050,Early County High School,All Students,Mathematics,1306039,83391,112,112,491,445,445
+2013-14,649,Early County,2050,Early County High School,All Students,Reading,1306039,83310,113,113,493,436,436
+2013-14,649,Early County,2050,Early County High School,All Students,Writing,1306039,81856,111,111,369,329,329
+2013-14,650,Echols County,1050,Echols County High School,All Students,Combined,1306039,82852,18,18,1352,1302,1302
+2013-14,650,Echols County,1050,Echols County High School,All Students,Mathematics,1306039,83391,18,18,491,459,459
+2013-14,650,Echols County,1050,Echols County High School,All Students,Reading,1306039,83310,18,18,493,489,489
+2013-14,650,Echols County,1050,Echols County High School,All Students,Writing,1306039,81856,18,18,369,354,354
+2013-14,651,Effingham County,197,South Effingham High School,All Students,Combined,1306039,82852,503,292,1352,1363,1372
+2013-14,651,Effingham County,197,South Effingham High School,All Students,Mathematics,1306039,83391,504,291,491,490,490
+2013-14,651,Effingham County,197,South Effingham High School,All Students,Reading,1306039,83310,510,297,493,493,498
+2013-14,651,Effingham County,197,South Effingham High School,All Students,Writing,1306039,81856,496,287,369,381,383
+2013-14,651,Effingham County,390,Effingham County High School,All Students,Combined,1306039,82852,503,212,1352,1363,1352
+2013-14,651,Effingham County,390,Effingham County High School,All Students,Mathematics,1306039,83391,504,213,491,490,489
+2013-14,651,Effingham County,390,Effingham County High School,All Students,Reading,1306039,83310,510,213,493,493,486
+2013-14,651,Effingham County,390,Effingham County High School,All Students,Writing,1306039,81856,496,209,369,381,377
+2013-14,652,Elbert County,176,Elbert County High School,All Students,Combined,1306039,82852,160,160,1352,1212,1212
+2013-14,652,Elbert County,176,Elbert County High School,All Students,Mathematics,1306039,83391,161,161,491,435,435
+2013-14,652,Elbert County,176,Elbert County High School,All Students,Reading,1306039,83310,160,160,493,443,443
+2013-14,652,Elbert County,176,Elbert County High School,All Students,Writing,1306039,81856,160,160,369,334,334
+2013-14,653,Emanuel County,189,Swainsboro High School,All Students,Combined,1306039,82852,184,101,1352,1234,1259
+2013-14,653,Emanuel County,189,Swainsboro High School,All Students,Mathematics,1306039,83391,184,102,491,447,448
+2013-14,653,Emanuel County,189,Swainsboro High School,All Students,Reading,1306039,83310,185,101,493,445,450
+2013-14,653,Emanuel County,189,Swainsboro High School,All Students,Writing,1306039,81856,183,101,369,343,361
+2013-14,653,Emanuel County,2050,Emanuel County Institute,All Students,Combined,1306039,82852,184,83,1352,1234,1204
+2013-14,653,Emanuel County,2050,Emanuel County Institute,All Students,Mathematics,1306039,83391,184,82,491,447,445
+2013-14,653,Emanuel County,2050,Emanuel County Institute,All Students,Reading,1306039,83310,185,84,493,445,439
+2013-14,653,Emanuel County,2050,Emanuel County Institute,All Students,Writing,1306039,81856,183,82,369,343,321
+2013-14,654,Evans County,2050,Claxton High School,All Students,Combined,1306039,82852,87,87,1352,1215,1215
+2013-14,654,Evans County,2050,Claxton High School,All Students,Mathematics,1306039,83391,87,87,491,443,443
+2013-14,654,Evans County,2050,Claxton High School,All Students,Reading,1306039,83310,87,87,493,436,436
+2013-14,654,Evans County,2050,Claxton High School,All Students,Writing,1306039,81856,87,87,369,336,336
+2013-14,655,Fannin County,176,Fannin County High School,All Students,Combined,1306039,82852,155,155,1352,1344,1344
+2013-14,655,Fannin County,176,Fannin County High School,All Students,Mathematics,1306039,83391,159,159,491,476,476
+2013-14,655,Fannin County,176,Fannin County High School,All Students,Reading,1306039,83310,154,154,493,497,497
+2013-14,655,Fannin County,176,Fannin County High School,All Students,Writing,1306039,81856,152,152,369,370,370
+2013-14,656,Fayette County,105,Whitewater High School,All Students,Combined,1306039,82852,1870,414,1352,1460,1445
+2013-14,656,Fayette County,105,Whitewater High School,All Students,Mathematics,1306039,83391,1881,418,491,531,524
+2013-14,656,Fayette County,105,Whitewater High School,All Students,Reading,1306039,83310,1879,415,493,528,529
+2013-14,656,Fayette County,105,Whitewater High School,All Students,Writing,1306039,81856,1849,410,369,401,392
+2013-14,656,Fayette County,182,McIntosh High School,All Students,Combined,1306039,82852,1870,472,1352,1460,1507
+2013-14,656,Fayette County,182,McIntosh High School,All Students,Mathematics,1306039,83391,1881,474,491,531,551
+2013-14,656,Fayette County,182,McIntosh High School,All Students,Reading,1306039,83310,1879,476,493,528,543
+2013-14,656,Fayette County,182,McIntosh High School,All Students,Writing,1306039,81856,1849,467,369,401,413
+2013-14,656,Fayette County,192,Sandy Creek High School,All Students,Combined,1306039,82852,1870,263,1352,1460,1404
+2013-14,656,Fayette County,192,Sandy Creek High School,All Students,Mathematics,1306039,83391,1881,263,491,531,510
+2013-14,656,Fayette County,192,Sandy Creek High School,All Students,Reading,1306039,83310,1879,265,493,528,511
+2013-14,656,Fayette County,192,Sandy Creek High School,All Students,Writing,1306039,81856,1849,262,369,401,383
+2013-14,656,Fayette County,198,Starrs Mill High School,All Students,Combined,1306039,82852,1870,493,1352,1460,1503
+2013-14,656,Fayette County,198,Starrs Mill High School,All Students,Mathematics,1306039,83391,1881,497,491,531,549
+2013-14,656,Fayette County,198,Starrs Mill High School,All Students,Reading,1306039,83310,1879,496,493,528,538
+2013-14,656,Fayette County,198,Starrs Mill High School,All Students,Writing,1306039,81856,1849,485,369,401,415
+2013-14,656,Fayette County,398,Fayette County High School,All Students,Combined,1306039,82852,1870,227,1352,1460,1364
+2013-14,656,Fayette County,398,Fayette County High School,All Students,Mathematics,1306039,83391,1881,229,491,531,490
+2013-14,656,Fayette County,398,Fayette County High School,All Students,Reading,1306039,83310,1879,227,493,528,490
+2013-14,656,Fayette County,398,Fayette County High School,All Students,Writing,1306039,81856,1849,225,369,401,384
+2013-14,657,Floyd County,107,Pepperell High School,All Students,Combined,1306039,82852,181,31,1352,1414,1474
+2013-14,657,Floyd County,107,Pepperell High School,All Students,Mathematics,1306039,83391,183,32,491,504,520
+2013-14,657,Floyd County,107,Pepperell High School,All Students,Reading,1306039,83310,181,31,493,514,537
+2013-14,657,Floyd County,107,Pepperell High School,All Students,Writing,1306039,81856,179,31,369,395,417
+2013-14,657,Floyd County,111,Model High,All Students,Combined,1306039,82852,181,63,1352,1414,1376
+2013-14,657,Floyd County,111,Model High,All Students,Mathematics,1306039,83391,183,64,491,504,488
+2013-14,657,Floyd County,111,Model High,All Students,Reading,1306039,83310,181,63,493,514,506
+2013-14,657,Floyd County,111,Model High,All Students,Writing,1306039,81856,179,63,369,395,383
+2013-14,657,Floyd County,401,Armuchee High School,All Students,Combined,1306039,82852,181,49,1352,1414,1420
+2013-14,657,Floyd County,401,Armuchee High School,All Students,Mathematics,1306039,83391,183,49,491,504,511
+2013-14,657,Floyd County,401,Armuchee High School,All Students,Reading,1306039,83310,181,49,493,514,529
+2013-14,657,Floyd County,401,Armuchee High School,All Students,Writing,1306039,81856,179,48,369,395,380
+2013-14,657,Floyd County,5050,Coosa High School,All Students,Combined,1306039,82852,181,38,1352,1414,1418
+2013-14,657,Floyd County,5050,Coosa High School,All Students,Mathematics,1306039,83391,183,38,491,504,510
+2013-14,657,Floyd County,5050,Coosa High School,All Students,Reading,1306039,83310,181,38,493,514,490
+2013-14,657,Floyd County,5050,Coosa High School,All Students,Writing,1306039,81856,179,37,369,395,418
+2013-14,658,Forsyth County,107,West Forsyth High School,All Students,Combined,1306039,82852,2881,558,1352,1471,1445
+2013-14,658,Forsyth County,107,West Forsyth High School,All Students,Mathematics,1306039,83391,2902,562,491,538,523
+2013-14,658,Forsyth County,107,West Forsyth High School,All Students,Reading,1306039,83310,2901,560,493,535,527
+2013-14,658,Forsyth County,107,West Forsyth High School,All Students,Writing,1306039,81856,2841,551,369,398,395
+2013-14,658,Forsyth County,190,South Forsyth High School,All Students,Combined,1306039,82852,2881,674,1352,1471,1509
+2013-14,658,Forsyth County,190,South Forsyth High School,All Students,Mathematics,1306039,83391,2902,679,491,538,556
+2013-14,658,Forsyth County,190,South Forsyth High School,All Students,Reading,1306039,83310,2901,678,493,535,553
+2013-14,658,Forsyth County,190,South Forsyth High School,All Students,Writing,1306039,81856,2841,665,369,398,399
+2013-14,658,Forsyth County,195,North Forsyth High School,All Students,Combined,1306039,82852,2881,485,1352,1471,1420
+2013-14,658,Forsyth County,195,North Forsyth High School,All Students,Mathematics,1306039,83391,2902,488,491,538,515
+2013-14,658,Forsyth County,195,North Forsyth High School,All Students,Reading,1306039,83310,2901,487,493,535,520
+2013-14,658,Forsyth County,195,North Forsyth High School,All Students,Writing,1306039,81856,2841,479,369,398,385
+2013-14,658,Forsyth County,214,Lambert High School,All Students,Combined,1306039,82852,2881,805,1352,1471,1510
+2013-14,658,Forsyth County,214,Lambert High School,All Students,Mathematics,1306039,83391,2902,806,491,538,556
+2013-14,658,Forsyth County,214,Lambert High School,All Students,Reading,1306039,83310,2901,815,493,535,539
+2013-14,658,Forsyth County,214,Lambert High School,All Students,Writing,1306039,81856,2841,793,369,398,414
+2013-14,658,Forsyth County,218,Forsyth Academy,All Students,Combined,1306039,82852,2881,TFS,1352,1471,
+2013-14,658,Forsyth County,218,Forsyth Academy,All Students,Mathematics,1306039,83391,2902,TFS,491,538,
+2013-14,658,Forsyth County,218,Forsyth Academy,All Students,Reading,1306039,83310,2901,TFS,493,535,
+2013-14,658,Forsyth County,218,Forsyth Academy,All Students,Writing,1306039,81856,2841,TFS,369,398,
+2013-14,658,Forsyth County,219,Forsyth Virtual Academy,All Students,Combined,1306039,82852,2881,11,1352,1471,1437
+2013-14,658,Forsyth County,219,Forsyth Virtual Academy,All Students,Mathematics,1306039,83391,2902,12,491,538,562
+2013-14,658,Forsyth County,219,Forsyth Virtual Academy,All Students,Reading,1306039,83310,2901,11,493,535,555
+2013-14,658,Forsyth County,219,Forsyth Virtual Academy,All Students,Writing,1306039,81856,2841,11,369,398,320
+2013-14,658,Forsyth County,5050,Forsyth Central High School,All Students,Combined,1306039,82852,2881,343,1352,1471,1423
+2013-14,658,Forsyth County,5050,Forsyth Central High School,All Students,Mathematics,1306039,83391,2902,349,491,538,517
+2013-14,658,Forsyth County,5050,Forsyth Central High School,All Students,Reading,1306039,83310,2901,344,493,535,522
+2013-14,658,Forsyth County,5050,Forsyth Central High School,All Students,Writing,1306039,81856,2841,336,369,398,384
+2013-14,659,Franklin County,3050,Franklin County High School,All Students,Combined,1306039,82852,180,180,1352,1311,1311
+2013-14,659,Franklin County,3050,Franklin County High School,All Students,Mathematics,1306039,83391,183,183,491,474,474
+2013-14,659,Franklin County,3050,Franklin County High School,All Students,Reading,1306039,83310,180,180,493,491,491
+2013-14,659,Franklin County,3050,Franklin County High School,All Students,Writing,1306039,81856,178,178,369,346,346
+2013-14,660,Fulton County,106,Milton High School,All Students,Combined,1306039,82852,6825,651,1352,1459,1545
+2013-14,660,Fulton County,106,Milton High School,All Students,Mathematics,1306039,83391,6903,656,491,536,562
+2013-14,660,Fulton County,106,Milton High School,All Students,Reading,1306039,83310,6873,656,493,525,556
+2013-14,660,Fulton County,106,Milton High School,All Students,Writing,1306039,81856,6700,640,369,399,426
+2013-14,660,Fulton County,118,Hapeville Charter Career Academy,All Students,Combined,1306039,82852,6825,136,1352,1459,1132
+2013-14,660,Fulton County,118,Hapeville Charter Career Academy,All Students,Mathematics,1306039,83391,6903,136,491,536,399
+2013-14,660,Fulton County,118,Hapeville Charter Career Academy,All Students,Reading,1306039,83310,6873,137,493,525,423
+2013-14,660,Fulton County,118,Hapeville Charter Career Academy,All Students,Writing,1306039,81856,6700,135,369,399,310
+2013-14,660,Fulton County,119,Cambridge High School,All Students,Combined,1306039,82852,6825,388,1352,1459,1500
+2013-14,660,Fulton County,119,Cambridge High School,All Students,Mathematics,1306039,83391,6903,390,491,536,560
+2013-14,660,Fulton County,119,Cambridge High School,All Students,Reading,1306039,83310,6873,394,493,525,547
+2013-14,660,Fulton County,119,Cambridge High School,All Students,Writing,1306039,81856,6700,379,369,399,392
+2013-14,660,Fulton County,176,Banneker High School,All Students,Combined,1306039,82852,6825,103,1352,1459,1134
+2013-14,660,Fulton County,176,Banneker High School,All Students,Mathematics,1306039,83391,6903,103,491,536,417
+2013-14,660,Fulton County,176,Banneker High School,All Students,Reading,1306039,83310,6873,104,493,525,416
+2013-14,660,Fulton County,176,Banneker High School,All Students,Writing,1306039,81856,6700,103,369,399,301
+2013-14,660,Fulton County,191,Roswell High School,All Students,Combined,1306039,82852,6825,676,1352,1459,1508
+2013-14,660,Fulton County,191,Roswell High School,All Students,Mathematics,1306039,83391,6903,679,491,536,555
+2013-14,660,Fulton County,191,Roswell High School,All Students,Reading,1306039,83310,6873,686,493,525,540
+2013-14,660,Fulton County,191,Roswell High School,All Students,Writing,1306039,81856,6700,662,369,399,413
+2013-14,660,Fulton County,198,Centennial High School,All Students,Combined,1306039,82852,6825,429,1352,1459,1462
+2013-14,660,Fulton County,198,Centennial High School,All Students,Mathematics,1306039,83391,6903,435,491,536,533
+2013-14,660,Fulton County,198,Centennial High School,All Students,Reading,1306039,83310,6873,432,493,525,529
+2013-14,660,Fulton County,198,Centennial High School,All Students,Writing,1306039,81856,6700,419,369,399,399
+2013-14,660,Fulton County,203,Northview High School,All Students,Combined,1306039,82852,6825,621,1352,1459,1633
+2013-14,660,Fulton County,203,Northview High School,All Students,Mathematics,1306039,83391,6903,628,491,536,626
+2013-14,660,Fulton County,203,Northview High School,All Students,Reading,1306039,83310,6873,625,493,525,573
+2013-14,660,Fulton County,203,Northview High School,All Students,Writing,1306039,81856,6700,609,369,399,434
+2013-14,660,Fulton County,205,Alpharetta High School,All Students,Combined,1306039,82852,6825,616,1352,1459,1568
+2013-14,660,Fulton County,205,Alpharetta High School,All Students,Mathematics,1306039,83391,6903,623,491,536,580
+2013-14,660,Fulton County,205,Alpharetta High School,All Students,Reading,1306039,83310,6873,619,493,525,558
+2013-14,660,Fulton County,205,Alpharetta High School,All Students,Writing,1306039,81856,6700,607,369,399,431
+2013-14,660,Fulton County,291,Creekside High School,All Students,Combined,1306039,82852,6825,221,1352,1459,1182
+2013-14,660,Fulton County,291,Creekside High School,All Students,Mathematics,1306039,83391,6903,221,491,536,417
+2013-14,660,Fulton County,291,Creekside High School,All Students,Reading,1306039,83310,6873,223,493,525,433
+2013-14,660,Fulton County,291,Creekside High School,All Students,Writing,1306039,81856,6700,220,369,399,331
+2013-14,660,Fulton County,383,McClarin High School,All Students,Combined,1306039,82852,6825,10,1352,1459,1086
+2013-14,660,Fulton County,383,McClarin High School,All Students,Mathematics,1306039,83391,6903,10,491,536,365
+2013-14,660,Fulton County,383,McClarin High School,All Students,Reading,1306039,83310,6873,10,493,525,382
+2013-14,660,Fulton County,383,McClarin High School,All Students,Writing,1306039,81856,6700,10,369,399,339
+2013-14,660,Fulton County,386,Independence High School,All Students,Combined,1306039,82852,6825,33,1352,1459,1341
+2013-14,660,Fulton County,386,Independence High School,All Students,Mathematics,1306039,83391,6903,33,491,536,435
+2013-14,660,Fulton County,386,Independence High School,All Students,Reading,1306039,83310,6873,34,493,525,464
+2013-14,660,Fulton County,386,Independence High School,All Students,Writing,1306039,81856,6700,33,369,399,442
+2013-14,660,Fulton County,392,Chattahoochee High School,All Students,Combined,1306039,82852,6825,564,1352,1459,1585
+2013-14,660,Fulton County,392,Chattahoochee High School,All Students,Mathematics,1306039,83391,6903,575,491,536,589
+2013-14,660,Fulton County,392,Chattahoochee High School,All Students,Reading,1306039,83310,6873,563,493,525,557
+2013-14,660,Fulton County,392,Chattahoochee High School,All Students,Writing,1306039,81856,6700,553,369,399,440
+2013-14,660,Fulton County,506,Fulton Science Academy High School,All Students,Combined,1306039,82852,6825,55,1352,1459,1459
+2013-14,660,Fulton County,506,Fulton Science Academy High School,All Students,Mathematics,1306039,83391,6903,55,491,536,572
+2013-14,660,Fulton County,506,Fulton Science Academy High School,All Students,Reading,1306039,83310,6873,55,493,525,536
+2013-14,660,Fulton County,506,Fulton Science Academy High School,All Students,Writing,1306039,81856,6700,54,369,399,351
+2013-14,660,Fulton County,691,Tri-Cities High School,All Students,Combined,1306039,82852,6825,105,1352,1459,1257
+2013-14,660,Fulton County,691,Tri-Cities High School,All Students,Mathematics,1306039,83391,6903,107,491,536,437
+2013-14,660,Fulton County,691,Tri-Cities High School,All Students,Reading,1306039,83310,6873,105,493,525,454
+2013-14,660,Fulton County,691,Tri-Cities High School,All Students,Writing,1306039,81856,6700,104,369,399,365
+2013-14,660,Fulton County,910,Johns Creek High School,All Students,Combined,1306039,82852,6825,588,1352,1459,1591
+2013-14,660,Fulton County,910,Johns Creek High School,All Students,Mathematics,1306039,83391,6903,604,491,536,584
+2013-14,660,Fulton County,910,Johns Creek High School,All Students,Reading,1306039,83310,6873,587,493,525,560
+2013-14,660,Fulton County,910,Johns Creek High School,All Students,Writing,1306039,81856,6700,574,369,399,446
+2013-14,660,Fulton County,1110,Langston Hughes High School,All Students,Combined,1306039,82852,6825,343,1352,1459,1139
+2013-14,660,Fulton County,1110,Langston Hughes High School,All Students,Mathematics,1306039,83391,6903,347,491,536,413
+2013-14,660,Fulton County,1110,Langston Hughes High School,All Students,Reading,1306039,83310,6873,345,493,525,414
+2013-14,660,Fulton County,1110,Langston Hughes High School,All Students,Writing,1306039,81856,6700,338,369,399,312
+2013-14,660,Fulton County,3066,Riverwood International Charter School,All Students,Combined,1306039,82852,6825,456,1352,1459,1445
+2013-14,660,Fulton County,3066,Riverwood International Charter School,All Students,Mathematics,1306039,83391,6903,464,491,536,519
+2013-14,660,Fulton County,3066,Riverwood International Charter School,All Students,Reading,1306039,83310,6873,457,493,525,525
+2013-14,660,Fulton County,3066,Riverwood International Charter School,All Students,Writing,1306039,81856,6700,447,369,399,401
+2013-14,660,Fulton County,4062,North Springs High School,All Students,Combined,1306039,82852,6825,342,1352,1459,1391
+2013-14,660,Fulton County,4062,North Springs High School,All Students,Mathematics,1306039,83391,6903,345,491,536,499
+2013-14,660,Fulton County,4062,North Springs High School,All Students,Reading,1306039,83310,6873,349,493,525,516
+2013-14,660,Fulton County,4062,North Springs High School,All Students,Writing,1306039,81856,6700,333,369,399,376
+2013-14,660,Fulton County,5069,Westlake High School,All Students,Combined,1306039,82852,6825,488,1352,1459,1211
+2013-14,660,Fulton County,5069,Westlake High School,All Students,Mathematics,1306039,83391,6903,492,491,536,440
+2013-14,660,Fulton County,5069,Westlake High School,All Students,Reading,1306039,83310,6873,492,493,525,452
+2013-14,660,Fulton County,5069,Westlake High School,All Students,Writing,1306039,81856,6700,480,369,399,319
+2013-14,661,Gilmer County,196,Gilmer High School,All Students,Combined,1306039,82852,169,169,1352,1332,1332
+2013-14,661,Gilmer County,196,Gilmer High School,All Students,Mathematics,1306039,83391,171,171,491,470,470
+2013-14,661,Gilmer County,196,Gilmer High School,All Students,Reading,1306039,83310,168,168,493,485,485
+2013-14,661,Gilmer County,196,Gilmer High School,All Students,Writing,1306039,81856,168,168,369,377,377
+2013-14,662,Glascock County,196,Glascock County Consolidated School,All Students,Combined,1306039,82852,33,33,1352,1313,1313
+2013-14,662,Glascock County,196,Glascock County Consolidated School,All Students,Mathematics,1306039,83391,33,33,491,486,486
+2013-14,662,Glascock County,196,Glascock County Consolidated School,All Students,Reading,1306039,83310,33,33,493,491,491
+2013-14,662,Glascock County,196,Glascock County Consolidated School,All Students,Writing,1306039,81856,33,33,369,335,335
+2013-14,663,Glynn County,3552,Brunswick High School,All Students,Combined,1306039,82852,523,213,1352,1351,1301
+2013-14,663,Glynn County,3552,Brunswick High School,All Students,Mathematics,1306039,83391,525,214,491,488,475
+2013-14,663,Glynn County,3552,Brunswick High School,All Students,Reading,1306039,83310,526,213,493,495,469
+2013-14,663,Glynn County,3552,Brunswick High School,All Students,Writing,1306039,81856,517,211,369,368,357
+2013-14,663,Glynn County,4752,Glynn Academy,All Students,Combined,1306039,82852,523,310,1352,1351,1386
+2013-14,663,Glynn County,4752,Glynn Academy,All Students,Mathematics,1306039,83391,525,311,491,488,497
+2013-14,663,Glynn County,4752,Glynn Academy,All Students,Reading,1306039,83310,526,313,493,495,513
+2013-14,663,Glynn County,4752,Glynn Academy,All Students,Writing,1306039,81856,517,306,369,368,376
+2013-14,664,Gordon County,106,Sonoraville High School,All Students,Combined,1306039,82852,254,150,1352,1253,1252
+2013-14,664,Gordon County,106,Sonoraville High School,All Students,Mathematics,1306039,83391,257,151,491,456,458
+2013-14,664,Gordon County,106,Sonoraville High School,All Students,Reading,1306039,83310,253,150,493,464,463
+2013-14,664,Gordon County,106,Sonoraville High School,All Students,Writing,1306039,81856,252,148,369,333,331
+2013-14,664,Gordon County,286,Gordon Central High School,All Students,Combined,1306039,82852,254,104,1352,1253,1254
+2013-14,664,Gordon County,286,Gordon Central High School,All Students,Mathematics,1306039,83391,257,106,491,456,452
+2013-14,664,Gordon County,286,Gordon Central High School,All Students,Reading,1306039,83310,253,103,493,464,465
+2013-14,664,Gordon County,286,Gordon Central High School,All Students,Writing,1306039,81856,252,104,369,333,337
+2013-14,665,Grady County,1050,Cairo High School,All Students,Combined,1306039,82852,177,177,1352,1189,1189
+2013-14,665,Grady County,1050,Cairo High School,All Students,Mathematics,1306039,83391,180,180,491,423,423
+2013-14,665,Grady County,1050,Cairo High School,All Students,Reading,1306039,83310,176,176,493,442,442
+2013-14,665,Grady County,1050,Cairo High School,All Students,Writing,1306039,81856,176,176,369,324,324
+2013-14,666,Greene County,401,Greene County High School,All Students,Combined,1306039,82852,23,23,1352,1190,1190
+2013-14,666,Greene County,401,Greene County High School,All Students,Mathematics,1306039,83391,23,23,491,413,413
+2013-14,666,Greene County,401,Greene County High School,All Students,Reading,1306039,83310,24,24,493,419,419
+2013-14,666,Greene County,401,Greene County High School,All Students,Writing,1306039,81856,22,22,369,359,359
+2013-14,667,Gwinnett County,101,Grayson High School,All Students,Combined,1306039,82852,11244,618,1352,1408,1379
+2013-14,667,Gwinnett County,101,Grayson High School,All Students,Mathematics,1306039,83391,11314,622,491,521,508
+2013-14,667,Gwinnett County,101,Grayson High School,All Students,Reading,1306039,83310,11321,626,493,508,501
+2013-14,667,Gwinnett County,101,Grayson High School,All Students,Writing,1306039,81856,11097,607,369,380,371
+2013-14,667,Gwinnett County,103,Norcross High School,All Students,Combined,1306039,82852,11244,705,1352,1408,1389
+2013-14,667,Gwinnett County,103,Norcross High School,All Students,Mathematics,1306039,83391,11314,709,491,521,509
+2013-14,667,Gwinnett County,103,Norcross High School,All Students,Reading,1306039,83310,11321,709,493,508,506
+2013-14,667,Gwinnett County,103,Norcross High School,All Students,Writing,1306039,81856,11097,698,369,380,373
+2013-14,667,Gwinnett County,105,Mill Creek High School,All Students,Combined,1306039,82852,11244,992,1352,1408,1450
+2013-14,667,Gwinnett County,105,Mill Creek High School,All Students,Mathematics,1306039,83391,11314,996,491,521,537
+2013-14,667,Gwinnett County,105,Mill Creek High School,All Students,Reading,1306039,83310,11321,998,493,508,523
+2013-14,667,Gwinnett County,105,Mill Creek High School,All Students,Writing,1306039,81856,11097,981,369,380,389
+2013-14,667,Gwinnett County,176,Parkview High School,All Students,Combined,1306039,82852,11244,818,1352,1408,1442
+2013-14,667,Gwinnett County,176,Parkview High School,All Students,Mathematics,1306039,83391,11314,828,491,521,537
+2013-14,667,Gwinnett County,176,Parkview High School,All Students,Reading,1306039,83310,11321,818,493,508,522
+2013-14,667,Gwinnett County,176,Parkview High School,All Students,Writing,1306039,81856,11097,809,369,380,383
+2013-14,667,Gwinnett County,182,Brookwood High School,All Students,Combined,1306039,82852,11244,1019,1352,1408,1478
+2013-14,667,Gwinnett County,182,Brookwood High School,All Students,Mathematics,1306039,83391,11314,1028,491,521,547
+2013-14,667,Gwinnett County,182,Brookwood High School,All Students,Reading,1306039,83310,11321,1027,493,508,534
+2013-14,667,Gwinnett County,182,Brookwood High School,All Students,Writing,1306039,81856,11097,1002,369,380,397
+2013-14,667,Gwinnett County,185,Shiloh High School,All Students,Combined,1306039,82852,11244,411,1352,1408,1257
+2013-14,667,Gwinnett County,185,Shiloh High School,All Students,Mathematics,1306039,83391,11314,414,491,521,472
+2013-14,667,Gwinnett County,185,Shiloh High School,All Students,Reading,1306039,83310,11321,414,493,508,459
+2013-14,667,Gwinnett County,185,Shiloh High School,All Students,Writing,1306039,81856,11097,404,369,380,326
+2013-14,667,Gwinnett County,187,Meadowcreek High School,All Students,Combined,1306039,82852,11244,384,1352,1408,1200
+2013-14,667,Gwinnett County,187,Meadowcreek High School,All Students,Mathematics,1306039,83391,11314,389,491,521,444
+2013-14,667,Gwinnett County,187,Meadowcreek High School,All Students,Reading,1306039,83310,11321,384,493,508,435
+2013-14,667,Gwinnett County,187,Meadowcreek High School,All Students,Writing,1306039,81856,11097,379,369,380,321
+2013-14,667,Gwinnett County,189,Phoenix High School,All Students,Combined,1306039,82852,11244,TFS,1352,1408,
+2013-14,667,Gwinnett County,189,Phoenix High School,All Students,Mathematics,1306039,83391,11314,TFS,491,521,
+2013-14,667,Gwinnett County,189,Phoenix High School,All Students,Reading,1306039,83310,11321,TFS,493,508,
+2013-14,667,Gwinnett County,189,Phoenix High School,All Students,Writing,1306039,81856,11097,TFS,369,380,
+2013-14,667,Gwinnett County,195,Collins Hill High School,All Students,Combined,1306039,82852,11244,763,1352,1408,1420
+2013-14,667,Gwinnett County,195,Collins Hill High School,All Students,Mathematics,1306039,83391,11314,765,491,521,534
+2013-14,667,Gwinnett County,195,Collins Hill High School,All Students,Reading,1306039,83310,11321,770,493,508,503
+2013-14,667,Gwinnett County,195,Collins Hill High School,All Students,Writing,1306039,81856,11097,755,369,380,383
+2013-14,667,Gwinnett County,805,Peachtree Ridge High School,All Students,Combined,1306039,82852,11244,890,1352,1408,1454
+2013-14,667,Gwinnett County,805,Peachtree Ridge High School,All Students,Mathematics,1306039,83391,11314,896,491,521,540
+2013-14,667,Gwinnett County,805,Peachtree Ridge High School,All Students,Reading,1306039,83310,11321,897,493,508,522
+2013-14,667,Gwinnett County,805,Peachtree Ridge High School,All Students,Writing,1306039,81856,11097,878,369,380,392
+2013-14,667,Gwinnett County,1018,Lanier High School,All Students,Combined,1306039,82852,11244,389,1352,1408,1349
+2013-14,667,Gwinnett County,1018,Lanier High School,All Students,Mathematics,1306039,83391,11314,394,491,521,498
+2013-14,667,Gwinnett County,1018,Lanier High School,All Students,Reading,1306039,83310,11321,388,493,508,490
+2013-14,667,Gwinnett County,1018,Lanier High School,All Students,Writing,1306039,81856,11097,384,369,380,360
+2013-14,667,Gwinnett County,1019,"Gwinnett School of Mathematics, Science and Technology",All Students,Combined,1306039,82852,11244,299,1352,1408,1743
+2013-14,667,Gwinnett County,1019,"Gwinnett School of Mathematics, Science and Technology",All Students,Mathematics,1306039,83391,11314,299,491,521,657
+2013-14,667,Gwinnett County,1019,"Gwinnett School of Mathematics, Science and Technology",All Students,Reading,1306039,83310,11321,303,493,508,614
+2013-14,667,Gwinnett County,1019,"Gwinnett School of Mathematics, Science and Technology",All Students,Writing,1306039,81856,11097,296,369,380,472
+2013-14,667,Gwinnett County,1050,Berkmar High School,All Students,Combined,1306039,82852,11244,503,1352,1408,1273
+2013-14,667,Gwinnett County,1050,Berkmar High School,All Students,Mathematics,1306039,83391,11314,505,491,521,458
+2013-14,667,Gwinnett County,1050,Berkmar High School,All Students,Reading,1306039,83310,11321,505,493,508,458
+2013-14,667,Gwinnett County,1050,Berkmar High School,All Students,Writing,1306039,81856,11097,499,369,380,357
+2013-14,667,Gwinnett County,1212,Gwinnett Online Campus,All Students,Combined,1306039,82852,11244,TFS,1352,1408,
+2013-14,667,Gwinnett County,1212,Gwinnett Online Campus,All Students,Mathematics,1306039,83391,11314,TFS,491,521,
+2013-14,667,Gwinnett County,1212,Gwinnett Online Campus,All Students,Reading,1306039,83310,11321,TFS,493,508,
+2013-14,667,Gwinnett County,1212,Gwinnett Online Campus,All Students,Writing,1306039,81856,11097,TFS,369,380,
+2013-14,667,Gwinnett County,1410,Mountain View High School,All Students,Combined,1306039,82852,11244,468,1352,1408,1400
+2013-14,667,Gwinnett County,1410,Mountain View High School,All Students,Mathematics,1306039,83391,11314,469,491,521,515
+2013-14,667,Gwinnett County,1410,Mountain View High School,All Students,Reading,1306039,83310,11321,474,493,508,508
+2013-14,667,Gwinnett County,1410,Mountain View High School,All Students,Writing,1306039,81856,11097,462,369,380,376
+2013-14,667,Gwinnett County,1710,Archer High School,All Students,Combined,1306039,82852,11244,529,1352,1408,1365
+2013-14,667,Gwinnett County,1710,Archer High School,All Students,Mathematics,1306039,83391,11314,532,491,521,494
+2013-14,667,Gwinnett County,1710,Archer High School,All Students,Reading,1306039,83310,11321,533,493,508,491
+2013-14,667,Gwinnett County,1710,Archer High School,All Students,Writing,1306039,81856,11097,521,369,380,380
+2013-14,667,Gwinnett County,2558,South Gwinnett High School,All Students,Combined,1306039,82852,11244,458,1352,1408,1253
+2013-14,667,Gwinnett County,2558,South Gwinnett High School,All Students,Mathematics,1306039,83391,11314,461,491,521,453
+2013-14,667,Gwinnett County,2558,South Gwinnett High School,All Students,Reading,1306039,83310,11321,461,493,508,456
+2013-14,667,Gwinnett County,2558,South Gwinnett High School,All Students,Writing,1306039,81856,11097,452,369,380,343
+2013-14,667,Gwinnett County,3750,Central Gwinnett High School,All Students,Combined,1306039,82852,11244,331,1352,1408,1313
+2013-14,667,Gwinnett County,3750,Central Gwinnett High School,All Students,Mathematics,1306039,83391,11314,333,491,521,481
+2013-14,667,Gwinnett County,3750,Central Gwinnett High School,All Students,Reading,1306039,83310,11321,333,493,508,475
+2013-14,667,Gwinnett County,3750,Central Gwinnett High School,All Students,Writing,1306039,81856,11097,327,369,380,356
+2013-14,667,Gwinnett County,4052,Dacula High School,All Students,Combined,1306039,82852,11244,344,1352,1408,1423
+2013-14,667,Gwinnett County,4052,Dacula High School,All Students,Mathematics,1306039,83391,11314,344,491,521,511
+2013-14,667,Gwinnett County,4052,Dacula High School,All Students,Reading,1306039,83310,11321,347,493,508,510
+2013-14,667,Gwinnett County,4052,Dacula High School,All Students,Writing,1306039,81856,11097,341,369,380,402
+2013-14,667,Gwinnett County,4556,North Gwinnett High School,All Students,Combined,1306039,82852,11244,784,1352,1408,1529
+2013-14,667,Gwinnett County,4556,North Gwinnett High School,All Students,Mathematics,1306039,83391,11314,787,491,521,576
+2013-14,667,Gwinnett County,4556,North Gwinnett High School,All Students,Reading,1306039,83310,11321,793,493,508,545
+2013-14,667,Gwinnett County,4556,North Gwinnett High School,All Students,Writing,1306039,81856,11097,772,369,380,408
+2013-14,667,Gwinnett County,5550,Duluth High School,All Students,Combined,1306039,82852,11244,521,1352,1408,1422
+2013-14,667,Gwinnett County,5550,Duluth High School,All Students,Mathematics,1306039,83391,11314,526,491,521,532
+2013-14,667,Gwinnett County,5550,Duluth High School,All Students,Reading,1306039,83310,11321,524,493,508,507
+2013-14,667,Gwinnett County,5550,Duluth High School,All Students,Writing,1306039,81856,11097,513,369,380,383
+2013-14,668,Habersham County,2052,Habersham Central High School,All Students,Combined,1306039,82852,264,264,1352,1348,1348
+2013-14,668,Habersham County,2052,Habersham Central High School,All Students,Mathematics,1306039,83391,267,267,491,491,491
+2013-14,668,Habersham County,2052,Habersham Central High School,All Students,Reading,1306039,83310,263,263,493,501,501
+2013-14,668,Habersham County,2052,Habersham Central High School,All Students,Writing,1306039,81856,263,263,369,355,355
+2013-14,669,Hall County,102,Chestatee High School,All Students,Combined,1306039,82852,1298,187,1352,1320,1309
+2013-14,669,Hall County,102,Chestatee High School,All Students,Mathematics,1306039,83391,1308,187,491,479,479
+2013-14,669,Hall County,102,Chestatee High School,All Students,Reading,1306039,83310,1298,187,493,485,481
+2013-14,669,Hall County,102,Chestatee High School,All Students,Writing,1306039,81856,1288,187,369,356,350
+2013-14,669,Hall County,105,Lanier Career Academy,All Students,Combined,1306039,82852,1298,TFS,1352,1320,
+2013-14,669,Hall County,105,Lanier Career Academy,All Students,Mathematics,1306039,83391,1308,TFS,491,479,
+2013-14,669,Hall County,105,Lanier Career Academy,All Students,Reading,1306039,83310,1298,TFS,493,485,
+2013-14,669,Hall County,105,Lanier Career Academy,All Students,Writing,1306039,81856,1288,TFS,369,356,
+2013-14,669,Hall County,189,West Hall High School,All Students,Combined,1306039,82852,1298,172,1352,1320,1292
+2013-14,669,Hall County,189,West Hall High School,All Students,Mathematics,1306039,83391,1308,174,491,479,462
+2013-14,669,Hall County,189,West Hall High School,All Students,Reading,1306039,83310,1298,172,493,485,473
+2013-14,669,Hall County,189,West Hall High School,All Students,Writing,1306039,81856,1288,171,369,356,357
+2013-14,669,Hall County,202,Flowery Branch High,All Students,Combined,1306039,82852,1298,433,1352,1320,1334
+2013-14,669,Hall County,202,Flowery Branch High,All Students,Mathematics,1306039,83391,1308,437,491,479,485
+2013-14,669,Hall County,202,Flowery Branch High,All Students,Reading,1306039,83310,1298,433,493,485,493
+2013-14,669,Hall County,202,Flowery Branch High,All Students,Writing,1306039,81856,1288,429,369,356,357
+2013-14,669,Hall County,1552,East Hall High School,All Students,Combined,1306039,82852,1298,147,1352,1320,1190
+2013-14,669,Hall County,1552,East Hall High School,All Students,Mathematics,1306039,83391,1308,149,491,479,450
+2013-14,669,Hall County,1552,East Hall High School,All Students,Reading,1306039,83310,1298,149,493,485,457
+2013-14,669,Hall County,1552,East Hall High School,All Students,Writing,1306039,81856,1288,144,369,356,284
+2013-14,669,Hall County,1556,North Hall High School,All Students,Combined,1306039,82852,1298,172,1352,1320,1459
+2013-14,669,Hall County,1556,North Hall High School,All Students,Mathematics,1306039,83391,1308,174,491,479,518
+2013-14,669,Hall County,1556,North Hall High School,All Students,Reading,1306039,83310,1298,169,493,485,524
+2013-14,669,Hall County,1556,North Hall High School,All Students,Writing,1306039,81856,1288,172,369,356,417
+2013-14,669,Hall County,4752,Johnson High School,All Students,Combined,1306039,82852,1298,181,1352,1320,1303
+2013-14,669,Hall County,4752,Johnson High School,All Students,Mathematics,1306039,83391,1308,181,491,479,471
+2013-14,669,Hall County,4752,Johnson High School,All Students,Reading,1306039,83310,1298,182,493,485,472
+2013-14,669,Hall County,4752,Johnson High School,All Students,Writing,1306039,81856,1288,179,369,356,360
+2013-14,670,Hancock County,288,Hancock Central High School,All Students,Combined,1306039,82852,54,54,1352,1049,1049
+2013-14,670,Hancock County,288,Hancock Central High School,All Students,Mathematics,1306039,83391,54,54,491,382,382
+2013-14,670,Hancock County,288,Hancock Central High School,All Students,Reading,1306039,83310,54,54,493,379,379
+2013-14,670,Hancock County,288,Hancock Central High School,All Students,Writing,1306039,81856,54,54,369,288,288
+2013-14,671,Haralson County,3050,Haralson County High School,All Students,Combined,1306039,82852,132,132,1352,1260,1260
+2013-14,671,Haralson County,3050,Haralson County High School,All Students,Mathematics,1306039,83391,133,133,491,454,454
+2013-14,671,Haralson County,3050,Haralson County High School,All Students,Reading,1306039,83310,134,134,493,485,485
+2013-14,671,Haralson County,3050,Haralson County High School,All Students,Writing,1306039,81856,130,130,369,321,321
+2013-14,672,Harris County,299,Harris County High School,All Students,Combined,1306039,82852,173,173,1352,1377,1377
+2013-14,672,Harris County,299,Harris County High School,All Students,Mathematics,1306039,83391,175,175,491,488,488
+2013-14,672,Harris County,299,Harris County High School,All Students,Reading,1306039,83310,173,173,493,497,497
+2013-14,672,Harris County,299,Harris County High School,All Students,Writing,1306039,81856,172,172,369,391,391
+2013-14,673,Hart County,3050,Hart County High School,All Students,Combined,1306039,82852,176,176,1352,1315,1315
+2013-14,673,Hart County,3050,Hart County High School,All Students,Mathematics,1306039,83391,176,176,491,468,468
+2013-14,673,Hart County,3050,Hart County High School,All Students,Reading,1306039,83310,178,178,493,474,474
+2013-14,673,Hart County,3050,Hart County High School,All Students,Writing,1306039,81856,173,173,369,373,373
+2013-14,674,Heard County,110,Heard County High School,All Students,Combined,1306039,82852,78,78,1352,1316,1316
+2013-14,674,Heard County,110,Heard County High School,All Students,Mathematics,1306039,83391,77,77,491,471,471
+2013-14,674,Heard County,110,Heard County High School,All Students,Reading,1306039,83310,79,79,493,468,468
+2013-14,674,Heard County,110,Heard County High School,All Students,Writing,1306039,81856,77,77,369,377,377
+2013-14,675,Henry County,101,Union Grove High,All Students,Combined,1306039,82852,1802,181,1352,1293,1450
+2013-14,675,Henry County,101,Union Grove High,All Students,Mathematics,1306039,83391,1815,182,491,463,524
+2013-14,675,Henry County,101,Union Grove High,All Students,Reading,1306039,83310,1809,182,493,471,533
+2013-14,675,Henry County,101,Union Grove High,All Students,Writing,1306039,81856,1782,180,369,359,393
+2013-14,675,Henry County,104,Luella High School,All Students,Combined,1306039,82852,1802,310,1352,1293,1247
+2013-14,675,Henry County,104,Luella High School,All Students,Mathematics,1306039,83391,1815,312,491,463,444
+2013-14,675,Henry County,104,Luella High School,All Students,Reading,1306039,83310,1809,312,493,471,451
+2013-14,675,Henry County,104,Luella High School,All Students,Writing,1306039,81856,1782,307,369,359,351
+2013-14,675,Henry County,105,Dutchtown High,All Students,Combined,1306039,82852,1802,353,1352,1293,1266
+2013-14,675,Henry County,105,Dutchtown High,All Students,Mathematics,1306039,83391,1815,356,491,463,457
+2013-14,675,Henry County,105,Dutchtown High,All Students,Reading,1306039,83310,1809,355,493,471,463
+2013-14,675,Henry County,105,Dutchtown High,All Students,Writing,1306039,81856,1782,348,369,359,346
+2013-14,675,Henry County,195,Patrick Henry High School,All Students,Combined,1306039,82852,1802,TFS,1352,1293,
+2013-14,675,Henry County,195,Patrick Henry High School,All Students,Mathematics,1306039,83391,1815,TFS,491,463,
+2013-14,675,Henry County,195,Patrick Henry High School,All Students,Reading,1306039,83310,1809,TFS,493,471,
+2013-14,675,Henry County,195,Patrick Henry High School,All Students,Writing,1306039,81856,1782,TFS,369,359,
+2013-14,675,Henry County,214,Locust Grove High,All Students,Combined,1306039,82852,1802,154,1352,1293,1327
+2013-14,675,Henry County,214,Locust Grove High,All Students,Mathematics,1306039,83391,1815,154,491,463,460
+2013-14,675,Henry County,214,Locust Grove High,All Students,Reading,1306039,83310,1809,155,493,471,483
+2013-14,675,Henry County,214,Locust Grove High,All Students,Writing,1306039,81856,1782,154,369,359,384
+2013-14,675,Henry County,295,Stockbridge High School,All Students,Combined,1306039,82852,1802,203,1352,1293,1170
+2013-14,675,Henry County,295,Stockbridge High School,All Students,Mathematics,1306039,83391,1815,205,491,463,426
+2013-14,675,Henry County,295,Stockbridge High School,All Students,Reading,1306039,83310,1809,203,493,471,439
+2013-14,675,Henry County,295,Stockbridge High School,All Students,Writing,1306039,81856,1782,200,369,359,306
+2013-14,675,Henry County,307,Ola High School,All Students,Combined,1306039,82852,1802,152,1352,1293,1421
+2013-14,675,Henry County,307,Ola High School,All Students,Mathematics,1306039,83391,1815,155,491,463,505
+2013-14,675,Henry County,307,Ola High School,All Students,Reading,1306039,83310,1809,152,493,471,502
+2013-14,675,Henry County,307,Ola High School,All Students,Writing,1306039,81856,1782,150,369,359,414
+2013-14,675,Henry County,391,Eagle's Landing High School,All Students,Combined,1306039,82852,1802,75,1352,1293,1445
+2013-14,675,Henry County,391,Eagle's Landing High School,All Students,Mathematics,1306039,83391,1815,78,491,463,529
+2013-14,675,Henry County,391,Eagle's Landing High School,All Students,Reading,1306039,83310,1809,74,493,471,506
+2013-14,675,Henry County,391,Eagle's Landing High School,All Students,Writing,1306039,81856,1782,74,369,359,410
+2013-14,675,Henry County,408,Woodland High School,All Students,Combined,1306039,82852,1802,232,1352,1293,1297
+2013-14,675,Henry County,408,Woodland High School,All Students,Mathematics,1306039,83391,1815,232,491,463,467
+2013-14,675,Henry County,408,Woodland High School,All Students,Reading,1306039,83310,1809,236,493,471,472
+2013-14,675,Henry County,408,Woodland High School,All Students,Writing,1306039,81856,1782,229,369,359,358
+2013-14,675,Henry County,3050,Henry County High School,All Students,Combined,1306039,82852,1802,136,1352,1293,1185
+2013-14,675,Henry County,3050,Henry County High School,All Students,Mathematics,1306039,83391,1815,137,491,463,409
+2013-14,675,Henry County,3050,Henry County High School,All Students,Reading,1306039,83310,1809,136,493,471,437
+2013-14,675,Henry County,3050,Henry County High School,All Students,Writing,1306039,81856,1782,136,369,359,339
+2013-14,676,Houston County,111,Veterans High School,All Students,Combined,1306039,82852,1294,307,1352,1364,1373
+2013-14,676,Houston County,111,Veterans High School,All Students,Mathematics,1306039,83391,1302,307,491,493,500
+2013-14,676,Houston County,111,Veterans High School,All Students,Reading,1306039,83310,1298,310,493,499,509
+2013-14,676,Houston County,111,Veterans High School,All Students,Writing,1306039,81856,1283,304,369,373,365
+2013-14,676,Houston County,192,Houston County High School,All Students,Combined,1306039,82852,1294,374,1352,1364,1386
+2013-14,676,Houston County,192,Houston County High School,All Students,Mathematics,1306039,83391,1302,377,491,493,503
+2013-14,676,Houston County,192,Houston County High School,All Students,Reading,1306039,83310,1298,374,493,499,508
+2013-14,676,Houston County,192,Houston County High School,All Students,Writing,1306039,81856,1283,371,369,373,375
+2013-14,676,Houston County,300,Houston County Career Academy,All Students,Combined,1306039,82852,1294,TFS,1352,1364,
+2013-14,676,Houston County,300,Houston County Career Academy,All Students,Mathematics,1306039,83391,1302,TFS,491,493,
+2013-14,676,Houston County,300,Houston County Career Academy,All Students,Reading,1306039,83310,1298,TFS,493,499,
+2013-14,676,Houston County,300,Houston County Career Academy,All Students,Writing,1306039,81856,1283,TFS,369,373,
+2013-14,676,Houston County,1054,Perry High School,All Students,Combined,1306039,82852,1294,175,1352,1364,1370
+2013-14,676,Houston County,1054,Perry High School,All Students,Mathematics,1306039,83391,1302,177,491,493,503
+2013-14,676,Houston County,1054,Perry High School,All Students,Reading,1306039,83310,1298,174,493,499,496
+2013-14,676,Houston County,1054,Perry High School,All Students,Writing,1306039,81856,1283,173,369,373,371
+2013-14,676,Houston County,2052,Northside High School,All Students,Combined,1306039,82852,1294,195,1352,1364,1348
+2013-14,676,Houston County,2052,Northside High School,All Students,Mathematics,1306039,83391,1302,195,491,493,477
+2013-14,676,Houston County,2052,Northside High School,All Students,Reading,1306039,83310,1298,197,493,499,486
+2013-14,676,Houston County,2052,Northside High School,All Students,Writing,1306039,81856,1283,193,369,373,384
+2013-14,676,Houston County,4056,Warner Robins High School,All Students,Combined,1306039,82852,1294,242,1352,1364,1329
+2013-14,676,Houston County,4056,Warner Robins High School,All Students,Mathematics,1306039,83391,1302,244,491,493,474
+2013-14,676,Houston County,4056,Warner Robins High School,All Students,Reading,1306039,83310,1298,241,493,499,485
+2013-14,676,Houston County,4056,Warner Robins High School,All Students,Writing,1306039,81856,1283,240,369,373,370
+2013-14,677,Irwin County,2050,Irwin County High School,All Students,Combined,1306039,82852,71,71,1352,1248,1248
+2013-14,677,Irwin County,2050,Irwin County High School,All Students,Mathematics,1306039,83391,71,71,491,465,465
+2013-14,677,Irwin County,2050,Irwin County High School,All Students,Reading,1306039,83310,71,71,493,459,459
+2013-14,677,Irwin County,2050,Irwin County High School,All Students,Writing,1306039,81856,71,71,369,325,325
+2013-14,678,Jackson County,107,East Jackson Comprehensive High School,All Students,Combined,1306039,82852,319,160,1352,1318,1286
+2013-14,678,Jackson County,107,East Jackson Comprehensive High School,All Students,Mathematics,1306039,83391,319,160,491,481,473
+2013-14,678,Jackson County,107,East Jackson Comprehensive High School,All Students,Reading,1306039,83310,324,161,493,479,478
+2013-14,678,Jackson County,107,East Jackson Comprehensive High School,All Students,Writing,1306039,81856,315,158,369,357,336
+2013-14,678,Jackson County,191,Jackson County High School,All Students,Combined,1306039,82852,319,160,1352,1318,1349
+2013-14,678,Jackson County,191,Jackson County High School,All Students,Mathematics,1306039,83391,319,159,491,481,490
+2013-14,678,Jackson County,191,Jackson County High School,All Students,Reading,1306039,83310,324,163,493,479,481
+2013-14,678,Jackson County,191,Jackson County High School,All Students,Writing,1306039,81856,315,157,369,357,378
+2013-14,679,Jasper County,108,Jasper County High School,All Students,Combined,1306039,82852,63,63,1352,1290,1290
+2013-14,679,Jasper County,108,Jasper County High School,All Students,Mathematics,1306039,83391,63,63,491,442,442
+2013-14,679,Jasper County,108,Jasper County High School,All Students,Reading,1306039,83310,64,64,493,455,455
+2013-14,679,Jasper County,108,Jasper County High School,All Students,Writing,1306039,81856,63,63,369,393,393
+2013-14,680,Jeff Davis County,199,Jeff Davis High School,All Students,Combined,1306039,82852,91,91,1352,1352,1352
+2013-14,680,Jeff Davis County,199,Jeff Davis High School,All Students,Mathematics,1306039,83391,91,91,491,491,491
+2013-14,680,Jeff Davis County,199,Jeff Davis High School,All Students,Reading,1306039,83310,93,93,493,478,478
+2013-14,680,Jeff Davis County,199,Jeff Davis High School,All Students,Writing,1306039,81856,90,90,369,383,383
+2013-14,681,Jefferson County,196,Jefferson County High School,All Students,Combined,1306039,82852,139,139,1352,1244,1244
+2013-14,681,Jefferson County,196,Jefferson County High School,All Students,Mathematics,1306039,83391,140,140,491,461,461
+2013-14,681,Jefferson County,196,Jefferson County High School,All Students,Reading,1306039,83310,141,141,493,448,448
+2013-14,681,Jefferson County,196,Jefferson County High School,All Students,Writing,1306039,81856,137,137,369,336,336
+2013-14,682,Jenkins County,201,Jenkins County High School,All Students,Combined,1306039,82852,68,68,1352,1253,1253
+2013-14,682,Jenkins County,201,Jenkins County High School,All Students,Mathematics,1306039,83391,69,69,491,449,449
+2013-14,682,Jenkins County,201,Jenkins County High School,All Students,Reading,1306039,83310,68,68,493,448,448
+2013-14,682,Jenkins County,201,Jenkins County High School,All Students,Writing,1306039,81856,67,67,369,356,356
+2013-14,683,Johnson County,201,Johnson County High School,All Students,Combined,1306039,82852,42,42,1352,1256,1256
+2013-14,683,Johnson County,201,Johnson County High School,All Students,Mathematics,1306039,83391,43,43,491,446,446
+2013-14,683,Johnson County,201,Johnson County High School,All Students,Reading,1306039,83310,42,42,493,439,439
+2013-14,683,Johnson County,201,Johnson County High School,All Students,Writing,1306039,81856,42,42,369,371,371
+2013-14,684,Jones County,192,Jones County High School,All Students,Combined,1306039,82852,220,220,1352,1291,1291
+2013-14,684,Jones County,192,Jones County High School,All Students,Mathematics,1306039,83391,221,221,491,473,473
+2013-14,684,Jones County,192,Jones County High School,All Students,Reading,1306039,83310,220,220,493,474,474
+2013-14,684,Jones County,192,Jones County High School,All Students,Writing,1306039,81856,220,220,369,344,344
+2013-14,685,Lamar County,175,Lamar County High School,All Students,Combined,1306039,82852,107,107,1352,1252,1252
+2013-14,685,Lamar County,175,Lamar County High School,All Students,Mathematics,1306039,83391,108,108,491,442,442
+2013-14,685,Lamar County,175,Lamar County High School,All Students,Reading,1306039,83310,108,108,493,452,452
+2013-14,685,Lamar County,175,Lamar County High School,All Students,Writing,1306039,81856,105,105,369,359,359
+2013-14,686,Lanier County,201,Lanier County High School,All Students,Combined,1306039,82852,52,52,1352,1192,1192
+2013-14,686,Lanier County,201,Lanier County High School,All Students,Mathematics,1306039,83391,52,52,491,436,436
+2013-14,686,Lanier County,201,Lanier County High School,All Students,Reading,1306039,83310,52,52,493,441,441
+2013-14,686,Lanier County,201,Lanier County High School,All Students,Writing,1306039,81856,52,52,369,315,315
+2013-14,687,Laurens County,110,West Laurens High School,All Students,Combined,1306039,82852,299,205,1352,1266,1299
+2013-14,687,Laurens County,110,West Laurens High School,All Students,Mathematics,1306039,83391,301,206,491,451,461
+2013-14,687,Laurens County,110,West Laurens High School,All Students,Reading,1306039,83310,298,204,493,464,475
+2013-14,687,Laurens County,110,West Laurens High School,All Students,Writing,1306039,81856,297,204,369,351,363
+2013-14,687,Laurens County,197,East Laurens High School,All Students,Combined,1306039,82852,299,94,1352,1266,1195
+2013-14,687,Laurens County,197,East Laurens High School,All Students,Mathematics,1306039,83391,301,95,491,451,429
+2013-14,687,Laurens County,197,East Laurens High School,All Students,Reading,1306039,83310,298,94,493,464,441
+2013-14,687,Laurens County,197,East Laurens High School,All Students,Writing,1306039,81856,297,93,369,351,324
+2013-14,688,Lee County,193,Lee County High School,All Students,Combined,1306039,82852,302,302,1352,1318,1318
+2013-14,688,Lee County,193,Lee County High School,All Students,Mathematics,1306039,83391,303,303,491,473,473
+2013-14,688,Lee County,193,Lee County High School,All Students,Reading,1306039,83310,304,304,493,484,484
+2013-14,688,Lee County,193,Lee County High School,All Students,Writing,1306039,81856,298,298,369,361,361
+2013-14,689,Liberty County,105,Bradwell Institute,All Students,Combined,1306039,82852,365,233,1352,1265,1246
+2013-14,689,Liberty County,105,Bradwell Institute,All Students,Mathematics,1306039,83391,364,232,491,455,454
+2013-14,689,Liberty County,105,Bradwell Institute,All Students,Reading,1306039,83310,368,235,493,462,462
+2013-14,689,Liberty County,105,Bradwell Institute,All Students,Writing,1306039,81856,362,231,369,348,330
+2013-14,689,Liberty County,192,Liberty County High School,All Students,Combined,1306039,82852,365,132,1352,1265,1299
+2013-14,689,Liberty County,192,Liberty County High School,All Students,Mathematics,1306039,83391,364,132,491,455,457
+2013-14,689,Liberty County,192,Liberty County High School,All Students,Reading,1306039,83310,368,133,493,462,461
+2013-14,689,Liberty County,192,Liberty County High School,All Students,Writing,1306039,81856,362,131,369,348,380
+2013-14,690,Lincoln County,110,Lincoln County High School,All Students,Combined,1306039,82852,60,60,1352,1213,1213
+2013-14,690,Lincoln County,110,Lincoln County High School,All Students,Mathematics,1306039,83391,60,60,491,445,445
+2013-14,690,Lincoln County,110,Lincoln County High School,All Students,Reading,1306039,83310,60,60,493,457,457
+2013-14,690,Lincoln County,110,Lincoln County High School,All Students,Writing,1306039,81856,60,60,369,312,312
+2013-14,691,Long County,205,Long County High School,All Students,Combined,1306039,82852,124,124,1352,1237,1237
+2013-14,691,Long County,205,Long County High School,All Students,Mathematics,1306039,83391,122,122,491,442,442
+2013-14,691,Long County,205,Long County High School,All Students,Reading,1306039,83310,127,127,493,449,449
+2013-14,691,Long County,205,Long County High School,All Students,Writing,1306039,81856,122,122,369,346,346
+2013-14,692,Lowndes County,5050,Lowndes High School,All Students,Combined,1306039,82852,482,482,1352,1329,1329
+2013-14,692,Lowndes County,5050,Lowndes High School,All Students,Mathematics,1306039,83391,484,484,491,469,469
+2013-14,692,Lowndes County,5050,Lowndes High School,All Students,Reading,1306039,83310,484,484,493,496,496
+2013-14,692,Lowndes County,5050,Lowndes High School,All Students,Writing,1306039,81856,477,477,369,364,364
+2013-14,693,Lumpkin County,101,Lumpkin County High School,All Students,Combined,1306039,82852,146,146,1352,1434,1434
+2013-14,693,Lumpkin County,101,Lumpkin County High School,All Students,Mathematics,1306039,83391,146,146,491,502,502
+2013-14,693,Lumpkin County,101,Lumpkin County High School,All Students,Reading,1306039,83310,147,147,493,507,507
+2013-14,693,Lumpkin County,101,Lumpkin County High School,All Students,Writing,1306039,81856,144,144,369,425,425
+2013-14,694,Macon County,2060,Macon County High School,All Students,Combined,1306039,82852,50,50,1352,1110,1110
+2013-14,694,Macon County,2060,Macon County High School,All Students,Mathematics,1306039,83391,50,50,491,420,420
+2013-14,694,Macon County,2060,Macon County High School,All Students,Reading,1306039,83310,50,50,493,384,384
+2013-14,694,Macon County,2060,Macon County High School,All Students,Writing,1306039,81856,50,50,369,305,305
+2013-14,695,Madison County,5050,Madison County High School,All Students,Combined,1306039,82852,251,251,1352,1279,1279
+2013-14,695,Madison County,5050,Madison County High School,All Students,Mathematics,1306039,83391,253,253,491,460,460
+2013-14,695,Madison County,5050,Madison County High School,All Students,Reading,1306039,83310,251,251,493,468,468
+2013-14,695,Madison County,5050,Madison County High School,All Students,Writing,1306039,81856,249,249,369,350,350
+2013-14,696,Marion County,275,Marion County Middle/High School,All Students,Combined,1306039,82852,67,67,1352,1266,1266
+2013-14,696,Marion County,275,Marion County Middle/High School,All Students,Mathematics,1306039,83391,67,67,491,444,444
+2013-14,696,Marion County,275,Marion County Middle/High School,All Students,Reading,1306039,83310,67,67,493,449,449
+2013-14,696,Marion County,275,Marion County Middle/High School,All Students,Writing,1306039,81856,67,67,369,373,373
+2013-14,697,McDuffie County,192,Thomson High School,All Students,Combined,1306039,82852,119,119,1352,1262,1262
+2013-14,697,McDuffie County,192,Thomson High School,All Students,Mathematics,1306039,83391,120,120,491,454,454
+2013-14,697,McDuffie County,192,Thomson High School,All Students,Reading,1306039,83310,120,120,493,465,465
+2013-14,697,McDuffie County,192,Thomson High School,All Students,Writing,1306039,81856,118,118,369,343,343
+2013-14,698,McIntosh County,104,McIntosh Academy,All Students,Combined,1306039,82852,80,80,1352,1209,1209
+2013-14,698,McIntosh County,104,McIntosh Academy,All Students,Mathematics,1306039,83391,82,82,491,445,445
+2013-14,698,McIntosh County,104,McIntosh Academy,All Students,Reading,1306039,83310,79,79,493,442,442
+2013-14,698,McIntosh County,104,McIntosh Academy,All Students,Writing,1306039,81856,79,79,369,322,322
+2013-14,699,Meriwether County,300,Greenville High School,All Students,Combined,1306039,82852,86,42,1352,1128,1107
+2013-14,699,Meriwether County,300,Greenville High School,All Students,Mathematics,1306039,83391,86,42,491,412,416
+2013-14,699,Meriwether County,300,Greenville High School,All Students,Reading,1306039,83310,87,43,493,409,417
+2013-14,699,Meriwether County,300,Greenville High School,All Students,Writing,1306039,81856,86,42,369,308,275
+2013-14,699,Meriwether County,4050,Manchester High School,All Students,Combined,1306039,82852,86,44,1352,1128,1147
+2013-14,699,Meriwether County,4050,Manchester High School,All Students,Mathematics,1306039,83391,86,44,491,412,408
+2013-14,699,Meriwether County,4050,Manchester High School,All Students,Reading,1306039,83310,87,44,493,409,401
+2013-14,699,Meriwether County,4050,Manchester High School,All Students,Writing,1306039,81856,86,44,369,308,339
+2013-14,700,Miller County,210,Miller County High School,All Students,Combined,1306039,82852,59,59,1352,1166,1166
+2013-14,700,Miller County,210,Miller County High School,All Students,Mathematics,1306039,83391,59,59,491,424,424
+2013-14,700,Miller County,210,Miller County High School,All Students,Reading,1306039,83310,59,59,493,433,433
+2013-14,700,Miller County,210,Miller County High School,All Students,Writing,1306039,81856,58,58,369,309,309
+2013-14,701,Mitchell County,105,Baconton Community Charter School,All Students,Combined,1306039,82852,82,61,1352,1269,1263
+2013-14,701,Mitchell County,105,Baconton Community Charter School,All Students,Mathematics,1306039,83391,83,62,491,473,483
+2013-14,701,Mitchell County,105,Baconton Community Charter School,All Students,Reading,1306039,83310,81,61,493,456,457
+2013-14,701,Mitchell County,105,Baconton Community Charter School,All Students,Writing,1306039,81856,81,61,369,340,323
+2013-14,701,Mitchell County,282,Mitchell County High School,All Students,Combined,1306039,82852,82,20,1352,1269,1288
+2013-14,701,Mitchell County,282,Mitchell County High School,All Students,Mathematics,1306039,83391,83,21,491,473,446
+2013-14,701,Mitchell County,282,Mitchell County High School,All Students,Reading,1306039,83310,81,20,493,456,453
+2013-14,701,Mitchell County,282,Mitchell County High School,All Students,Writing,1306039,81856,81,20,369,340,390
+2013-14,702,Monroe County,184,Mary Persons High School,All Students,Combined,1306039,82852,249,249,1352,1295,1295
+2013-14,702,Monroe County,184,Mary Persons High School,All Students,Mathematics,1306039,83391,249,249,491,472,472
+2013-14,702,Monroe County,184,Mary Persons High School,All Students,Reading,1306039,83310,251,251,493,482,482
+2013-14,702,Monroe County,184,Mary Persons High School,All Students,Writing,1306039,81856,246,246,369,341,341
+2013-14,703,Montgomery County,201,Montgomery County High School,All Students,Combined,1306039,82852,29,29,1352,1229,1229
+2013-14,703,Montgomery County,201,Montgomery County High School,All Students,Mathematics,1306039,83391,30,30,491,448,448
+2013-14,703,Montgomery County,201,Montgomery County High School,All Students,Reading,1306039,83310,29,29,493,461,461
+2013-14,703,Montgomery County,201,Montgomery County High School,All Students,Writing,1306039,81856,29,29,369,320,320
+2013-14,704,Morgan County,1050,Morgan County High School,All Students,Combined,1306039,82852,192,192,1352,1333,1333
+2013-14,704,Morgan County,1050,Morgan County High School,All Students,Mathematics,1306039,83391,193,193,491,484,484
+2013-14,704,Morgan County,1050,Morgan County High School,All Students,Reading,1306039,83310,192,192,493,491,491
+2013-14,704,Morgan County,1050,Morgan County High School,All Students,Writing,1306039,81856,190,190,369,358,358
+2013-14,705,Murray County,112,North Murray High School,All Students,Combined,1306039,82852,247,157,1352,1279,1272
+2013-14,705,Murray County,112,North Murray High School,All Students,Mathematics,1306039,83391,248,157,491,450,454
+2013-14,705,Murray County,112,North Murray High School,All Students,Reading,1306039,83310,247,157,493,469,471
+2013-14,705,Murray County,112,North Murray High School,All Students,Writing,1306039,81856,246,156,369,361,347
+2013-14,705,Murray County,190,Murray County High School,All Students,Combined,1306039,82852,247,90,1352,1279,1292
+2013-14,705,Murray County,190,Murray County High School,All Students,Mathematics,1306039,83391,248,91,491,450,444
+2013-14,705,Murray County,190,Murray County High School,All Students,Reading,1306039,83310,247,90,493,469,465
+2013-14,705,Murray County,190,Murray County High School,All Students,Writing,1306039,81856,246,90,369,361,383
+2013-14,706,Muscogee County,112,Early College Academy of Columbus at Waverly Terrace,All Students,Combined,1306039,82852,1293,38,1352,1347,1154
+2013-14,706,Muscogee County,112,Early College Academy of Columbus at Waverly Terrace,All Students,Mathematics,1306039,83391,1303,38,491,490,395
+2013-14,706,Muscogee County,112,Early College Academy of Columbus at Waverly Terrace,All Students,Reading,1306039,83310,1299,38,493,490,444
+2013-14,706,Muscogee County,112,Early College Academy of Columbus at Waverly Terrace,All Students,Writing,1306039,81856,1277,38,369,367,316
+2013-14,706,Muscogee County,203,Northside High School,All Students,Combined,1306039,82852,1293,274,1352,1347,1298
+2013-14,706,Muscogee County,203,Northside High School,All Students,Mathematics,1306039,83391,1303,279,491,490,475
+2013-14,706,Muscogee County,203,Northside High School,All Students,Reading,1306039,83310,1299,275,493,490,475
+2013-14,706,Muscogee County,203,Northside High School,All Students,Writing,1306039,81856,1277,268,369,367,348
+2013-14,706,Muscogee County,278,Shaw High School,All Students,Combined,1306039,82852,1293,188,1352,1347,1223
+2013-14,706,Muscogee County,278,Shaw High School,All Students,Mathematics,1306039,83391,1303,188,491,490,430
+2013-14,706,Muscogee County,278,Shaw High School,All Students,Reading,1306039,83310,1299,190,493,490,444
+2013-14,706,Muscogee County,278,Shaw High School,All Students,Writing,1306039,81856,1277,187,369,367,349
+2013-14,706,Muscogee County,378,Spencer High School,All Students,Combined,1306039,82852,1293,33,1352,1347,1197
+2013-14,706,Muscogee County,378,Spencer High School,All Students,Mathematics,1306039,83391,1303,34,491,490,418
+2013-14,706,Muscogee County,378,Spencer High School,All Students,Reading,1306039,83310,1299,33,493,490,440
+2013-14,706,Muscogee County,378,Spencer High School,All Students,Writing,1306039,81856,1277,33,369,367,339
+2013-14,706,Muscogee County,1064,Kendrick High School,All Students,Combined,1306039,82852,1293,43,1352,1347,1175
+2013-14,706,Muscogee County,1064,Kendrick High School,All Students,Mathematics,1306039,83391,1303,43,491,490,425
+2013-14,706,Muscogee County,1064,Kendrick High School,All Students,Reading,1306039,83310,1299,43,493,490,419
+2013-14,706,Muscogee County,1064,Kendrick High School,All Students,Writing,1306039,81856,1277,42,369,367,331
+2013-14,706,Muscogee County,2062,Hardaway High School,All Students,Combined,1306039,82852,1293,227,1352,1347,1261
+2013-14,706,Muscogee County,2062,Hardaway High School,All Students,Mathematics,1306039,83391,1303,228,491,490,438
+2013-14,706,Muscogee County,2062,Hardaway High School,All Students,Reading,1306039,83310,1299,228,493,490,453
+2013-14,706,Muscogee County,2062,Hardaway High School,All Students,Writing,1306039,81856,1277,225,369,367,369
+2013-14,706,Muscogee County,3054,Columbus High School,All Students,Combined,1306039,82852,1293,433,1352,1347,1546
+2013-14,706,Muscogee County,3054,Columbus High School,All Students,Mathematics,1306039,83391,1303,436,491,490,585
+2013-14,706,Muscogee County,3054,Columbus High School,All Students,Reading,1306039,83310,1299,435,493,490,563
+2013-14,706,Muscogee County,3054,Columbus High School,All Students,Writing,1306039,81856,1277,427,369,367,398
+2013-14,706,Muscogee County,5052,Carver High School,All Students,Combined,1306039,82852,1293,29,1352,1347,1118
+2013-14,706,Muscogee County,5052,Carver High School,All Students,Mathematics,1306039,83391,1303,29,491,490,384
+2013-14,706,Muscogee County,5052,Carver High School,All Students,Reading,1306039,83310,1299,29,493,490,392
+2013-14,706,Muscogee County,5052,Carver High School,All Students,Writing,1306039,81856,1277,29,369,367,342
+2013-14,706,Muscogee County,5062,Jordan Vocational High School,All Students,Combined,1306039,82852,1293,28,1352,1347,1211
+2013-14,706,Muscogee County,5062,Jordan Vocational High School,All Students,Mathematics,1306039,83391,1303,28,491,490,404
+2013-14,706,Muscogee County,5062,Jordan Vocational High School,All Students,Reading,1306039,83310,1299,28,493,490,433
+2013-14,706,Muscogee County,5062,Jordan Vocational High School,All Students,Writing,1306039,81856,1277,28,369,367,373
+2013-14,707,Newton County,173,Newton High School,All Students,Combined,1306039,82852,757,235,1352,1268,1223
+2013-14,707,Newton County,173,Newton High School,All Students,Mathematics,1306039,83391,761,235,491,449,444
+2013-14,707,Newton County,173,Newton High School,All Students,Reading,1306039,83310,759,235,493,464,455
+2013-14,707,Newton County,173,Newton High School,All Students,Writing,1306039,81856,752,235,369,356,324
+2013-14,707,Newton County,206,Alcovy High School,All Students,Combined,1306039,82852,757,301,1352,1268,1241
+2013-14,707,Newton County,206,Alcovy High School,All Students,Mathematics,1306039,83391,761,304,491,449,434
+2013-14,707,Newton County,206,Alcovy High School,All Students,Reading,1306039,83310,759,302,493,464,449
+2013-14,707,Newton County,206,Alcovy High School,All Students,Writing,1306039,81856,752,297,369,356,359
+2013-14,707,Newton County,295,Eastside High School,All Students,Combined,1306039,82852,757,221,1352,1268,1353
+2013-14,707,Newton County,295,Eastside High School,All Students,Mathematics,1306039,83391,761,222,491,449,474
+2013-14,707,Newton County,295,Eastside High School,All Students,Reading,1306039,83310,759,222,493,464,494
+2013-14,707,Newton County,295,Eastside High School,All Students,Writing,1306039,81856,752,220,369,356,385
+2013-14,708,Oconee County,105,North Oconee High School,All Students,Combined,1306039,82852,636,345,1352,1452,1455
+2013-14,708,Oconee County,105,North Oconee High School,All Students,Mathematics,1306039,83391,639,348,491,531,535
+2013-14,708,Oconee County,105,North Oconee High School,All Students,Reading,1306039,83310,639,346,493,540,539
+2013-14,708,Oconee County,105,North Oconee High School,All Students,Writing,1306039,81856,630,341,369,381,381
+2013-14,708,Oconee County,293,Oconee County High School,All Students,Combined,1306039,82852,636,291,1352,1452,1450
+2013-14,708,Oconee County,293,Oconee County High School,All Students,Mathematics,1306039,83391,639,291,491,531,527
+2013-14,708,Oconee County,293,Oconee County High School,All Students,Reading,1306039,83310,639,293,493,540,540
+2013-14,708,Oconee County,293,Oconee County High School,All Students,Writing,1306039,81856,630,289,369,381,382
+2013-14,709,Oglethorpe County,2050,Oglethorpe County High School,All Students,Combined,1306039,82852,96,96,1352,1319,1319
+2013-14,709,Oglethorpe County,2050,Oglethorpe County High School,All Students,Mathematics,1306039,83391,97,97,491,481,481
+2013-14,709,Oglethorpe County,2050,Oglethorpe County High School,All Students,Reading,1306039,83310,96,96,493,483,483
+2013-14,709,Oglethorpe County,2050,Oglethorpe County High School,All Students,Writing,1306039,81856,96,96,369,355,355
+2013-14,710,Paulding County,101,Hiram High School,All Students,Combined,1306039,82852,1669,270,1352,1290,1270
+2013-14,710,Paulding County,101,Hiram High School,All Students,Mathematics,1306039,83391,1686,272,491,465,463
+2013-14,710,Paulding County,101,Hiram High School,All Students,Reading,1306039,83310,1671,271,493,477,464
+2013-14,710,Paulding County,101,Hiram High School,All Students,Writing,1306039,81856,1649,268,369,349,343
+2013-14,710,Paulding County,106,South Paulding High School,All Students,Combined,1306039,82852,1669,338,1352,1290,1270
+2013-14,710,Paulding County,106,South Paulding High School,All Students,Mathematics,1306039,83391,1686,343,491,465,461
+2013-14,710,Paulding County,106,South Paulding High School,All Students,Reading,1306039,83310,1671,337,493,477,471
+2013-14,710,Paulding County,106,South Paulding High School,All Students,Writing,1306039,81856,1649,333,369,349,338
+2013-14,710,Paulding County,109,North Paulding High School,All Students,Combined,1306039,82852,1669,528,1352,1290,1323
+2013-14,710,Paulding County,109,North Paulding High School,All Students,Mathematics,1306039,83391,1686,535,491,465,475
+2013-14,710,Paulding County,109,North Paulding High School,All Students,Reading,1306039,83310,1671,528,493,477,487
+2013-14,710,Paulding County,109,North Paulding High School,All Students,Writing,1306039,81856,1649,521,369,349,362
+2013-14,710,Paulding County,292,East Paulding High School,All Students,Combined,1306039,82852,1669,314,1352,1290,1299
+2013-14,710,Paulding County,292,East Paulding High School,All Students,Mathematics,1306039,83391,1686,315,491,465,464
+2013-14,710,Paulding County,292,East Paulding High School,All Students,Reading,1306039,83310,1671,316,493,477,482
+2013-14,710,Paulding County,292,East Paulding High School,All Students,Writing,1306039,81856,1649,312,369,349,353
+2013-14,710,Paulding County,2552,Paulding County High School,All Students,Combined,1306039,82852,1669,218,1352,1290,1253
+2013-14,710,Paulding County,2552,Paulding County High School,All Students,Mathematics,1306039,83391,1686,221,491,465,449
+2013-14,710,Paulding County,2552,Paulding County High School,All Students,Reading,1306039,83310,1671,219,493,477,469
+2013-14,710,Paulding County,2552,Paulding County High School,All Students,Writing,1306039,81856,1649,215,369,349,335
+2013-14,711,Peach County,2052,Peach County High School,All Students,Combined,1306039,82852,78,78,1352,1310,1310
+2013-14,711,Peach County,2052,Peach County High School,All Students,Mathematics,1306039,83391,79,79,491,479,479
+2013-14,711,Peach County,2052,Peach County High School,All Students,Reading,1306039,83310,78,78,493,473,473
+2013-14,711,Peach County,2052,Peach County High School,All Students,Writing,1306039,81856,77,77,369,358,358
+2013-14,712,Pickens County,198,Pickens County High School,All Students,Combined,1306039,82852,208,208,1352,1372,1372
+2013-14,712,Pickens County,198,Pickens County High School,All Students,Mathematics,1306039,83391,211,211,491,492,492
+2013-14,712,Pickens County,198,Pickens County High School,All Students,Reading,1306039,83310,208,208,493,507,507
+2013-14,712,Pickens County,198,Pickens County High School,All Students,Writing,1306039,81856,206,206,369,372,372
+2013-14,713,Pierce County,182,Pierce County High School,All Students,Combined,1306039,82852,137,137,1352,1359,1359
+2013-14,713,Pierce County,182,Pierce County High School,All Students,Mathematics,1306039,83391,139,139,491,492,492
+2013-14,713,Pierce County,182,Pierce County High School,All Students,Reading,1306039,83310,137,137,493,491,491
+2013-14,713,Pierce County,182,Pierce County High School,All Students,Writing,1306039,81856,135,135,369,376,376
+2013-14,714,Pike County,194,Pike County High School,All Students,Combined,1306039,82852,166,166,1352,1344,1344
+2013-14,714,Pike County,194,Pike County High School,All Students,Mathematics,1306039,83391,167,167,491,478,478
+2013-14,714,Pike County,194,Pike County High School,All Students,Reading,1306039,83310,168,168,493,485,485
+2013-14,714,Pike County,194,Pike County High School,All Students,Writing,1306039,81856,164,164,369,381,381
+2013-14,715,Polk County,102,Rockmart High School,All Students,Combined,1306039,82852,208,123,1352,1306,1298
+2013-14,715,Polk County,102,Rockmart High School,All Students,Mathematics,1306039,83391,210,124,491,460,457
+2013-14,715,Polk County,102,Rockmart High School,All Students,Reading,1306039,83310,208,124,493,480,482
+2013-14,715,Polk County,102,Rockmart High School,All Students,Writing,1306039,81856,206,122,369,366,359
+2013-14,715,Polk County,5050,Cedartown High School,All Students,Combined,1306039,82852,208,85,1352,1306,1316
+2013-14,715,Polk County,5050,Cedartown High School,All Students,Mathematics,1306039,83391,210,86,491,460,464
+2013-14,715,Polk County,5050,Cedartown High School,All Students,Reading,1306039,83310,208,84,493,480,476
+2013-14,715,Polk County,5050,Cedartown High School,All Students,Writing,1306039,81856,206,84,369,366,376
+2013-14,716,Pulaski County,2050,Hawkinsville High School,All Students,Combined,1306039,82852,52,52,1352,1357,1357
+2013-14,716,Pulaski County,2050,Hawkinsville High School,All Students,Mathematics,1306039,83391,52,52,491,494,494
+2013-14,716,Pulaski County,2050,Hawkinsville High School,All Students,Reading,1306039,83310,52,52,493,486,486
+2013-14,716,Pulaski County,2050,Hawkinsville High School,All Students,Writing,1306039,81856,52,52,369,377,377
+2013-14,717,Putnam County,114,Putnam County High School,All Students,Combined,1306039,82852,24,24,1352,1438,1438
+2013-14,717,Putnam County,114,Putnam County High School,All Students,Mathematics,1306039,83391,25,25,491,506,506
+2013-14,717,Putnam County,114,Putnam County High School,All Students,Reading,1306039,83310,24,24,493,507,507
+2013-14,717,Putnam County,114,Putnam County High School,All Students,Writing,1306039,81856,24,24,369,425,425
+2013-14,718,Quitman County,110,Quitman County High School,All Students,Combined,1306039,82852,TFS,TFS,1352,,
+2013-14,718,Quitman County,110,Quitman County High School,All Students,Mathematics,1306039,83391,TFS,TFS,491,,
+2013-14,718,Quitman County,110,Quitman County High School,All Students,Reading,1306039,83310,TFS,TFS,493,,
+2013-14,718,Quitman County,110,Quitman County High School,All Students,Writing,1306039,81856,TFS,TFS,369,,
+2013-14,719,Rabun County,177,Rabun County High School,All Students,Combined,1306039,82852,109,109,1352,1337,1337
+2013-14,719,Rabun County,177,Rabun County High School,All Students,Mathematics,1306039,83391,109,109,491,491,491
+2013-14,719,Rabun County,177,Rabun County High School,All Students,Reading,1306039,83310,110,110,493,489,489
+2013-14,719,Rabun County,177,Rabun County High School,All Students,Writing,1306039,81856,109,109,369,358,358
+2013-14,720,Randolph County,201,Randolph Clay High School,All Students,Combined,1306039,82852,TFS,TFS,1352,,
+2013-14,720,Randolph County,201,Randolph Clay High School,All Students,Mathematics,1306039,83391,TFS,TFS,491,,
+2013-14,720,Randolph County,201,Randolph Clay High School,All Students,Reading,1306039,83310,TFS,TFS,493,,
+2013-14,720,Randolph County,201,Randolph Clay High School,All Students,Writing,1306039,81856,TFS,TFS,369,,
+2013-14,721,Richmond County,100,Cross Creek High School,All Students,Combined,1306039,82852,888,66,1352,1278,1274
+2013-14,721,Richmond County,100,Cross Creek High School,All Students,Mathematics,1306039,83391,894,67,491,458,465
+2013-14,721,Richmond County,100,Cross Creek High School,All Students,Reading,1306039,83310,895,66,493,463,457
+2013-14,721,Richmond County,100,Cross Creek High School,All Students,Writing,1306039,81856,875,65,369,356,352
+2013-14,721,Richmond County,1052,Butler High School,All Students,Combined,1306039,82852,888,47,1352,1278,1093
+2013-14,721,Richmond County,1052,Butler High School,All Students,Mathematics,1306039,83391,894,47,491,458,401
+2013-14,721,Richmond County,1052,Butler High School,All Students,Reading,1306039,83310,895,47,493,463,401
+2013-14,721,Richmond County,1052,Butler High School,All Students,Writing,1306039,81856,875,47,369,356,291
+2013-14,721,Richmond County,2056,Hephzibah High School,All Students,Combined,1306039,82852,888,117,1352,1278,1157
+2013-14,721,Richmond County,2056,Hephzibah High School,All Students,Mathematics,1306039,83391,894,118,491,458,397
+2013-14,721,Richmond County,2056,Hephzibah High School,All Students,Reading,1306039,83310,895,117,493,463,414
+2013-14,721,Richmond County,2056,Hephzibah High School,All Students,Writing,1306039,81856,875,116,369,356,346
+2013-14,721,Richmond County,2574,Westside High School,All Students,Combined,1306039,82852,888,103,1352,1278,1287
+2013-14,721,Richmond County,2574,Westside High School,All Students,Mathematics,1306039,83391,894,104,491,458,476
+2013-14,721,Richmond County,2574,Westside High School,All Students,Reading,1306039,83310,895,105,493,463,465
+2013-14,721,Richmond County,2574,Westside High School,All Students,Writing,1306039,81856,875,101,369,356,346
+2013-14,721,Richmond County,3054,Glenn Hills High School,All Students,Combined,1306039,82852,888,26,1352,1278,1106
+2013-14,721,Richmond County,3054,Glenn Hills High School,All Students,Mathematics,1306039,83391,894,26,491,458,385
+2013-14,721,Richmond County,3054,Glenn Hills High School,All Students,Reading,1306039,83310,895,26,493,463,395
+2013-14,721,Richmond County,3054,Glenn Hills High School,All Students,Writing,1306039,81856,875,26,369,356,326
+2013-14,721,Richmond County,3556,Johnson Magnet,All Students,Combined,1306039,82852,888,110,1352,1278,1331
+2013-14,721,Richmond County,3556,Johnson Magnet,All Students,Mathematics,1306039,83391,894,112,491,458,489
+2013-14,721,Richmond County,3556,Johnson Magnet,All Students,Reading,1306039,83310,895,110,493,463,499
+2013-14,721,Richmond County,3556,Johnson Magnet,All Students,Writing,1306039,81856,875,109,369,356,343
+2013-14,721,Richmond County,3756,Josey High School,All Students,Combined,1306039,82852,888,29,1352,1278,1272
+2013-14,721,Richmond County,3756,Josey High School,All Students,Mathematics,1306039,83391,894,30,491,458,428
+2013-14,721,Richmond County,3756,Josey High School,All Students,Reading,1306039,83310,895,29,493,463,432
+2013-14,721,Richmond County,3756,Josey High School,All Students,Writing,1306039,81856,875,28,369,356,412
+2013-14,721,Richmond County,4060,Academy of Richmond County High School,All Students,Combined,1306039,82852,888,194,1352,1278,1185
+2013-14,721,Richmond County,4060,Academy of Richmond County High School,All Students,Mathematics,1306039,83391,894,196,491,458,425
+2013-14,721,Richmond County,4060,Academy of Richmond County High School,All Students,Reading,1306039,83310,895,195,493,463,426
+2013-14,721,Richmond County,4060,Academy of Richmond County High School,All Students,Writing,1306039,81856,875,192,369,356,334
+2013-14,721,Richmond County,4562,Davidson Magnet School,All Students,Combined,1306039,82852,888,150,1352,1278,1560
+2013-14,721,Richmond County,4562,Davidson Magnet School,All Students,Mathematics,1306039,83391,894,149,491,458,556
+2013-14,721,Richmond County,4562,Davidson Magnet School,All Students,Reading,1306039,83310,895,155,493,463,575
+2013-14,721,Richmond County,4562,Davidson Magnet School,All Students,Writing,1306039,81856,875,146,369,356,429
+2013-14,721,Richmond County,5566,Laney High School,All Students,Combined,1306039,82852,888,45,1352,1278,1194
+2013-14,721,Richmond County,5566,Laney High School,All Students,Mathematics,1306039,83391,894,45,491,458,425
+2013-14,721,Richmond County,5566,Laney High School,All Students,Reading,1306039,83310,895,45,493,463,414
+2013-14,721,Richmond County,5566,Laney High School,All Students,Writing,1306039,81856,875,45,369,356,356
+2013-14,722,Rockdale County,106,Z_Rockdale Career Academy,All Students,Combined,1306039,82852,1026,TFS,1352,1239,
+2013-14,722,Rockdale County,106,Z_Rockdale Career Academy,All Students,Mathematics,1306039,83391,1029,TFS,491,449,
+2013-14,722,Rockdale County,106,Z_Rockdale Career Academy,All Students,Reading,1306039,83310,1037,TFS,493,459,
+2013-14,722,Rockdale County,106,Z_Rockdale Career Academy,All Students,Writing,1306039,81856,1012,TFS,369,331,
+2013-14,722,Rockdale County,176,Heritage High School,All Students,Combined,1306039,82852,1026,292,1352,1239,1243
+2013-14,722,Rockdale County,176,Heritage High School,All Students,Mathematics,1306039,83391,1029,292,491,449,447
+2013-14,722,Rockdale County,176,Heritage High School,All Students,Reading,1306039,83310,1037,297,493,459,460
+2013-14,722,Rockdale County,176,Heritage High School,All Students,Writing,1306039,81856,1012,287,369,331,336
+2013-14,722,Rockdale County,192,Salem High School,All Students,Combined,1306039,82852,1026,293,1352,1239,1189
+2013-14,722,Rockdale County,192,Salem High School,All Students,Mathematics,1306039,83391,1029,295,491,449,427
+2013-14,722,Rockdale County,192,Salem High School,All Students,Reading,1306039,83310,1037,295,493,459,445
+2013-14,722,Rockdale County,192,Salem High School,All Students,Writing,1306039,81856,1012,289,369,331,317
+2013-14,722,Rockdale County,3052,Rockdale County High School,All Students,Combined,1306039,82852,1026,437,1352,1239,1268
+2013-14,722,Rockdale County,3052,Rockdale County High School,All Students,Mathematics,1306039,83391,1029,438,491,449,465
+2013-14,722,Rockdale County,3052,Rockdale County High School,All Students,Reading,1306039,83310,1037,441,493,459,467
+2013-14,722,Rockdale County,3052,Rockdale County High School,All Students,Writing,1306039,81856,1012,432,369,331,337
+2013-14,723,Schley County,101,Schley Middle High School,All Students,Combined,1306039,82852,74,74,1352,1260,1260
+2013-14,723,Schley County,101,Schley Middle High School,All Students,Mathematics,1306039,83391,74,74,491,452,452
+2013-14,723,Schley County,101,Schley Middle High School,All Students,Reading,1306039,83310,74,74,493,468,468
+2013-14,723,Schley County,101,Schley Middle High School,All Students,Writing,1306039,81856,73,73,369,340,340
+2013-14,724,Screven County,4052,Screven County High School,All Students,Combined,1306039,82852,88,88,1352,1183,1183
+2013-14,724,Screven County,4052,Screven County High School,All Students,Mathematics,1306039,83391,88,88,491,441,441
+2013-14,724,Screven County,4052,Screven County High School,All Students,Reading,1306039,83310,88,88,493,441,441
+2013-14,724,Screven County,4052,Screven County High School,All Students,Writing,1306039,81856,87,87,369,301,301
+2013-14,725,Seminole County,196,Seminole County Middle/High School,All Students,Combined,1306039,82852,78,78,1352,1273,1273
+2013-14,725,Seminole County,196,Seminole County Middle/High School,All Students,Mathematics,1306039,83391,78,78,491,455,455
+2013-14,725,Seminole County,196,Seminole County Middle/High School,All Students,Reading,1306039,83310,79,79,493,479,479
+2013-14,725,Seminole County,196,Seminole County Middle/High School,All Students,Writing,1306039,81856,77,77,369,339,339
+2013-14,726,Griffin-Spalding County,101,Spalding High School,All Students,Combined,1306039,82852,374,212,1352,1278,1338
+2013-14,726,Griffin-Spalding County,101,Spalding High School,All Students,Mathematics,1306039,83391,378,216,491,462,482
+2013-14,726,Griffin-Spalding County,101,Spalding High School,All Students,Reading,1306039,83310,374,211,493,466,494
+2013-14,726,Griffin-Spalding County,101,Spalding High School,All Students,Writing,1306039,81856,370,209,369,350,362
+2013-14,726,Griffin-Spalding County,187,Griffin High School,All Students,Combined,1306039,82852,374,159,1352,1278,1198
+2013-14,726,Griffin-Spalding County,187,Griffin High School,All Students,Mathematics,1306039,83391,378,159,491,462,435
+2013-14,726,Griffin-Spalding County,187,Griffin High School,All Students,Reading,1306039,83310,374,160,493,466,430
+2013-14,726,Griffin-Spalding County,187,Griffin High School,All Students,Writing,1306039,81856,370,158,369,350,333
+2013-14,726,Griffin-Spalding County,208,AZ Kelsey Academy,All Students,Combined,1306039,82852,374,TFS,1352,1278,
+2013-14,726,Griffin-Spalding County,208,AZ Kelsey Academy,All Students,Mathematics,1306039,83391,378,TFS,491,462,
+2013-14,726,Griffin-Spalding County,208,AZ Kelsey Academy,All Students,Reading,1306039,83310,374,TFS,493,466,
+2013-14,726,Griffin-Spalding County,208,AZ Kelsey Academy,All Students,Writing,1306039,81856,370,TFS,369,350,
+2013-14,727,Stephens County,5050,Stephens County High School,All Students,Combined,1306039,82852,136,136,1352,1369,1369
+2013-14,727,Stephens County,5050,Stephens County High School,All Students,Mathematics,1306039,83391,137,137,491,484,484
+2013-14,727,Stephens County,5050,Stephens County High School,All Students,Reading,1306039,83310,136,136,493,505,505
+2013-14,727,Stephens County,5050,Stephens County High School,All Students,Writing,1306039,81856,136,136,369,380,380
+2013-14,728,Stewart County,201,Stewart County High School,All Students,Combined,1306039,82852,TFS,TFS,1352,,
+2013-14,728,Stewart County,201,Stewart County High School,All Students,Mathematics,1306039,83391,TFS,TFS,491,,
+2013-14,728,Stewart County,201,Stewart County High School,All Students,Reading,1306039,83310,TFS,TFS,493,,
+2013-14,728,Stewart County,201,Stewart County High School,All Students,Writing,1306039,81856,TFS,TFS,369,,
+2013-14,729,Sumter County,105,Americus Sumter High School (Old Americus-Sumter HS S),All Students,Combined,1306039,82852,115,115,1352,1236,1236
+2013-14,729,Sumter County,105,Americus Sumter High School (Old Americus-Sumter HS S),All Students,Mathematics,1306039,83391,116,116,491,432,432
+2013-14,729,Sumter County,105,Americus Sumter High School (Old Americus-Sumter HS S),All Students,Reading,1306039,83310,116,116,493,441,441
+2013-14,729,Sumter County,105,Americus Sumter High School (Old Americus-Sumter HS S),All Students,Writing,1306039,81856,113,113,369,363,363
+2013-14,730,Talbot County,190,Central Elementary/High School,All Students,Combined,1306039,82852,40,40,1352,939,939
+2013-14,730,Talbot County,190,Central Elementary/High School,All Students,Mathematics,1306039,83391,40,40,491,380,380
+2013-14,730,Talbot County,190,Central Elementary/High School,All Students,Reading,1306039,83310,40,40,493,352,352
+2013-14,730,Talbot County,190,Central Elementary/High School,All Students,Writing,1306039,81856,40,40,369,208,208
+2013-14,731,Taliaferro County,102,Taliaferro County School,All Students,Combined,1306039,82852,14,14,1352,986,986
+2013-14,731,Taliaferro County,102,Taliaferro County School,All Students,Mathematics,1306039,83391,14,14,491,369,369
+2013-14,731,Taliaferro County,102,Taliaferro County School,All Students,Reading,1306039,83310,14,14,493,352,352
+2013-14,731,Taliaferro County,102,Taliaferro County School,All Students,Writing,1306039,81856,14,14,369,266,266
+2013-14,732,Tattnall County,194,Tattnall County High School,All Students,Combined,1306039,82852,149,149,1352,1279,1279
+2013-14,732,Tattnall County,194,Tattnall County High School,All Students,Mathematics,1306039,83391,150,150,491,470,470
+2013-14,732,Tattnall County,194,Tattnall County High School,All Students,Reading,1306039,83310,150,150,493,465,465
+2013-14,732,Tattnall County,194,Tattnall County High School,All Students,Writing,1306039,81856,148,148,369,344,344
+2013-14,733,Taylor County,201,Taylor County High School,All Students,Combined,1306039,82852,67,67,1352,1307,1307
+2013-14,733,Taylor County,201,Taylor County High School,All Students,Mathematics,1306039,83391,66,66,491,468,468
+2013-14,733,Taylor County,201,Taylor County High School,All Students,Reading,1306039,83310,68,68,493,481,481
+2013-14,733,Taylor County,201,Taylor County High School,All Students,Writing,1306039,81856,66,66,369,359,359
+2013-14,734,Telfair County,201,Telfair County High School,All Students,Combined,1306039,82852,61,61,1352,1190,1190
+2013-14,734,Telfair County,201,Telfair County High School,All Students,Mathematics,1306039,83391,61,61,491,422,422
+2013-14,734,Telfair County,201,Telfair County High School,All Students,Reading,1306039,83310,62,62,493,431,431
+2013-14,734,Telfair County,201,Telfair County High School,All Students,Writing,1306039,81856,60,60,369,337,337
+2013-14,735,Terrell County,105,Terrell High School,All Students,Combined,1306039,82852,19,19,1352,1166,1166
+2013-14,735,Terrell County,105,Terrell High School,All Students,Mathematics,1306039,83391,19,19,491,404,404
+2013-14,735,Terrell County,105,Terrell High School,All Students,Reading,1306039,83310,19,19,493,397,397
+2013-14,735,Terrell County,105,Terrell High School,All Students,Writing,1306039,81856,19,19,369,364,364
+2013-14,736,Thomas County,100,Bishop Hall Charter School,All Students,Combined,1306039,82852,218,TFS,1352,1260,
+2013-14,736,Thomas County,100,Bishop Hall Charter School,All Students,Mathematics,1306039,83391,222,TFS,491,446,
+2013-14,736,Thomas County,100,Bishop Hall Charter School,All Students,Reading,1306039,83310,217,TFS,493,469,
+2013-14,736,Thomas County,100,Bishop Hall Charter School,All Students,Writing,1306039,81856,215,TFS,369,344,
+2013-14,736,Thomas County,191,Thomas County Central High School,All Students,Combined,1306039,82852,218,214,1352,1260,1259
+2013-14,736,Thomas County,191,Thomas County Central High School,All Students,Mathematics,1306039,83391,222,218,491,446,446
+2013-14,736,Thomas County,191,Thomas County Central High School,All Students,Reading,1306039,83310,217,213,493,469,469
+2013-14,736,Thomas County,191,Thomas County Central High School,All Students,Writing,1306039,81856,215,211,369,344,344
+2013-14,737,Tift County,3052,"Northeast Campus, Tift County High School",All Students,Combined,1306039,82852,404,404,1352,1249,1249
+2013-14,737,Tift County,3052,"Northeast Campus, Tift County High School",All Students,Mathematics,1306039,83391,406,406,491,457,457
+2013-14,737,Tift County,3052,"Northeast Campus, Tift County High School",All Students,Reading,1306039,83310,404,404,493,463,463
+2013-14,737,Tift County,3052,"Northeast Campus, Tift County High School",All Students,Writing,1306039,81856,401,401,369,329,329
+2013-14,738,Toombs County,192,Toombs County High School,All Students,Combined,1306039,82852,77,77,1352,1231,1231
+2013-14,738,Toombs County,192,Toombs County High School,All Students,Mathematics,1306039,83391,80,80,491,452,452
+2013-14,738,Toombs County,192,Toombs County High School,All Students,Reading,1306039,83310,77,77,493,457,457
+2013-14,738,Toombs County,192,Toombs County High School,All Students,Writing,1306039,81856,75,75,369,322,322
+2013-14,739,Towns County,204,Towns County High School,All Students,Combined,1306039,82852,53,53,1352,1383,1383
+2013-14,739,Towns County,204,Towns County High School,All Students,Mathematics,1306039,83391,54,54,491,498,498
+2013-14,739,Towns County,204,Towns County High School,All Students,Reading,1306039,83310,54,54,493,499,499
+2013-14,739,Towns County,204,Towns County High School,All Students,Writing,1306039,81856,52,52,369,387,387
+2013-14,740,Treutlen County,213,Treutlen Middle/High School,All Students,Combined,1306039,82852,53,53,1352,1183,1183
+2013-14,740,Treutlen County,213,Treutlen Middle/High School,All Students,Mathematics,1306039,83391,53,53,491,435,435
+2013-14,740,Treutlen County,213,Treutlen Middle/High School,All Students,Reading,1306039,83310,53,53,493,440,440
+2013-14,740,Treutlen County,213,Treutlen Middle/High School,All Students,Writing,1306039,81856,53,53,369,308,308
+2013-14,741,Troup County,201,Callaway High School,All Students,Combined,1306039,82852,475,88,1352,1365,1330
+2013-14,741,Troup County,201,Callaway High School,All Students,Mathematics,1306039,83391,479,88,491,497,474
+2013-14,741,Troup County,201,Callaway High School,All Students,Reading,1306039,83310,476,89,493,490,469
+2013-14,741,Troup County,201,Callaway High School,All Students,Writing,1306039,81856,469,87,369,378,387
+2013-14,741,Troup County,387,Troup County High School,All Students,Combined,1306039,82852,475,136,1352,1365,1360
+2013-14,741,Troup County,387,Troup County High School,All Students,Mathematics,1306039,83391,479,138,491,497,496
+2013-14,741,Troup County,387,Troup County High School,All Students,Reading,1306039,83310,476,136,493,490,486
+2013-14,741,Troup County,387,Troup County High School,All Students,Writing,1306039,81856,469,134,369,378,378
+2013-14,741,Troup County,1052,LaGrange High School,All Students,Combined,1306039,82852,475,251,1352,1365,1380
+2013-14,741,Troup County,1052,LaGrange High School,All Students,Mathematics,1306039,83391,479,253,491,497,505
+2013-14,741,Troup County,1052,LaGrange High School,All Students,Reading,1306039,83310,476,251,493,490,500
+2013-14,741,Troup County,1052,LaGrange High School,All Students,Writing,1306039,81856,469,248,369,378,375
+2013-14,742,Turner County,1050,Turner County Specialty School,All Students,Combined,1306039,82852,54,54,1352,1220,1220
+2013-14,742,Turner County,1050,Turner County Specialty School,All Students,Mathematics,1306039,83391,54,54,491,419,419
+2013-14,742,Turner County,1050,Turner County Specialty School,All Students,Reading,1306039,83310,54,54,493,441,441
+2013-14,742,Turner County,1050,Turner County Specialty School,All Students,Writing,1306039,81856,53,53,369,361,361
+2013-14,743,Twiggs County,201,Twiggs County High School,All Students,Combined,1306039,82852,11,11,1352,1293,1293
+2013-14,743,Twiggs County,201,Twiggs County High School,All Students,Mathematics,1306039,83391,11,11,491,427,427
+2013-14,743,Twiggs County,201,Twiggs County High School,All Students,Reading,1306039,83310,11,11,493,436,436
+2013-14,743,Twiggs County,201,Twiggs County High School,All Students,Writing,1306039,81856,11,11,369,429,429
+2013-14,744,Union County,101,Union County High School,All Students,Combined,1306039,82852,164,162,1352,1334,1333
+2013-14,744,Union County,101,Union County High School,All Students,Mathematics,1306039,83391,166,164,491,483,483
+2013-14,744,Union County,101,Union County High School,All Students,Reading,1306039,83310,165,163,493,501,501
+2013-14,744,Union County,101,Union County High School,All Students,Writing,1306039,81856,161,159,369,350,349
+2013-14,744,Union County,3050,Woody Gap High/Elementary School,All Students,Combined,1306039,82852,164,TFS,1352,1334,
+2013-14,744,Union County,3050,Woody Gap High/Elementary School,All Students,Mathematics,1306039,83391,166,TFS,491,483,
+2013-14,744,Union County,3050,Woody Gap High/Elementary School,All Students,Reading,1306039,83310,165,TFS,493,501,
+2013-14,744,Union County,3050,Woody Gap High/Elementary School,All Students,Writing,1306039,81856,161,TFS,369,350,
+2013-14,745,Thomaston-Upson County,195,Upson-Lee High School,All Students,Combined,1306039,82852,223,223,1352,1238,1238
+2013-14,745,Thomaston-Upson County,195,Upson-Lee High School,All Students,Mathematics,1306039,83391,222,222,491,444,444
+2013-14,745,Thomaston-Upson County,195,Upson-Lee High School,All Students,Reading,1306039,83310,226,226,493,450,450
+2013-14,745,Thomaston-Upson County,195,Upson-Lee High School,All Students,Writing,1306039,81856,220,220,369,343,343
+2013-14,746,Walker County,190,Ridgeland High School,All Students,Combined,1306039,82852,50,19,1352,1469,1466
+2013-14,746,Walker County,190,Ridgeland High School,All Students,Mathematics,1306039,83391,51,19,491,516,518
+2013-14,746,Walker County,190,Ridgeland High School,All Students,Reading,1306039,83310,50,19,493,509,507
+2013-14,746,Walker County,190,Ridgeland High School,All Students,Writing,1306039,81856,50,19,369,444,441
+2013-14,746,Walker County,198,LaFayette High School,All Students,Combined,1306039,82852,50,31,1352,1469,1471
+2013-14,746,Walker County,198,LaFayette High School,All Students,Mathematics,1306039,83391,51,32,491,516,515
+2013-14,746,Walker County,198,LaFayette High School,All Students,Reading,1306039,83310,50,31,493,509,510
+2013-14,746,Walker County,198,LaFayette High School,All Students,Writing,1306039,81856,50,31,369,444,447
+2013-14,747,Walton County,111,Walnut Grove High School,All Students,Combined,1306039,82852,714,255,1352,1309,1299
+2013-14,747,Walton County,111,Walnut Grove High School,All Students,Mathematics,1306039,83391,713,256,491,478,474
+2013-14,747,Walton County,111,Walnut Grove High School,All Students,Reading,1306039,83310,723,258,493,482,484
+2013-14,747,Walton County,111,Walnut Grove High School,All Students,Writing,1306039,81856,706,252,369,349,340
+2013-14,747,Walton County,199,Loganville High School,All Students,Combined,1306039,82852,714,295,1352,1309,1337
+2013-14,747,Walton County,199,Loganville High School,All Students,Mathematics,1306039,83391,713,294,491,478,495
+2013-14,747,Walton County,199,Loganville High School,All Students,Reading,1306039,83310,723,300,493,482,488
+2013-14,747,Walton County,199,Loganville High School,All Students,Writing,1306039,81856,706,290,369,349,353
+2013-14,747,Walton County,205,Monroe Area High School,All Students,Combined,1306039,82852,714,164,1352,1309,1276
+2013-14,747,Walton County,205,Monroe Area High School,All Students,Mathematics,1306039,83391,713,163,491,478,453
+2013-14,747,Walton County,205,Monroe Area High School,All Students,Reading,1306039,83310,723,165,493,482,467
+2013-14,747,Walton County,205,Monroe Area High School,All Students,Writing,1306039,81856,706,164,369,349,356
+2013-14,748,Ware County,195,Ware County High School,All Students,Combined,1306039,82852,185,185,1352,1324,1324
+2013-14,748,Ware County,195,Ware County High School,All Students,Mathematics,1306039,83391,185,185,491,481,481
+2013-14,748,Ware County,195,Ware County High School,All Students,Reading,1306039,83310,190,190,493,493,493
+2013-14,748,Ware County,195,Ware County High School,All Students,Writing,1306039,81856,181,181,369,350,350
+2013-14,749,Warren County,205,Warren County High School,All Students,Combined,1306039,82852,29,29,1352,1171,1171
+2013-14,749,Warren County,205,Warren County High School,All Students,Mathematics,1306039,83391,29,29,491,405,405
+2013-14,749,Warren County,205,Warren County High School,All Students,Reading,1306039,83310,29,29,493,384,384
+2013-14,749,Warren County,205,Warren County High School,All Students,Writing,1306039,81856,29,29,369,381,381
+2013-14,750,Washington County,1052,Washington County High School,All Students,Combined,1306039,82852,166,166,1352,1190,1190
+2013-14,750,Washington County,1052,Washington County High School,All Students,Mathematics,1306039,83391,166,166,491,426,426
+2013-14,750,Washington County,1052,Washington County High School,All Students,Reading,1306039,83310,167,167,493,427,427
+2013-14,750,Washington County,1052,Washington County High School,All Students,Writing,1306039,81856,165,165,369,337,337
+2013-14,751,Wayne County,101,Wayne County High School,All Students,Combined,1306039,82852,277,277,1352,1274,1274
+2013-14,751,Wayne County,101,Wayne County High School,All Students,Mathematics,1306039,83391,279,279,491,460,460
+2013-14,751,Wayne County,101,Wayne County High School,All Students,Reading,1306039,83310,280,280,493,461,461
+2013-14,751,Wayne County,101,Wayne County High School,All Students,Writing,1306039,81856,273,273,369,353,353
+2013-14,752,Webster County,108,Webster County High School,All Students,Combined,1306039,82852,22,22,1352,1056,1056
+2013-14,752,Webster County,108,Webster County High School,All Students,Mathematics,1306039,83391,22,22,491,413,413
+2013-14,752,Webster County,108,Webster County High School,All Students,Reading,1306039,83310,22,22,493,395,395
+2013-14,752,Webster County,108,Webster County High School,All Students,Writing,1306039,81856,22,22,369,249,249
+2013-14,753,Wheeler County,3052,Wheeler County High School,All Students,Combined,1306039,82852,38,38,1352,1224,1224
+2013-14,753,Wheeler County,3052,Wheeler County High School,All Students,Mathematics,1306039,83391,38,38,491,459,459
+2013-14,753,Wheeler County,3052,Wheeler County High School,All Students,Reading,1306039,83310,38,38,493,451,451
+2013-14,753,Wheeler County,3052,Wheeler County High School,All Students,Writing,1306039,81856,38,38,369,314,314
+2013-14,754,White County,105,White County High School,All Students,Combined,1306039,82852,229,229,1352,1359,1359
+2013-14,754,White County,105,White County High School,All Students,Mathematics,1306039,83391,231,231,491,495,495
+2013-14,754,White County,105,White County High School,All Students,Reading,1306039,83310,230,230,493,492,492
+2013-14,754,White County,105,White County High School,All Students,Writing,1306039,81856,227,227,369,373,373
+2013-14,755,Whitfield County,105,Northwest Georgia College & Career Academy,All Students,Combined,1306039,82852,356,10,1352,1337,1357
+2013-14,755,Whitfield County,105,Northwest Georgia College & Career Academy,All Students,Mathematics,1306039,83391,357,10,491,474,448
+2013-14,755,Whitfield County,105,Northwest Georgia College & Career Academy,All Students,Reading,1306039,83310,358,10,493,481,472
+2013-14,755,Whitfield County,105,Northwest Georgia College & Career Academy,All Students,Writing,1306039,81856,354,10,369,382,437
+2013-14,755,Whitfield County,112,Coahulla Creek High School,All Students,Combined,1306039,82852,356,51,1352,1337,1317
+2013-14,755,Whitfield County,112,Coahulla Creek High School,All Students,Mathematics,1306039,83391,357,50,491,474,478
+2013-14,755,Whitfield County,112,Coahulla Creek High School,All Students,Reading,1306039,83310,358,51,493,481,493
+2013-14,755,Whitfield County,112,Coahulla Creek High School,All Students,Writing,1306039,81856,354,51,369,382,346
+2013-14,755,Whitfield County,175,Northwest Whitfield County High School,All Students,Combined,1306039,82852,356,174,1352,1337,1391
+2013-14,755,Whitfield County,175,Northwest Whitfield County High School,All Students,Mathematics,1306039,83391,357,173,491,474,486
+2013-14,755,Whitfield County,175,Northwest Whitfield County High School,All Students,Reading,1306039,83310,358,177,493,481,496
+2013-14,755,Whitfield County,175,Northwest Whitfield County High School,All Students,Writing,1306039,81856,354,173,369,382,409
+2013-14,755,Whitfield County,212,Phoenix High School,All Students,Combined,1306039,82852,356,TFS,1352,1337,
+2013-14,755,Whitfield County,212,Phoenix High School,All Students,Mathematics,1306039,83391,357,TFS,491,474,
+2013-14,755,Whitfield County,212,Phoenix High School,All Students,Reading,1306039,83310,358,TFS,493,481,
+2013-14,755,Whitfield County,212,Phoenix High School,All Students,Writing,1306039,81856,354,TFS,369,382,
+2013-14,755,Whitfield County,275,Southeast Whitfield County High School,All Students,Combined,1306039,82852,356,119,1352,1337,1263
+2013-14,755,Whitfield County,275,Southeast Whitfield County High School,All Students,Mathematics,1306039,83391,357,122,491,474,458
+2013-14,755,Whitfield County,275,Southeast Whitfield County High School,All Students,Reading,1306039,83310,358,118,493,481,454
+2013-14,755,Whitfield County,275,Southeast Whitfield County High School,All Students,Writing,1306039,81856,354,118,369,382,351
+2013-14,756,Wilcox County,201,Wilcox County High School,All Students,Combined,1306039,82852,27,27,1352,1213,1213
+2013-14,756,Wilcox County,201,Wilcox County High School,All Students,Mathematics,1306039,83391,27,27,491,431,431
+2013-14,756,Wilcox County,201,Wilcox County High School,All Students,Reading,1306039,83310,27,27,493,429,429
+2013-14,756,Wilcox County,201,Wilcox County High School,All Students,Writing,1306039,81856,27,27,369,354,354
+2013-14,757,Wilkes County,110,Washington-Wilkes Comprehensive High School,All Students,Combined,1306039,82852,90,90,1352,1259,1259
+2013-14,757,Wilkes County,110,Washington-Wilkes Comprehensive High School,All Students,Mathematics,1306039,83391,89,89,491,476,476
+2013-14,757,Wilkes County,110,Washington-Wilkes Comprehensive High School,All Students,Reading,1306039,83310,92,92,493,455,455
+2013-14,757,Wilkes County,110,Washington-Wilkes Comprehensive High School,All Students,Writing,1306039,81856,88,88,369,328,328
+2013-14,758,Wilkinson County,3050,Wilkinson County High School,All Students,Combined,1306039,82852,46,46,1352,1187,1187
+2013-14,758,Wilkinson County,3050,Wilkinson County High School,All Students,Mathematics,1306039,83391,46,46,491,430,430
+2013-14,758,Wilkinson County,3050,Wilkinson County High School,All Students,Reading,1306039,83310,47,47,493,431,431
+2013-14,758,Wilkinson County,3050,Wilkinson County High School,All Students,Writing,1306039,81856,46,46,369,325,325
+2013-14,759,Worth County,176,Worth County High School,All Students,Combined,1306039,82852,88,88,1352,1215,1215
+2013-14,759,Worth County,176,Worth County High School,All Students,Mathematics,1306039,83391,89,89,491,440,440
+2013-14,759,Worth County,176,Worth County High School,All Students,Reading,1306039,83310,88,88,493,428,428
+2013-14,759,Worth County,176,Worth County High School,All Students,Writing,1306039,81856,88,88,369,347,347
+2013-14,761,Atlanta Public Schools,106,Early College High School at Carver,All Students,Combined,1306039,82852,1505,113,1352,1276,1299
+2013-14,761,Atlanta Public Schools,106,Early College High School at Carver,All Students,Mathematics,1306039,83391,1508,112,491,453,470
+2013-14,761,Atlanta Public Schools,106,Early College High School at Carver,All Students,Reading,1306039,83310,1518,115,493,463,468
+2013-14,761,Atlanta Public Schools,106,Early College High School at Carver,All Students,Writing,1306039,81856,1488,112,369,360,361
+2013-14,761,Atlanta Public Schools,108,South Atlanta School of Health and Medical Science,All Students,Combined,1306039,82852,1505,31,1352,1276,1135
+2013-14,761,Atlanta Public Schools,108,South Atlanta School of Health and Medical Science,All Students,Mathematics,1306039,83391,1508,31,491,453,397
+2013-14,761,Atlanta Public Schools,108,South Atlanta School of Health and Medical Science,All Students,Reading,1306039,83310,1518,31,493,463,387
+2013-14,761,Atlanta Public Schools,108,South Atlanta School of Health and Medical Science,All Students,Writing,1306039,81856,1488,31,369,360,351
+2013-14,761,Atlanta Public Schools,112,"Booker T. Washington High School - Banking, Finance and Investment Small Sc",All Students,Combined,1306039,82852,1505,26,1352,1276,1173
+2013-14,761,Atlanta Public Schools,112,"Booker T. Washington High School - Banking, Finance and Investment Small Sc",All Students,Mathematics,1306039,83391,1508,26,491,453,427
+2013-14,761,Atlanta Public Schools,112,"Booker T. Washington High School - Banking, Finance and Investment Small Sc",All Students,Reading,1306039,83310,1518,27,493,463,396
+2013-14,761,Atlanta Public Schools,112,"Booker T. Washington High School - Banking, Finance and Investment Small Sc",All Students,Writing,1306039,81856,1488,26,369,360,349
+2013-14,761,Atlanta Public Schools,113,Booker T. Washington - Early College Small School,All Students,Combined,1306039,82852,1505,30,1352,1276,1294
+2013-14,761,Atlanta Public Schools,113,Booker T. Washington - Early College Small School,All Students,Mathematics,1306039,83391,1508,30,491,453,493
+2013-14,761,Atlanta Public Schools,113,Booker T. Washington - Early College Small School,All Students,Reading,1306039,83310,1518,30,493,463,470
+2013-14,761,Atlanta Public Schools,113,Booker T. Washington - Early College Small School,All Students,Writing,1306039,81856,1488,30,369,360,331
+2013-14,761,Atlanta Public Schools,114,"Booker T. Washington High School - Health, Sciences and Nutrition Small Sch",All Students,Combined,1306039,82852,1505,28,1352,1276,1137
+2013-14,761,Atlanta Public Schools,114,"Booker T. Washington High School - Health, Sciences and Nutrition Small Sch",All Students,Mathematics,1306039,83391,1508,29,491,453,396
+2013-14,761,Atlanta Public Schools,114,"Booker T. Washington High School - Health, Sciences and Nutrition Small Sch",All Students,Reading,1306039,83310,1518,27,493,463,403
+2013-14,761,Atlanta Public Schools,114,"Booker T. Washington High School - Health, Sciences and Nutrition Small Sch",All Students,Writing,1306039,81856,1488,27,369,360,338
+2013-14,761,Atlanta Public Schools,118,The Best Academy High School at Benjamin S. Carson,All Students,Combined,1306039,82852,1505,21,1352,1276,1277
+2013-14,761,Atlanta Public Schools,118,The Best Academy High School at Benjamin S. Carson,All Students,Mathematics,1306039,83391,1508,22,491,453,441
+2013-14,761,Atlanta Public Schools,118,The Best Academy High School at Benjamin S. Carson,All Students,Reading,1306039,83310,1518,21,493,463,453
+2013-14,761,Atlanta Public Schools,118,The Best Academy High School at Benjamin S. Carson,All Students,Writing,1306039,81856,1488,21,369,360,383
+2013-14,761,Atlanta Public Schools,121,Old Coretta Scott King Young Women's Academy High School,All Students,Combined,1306039,82852,1505,40,1352,1276,1111
+2013-14,761,Atlanta Public Schools,121,Old Coretta Scott King Young Women's Academy High School,All Students,Mathematics,1306039,83391,1508,41,491,453,424
+2013-14,761,Atlanta Public Schools,121,Old Coretta Scott King Young Women's Academy High School,All Students,Reading,1306039,83310,1518,40,493,463,424
+2013-14,761,Atlanta Public Schools,121,Old Coretta Scott King Young Women's Academy High School,All Students,Writing,1306039,81856,1488,40,369,360,263
+2013-14,761,Atlanta Public Schools,182,Mays High School,All Students,Combined,1306039,82852,1505,177,1352,1276,1188
+2013-14,761,Atlanta Public Schools,182,Mays High School,All Students,Mathematics,1306039,83391,1508,178,491,453,422
+2013-14,761,Atlanta Public Schools,182,Mays High School,All Students,Reading,1306039,83310,1518,178,493,463,428
+2013-14,761,Atlanta Public Schools,182,Mays High School,All Students,Writing,1306039,81856,1488,175,369,360,339
+2013-14,761,Atlanta Public Schools,186,"Maynard H. Jackson, Jr. High School",All Students,Combined,1306039,82852,1505,74,1352,1276,1191
+2013-14,761,Atlanta Public Schools,186,"Maynard H. Jackson, Jr. High School",All Students,Mathematics,1306039,83391,1508,73,491,453,408
+2013-14,761,Atlanta Public Schools,186,"Maynard H. Jackson, Jr. High School",All Students,Reading,1306039,83310,1518,75,493,463,429
+2013-14,761,Atlanta Public Schools,186,"Maynard H. Jackson, Jr. High School",All Students,Writing,1306039,81856,1488,73,369,360,355
+2013-14,761,Atlanta Public Schools,192,North Atlanta High School,All Students,Combined,1306039,82852,1505,335,1352,1276,1373
+2013-14,761,Atlanta Public Schools,192,North Atlanta High School,All Students,Mathematics,1306039,83391,1508,334,491,453,491
+2013-14,761,Atlanta Public Schools,192,North Atlanta High School,All Students,Reading,1306039,83310,1518,342,493,463,507
+2013-14,761,Atlanta Public Schools,192,North Atlanta High School,All Students,Writing,1306039,81856,1488,329,369,360,375
+2013-14,761,Atlanta Public Schools,208,South Atlanta Law and Social Justice School,All Students,Combined,1306039,82852,1505,19,1352,1276,1182
+2013-14,761,Atlanta Public Schools,208,South Atlanta Law and Social Justice School,All Students,Mathematics,1306039,83391,1508,19,491,453,396
+2013-14,761,Atlanta Public Schools,208,South Atlanta Law and Social Justice School,All Students,Reading,1306039,83310,1518,19,493,463,402
+2013-14,761,Atlanta Public Schools,208,South Atlanta Law and Social Justice School,All Students,Writing,1306039,81856,1488,19,369,360,384
+2013-14,761,Atlanta Public Schools,212,KIPP Atlanta Collegiate,All Students,Combined,1306039,82852,1505,30,1352,1276,1285
+2013-14,761,Atlanta Public Schools,212,KIPP Atlanta Collegiate,All Students,Mathematics,1306039,83391,1508,30,491,453,470
+2013-14,761,Atlanta Public Schools,212,KIPP Atlanta Collegiate,All Students,Reading,1306039,83310,1518,30,493,463,438
+2013-14,761,Atlanta Public Schools,212,KIPP Atlanta Collegiate,All Students,Writing,1306039,81856,1488,30,369,360,377
+2013-14,761,Atlanta Public Schools,306,School of Technology at Carver,All Students,Combined,1306039,82852,1505,15,1352,1276,1231
+2013-14,761,Atlanta Public Schools,306,School of Technology at Carver,All Students,Mathematics,1306039,83391,1508,15,491,453,427
+2013-14,761,Atlanta Public Schools,306,School of Technology at Carver,All Students,Reading,1306039,83310,1518,16,493,463,416
+2013-14,761,Atlanta Public Schools,306,School of Technology at Carver,All Students,Writing,1306039,81856,1488,15,369,360,388
+2013-14,761,Atlanta Public Schools,406,School of Health Sciences and Research at Carver,All Students,Combined,1306039,82852,1505,49,1352,1276,1128
+2013-14,761,Atlanta Public Schools,406,School of Health Sciences and Research at Carver,All Students,Mathematics,1306039,83391,1508,49,491,453,408
+2013-14,761,Atlanta Public Schools,406,School of Health Sciences and Research at Carver,All Students,Reading,1306039,83310,1518,49,493,463,398
+2013-14,761,Atlanta Public Schools,406,School of Health Sciences and Research at Carver,All Students,Writing,1306039,81856,1488,48,369,360,322
+2013-14,761,Atlanta Public Schools,408,South Atlanta School of Computer Animation and Design,All Students,Combined,1306039,82852,1505,11,1352,1276,1079
+2013-14,761,Atlanta Public Schools,408,South Atlanta School of Computer Animation and Design,All Students,Mathematics,1306039,83391,1508,11,491,453,360
+2013-14,761,Atlanta Public Schools,408,South Atlanta School of Computer Animation and Design,All Students,Reading,1306039,83310,1518,11,493,463,358
+2013-14,761,Atlanta Public Schools,408,South Atlanta School of Computer Animation and Design,All Students,Writing,1306039,81856,1488,11,369,360,361
+2013-14,761,Atlanta Public Schools,506,The School of the Arts at Carver,All Students,Combined,1306039,82852,1505,68,1352,1276,1092
+2013-14,761,Atlanta Public Schools,506,The School of the Arts at Carver,All Students,Mathematics,1306039,83391,1508,68,491,453,401
+2013-14,761,Atlanta Public Schools,506,The School of the Arts at Carver,All Students,Reading,1306039,83310,1518,69,493,463,397
+2013-14,761,Atlanta Public Schools,506,The School of the Arts at Carver,All Students,Writing,1306039,81856,1488,66,369,360,294
+2013-14,761,Atlanta Public Schools,508,"Therrell School of Law, Government and Public Policy - C",All Students,Combined,1306039,82852,1505,23,1352,1276,1085
+2013-14,761,Atlanta Public Schools,508,"Therrell School of Law, Government and Public Policy - C",All Students,Mathematics,1306039,83391,1508,23,491,453,397
+2013-14,761,Atlanta Public Schools,508,"Therrell School of Law, Government and Public Policy - C",All Students,Reading,1306039,83310,1518,23,493,463,409
+2013-14,761,Atlanta Public Schools,508,"Therrell School of Law, Government and Public Policy - C",All Students,Writing,1306039,81856,1488,22,369,360,279
+2013-14,761,Atlanta Public Schools,608,"Therrell School of Engineering, Math, and Science - C",All Students,Combined,1306039,82852,1505,TFS,1352,1276,
+2013-14,761,Atlanta Public Schools,608,"Therrell School of Engineering, Math, and Science - C",All Students,Mathematics,1306039,83391,1508,TFS,491,453,
+2013-14,761,Atlanta Public Schools,608,"Therrell School of Engineering, Math, and Science - C",All Students,Reading,1306039,83310,1518,TFS,493,463,
+2013-14,761,Atlanta Public Schools,608,"Therrell School of Engineering, Math, and Science - C",All Students,Writing,1306039,81856,1488,TFS,369,360,
+2013-14,761,Atlanta Public Schools,708,Therrell School of Health and Science - C,All Students,Combined,1306039,82852,1505,47,1352,1276,1049
+2013-14,761,Atlanta Public Schools,708,Therrell School of Health and Science - C,All Students,Mathematics,1306039,83391,1508,47,491,453,370
+2013-14,761,Atlanta Public Schools,708,Therrell School of Health and Science - C,All Students,Reading,1306039,83310,1518,47,493,463,390
+2013-14,761,Atlanta Public Schools,708,Therrell School of Health and Science - C,All Students,Writing,1306039,81856,1488,47,369,360,289
+2013-14,761,Atlanta Public Schools,4058,Douglass High School,All Students,Combined,1306039,82852,1505,38,1352,1276,1234
+2013-14,761,Atlanta Public Schools,4058,Douglass High School,All Students,Mathematics,1306039,83391,1508,38,491,453,407
+2013-14,761,Atlanta Public Schools,4058,Douglass High School,All Students,Reading,1306039,83310,1518,38,493,463,435
+2013-14,761,Atlanta Public Schools,4058,Douglass High School,All Students,Writing,1306039,81856,1488,38,369,360,392
+2013-14,761,Atlanta Public Schools,4560,Grady High School,All Students,Combined,1306039,82852,1505,306,1352,1276,1436
+2013-14,761,Atlanta Public Schools,4560,Grady High School,All Students,Mathematics,1306039,83391,1508,308,491,453,498
+2013-14,761,Atlanta Public Schools,4560,Grady High School,All Students,Reading,1306039,83310,1518,306,493,463,523
+2013-14,761,Atlanta Public Schools,4560,Grady High School,All Students,Writing,1306039,81856,1488,304,369,360,415
+2013-14,761,Atlanta Public Schools,4568,Washington High School Senior Academy,All Students,Combined,1306039,82852,1505,TFS,1352,1276,
+2013-14,761,Atlanta Public Schools,4568,Washington High School Senior Academy,All Students,Mathematics,1306039,83391,1508,TFS,491,453,
+2013-14,761,Atlanta Public Schools,4568,Washington High School Senior Academy,All Students,Reading,1306039,83310,1518,TFS,493,463,
+2013-14,761,Atlanta Public Schools,4568,Washington High School Senior Academy,All Students,Writing,1306039,81856,1488,TFS,369,360,
+2013-14,761,Atlanta Public Schools,6504,West End Academy,All Students,Combined,1306039,82852,1505,TFS,1352,1276,
+2013-14,761,Atlanta Public Schools,6504,West End Academy,All Students,Mathematics,1306039,83391,1508,TFS,491,453,
+2013-14,761,Atlanta Public Schools,6504,West End Academy,All Students,Reading,1306039,83310,1518,TFS,493,463,
+2013-14,761,Atlanta Public Schools,6504,West End Academy,All Students,Writing,1306039,81856,1488,TFS,369,360,
+2013-14,763,Bremen City,201,Bremen High School,All Students,Combined,1306039,82852,155,155,1352,1352,1352
+2013-14,763,Bremen City,201,Bremen High School,All Students,Mathematics,1306039,83391,157,157,491,484,484
+2013-14,763,Bremen City,201,Bremen High School,All Students,Reading,1306039,83310,155,155,493,511,511
+2013-14,763,Bremen City,201,Bremen High School,All Students,Writing,1306039,81856,154,154,369,357,357
+2013-14,764,Buford City,191,Buford High School,All Students,Combined,1306039,82852,297,297,1352,1379,1379
+2013-14,764,Buford City,191,Buford High School,All Students,Mathematics,1306039,83391,301,301,491,511,511
+2013-14,764,Buford City,191,Buford High School,All Students,Reading,1306039,83310,297,297,493,504,504
+2013-14,764,Buford City,191,Buford High School,All Students,Writing,1306039,81856,294,294,369,364,364
+2013-14,765,Calhoun City,3050,Calhoun High School,All Students,Combined,1306039,82852,189,189,1352,1298,1298
+2013-14,765,Calhoun City,3050,Calhoun High School,All Students,Mathematics,1306039,83391,189,189,491,468,468
+2013-14,765,Calhoun City,3050,Calhoun High School,All Students,Reading,1306039,83310,191,191,493,481,481
+2013-14,765,Calhoun City,3050,Calhoun High School,All Students,Writing,1306039,81856,188,188,369,348,348
+2013-14,766,Carrollton City,1050,Carrollton High School,All Students,Combined,1306039,82852,323,323,1352,1336,1336
+2013-14,766,Carrollton City,1050,Carrollton High School,All Students,Mathematics,1306039,83391,328,328,491,485,485
+2013-14,766,Carrollton City,1050,Carrollton High School,All Students,Reading,1306039,83310,324,324,493,484,484
+2013-14,766,Carrollton City,1050,Carrollton High School,All Students,Writing,1306039,81856,318,318,369,367,367
+2013-14,767,Cartersville City,2050,Cartersville High School,All Students,Combined,1306039,82852,235,235,1352,1396,1396
+2013-14,767,Cartersville City,2050,Cartersville High School,All Students,Mathematics,1306039,83391,237,237,491,497,497
+2013-14,767,Cartersville City,2050,Cartersville High School,All Students,Reading,1306039,83310,236,236,493,506,506
+2013-14,767,Cartersville City,2050,Cartersville High School,All Students,Writing,1306039,81856,231,231,369,393,393
+2013-14,769,Chickamauga City,211,Gordon Lee High School,All Students,Combined,1306039,82852,67,67,1352,1339,1339
+2013-14,769,Chickamauga City,211,Gordon Lee High School,All Students,Mathematics,1306039,83391,67,67,491,471,471
+2013-14,769,Chickamauga City,211,Gordon Lee High School,All Students,Reading,1306039,83310,68,68,493,483,483
+2013-14,769,Chickamauga City,211,Gordon Lee High School,All Students,Writing,1306039,81856,67,67,369,385,385
+2013-14,771,Commerce City,112,Commerce High School,All Students,Combined,1306039,82852,64,64,1352,1333,1333
+2013-14,771,Commerce City,112,Commerce High School,All Students,Mathematics,1306039,83391,65,65,491,478,478
+2013-14,771,Commerce City,112,Commerce High School,All Students,Reading,1306039,83310,65,65,493,477,477
+2013-14,771,Commerce City,112,Commerce High School,All Students,Writing,1306039,81856,63,63,369,378,378
+2013-14,772,Dalton Public Schools,110,Morris Innovative High School,All Students,Combined,1306039,82852,289,20,1352,1372,1074
+2013-14,772,Dalton Public Schools,110,Morris Innovative High School,All Students,Mathematics,1306039,83391,292,20,491,480,343
+2013-14,772,Dalton Public Schools,110,Morris Innovative High School,All Students,Reading,1306039,83310,289,20,493,497,396
+2013-14,772,Dalton Public Schools,110,Morris Innovative High School,All Students,Writing,1306039,81856,287,20,369,395,335
+2013-14,772,Dalton Public Schools,4050,Dalton High School,All Students,Combined,1306039,82852,289,269,1352,1372,1394
+2013-14,772,Dalton Public Schools,4050,Dalton High School,All Students,Mathematics,1306039,83391,292,272,491,480,490
+2013-14,772,Dalton Public Schools,4050,Dalton High School,All Students,Reading,1306039,83310,289,269,493,497,505
+2013-14,772,Dalton Public Schools,4050,Dalton High School,All Students,Writing,1306039,81856,287,267,369,395,400
+2013-14,773,Decatur City,3050,Decatur High School,All Students,Combined,1306039,82852,302,302,1352,1456,1456
+2013-14,773,Decatur City,3050,Decatur High School,All Students,Mathematics,1306039,83391,304,304,491,529,529
+2013-14,773,Decatur City,3050,Decatur High School,All Students,Reading,1306039,83310,303,303,493,545,545
+2013-14,773,Decatur City,3050,Decatur High School,All Students,Writing,1306039,81856,299,299,369,382,382
+2013-14,774,Dublin City,211,Dublin High School,All Students,Combined,1306039,82852,93,93,1352,1247,1247
+2013-14,774,Dublin City,211,Dublin High School,All Students,Mathematics,1306039,83391,93,93,491,455,455
+2013-14,774,Dublin City,211,Dublin High School,All Students,Reading,1306039,83310,94,94,493,453,453
+2013-14,774,Dublin City,211,Dublin High School,All Students,Writing,1306039,81856,93,93,369,340,340
+2013-14,776,Gainesville City,3050,Gainesville High School,All Students,Combined,1306039,82852,292,292,1352,1286,1286
+2013-14,776,Gainesville City,3050,Gainesville High School,All Students,Mathematics,1306039,83391,291,291,491,467,467
+2013-14,776,Gainesville City,3050,Gainesville High School,All Students,Reading,1306039,83310,294,294,493,470,470
+2013-14,776,Gainesville City,3050,Gainesville High School,All Students,Writing,1306039,81856,291,291,369,349,349
+2013-14,779,Jefferson City,174,Jefferson High School,All Students,Combined,1306039,82852,164,164,1352,1491,1491
+2013-14,779,Jefferson City,174,Jefferson High School,All Students,Mathematics,1306039,83391,167,167,491,542,542
+2013-14,779,Jefferson City,174,Jefferson High School,All Students,Reading,1306039,83310,162,162,493,531,531
+2013-14,779,Jefferson City,174,Jefferson High School,All Students,Writing,1306039,81856,162,162,369,418,418
+2013-14,781,Marietta City,101,Marietta High School,All Students,Combined,1306039,82852,352,352,1352,1367,1367
+2013-14,781,Marietta City,101,Marietta High School,All Students,Mathematics,1306039,83391,353,353,491,493,493
+2013-14,781,Marietta City,101,Marietta High School,All Students,Reading,1306039,83310,355,355,493,503,503
+2013-14,781,Marietta City,101,Marietta High School,All Students,Writing,1306039,81856,347,347,369,371,371
+2013-14,7820108,State Charter Schools- Mountain Education Center School,108,Mountain Education Center School,All Students,Combined,1306039,82852,12,12,1352,1346,1346
+2013-14,7820108,State Charter Schools- Mountain Education Center School,108,Mountain Education Center School,All Students,Mathematics,1306039,83391,13,13,491,459,459
+2013-14,7820108,State Charter Schools- Mountain Education Center School,108,Mountain Education Center School,All Students,Reading,1306039,83310,12,12,493,469,469
+2013-14,7820108,State Charter Schools- Mountain Education Center School,108,Mountain Education Center School,All Students,Writing,1306039,81856,12,12,369,418,418
+2013-14,7820119,State Charter Schools- Provost Academy Georgia,119,Provost Academy Georgia,All Students,Combined,1306039,82852,40,40,1352,1376,1376
+2013-14,7820119,State Charter Schools- Provost Academy Georgia,119,Provost Academy Georgia,All Students,Mathematics,1306039,83391,41,41,491,454,454
+2013-14,7820119,State Charter Schools- Provost Academy Georgia,119,Provost Academy Georgia,All Students,Reading,1306039,83310,40,40,493,498,498
+2013-14,7820119,State Charter Schools- Provost Academy Georgia,119,Provost Academy Georgia,All Students,Writing,1306039,81856,40,40,369,424,424
+2013-14,7820412,State Charter Schools- Georgia Connections Academy,412,Georgia Connections Academy,All Students,Combined,1306039,82852,82,82,1352,1367,1367
+2013-14,7820412,State Charter Schools- Georgia Connections Academy,412,Georgia Connections Academy,All Students,Mathematics,1306039,83391,82,82,491,475,475
+2013-14,7820412,State Charter Schools- Georgia Connections Academy,412,Georgia Connections Academy,All Students,Reading,1306039,83310,83,83,493,516,516
+2013-14,7820412,State Charter Schools- Georgia Connections Academy,412,Georgia Connections Academy,All Students,Writing,1306039,81856,81,81,369,376,376
+2013-14,7830103,Commission Charter Schools- CCAT School,103,CCAT School,All Students,Combined,1306039,82852,17,17,1352,1327,1327
+2013-14,7830103,Commission Charter Schools- CCAT School,103,CCAT School,All Students,Mathematics,1306039,83391,17,17,491,441,441
+2013-14,7830103,Commission Charter Schools- CCAT School,103,CCAT School,All Students,Reading,1306039,83310,17,17,493,474,474
+2013-14,7830103,Commission Charter Schools- CCAT School,103,CCAT School,All Students,Writing,1306039,81856,17,17,369,413,413
+2013-14,784,Pelham City,111,Pelham High School,All Students,Combined,1306039,82852,36,36,1352,1295,1295
+2013-14,784,Pelham City,111,Pelham High School,All Students,Mathematics,1306039,83391,37,37,491,448,448
+2013-14,784,Pelham City,111,Pelham High School,All Students,Reading,1306039,83310,35,35,493,464,464
+2013-14,784,Pelham City,111,Pelham High School,All Students,Writing,1306039,81856,35,35,369,384,384
+2013-14,785,Rome City,193,Rome High School,All Students,Combined,1306039,82852,199,199,1352,1430,1430
+2013-14,785,Rome City,193,Rome High School,All Students,Mathematics,1306039,83391,200,200,491,518,518
+2013-14,785,Rome City,193,Rome High School,All Students,Reading,1306039,83310,201,201,493,520,520
+2013-14,785,Rome City,193,Rome High School,All Students,Writing,1306039,81856,196,196,369,393,393
+2013-14,786,Social Circle City,201,Social Circle High School,All Students,Combined,1306039,82852,80,80,1352,1273,1273
+2013-14,786,Social Circle City,201,Social Circle High School,All Students,Mathematics,1306039,83391,80,80,491,467,467
+2013-14,786,Social Circle City,201,Social Circle High School,All Students,Reading,1306039,83310,82,82,493,475,475
+2013-14,786,Social Circle City,201,Social Circle High School,All Students,Writing,1306039,81856,79,79,369,332,332
+2013-14,789,Thomasville City,4052,Thomasville High School,All Students,Combined,1306039,82852,140,140,1352,1323,1323
+2013-14,789,Thomasville City,4052,Thomasville High School,All Students,Mathematics,1306039,83391,141,141,491,481,481
+2013-14,789,Thomasville City,4052,Thomasville High School,All Students,Reading,1306039,83310,140,140,493,508,508
+2013-14,789,Thomasville City,4052,Thomasville High School,All Students,Writing,1306039,81856,138,138,369,335,335
+2013-14,791,Trion City,301,Trion High School,All Students,Combined,1306039,82852,43,43,1352,1428,1428
+2013-14,791,Trion City,301,Trion High School,All Students,Mathematics,1306039,83391,44,44,491,519,519
+2013-14,791,Trion City,301,Trion High School,All Students,Reading,1306039,83310,42,42,493,507,507
+2013-14,791,Trion City,301,Trion High School,All Students,Writing,1306039,81856,42,42,369,402,402
+2013-14,792,Valdosta City,273,Valdosta High School,All Students,Combined,1306039,82852,300,300,1352,1247,1247
+2013-14,792,Valdosta City,273,Valdosta High School,All Students,Mathematics,1306039,83391,304,304,491,445,445
+2013-14,792,Valdosta City,273,Valdosta High School,All Students,Reading,1306039,83310,301,301,493,464,464
+2013-14,792,Valdosta City,273,Valdosta High School,All Students,Writing,1306039,81856,296,296,369,339,339
+2013-14,793,Vidalia City,273,Vidalia Comprehensive High School,All Students,Combined,1306039,82852,128,128,1352,1340,1340
+2013-14,793,Vidalia City,273,Vidalia Comprehensive High School,All Students,Mathematics,1306039,83391,127,127,491,484,484
+2013-14,793,Vidalia City,273,Vidalia Comprehensive High School,All Students,Reading,1306039,83310,130,130,493,483,483
+2013-14,793,Vidalia City,273,Vidalia Comprehensive High School,All Students,Writing,1306039,81856,127,127,369,373,373
+2013-14,7991894,State Schools- Georgia Academy for the Blind,1894,Georgia Academy for the Blind,All Students,Combined,1306039,82852,10,10,1352,916,916
+2013-14,7991894,State Schools- Georgia Academy for the Blind,1894,Georgia Academy for the Blind,All Students,Mathematics,1306039,83391,10,10,491,337,337
+2013-14,7991894,State Schools- Georgia Academy for the Blind,1894,Georgia Academy for the Blind,All Students,Reading,1306039,83310,10,10,493,395,395
+2013-14,7991894,State Schools- Georgia Academy for the Blind,1894,Georgia Academy for the Blind,All Students,Writing,1306039,81856,10,10,369,184,184
+2013-14,891,Department of Juvenile Justice,5001,Sumter Youth Development Campus,All Students,Combined,1306039,82852,TFS,TFS,1352,,
+2013-14,891,Department of Juvenile Justice,5001,Sumter Youth Development Campus,All Students,Mathematics,1306039,83391,TFS,TFS,491,,
+2013-14,891,Department of Juvenile Justice,5001,Sumter Youth Development Campus,All Students,Reading,1306039,83310,TFS,TFS,493,,
+2013-14,891,Department of Juvenile Justice,5001,Sumter Youth Development Campus,All Students,Writing,1306039,81856,TFS,TFS,369,,

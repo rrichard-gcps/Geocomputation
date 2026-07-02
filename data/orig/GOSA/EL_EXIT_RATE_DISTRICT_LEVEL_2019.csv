@@ -1,0 +1,167 @@
+FISCAL_YEAR,SYSTEM_ID,SYSTEM_NAME,EL_EXIT_COUNT,EL_STUDENT_COUNT,EL_EXIT_RATE
+2019,601,Appling County,37,274,13.5
+2019,602,Atkinson County,28,221,12.7
+2019,603,Bacon County,19,96,19.8
+2019,605,Baldwin County,6,56,10.7
+2019,606,Banks County,10,95,10.5
+2019,607,Barrow County,132,1149,11.5
+2019,608,Bartow County,89,649,13.7
+2019,609,Ben Hill County,11,83,13.3
+2019,610,Berrien County,8,57,14
+2019,611,Bibb County,56,531,10.5
+2019,613,Brantley County,0,17,0
+2019,614,Brooks County,4,94,4.3
+2019,615,Bryan County,28,132,21.2
+2019,616,Bulloch County,30,240,12.5
+2019,617,Burke County,6,40,15
+2019,618,Butts County,10,35,28.6
+2019,620,Camden County,9,71,12.7
+2019,621,Candler County,5,66,7.6
+2019,622,Carroll County,59,365,16.2
+2019,623,Catoosa County,12,128,9.4
+2019,625,Savannah-Chatham County,163,1510,10.8
+2019,626,Chattahoochee County,0,14,0
+2019,627,Chattooga County,5,51,9.8
+2019,628,Cherokee County,339,2990,11.3
+2019,629,Clarke County,188,1520,12.4
+2019,631,Clayton County,722,5297,13.6
+2019,632,Clinch County,0,14,0
+2019,633,Cobb County,503,10713,4.7
+2019,634,Coffee County,53,552,9.6
+2019,635,Colquitt County,91,1458,6.2
+2019,636,Columbia County,51,573,8.9
+2019,637,Cook County,0,121,0
+2019,638,Coweta County,99,556,17.8
+2019,639,Crawford County,0,15,0
+2019,640,Crisp County,5,80,6.3
+2019,641,Dade County,3,15,20
+2019,642,Dawson County,18,120,15
+2019,643,Decatur County,14,186,7.5
+2019,644,DeKalb County,691,14908,4.6
+2019,645,Dodge County,3,55,5.5
+2019,646,Dooly County,7,100,7
+2019,647,Dougherty County,24,261,9.2
+2019,648,Douglas County,228,1516,15
+2019,650,Echols County,7,142,4.9
+2019,651,Effingham County,41,170,24.1
+2019,652,Elbert County,6,84,7.1
+2019,653,Emanuel County,12,112,10.7
+2019,654,Evans County,17,214,7.9
+2019,655,Fannin County,6,53,11.3
+2019,656,Fayette County,140,858,16.3
+2019,657,Floyd County,53,365,14.5
+2019,658,Forsyth County,413,3308,12.5
+2019,659,Franklin County,15,129,11.6
+2019,660,Fulton County,950,6572,14.5
+2019,661,Gilmer County,68,567,12
+2019,663,Glynn County,94,748,12.6
+2019,664,Gordon County,48,359,13.4
+2019,665,Grady County,49,499,9.8
+2019,666,Greene County,22,152,14.5
+2019,667,Gwinnett County,3169,27526,11.5
+2019,668,Habersham County,112,970,11.5
+2019,669,Hall County,443,5268,8.4
+2019,671,Haralson County,0,13,0
+2019,672,Harris County,2,25,8
+2019,673,Hart County,11,87,12.6
+2019,674,Heard County,0,10,0
+2019,675,Henry County,129,913,14.1
+2019,676,Houston County,107,930,11.5
+2019,677,Irwin County,1,14,7.1
+2019,678,Jackson County,34,437,7.8
+2019,679,Jasper County,6,69,8.7
+2019,680,Jeff Davis County,33,305,10.8
+2019,681,Jefferson County,8,44,18.2
+2019,682,Jenkins County,1,46,2.2
+2019,684,Jones County,0,19,0
+2019,685,Lamar County,0,19,0
+2019,686,Lanier County,0,25,0
+2019,687,Laurens County,12,116,10.3
+2019,688,Lee County,22,102,21.6
+2019,689,Liberty County,16,139,11.5
+2019,691,Long County,19,151,12.6
+2019,692,Lowndes County,33,236,14
+2019,693,Lumpkin County,14,66,21.2
+2019,694,Macon County,6,58,10.3
+2019,695,Madison County,37,182,20.3
+2019,696,Marion County,6,58,10.3
+2019,697,McDuffie County,10,45,22.2
+2019,699,Meriwether County,0,21,0
+2019,700,Miller County,0,14,0
+2019,701,Mitchell County,9,40,22.5
+2019,702,Monroe County,2,27,7.4
+2019,703,Montgomery County,1,35,2.9
+2019,704,Morgan County,4,49,8.2
+2019,705,Murray County,71,698,10.2
+2019,706,Muscogee County,93,1116,8.3
+2019,707,Newton County,104,660,15.8
+2019,708,Oconee County,2,241,0.8
+2019,709,Oglethorpe County,11,88,12.5
+2019,710,Paulding County,76,718,10.6
+2019,711,Peach County,22,180,12.2
+2019,712,Pickens County,1,56,1.8
+2019,713,Pierce County,10,108,9.3
+2019,714,Pike County,0,14,0
+2019,715,Polk County,67,581,11.5
+2019,716,Pulaski County,0,45,0
+2019,717,Putnam County,18,153,11.8
+2019,719,Rabun County,20,113,17.7
+2019,721,Richmond County,25,476,5.3
+2019,722,Rockdale County,113,664,17
+2019,724,Screven County,1,18,5.6
+2019,725,Seminole County,5,11,45.5
+2019,726,Griffin-Spalding County,56,315,17.8
+2019,727,Stephens County,5,60,8.3
+2019,729,Sumter County,18,231,7.8
+2019,732,Tattnall County,16,231,6.9
+2019,734,Telfair County,0,48,0
+2019,736,Thomas County,16,95,16.8
+2019,737,Tift County,59,503,11.7
+2019,738,Toombs County,33,263,12.5
+2019,741,Troup County,15,368,4.1
+2019,742,Turner County,1,28,3.6
+2019,744,Union County,0,32,0
+2019,745,Thomaston-Upson County,1,26,3.8
+2019,746,Walker County,7,78,9
+2019,747,Walton County,38,410,9.3
+2019,748,Ware County,18,116,15.5
+2019,750,Washington County,0,14,0
+2019,751,Wayne County,17,166,10.2
+2019,753,Wheeler County,3,30,10
+2019,754,White County,9,76,11.8
+2019,755,Whitfield County,177,1982,8.9
+2019,756,Wilcox County,0,13,0
+2019,757,Wilkes County,2,44,4.5
+2019,758,Wilkinson County,0,25,0
+2019,759,Worth County,0,36,0
+2019,761,Atlanta Public Schools,126,2070,6.1
+2019,764,Buford City,75,516,14.5
+2019,765,Calhoun City,36,536,6.7
+2019,766,Carrollton City,28,321,8.7
+2019,767,Cartersville City,34,400,8.5
+2019,771,Commerce City,11,93,11.8
+2019,772,Dalton Public Schools,166,1609,10.3
+2019,773,City Schools of Decatur,19,121,15.7
+2019,774,Dublin City,0,16,0
+2019,776,Gainesville City,216,2323,9.3
+2019,779,Jefferson City,3,81,3.7
+2019,781,Marietta City,177,1561,11.3
+2019,7820108,Mountain Education Center,0,91,0
+2019,7820120,State Charter Schools-Georgia Cyber Academy,9,80,11.3
+2019,7820212,State Charter Schools- Cherokee Charter Academy,0,65,0
+2019,7820412,State Charter Schools- Georgia Connections Academy,1,16,6.3
+2019,7820613,State Charter Schools- Foothills Charter High School (Central Office - Madison)- Foothills Charter High School (Central Office - Madison),1,28,3.6
+2019,7820614,State Charter Schools- International Charter School of Atlanta,18,50,36
+2019,7820617,State Charter Schools- Dubois Integrity Academy,0,25,0
+2019,7820618,State Charter Schools- Coastal Plains Charter High School - Candler Campus,0,10,0
+2019,7830410,Atlanta Heights Charter,0,17,0
+2019,7830613,State Charter Schools II- Brookhaven Innovation Academy- Brookhaven Innovation Academy,9,50,18
+2019,7830615,State Charter Schools II- Genesis Innovation Academy for Boys- Genesis Innovation Academy for Boys,0,15,0
+2019,7830619,State Charter Schools II- International Academy of Smyrna- International Academy of Smyrna,9,61,14.8
+2019,784,Pelham City,3,22,13.6
+2019,785,Rome City,75,822,9.1
+2019,786,Social Circle City,0,18,0
+2019,789,Thomasville City,2,12,16.7
+2019,791,Trion City,2,60,3.3
+2019,792,Valdosta City,18,235,7.7
+2019,793,Vidalia City,3,52,5.8

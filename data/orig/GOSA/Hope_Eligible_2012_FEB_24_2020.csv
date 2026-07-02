@@ -1,0 +1,611 @@
+LONG_SCHOOL_YEAR,SCHOOL_DISTRCT_CD,SCHOOL_DSTRCT_NM,INSTN_NUMBER,INSTN_NAME,NUMBER_OF_GRADUATES,HOPE_ELIGIBLE,HOPE_ELIGIBLE_PCT
+2011-12,601,Appling County,103,Appling County High School,165,66,40
+2011-12,601,Appling County,ALL,All Schools,165,66,40
+2011-12,602,Atkinson County,103,Atkinson County High School,69,28,40.58
+2011-12,602,Atkinson County,ALL,All Schools,69,28,40.58
+2011-12,603,Bacon County,302,Bacon County High School,105,40,38.1
+2011-12,603,Bacon County,ALL,All Schools,105,40,38.1
+2011-12,604,Baker County,105,Baker County K12 School,18,TFS,11.11
+2011-12,604,Baker County,ALL,All Schools,18,TFS,11.11
+2011-12,605,Baldwin County,189,Baldwin High School,226,62,27.43
+2011-12,605,Baldwin County,ALL,All Schools,226,62,27.43
+2011-12,607,Barrow County,101,Apalachee High School,305,142,46.56
+2011-12,607,Barrow County,113,Snodon Preparatory School,17,TFS,11.76
+2011-12,607,Barrow County,3052,Winder-Barrow High School,303,142,46.86
+2011-12,607,Barrow County,ALL,All Schools,625,286,45.76
+2011-12,608,Bartow County,105,Adairsville High School,168,52,30.95
+2011-12,608,Bartow County,114,Cass High School,248,76,30.65
+2011-12,608,Bartow County,198,Woodland High School,307,133,43.32
+2011-12,608,Bartow County,ALL,All Schools,723,261,36.1
+2011-12,609,Ben Hill County,291,Fitzgerald High School,143,41,28.67
+2011-12,609,Ben Hill County,ALL,All Schools,143,41,28.67
+2011-12,610,Berrien County,101,Berrien High School,159,63,39.62
+2011-12,610,Berrien County,106,Berrien Academy Performance Learning Center,20,TFS,10
+2011-12,610,Berrien County,ALL,All Schools,179,65,36.31
+2011-12,611,Bibb County,105,Howard High School,176,71,40.34
+2011-12,611,Bibb County,186,Central High School,176,44,25
+2011-12,611,Bibb County,198,Westside High School,169,32,18.93
+2011-12,611,Bibb County,204,Rutland High School,207,54,26.09
+2011-12,611,Bibb County,286,Northeast High School,125,47,37.6
+2011-12,611,Bibb County,303,William S. Hutchings Career Center,48,14,29.17
+2011-12,611,Bibb County,386,Southwest High School,95,22,23.16
+2011-12,611,Bibb County,ALL,All Schools,996,284,28.51
+2011-12,612,Bleckley County,105,Bleckley County High School,150,61,40.67
+2011-12,612,Bleckley County,ALL,All Schools,150,61,40.67
+2011-12,613,Brantley County,1050,Brantley County High School,153,74,48.37
+2011-12,613,Brantley County,ALL,All Schools,153,74,48.37
+2011-12,614,Brooks County,110,Brooks County High School,106,38,35.85
+2011-12,614,Brooks County,112,Academic Enhancement Program,,,
+2011-12,614,Brooks County,ALL,All Schools,111,38,34.23
+2011-12,615,Bryan County,182,Richmond Hill High School,333,170,51.05
+2011-12,615,Bryan County,502,Bryan County High School,81,47,58.02
+2011-12,615,Bryan County,ALL,All Schools,414,217,52.42
+2011-12,616,Bulloch County,203,Southeast Bulloch High School,207,85,41.06
+2011-12,616,Bulloch County,2054,Statesboro High School,276,134,48.55
+2011-12,616,Bulloch County,4052,Portal Middle/High School,38,14,36.84
+2011-12,616,Bulloch County,ALL,All Schools,521,233,44.72
+2011-12,617,Burke County,288,Burke County High School,223,58,26.01
+2011-12,617,Burke County,ALL,All Schools,223,58,26.01
+2011-12,618,Butts County,190,Jackson High School,175,85,48.57
+2011-12,618,Butts County,ALL,All Schools,175,85,48.57
+2011-12,619,Calhoun County,4050,Calhoun County Middle/High School,28,TFS,28.57
+2011-12,619,Calhoun County,ALL,All Schools,28,TFS,28.57
+2011-12,620,Camden County,295,Camden County High School,629,254,40.38
+2011-12,620,Camden County,ALL,All Schools,629,254,40.38
+2011-12,621,Candler County,101,Metter High School,104,50,48.08
+2011-12,621,Candler County,ALL,All Schools,104,50,48.08
+2011-12,622,Carroll County,113,Open Campus High School,30,TFS,6.67
+2011-12,622,Carroll County,189,Temple High School,110,46,41.82
+2011-12,622,Carroll County,212,Mt. Zion High School,69,33,47.83
+2011-12,622,Carroll County,2052,Central High School,212,125,58.96
+2011-12,622,Carroll County,3050,Bowdon High School,101,53,52.48
+2011-12,622,Carroll County,5054,Villa Rica High School,281,110,39.15
+2011-12,622,Carroll County,ALL,All Schools,803,369,45.95
+2011-12,623,Catoosa County,109,Heritage High School,268,134,50
+2011-12,623,Catoosa County,1052,Lakeview-Fort Oglethorpe High School,176,66,37.5
+2011-12,623,Catoosa County,4052,Ringgold High School,238,142,59.66
+2011-12,623,Catoosa County,ALL,All Schools,682,342,50.15
+2011-12,624,Charlton County,287,Charlton County High School,83,42,50.6
+2011-12,624,Charlton County,ALL,All Schools,83,42,50.6
+2011-12,625,Savannah-Chatham County,101,Johnson High School,178,32,17.98
+2011-12,625,Savannah-Chatham County,209,Savannah Gateway to College,,,
+2011-12,625,Savannah-Chatham County,210,The School of Liberal Studies at Savannah High,142,33,23.24
+2011-12,625,Savannah-Chatham County,411,Islands High School,104,19,18.27
+2011-12,625,Savannah-Chatham County,499,Savannah Arts Academy,204,128,62.75
+2011-12,625,Savannah-Chatham County,2052,Beach High School,179,46,25.7
+2011-12,625,Savannah-Chatham County,3056,Groves High School,220,53,24.09
+2011-12,625,Savannah-Chatham County,5060,Jenkins High School,230,70,30.43
+2011-12,625,Savannah-Chatham County,5070,Windsor Forest High School,194,29,14.95
+2011-12,625,Savannah-Chatham County,ALL,All Schools,1454,410,28.2
+2011-12,626,Chattahoochee County,206,Chattahoochee County High School,62,25,40.32
+2011-12,626,Chattahoochee County,ALL,All Schools,62,25,40.32
+2011-12,627,Chattooga County,1050,Chattooga High School,149,49,32.89
+2011-12,627,Chattooga County,ALL,All Schools,149,49,32.89
+2011-12,628,Cherokee County,106,Creekview High School,325,189,58.15
+2011-12,628,Cherokee County,176,Etowah High School,443,252,56.88
+2011-12,628,Cherokee County,191,Sequoyah High School,397,214,53.9
+2011-12,628,Cherokee County,194,Polaris Evening School,70,TFS,4.29
+2011-12,628,Cherokee County,197,Woodstock High School,474,232,48.95
+2011-12,628,Cherokee County,5050,Cherokee High School,375,155,41.33
+2011-12,628,Cherokee County,ALL,All Schools,2084,1045,50.14
+2011-12,629,Clarke County,102,Cedar Shoals High School,,,
+2011-12,629,Clarke County,104,Classic City High School,11,TFS,9.09
+2011-12,629,Clarke County,5556,Clarke Central High School,,,
+2011-12,629,Clarke County,ALL,All Schools,17,TFS,11.76
+2011-12,631,Clayton County,104,Mundy's Mill High School,306,76,24.84
+2011-12,631,Clayton County,115,Charles R. Drew High School,241,58,24.07
+2011-12,631,Clayton County,190,Lovejoy High School,354,145,40.96
+2011-12,631,Clayton County,290,Mount Zion High School,231,67,29
+2011-12,631,Clayton County,377,Riverdale High School,184,52,28.26
+2011-12,631,Clayton County,1054,Forest Park High School,284,79,27.82
+2011-12,631,Clayton County,1056,Jonesboro High School,194,52,26.8
+2011-12,631,Clayton County,2052,North Clayton High School,160,40,25
+2011-12,631,Clayton County,4058,Morrow High School,273,79,28.94
+2011-12,631,Clayton County,ALL,All Schools,2227,648,29.1
+2011-12,632,Clinch County,1050,Clinch County High School,68,32,47.06
+2011-12,632,Clinch County,ALL,All Schools,68,32,47.06
+2011-12,633,Cobb County,101,Kennesaw Mountain High School,422,222,52.61
+2011-12,633,Cobb County,103,Kell High School,350,193,55.14
+2011-12,633,Cobb County,175,Walton High School,621,400,64.41
+2011-12,633,Cobb County,186,Oakwood Digital Academy,112,TFS,5.36
+2011-12,633,Cobb County,188,Pope High School,412,281,68.2
+2011-12,633,Cobb County,192,Harrison High School,529,329,62.19
+2011-12,633,Cobb County,209,Allatoona High School,406,161,39.66
+2011-12,633,Cobb County,373,Sprayberry High School,340,155,45.59
+2011-12,633,Cobb County,381,Lassiter High School,452,263,58.19
+2011-12,633,Cobb County,707,Hillgrove High School,414,247,59.66
+2011-12,633,Cobb County,1054,Campbell High School,410,160,39.02
+2011-12,633,Cobb County,1064,McEachern High School,447,106,23.71
+2011-12,633,Cobb County,1069,Wheeler High School,422,218,51.66
+2011-12,633,Cobb County,2056,North Cobb High School,553,240,43.4
+2011-12,633,Cobb County,2066,Osborne High School,319,96,30.09
+2011-12,633,Cobb County,3056,South Cobb High School,346,123,35.55
+2011-12,633,Cobb County,4066,Pebblebrook High School,274,58,21.17
+2011-12,633,Cobb County,ALL,All Schools,6829,3258,47.71
+2011-12,634,Coffee County,195,Coffee County High School,359,128,35.65
+2011-12,634,Coffee County,ALL,All Schools,359,128,35.65
+2011-12,635,Colquitt County,112,Colquitt County Achievement Center,30,TFS,13.33
+2011-12,635,Colquitt County,1554,Colquitt County High School,432,224,51.85
+2011-12,635,Colquitt County,ALL,All Schools,462,228,49.35
+2011-12,636,Columbia County,112,Grovetown High School,222,62,27.93
+2011-12,636,Columbia County,183,Harlem High School,108,29,26.85
+2011-12,636,Columbia County,189,Lakeside High School,324,173,53.4
+2011-12,636,Columbia County,197,Greenbrier High School,345,204,59.13
+2011-12,636,Columbia County,4050,Evans High School,331,148,44.71
+2011-12,636,Columbia County,ALL,All Schools,1330,616,46.32
+2011-12,637,Cook County,111,Cook High School,162,65,40.12
+2011-12,637,Cook County,ALL,All Schools,162,65,40.12
+2011-12,638,Coweta County,196,Northgate High School,393,203,51.65
+2011-12,638,Coweta County,389,East Coweta High School,519,241,46.44
+2011-12,638,Coweta County,5054,Newnan High School,480,177,36.88
+2011-12,638,Coweta County,ALL,All Schools,1392,621,44.61
+2011-12,639,Crawford County,193,Crawford County High School,90,28,31.11
+2011-12,639,Crawford County,ALL,All Schools,90,28,31.11
+2011-12,640,Crisp County,196,Crisp County High School,191,70,36.65
+2011-12,640,Crisp County,ALL,All Schools,191,70,36.65
+2011-12,641,Dade County,195,Dade County High School,132,64,48.48
+2011-12,641,Dade County,ALL,All Schools,132,64,48.48
+2011-12,642,Dawson County,198,Dawson County High School,213,99,46.48
+2011-12,642,Dawson County,ALL,All Schools,213,99,46.48
+2011-12,643,Decatur County,3050,Bainbridge High School,292,101,34.59
+2011-12,643,Decatur County,ALL,All Schools,292,101,34.59
+2011-12,644,DeKalb County,103,"Martin Luther King, Jr. High School",262,59,22.52
+2011-12,644,DeKalb County,105,Miller Grove High School,246,46,18.7
+2011-12,644,DeKalb County,112,Destiny Achievers Academy of Excellence,23,,
+2011-12,644,DeKalb County,172,Cedar Grove High School,169,52,30.77
+2011-12,644,DeKalb County,176,Redan High School,239,80,33.47
+2011-12,644,DeKalb County,199,DeKalb Alternative Night School,,,
+2011-12,644,DeKalb County,202,Lithonia High School,192,55,28.65
+2011-12,644,DeKalb County,276,Stone Mountain High School,199,67,33.67
+2011-12,644,DeKalb County,407,Dekalb Early College Academy,34,16,47.06
+2011-12,644,DeKalb County,410,DeKalb School of the Arts,55,50,90.91
+2011-12,644,DeKalb County,497,Stephenson High School,309,69,22.33
+2011-12,644,DeKalb County,606,Gateway to College Academy,10,,
+2011-12,644,DeKalb County,610,"Arabia Mountain High School - Academy of Engineering, Medicine and Environm",255,110,43.14
+2011-12,644,DeKalb County,810,Elizabeth Andrews High School,138,TFS,2.9
+2011-12,644,DeKalb County,1070,Tucker High School,296,117,39.53
+2011-12,644,DeKalb County,2054,Columbia High School,199,73,36.68
+2011-12,644,DeKalb County,2055,Druid Hills High School,306,155,50.65
+2011-12,644,DeKalb County,3060,Lakeside High School,373,185,49.6
+2011-12,644,DeKalb County,3070,McNair High School,106,30,28.3
+2011-12,644,DeKalb County,4053,Clarkston High School,122,37,30.33
+2011-12,644,DeKalb County,4054,Cross Keys High School,134,62,46.27
+2011-12,644,DeKalb County,4069,Towers High School,139,38,27.34
+2011-12,644,DeKalb County,5052,Chamblee Charter High School,310,167,53.87
+2011-12,644,DeKalb County,5055,Dunwoody High School,341,192,56.3
+2011-12,644,DeKalb County,5067,Southwest DeKalb High School,302,90,29.8
+2011-12,644,DeKalb County,ALL,All Schools,4760,1754,36.85
+2011-12,645,Dodge County,103,Dodge County High School,172,73,42.44
+2011-12,645,Dodge County,ALL,All Schools,172,73,42.44
+2011-12,646,Dooly County,182,Dooly County High School,62,14,22.58
+2011-12,646,Dooly County,ALL,All Schools,62,14,22.58
+2011-12,647,Dougherty County,1050,Albany High School,130,24,18.46
+2011-12,647,Dougherty County,1058,Monroe High School,145,41,28.28
+2011-12,647,Dougherty County,2052,Dougherty Comprehensive High School,124,15,12.1
+2011-12,647,Dougherty County,4062,Westover High School,312,105,33.65
+2011-12,647,Dougherty County,ALL,All Schools,711,185,26.02
+2011-12,648,Douglas County,100,Chapel Hill High School,288,90,31.25
+2011-12,648,Douglas County,175,Lithia Springs Comprehensive High School,292,101,34.59
+2011-12,648,Douglas County,187,Alexander High School,369,164,44.44
+2011-12,648,Douglas County,212,New Manchester High School,163,33,20.25
+2011-12,648,Douglas County,4050,Douglas County High School,356,123,34.55
+2011-12,648,Douglas County,ALL,All Schools,1468,511,34.81
+2011-12,649,Early County,2050,Early County High School,116,49,42.24
+2011-12,649,Early County,ALL,All Schools,116,49,42.24
+2011-12,650,Echols County,1050,Echols County High School,42,25,59.52
+2011-12,650,Echols County,ALL,All Schools,42,25,59.52
+2011-12,651,Effingham County,197,South Effingham High School,331,158,47.73
+2011-12,651,Effingham County,390,Effingham County High School,350,208,59.43
+2011-12,651,Effingham County,ALL,All Schools,681,366,53.74
+2011-12,652,Elbert County,112,Elberton Education Center,14,,
+2011-12,652,Elbert County,176,Elbert County High School,158,67,42.41
+2011-12,652,Elbert County,ALL,All Schools,172,67,38.95
+2011-12,653,Emanuel County,189,Swainsboro High School,160,59,36.88
+2011-12,653,Emanuel County,2050,Emanuel County Institute,61,28,45.9
+2011-12,653,Emanuel County,ALL,All Schools,221,87,39.37
+2011-12,654,Evans County,2050,Claxton High School,87,43,49.43
+2011-12,654,Evans County,ALL,All Schools,87,43,49.43
+2011-12,655,Fannin County,176,Fannin County High School,175,105,60
+2011-12,655,Fannin County,ALL,All Schools,175,105,60
+2011-12,656,Fayette County,105,Whitewater High School,361,247,68.42
+2011-12,656,Fayette County,182,McIntosh High School,367,232,63.22
+2011-12,656,Fayette County,192,Sandy Creek High School,279,125,44.8
+2011-12,656,Fayette County,198,Starrs Mill High School,346,241,69.65
+2011-12,656,Fayette County,398,Fayette County High School,303,113,37.29
+2011-12,656,Fayette County,ALL,All Schools,1656,958,57.85
+2011-12,657,Floyd County,107,Pepperell High School,168,68,40.48
+2011-12,657,Floyd County,111,Model High,124,61,49.19
+2011-12,657,Floyd County,401,Armuchee High School,139,63,45.32
+2011-12,657,Floyd County,5050,Coosa High School,133,63,47.37
+2011-12,657,Floyd County,ALL,All Schools,564,255,45.21
+2011-12,658,Forsyth County,107,West Forsyth High School,432,275,63.66
+2011-12,658,Forsyth County,190,South Forsyth High School,319,190,59.56
+2011-12,658,Forsyth County,195,North Forsyth High School,421,201,47.74
+2011-12,658,Forsyth County,214,Lambert High School,467,343,73.45
+2011-12,658,Forsyth County,218,Forsyth Academy,56,11,19.64
+2011-12,658,Forsyth County,219,Forsyth Virtual Academy,33,10,30.3
+2011-12,658,Forsyth County,5050,Forsyth Central High School,284,139,48.94
+2011-12,658,Forsyth County,ALL,All Schools,2012,1169,58.1
+2011-12,659,Franklin County,3050,Franklin County High School,202,107,52.97
+2011-12,659,Franklin County,ALL,All Schools,202,107,52.97
+2011-12,660,Fulton County,106,Milton High School,573,370,64.57
+2011-12,660,Fulton County,176,Banneker High School,171,26,15.2
+2011-12,660,Fulton County,191,Roswell High School,452,254,56.19
+2011-12,660,Fulton County,198,Centennial High School,355,185,52.11
+2011-12,660,Fulton County,203,Northview High School,481,358,74.43
+2011-12,660,Fulton County,205,Alpharetta High School,486,284,58.44
+2011-12,660,Fulton County,291,Creekside High School,193,43,22.28
+2011-12,660,Fulton County,383,McClarin High School,131,TFS,0.76
+2011-12,660,Fulton County,386,Independence High School,152,TFS,4.61
+2011-12,660,Fulton County,392,Chattahoochee High School,358,233,65.08
+2011-12,660,Fulton County,506,Fulton Science Academy High School,40,20,50
+2011-12,660,Fulton County,691,Tri-Cities High School,325,97,29.85
+2011-12,660,Fulton County,910,Johns Creek High School,382,261,68.32
+2011-12,660,Fulton County,1110,Langston Hughes High School,301,64,21.26
+2011-12,660,Fulton County,3066,Riverwood International Charter School,327,183,55.96
+2011-12,660,Fulton County,4062,North Springs High School,252,100,39.68
+2011-12,660,Fulton County,5069,Westlake High School,375,112,29.87
+2011-12,660,Fulton County,ALL,All Schools,5354,2598,48.52
+2011-12,661,Gilmer County,196,Gilmer High School,199,84,42.21
+2011-12,661,Gilmer County,ALL,All Schools,199,84,42.21
+2011-12,662,Glascock County,196,Glascock County Consolidated School,46,21,45.65
+2011-12,662,Glascock County,ALL,All Schools,46,21,45.65
+2011-12,663,Glynn County,3552,Brunswick High School,344,115,33.43
+2011-12,663,Glynn County,4752,Glynn Academy,355,170,47.89
+2011-12,663,Glynn County,ALL,All Schools,699,285,40.77
+2011-12,664,Gordon County,106,Sonoraville High School,211,110,52.13
+2011-12,664,Gordon County,286,Gordon Central High School,160,92,57.5
+2011-12,664,Gordon County,ALL,All Schools,371,202,54.45
+2011-12,665,Grady County,1050,Cairo High School,183,95,51.91
+2011-12,665,Grady County,ALL,All Schools,183,95,51.91
+2011-12,666,Greene County,401,Greene County High School,84,31,36.9
+2011-12,666,Greene County,ALL,All Schools,84,31,36.9
+2011-12,667,Gwinnett County,101,Grayson High School,568,264,46.48
+2011-12,667,Gwinnett County,103,Norcross High School,530,202,38.11
+2011-12,667,Gwinnett County,105,Mill Creek High School,674,336,49.85
+2011-12,667,Gwinnett County,176,Parkview High School,568,320,56.34
+2011-12,667,Gwinnett County,182,Brookwood High School,765,386,50.46
+2011-12,667,Gwinnett County,185,Shiloh High School,371,90,24.26
+2011-12,667,Gwinnett County,187,Meadowcreek High School,344,95,27.62
+2011-12,667,Gwinnett County,189,Phoenix High School,196,TFS,1.53
+2011-12,667,Gwinnett County,195,Collins Hill High School,660,337,51.06
+2011-12,667,Gwinnett County,805,Peachtree Ridge High School,695,357,51.37
+2011-12,667,Gwinnett County,1018,Lanier High School,120,29,24.17
+2011-12,667,Gwinnett County,1019,"Gwinnett School of Mathematics, Science and Technology",95,68,71.58
+2011-12,667,Gwinnett County,1050,Berkmar High School,464,169,36.42
+2011-12,667,Gwinnett County,1212,Gwinnett Online Campus,12,TFS,16.67
+2011-12,667,Gwinnett County,1410,Mountain View High School,297,115,38.72
+2011-12,667,Gwinnett County,1710,Archer High School,289,98,33.91
+2011-12,667,Gwinnett County,2558,South Gwinnett High School,367,102,27.79
+2011-12,667,Gwinnett County,3750,Central Gwinnett High School,436,135,30.96
+2011-12,667,Gwinnett County,4052,Dacula High School,322,106,32.92
+2011-12,667,Gwinnett County,4556,North Gwinnett High School,583,321,55.06
+2011-12,667,Gwinnett County,5550,Duluth High School,476,199,41.81
+2011-12,667,Gwinnett County,ALL,All Schools,8832,3734,42.28
+2011-12,668,Habersham County,2052,Habersham Central High School,311,152,48.87
+2011-12,668,Habersham County,ALL,All Schools,311,152,48.87
+2011-12,669,Hall County,102,Chestatee High School,192,98,51.04
+2011-12,669,Hall County,105,Lanier Career Academy,76,TFS,11.84
+2011-12,669,Hall County,189,West Hall High School,200,86,43
+2011-12,669,Hall County,202,Flowery Branch High,309,157,50.81
+2011-12,669,Hall County,1552,East Hall High School,143,55,38.46
+2011-12,669,Hall County,1556,North Hall High School,224,128,57.14
+2011-12,669,Hall County,4752,Johnson High School,195,80,41.03
+2011-12,669,Hall County,ALL,All Schools,1339,613,45.78
+2011-12,670,Hancock County,288,Hancock Central High School,79,30,37.97
+2011-12,670,Hancock County,ALL,All Schools,79,30,37.97
+2011-12,671,Haralson County,3050,Haralson County High School,174,71,40.8
+2011-12,671,Haralson County,ALL,All Schools,174,71,40.8
+2011-12,672,Harris County,299,Harris County High School,351,156,44.44
+2011-12,672,Harris County,ALL,All Schools,351,156,44.44
+2011-12,673,Hart County,3050,Hart County High School,155,68,43.87
+2011-12,673,Hart County,ALL,All Schools,155,68,43.87
+2011-12,674,Heard County,110,Heard County High School,127,52,40.94
+2011-12,674,Heard County,ALL,All Schools,127,52,40.94
+2011-12,675,Henry County,101,Union Grove High,360,179,49.72
+2011-12,675,Henry County,104,Luella High School,364,119,32.69
+2011-12,675,Henry County,105,Dutchtown High,275,93,33.82
+2011-12,675,Henry County,195,Patrick Henry High School,64,TFS,4.69
+2011-12,675,Henry County,214,Locust Grove High,186,46,24.73
+2011-12,675,Henry County,295,Stockbridge High School,215,40,18.6
+2011-12,675,Henry County,307,Ola High School,275,91,33.09
+2011-12,675,Henry County,391,Eagle's Landing High School,180,49,27.22
+2011-12,675,Henry County,408,Woodland High School,356,90,25.28
+2011-12,675,Henry County,3050,Henry County High School,234,59,25.21
+2011-12,675,Henry County,ALL,All Schools,2509,769,30.65
+2011-12,676,Houston County,111,Veterans High School,244,123,50.41
+2011-12,676,Houston County,192,Houston County High School,402,231,57.46
+2011-12,676,Houston County,300,Houston County Career Academy,39,TFS,5.13
+2011-12,676,Houston County,1054,Perry High School,245,113,46.12
+2011-12,676,Houston County,2052,Northside High School,349,135,38.68
+2011-12,676,Houston County,3050,Elberta Open Campus High School,17,TFS,5.88
+2011-12,676,Houston County,4056,Warner Robins High School,424,174,41.04
+2011-12,676,Houston County,ALL,All Schools,1720,779,45.29
+2011-12,677,Irwin County,2050,Irwin County High School,82,41,50
+2011-12,677,Irwin County,ALL,All Schools,82,41,50
+2011-12,678,Jackson County,107,East Jackson Comprehensive High School,216,90,41.67
+2011-12,678,Jackson County,191,Jackson County High School,202,90,44.55
+2011-12,678,Jackson County,ALL,All Schools,418,180,43.06
+2011-12,679,Jasper County,108,Jasper County High School,112,33,29.46
+2011-12,679,Jasper County,ALL,All Schools,112,33,29.46
+2011-12,680,Jeff Davis County,199,Jeff Davis High School,136,52,38.24
+2011-12,680,Jeff Davis County,ALL,All Schools,136,52,38.24
+2011-12,681,Jefferson County,196,Jefferson County High School,156,52,33.33
+2011-12,681,Jefferson County,ALL,All Schools,156,52,33.33
+2011-12,682,Jenkins County,201,Jenkins County High School,73,37,50.68
+2011-12,682,Jenkins County,ALL,All Schools,73,37,50.68
+2011-12,683,Johnson County,201,Johnson County High School,50,16,32
+2011-12,683,Johnson County,ALL,All Schools,50,16,32
+2011-12,684,Jones County,192,Jones County High School,292,92,31.51
+2011-12,684,Jones County,ALL,All Schools,292,92,31.51
+2011-12,685,Lamar County,175,Lamar County High School,156,50,32.05
+2011-12,685,Lamar County,ALL,All Schools,156,50,32.05
+2011-12,686,Lanier County,201,Lanier County High School,93,40,43.01
+2011-12,686,Lanier County,ALL,All Schools,93,40,43.01
+2011-12,687,Laurens County,110,West Laurens High School,239,99,41.42
+2011-12,687,Laurens County,197,East Laurens High School,121,45,37.19
+2011-12,687,Laurens County,ALL,All Schools,360,144,40
+2011-12,688,Lee County,193,Lee County High School,327,156,47.71
+2011-12,688,Lee County,ALL,All Schools,327,156,47.71
+2011-12,689,Liberty County,105,Bradwell Institute,333,101,30.33
+2011-12,689,Liberty County,192,Liberty County High School,207,83,40.1
+2011-12,689,Liberty County,ALL,All Schools,540,184,34.07
+2011-12,690,Lincoln County,110,Lincoln County High School,83,36,43.37
+2011-12,690,Lincoln County,ALL,All Schools,83,36,43.37
+2011-12,691,Long County,205,Long County High School,102,38,37.25
+2011-12,691,Long County,ALL,All Schools,102,38,37.25
+2011-12,692,Lowndes County,5050,Lowndes High School,626,284,45.37
+2011-12,692,Lowndes County,ALL,All Schools,626,284,45.37
+2011-12,693,Lumpkin County,101,Lumpkin County High School,209,90,43.06
+2011-12,693,Lumpkin County,ALL,All Schools,209,90,43.06
+2011-12,694,Macon County,2060,Macon County High School,56,24,42.86
+2011-12,694,Macon County,ALL,All Schools,56,24,42.86
+2011-12,695,Madison County,5050,Madison County High School,262,114,43.51
+2011-12,695,Madison County,ALL,All Schools,262,114,43.51
+2011-12,696,Marion County,275,Marion County Middle/High School,82,29,35.37
+2011-12,696,Marion County,ALL,All Schools,82,29,35.37
+2011-12,697,McDuffie County,192,Thomson High School,198,83,41.92
+2011-12,697,McDuffie County,ALL,All Schools,198,83,41.92
+2011-12,698,McIntosh County,104,McIntosh Academy,113,63,55.75
+2011-12,698,McIntosh County,ALL,All Schools,113,63,55.75
+2011-12,699,Meriwether County,300,Greenville High School,55,12,21.82
+2011-12,699,Meriwether County,4050,Manchester High School,97,43,44.33
+2011-12,699,Meriwether County,ALL,All Schools,152,55,36.18
+2011-12,700,Miller County,210,Miller County High School,52,27,51.92
+2011-12,700,Miller County,ALL,All Schools,52,27,51.92
+2011-12,701,Mitchell County,105,Baconton Community Charter School,20,11,55
+2011-12,701,Mitchell County,282,Mitchell County High School,61,17,27.87
+2011-12,701,Mitchell County,ALL,All Schools,81,28,34.57
+2011-12,702,Monroe County,184,Mary Persons High School,254,104,40.94
+2011-12,702,Monroe County,ALL,All Schools,254,104,40.94
+2011-12,703,Montgomery County,201,Montgomery County High School,60,11,18.33
+2011-12,703,Montgomery County,ALL,All Schools,60,11,18.33
+2011-12,704,Morgan County,1050,Morgan County High School,207,82,39.61
+2011-12,704,Morgan County,ALL,All Schools,207,82,39.61
+2011-12,705,Murray County,108,Pleasant Valley Innovative School,14,,
+2011-12,705,Murray County,112,North Murray High School,192,96,50
+2011-12,705,Murray County,190,Murray County High School,196,62,31.63
+2011-12,705,Murray County,ALL,All Schools,402,158,39.3
+2011-12,706,Muscogee County,112,Early College Academy of Columbus at Waverly Terrace,23,TFS,13.04
+2011-12,706,Muscogee County,203,Northside High School,344,135,39.24
+2011-12,706,Muscogee County,278,Shaw High School,255,81,31.76
+2011-12,706,Muscogee County,378,Spencer High School,147,25,17.01
+2011-12,706,Muscogee County,1064,Kendrick High School,119,12,10.08
+2011-12,706,Muscogee County,2062,Hardaway High School,305,102,33.44
+2011-12,706,Muscogee County,3054,Columbus High School,301,257,85.38
+2011-12,706,Muscogee County,5052,Carver High School,196,43,21.94
+2011-12,706,Muscogee County,5062,Jordan Vocational High School,130,41,31.54
+2011-12,706,Muscogee County,ALL,All Schools,1820,699,38.41
+2011-12,707,Newton County,113,Challenge Charter Academy,10,TFS,10
+2011-12,707,Newton County,173,Newton High School,358,146,40.78
+2011-12,707,Newton County,206,Alcovy High School,300,122,40.67
+2011-12,707,Newton County,295,Eastside High School,271,142,52.4
+2011-12,707,Newton County,ALL,All Schools,939,411,43.77
+2011-12,708,Oconee County,105,North Oconee High School,226,148,65.49
+2011-12,708,Oconee County,293,Oconee County High School,215,140,65.12
+2011-12,708,Oconee County,ALL,All Schools,441,288,65.31
+2011-12,709,Oglethorpe County,2050,Oglethorpe County High School,136,55,40.44
+2011-12,709,Oglethorpe County,ALL,All Schools,136,55,40.44
+2011-12,710,Paulding County,101,Hiram High School,303,107,35.31
+2011-12,710,Paulding County,106,South Paulding High School,411,185,45.01
+2011-12,710,Paulding County,109,North Paulding High School,332,176,53.01
+2011-12,710,Paulding County,292,East Paulding High School,286,132,46.15
+2011-12,710,Paulding County,2552,Paulding County High School,249,95,38.15
+2011-12,710,Paulding County,ALL,All Schools,1581,695,43.96
+2011-12,711,Peach County,2052,Peach County High School,220,86,39.09
+2011-12,711,Peach County,ALL,All Schools,220,86,39.09
+2011-12,712,Pickens County,198,Pickens County High School,252,141,55.95
+2011-12,712,Pickens County,ALL,All Schools,252,141,55.95
+2011-12,713,Pierce County,182,Pierce County High School,212,137,64.62
+2011-12,713,Pierce County,ALL,All Schools,212,137,64.62
+2011-12,714,Pike County,194,Pike County High School,223,95,42.6
+2011-12,714,Pike County,ALL,All Schools,223,95,42.6
+2011-12,715,Polk County,102,Rockmart High School,117,63,53.85
+2011-12,715,Polk County,5050,Cedartown High School,173,75,43.35
+2011-12,715,Polk County,ALL,All Schools,290,138,47.59
+2011-12,716,Pulaski County,2050,Hawkinsville High School,87,31,35.63
+2011-12,716,Pulaski County,ALL,All Schools,87,31,35.63
+2011-12,717,Putnam County,114,Putnam County High School,138,25,18.12
+2011-12,717,Putnam County,ALL,All Schools,138,25,18.12
+2011-12,718,Quitman County,110,Quitman County High School,10,TFS,20
+2011-12,718,Quitman County,ALL,All Schools,10,TFS,20
+2011-12,719,Rabun County,177,Rabun County High School,142,79,55.63
+2011-12,719,Rabun County,ALL,All Schools,142,79,55.63
+2011-12,720,Randolph County,201,Randolph Clay High School,39,TFS,10.26
+2011-12,720,Randolph County,ALL,All Schools,39,TFS,10.26
+2011-12,721,Richmond County,100,Cross Creek High School,237,34,14.35
+2011-12,721,Richmond County,1052,Butler High School,137,38,27.74
+2011-12,721,Richmond County,2056,Hephzibah High School,183,51,27.87
+2011-12,721,Richmond County,2574,Westside High School,147,39,26.53
+2011-12,721,Richmond County,3054,Glenn Hills High School,205,34,16.59
+2011-12,721,Richmond County,3556,Johnson Magnet,81,42,51.85
+2011-12,721,Richmond County,3756,Josey High School,140,22,15.71
+2011-12,721,Richmond County,4060,Academy of Richmond County High School,216,59,27.31
+2011-12,721,Richmond County,4562,Davidson Magnet School,87,67,77.01
+2011-12,721,Richmond County,5566,Laney High School,103,21,20.39
+2011-12,721,Richmond County,ALL,All Schools,1536,407,26.5
+2011-12,722,Rockdale County,176,Heritage High School,318,84,26.42
+2011-12,722,Rockdale County,192,Salem High School,268,57,21.27
+2011-12,722,Rockdale County,3052,Rockdale County High School,348,108,31.03
+2011-12,722,Rockdale County,ALL,All Schools,934,249,26.66
+2011-12,723,Schley County,101,Schley Middle High School,77,52,67.53
+2011-12,723,Schley County,ALL,All Schools,77,52,67.53
+2011-12,724,Screven County,4052,Screven County High School,152,69,45.39
+2011-12,724,Screven County,ALL,All Schools,152,69,45.39
+2011-12,725,Seminole County,196,Seminole County Middle/High School,79,42,53.16
+2011-12,725,Seminole County,ALL,All Schools,79,42,53.16
+2011-12,726,Griffin-Spalding County,101,Spalding High School,234,102,43.59
+2011-12,726,Griffin-Spalding County,187,Griffin High School,195,80,41.03
+2011-12,726,Griffin-Spalding County,208,AZ Kelsey Academy,23,,
+2011-12,726,Griffin-Spalding County,ALL,All Schools,452,182,40.27
+2011-12,727,Stephens County,5050,Stephens County High School,191,101,52.88
+2011-12,727,Stephens County,ALL,All Schools,191,101,52.88
+2011-12,728,Stewart County,201,Stewart County High School,26,TFS,19.23
+2011-12,728,Stewart County,ALL,All Schools,26,TFS,19.23
+2011-12,729,Sumter County,105,Americus Sumter High School (Old Americus-Sumter HS S),201,64,31.84
+2011-12,729,Sumter County,ALL,All Schools,201,64,31.84
+2011-12,730,Talbot County,190,Central Elementary/High School,18,TFS,27.78
+2011-12,730,Talbot County,ALL,All Schools,18,TFS,27.78
+2011-12,731,Taliaferro County,102,Taliaferro County School,11,TFS,36.36
+2011-12,731,Taliaferro County,ALL,All Schools,11,TFS,36.36
+2011-12,732,Tattnall County,194,Tattnall County High School,146,70,47.95
+2011-12,732,Tattnall County,ALL,All Schools,146,70,47.95
+2011-12,733,Taylor County,201,Taylor County High School,84,38,45.24
+2011-12,733,Taylor County,ALL,All Schools,84,38,45.24
+2011-12,734,Telfair County,201,Telfair County High School,69,33,47.83
+2011-12,734,Telfair County,ALL,All Schools,69,33,47.83
+2011-12,735,Terrell County,105,Terrell High School,67,18,26.87
+2011-12,735,Terrell County,ALL,All Schools,67,18,26.87
+2011-12,736,Thomas County,100,Bishop Hall Charter School,20,12,60
+2011-12,736,Thomas County,191,Thomas County Central High School,308,138,44.81
+2011-12,736,Thomas County,ALL,All Schools,328,150,45.73
+2011-12,737,Tift County,199,Tift County High School,378,171,45.24
+2011-12,737,Tift County,ALL,All Schools,378,171,45.24
+2011-12,738,Toombs County,192,Toombs County High School,107,45,42.06
+2011-12,738,Toombs County,ALL,All Schools,107,45,42.06
+2011-12,739,Towns County,204,Towns County High School,55,33,60
+2011-12,739,Towns County,ALL,All Schools,55,33,60
+2011-12,740,Treutlen County,3050,Treutlen Middle/High School,48,24,50
+2011-12,740,Treutlen County,ALL,All Schools,48,24,50
+2011-12,741,Troup County,201,Callaway High School,146,64,43.84
+2011-12,741,Troup County,387,Troup County High School,209,91,43.54
+2011-12,741,Troup County,1052,LaGrange High School,241,144,59.75
+2011-12,741,Troup County,ALL,All Schools,596,299,50.17
+2011-12,742,Turner County,3050,Turner County High School,73,26,35.62
+2011-12,742,Turner County,ALL,All Schools,73,26,35.62
+2011-12,743,Twiggs County,201,Twiggs County High School,36,17,47.22
+2011-12,743,Twiggs County,ALL,All Schools,36,17,47.22
+2011-12,744,Union County,101,Union County High School,124,69,55.65
+2011-12,744,Union County,3050,Woody Gap High/Elementary School,,,
+2011-12,744,Union County,ALL,All Schools,129,71,55.04
+2011-12,745,Thomaston-Upson County,195,Upson-Lee High School,271,115,42.44
+2011-12,745,Thomaston-Upson County,ALL,All Schools,271,115,42.44
+2011-12,746,Walker County,190,Ridgeland High School,253,85,33.6
+2011-12,746,Walker County,198,LaFayette High School,218,89,40.83
+2011-12,746,Walker County,ALL,All Schools,471,174,36.94
+2011-12,747,Walton County,111,Walnut Grove High School,205,109,53.17
+2011-12,747,Walton County,199,Loganville High School,311,133,42.77
+2011-12,747,Walton County,205,Monroe Area High School,196,75,38.27
+2011-12,747,Walton County,ALL,All Schools,712,317,44.52
+2011-12,748,Ware County,195,Ware County High School,294,123,41.84
+2011-12,748,Ware County,ALL,All Schools,294,123,41.84
+2011-12,749,Warren County,205,Warren County High School,45,TFS,20
+2011-12,749,Warren County,ALL,All Schools,45,TFS,20
+2011-12,750,Washington County,1052,Washington County High School,219,92,42.01
+2011-12,750,Washington County,ALL,All Schools,219,92,42.01
+2011-12,751,Wayne County,101,Wayne County High School,250,134,53.6
+2011-12,751,Wayne County,ALL,All Schools,250,134,53.6
+2011-12,752,Webster County,108,Webster County High School,27,10,37.04
+2011-12,752,Webster County,ALL,All Schools,27,10,37.04
+2011-12,753,Wheeler County,3052,Wheeler County High School,46,29,63.04
+2011-12,753,Wheeler County,ALL,All Schools,46,29,63.04
+2011-12,754,White County,105,White County High School,238,129,54.2
+2011-12,754,White County,ALL,All Schools,238,129,54.2
+2011-12,755,Whitfield County,105,Northwest Georgia College & Career Academy,74,26,35.14
+2011-12,755,Whitfield County,112,Coahulla Creek High School,41,17,41.46
+2011-12,755,Whitfield County,175,Northwest Whitfield County High School,325,172,52.92
+2011-12,755,Whitfield County,212,Phoenix High School,53,TFS,15.09
+2011-12,755,Whitfield County,275,Southeast Whitfield County High School,192,88,45.83
+2011-12,755,Whitfield County,ALL,All Schools,685,311,45.4
+2011-12,756,Wilcox County,201,Wilcox County High School,63,35,55.56
+2011-12,756,Wilcox County,ALL,All Schools,63,35,55.56
+2011-12,757,Wilkes County,110,Washington-Wilkes Comprehensive High School,77,25,32.47
+2011-12,757,Wilkes County,ALL,All Schools,77,25,32.47
+2011-12,758,Wilkinson County,3050,Wilkinson County High School,73,25,34.25
+2011-12,758,Wilkinson County,ALL,All Schools,73,25,34.25
+2011-12,759,Worth County,176,Worth County High School,182,82,45.05
+2011-12,759,Worth County,ALL,All Schools,182,82,45.05
+2011-12,761,Atlanta Public Schools,106,Early College High School at Carver,69,31,44.93
+2011-12,761,Atlanta Public Schools,108,South Atlanta School of Health and Medical Science,58,24,41.38
+2011-12,761,Atlanta Public Schools,182,Mays High School,256,73,28.52
+2011-12,761,Atlanta Public Schools,186,"Maynard H. Jackson, Jr. High School",120,28,23.33
+2011-12,761,Atlanta Public Schools,192,North Atlanta High School,218,85,38.99
+2011-12,761,Atlanta Public Schools,205,Tech High School,32,10,31.25
+2011-12,761,Atlanta Public Schools,208,South Atlanta Law and Social Justice School,51,10,19.61
+2011-12,761,Atlanta Public Schools,306,School of Technology at Carver,58,10,17.24
+2011-12,761,Atlanta Public Schools,406,School of Health Sciences and Research at Carver,83,25,30.12
+2011-12,761,Atlanta Public Schools,408,South Atlanta School of Computer Animation and Design,60,TFS,13.33
+2011-12,761,Atlanta Public Schools,506,The School of the Arts at Carver,63,15,23.81
+2011-12,761,Atlanta Public Schools,508,"Therrell School of Law, Government and Public Policy - C",41,TFS,12.2
+2011-12,761,Atlanta Public Schools,608,"Therrell School of Engineering, Math, and Science - C",37,TFS,21.62
+2011-12,761,Atlanta Public Schools,708,Therrell School of Health and Science - C,47,TFS,17.02
+2011-12,761,Atlanta Public Schools,2664,Crim High School,64,TFS,6.25
+2011-12,761,Atlanta Public Schools,4058,Douglass High School,173,43,24.86
+2011-12,761,Atlanta Public Schools,4560,Grady High School,331,188,56.8
+2011-12,761,Atlanta Public Schools,4568,Washington High School Senior Academy,176,52,29.55
+2011-12,761,Atlanta Public Schools,ALL,All Schools,1937,627,32.37
+2011-12,763,Bremen City,201,Bremen High School,113,63,55.75
+2011-12,763,Bremen City,ALL,All Schools,113,63,55.75
+2011-12,764,Buford City,191,Buford High School,194,83,42.78
+2011-12,764,Buford City,ALL,All Schools,194,83,42.78
+2011-12,765,Calhoun City,3050,Calhoun High School,207,128,61.84
+2011-12,765,Calhoun City,ALL,All Schools,207,128,61.84
+2011-12,766,Carrollton City,1050,Carrollton High School,273,171,62.64
+2011-12,766,Carrollton City,ALL,All Schools,273,171,62.64
+2011-12,767,Cartersville City,2050,Cartersville High School,234,141,60.26
+2011-12,767,Cartersville City,ALL,All Schools,234,141,60.26
+2011-12,769,Chickamauga City,211,Gordon Lee High School,110,85,77.27
+2011-12,769,Chickamauga City,ALL,All Schools,110,85,77.27
+2011-12,771,Commerce City,112,Commerce High School,82,32,39.02
+2011-12,771,Commerce City,ALL,All Schools,82,32,39.02
+2011-12,772,Dalton Public Schools,110,Morris Innovative High School,18,,
+2011-12,772,Dalton Public Schools,4050,Dalton High School,259,113,43.63
+2011-12,772,Dalton Public Schools,ALL,All Schools,277,113,40.79
+2011-12,773,Decatur City,3050,Decatur High School,152,88,57.89
+2011-12,773,Decatur City,ALL,All Schools,152,88,57.89
+2011-12,774,Dublin City,211,Dublin High School,124,29,23.39
+2011-12,774,Dublin City,412,Moore Street Facility,,,
+2011-12,774,Dublin City,ALL,All Schools,125,29,23.2
+2011-12,776,Gainesville City,210,The Academy at Woods Mill,37,TFS,10.81
+2011-12,776,Gainesville City,3050,Gainesville High School,268,126,47.01
+2011-12,776,Gainesville City,ALL,All Schools,305,130,42.62
+2011-12,779,Jefferson City,174,Jefferson High School,171,89,52.05
+2011-12,779,Jefferson City,ALL,All Schools,171,89,52.05
+2011-12,781,Marietta City,101,Marietta High School,330,105,31.82
+2011-12,781,Marietta City,ALL,All Schools,330,105,31.82
+2011-12,7820108,State Charter Schools- Mountain Education Center School,108,Mountain Education Center School,148,49,33.11
+2011-12,7820108,State Charter Schools- Mountain Education Center School,ALL,All Schools,148,49,33.11
+2011-12,7830103,Commission Charter Schools- CCAT School,103,CCAT School,18,14,77.78
+2011-12,7830103,Commission Charter Schools- CCAT School,ALL,All Schools,18,14,77.78
+2011-12,784,Pelham City,111,Pelham High School,75,26,34.67
+2011-12,784,Pelham City,ALL,All Schools,75,26,34.67
+2011-12,785,Rome City,193,Rome High School,320,145,45.31
+2011-12,785,Rome City,ALL,All Schools,320,145,45.31
+2011-12,786,Social Circle City,300,Social Circle High School,106,48,45.28
+2011-12,786,Social Circle City,ALL,All Schools,106,48,45.28
+2011-12,789,Thomasville City,4052,Thomasville High School,130,54,41.54
+2011-12,789,Thomasville City,ALL,All Schools,130,54,41.54
+2011-12,791,Trion City,301,Trion High School,88,62,70.45
+2011-12,791,Trion City,ALL,All Schools,88,62,70.45
+2011-12,792,Valdosta City,111,Pinevale Learning Center,15,,
+2011-12,792,Valdosta City,273,Valdosta High School,293,104,35.49
+2011-12,792,Valdosta City,ALL,All Schools,308,104,33.77
+2011-12,793,Vidalia City,273,Vidalia Comprehensive High School,117,34,29.06
+2011-12,793,Vidalia City,ALL,All Schools,117,34,29.06
+2011-12,799,State Schools,1894,Georgia Academy for the Blind,,,
+2011-12,799,State Schools,ALL,All Schools,,,
+2011-12,7991893,State Schools- Atlanta Area School for the Deaf,1893,Atlanta Area School for the Deaf,,,
+2011-12,7991893,State Schools- Atlanta Area School for the Deaf,ALL,All Schools,,,
+2011-12,7991895,State Schools- Georgia School for the Deaf,1895,Georgia School for the Deaf,,,
+2011-12,7991895,State Schools- Georgia School for the Deaf,ALL,All Schools,,,
+2011-12,ALL,All Systems,ALL,All Schools,88014,37359,42.45
