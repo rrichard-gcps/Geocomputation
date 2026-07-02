@@ -276,6 +276,10 @@ breaks <- classInt::<span class="tok-fn">classIntervals</span>(
           <label class="field-label" for="ctl-legend">Legend title</label>
           <input type="text" id="ctl-legend">
         </div>
+        <div class="field-group">
+          <button id="add-to-report" class="btn btn-primary" style="width:100%;">+ Add to report</button>
+          <div class="field-hint" id="add-report-hint"></div>
+        </div>
       </div>
 
       <div class="demo-main">
@@ -308,6 +312,45 @@ breaks <- classInt::<span class="tok-fn">classIntervals</span>(
           </div>
           <div class="reference-note" id="reference-note" style="display:none;"></div>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="report" class="section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Report Builder</span>
+      <h2>Assemble maps into a brief</h2>
+      <p>Add maps from the demo above, arrange and annotate them, then choose an output: print to PDF, download images, or export a shareable HTML page. Everything runs in your browser.</p>
+    </div>
+    <div class="report-shell">
+      <div class="report-side">
+        <div class="field-group">
+          <label class="field-label" for="report-title-in">Report title</label>
+          <input type="text" id="report-title-in" placeholder="GCPS Map Builder report">
+        </div>
+        <div class="field-group">
+          <label class="field-label" for="report-intro-in">Intro / notes</label>
+          <textarea id="report-intro-in" rows="3" style="width:100%;font-family:var(--rcds-font-body);font-size:var(--rcds-text-sm);padding:8px 10px;border-radius:var(--rcds-radius-sm);border:1px solid var(--rcds-border-color-strong);resize:vertical;"></textarea>
+        </div>
+        <div class="field-group">
+          <label class="field-label" for="report-layout">Layout</label>
+          <select id="report-layout">
+            <option value="stack">One map per row (large)</option>
+            <option value="grid">Grid (small multiples)</option>
+          </select>
+        </div>
+        <div class="report-actions">
+          <button class="btn btn-primary btn-sm" id="rp-print">Print / PDF</button>
+          <button class="btn btn-ghost btn-sm" id="rp-png">Download PNGs</button>
+          <button class="btn btn-ghost btn-sm" id="rp-html">Export HTML</button>
+        </div>
+        <div class="report-count-line"><span class="mono" id="report-count">0</span> map(s) in report</div>
+        <div class="report-list" id="report-list"></div>
+      </div>
+      <div class="report-preview">
+        <div class="report-doc" id="report-doc"></div>
       </div>
     </div>
   </div>

@@ -63,6 +63,22 @@ layer so you can confirm what will be mappable.
 Datasets with no varying numeric column render as reference layers (boundary
 only, no choropleth, not scored) — exactly as before.
 
+## Report Builder
+
+Build a map in the demo, then **+ Add to report** to snapshot it (geometry,
+classification, palette, title, legend, and Map Quality Score). The **Report
+Builder** section lets you title the report, add an intro, reorder/annotate/remove
+maps, choose a layout (one-per-row or a small-multiples grid), and export three
+ways — all client-side:
+
+- **Print / PDF** — a print stylesheet renders just the report; use the browser's
+  "Save as PDF".
+- **Download PNGs** — each map rasterised from its SVG (2×), one file per map.
+- **Export HTML** — a single self-contained `.html` of the assembled report.
+
+Each exported figure is a standalone SVG (map + title + legend + source line), so
+the PNG and HTML outputs carry no external dependencies.
+
 ## Notes
 
 - `data.js` is embedded (not `fetch`-ed), so real geometry works even when you

@@ -479,7 +479,9 @@ const els = {};
 ["ctl-dataset", "ctl-field", "ctl-classification", "ctl-nclasses", "nclasses-val", "ctl-reverse",
  "ctl-title", "ctl-legend", "dataset-hint", "svg-interactive", "svg-static", "legend-interactive",
  "legend-static", "map-tooltip", "static-title", "static-caption", "reference-note",
- "dist-bars", "dist-breaks", "mqs-num", "mqs-band", "mqs-meters", "zoom-in", "zoom-out"]
+ "dist-bars", "dist-breaks", "mqs-num", "mqs-band", "mqs-meters", "zoom-in", "zoom-out",
+ "add-to-report", "add-report-hint", "report-title-in", "report-intro-in", "report-layout",
+ "report-count", "report-list", "report-doc", "rp-print", "rp-png", "rp-html"]
   .forEach((id) => { els[id] = document.getElementById(id); });
 
 /* ---------------------------------------------------------------------- *
@@ -597,6 +599,16 @@ function renderMQS(computed) {
     els["mqs-meters"].innerHTML = `<div class="field-hint">Reference layers aren't scored — they carry no choropleth field.</div>`;
     return;
   }
+  const s = mqsScores(computed);
+  els["mqs-num"].textContent = s.overall;
+  els["mqs-band"].textContent = s.band;
+  els["mqs-band"].className = "band " + (s.band === "pass" ? "band-pass" : "band-warn");
+  els["mqs-meters"].innerHTML = s.meters.map(([label, val]) =>
+    `<div class="meter-row"><span class="meter-label">${label}</span><span class="meter-track"><span class="meter-fill" style="width:${val}%"></span></span><span class="meter-val mono">${val}</span></div>`
+  ).join("");
+}
+
+function mqsScores(computed) {
   const gvf = goodnessOfVarianceFit(computed.present, computed.breaks);
   const separationScore = Math.round(Math.max(0, Math.min(1, gvf)) * 100);
   let avgDist = 0;
@@ -608,17 +620,11 @@ function renderMQS(computed) {
   legibilityScore = Math.round(Math.max(30, Math.min(100, legibilityScore)));
   const citationScore = (state.mapTitle.trim() ? 50 : 10) + ((state.legendTitle || computed.field.label).trim() ? 50 : 10);
   const overall = Math.round(separationScore * 0.35 + contrastScore * 0.25 + legibilityScore * 0.2 + citationScore * 0.2);
-
-  els["mqs-num"].textContent = overall;
-  els["mqs-band"].textContent = overall >= 80 ? "pass" : "review";
-  els["mqs-band"].className = "band " + (overall >= 80 ? "band-pass" : "band-warn");
-  const meters = [
-    ["Class separation", separationScore], ["Palette contrast", contrastScore],
-    ["Label legibility", legibilityScore], ["Source citation", citationScore],
-  ];
-  els["mqs-meters"].innerHTML = meters.map(([label, val]) =>
-    `<div class="meter-row"><span class="meter-label">${label}</span><span class="meter-track"><span class="meter-fill" style="width:${val}%"></span></span><span class="meter-val mono">${val}</span></div>`
-  ).join("");
+  return {
+    overall, band: overall >= 80 ? "pass" : "review",
+    meters: [["Class separation", separationScore], ["Palette contrast", contrastScore],
+      ["Label legibility", legibilityScore], ["Source citation", citationScore]],
+  };
 }
 
 function sourceLine(computed) {
@@ -646,6 +652,11 @@ function render() {
   }
   els["legend-interactive"].style.display = isRef ? "none" : "block";
   els["legend-static"].style.display = isRef ? "none" : "block";
+
+  els["add-to-report"].disabled = isRef;
+  els["add-report-hint"].textContent = isRef
+    ? "Reference layers can't be added — pick a data layer."
+    : "Adds the current map (as configured) to the report below.";
   applyZoom();
 }
 
@@ -749,6 +760,180 @@ function renderPaletteRow(id, colors) {
 }
 
 /* ---------------------------------------------------------------------- *
+ * Report Builder — snapshot maps, assemble, export (print / PNG / HTML)
+ * ---------------------------------------------------------------------- */
+const report = { title: "GCPS Map Builder report", intro: "", layout: "stack", entries: [] };
+
+function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, (m) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[m])); }
+
+function snapshotCurrent() {
+  const c = computeState();
+  if (!c.hasFields) return null;
+  return {
+    uid: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
+    title: state.mapTitle || `${c.ds.label} — ${c.field.label}`,
+    fieldLabel: c.field.label,
+    legendTitle: state.legendTitle || c.field.label,
+    sourceLine: sourceLine(c),
+    field: c.field,
+    breaks: c.breaks.slice(),
+    colors: c.colors.slice(),
+    cellFills: c.cells.map((cell, i) => ({ d: cell.d, fill: c.classes[i] < 0 ? NODATA_FILL : c.colors[c.classes[i]] })),
+    mqs: mqsScores(c),
+    notes: "",
+  };
+}
+
+const FIG_W = 800, FIG_H = 690;
+function buildFigureSVG(e) {
+  const paths = e.cellFills.map((cf) =>
+    `<path d="${cf.d}" fill="${cf.fill}" stroke="#15233B" stroke-opacity="0.35" stroke-width="0.6" fill-rule="evenodd"/>`).join("");
+  const n = e.colors.length;
+  const lx0 = 24, sw = Math.min(48, 500 / n), ly = 632;
+  let sw_rects = "", labels = "";
+  for (let i = 0; i < n; i++) sw_rects += `<rect x="${(lx0 + i * sw).toFixed(1)}" y="${ly}" width="${sw.toFixed(1)}" height="12" fill="${e.colors[i]}"/>`;
+  for (let i = 0; i < e.breaks.length; i++) {
+    const anchor = i === 0 ? "start" : i === e.breaks.length - 1 ? "end" : "middle";
+    labels += `<text x="${(lx0 + i * sw).toFixed(1)}" y="${ly + 20}" font-size="9" fill="#3F4F66" font-family="monospace" text-anchor="${anchor}">${esc(formatValue(e.field, e.breaks[i]))}</text>`;
+  }
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${FIG_W} ${FIG_H}" width="${FIG_W}" height="${FIG_H}" font-family="'Inter',system-ui,sans-serif">`
+    + `<rect width="${FIG_W}" height="${FIG_H}" fill="#FFFFFF"/>`
+    + `<text x="24" y="32" font-size="20" font-weight="600" fill="#15233B">${esc(e.title)}</text>`
+    + `<text x="24" y="52" font-size="12" fill="#3F4F66">${esc(e.fieldLabel)}</text>`
+    + `<g transform="translate(16,60) scale(0.9)">${paths}</g>`
+    + `<text x="24" y="624" font-size="11" font-weight="600" fill="#15233B">${esc(e.legendTitle)}</text>`
+    + sw_rects + labels
+    + `<text x="${FIG_W - 16}" y="${FIG_H - 14}" font-size="10" fill="#7B8799" text-anchor="end" font-family="monospace">${esc(e.sourceLine)}</text>`
+    + `</svg>`;
+}
+
+function renderReportDoc() {
+  const doc = els["report-doc"];
+  if (!report.entries.length) {
+    doc.innerHTML = `<div class="report-empty">Your report is empty. Build a map above and click “+ Add to report”.</div>`;
+    return;
+  }
+  const date = new Date().toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" });
+  const figs = report.entries.map((e) =>
+    `<figure class="report-fig"><div class="fig-svg">${buildFigureSVG(e)}</div>${e.notes ? `<figcaption>${esc(e.notes)}</figcaption>` : ""}</figure>`).join("");
+  doc.innerHTML =
+    `<div class="report-head"><div class="report-kicker mono">RCDS Map Builder</div>`
+    + `<h1>${esc(report.title || "Untitled report")}</h1><div class="report-date mono">${date}</div>`
+    + `${report.intro ? `<p class="report-intro">${esc(report.intro)}</p>` : ""}</div>`
+    + `<div class="report-figs layout-${report.layout}">${figs}</div>`
+    + `<div class="report-foot mono">Made with the RCDS Map Builder · Richard Cartographic Design System</div>`;
+}
+
+function entryCardHtml(e, i) {
+  return `<div class="report-item" data-uid="${e.uid}">
+    <div class="ri-head"><span class="ri-num mono">${i + 1}</span><span class="ri-title" title="${esc(e.title)}">${esc(e.title)}</span><span class="ri-mqs mono">MQS ${e.mqs.overall}</span></div>
+    <input class="ri-notes" data-uid="${e.uid}" type="text" placeholder="Caption / note…" value="${esc(e.notes)}">
+    <div class="ri-controls">
+      <button data-act="up" data-uid="${e.uid}" title="Move up">↑</button>
+      <button data-act="down" data-uid="${e.uid}" title="Move down">↓</button>
+      <button data-act="png" data-uid="${e.uid}">PNG</button>
+      <button data-act="remove" data-uid="${e.uid}" class="danger">Remove</button>
+    </div></div>`;
+}
+
+function renderReport() {
+  els["report-count"].textContent = report.entries.length;
+  els["report-list"].innerHTML = report.entries.length
+    ? report.entries.map(entryCardHtml).join("")
+    : `<div class="report-empty">No maps yet.</div>`;
+  renderReportDoc();
+}
+
+/* export helpers */
+function downloadBlob(blob, name) {
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = name;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+function svgToPng(svgString, scale, cb) {
+  const blob = new Blob([svgString], { type: "image/svg+xml;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const img = new Image();
+  img.onload = () => {
+    const canvas = document.createElement("canvas");
+    canvas.width = FIG_W * scale; canvas.height = FIG_H * scale;
+    const ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#FFFFFF"; ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+    URL.revokeObjectURL(url);
+    canvas.toBlob((b) => cb(b), "image/png");
+  };
+  img.onerror = () => { URL.revokeObjectURL(url); cb(null); };
+  img.src = url;
+}
+function slug(s) { return (s || "map").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 48) || "map"; }
+function exportEntryPng(e) {
+  svgToPng(buildFigureSVG(e), 2, (b) => { if (b) downloadBlob(b, `${slug(e.title)}.png`); });
+}
+function exportAllPng() {
+  if (!report.entries.length) return;
+  let i = 0;
+  const next = () => {
+    if (i >= report.entries.length) return;
+    const e = report.entries[i++];
+    svgToPng(buildFigureSVG(e), 2, (b) => { if (b) downloadBlob(b, `${String(i).padStart(2, "0")}-${slug(e.title)}.png`); setTimeout(next, 350); });
+  };
+  next();
+}
+const REPORT_EXPORT_CSS =
+  "body{margin:0;background:#eef1f5;font-family:'Inter',system-ui,sans-serif;color:#15233B;padding:24px}"
+  + ".report-doc{background:#fff;max-width:860px;margin:0 auto;padding:40px;border-radius:6px;box-shadow:0 2px 10px rgba(21,35,59,.12)}"
+  + ".report-head{border-bottom:2px solid #3E5C76;padding-bottom:16px;margin-bottom:28px}"
+  + ".report-kicker{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#3E5C76;font-family:monospace}"
+  + ".report-head h1{font-size:32px;margin:8px 0 0}.report-date{font-size:12px;color:#7B8799;margin-top:4px;font-family:monospace}"
+  + ".report-intro{margin-top:12px;font-size:14px;color:#3F4F66;line-height:1.6}"
+  + ".report-figs.layout-stack{display:flex;flex-direction:column;gap:40px}"
+  + ".report-figs.layout-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}"
+  + ".report-fig{margin:0;break-inside:avoid}.report-fig svg{width:100%;height:auto;display:block;border:1px solid #D7DEE7;border-radius:6px}"
+  + ".report-fig figcaption{margin-top:8px;font-size:12px;color:#3F4F66}"
+  + ".report-foot{margin-top:40px;padding-top:12px;border-top:1px solid #D7DEE7;font-size:11px;color:#7B8799;font-family:monospace}"
+  + "@media print{body{background:#fff;padding:0}.report-doc{box-shadow:none;max-width:none;padding:0}.report-fig{page-break-inside:avoid}}";
+function exportHtml() {
+  if (!report.entries.length) return;
+  const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(report.title || "RCDS report")}</title><style>${REPORT_EXPORT_CSS}</style></head><body>${els["report-doc"].outerHTML}</body></html>`;
+  downloadBlob(new Blob([html], { type: "text/html;charset=utf-8" }), `${slug(report.title)}.html`);
+}
+
+function bindReport() {
+  els["report-title-in"].value = report.title;
+  els["report-title-in"].addEventListener("input", () => { report.title = els["report-title-in"].value; renderReportDoc(); });
+  els["report-intro-in"].addEventListener("input", () => { report.intro = els["report-intro-in"].value; renderReportDoc(); });
+  els["report-layout"].addEventListener("change", () => { report.layout = els["report-layout"].value; renderReportDoc(); });
+  els["add-to-report"].addEventListener("click", () => {
+    const snap = snapshotCurrent();
+    if (!snap) return;
+    report.entries.push(snap);
+    renderReport();
+    els["report-title-in"].scrollIntoView({ behavior: "smooth", block: "nearest" });
+  });
+  els["rp-print"].addEventListener("click", () => { renderReportDoc(); window.print(); });
+  els["rp-png"].addEventListener("click", exportAllPng);
+  els["rp-html"].addEventListener("click", exportHtml);
+  els["report-list"].addEventListener("input", (ev) => {
+    const inp = ev.target.closest(".ri-notes"); if (!inp) return;
+    const e = report.entries.find((x) => x.uid === inp.dataset.uid); if (e) { e.notes = inp.value; renderReportDoc(); }
+  });
+  els["report-list"].addEventListener("click", (ev) => {
+    const btn = ev.target.closest("button[data-act]"); if (!btn) return;
+    const uid = btn.dataset.uid, idx = report.entries.findIndex((x) => x.uid === uid);
+    if (idx < 0) return;
+    const act = btn.dataset.act;
+    if (act === "remove") report.entries.splice(idx, 1);
+    else if (act === "up" && idx > 0) { const t = report.entries[idx - 1]; report.entries[idx - 1] = report.entries[idx]; report.entries[idx] = t; }
+    else if (act === "down" && idx < report.entries.length - 1) { const t = report.entries[idx + 1]; report.entries[idx + 1] = report.entries[idx]; report.entries[idx] = t; }
+    else if (act === "png") { exportEntryPng(report.entries[idx]); return; }
+    renderReport();
+  });
+}
+
+/* ---------------------------------------------------------------------- *
  * Boot
  * ---------------------------------------------------------------------- */
 initRealGeo();
@@ -764,6 +949,8 @@ renderGallery();
 renderPaletteRow("pal-seq", RAMPS.sequential);
 renderPaletteRow("pal-div", RAMPS.diverging);
 renderPaletteRow("pal-chrome", ["#3E5C76", "#1E6FB8", "#F1B24A"]);
+bindReport();
+renderReport();
 render();
 
 })();
